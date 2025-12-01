@@ -527,8 +527,10 @@
                         <td class="position">${position}</td>
                         <td>
                             <div class="team-cell">
-                                <img src="${team.crest}" alt="${team.name}" class="team-logo" onerror="this.style.display='none'">
-                                <span class="team-name">${team.name}</span>
+                                <a href="https://www.google.com/search?q=${encodeURIComponent(team.name)}" target="_blank" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit;">
+                                    <img src="${team.crest}" alt="${team.name}" class="team-logo" onerror="this.style.display='none'">
+                                    <span class="team-name">${team.name}</span>
+                                </a>
                             </div>
                         </td>
                         <td class="center">${team.played}</td>
