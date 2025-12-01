@@ -334,7 +334,6 @@
             <label for="matchdayFilter">Matchday:</label>
             <select id="matchdayFilter">
                 <option value="all">All Matchdays</option>
-                <option value="upcoming">Next 10 Matches</option>
             </select>
 
             <label for="teamFilter">Team:</label>
@@ -529,7 +528,7 @@
         function populateMatchdayFilter(matches) {
             const matchdays = [...new Set(matches.map(m => m.matchday))].sort((a, b) => a - b);
             const select = document.getElementById('matchdayFilter');
-            select.innerHTML = '<option value="all">All Matchdays</option>';
+            select.innerHTML = '<option value="all">All Matchdays</option><option value="upcoming">Next 10 Matches</option>';
             
             // Find the most recent matchday with at least one finished match
             let mostRecentFinishedMatchday = null;
