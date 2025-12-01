@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Leagues 2025/26</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container { max-width: 1200px; margin: 0 auto; }
+        
+        header {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        
+        h1 { color: #333; font-size: 2.5em; margin-bottom: 10px; }
+        .subtitle { color: #666; font-size: 1.1em; }
+        
+        .file-input-container {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .file-input-container input[type="file"] {
+            padding: 10px;
+            border: 2px dashed #667eea;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        
+        .league-selector {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            display: none;
+        }
+        
+        .league-selector.show { display: block; }
+        
+        .league-selector label {
+            font-weight: 600;
+            color: #333;
+            font-size: 1.2em;
+            margin-right: 15px;
+        }
+        
+        .league-selector select {
+            padding: 12px 20px;
+            border: 2px solid #667eea;
+            border-radius: 8px;
+            font-size: 1.1em;
+            outline: none;
+            cursor: pointer;
+            min-width: 300px;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .stat-number { font-size: 2em; font-weight: bold; color: #667eea; }
+        .stat-label { color: #666; font-size: 0.9em; margin-top: 5px; }
+        
+        .standings-container {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            display: none;
+            overflow-x: auto;
+        }
+        
+        .standings-container.show { display: block; }
+        .standings-title { font-size: 1.8em; font-weight: bold; color: #333; margin-bottom: 20px; text-align: center; }
+        
+        .standings-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .standings-table thead { background: #667eea; color: white; }
+        .standings-table th { padding: 15px 10px; text-align: left; font-weight: 600; font-size: 0.9em; }
+        .standings-table th.center { text-align: center; }
+        .standings-table td { padding: 12px 10px; border-bottom: 1px solid #f0f0f0; }
+        .standings-table td.center { text-align: center; }
+        .standings-table tbody tr:hover { background: #f8f9ff; }
+        .standings-table .position { font-weight: bold; color: #667eea; text-align: center; width: 50px; }
+        
+        .standings-table .team-cell {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .standings-table .team-logo { width: 30px; height: 30px; object-fit: contain; }
+        .standings-table .team-name { font-weight: 600; color: #333; }
+        .standings-table .top-4 { border-left: 4px solid #4caf50; }
+        .standings-table .top-6 { border-left: 4px solid #2196f3; }
+        .standings-table .relegation { border-left: 4px solid #f44336; }
+        .standings-table .points { font-weight: bold; font-size: 1.1em; color: #667eea; }
+        
+        .filters {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .filters label { font-weight: 600; color: #333; }
+        
+        .filters select, .filters input {
+            padding: 10px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1em;
+            outline: none;
+        }
+        
+        .matches-container { display: grid; gap: 15px; }
+        
+        .match-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .match-card:hover { transform: translateY(-5px); }
+        
+        .match-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .match-info { display: flex; gap: 15px; align-items: center; font-size: 0.9em; color: #666; }
+        
+        .matchday {
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+        
+        .status {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.85em;
+        }
+        
+        .status.finished { background: #4caf50; color: white; }
+        .status.scheduled { background: #ff9800; color: white; }
+        .status.timed { background: #2196f3; color: white; }
+        
+        .match-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .team { flex: 1; display: flex; align-items: center; gap: 15px; }
+        .team.home { justify-content: flex-start; }
+        .team.away { justify-content: flex-end; flex-direction: row-reverse; }
+        .team-logo { width: 50px; height: 50px; object-fit: contain; }
+        .team-name { font-size: 1.2em; font-weight: 600; color: #333; }
+        
+        .score {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 2em;
+            font-weight: bold;
+            min-width: 120px;
+            justify-content: center;
+        }
+        
+        .score-separator { color: #ccc; }
+        .winner { color: #4caf50; }
+        .match-date { text-align: center; color: #999; font-size: 0.9em; margin-top: 10px; }
+        .loading { text-align: center; color: white; font-size: 1.5em; padding: 50px; }
+        .error { background: #f44336; color: white; padding: 20px; border-radius: 12px; text-align: center; }
+        
+        .youtube-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #ff0000;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background 0.3s;
+            text-align: center;
+        }
+        
+        .youtube-btn:hover {
+            background: #cc0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⚽ Football Leagues 2025/26</h1>
+            <p class="subtitle">All Major Leagues</p>
+        </header>
+
+        <div class="file-input-container">
+            <input type="file" id="fileInput" accept=".json">
+            <p>Select your all_leagues.json file to load all leagues</p>
+        </div>
+
+        <div class="league-selector" id="leagueSelector">
+            <label for="leagueSelect">🏆 Select League:</label>
+            <select id="leagueSelect">
+                <option value="">Choose a league...</option>
+            </select>
+        </div>
+
+        <div class="stats" id="stats"></div>
+
+        <div class="standings-container" id="standingsContainer">
+            <h2 class="standings-title">🏆 League Standings</h2>
+            <table class="standings-table">
+                <thead>
+                    <tr>
+                        <th class="center">#</th>
+                        <th>Team</th>
+                        <th class="center">P</th>
+                        <th class="center">W</th>
+                        <th class="center">D</th>
+                        <th class="center">L</th>
+                        <th class="center">GF</th>
+                        <th class="center">GA</th>
+                        <th class="center">GD</th>
+                        <th class="center">Pts</th>
+                    </tr>
+                </thead>
+                <tbody id="standingsBody"></tbody>
+            </table>
+        </div>
+
+        <div class="filters" id="filtersContainer" style="display: none;">
+            <label for="statusFilter">Status:</label>
+            <select id="statusFilter">
+                <option value="all">All Matches</option>
+                <option value="FINISHED">Finished</option>
+                <option value="SCHEDULED">Scheduled</option>
+                <option value="TIMED">Timed</option>
+            </select>
+
+            <label for="matchdayFilter">Matchday:</label>
+            <select id="matchdayFilter">
+                <option value="all">All Matchdays</option>
+            </select>
+
+            <label for="teamFilter">Team:</label>
+            <input type="text" id="teamFilter" placeholder="Search team...">
+        </div>
+
+        <div class="matches-container" id="matchesContainer">
+            <div class="loading">Please select a JSON file to load matches</div>
+        </div>
+    </div>
+
+    <script>
+        let allLeaguesData = {};
+        let currentLeague = null;
+        let currentMatches = [];
+
+        // Automatically load data on page load
+        window.addEventListener('DOMContentLoaded', function() {
+            // Try to load the JSON file automatically
+            fetch('output/all_leagues.json')
+                .then(response => {
+                    if (response.ok) {
+                        return response.json();
+                    } else {
+                        throw new Error('File not found');
+                    }
+                })
+                .then(data => {
+                    allLeaguesData = data;
+                    populateLeagueSelector();
+                    document.getElementById('leagueSelector').classList.add('show');
+                    // Hide file input since we loaded automatically
+                    document.querySelector('.file-input-container').style.display = 'none';
+                })
+                .catch(error => {
+                    // If auto-load fails, show file input for manual upload
+                    console.log('Auto-load failed, showing file input');
+                });
+        });
+
+        // Handle file input (fallback for local testing)
+        document.getElementById('fileInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    allLeaguesData = JSON.parse(e.target.result);
+                    populateLeagueSelector();
+                    document.getElementById('leagueSelector').classList.add('show');
+                } catch (error) {
+                    console.error('Error parsing JSON:', error);
+                    document.getElementById('matchesContainer').innerHTML = 
+                        '<div class="error">Invalid JSON file. Please select the correct all_leagues.json file.</div>';
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        // Populate league selector
+        function populateLeagueSelector() {
+            const select = document.getElementById('leagueSelect');
+            select.innerHTML = '<option value="">Choose a league...</option>';
+            
+            Object.keys(allLeaguesData).forEach(code => {
+                const league = allLeaguesData[code];
+                const option = document.createElement('option');
+                option.value = code;
+                option.textContent = `${league.name} (${league.country})`;
+                select.appendChild(option);
+            });
+        }
+
+        // Handle league selection
+        document.getElementById('leagueSelect').addEventListener('change', function(e) {
+            const leagueCode = e.target.value;
+            if (!leagueCode) return;
+
+            currentLeague = allLeaguesData[leagueCode];
+            currentMatches = currentLeague.matches;
+            
+            // Reset filters
+            document.getElementById('statusFilter').value = 'all';
+            document.getElementById('teamFilter').value = '';
+            
+            document.getElementById('filtersContainer').style.display = 'flex';
+            displayStats(currentMatches);
+            calculateAndDisplayStandings(currentMatches);
+            populateMatchdayFilter(currentMatches);
+            // Don't call displayMatches here - it will be called by populateMatchdayFilter
+        });
+
+        function displayStats(matches) {
+            const finished = matches.filter(m => m.status === 'FINISHED').length;
+            const scheduled = matches.filter(m => m.status === 'SCHEDULED' || m.status === 'TIMED').length;
+            const totalGoals = matches
+                .filter(m => m.status === 'FINISHED')
+                .reduce((sum, m) => sum + (m.score?.fullTime?.home || 0) + (m.score?.fullTime?.away || 0), 0);
+
+            document.getElementById('stats').innerHTML = `
+                <div class="stat-card">
+                    <div class="stat-number">${matches.length}</div>
+                    <div class="stat-label">Total Matches</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${finished}</div>
+                    <div class="stat-label">Finished</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${scheduled}</div>
+                    <div class="stat-label">Upcoming</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${totalGoals}</div>
+                    <div class="stat-label">Total Goals</div>
+                </div>
+            `;
+        }
+
+        function calculateAndDisplayStandings(matches) {
+            const standings = {};
+            
+            matches.filter(m => m.status === 'FINISHED').forEach(match => {
+                const homeTeam = match.homeTeam.name;
+                const awayTeam = match.awayTeam.name;
+                const homeGoals = match.score?.fullTime?.home || 0;
+                const awayGoals = match.score?.fullTime?.away || 0;
+
+                if (!standings[homeTeam]) {
+                    standings[homeTeam] = {
+                        name: homeTeam,
+                        crest: match.homeTeam.crest,
+                        played: 0, won: 0, drawn: 0, lost: 0,
+                        goalsFor: 0, goalsAgainst: 0, goalDifference: 0, points: 0
+                    };
+                }
+                if (!standings[awayTeam]) {
+                    standings[awayTeam] = {
+                        name: awayTeam,
+                        crest: match.awayTeam.crest,
+                        played: 0, won: 0, drawn: 0, lost: 0,
+                        goalsFor: 0, goalsAgainst: 0, goalDifference: 0, points: 0
+                    };
+                }
+
+                standings[homeTeam].played++;
+                standings[awayTeam].played++;
+                standings[homeTeam].goalsFor += homeGoals;
+                standings[homeTeam].goalsAgainst += awayGoals;
+                standings[awayTeam].goalsFor += awayGoals;
+                standings[awayTeam].goalsAgainst += homeGoals;
+
+                if (homeGoals > awayGoals) {
+                    standings[homeTeam].won++;
+                    standings[homeTeam].points += 3;
+                    standings[awayTeam].lost++;
+                } else if (homeGoals < awayGoals) {
+                    standings[awayTeam].won++;
+                    standings[awayTeam].points += 3;
+                    standings[homeTeam].lost++;
+                } else {
+                    standings[homeTeam].drawn++;
+                    standings[awayTeam].drawn++;
+                    standings[homeTeam].points += 1;
+                    standings[awayTeam].points += 1;
+                }
+
+                standings[homeTeam].goalDifference = standings[homeTeam].goalsFor - standings[homeTeam].goalsAgainst;
+                standings[awayTeam].goalDifference = standings[awayTeam].goalsFor - standings[awayTeam].goalsAgainst;
+            });
+
+            const standingsArray = Object.values(standings).sort((a, b) => {
+                if (b.points !== a.points) return b.points - a.points;
+                if (b.goalDifference !== a.goalDifference) return b.goalDifference - a.goalDifference;
+                return b.goalsFor - a.goalsFor;
+            });
+
+            displayStandings(standingsArray);
+        }
+
+        function displayStandings(standings) {
+            const tbody = document.getElementById('standingsBody');
+            
+            tbody.innerHTML = standings.map((team, index) => {
+                const position = index + 1;
+                let positionClass = '';
+                
+                if (position <= 4) positionClass = 'top-4';
+                else if (position <= 6) positionClass = 'top-6';
+                else if (position >= 18) positionClass = 'relegation';
+
+                return `
+                    <tr class="${positionClass}">
+                        <td class="position">${position}</td>
+                        <td>
+                            <div class="team-cell">
+                                <img src="${team.crest}" alt="${team.name}" class="team-logo" onerror="this.style.display='none'">
+                                <span class="team-name">${team.name}</span>
+                            </div>
+                        </td>
+                        <td class="center">${team.played}</td>
+                        <td class="center">${team.won}</td>
+                        <td class="center">${team.drawn}</td>
+                        <td class="center">${team.lost}</td>
+                        <td class="center">${team.goalsFor}</td>
+                        <td class="center">${team.goalsAgainst}</td>
+                        <td class="center">${team.goalDifference > 0 ? '+' : ''}${team.goalDifference}</td>
+                        <td class="center points">${team.points}</td>
+                    </tr>
+                `;
+            }).join('');
+
+            document.getElementById('standingsContainer').classList.add('show');
+        }
+
+        function populateMatchdayFilter(matches) {
+            const matchdays = [...new Set(matches.map(m => m.matchday))].sort((a, b) => a - b);
+            const select = document.getElementById('matchdayFilter');
+            select.innerHTML = '<option value="all">All Matchdays</option>';
+            
+            // Find the most recent matchday with at least one finished match
+            let mostRecentFinishedMatchday = null;
+            for (let i = matchdays.length - 1; i >= 0; i--) {
+                const matchday = matchdays[i];
+                const hasFinishedMatch = matches.some(m => m.matchday === matchday && m.status === 'FINISHED');
+                if (hasFinishedMatch) {
+                    mostRecentFinishedMatchday = matchday;
+                    break;
+                }
+            }
+            
+            matchdays.forEach(matchday => {
+                const option = document.createElement('option');
+                option.value = matchday;
+                option.textContent = `Matchday ${matchday}`;
+                select.appendChild(option);
+            });
+            
+            // Auto-select the most recent matchday with finished matches
+            if (mostRecentFinishedMatchday !== null) {
+                select.value = mostRecentFinishedMatchday;
+                // Trigger the filter to show only that matchday
+                filterMatches();
+            }
+        }
+
+        function displayMatches(matches) {
+            const container = document.getElementById('matchesContainer');
+            
+            if (matches.length === 0) {
+                container.innerHTML = '<div class="loading">No matches found</div>';
+                return;
+            }
+
+            container.innerHTML = matches.map(match => {
+                const homeScore = match.score?.fullTime?.home ?? '-';
+                const awayScore = match.score?.fullTime?.away ?? '-';
+                const date = new Date(match.utcDate).toLocaleString('en-US', {
+                    weekday: 'short',
+                    year: 'numeric',
+                    month: 'short',
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+
+                const homeWinner = match.score?.winner === 'HOME_TEAM' ? 'winner' : '';
+                const awayWinner = match.score?.winner === 'AWAY_TEAM' ? 'winner' : '';
+                const statusClass = match.status.toLowerCase();
+
+                // Create YouTube search link for finished matches
+                const youtubeSearchQuery = `${match.homeTeam.name} vs ${match.awayTeam.name} highlights`;
+                const youtubeLink = match.status === 'FINISHED' 
+                    ? `<a href="https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeSearchQuery)}" target="_blank" class="youtube-btn">📺 Watch Highlights</a>`
+                    : '';
+
+                return `
+                    <div class="match-card">
+                        <div class="match-header">
+                            <div class="match-info">
+                                <span class="matchday">Matchday ${match.matchday}</span>
+                                <span class="status ${statusClass}">${match.status}</span>
+                            </div>
+                            <div class="match-date">${date}</div>
+                        </div>
+                        <div class="match-content">
+                            <div class="team home">
+                                <img src="${match.homeTeam.crest}" alt="${match.homeTeam.name}" class="team-logo" onerror="this.style.display='none'">
+                                <span class="team-name ${homeWinner}">${match.homeTeam.name}</span>
+                            </div>
+                            <div class="score">
+                                <span class="${homeWinner}">${homeScore}</span>
+                                <span class="score-separator">-</span>
+                                <span class="${awayWinner}">${awayScore}</span>
+                            </div>
+                            <div class="team away">
+                                <img src="${match.awayTeam.crest}" alt="${match.awayTeam.name}" class="team-logo" onerror="this.style.display='none'">
+                                <span class="team-name ${awayWinner}">${match.awayTeam.name}</span>
+                            </div>
+                        </div>
+                        ${youtubeLink}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        document.getElementById('statusFilter').addEventListener('change', filterMatches);
+        document.getElementById('matchdayFilter').addEventListener('change', filterMatches);
+        document.getElementById('teamFilter').addEventListener('input', filterMatches);
+
+        function filterMatches() {
+            const statusFilter = document.getElementById('statusFilter').value;
+            const matchdayFilter = document.getElementById('matchdayFilter').value;
+            const teamFilter = document.getElementById('teamFilter').value.toLowerCase();
+
+            let filtered = currentMatches;
+
+            if (statusFilter !== 'all') {
+                filtered = filtered.filter(m => m.status === statusFilter);
+            }
+
+            if (matchdayFilter !== 'all') {
+                filtered = filtered.filter(m => m.matchday === parseInt(matchdayFilter));
+            }
+
+            if (teamFilter) {
+                filtered = filtered.filter(m => 
+                    m.homeTeam.name.toLowerCase().includes(teamFilter) ||
+                    m.awayTeam.name.toLowerCase().includes(teamFilter)
+                );
+            }
+
+            displayMatches(filtered);
+        }
+    </script>
+</body>
+</html>

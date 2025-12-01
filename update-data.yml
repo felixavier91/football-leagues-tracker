@@ -1,0 +1,55 @@
+name: Update Football Data
+
+on:
+  schedule:
+    # Run every day at 3 AM UTC
+    - cron: '0 3 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Create output directory
+        run: mkdir -p output
+      
+      - name: Fetch football data
+        env:
+          API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+        run: |
+          # Update the API key in the script temporarily
+          sed -i "s/const API_KEY = .*/const API_KEY = '$API_KEY';/" fetch_all_leagues.js
+          node fetch_all_leagues.js
+      
+      - name: Check if data changed
+        id: check_changes
+        run: |
+          git diff --quiet output/ || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add output/
+          git commit -m "🤖 Update football data - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Report status
+        run: |
+          if [ "${{ steps.check_changes.outputs.changed }}" == "true" ]; then
+            echo "✅ Data updated successfully!"
+          else
+            echo "ℹ️ No changes detected - data is up to date"
+          fi
