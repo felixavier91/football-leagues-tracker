@@ -60,24 +60,6 @@
             min-width: 300px;
         }
         
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-        
-        .stat-card {
-            background: white;
-            border-radius: 12px;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-        
-        .stat-number { font-size: 2em; font-weight: bold; color: #667eea; }
-        .stat-label { color: #666; font-size: 0.9em; margin-top: 5px; }
-        
         .standings-container {
             background: white;
             border-radius: 15px;
@@ -240,10 +222,6 @@
                 min-width: 100%;
             }
             
-            .stats {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            
             .filters {
                 flex-direction: column;
             }
@@ -298,8 +276,6 @@
                 <option value="">Choose a league...</option>
             </select>
         </div>
-
-        <div class="stats" id="stats"></div>
 
         <div class="standings-container" id="standingsContainer">
             <h2 class="standings-title">🏆 League Standings</h2>
@@ -397,7 +373,6 @@
             document.getElementById('teamFilter').value = '';
             
             document.getElementById('filtersContainer').style.display = 'flex';
-            displayStats(currentMatches);
             calculateAndDisplayStandings(currentMatches);
             populateMatchdayFilter(currentMatches);
         });
