@@ -33,7 +33,10 @@ jobs:
       - name: Check if data changed
         id: check_changes
         run: |
-          git diff --quiet output/ || echo "changed=true" >> $GITHUB_OUTPUT
+          git add output/
+          if ! git diff --staged --quiet; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
       
       - name: Commit and push if changed
         if: steps.check_changes.outputs.changed == 'true'
