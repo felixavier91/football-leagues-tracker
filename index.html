@@ -67,12 +67,45 @@
             margin-bottom: 20px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             display: none;
-            max-height: 600px;
-            overflow-y: auto;
         }
         
         .standings-container.show { display: block; }
-        .standings-title { font-size: 1.8em; font-weight: bold; color: #333; margin-bottom: 20px; text-align: center; }
+        .standings-title { 
+            font-size: 1.8em; 
+            font-weight: bold; 
+            color: #333; 
+            margin-bottom: 20px; 
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .standings-toggle {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.5em;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .standings-toggle:hover {
+            background: #5568d3;
+        }
+        
+        .standings-content {
+            display: block;
+        }
+        
+        .standings-content.collapsed {
+            display: none;
+        }
         
         .standings-table {
             width: 100%;
@@ -238,10 +271,6 @@
                 font-size: 0.75em;
             }
             
-            .standings-container {
-                max-height: 400px;
-            }
-            
             .standings-table th,
             .standings-table td {
                 padding: 8px 5px;
@@ -286,24 +315,29 @@
         </div>
 
         <div class="standings-container" id="standingsContainer">
-            <h2 class="standings-title">🏆 League Standings</h2>
-            <table class="standings-table">
-                <thead>
-                    <tr>
-                        <th class="center">#</th>
-                        <th>Team</th>
-                        <th class="center">P</th>
-                        <th class="center">W</th>
-                        <th class="center">D</th>
-                        <th class="center">L</th>
-                        <th class="center">GF</th>
-                        <th class="center">GA</th>
-                        <th class="center">GD</th>
-                        <th class="center">Pts</th>
-                    </tr>
-                </thead>
-                <tbody id="standingsBody"></tbody>
-            </table>
+            <h2 class="standings-title" onclick="toggleStandings()">
+                🏆 League Standings
+                <button class="standings-toggle" id="standingsToggleBtn">Hide</button>
+            </h2>
+            <div class="standings-content" id="standingsContent">
+                <table class="standings-table">
+                    <thead>
+                        <tr>
+                            <th class="center">#</th>
+                            <th>Team</th>
+                            <th class="center">P</th>
+                            <th class="center">W</th>
+                            <th class="center">D</th>
+                            <th class="center">L</th>
+                            <th class="center">GF</th>
+                            <th class="center">GA</th>
+                            <th class="center">GD</th>
+                            <th class="center">Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody id="standingsBody"></tbody>
+                </table>
+            </div>
         </div>
 
         <div class="filters" id="filtersContainer" style="display: none;">
@@ -604,6 +638,19 @@
         document.getElementById('statusFilter').addEventListener('change', filterMatches);
         document.getElementById('matchdayFilter').addEventListener('change', filterMatches);
         document.getElementById('teamFilter').addEventListener('input', filterMatches);
+
+        function toggleStandings() {
+            const content = document.getElementById('standingsContent');
+            const btn = document.getElementById('standingsToggleBtn');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                btn.textContent = 'Hide';
+            } else {
+                content.classList.add('collapsed');
+                btn.textContent = 'Show';
+            }
+        }
 
         function filterMatches() {
             const statusFilter = document.getElementById('statusFilter').value;
