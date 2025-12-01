@@ -67,7 +67,8 @@
             margin-bottom: 20px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             display: none;
-            overflow-x: auto;
+            max-height: 600px;
+            overflow-y: auto;
         }
         
         .standings-container.show { display: block; }
@@ -78,7 +79,13 @@
             border-collapse: collapse;
         }
         
-        .standings-table thead { background: #667eea; color: white; }
+        .standings-table thead { 
+            background: #667eea; 
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
         .standings-table th { padding: 15px 10px; text-align: left; font-weight: 600; font-size: 0.9em; }
         .standings-table th.center { text-align: center; }
         .standings-table td { padding: 12px 10px; border-bottom: 1px solid #f0f0f0; }
@@ -232,6 +239,10 @@
             
             .standings-table {
                 font-size: 0.75em;
+            }
+            
+            .standings-container {
+                max-height: 400px;
             }
             
             .standings-table th,
