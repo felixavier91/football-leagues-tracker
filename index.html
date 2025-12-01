@@ -393,7 +393,11 @@
             const select = document.getElementById('leagueSelect');
             select.innerHTML = '<option value="">Choose a league...</option>';
             
-            Object.keys(allLeaguesData).forEach(code => {
+            Object.keys(allLeaguesData).sort((a, b) => {
+                const nameA = allLeaguesData[a].name.toUpperCase();
+                const nameB = allLeaguesData[b].name.toUpperCase();
+                return nameA.localeCompare(nameB);
+            }).forEach(code => {
                 const league = allLeaguesData[code];
                 const option = document.createElement('option');
                 option.value = code;
