@@ -316,7 +316,7 @@
 
         <div class="standings-container" id="standingsContainer">
             <h2 class="standings-title" onclick="toggleStandings()">
-                League Standings
+                🏆 League Standings
                 <button class="standings-toggle" id="standingsToggleBtn">Hide</button>
             </h2>
             <div class="standings-content" id="standingsContent">
@@ -509,14 +509,6 @@
 
         function displayStandings(standings) {
             const tbody = document.getElementById('standingsBody');
-            const title = document.querySelector('.standings-title');
-            
-            title.innerHTML = `
-                League Standings
-                <button class="standings-toggle" id="standingsToggleBtn" onclick="event.stopPropagation(); toggleStandings();">Hide</button>
-            `;
-            
-            tbody.innerHTML = standings.map((team, index) => {
             
             tbody.innerHTML = standings.map((team, index) => {
                 const position = index + 1;
