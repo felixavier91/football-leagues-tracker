@@ -528,7 +528,7 @@
         function populateMatchdayFilter(matches) {
             const matchdays = [...new Set(matches.map(m => m.matchday))].sort((a, b) => a - b);
             const select = document.getElementById('matchdayFilter');
-            select.innerHTML = '<option value="all">All Matchdays</option>';
+            select.innerHTML = '<option value="all">All Matchdays</option><option value="upcoming">Next 10 Matches</option>';
             
             // Find the most recent matchday with at least one finished match
             let mostRecentFinishedMatchday = null;
@@ -551,7 +551,11 @@
             // Auto-select the most recent matchday with finished matches
             if (mostRecentFinishedMatchday !== null) {
                 select.value = mostRecentFinishedMatchday;
+                // Trigger the filter to show only that matchday
                 filterMatches();
+            } else {
+                // If no finished matches, show all matches
+                displayMatches(matches);
             }
         }
 
@@ -625,12 +629,20 @@
 
             let filtered = currentMatches;
 
-            if (statusFilter !== 'all') {
-                filtered = filtered.filter(m => m.status === statusFilter);
+            // Handle "upcoming" filter - show next matches chronologically
+            if (matchdayFilter === 'upcoming') {
+                const now = new Date();
+                filtered = filtered
+                    .filter(m => m.status === 'SCHEDULED' || m.status === 'TIMED')
+                    .filter(m => new Date(m.utcDate) >= now)
+                    .sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate))
+                    .slice(0, 10);
+            } else if (matchdayFilter !== 'all') {
+                filtered = filtered.filter(m => m.matchday === parseInt(matchdayFilter));
             }
 
-            if (matchdayFilter !== 'all') {
-                filtered = filtered.filter(m => m.matchday === parseInt(matchdayFilter));
+            if (statusFilter !== 'all') {
+                filtered = filtered.filter(m => m.status === statusFilter);
             }
 
             if (teamFilter) {
