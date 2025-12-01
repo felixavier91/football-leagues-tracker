@@ -10,8 +10,11 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background-attachment: fixed;
             padding: 20px;
             min-height: 100vh;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
         }
         
         .container { max-width: 1200px; margin: 0 auto; }
@@ -27,22 +30,6 @@
         
         h1 { color: #333; font-size: 2.5em; margin-bottom: 10px; }
         .subtitle { color: #666; font-size: 1.1em; }
-        
-        .file-input-container {
-            background: white;
-            border-radius: 15px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        
-        .file-input-container input[type="file"] {
-            padding: 10px;
-            border: 2px dashed #667eea;
-            border-radius: 8px;
-            cursor: pointer;
-        }
         
         .league-selector {
             background: white;
@@ -238,6 +225,64 @@
         .youtube-btn:hover {
             background: #cc0000;
         }
+        
+        /* Mobile optimizations */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .league-selector select {
+                min-width: 100%;
+            }
+            
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .filters {
+                flex-direction: column;
+            }
+            
+            .filters select, .filters input {
+                width: 100%;
+            }
+            
+            .standings-table {
+                font-size: 0.75em;
+            }
+            
+            .standings-table th,
+            .standings-table td {
+                padding: 8px 5px;
+            }
+            
+            .match-content {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .team {
+                width: 100%;
+                justify-content: center !important;
+            }
+            
+            .team.away {
+                flex-direction: row !important;
+            }
+            
+            .score {
+                font-size: 1.5em;
+            }
+            
+            .team-name {
+                font-size: 1em;
+            }
+        }
     </style>
 </head>
 <body>
@@ -295,9 +340,7 @@
             <input type="text" id="teamFilter" placeholder="Search team...">
         </div>
 
-        <div class="matches-container" id="matchesContainer">
-            
-        </div>
+        <div class="matches-container" id="matchesContainer"></div>
     </div>
 
     <script>
@@ -307,7 +350,6 @@
 
         // Automatically load data on page load
         window.addEventListener('DOMContentLoaded', function() {
-            // Try to load the JSON file automatically
             fetch('output/all_leagues.json')
                 .then(response => {
                     if (response.ok) {
@@ -320,33 +362,12 @@
                     allLeaguesData = data;
                     populateLeagueSelector();
                     document.getElementById('leagueSelector').classList.add('show');
-                    // Hide file input since we loaded automatically
-                    document.querySelector('.file-input-container').style.display = 'none';
                 })
                 .catch(error => {
-                    // If auto-load fails, show file input for manual upload
-                    console.log('Auto-load failed, showing file input');
-                });
-        });
-
-        // Handle file input (fallback for local testing)
-        document.getElementById('fileInput').addEventListener('change', function(event) {
-            const file = event.target.files[0];
-            if (!file) return;
-
-            const reader = new FileReader();
-            reader.onload = function(e) {
-                try {
-                    allLeaguesData = JSON.parse(e.target.result);
-                    populateLeagueSelector();
-                    document.getElementById('leagueSelector').classList.add('show');
-                } catch (error) {
-                    console.error('Error parsing JSON:', error);
+                    console.log('Auto-load failed:', error);
                     document.getElementById('matchesContainer').innerHTML = 
-                        '<div class="error">Invalid JSON file. Please select the correct all_leagues.json file.</div>';
-                }
-            };
-            reader.readAsText(file);
+                        '<div class="error">Failed to load league data. Please try again later.</div>';
+                });
         });
 
         // Populate league selector
@@ -379,7 +400,6 @@
             displayStats(currentMatches);
             calculateAndDisplayStandings(currentMatches);
             populateMatchdayFilter(currentMatches);
-            // Don't call displayMatches here - it will be called by populateMatchdayFilter
         });
 
         function displayStats(matches) {
@@ -531,7 +551,6 @@
             // Auto-select the most recent matchday with finished matches
             if (mostRecentFinishedMatchday !== null) {
                 select.value = mostRecentFinishedMatchday;
-                // Trigger the filter to show only that matchday
                 filterMatches();
             }
         }
@@ -560,7 +579,6 @@
                 const awayWinner = match.score?.winner === 'AWAY_TEAM' ? 'winner' : '';
                 const statusClass = match.status.toLowerCase();
 
-                // Create YouTube search link for finished matches
                 const youtubeSearchQuery = `${match.homeTeam.name} vs ${match.awayTeam.name} highlights`;
                 const youtubeLink = match.status === 'FINISHED' 
                     ? `<a href="https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeSearchQuery)}" target="_blank" class="youtube-btn">📺 Watch Highlights</a>`
