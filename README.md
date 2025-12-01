@@ -117,3 +117,4 @@ const SEASON = '2025';  # Change to desired season
 ```
 
 Enjoy your automatically updating football tracker! ⚽
+
