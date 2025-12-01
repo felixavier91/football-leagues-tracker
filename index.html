@@ -622,8 +622,10 @@
                         </div>
                         <div class="match-content">
                             <div class="team home">
-                                <img src="${match.homeTeam.crest}" alt="${match.homeTeam.name}" class="team-logo" onerror="this.style.display='none'">
-                                <span class="team-name ${homeWinner}">${match.homeTeam.name}</span>
+                                <a href="https://www.google.com/search?q=${encodeURIComponent(match.homeTeam.name)}" target="_blank" style="display: flex; align-items: center; gap: 15px; text-decoration: none; color: inherit;">
+                                    <img src="${match.homeTeam.crest}" alt="${match.homeTeam.name}" class="team-logo" onerror="this.style.display='none'">
+                                    <span class="team-name ${homeWinner}">${match.homeTeam.name}</span>
+                                </a>
                             </div>
                             <div class="score">
                                 <span class="${homeWinner}">${homeScore}</span>
@@ -631,8 +633,10 @@
                                 <span class="${awayWinner}">${awayScore}</span>
                             </div>
                             <div class="team away">
-                                <img src="${match.awayTeam.crest}" alt="${match.awayTeam.name}" class="team-logo" onerror="this.style.display='none'">
-                                <span class="team-name ${awayWinner}">${match.awayTeam.name}</span>
+                                <a href="https://www.google.com/search?q=${encodeURIComponent(match.awayTeam.name)}" target="_blank" style="display: flex; align-items: center; gap: 15px; flex-direction: row-reverse; text-decoration: none; color: inherit;">
+                                    <img src="${match.awayTeam.crest}" alt="${match.awayTeam.name}" class="team-logo" onerror="this.style.display='none'">
+                                    <span class="team-name ${awayWinner}">${match.awayTeam.name}</span>
+                                </a>
                             </div>
                         </div>
                         ${youtubeLink}
