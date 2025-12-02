@@ -322,7 +322,7 @@
 
         <div class="standings-container" id="standingsContainer">
             <h2 class="standings-title" onclick="toggleStandings()">
-                 🏅 League Standings
+                League Standings
                 <button class="standings-toggle" id="standingsToggleBtn">Hide</button>
             </h2>
             <div class="standings-content" id="standingsContent">
@@ -429,33 +429,6 @@
             populateMatchdayFilter(currentMatches);
         });
 
-        function displayStats(matches) {
-            const finished = matches.filter(m => m.status === 'FINISHED').length;
-            const scheduled = matches.filter(m => m.status === 'SCHEDULED' || m.status === 'TIMED').length;
-            const totalGoals = matches
-                .filter(m => m.status === 'FINISHED')
-                .reduce((sum, m) => sum + (m.score?.fullTime?.home || 0) + (m.score?.fullTime?.away || 0), 0);
-
-            document.getElementById('stats').innerHTML = `
-                <div class="stat-card">
-                    <div class="stat-number">${matches.length}</div>
-                    <div class="stat-label">Total Matches</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">${finished}</div>
-                    <div class="stat-label">Finished</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">${scheduled}</div>
-                    <div class="stat-label">Upcoming</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">${totalGoals}</div>
-                    <div class="stat-label">Total Goals</div>
-                </div>
-            `;
-        }
-
         function calculateAndDisplayStandings(matches) {
             const standings = {};
             
@@ -557,18 +530,7 @@
         function populateMatchdayFilter(matches) {
             const matchdays = [...new Set(matches.map(m => m.matchday))].sort((a, b) => a - b);
             const select = document.getElementById('matchdayFilter');
-            select.innerHTML = '<option value="all">All Matchdays</option><option value="upcoming">Next 10 Matches</option>';
-            
-            // Find the most recent matchday with at least one finished match
-            let mostRecentFinishedMatchday = null;
-            for (let i = matchdays.length - 1; i >= 0; i--) {
-                const matchday = matchdays[i];
-                const hasFinishedMatch = matches.some(m => m.matchday === matchday && m.status === 'FINISHED');
-                if (hasFinishedMatch) {
-                    mostRecentFinishedMatchday = matchday;
-                    break;
-                }
-            }
+            select.innerHTML = '<option value="all">All Matchdays</option><option value="upcoming">Next 10 Matches</option><option value="recent">Last 10 Matches</option>';
             
             matchdays.forEach(matchday => {
                 const option = document.createElement('option');
@@ -577,16 +539,11 @@
                 select.appendChild(option);
             });
             
-            // Auto-select the most recent matchday with finished matches
-            if (mostRecentFinishedMatchday !== null) {
-                select.value = mostRecentFinishedMatchday;
-                // Trigger the filter to show only that matchday
-                filterMatches();
-            } else {
-                // If no finished matches, show all matches
-                displayMatches(matches);
-            }
+            // Auto-select "Last 10 Matches" by default
+            select.value = 'recent';
+            filterMatches();
 
+            // Hide standings by default
             document.getElementById('standingsContent').classList.add('collapsed');
             document.getElementById('standingsToggleBtn').textContent = 'Show';
         }
@@ -685,6 +642,12 @@
                     .filter(m => m.status === 'SCHEDULED' || m.status === 'TIMED')
                     .filter(m => new Date(m.utcDate) >= now)
                     .sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate))
+                    .slice(0, 10);
+            } else if (matchdayFilter === 'recent') {
+                // Show last 10 finished matches in descending order (most recent first)
+                filtered = filtered
+                    .filter(m => m.status === 'FINISHED')
+                    .sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate))
                     .slice(0, 10);
             } else if (matchdayFilter !== 'all') {
                 filtered = filtered.filter(m => m.matchday === parseInt(matchdayFilter));
