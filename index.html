@@ -586,6 +586,9 @@
                 // If no finished matches, show all matches
                 displayMatches(matches);
             }
+
+            document.getElementById('standingsContent').classList.add('collapsed');
+            document.getElementById('standingsToggleBtn').textContent = 'Show';
         }
 
         function displayMatches(matches) {
