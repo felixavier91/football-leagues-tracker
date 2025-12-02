@@ -681,6 +681,8 @@
                 filtered = filtered.filter(m => m.matchday === parseInt(matchdayFilter));
             }
 
+            filtered = filtered.sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate));
+
             if (statusFilter !== 'all') {
                 filtered = filtered.filter(m => m.status === statusFilter);
             }
