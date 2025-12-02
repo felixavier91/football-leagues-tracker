@@ -666,9 +666,9 @@
             const statusFilter = document.getElementById('statusFilter').value;
             const matchdayFilter = document.getElementById('matchdayFilter').value;
             const teamFilter = document.getElementById('teamFilter').value.toLowerCase();
-
+        
             let filtered = currentMatches;
-
+        
             // Handle "upcoming" filter - show next matches chronologically
             if (matchdayFilter === 'upcoming') {
                 const now = new Date();
@@ -679,21 +679,21 @@
                     .slice(0, 10);
             } else if (matchdayFilter !== 'all') {
                 filtered = filtered.filter(m => m.matchday === parseInt(matchdayFilter));
+                // Sort by date descending (most recent first) - ONLY for matchday selection
+                filtered = filtered.sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate));
             }
-
-            filtered = filtered.sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate));
-
+        
             if (statusFilter !== 'all') {
                 filtered = filtered.filter(m => m.status === statusFilter);
             }
-
+        
             if (teamFilter) {
                 filtered = filtered.filter(m => 
                     m.homeTeam.name.toLowerCase().includes(teamFilter) ||
                     m.awayTeam.name.toLowerCase().includes(teamFilter)
                 );
             }
-
+        
             displayMatches(filtered);
         }
     </script>
