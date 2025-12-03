@@ -544,7 +544,7 @@
         function populateMatchdayFilter(matches) {
             const matchdays = [...new Set(matches.map(m => m.matchday))].sort((a, b) => a - b);
             const select = document.getElementById('matchdayFilter');
-            select.innerHTML = '<option value="recent">Last 10 Matches</option><option value="upcoming">Next 10 Matches</option><option value="all">All Matchdays</option>';
+            select.innerHTML = '<option value="recent">Last 25 Matches</option><option value="upcoming">Next 25 Matches</option><option value="all">All Matchdays</option>';
             
             matchdays.forEach(matchday => {
                 const option = document.createElement('option');
@@ -656,13 +656,13 @@
                     .filter(m => m.status === 'SCHEDULED' || m.status === 'TIMED')
                     .filter(m => new Date(m.utcDate) >= now)
                     .sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate))
-                    .slice(0, 10);
+                    .slice(0, 25);
             } else if (matchdayFilter === 'recent') {
                 // Show last 10 finished matches in descending order (most recent first)
                 filtered = filtered
                     .filter(m => m.status === 'FINISHED')
                     .sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate))
-                    .slice(0, 10);
+                    .slice(0, 25);
             } else if (matchdayFilter !== 'all') {
                 filtered = filtered.filter(m => m.matchday === parseInt(matchdayFilter));
                 // Sort by date descending (most recent first) - ONLY for matchday selection
