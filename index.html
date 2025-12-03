@@ -43,21 +43,35 @@
         
         .league-selector.show { display: block; }
         
-        .league-selector label {
-            font-weight: 600;
-            color: #333;
-            font-size: 1.2em;
-            margin-right: 15px;
+        .league-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
         }
         
-        .league-selector select {
-            padding: 12px 20px;
+        .league-btn {
+            padding: 15px 20px;
+            background: white;
             border: 2px solid #667eea;
-            border-radius: 8px;
+            border-radius: 12px;
             font-size: 1.1em;
-            outline: none;
+            font-weight: 600;
+            color: #667eea;
             cursor: pointer;
-            min-width: 300px;
+            transition: all 0.3s;
+            text-align: center;
+        }
+        
+        .league-btn:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+        
+        .league-btn.active {
+            background: #667eea;
+            color: white;
         }
         
         .standings-container {
@@ -231,7 +245,7 @@
         .score-separator { color: #ccc; }
         .winner { color: #4caf50; }
         .match-date { text-align: center; color: #999; font-size: 0.9em; margin-top: 10px; }
-        .loading { text-align: center; color: white; font-size: 1.5em; padding: 50px; }
+        .loading { text-align: center; color: #666; font-size: 1.5em; padding: 50px; }
         .error { background: #f44336; color: white; padding: 20px; border-radius: 12px; text-align: center; }
         
         .youtube-btn {
@@ -261,8 +275,8 @@
                 font-size: 1.8em;
             }
             
-            .league-selector select {
-                min-width: 100%;
+            .league-buttons {
+                grid-template-columns: 1fr;
             }
             
             .filters {
@@ -314,10 +328,8 @@
         </header>
 
         <div class="league-selector" id="leagueSelector">
-            <label for="leagueSelect">🏆 Select League:</label>
-            <select id="leagueSelect">
-                <option value="">Choose a league...</option>
-            </select>
+            <h2 style="margin-bottom: 20px; color: #333;">🏆 Select League</h2>
+            <div id="leagueButtons" class="league-buttons"></div>
         </div>
 
         <div class="standings-container" id="standingsContainer">
@@ -394,29 +406,33 @@
                 });
         });
 
-        // Populate league selector
+        // Populate league selector with buttons
         function populateLeagueSelector() {
-            const select = document.getElementById('leagueSelect');
-            select.innerHTML = '<option value="">Choose a league...</option>';
+            const container = document.getElementById('leagueButtons');
+            container.innerHTML = '';
             
-            Object.keys(allLeaguesData).sort((a, b) => {
+            const sortedLeagues = Object.keys(allLeaguesData).sort((a, b) => {
                 const nameA = allLeaguesData[a].name.toUpperCase();
                 const nameB = allLeaguesData[b].name.toUpperCase();
                 return nameA.localeCompare(nameB);
-            }).forEach(code => {
+            });
+            
+            sortedLeagues.forEach(code => {
                 const league = allLeaguesData[code];
-                const option = document.createElement('option');
-                option.value = code;
-                option.textContent = `${league.name} (${league.country})`;
-                select.appendChild(option);
+                const button = document.createElement('button');
+                button.className = 'league-btn';
+                button.textContent = `${league.name}`;
+                button.onclick = () => selectLeague(code, button);
+                container.appendChild(button);
             });
         }
 
-        // Handle league selection
-        document.getElementById('leagueSelect').addEventListener('change', function(e) {
-            const leagueCode = e.target.value;
-            if (!leagueCode) return;
-
+        function selectLeague(leagueCode, button) {
+            // Remove active class from all buttons
+            document.querySelectorAll('.league-btn').forEach(btn => btn.classList.remove('active'));
+            // Add active class to clicked button
+            button.classList.add('active');
+            
             currentLeague = allLeaguesData[leagueCode];
             currentMatches = currentLeague.matches;
             
@@ -427,7 +443,7 @@
             document.getElementById('filtersContainer').style.display = 'flex';
             calculateAndDisplayStandings(currentMatches);
             populateMatchdayFilter(currentMatches);
-        });
+        }
 
         function calculateAndDisplayStandings(matches) {
             const standings = {};
