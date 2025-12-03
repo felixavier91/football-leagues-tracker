@@ -530,7 +530,7 @@
         function populateMatchdayFilter(matches) {
             const matchdays = [...new Set(matches.map(m => m.matchday))].sort((a, b) => a - b);
             const select = document.getElementById('matchdayFilter');
-            select.innerHTML = '<option value="all">All Matchdays</option><option value="upcoming">Next 10 Matches</option><option value="recent">Last 10 Matches</option>';
+            select.innerHTML = '<option value="recent">Last 10 Matches</option><option value="upcoming">Next 10 Matches</option><option value="all">All Matchdays</option>';
             
             matchdays.forEach(matchday => {
                 const option = document.createElement('option');
