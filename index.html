@@ -63,25 +63,25 @@
         .league-btn {
             padding: 15px 20px;
             background: white;
-            border: 2px solid #667eea;
+            border: 2px solid #c8102e;
             border-radius: 12px;
             font-size: 1.1em;
             font-weight: 600;
-            color: #667eea;
+            color: #c8102e;
             cursor: pointer;
             transition: all 0.3s;
             text-align: center;
         }
         
         .league-btn:hover {
-            background: #667eea;
+            background: #c8102e;
             color: white;
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            box-shadow: 0 5px 15px rgba(200, 16, 46, 0.3);
         }
         
         .league-btn.active {
-            background: #667eea;
+            background: #c8102e;
             color: white;
         }
         
@@ -110,7 +110,7 @@
         }
         
         .standings-toggle {
-            background: #667eea;
+            background: #c8102e;
             color: white;
             border: none;
             padding: 12px 24px;
@@ -121,7 +121,7 @@
         }
         
         .standings-toggle:hover {
-            background: #5568d3;
+            background: #a00d25;
         }
         
         .standings-content {
@@ -139,7 +139,7 @@
         }
         
         .standings-table thead { 
-            background: #667eea; 
+            background: #c8102e; 
             color: white;
         }
         .standings-table th { padding: 15px 8px; text-align: left; font-weight: 600; font-size: 0.9em; }
@@ -147,7 +147,7 @@
         .standings-table td { padding: 12px 8px; border-bottom: 1px solid #f0f0f0; }
         .standings-table td.center { text-align: center; }
         .standings-table tbody tr:hover { background: #f8f9ff; }
-        .standings-table .position { font-weight: bold; color: #667eea; text-align: center; width: 50px; }
+        .standings-table .position { font-weight: bold; color: #c8102e; text-align: center; width: 50px; }
         
         .standings-table .team-cell {
             display: flex;
@@ -160,7 +160,7 @@
         .standings-table .top-4 { border-left: 4px solid #4caf50; }
         .standings-table .top-6 { border-left: 4px solid #2196f3; }
         .standings-table .relegation { border-left: 4px solid #f44336; }
-        .standings-table .points { font-weight: bold; font-size: 1.1em; color: #667eea; }
+        .standings-table .points { font-weight: bold; font-size: 1.1em; color: #c8102e; }
         
         .filters {
             background: white;
@@ -339,13 +339,13 @@
         </header>
 
         <div class="league-selector" id="leagueSelector">
-            <h2 style="margin-bottom: 20px; color: #333; font-size: 1.8em; font-weight: bold;">🏆 Select League</h2>
+            <h2 style="margin-bottom: 20px; color: #333; font-size: 1.8em; font-weight: bold;">Select League</h2>
             <div id="leagueButtons" class="league-buttons"></div>
         </div>
 
         <div class="standings-container" id="standingsContainer">
             <h2 class="standings-title" onclick="toggleStandings()">
-                🏅 League Standings
+                League Standings
                 <button class="standings-toggle" id="standingsToggleBtn">Hide</button>
             </h2>
             <div class="standings-content" id="standingsContent">
