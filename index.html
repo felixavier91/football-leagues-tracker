@@ -447,13 +447,16 @@
             currentLeague = allLeaguesData[leagueCode];
             currentMatches = currentLeague.matches;
             
-            // Reset filters
+            // Save the current matchday filter selection BEFORE resetting
+            const savedMatchdayFilter = document.getElementById('matchdayFilter').value;
+            
+            // Reset other filters
             document.getElementById('statusFilter').value = 'all';
             document.getElementById('teamFilter').value = '';
             
             document.getElementById('filtersContainer').style.display = 'flex';
             calculateAndDisplayStandings(currentMatches);
-            populateMatchdayFilter(currentMatches);
+            populateMatchdayFilter(currentMatches, savedMatchdayFilter);
         }
 
         function calculateAndDisplayStandings(matches) {
@@ -554,7 +557,7 @@
             document.getElementById('standingsContainer').classList.add('show');
         }
 
-        function populateMatchdayFilter(matches) {
+        function populateMatchdayFilter(matches, savedFilter = 'recent') {
             const matchdays = [...new Set(matches.map(m => m.matchday))].sort((a, b) => a - b);
             const select = document.getElementById('matchdayFilter');
             select.innerHTML = '<option value="recent">Last 25 Matches</option><option value="upcoming">Next 25 Matches</option><option value="all">All Matchdays</option>';
@@ -566,10 +569,10 @@
                 select.appendChild(option);
             });
             
-            // Auto-select "Last 10 Matches" by default
-            select.value = 'recent';
+            // Restore the saved filter, or default to 'recent'
+            select.value = savedFilter;
             filterMatches();
-
+        
             // Hide standings by default
             document.getElementById('standingsContent').classList.add('collapsed');
             document.getElementById('standingsToggleBtn').textContent = 'Show';
