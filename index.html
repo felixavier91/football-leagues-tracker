@@ -447,9 +447,14 @@
             currentLeague = allLeaguesData[leagueCode];
             currentMatches = currentLeague.matches;
             
-            // Save the current matchday filter selection BEFORE resetting
+            // Save the current matchday filter selection BEFORE resetting (if it exists)
             const matchdayFilterElement = document.getElementById('matchdayFilter');
-            const savedMatchdayFilter = matchdayFilterElement && matchdayFilterElement.value ? matchdayFilterElement.value : 'recent';
+            let savedMatchdayFilter = 'recent'; // Default to 'recent'
+            
+            // Only save the current filter if the element exists AND has a valid value
+            if (matchdayFilterElement && matchdayFilterElement.value && matchdayFilterElement.value !== '') {
+                savedMatchdayFilter = matchdayFilterElement.value;
+            }
             
             // Reset other filters
             document.getElementById('statusFilter').value = 'all';
