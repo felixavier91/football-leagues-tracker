@@ -2,14 +2,16 @@ const fs = require('fs');
 
 // Define all leagues
 const leagues = [
-    { code: 'PD', name: 'La Liga', country: 'Spain' },
     { code: 'PL', name: 'Premier League', country: 'England' },
+    { code: 'PD', name: 'La Liga', country: 'Spain' },
     { code: 'BL1', name: 'Bundesliga', country: 'Germany' },
     { code: 'SA', name: 'Serie A', country: 'Italy' },
     { code: 'FL1', name: 'Ligue 1', country: 'France' },
     { code: 'PPL', name: 'Primeira Liga', country: 'Portugal' },
     { code: 'DED', name: 'Eredivisie', country: 'Netherlands' },
     { code: 'CL', name: 'Champions League', country: 'Europe' },
+    { code: 'BSA', name: 'Série A', country: 'Brazil' },
+    { code: 'SA', name: 'Primera División', country: 'Argentina' }
 ];
 
 const API_KEY = '224c667c50404db8adb4c989bc1715e3';
