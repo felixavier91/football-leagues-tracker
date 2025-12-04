@@ -10,8 +10,8 @@ const leagues = [
     { code: 'PPL', name: 'Primeira Liga', country: 'Portugal' },
     { code: 'DED', name: 'Eredivisie', country: 'Netherlands' },
     { code: 'CL', name: 'Champions League', country: 'Europe' },
-    { code: 'BSA', name: 'Série A', country: 'Brazil' },
-    { code: 'PPD', name: 'Primera División', country: 'Argentina' }
+    { code: 'BSA', name: 'Série A (Brazil)', country: 'Brazil' },
+    // { code: 'PPD', name: 'Primera División', country: 'Argentina' }
 ];
 
 const API_KEY = '224c667c50404db8adb4c989bc1715e3';
