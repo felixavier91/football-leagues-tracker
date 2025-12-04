@@ -448,7 +448,8 @@
             currentMatches = currentLeague.matches;
             
             // Save the current matchday filter selection BEFORE resetting
-            const savedMatchdayFilter = document.getElementById('matchdayFilter').value;
+            const matchdayFilterElement = document.getElementById('matchdayFilter');
+            const savedMatchdayFilter = matchdayFilterElement && matchdayFilterElement.value ? matchdayFilterElement.value : 'recent';
             
             // Reset other filters
             document.getElementById('statusFilter').value = 'all';
