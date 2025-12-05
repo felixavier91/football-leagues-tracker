@@ -416,16 +416,38 @@
                 });
         });
 
-        // Populate league selector with buttons
+                // Populate league selector with buttons
         function populateLeagueSelector() {
             const container = document.getElementById('leagueButtons');
             container.innerHTML = '';
             
-            const sortedLeagues = Object.keys(allLeaguesData).sort((a, b) => {
+            // Define custom order for top leagues
+            const customOrder = ['CL', 'PD', 'PL', 'FL1', 'BL1'];
+            
+            // Separate leagues into priority and rest
+            const priorityLeagues = [];
+            const otherLeagues = [];
+            
+            Object.keys(allLeaguesData).forEach(code => {
+                if (customOrder.includes(code)) {
+                    priorityLeagues.push(code);
+                } else {
+                    otherLeagues.push(code);
+                }
+            });
+            
+            // Sort priority leagues by custom order
+            priorityLeagues.sort((a, b) => customOrder.indexOf(a) - customOrder.indexOf(b));
+            
+            // Sort other leagues alphabetically
+            otherLeagues.sort((a, b) => {
                 const nameA = allLeaguesData[a].name.toUpperCase();
                 const nameB = allLeaguesData[b].name.toUpperCase();
                 return nameA.localeCompare(nameB);
             });
+            
+            // Combine: priority first, then others
+            const sortedLeagues = [...priorityLeagues, ...otherLeagues];
             
             sortedLeagues.forEach(code => {
                 const league = allLeaguesData[code];
