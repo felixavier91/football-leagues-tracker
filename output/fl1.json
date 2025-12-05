@@ -8355,11 +8355,11 @@
       },
       "id": 542540,
       "utcDate": "2025-12-05T18:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 15,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-01T01:32:01Z",
+      "lastUpdated": "2025-12-05T18:05:38Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -8375,15 +8375,27 @@
         "crest": "https://crests.football-data.org/548.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
+        },
+        "regularTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -8455,7 +8467,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 15548,
+          "name": "Jérôme Brisard",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
