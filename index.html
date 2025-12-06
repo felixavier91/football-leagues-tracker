@@ -31,53 +31,12 @@
         .container { max-width: 1200px; margin: 0 auto; }
         
         header {
-            background: 
-                linear-gradient(rgba(34, 139, 34, 0.85), rgba(46, 125, 50, 0.9)),
-                url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1200&q=80');
-            background-size: cover;
-            background-position: center;
+            background: white;
             border-radius: 15px;
             padding: 30px;
             margin-bottom: 30px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
             text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: repeating-linear-gradient(
-                90deg,
-                transparent,
-                transparent 50px,
-                rgba(255, 255, 255, 0.03) 50px,
-                rgba(255, 255, 255, 0.03) 100px
-            );
-            pointer-events: none;
-        }
-        
-        h1 { 
-            color: #ffffff; 
-            font-size: 2.5em; 
-            margin-bottom: 10px;
-            position: relative;
-            z-index: 1;
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-            font-weight: 700;
-        }
-        
-        .subtitle { 
-            color: rgba(255, 255, 255, 0.95); 
-            font-size: 1.1em;
-            position: relative;
-            z-index: 1;
-            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
         }
         
         h1 { color: #333; font-size: 2.5em; margin-bottom: 10px; }
