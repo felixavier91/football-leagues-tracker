@@ -8487,11 +8487,11 @@
       },
       "id": 542535,
       "utcDate": "2025-12-06T16:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 15,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-01T01:32:02Z",
+      "lastUpdated": "2025-12-06T16:05:19Z",
       "homeTeam": {
         "id": 543,
         "name": "FC Nantes",
@@ -8507,15 +8507,27 @@
         "crest": "https://crests.football-data.org/546.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
+        },
+        "regularTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -8587,7 +8599,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 25786,
+          "name": "Stéphanie Frappart",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
