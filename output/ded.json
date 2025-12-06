@@ -8577,11 +8577,11 @@
       },
       "id": 537573,
       "utcDate": "2025-12-06T19:00:00Z",
-      "status": "PAUSED",
+      "status": "IN_PLAY",
       "matchday": 15,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-06T19:51:50Z",
+      "lastUpdated": "2025-12-06T20:29:07Z",
       "homeTeam": {
         "id": 671,
         "name": "Heracles Almelo",
@@ -8597,11 +8597,11 @@
         "crest": "https://crests.football-data.org/1912.png"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -8655,11 +8655,11 @@
       },
       "id": 537571,
       "utcDate": "2025-12-06T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 15,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-06T01:32:01Z",
+      "lastUpdated": "2025-12-06T20:25:32Z",
       "homeTeam": {
         "id": 675,
         "name": "Feyenoord Rotterdam",
@@ -8675,15 +8675,27 @@
         "crest": "https://crests.football-data.org/684.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
+        },
+        "regularTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
