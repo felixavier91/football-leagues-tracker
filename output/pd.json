@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 144
+    "played": 145
   },
   "competition": {
     "id": 2014,
@@ -9373,11 +9373,11 @@
       },
       "id": 544351,
       "utcDate": "2025-12-06T15:15:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 15,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-06T16:26:42Z",
+      "lastUpdated": "2025-12-06T18:01:51Z",
       "homeTeam": {
         "id": 263,
         "name": "Deportivo Alavés",
@@ -9451,11 +9451,11 @@
       },
       "id": 544355,
       "utcDate": "2025-12-06T17:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 15,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-11-30T01:32:03Z",
+      "lastUpdated": "2025-12-06T17:52:38Z",
       "homeTeam": {
         "id": 90,
         "name": "Real Betis Balompié",
@@ -9471,15 +9471,27 @@
         "crest": "https://crests.football-data.org/81.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
+        },
+        "regularTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -9551,7 +9563,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 215569,
+          "name": "Alejandro Muñiz Ruiz",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {

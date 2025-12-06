@@ -8491,7 +8491,7 @@
       "matchday": 15,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-06T17:10:18Z",
+      "lastUpdated": "2025-12-06T17:46:50Z",
       "homeTeam": {
         "id": 543,
         "name": "FC Nantes",
@@ -8507,11 +8507,11 @@
         "crest": "https://crests.football-data.org/546.png"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -8565,11 +8565,11 @@
       },
       "id": 542536,
       "utcDate": "2025-12-06T18:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 15,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-06T01:32:01Z",
+      "lastUpdated": "2025-12-06T18:05:03Z",
       "homeTeam": {
         "id": 511,
         "name": "Toulouse FC",
@@ -8585,15 +8585,27 @@
         "crest": "https://crests.football-data.org/576.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
+        },
+        "regularTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -8665,7 +8677,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 64781,
+          "name": "Marc Bollengier",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
