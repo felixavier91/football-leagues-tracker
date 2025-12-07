@@ -8685,11 +8685,11 @@
       },
       "id": 542537,
       "utcDate": "2025-12-07T14:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "matchday": 15,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-06T01:32:01Z",
+      "lastUpdated": "2025-12-07T14:52:40Z",
       "homeTeam": {
         "id": 522,
         "name": "OGC Nice",
@@ -8705,21 +8705,40 @@
         "crest": "https://crests.football-data.org/532.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
+        },
+        "regularTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57063,
+          "name": "Hakim Ben El Hadj Salem",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -8778,7 +8797,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43886,
+          "name": "Ruddy Buquet",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -8837,7 +8863,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57092,
+          "name": "Eric Wattellier",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
