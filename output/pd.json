@@ -9637,11 +9637,11 @@
       },
       "id": 544360,
       "utcDate": "2025-12-07T15:15:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 15,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-07T01:32:00Z",
+      "lastUpdated": "2025-12-07T15:20:16Z",
       "homeTeam": {
         "id": 95,
         "name": "Valencia CF",
@@ -9657,15 +9657,27 @@
         "crest": "https://crests.football-data.org/559.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
+        },
+        "regularTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -9737,7 +9749,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 207080,
+          "name": "José Sánchez Martínez",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {

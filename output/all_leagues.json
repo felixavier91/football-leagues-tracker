@@ -9728,11 +9728,11 @@
         },
         "id": 537927,
         "utcDate": "2025-12-07T14:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": 15,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-07T14:52:40Z",
+        "lastUpdated": "2025-12-07T15:08:28Z",
         "homeTeam": {
           "id": 397,
           "name": "Brighton & Hove Albion FC",
@@ -33105,11 +33105,11 @@
         },
         "id": 544360,
         "utcDate": "2025-12-07T15:15:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 15,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-07T01:32:00Z",
+        "lastUpdated": "2025-12-07T15:20:16Z",
         "homeTeam": {
           "id": 95,
           "name": "Valencia CF",
@@ -33125,15 +33125,27 @@
           "crest": "https://crests.football-data.org/559.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
+          },
+          "regularTime": {
+            "home": 0,
+            "away": 0
+          },
+          "extraTime": {
+            "home": 0,
+            "away": 0
+          },
+          "penalties": {
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -33205,7 +33217,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 207080,
+            "name": "José Sánchez Martínez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
       },
       {
         "area": {
@@ -54402,11 +54421,11 @@
         },
         "id": 540521,
         "utcDate": "2025-12-07T14:30:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-07T14:35:33Z",
+        "lastUpdated": "2025-12-07T15:23:29Z",
         "homeTeam": {
           "id": 7,
           "name": "Hamburger SV",
@@ -54422,15 +54441,15 @@
           "crest": "https://crests.football-data.org/12.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "regularTime": {
             "home": 0,
@@ -74559,11 +74578,11 @@
         },
         "id": 536945,
         "utcDate": "2025-12-07T14:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": 14,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-07T14:52:40Z",
+        "lastUpdated": "2025-12-07T15:08:40Z",
         "homeTeam": {
           "id": 104,
           "name": "Cagliari Calcio",
@@ -97751,11 +97770,11 @@
         },
         "id": 542537,
         "utcDate": "2025-12-07T14:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": 15,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-07T14:52:40Z",
+        "lastUpdated": "2025-12-07T15:08:28Z",
         "homeTeam": {
           "id": 522,
           "name": "OGC Nice",
@@ -134927,11 +134946,11 @@
         },
         "id": 537567,
         "utcDate": "2025-12-07T13:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 15,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-07T14:38:49Z",
+        "lastUpdated": "2025-12-07T15:28:37Z",
         "homeTeam": {
           "id": 682,
           "name": "AZ",
@@ -134947,11 +134966,11 @@
           "crest": "https://crests.football-data.org/718.png"
         },
         "score": {
-          "winner": "HOME_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
             "home": 2,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 2,
@@ -135009,7 +135028,7 @@
         "matchday": 15,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-07T14:41:37Z",
+        "lastUpdated": "2025-12-07T15:30:34Z",
         "homeTeam": {
           "id": 1919,
           "name": "FC Volendam",
@@ -135025,11 +135044,11 @@
           "crest": "https://crests.football-data.org/1915.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
-            "away": 1
+            "home": 2,
+            "away": 3
           },
           "halfTime": {
             "home": 1,
