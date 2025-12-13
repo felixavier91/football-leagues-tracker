@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 135
+    "played": 136
   },
   "competition": {
     "id": 2003,
@@ -8949,11 +8949,11 @@
       },
       "id": 537583,
       "utcDate": "2025-12-13T15:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-13T17:11:56Z",
+      "lastUpdated": "2025-12-13T17:37:14Z",
       "homeTeam": {
         "id": 1912,
         "name": "Telstar 1963",
@@ -9027,11 +9027,11 @@
       },
       "id": 537578,
       "utcDate": "2025-12-13T17:45:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-07T01:32:03Z",
+      "lastUpdated": "2025-12-13T17:50:01Z",
       "homeTeam": {
         "id": 677,
         "name": "FC Groningen",
@@ -9047,15 +9047,27 @@
         "crest": "https://crests.football-data.org/1919.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
+        },
+        "regularTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -9193,7 +9205,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 80087,
+          "name": "Jannick van der Laan",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
