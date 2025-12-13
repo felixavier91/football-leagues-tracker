@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 137
+    "played": 138
   },
   "competition": {
     "id": 2015,
@@ -9093,11 +9093,11 @@
       },
       "id": 542542,
       "utcDate": "2025-12-13T18:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-13T19:48:28Z",
+      "lastUpdated": "2025-12-13T20:05:49Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -9171,11 +9171,11 @@
       },
       "id": 542543,
       "utcDate": "2025-12-13T20:05:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-13T01:32:01Z",
+      "lastUpdated": "2025-12-13T20:10:01Z",
       "homeTeam": {
         "id": 1045,
         "name": "Paris FC",
@@ -9191,15 +9191,27 @@
         "crest": "https://crests.football-data.org/511.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
+        },
+        "regularTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
