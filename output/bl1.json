@@ -7833,11 +7833,11 @@
       },
       "id": 540525,
       "utcDate": "2025-12-13T14:30:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": 14,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-13T14:40:00Z",
+      "lastUpdated": "2025-12-13T15:25:34Z",
       "homeTeam": {
         "id": 19,
         "name": "Eintracht Frankfurt",
@@ -7911,11 +7911,11 @@
       },
       "id": 540528,
       "utcDate": "2025-12-13T14:30:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": 14,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-13T15:04:51Z",
+      "lastUpdated": "2025-12-13T15:24:56Z",
       "homeTeam": {
         "id": 18,
         "name": "Borussia Mönchengladbach",
@@ -7935,11 +7935,11 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 3
         },
         "regularTime": {
           "home": 0,
@@ -7989,11 +7989,11 @@
       },
       "id": 540530,
       "utcDate": "2025-12-13T14:30:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": 14,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-13T14:35:26Z",
+      "lastUpdated": "2025-12-13T15:24:56Z",
       "homeTeam": {
         "id": 20,
         "name": "FC St. Pauli 1910",
@@ -8009,14 +8009,14 @@
         "crest": "https://crests.football-data.org/44.png"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "regularTime": {
@@ -8067,11 +8067,11 @@
       },
       "id": 540531,
       "utcDate": "2025-12-13T14:30:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": 14,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-13T14:43:36Z",
+      "lastUpdated": "2025-12-13T15:22:52Z",
       "homeTeam": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
@@ -8090,11 +8090,11 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "regularTime": {
@@ -8179,7 +8179,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 253,
+          "name": "Harm Osmers",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        }
+      ]
     },
     {
       "area": {
