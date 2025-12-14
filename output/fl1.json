@@ -9213,11 +9213,11 @@
       },
       "id": 542544,
       "utcDate": "2025-12-14T14:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-14T01:32:00Z",
+      "lastUpdated": "2025-12-14T14:56:07Z",
       "homeTeam": {
         "id": 523,
         "name": "Olympique Lyonnais",
@@ -9233,21 +9233,40 @@
         "crest": "https://crests.football-data.org/533.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
+        },
+        "regularTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 64781,
+          "name": "Marc Bollengier",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -9306,7 +9325,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57073,
+          "name": "Jérémie Pignard",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -9365,7 +9391,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 64829,
+          "name": "Gaël Angoula",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -9424,7 +9457,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57042,
+          "name": "Willy Delajod",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
