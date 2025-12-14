@@ -10502,11 +10502,11 @@
         },
         "id": 537938,
         "utcDate": "2025-12-14T16:30:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-14T17:25:25Z",
+        "lastUpdated": "2025-12-14T17:42:03Z",
         "homeTeam": {
           "id": 402,
           "name": "Brentford FC",
@@ -34054,7 +34054,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 56995,
+            "name": "Víctor García Verdura",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
       },
       {
         "area": {
@@ -55208,11 +55215,11 @@
         },
         "id": 540523,
         "utcDate": "2025-12-14T16:30:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": 14,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-14T17:25:25Z",
+        "lastUpdated": "2025-12-14T18:02:42Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -55228,11 +55235,11 @@
           "crest": "https://crests.football-data.org/15.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 1,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 1,
@@ -75716,11 +75723,11 @@
         },
         "id": 536959,
         "utcDate": "2025-12-14T17:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": 15,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-14T17:12:07Z",
+        "lastUpdated": "2025-12-14T17:54:44Z",
         "homeTeam": {
           "id": 107,
           "name": "Genoa CFC",
@@ -75740,11 +75747,11 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 0,
-            "away": 0
+            "away": 2
           },
           "regularTime": {
             "home": 0,
@@ -75828,7 +75835,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11029,
+            "name": "Davide Massa",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
@@ -98744,7 +98758,7 @@
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-14T17:35:21Z",
+        "lastUpdated": "2025-12-14T18:03:20Z",
         "homeTeam": {
           "id": 519,
           "name": "AJ Auxerre",
@@ -98760,11 +98774,11 @@
           "crest": "https://crests.football-data.org/521.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
-            "away": 1
+            "home": 3,
+            "away": 4
           },
           "halfTime": {
             "home": 0,
@@ -98900,7 +98914,7 @@
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-14T17:24:44Z",
+        "lastUpdated": "2025-12-14T17:37:22Z",
         "homeTeam": {
           "id": 546,
           "name": "Racing Club de Lens",
@@ -98919,7 +98933,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
@@ -99008,7 +99022,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 43918,
+            "name": "François Letexier",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -115835,11 +115856,11 @@
         },
         "id": 545824,
         "utcDate": "2025-12-14T18:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 14,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-14T01:32:00Z",
+        "lastUpdated": "2025-12-14T18:05:26Z",
         "homeTeam": {
           "id": 583,
           "name": "Moreirense FC",
@@ -115855,15 +115876,27 @@
           "crest": "https://crests.football-data.org/1903.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
+          },
+          "regularTime": {
+            "home": 0,
+            "away": 0
+          },
+          "extraTime": {
+            "home": 0,
+            "away": 0
+          },
+          "penalties": {
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -136164,11 +136197,11 @@
         },
         "id": 537579,
         "utcDate": "2025-12-14T15:45:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-14T16:56:02Z",
+        "lastUpdated": "2025-12-14T17:45:59Z",
         "homeTeam": {
           "id": 681,
           "name": "NAC Breda",
