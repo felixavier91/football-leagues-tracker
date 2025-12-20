@@ -10980,7 +10980,7 @@
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-20T19:02:23Z",
+        "lastUpdated": "2025-12-20T19:19:37Z",
         "homeTeam": {
           "id": 73,
           "name": "Tottenham Hotspur FC",
@@ -10999,7 +10999,7 @@
           "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 2
           },
           "halfTime": {
@@ -34425,11 +34425,11 @@
         },
         "id": 544376,
         "utcDate": "2025-12-20T17:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-20T18:37:45Z",
+        "lastUpdated": "2025-12-20T19:29:38Z",
         "homeTeam": {
           "id": 79,
           "name": "CA Osasuna",
@@ -34445,10 +34445,10 @@
           "crest": "https://crests.football-data.org/263.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 3,
             "away": 0
           },
           "halfTime": {
@@ -55924,7 +55924,7 @@
         "matchday": 15,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-20T18:39:12Z",
+        "lastUpdated": "2025-12-20T19:30:57Z",
         "homeTeam": {
           "id": 721,
           "name": "RB Leipzig",
@@ -55944,7 +55944,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 1,
-            "away": 2
+            "away": 3
           },
           "halfTime": {
             "home": 1,
@@ -76224,6 +76224,12 @@
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
         "referees": [
+          {
+            "id": 57826,
+            "name": "Simone Sozza",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          },
           {
             "id": 57826,
             "name": "Simone Sozza",
@@ -116309,11 +116315,11 @@
         },
         "id": 545829,
         "utcDate": "2025-12-20T18:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": 15,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-20T18:53:45Z",
+        "lastUpdated": "2025-12-20T19:32:58Z",
         "homeTeam": {
           "id": 5533,
           "name": "Gil Vicente FC",
@@ -116332,8 +116338,8 @@
           "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
-            "away": 1
+            "home": 2,
+            "away": 2
           },
           "halfTime": {
             "home": 1,
@@ -136467,7 +136473,7 @@
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-20T18:56:25Z",
+        "lastUpdated": "2025-12-20T19:26:59Z",
         "homeTeam": {
           "id": 670,
           "name": "SBV Excelsior",
@@ -136483,10 +136489,10 @@
           "crest": "https://crests.football-data.org/684.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 1
           },
           "halfTime": {
@@ -136541,11 +136547,11 @@
         },
         "id": 537593,
         "utcDate": "2025-12-20T19:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-15T01:32:01Z",
+        "lastUpdated": "2025-12-20T19:10:21Z",
         "homeTeam": {
           "id": 1915,
           "name": "NEC",
@@ -136561,15 +136567,27 @@
           "crest": "https://crests.football-data.org/678.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
+          },
+          "regularTime": {
+            "home": 0,
+            "away": 0
+          },
+          "extraTime": {
+            "home": 0,
+            "away": 0
+          },
+          "penalties": {
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
