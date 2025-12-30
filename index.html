@@ -299,8 +299,8 @@
         </div>
 
         <div class="filters" id="filtersContainer" style="display: none;">
-            <button class="filter-btn active" id="recentBtn" onclick="setMatchFilter('recent')">Last 25 Matches</button>
-            <button class="filter-btn" id="upcomingBtn" onclick="setMatchFilter('upcoming')">Next 25 Matches</button>
+            <button class="filter-btn active" id="recentBtn" onclick="setMatchFilter('recent')">Finished</button>
+            <button class="filter-btn" id="upcomingBtn" onclick="setMatchFilter('upcoming')">Upcoming</button>
         </div>
 
         <div class="matches-container" id="matchesContainer"></div>
@@ -413,13 +413,12 @@
                 filtered = filtered
                     .filter(m => m.status === 'SCHEDULED' || m.status === 'TIMED')
                     .filter(m => new Date(m.utcDate) >= now)
-                    .sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate))
-                    .slice(0, 25);
+                    .sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate));
             } else {
+                // Show ALL finished matches
                 filtered = filtered
                     .filter(m => m.status === 'FINISHED')
-                    .sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate))
-                    .slice(0, 25);
+                    .sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate));
             }
             
             displayMatches(filtered);
@@ -449,10 +448,23 @@
                 const awayWinner = match.score?.winner === 'AWAY_TEAM' ? 'winner' : '';
                 const statusClass = match.status.toLowerCase();
 
-                const youtubeSearchQuery = `${match.homeTeam.name} vs ${match.awayTeam.name} highlights`;
-                const youtubeLink = match.status === 'FINISHED' 
-                    ? `<a href="https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeSearchQuery)}" target="_blank" class="youtube-btn">📺 Watch Highlights</a>`
-                    : '';
+                let youtubeLink = '';
+                if (match.status === 'FINISHED') {
+                    // Check if it's Athletic Club vs Espanyol - embed the specific video
+                    if (match.homeTeam.name === 'Athletic Club' && match.awayTeam.name === 'RCD Espanyol Barcelona') {
+                        youtubeLink = `<iframe width="100%" height="315" 
+                             src="https://www.youtube.com/embed/jA5-9n40VWk" 
+                             frameborder="0" 
+                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                             allowfullscreen 
+                             style="border-radius: 8px; margin-top: 15px;">
+                           </iframe>`;
+                    } else {
+                        // Regular search button for other matches
+                        const youtubeSearchQuery = `${match.homeTeam.name} vs ${match.awayTeam.name} highlights`;
+                        youtubeLink = `<a href="https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeSearchQuery)}" target="_blank" class="youtube-btn">📺 Watch Highlights</a>`;
+                    }
+                }
 
                 return `
                     <div class="match-card">
