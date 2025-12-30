@@ -310,6 +310,7 @@
         let allLeaguesData = {};
         let highlightsDatabase = {};
         let currentLeague = null;
+        let currentLeagueCode = null;
         let currentMatches = [];
         let currentFilter = 'recent';
 
@@ -388,6 +389,7 @@
             // Add active class to clicked button
             button.classList.add('active');
             
+            currentLeagueCode = leagueCode;
             currentLeague = allLeaguesData[leagueCode];
             currentMatches = currentLeague.matches;
             
@@ -454,9 +456,8 @@
                     const matchKey = `${match.homeTeam.name}-${match.awayTeam.name}-${matchDate}`;
                     
                     // Look up video ID in database
-                    const leagueCode = currentLeague.competition.code;
                     const season = '2025-26';
-                    const videoId = highlightsDatabase[leagueCode]?.[season]?.[matchKey]?.videoId;
+                    const videoId = highlightsDatabase[currentLeagueCode]?.[season]?.[matchKey]?.videoId;
                     
                     if (videoId) {
                         // Embed the video if we have it in the database
