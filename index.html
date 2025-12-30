@@ -308,30 +308,30 @@
 
     <script>
         let allLeaguesData = {};
+        let highlightsDatabase = {};
         let currentLeague = null;
+        let currentLeagueCode = null;
         let currentMatches = [];
         let currentFilter = 'recent';
 
         // Automatically load data on page load
         window.addEventListener('DOMContentLoaded', function() {
-            fetch('output/all_leagues.json')
-                .then(response => {
-                    if (response.ok) {
-                        return response.json();
-                    } else {
-                        throw new Error('File not found');
-                    }
-                })
-                .then(data => {
-                    allLeaguesData = data;
-                    populateLeagueSelector();
-                    document.getElementById('leagueSelector').classList.add('show');
-                })
-                .catch(error => {
-                    console.log('Auto-load failed:', error);
-                    document.getElementById('matchesContainer').innerHTML = 
-                        '<div class="error">Failed to load league data. Please try again later.</div>';
-                });
+            // Load both league data and highlights database
+            Promise.all([
+                fetch('output/all_leagues.json').then(r => r.json()),
+                fetch('output/highlights_database.json').then(r => r.json())
+            ])
+            .then(([leaguesData, highlightsData]) => {
+                allLeaguesData = leaguesData;
+                highlightsDatabase = highlightsData.highlights;
+                populateLeagueSelector();
+                document.getElementById('leagueSelector').classList.add('show');
+            })
+            .catch(error => {
+                console.log('Auto-load failed:', error);
+                document.getElementById('matchesContainer').innerHTML = 
+                    '<div class="error">Failed to load league data. Please try again later.</div>';
+            });
         });
 
         // Populate league selector with buttons in custom order
@@ -389,6 +389,7 @@
             // Add active class to clicked button
             button.classList.add('active');
             
+            currentLeagueCode = leagueCode;
             currentLeague = allLeaguesData[leagueCode];
             currentMatches = currentLeague.matches;
             
@@ -450,17 +451,26 @@
 
                 let youtubeLink = '';
                 if (match.status === 'FINISHED') {
-                    // Check if it's Athletic Club vs Espanyol - embed the specific video
-                    if (match.homeTeam.name === 'Athletic Club' && match.awayTeam.name === 'RCD Espanyol Barcelona') {
+                    // Create unique match key
+                    const matchDate = new Date(match.utcDate).toISOString().split('T')[0];
+                    const matchKey = `${match.homeTeam.name}-${match.awayTeam.name}-${matchDate}`;
+                    
+                    // Look up video ID in database
+                    const season = '2025-26';
+                    const videoId = highlightsDatabase[currentLeagueCode]?.[season]?.[matchKey]?.videoId;
+                    
+                    if (videoId) {
+                        // Embed the video if we have it in the database
                         youtubeLink = `<iframe width="100%" height="315" 
-                             src="https://www.youtube.com/embed/jA5-9n40VWk" 
+                             src="https://www.youtube.com/embed/${videoId}" 
                              frameborder="0" 
-                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                             referrerpolicy="strict-origin-when-cross-origin"
                              allowfullscreen 
                              style="border-radius: 8px; margin-top: 15px;">
                            </iframe>`;
                     } else {
-                        // Regular search button for other matches
+                        // Fallback to search button if no video ID in database
                         const youtubeSearchQuery = `${match.homeTeam.name} vs ${match.awayTeam.name} highlights`;
                         youtubeLink = `<a href="https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeSearchQuery)}" target="_blank" class="youtube-btn">📺 Watch Highlights</a>`;
                     }
