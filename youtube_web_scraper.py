@@ -139,7 +139,7 @@ def create_search_query(home_team, away_team, match_date, league_code):
     elif league_code == "SA":
         broadcaster = "CBS Sports Golazo"
     elif league_code == "PPL":
-        broadcaster = "VSPORTS - Liga Portugal"
+        broadcaster = "sport tv"
     elif league_code == "DED":
         broadcaster = "Eredivisie"
     elif league_code == "CL":
@@ -177,11 +177,18 @@ def setup_browser():
     return driver
 
 
-def search_youtube_web(driver, query, match_date, home_team, away_team):
+def search_youtube_web(driver, query, match_date, home_team, away_team, league_code):
     """
     Search YouTube and return first video uploaded on match date with team keywords in title
+    Filters out blocked channels that don't allow embedding
     """
     try:
+        # Blocked channels that don't allow embedding
+        blocked_channels = {
+            "PD": ["laliga ea sports", "laliga"],  # La Liga official channel blocks embedding
+            "PPL": ["vsports - liga portugal", "vsports"],  # Primeira Liga official channel blocks embedding
+        }
+        
         # Go to YouTube
         driver.get("https://www.youtube.com")
         time.sleep(1)
@@ -235,6 +242,21 @@ def search_youtube_web(driver, query, match_date, home_team, away_team):
                 if not (home_match or away_match):
                     print(f"  ⏭️  Skipping (no team keywords found): {video_title}")
                     continue
+                
+                # Check if channel is blocked for this league
+                if league_code in blocked_channels:
+                    try:
+                        # Get channel name from the video renderer
+                        channel_link = renderer.find_element(By.CSS_SELECTOR, "ytd-channel-name a")
+                        channel_name = channel_link.text.strip().lower()
+                        
+                        # Check if this channel is in the blocked list
+                        if any(blocked in channel_name for blocked in blocked_channels[league_code]):
+                            print(f"  ⏭️  Skipping (blocked channel): {video_title} - Channel: {channel_name}")
+                            continue
+                    except:
+                        # If we can't get channel name, continue anyway
+                        pass
                 
                 # Try to get upload date from metadata text
                 try:
@@ -440,8 +462,8 @@ def process_matches():
             print(f"[{i}/{total_matches}] {home_team} vs {away_team} ({match_date})")
             print(f"  🔎 Searching: \"{query}\"")
             
-            # Search YouTube - verify upload date and team keywords
-            video_id, video_title = search_youtube_web(driver, query, match_date, home_team, away_team)
+            # Search YouTube - verify upload date and team keywords, filter blocked channels
+            video_id, video_title = search_youtube_web(driver, query, match_date, home_team, away_team, league_code)
             
             if video_id:
                 # Update the database
