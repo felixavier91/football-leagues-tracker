@@ -1,0 +1,67 @@
+name: Update Highlights Daily
+
+on:
+  # Run every day at 10pm EST (3am UTC next day)
+  schedule:
+    - cron: '0 3 * * *'  # 3am UTC = 10pm EST
+  
+  # Also allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  update-highlights:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install Chrome and ChromeDriver
+        run: |
+          # Install Chrome
+          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+          
+          # Install ChromeDriver
+          CHROME_VERSION=$(google-chrome --version | awk '{print $3}' | cut -d'.' -f1)
+          wget -q "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION}" -O /tmp/latest_version
+          CHROMEDRIVER_VERSION=$(cat /tmp/latest_version)
+          wget -q "https://chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip" -O /tmp/chromedriver.zip
+          sudo unzip -o /tmp/chromedriver.zip -d /usr/local/bin/
+          sudo chmod +x /usr/local/bin/chromedriver
+      
+      - name: Install Python dependencies
+        run: |
+          pip install selenium
+      
+      - name: Run YouTube scraper
+        run: |
+          cd output
+          python ../youtube_web_scraper.py
+      
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Check if there are changes
+          if [ -f "output/highlights_database_updated.json" ]; then
+            mv output/highlights_database_updated.json output/highlights_database.json
+            git add output/highlights_database.json
+            
+            if git diff --staged --quiet; then
+              echo "No changes to commit"
+            else
+              git commit -m "🎥 Auto-update highlights ($(date +'%Y-%m-%d %H:%M'))"
+              git push
+            fi
+          else
+            echo "No updated database file found"
+          fi
