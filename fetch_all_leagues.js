@@ -7,10 +7,10 @@ const leagues = [
     { code: 'BL1', name: 'Bundesliga', country: 'Germany' },
     { code: 'SA', name: 'Serie A', country: 'Italy' },
     { code: 'FL1', name: 'Ligue 1', country: 'France' },
-    { code: 'PPL', name: 'Primeira Liga', country: 'Portugal' },
+    // { code: 'PPL', name: 'Primeira Liga', country: 'Portugal' },
     { code: 'DED', name: 'Eredivisie', country: 'Netherlands' },
     { code: 'CL', name: 'Champions League', country: 'Europe' },
-    //{ code: 'BSA', name: 'Série A (Brazil)', country: 'Brazil' },
+    // { code: 'BSA', name: 'Série A (Brazil)', country: 'Brazil' },
     // { code: 'PPD', name: 'Primera División', country: 'Argentina' }
 ];
 
