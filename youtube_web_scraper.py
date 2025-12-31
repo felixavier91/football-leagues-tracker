@@ -468,8 +468,12 @@ def process_matches():
     print("=" * 60)
     print(f"\n💾 Saving to {OUTPUT_FILE}...")
     
+    output_data = {
+        "highlights": highlights
+    }
+    
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+        json.dump(output_data, f, indent=2, ensure_ascii=False)
     
     # Summary
     print("\n📊 Summary:")
