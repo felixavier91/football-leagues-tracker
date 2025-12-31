@@ -4,7 +4,6 @@ This guide will help you deploy your football leagues tracker to GitHub Pages wi
 
 ## Prerequisites
 - GitHub account (free)
-- Your Football Data API key: `224c667c50404db8adb4c989bc1715e3`
 
 ## Step-by-Step Setup
 
@@ -28,7 +27,6 @@ Upload these files to your repository:
 2. Click "Secrets and variables" → "Actions"
 3. Click "New repository secret"
 4. Name: `FOOTBALL_API_KEY`
-5. Value: `224c667c50404db8adb4c989bc1715e3`
 6. Click "Add secret"
 
 ### 4. Enable GitHub Pages
