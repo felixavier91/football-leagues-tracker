@@ -15,6 +15,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from datetime import datetime
 
 # ============================================
@@ -157,7 +159,7 @@ def create_search_query(home_team, away_team, match_date, league_code):
 
 def setup_browser():
     """
-    Setup Selenium browser (Chrome)
+    Setup Selenium browser (Chrome) with automatic driver management
     """
     chrome_options = Options()
     
@@ -169,7 +171,9 @@ def setup_browser():
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
     chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
     
-    driver = webdriver.Chrome(options=chrome_options)
+    # Use webdriver-manager to automatically download and manage ChromeDriver
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
     return driver
 
 
