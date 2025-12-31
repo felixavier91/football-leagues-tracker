@@ -183,12 +183,6 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
     Filters out blocked channels that don't allow embedding
     """
     try:
-        # Blocked channels that don't allow embedding
-        blocked_channels = {
-            "PD": ["laliga ea sports", "laliga", "la liga", "liga ea sports"],  # La Liga official channels block embedding
-            "PPL": ["vsports - liga portugal", "vsports", "liga portugal"],  # Primeira Liga official channel blocks embedding
-        }
-        
         # Go to YouTube
         driver.get("https://www.youtube.com")
         time.sleep(1)
@@ -248,49 +242,6 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                 if not (home_match or away_match):
                     print(f"  ⏭️  Skipping (no team keywords found): {video_title}")
                     continue
-                
-                # Check if channel is blocked for this league
-                if league_code in blocked_channels:
-                    try:
-                        # Try multiple methods to get channel name
-                        channel_name = None
-                        
-                        # Method 1: Channel name link
-                        try:
-                            channel_link = renderer.find_element(By.CSS_SELECTOR, "ytd-channel-name a")
-                            channel_name = channel_link.text.strip().lower()
-                        except:
-                            pass
-                        
-                        # Method 2: Try yt-formatted-string inside channel-name
-                        if not channel_name:
-                            try:
-                                channel_element = renderer.find_element(By.CSS_SELECTOR, "ytd-channel-name yt-formatted-string")
-                                channel_name = channel_element.text.strip().lower()
-                            except:
-                                pass
-                        
-                        # Method 3: Search all text in the renderer for channel indicators
-                        if not channel_name:
-                            try:
-                                # Get all text from the video renderer
-                                renderer_text = renderer.text.lower()
-                                # Check if any blocked channel name appears in the text
-                                for blocked in blocked_channels[league_code]:
-                                    if blocked in renderer_text:
-                                        print(f"  ⏭️  Skipping (blocked channel detected in text): {video_title}")
-                                        channel_name = blocked  # Flag it as blocked
-                                        break
-                            except:
-                                pass
-                        
-                        # Check if this channel is in the blocked list
-                        if channel_name and any(blocked in channel_name for blocked in blocked_channels[league_code]):
-                            print(f"  ⏭️  Skipping (blocked channel): {video_title} - Channel: {channel_name}")
-                            continue
-                    except Exception as e:
-                        # If we can't get channel name, continue anyway
-                        pass
                 
                 # Try to get upload date from metadata text
                 try:
