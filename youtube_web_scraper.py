@@ -235,9 +235,10 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                 
                 video_title_lower = video_title.lower()
                 
-                # Block videos with "LALIGA EA SPORTS" in title (these don't allow embedding)
+                # Block videos with "laliga ea sports" anywhere in title (official channel that blocks embedding)
+                # This exact phrase appears in all their videos
                 if league_code == "PD" and "laliga ea sports" in video_title_lower:
-                    print(f"  ⏭️  Skipping (LaLiga EA Sports in title): {video_title}")
+                    print(f"  ⏭️  Skipping (LaLiga EA Sports official): {video_title}")
                     continue
                 
                 # Check if at least one keyword from EITHER team is in the title
