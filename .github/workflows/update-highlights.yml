@@ -1,9 +1,9 @@
 name: Update Highlights Daily
 
 on:
-  # Run every day at 7pm EST (3am UTC next day)
+  # Run every day at 8pm EST
   schedule:
-    - cron: '15 0 * * *'  # 12:15am UTC = 7:15pm EST
+    - cron: '0 1 * * *'  # 8pm EST
   
   # Also allow manual trigger
   workflow_dispatch:
