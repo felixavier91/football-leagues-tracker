@@ -11295,11 +11295,11 @@
       },
       "id": 536992,
       "utcDate": "2026-01-03T17:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-03T17:05:09Z",
+      "lastUpdated": "2026-01-03T17:55:07Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -11315,15 +11315,15 @@
         "crest": "https://crests.football-data.org/5890.png"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "regularTime": {
           "home": 0,
@@ -11407,7 +11407,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 10985,
+          "name": "Michael Fabbri",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {

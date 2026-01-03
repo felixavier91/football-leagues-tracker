@@ -9613,7 +9613,7 @@
       "matchday": 17,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-03T17:27:46Z",
+      "lastUpdated": "2026-01-03T17:51:06Z",
       "homeTeam": {
         "id": 548,
         "name": "AS Monaco FC",
@@ -9633,7 +9633,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": 1,
@@ -9687,11 +9687,11 @@
       },
       "id": 542554,
       "utcDate": "2026-01-03T18:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 17,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2025-12-28T01:32:01Z",
+      "lastUpdated": "2026-01-03T18:05:09Z",
       "homeTeam": {
         "id": 522,
         "name": "OGC Nice",
@@ -9707,15 +9707,27 @@
         "crest": "https://crests.football-data.org/576.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
+        },
+        "regularTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -9787,7 +9799,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57092,
+          "name": "Eric Wattellier",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
