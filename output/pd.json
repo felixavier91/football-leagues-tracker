@@ -11346,11 +11346,11 @@
       },
       "id": 544384,
       "utcDate": "2026-01-03T15:15:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-03T01:32:00Z",
+      "lastUpdated": "2026-01-03T15:20:23Z",
       "homeTeam": {
         "id": 79,
         "name": "CA Osasuna",
@@ -11366,15 +11366,27 @@
         "crest": "https://crests.football-data.org/77.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
+        },
+        "regularTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -11446,7 +11458,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57930,
+          "name": "Isidro Díaz de Mera",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {

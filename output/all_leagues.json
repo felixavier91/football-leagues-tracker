@@ -12648,7 +12648,7 @@
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-03T15:05:11Z",
+        "lastUpdated": "2026-01-03T15:35:10Z",
         "homeTeam": {
           "id": 397,
           "name": "Brighton & Hove Albion FC",
@@ -12664,10 +12664,10 @@
           "crest": "https://crests.football-data.org/328.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -12726,7 +12726,7 @@
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-03T15:05:12Z",
+        "lastUpdated": "2026-01-03T15:35:50Z",
         "homeTeam": {
           "id": 76,
           "name": "Wolverhampton Wanderers FC",
@@ -12742,10 +12742,10 @@
           "crest": "https://crests.football-data.org/563.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
@@ -12834,7 +12834,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11443,
+            "name": "Chris Kavanagh",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
       },
       {
         "area": {
@@ -35146,11 +35153,11 @@
         },
         "id": 544384,
         "utcDate": "2026-01-03T15:15:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-03T01:32:00Z",
+        "lastUpdated": "2026-01-03T15:20:23Z",
         "homeTeam": {
           "id": 79,
           "name": "CA Osasuna",
@@ -35166,15 +35173,27 @@
           "crest": "https://crests.football-data.org/77.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
+          },
+          "regularTime": {
+            "home": 0,
+            "away": 0
+          },
+          "extraTime": {
+            "home": 0,
+            "away": 0
+          },
+          "penalties": {
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -35246,7 +35265,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57930,
+            "name": "Isidro Díaz de Mera",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
       },
       {
         "area": {
@@ -77424,11 +77450,11 @@
         },
         "id": 536988,
         "utcDate": "2026-01-03T14:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-03T14:55:43Z",
+        "lastUpdated": "2026-01-03T15:12:28Z",
         "homeTeam": {
           "id": 107,
           "name": "Genoa CFC",
@@ -77502,11 +77528,11 @@
         },
         "id": 536994,
         "utcDate": "2026-01-03T14:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-03T14:53:43Z",
+        "lastUpdated": "2026-01-03T15:09:08Z",
         "homeTeam": {
           "id": 471,
           "name": "US Sassuolo Calcio",
