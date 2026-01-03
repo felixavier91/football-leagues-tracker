@@ -1,9 +1,9 @@
 name: Update Highlights Daily
 
 on:
-  # Run every day at 8:15pm EST but for some reason it actually triggers at 8:52pm EST
+  # Run every day at 6:45PM EST, fifteen minutes layer than last Update Football Data run
   schedule:
-    - cron: '35 23 * * *'  # 11:35pm UTC = 6:35pm EST
+    - cron: '45 23 * * *'  # 11:45pm UTC = 6:45pm EST
   
   # Also allow manual trigger
   workflow_dispatch:
