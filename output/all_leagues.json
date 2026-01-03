@@ -12644,11 +12644,11 @@
         },
         "id": 537977,
         "utcDate": "2026-01-03T15:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-03T15:35:10Z",
+        "lastUpdated": "2026-01-03T15:53:09Z",
         "homeTeam": {
           "id": 397,
           "name": "Brighton & Hove Albion FC",
@@ -12671,7 +12671,7 @@
             "away": 0
           },
           "halfTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "regularTime": {
@@ -12722,11 +12722,11 @@
         },
         "id": 537984,
         "utcDate": "2026-01-03T15:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-03T15:35:50Z",
+        "lastUpdated": "2026-01-03T15:57:50Z",
         "homeTeam": {
           "id": 76,
           "name": "Wolverhampton Wanderers FC",
@@ -12745,11 +12745,11 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
+            "home": 3,
             "away": 0
           },
           "halfTime": {
-            "home": 0,
+            "home": 3,
             "away": 0
           },
           "regularTime": {
@@ -35157,7 +35157,7 @@
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-03T15:20:23Z",
+        "lastUpdated": "2026-01-03T15:56:22Z",
         "homeTeam": {
           "id": 79,
           "name": "CA Osasuna",
@@ -35173,10 +35173,10 @@
           "crest": "https://crests.football-data.org/77.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -77450,11 +77450,11 @@
         },
         "id": 536988,
         "utcDate": "2026-01-03T14:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-03T15:12:28Z",
+        "lastUpdated": "2026-01-03T16:03:46Z",
         "homeTeam": {
           "id": 107,
           "name": "Genoa CFC",
@@ -77528,11 +77528,11 @@
         },
         "id": 536994,
         "utcDate": "2026-01-03T14:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-03T15:09:08Z",
+        "lastUpdated": "2026-01-03T15:58:26Z",
         "homeTeam": {
           "id": 471,
           "name": "US Sassuolo Calcio",
@@ -99579,11 +99579,11 @@
         },
         "id": 542551,
         "utcDate": "2026-01-03T16:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2025-12-28T01:32:01Z",
+        "lastUpdated": "2026-01-03T16:05:13Z",
         "homeTeam": {
           "id": 548,
           "name": "AS Monaco FC",
@@ -99599,15 +99599,27 @@
           "crest": "https://crests.football-data.org/523.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
+          },
+          "regularTime": {
+            "home": 0,
+            "away": 0
+          },
+          "extraTime": {
+            "home": 0,
+            "away": 0
+          },
+          "penalties": {
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -99679,7 +99691,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 9374,
+            "name": "Clément Turpin",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
