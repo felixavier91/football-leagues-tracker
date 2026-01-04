@@ -17,7 +17,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-from datetime import datetime
+from datetime import datetime, timedelta, date
 
 # ============================================
 # CONFIGURATION
@@ -380,7 +380,6 @@ def process_matches():
         # Process each match from all_leagues.json
         for match in league_data["matches"]:
             # Check if match should be finished (2+ hours after kickoff)
-            from datetime import datetime, timedelta
             match_datetime = datetime.fromisoformat(match["utcDate"].replace('Z', '+00:00'))
             time_since_kickoff = datetime.now(match_datetime.tzinfo) - match_datetime
             
@@ -396,7 +395,6 @@ def process_matches():
                 
                 # If TODAY_ONLY mode, skip matches that aren't from today
                 if TODAY_ONLY:
-                    from datetime import date
                     today = date.today().isoformat()
                     if match_date != today:
                         continue  # Skip this match, it's not from today
