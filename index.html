@@ -420,7 +420,7 @@
                         const hasVideo = highlightsDatabase[currentLeagueCode]?.['2025-26']?.[matchKey]?.videoId;
                         return m.status === 'FINISHED' || hasVideo;
                     })
-                    .sort(...)
+                    .sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate));
             }
             
             displayMatches(filtered);
