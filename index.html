@@ -446,7 +446,6 @@
                 const statusClass = match.status.toLowerCase();
 
                 let youtubeLink = '';
-                if (match.status === 'FINISHED') {
                     // Create unique match key
                     const matchDate = new Date(match.utcDate).toISOString().split('T')[0];
                     const matchKey = `${match.homeTeam.name}-${match.awayTeam.name}-${matchDate}`;
@@ -471,7 +470,6 @@
                         const youtubeSearchQuery = `${match.homeTeam.name} vs ${match.awayTeam.name} highlights`;
                         youtubeLink = `<a href="https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeSearchQuery)}" target="_blank" class="youtube-btn">📺 Watch on Youtube</a>`;
                     }
-                }
 
                 return `
                     <div class="match-card">
