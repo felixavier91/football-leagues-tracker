@@ -412,10 +412,15 @@
                     .filter(m => new Date(m.utcDate) >= now)
                     .sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate));
             } else {
-                // Show ALL finished matches
+                // Show matches that are finished OR have a video
                 filtered = filtered
-                    .filter(m => m.status === 'FINISHED')
-                    .sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate));
+                    .filter(m => {
+                        const matchDate = new Date(m.utcDate).toISOString().split('T')[0];
+                        const matchKey = `${m.homeTeam.name}-${m.awayTeam.name}-${matchDate}`;
+                        const hasVideo = highlightsDatabase[currentLeagueCode]?.['2025-26']?.[matchKey]?.videoId;
+                        return m.status === 'FINISHED' || hasVideo;
+                    })
+                    .sort(...)
             }
             
             displayMatches(filtered);
