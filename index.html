@@ -12,6 +12,11 @@
       gtag('js', new Date());
     
       gtag('config', 'G-PQZPKL0WHF');
+      
+      // Custom event tracking function
+      function trackEvent(eventName, params) {
+          gtag('event', eventName, params);
+      }
     </script>
     
     <title>Football Highlights</title>
@@ -279,9 +284,8 @@
 </head>
 <body>
     <div class="container">
-        <h1 style="text-align: center; color: #c8102e; margin-bottom: 30px; font-size: 1.5em;">⚽ Football Highlights ⚽</h1>
+        <h1 style="text-align: center; color: #c8102e; margin-bottom: 30px; font-size: 3em;">⚽ Football Highlights ⚽</h1>
         <div class="league-selector" id="leagueSelector">
-            <!-- <h2 style="margin-bottom: 20px; color: #333; font-size: 1.8em; font-weight: bold;">Select League</h2> -->
             <div id="leagueButtons" class="league-buttons"></div>
         </div>
 
@@ -380,14 +384,26 @@
             currentLeague = allLeaguesData[leagueCode];
             currentMatches = currentLeague.matches;
             
+            // Track league selection
+            trackEvent('select_league', {
+                league_name: currentLeague.name,
+                league_code: leagueCode
+            });
+            
             document.getElementById('filtersContainer').style.display = 'flex';
             
-            // Show Last 25 by default
+            // Show finished matches by default
             setMatchFilter(currentFilter);
         }
 
         function setMatchFilter(filter) {
             currentFilter = filter;
+            
+            // Track filter change
+            trackEvent('change_filter', {
+                filter: filter,
+                league_code: currentLeagueCode
+            });
             
             // Update button states
             document.getElementById('recentBtn').classList.toggle('active', filter === 'recent');
@@ -447,20 +463,24 @@
                     const videoId = highlightsDatabase[currentLeagueCode]?.[season]?.[matchKey]?.videoId;
                     
                     if (videoId) {
-                        // Embed the video if we have it in the database
+                        // Embed the video with tracking
                         youtubeLink = `<iframe width="100%" height="315" 
-                             src="https://www.youtube.com/embed/${videoId}?mute=1"
+                             src="https://www.youtube.com/embed/${videoId}"
                              frameborder="0" 
                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                              referrerpolicy="strict-origin-when-cross-origin"
                              allowfullscreen
                              loading="lazy"
+                             onclick="trackEvent('play_video', {league: '${currentLeagueCode}', home: '${match.homeTeam.shortName}', away: '${match.awayTeam.shortName}'})"
                              style="border-radius: 8px; margin-top: 15px;">
                            </iframe>`;
                     } else {
-                        // Fallback to search button if no video ID in database
+                        // Fallback to search button with tracking
                         const youtubeSearchQuery = `${match.homeTeam.name} vs ${match.awayTeam.name} highlights`;
-                        youtubeLink = `<a href="https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeSearchQuery)}" target="_blank" class="youtube-btn">📺 Watch on Youtube</a>`;
+                        youtubeLink = `<a href="https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeSearchQuery)}" 
+                                         target="_blank" 
+                                         class="youtube-btn"
+                                         onclick="trackEvent('search_youtube', {league: '${currentLeagueCode}', home: '${match.homeTeam.shortName}', away: '${match.awayTeam.shortName}'})">📺 Watch on Youtube</a>`;
                     }
                 }
 
