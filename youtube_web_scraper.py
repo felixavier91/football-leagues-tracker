@@ -31,6 +31,9 @@ OUTPUT_FILE = "highlights_database_updated.json"
 # Search settings
 DELAY_BETWEEN_SEARCHES = 2  # Seconds (be nice to YouTube)
 
+# Processing mode
+TODAY_ONLY = True  # Set to True to only process today's matches, False to backfill all historical matches
+
 # Leagues to process (set to None to process all)
 LEAGUES_TO_PROCESS = ["PD", "PL", "FL1", "BL1", "SA", "PPL", "DED", "CL"]  # PD = La Liga, PL = Premier League, FL1 = Ligue 1, BL1 = Bundesliga, SA = Serie A, PPL = Primeira Liga, DED = Eredivisie, CL = Champions League
 MAX_MATCHES_TO_PROCESS = None  # Process ALL finished matches
@@ -337,6 +340,7 @@ def process_matches():
     print("🔍 YouTube Highlights Web Scraper")
     print("=" * 60)
     print("📅 Running at:", datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    print(f"⚙️  Mode: {'TODAY ONLY (re-scraping today matches)' if TODAY_ONLY else 'BACKFILL (all historical matches)'}")
     
     # Load all_leagues.json (source of truth for match data)
     print(f"\n📂 Loading {ALL_LEAGUES_FILE}...")
@@ -382,6 +386,13 @@ def process_matches():
                 away_team = match["awayTeam"]["name"]
                 match_key = f"{home_team}-{away_team}-{match_date}"
                 
+                # If TODAY_ONLY mode, skip matches that aren't from today
+                if TODAY_ONLY:
+                    from datetime import date
+                    today = date.today().isoformat()
+                    if match_date != today:
+                        continue  # Skip this match, it's not from today
+                
                 # Check if match already exists in database with a videoId
                 existing_video_id = highlights[league_code][season].get(match_key, {}).get("videoId")
                 
@@ -396,8 +407,17 @@ def process_matches():
                         "videoId": None
                     }
                 
-                # Only process if videoId is null (no video found yet)
-                if existing_video_id is None:
+                # Process logic based on mode
+                should_process = False
+                
+                if TODAY_ONLY:
+                    # In TODAY_ONLY mode: always re-scrape today's matches (even if they have a videoId)
+                    should_process = True
+                else:
+                    # In backfill mode: only process if videoId is null
+                    should_process = (existing_video_id is None)
+                
+                if should_process:
                     matches_to_process.append({
                         "league_code": league_code,
                         "season": season,
