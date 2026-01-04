@@ -2,7 +2,7 @@ name: Update Highlights Daily
 
 on:
   schedule:
-    - cron: '5,15,25,35,45,55 12-23 * * *'  # Runs at :05, :15, :25, :35, :45, :55
+    - cron: '5,15,25,35,45,55 12-23,0-1 * * *'  # 7am-9pm EST
   
   # Also allow manual trigger
   workflow_dispatch:
