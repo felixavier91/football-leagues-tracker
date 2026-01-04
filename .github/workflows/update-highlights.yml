@@ -1,9 +1,8 @@
 name: Update Highlights Daily
 
 on:
-  # Run every day at 6:45PM EST, fifteen minutes layer than last Update Football Data run
   schedule:
-    - cron: '45 23 * * *'  # 11:45pm UTC = 6:45pm EST
+    - cron: '5,15,25,35,45,55 12-23 * * *'  # Runs at :05, :15, :25, etc = 5 min after data update
   
   # Also allow manual trigger
   workflow_dispatch:
