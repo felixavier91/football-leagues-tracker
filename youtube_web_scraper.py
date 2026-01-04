@@ -379,7 +379,15 @@ def process_matches():
         
         # Process each match from all_leagues.json
         for match in league_data["matches"]:
-            if match["status"] == "FINISHED":
+            # Check if match should be finished (2+ hours after kickoff)
+            from datetime import datetime, timedelta
+            match_datetime = datetime.fromisoformat(match["utcDate"].replace('Z', '+00:00'))
+            time_since_kickoff = datetime.now(match_datetime.tzinfo) - match_datetime
+            
+            # Match is "finished" if 2+ hours have passed since kickoff OR status is FINISHED
+            is_finished = (time_since_kickoff >= timedelta(hours=2)) or (match["status"] == "FINISHED")
+            
+            if is_finished:
                 # Create match key
                 match_date = match["utcDate"].split("T")[0]
                 home_team = match["homeTeam"]["name"]
