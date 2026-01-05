@@ -372,13 +372,13 @@
                 button.className = 'league-btn';
                 // button.textContent = `${league.name}`;
                 const emblem = league.matches?.[0]?.competition?.emblem || '';
-                button.innerHTML = `<img src="${emblem}" style="width: 24px; height: 24px; margin-right: 8px; vertical-align: middle;" onerror="this.style.display='none'">${league.name}`;
+                button.innerHTML = `<img src="${emblem}" style="width: 30px; height: 30px; margin-right: 8px; vertical-align: middle;" onerror="this.style.display='none'">${league.name}`;
                 button.onclick = () => selectLeague(code, button);
                 container.appendChild(button);
             });
 
             // Auto-select La Liga by default
-            const plButton = container.querySelector('button:nth-child(2)'); // PD is 2nd in custom order
+            const plButton = container.querySelector('button:nth-child(3)'); // PD is 2nd in custom order
             if (plButton) {
                 plButton.click();
             }
@@ -471,7 +471,7 @@
                         if (videoId) {
                             // Embed the video
                             youtubeLink = `<iframe width="100%" height="315" 
-                                 src="https://www.youtube.com/embed/${videoId}"
+                                 src="https://www.youtube.com/embed/${videoId}?mute=1"
                                  frameborder="0" 
                                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                                  referrerpolicy="strict-origin-when-cross-origin"
