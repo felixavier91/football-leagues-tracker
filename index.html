@@ -371,7 +371,8 @@
                 const button = document.createElement('button');
                 button.className = 'league-btn';
                 // button.textContent = `${league.name}`;
-                button.innerHTML = `<img src="${league.emblem || league.competition?.emblem}" style="width: 24px; height: 24px; margin-right: 8px; vertical-align: middle;">${league.name}`;
+                const emblem = league.matches?.[0]?.competition?.emblem || '';
+                button.innerHTML = `<img src="${emblem}" style="width: 24px; height: 24px; margin-right: 8px; vertical-align: middle;" onerror="this.style.display='none'">${league.name}`;
                 button.onclick = () => selectLeague(code, button);
                 container.appendChild(button);
             });
