@@ -71,6 +71,9 @@
             cursor: pointer;
             transition: all 0.3s;
             text-align: center;
+            display: flex;           /* ADD THIS */
+            align-items: center;     /* ADD THIS */
+            justify-content: center; /* ADD THIS */
         }
         
         .league-btn:hover {
@@ -367,7 +370,8 @@
                 const league = allLeaguesData[code];
                 const button = document.createElement('button');
                 button.className = 'league-btn';
-                button.textContent = `${league.name}`;
+                // button.textContent = `${league.name}`;
+                button.innerHTML = `<img src="${league.emblem || league.competition?.emblem}" style="width: 24px; height: 24px; margin-right: 8px; vertical-align: middle;">${league.name}`;
                 button.onclick = () => selectLeague(code, button);
                 container.appendChild(button);
             });
