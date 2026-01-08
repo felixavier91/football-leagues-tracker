@@ -133,6 +133,35 @@
             color: white;
         }
         
+        /* Search Bar */
+        .search-container {
+            background: white;
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .search-input {
+            width: 100%;
+            max-width: 500px;
+            padding: 12px 20px;
+            font-size: 1em;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        
+        .search-input:focus {
+            border-color: #c8102e;
+        }
+        
+        .search-input::placeholder {
+            color: #999;
+        }
+        
         .matches-container { display: grid; gap: 8px; }
         
         /* Collapsed card - one liner */
@@ -436,6 +465,16 @@
                 padding: 8px 12px;
                 font-size: 0.8em;
             }
+            
+            .search-container {
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+            
+            .search-input {
+                padding: 10px 15px;
+                font-size: 0.9em;
+            }
 
             .match-card.collapsed { 
                 padding: 10px 8px; 
@@ -534,7 +573,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 style="text-align: center; color: #c8102e; margin-bottom: 30px; font-size: 3em;">⚽ Soccer Highlights ⚽</h1>
+        <h1 style="text-align: center; color: #c8102e; margin-bottom: 30px; font-size: 1.5em;">⚽ Soccer Highlights ⚽</h1>
         <div class="league-selector" id="leagueSelector">
             <div id="leagueButtons" class="league-buttons"></div>
         </div>
@@ -542,6 +581,10 @@
         <div class="filters" id="filtersContainer" style="display: none;">
             <button class="filter-btn active" id="recentBtn" onclick="setMatchFilter('recent')">Finished</button>
             <button class="filter-btn" id="upcomingBtn" onclick="setMatchFilter('upcoming')">Upcoming</button>
+        </div>
+
+        <div class="search-container" id="searchContainer" style="display: none;">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search teams..." oninput="filterMatchesBySearch()">
         </div>
 
         <div class="matches-container" id="matchesContainer"></div>
@@ -642,6 +685,10 @@
             });
             
             document.getElementById('filtersContainer').style.display = 'flex';
+            document.getElementById('searchContainer').style.display = 'block';
+            
+            // Clear search input when changing leagues
+            document.getElementById('searchInput').value = '';
             
             // Show finished matches by default
             setMatchFilter(currentFilter);
@@ -910,6 +957,52 @@
                     </div>
                 `;
             }).join('');
+        }
+
+        function filterMatchesBySearch() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+            
+            // If search is empty, just show current filter results
+            if (!searchTerm) {
+                setMatchFilter(currentFilter);
+                return;
+            }
+            
+            // Filter matches based on current filter first
+            let filtered = currentMatches;
+            
+            if (currentFilter === 'upcoming') {
+                const now = new Date();
+                filtered = filtered
+                    .filter(m => m.status === 'SCHEDULED' || m.status === 'TIMED')
+                    .filter(m => new Date(m.utcDate) >= now)
+                    .sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate));
+            } else {
+                // Show matches that are finished OR have a video
+                filtered = filtered
+                    .filter(m => {
+                        const matchDate = new Date(m.utcDate).toISOString().split('T')[0];
+                        const matchKey = `${m.homeTeam.name}-${m.awayTeam.name}-${matchDate}`;
+                        const hasVideo = highlightsDatabase[currentLeagueCode]?.['2025-26']?.[matchKey]?.videoId;
+                        return m.status === 'FINISHED' || hasVideo;
+                    })
+                    .sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate));
+            }
+            
+            // Now filter by search term
+            filtered = filtered.filter(match => {
+                const homeTeam = match.homeTeam.name.toLowerCase();
+                const homeShort = match.homeTeam.shortName.toLowerCase();
+                const awayTeam = match.awayTeam.name.toLowerCase();
+                const awayShort = match.awayTeam.shortName.toLowerCase();
+                
+                return homeTeam.includes(searchTerm) || 
+                       homeShort.includes(searchTerm) || 
+                       awayTeam.includes(searchTerm) || 
+                       awayShort.includes(searchTerm);
+            });
+            
+            displayMatches(filtered);
         }
     </script>
 </body>
