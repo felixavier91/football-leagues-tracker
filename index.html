@@ -359,18 +359,31 @@
                 font-size: 0.75em;
             }
 
+            .match-card.collapsed { 
+                padding: 10px 8px; 
+            }
+
             .match-oneliner {
-                font-size: 0.85em;
-                gap: 8px;
+                font-size: 0.75em;
+                gap: 6px;
             }
 
-            .match-oneliner .team-logos img {
-                width: 20px;
-                height: 20px;
+            .match-oneliner .team-logo {
+                width: 18px;
+                height: 18px;
+            }
+            
+            .match-oneliner .team-name {
+                font-size: 0.9em;
+            }
+            
+            .match-oneliner .score {
+                font-size: 0.95em;
+                padding: 0 4px;
             }
 
-            .match-oneliner .match-time {
-                font-size: 0.8em;
+            .match-oneliner .date {
+                font-size: 0.75em;
             }
                     
             .match-content {
@@ -626,11 +639,6 @@
                 // Full expanded details
                 const details = `
                     <div class="match-details">
-                        <div class="match-header">
-                            <div class="match-info">
-                                <span class="matchday">Matchday ${match.matchday}</span>
-                            </div>
-                        </div>
                         ${youtubeLink}
                     </div>
                 `;
