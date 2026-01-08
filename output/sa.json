@@ -91163,14 +91163,14 @@
       "id": 537003,
       "utcDate": "2026-01-08T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 88,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Stadio Giovanni Zini",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-08T20:16:36Z",
+      "lastUpdated": "2026-01-08T20:23:51Z",
       "homeTeam": {
         "id": 457,
         "name": "US Cremonese",
@@ -91508,11 +91508,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 2,
@@ -91582,6 +91582,27 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 104,
+            "name": "Cagliari Calcio"
+          },
+          "scorer": {
+            "id": 289719,
+            "name": "Yael Trepy"
+          },
+          "assist": {
+            "id": 2196,
+            "name": "Luca Mazzitelli"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -91619,6 +91640,18 @@
           "player": {
             "id": 2373,
             "name": "Federico Bonazzoli"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 104,
+            "name": "Cagliari Calcio"
+          },
+          "player": {
+            "id": 2483,
+            "name": "Sebastiano Luperto"
           },
           "card": "YELLOW"
         }
