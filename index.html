@@ -16,6 +16,11 @@
       gtag('js', new Date());
     
       gtag('config', 'G-PQZPKL0WHF');
+      
+      // Custom event tracking function
+      function trackEvent(eventName, params) {
+          gtag('event', eventName, params);
+      }
     </script>
 
     <!-- Microsoft Clarity -->
@@ -75,9 +80,9 @@
             cursor: pointer;
             transition: all 0.3s;
             text-align: center;
-            display: flex;           /* ADD THIS */
-            align-items: center;     /* ADD THIS */
-            justify-content: center; /* ADD THIS */
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         
         .league-btn:hover {
@@ -128,13 +133,82 @@
             color: white;
         }
         
-        .matches-container { display: grid; gap: 15px; }
+        .matches-container { display: grid; gap: 8px; }
         
+        /* Collapsed card - one liner */
         .match-card {
             background: white;
-            border-radius: 12px;
+            border-radius: 8px;
+            padding: 12px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: all 0.3s;
+            overflow: hidden;
+        }
+
+        .match-card:hover {
+            background: #f8f8f8;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        /* One-liner display */
+        .match-oneliner {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1em;
+            color: #333;
+        }
+
+        .match-oneliner .team-logos {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .match-oneliner .team-logos img {
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
+        }
+
+        .match-oneliner .match-score {
+            font-weight: bold;
+            color: #c8102e;
+            min-width: 50px;
+            text-align: center;
+        }
+
+        .match-oneliner .match-teams {
+            font-weight: 600;
+            flex: 1;
+        }
+
+        .match-oneliner .match-time {
+            color: #999;
+            font-size: 0.9em;
+            white-space: nowrap;
+        }
+
+        /* Expanded card details - hidden by default */
+        .match-details {
+            display: none;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 2px solid #f0f0f0;
+        }
+
+        .match-card.expanded .match-details {
+            display: block;
+        }
+
+        .match-card.expanded {
+            cursor: default;
             padding: 20px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .match-card.expanded:hover {
+            background: white;
         }
         
         .match-header {
@@ -154,17 +228,6 @@
             border-radius: 20px;
             font-weight: 600;
         }
-        
-        .status {
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-weight: 600;
-            font-size: 0.85em;
-        }
-        
-        .status.finished { background: #4caf50; color: white; }
-        .status.scheduled { background: #ff9800; color: white; }
-        .status.timed { background: #2196f3; color: white; }
         
         .match-content {
             display: flex;
@@ -217,6 +280,39 @@
         .youtube-btn:hover {
             background: #a00d25;
         }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 315px;
+        }
+
+        .video-placeholder {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #c8102e 0%, #8b0a1f 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border-radius: 8px;
+            color: white;
+            font-size: 1.5em;
+            font-weight: bold;
+            z-index: 10;
+        }
+
+        .video-placeholder:hover {
+            opacity: 0.9;
+        }
+
+        .video-placeholder.hidden {
+            display: none;
+        }
         
         /* Mobile optimizations */
         @media (max-width: 768px) {
@@ -268,6 +364,20 @@
                 padding: 8px 12px;
                 font-size: 0.75em;
             }
+
+            .match-oneliner {
+                font-size: 0.85em;
+                gap: 8px;
+            }
+
+            .match-oneliner .team-logos img {
+                width: 20px;
+                height: 20px;
+            }
+
+            .match-oneliner .match-time {
+                font-size: 0.8em;
+            }
                     
             .match-content {
                 flex-direction: column;
@@ -295,9 +405,8 @@
 </head>
 <body>
     <div class="container">
-        <h1 style="text-align: center; color: #c8102e; margin-bottom: 30px; font-size: 1.5em;">⚽ Soccer Highlights ⚽</h1>
+        <h1 style="text-align: center; color: #c8102e; margin-bottom: 30px; font-size: 3em;">⚽ Soccer Highlights ⚽</h1>
         <div class="league-selector" id="leagueSelector">
-            <!-- <h2 style="margin-bottom: 20px; color: #333; font-size: 1.8em; font-weight: bold;">Select League</h2> -->
             <div id="leagueButtons" class="league-buttons"></div>
         </div>
 
@@ -374,15 +483,14 @@
                 const league = allLeaguesData[code];
                 const button = document.createElement('button');
                 button.className = 'league-btn';
-                // button.textContent = `${league.name}`;
                 const emblem = league.matches?.[0]?.competition?.emblem || '';
-                button.innerHTML = `<img src="${emblem}" style="width: 30px; height: 30px; margin-right: 8px; vertical-align: middle;" onerror="this.style.display='none'">${league.name}`;
+                button.innerHTML = `<img src="${emblem}" style="width: 36px; height: 36px; margin-right: 8px; vertical-align: middle;" onerror="this.style.display='none'">${league.name}`;
                 button.onclick = () => selectLeague(code, button);
                 container.appendChild(button);
             });
 
-            // Auto-select La Liga by default
-            const plButton = container.querySelector('button:nth-child(3)'); // PD is 2nd in custom order
+            // Auto-select Premier League by default
+            const plButton = container.querySelector('button:nth-child(3)'); // PL is 3rd in custom order (CL, PD, PL)
             if (plButton) {
                 plButton.click();
             }
@@ -398,14 +506,26 @@
             currentLeague = allLeaguesData[leagueCode];
             currentMatches = currentLeague.matches;
             
+            // Track league selection
+            trackEvent('select_league', {
+                league_name: currentLeague.name,
+                league_code: leagueCode
+            });
+            
             document.getElementById('filtersContainer').style.display = 'flex';
             
-            // Show Last 25 by default
+            // Show finished matches by default
             setMatchFilter(currentFilter);
         }
 
         function setMatchFilter(filter) {
             currentFilter = filter;
+            
+            // Track filter change
+            trackEvent('change_filter', {
+                filter: filter,
+                league_code: currentLeagueCode
+            });
             
             // Update button states
             document.getElementById('recentBtn').classList.toggle('active', filter === 'recent');
@@ -435,6 +555,10 @@
             displayMatches(filtered);
         }
 
+        function toggleMatchCard(cardElement) {
+            cardElement.classList.toggle('expanded');
+        }
+
         function displayMatches(matches) {
             const container = document.getElementById('matchesContainer');
             
@@ -446,7 +570,7 @@
             container.innerHTML = matches.map(match => {
                 const homeScore = match.score?.fullTime?.home ?? '-';
                 const awayScore = match.score?.fullTime?.away ?? '-';
-                const date = new Date(match.utcDate).toLocaleString('en-US', {
+                const date = new Date(match.utcDate).toLocaleString(undefined, {
                     weekday: 'short',
                     year: 'numeric',
                     month: 'short',
@@ -457,45 +581,66 @@
 
                 const homeWinner = match.score?.winner === 'HOME_TEAM' ? 'winner' : '';
                 const awayWinner = match.score?.winner === 'AWAY_TEAM' ? 'winner' : '';
-                const statusClass = match.status.toLowerCase();
+
+                // One-liner format
+                const oneliner = `
+                    <div class="match-oneliner">
+                        <div class="team-logos">
+                            <img src="${match.homeTeam.crest}" alt="${match.homeTeam.shortName}" onerror="this.style.display='none'">
+                            <img src="${match.awayTeam.crest}" alt="${match.awayTeam.shortName}" onerror="this.style.display='none'">
+                        </div>
+                        <div class="match-teams">
+                            ${match.homeTeam.shortName} vs ${match.awayTeam.shortName}
+                        </div>
+                        <div class="match-score">${homeScore} - ${awayScore}</div>
+                        <div class="match-time">${date}</div>
+                    </div>
+                `;
 
                 let youtubeLink = '';
-                
-                    // Only show video/search button if match has already started
-                    const matchTime = new Date(match.utcDate);
-                    const now = new Date();
-                    const hasStarted = matchTime <= now;
-                    
-                    if (hasStarted) {
-                        const matchDate = new Date(match.utcDate).toISOString().split('T')[0];
-                        const matchKey = `${match.homeTeam.name}-${match.awayTeam.name}-${matchDate}`;
-                        const season = '2025-26';
-                        const videoId = highlightsDatabase[currentLeagueCode]?.[season]?.[matchKey]?.videoId;
-                        
-                        if (videoId) {
-                            // Embed the video
-                            youtubeLink = `<iframe width="100%" height="315" 
-                                 src="https://www.youtube.com/embed/${videoId}?mute=1&modestbranding=1&rel=0"
-                                 frameborder="0" 
-                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                 referrerpolicy="strict-origin-when-cross-origin"
-                                 allowfullscreen
-                                 loading="lazy"
-                                 onclick="trackEvent('play_video', {league: '${currentLeagueCode}', home: '${match.homeTeam.shortName}', away: '${match.awayTeam.shortName}'})"
-                                 style="border-radius: 8px; margin-top: 15px;">
-                               </iframe>`;
-                        } else {
-                            // Fallback to search button
-                            const youtubeSearchQuery = `${match.homeTeam.name} vs ${match.awayTeam.name} highlights`;
-                            youtubeLink = `<a href="https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeSearchQuery)}" 
-                                             target="_blank" 
-                                             class="youtube-btn"
-                                             onclick="trackEvent('search_youtube', {league: '${currentLeagueCode}', home: '${match.homeTeam.shortName}', away: '${match.awayTeam.shortName}'})">📺 Watch on Youtube</a>`;
-                        }
-                    }
 
-                return `
-                    <div class="match-card">
+                // Only show video/search button if match has already started
+                const matchTime = new Date(match.utcDate);
+                const now = new Date();
+                const hasStarted = matchTime <= now;
+
+                if (hasStarted) {
+                    const matchDate = new Date(match.utcDate).toISOString().split('T')[0];
+                    const matchKey = `${match.homeTeam.name}-${match.awayTeam.name}-${matchDate}`;
+                    const season = '2025-26';
+                    const videoId = highlightsDatabase[currentLeagueCode]?.[season]?.[matchKey]?.videoId;
+                    
+                    if (videoId) {
+                        // Embed the video with tracking and placeholder
+                        youtubeLink = `
+                            <div class="video-container">
+                                <div class="video-placeholder" onclick="this.classList.add('hidden'); trackEvent('reveal_video', {league: '${currentLeagueCode}', home: '${match.homeTeam.shortName}', away: '${match.awayTeam.shortName}'})">
+                                    <div>⚽ Click to Watch Highlights</div>
+                                    <div style="font-size: 0.6em; margin-top: 10px;">⚠️ May contain spoilers</div>
+                                </div>
+                                <iframe width="100%" height="315" 
+                                     src="https://www.youtube.com/embed/${videoId}?mute=1"
+                                     frameborder="0" 
+                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                     referrerpolicy="strict-origin-when-cross-origin"
+                                     allowfullscreen
+                                     loading="lazy"
+                                     style="border-radius: 8px;">
+                                   </iframe>
+                            </div>`;
+                    } else {
+                        // Fallback to search button with tracking
+                        const youtubeSearchQuery = `${match.homeTeam.name} vs ${match.awayTeam.name} highlights`;
+                        youtubeLink = `<a href="https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeSearchQuery)}" 
+                                         target="_blank" 
+                                         class="youtube-btn"
+                                         onclick="trackEvent('search_youtube', {league: '${currentLeagueCode}', home: '${match.homeTeam.shortName}', away: '${match.awayTeam.shortName}'})">📺 Watch on Youtube</a>`;
+                    }
+                }
+
+                // Full expanded details
+                const details = `
+                    <div class="match-details">
                         <div class="match-header">
                             <div class="match-info">
                                 <span class="matchday">Matchday ${match.matchday}</span>
@@ -522,6 +667,13 @@
                             </div>
                         </div>
                         ${youtubeLink}
+                    </div>
+                `;
+
+                return `
+                    <div class="match-card" onclick="toggleMatchCard(this)">
+                        ${oneliner}
+                        ${details}
                     </div>
                 `;
             }).join('');
