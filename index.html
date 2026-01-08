@@ -97,6 +97,88 @@
             color: white;
         }
         
+        /* Standings Table */
+        .standings-container {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .standings-header {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #c8102e;
+            margin-bottom: 15px;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .standings-table {
+            overflow-x: auto;
+        }
+        
+        .standings-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .standings-table th {
+            background: #f5f5f5;
+            padding: 12px 8px;
+            text-align: left;
+            font-weight: 600;
+            color: #333;
+            font-size: 0.9em;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        
+        .standings-table th:first-child {
+            width: 40px;
+            text-align: center;
+        }
+        
+        .standings-table td {
+            padding: 10px 8px;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 0.9em;
+        }
+        
+        .standings-table tr:hover {
+            background: #fafafa;
+        }
+        
+        .standings-position {
+            text-align: center;
+            font-weight: 700;
+            color: #666;
+        }
+        
+        .standings-team {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .standings-team img {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+        }
+        
+        .standings-stats {
+            text-align: center;
+            color: #666;
+        }
+        
+        .standings-points {
+            text-align: center;
+            font-weight: 700;
+            color: #c8102e;
+        }
+        
         .filters {
             background: white;
             border-radius: 15px;
@@ -454,6 +536,35 @@
                 margin-right: 4px !important;
             }
             
+            .standings-container {
+                padding: 15px;
+                margin-bottom: 15px;
+            }
+            
+            .standings-header {
+                font-size: 1.1em;
+                margin-bottom: 12px;
+            }
+            
+            .standings-table th,
+            .standings-table td {
+                padding: 8px 4px;
+                font-size: 0.75em;
+            }
+            
+            .standings-team {
+                gap: 4px;
+            }
+            
+            .standings-team img {
+                width: 16px;
+                height: 16px;
+            }
+            
+            .standings-team span {
+                font-size: 0.95em;
+            }
+            
             .filters {
                 flex-direction: row;
                 padding: 12px;
@@ -578,6 +689,11 @@
             <div id="leagueButtons" class="league-buttons"></div>
         </div>
 
+        <div class="standings-container" id="standingsContainer" style="display: none;">
+            <div class="standings-header">League Standings</div>
+            <div class="standings-table" id="standingsTable"></div>
+        </div>
+
         <div class="filters" id="filtersContainer" style="display: none;">
             <button class="filter-btn active" id="recentBtn" onclick="setMatchFilter('recent')">Finished</button>
             <button class="filter-btn" id="upcomingBtn" onclick="setMatchFilter('upcoming')">Upcoming</button>
@@ -684,6 +800,9 @@
                 league_code: leagueCode
             });
             
+            // Calculate and display standings from match data
+            calculateStandings(leagueCode);
+            
             document.getElementById('filtersContainer').style.display = 'flex';
             document.getElementById('searchContainer').style.display = 'block';
             
@@ -692,6 +811,135 @@
             
             // Show finished matches by default
             setMatchFilter(currentFilter);
+        }
+
+        function calculateStandings(leagueCode) {
+            const matches = allLeaguesData[leagueCode].matches;
+            const teams = {};
+            
+            // Process all finished matches
+            matches.forEach(match => {
+                if (match.status !== 'FINISHED' || !match.score?.fullTime) return;
+                
+                const homeTeam = match.homeTeam;
+                const awayTeam = match.awayTeam;
+                const homeScore = match.score.fullTime.home;
+                const awayScore = match.score.fullTime.away;
+                
+                // Initialize teams if not exists
+                if (!teams[homeTeam.id]) {
+                    teams[homeTeam.id] = {
+                        team: homeTeam,
+                        playedGames: 0,
+                        won: 0,
+                        draw: 0,
+                        lost: 0,
+                        goalsFor: 0,
+                        goalsAgainst: 0,
+                        goalDifference: 0,
+                        points: 0
+                    };
+                }
+                if (!teams[awayTeam.id]) {
+                    teams[awayTeam.id] = {
+                        team: awayTeam,
+                        playedGames: 0,
+                        won: 0,
+                        draw: 0,
+                        lost: 0,
+                        goalsFor: 0,
+                        goalsAgainst: 0,
+                        goalDifference: 0,
+                        points: 0
+                    };
+                }
+                
+                // Update stats
+                teams[homeTeam.id].playedGames++;
+                teams[awayTeam.id].playedGames++;
+                
+                teams[homeTeam.id].goalsFor += homeScore;
+                teams[homeTeam.id].goalsAgainst += awayScore;
+                teams[awayTeam.id].goalsFor += awayScore;
+                teams[awayTeam.id].goalsAgainst += homeScore;
+                
+                if (homeScore > awayScore) {
+                    teams[homeTeam.id].won++;
+                    teams[homeTeam.id].points += 3;
+                    teams[awayTeam.id].lost++;
+                } else if (homeScore < awayScore) {
+                    teams[awayTeam.id].won++;
+                    teams[awayTeam.id].points += 3;
+                    teams[homeTeam.id].lost++;
+                } else {
+                    teams[homeTeam.id].draw++;
+                    teams[awayTeam.id].draw++;
+                    teams[homeTeam.id].points += 1;
+                    teams[awayTeam.id].points += 1;
+                }
+                
+                teams[homeTeam.id].goalDifference = teams[homeTeam.id].goalsFor - teams[homeTeam.id].goalsAgainst;
+                teams[awayTeam.id].goalDifference = teams[awayTeam.id].goalsFor - teams[awayTeam.id].goalsAgainst;
+            });
+            
+            // Convert to array and sort by points, then goal difference
+            const standings = Object.values(teams).sort((a, b) => {
+                if (b.points !== a.points) return b.points - a.points;
+                if (b.goalDifference !== a.goalDifference) return b.goalDifference - a.goalDifference;
+                return b.goalsFor - a.goalsFor;
+            });
+            
+            // Add position
+            standings.forEach((team, index) => {
+                team.position = index + 1;
+            });
+            
+            if (standings.length > 0) {
+                displayStandings(standings);
+            }
+        }
+
+        function displayStandings(standings) {
+            const container = document.getElementById('standingsTable');
+            
+            const tableHTML = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Team</th>
+                            <th>MP</th>
+                            <th>W</th>
+                            <th>D</th>
+                            <th>L</th>
+                            <th>GD</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${standings.map(team => `
+                            <tr>
+                                <td class="standings-position">${team.position}</td>
+                                <td>
+                                    <div class="standings-team">
+                                        <img src="${team.team.crest}" alt="${team.team.shortName}" onerror="this.style.display='none'">
+                                        <span>${team.team.shortName}</span>
+                                    </div>
+                                </td>
+                                <td class="standings-stats">${team.playedGames}</td>
+                                <td class="standings-stats">${team.won}</td>
+                                <td class="standings-stats">${team.draw}</td>
+                                <td class="standings-stats">${team.lost}</td>
+                                <td class="standings-stats">${team.goalDifference > 0 ? '+' : ''}${team.goalDifference}</td>
+                                <td class="standings-points">${team.points}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+            
+            container.innerHTML = tableHTML;
+            document.getElementById('standingsContainer').style.display = 'block';
         }
 
         function setMatchFilter(filter) {
