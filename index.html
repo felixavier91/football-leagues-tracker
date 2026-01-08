@@ -333,7 +333,7 @@
             text-align: center;
         }
         
-        /* Match Timeline - Goals and Red Cards in Separate Blocks */
+        /* Match Timeline - Two Column Layout */
         .match-timeline {
             margin: 15px 0;
             padding: 20px;
@@ -355,22 +355,26 @@
             margin-bottom: 10px;
         }
         
-        .timeline-item {
-            padding: 8px 12px;
-            margin: 6px 0;
+        .timeline-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
         }
         
-        .timeline-item.home-left {
+        .timeline-column {
+            padding: 10px;
+        }
+        
+        .timeline-column.home-column {
             text-align: left;
-            margin-right: 30%;
         }
         
-        .timeline-item.away-right {
+        .timeline-column.away-column {
             text-align: right;
-            margin-left: 30%;
         }
         
-        .timeline-text {
+        .timeline-item {
+            padding: 6px 0;
             font-size: 0.95em;
             color: #666;
             font-weight: normal;
@@ -673,20 +677,16 @@
                 margin-bottom: 8px;
             }
             
+            .timeline-columns {
+                gap: 10px;
+            }
+            
+            .timeline-column {
+                padding: 5px;
+            }
+            
             .timeline-item {
-                padding: 6px 8px;
-                margin: 5px 0;
-            }
-            
-            .timeline-item.home-left {
-                margin-right: 20%;
-            }
-            
-            .timeline-item.away-right {
-                margin-left: 20%;
-            }
-            
-            .timeline-text {
+                padding: 4px 0;
                 font-size: 0.85em;
             }
         }
@@ -949,99 +949,107 @@
                     }
                 }
                 
-                // Timeline: Separate goals and red cards into blocks
+                // Timeline: Two-column layout - home team left, away team right
                 let timeline = '';
-                const goalsByPlayer = {}; // Group goals by player
-                const redCardsByPlayer = {}; // Group red cards by player
                 
-                // Collect and group goals by player
+                // Separate goals by team
+                const homeGoals = {};
+                const awayGoals = {};
+                
                 if (match.goals && match.goals.length > 0) {
                     match.goals.forEach(goal => {
                         const scorer = goal.scorer?.name || 'Unknown';
                         const minute = goal.injuryTime ? `${goal.minute}+${goal.injuryTime}'` : `${goal.minute}'`;
                         const isHome = goal.team?.id === match.homeTeam.id;
-                        const key = `${scorer}_${isHome}`;
                         
-                        if (!goalsByPlayer[key]) {
-                            goalsByPlayer[key] = {
-                                player: scorer,
-                                minutes: [],
-                                isHome: isHome
-                            };
+                        if (isHome) {
+                            if (!homeGoals[scorer]) homeGoals[scorer] = [];
+                            homeGoals[scorer].push(minute);
+                        } else {
+                            if (!awayGoals[scorer]) awayGoals[scorer] = [];
+                            awayGoals[scorer].push(minute);
                         }
-                        goalsByPlayer[key].minutes.push(minute);
                     });
                 }
                 
-                // Collect and group red cards by player
+                // Separate red cards by team
+                const homeRedCards = {};
+                const awayRedCards = {};
+                
                 if (match.bookings && match.bookings.length > 0) {
                     match.bookings.forEach(booking => {
                         if (booking.card === 'RED' || booking.card === 'SECOND_YELLOW') {
                             const player = booking.player?.name || 'Unknown';
                             const minute = booking.injuryTime ? `${booking.minute}+${booking.injuryTime}'` : `${booking.minute}'`;
                             const isHome = booking.team?.id === match.homeTeam.id;
-                            const key = `${player}_${isHome}`;
                             
-                            if (!redCardsByPlayer[key]) {
-                                redCardsByPlayer[key] = {
-                                    player: player,
-                                    minutes: [],
-                                    isHome: isHome
-                                };
+                            if (isHome) {
+                                if (!homeRedCards[player]) homeRedCards[player] = [];
+                                homeRedCards[player].push(minute);
+                            } else {
+                                if (!awayRedCards[player]) awayRedCards[player] = [];
+                                awayRedCards[player].push(minute);
                             }
-                            redCardsByPlayer[key].minutes.push(minute);
                         }
                     });
                 }
                 
-                // Build goals block
-                let goalsBlock = '';
-                const goalEntries = Object.values(goalsByPlayer);
-                if (goalEntries.length > 0) {
-                    const goalsHTML = goalEntries.map(goal => {
-                        const minutesText = goal.minutes.join(' ');
-                        if (goal.isHome) {
-                            return `<div class="timeline-item home-left">
-                                <span class="timeline-text">${goal.player} ${minutesText}</span>
-                            </div>`;
-                        } else {
-                            return `<div class="timeline-item away-right">
-                                <span class="timeline-text">${goal.player} ${minutesText}</span>
-                            </div>`;
-                        }
-                    }).join('');
-                    goalsBlock = `
-                        <div class="timeline-section">
-                            <div class="timeline-section-icon">⚽</div>
-                            ${goalsHTML}
-                        </div>`;
+                // Build home goals HTML
+                let homeGoalsHTML = '';
+                for (const [player, minutes] of Object.entries(homeGoals)) {
+                    homeGoalsHTML += `<div class="timeline-item">${player} ${minutes.join(' ')}</div>`;
                 }
                 
-                // Build red cards block
-                let redCardsBlock = '';
-                const redCardEntries = Object.values(redCardsByPlayer);
-                if (redCardEntries.length > 0) {
-                    const redCardsHTML = redCardEntries.map(card => {
-                        const minutesText = card.minutes.join(' ');
-                        if (card.isHome) {
-                            return `<div class="timeline-item home-left">
-                                <span class="timeline-text">${card.player} ${minutesText}</span>
-                            </div>`;
-                        } else {
-                            return `<div class="timeline-item away-right">
-                                <span class="timeline-text">${card.player} ${minutesText}</span>
-                            </div>`;
-                        }
-                    }).join('');
-                    redCardsBlock = `
-                        <div class="timeline-section">
-                            <div class="timeline-section-icon">🟥</div>
-                            ${redCardsHTML}
-                        </div>`;
+                // Build away goals HTML
+                let awayGoalsHTML = '';
+                for (const [player, minutes] of Object.entries(awayGoals)) {
+                    awayGoalsHTML += `<div class="timeline-item">${player} ${minutes.join(' ')}</div>`;
                 }
                 
-                if (goalsBlock || redCardsBlock) {
-                    timeline = `<div class="match-timeline">${goalsBlock}${redCardsBlock}</div>`;
+                // Build home red cards HTML
+                let homeRedCardsHTML = '';
+                for (const [player, minutes] of Object.entries(homeRedCards)) {
+                    homeRedCardsHTML += `<div class="timeline-item">${player} ${minutes.join(' ')}</div>`;
+                }
+                
+                // Build away red cards HTML
+                let awayRedCardsHTML = '';
+                for (const [player, minutes] of Object.entries(awayRedCards)) {
+                    awayRedCardsHTML += `<div class="timeline-item">${player} ${minutes.join(' ')}</div>`;
+                }
+                
+                // Build timeline with two columns
+                const hasGoals = homeGoalsHTML || awayGoalsHTML;
+                const hasRedCards = homeRedCardsHTML || awayRedCardsHTML;
+                
+                if (hasGoals || hasRedCards) {
+                    let timelineContent = '';
+                    
+                    // Goals section
+                    if (hasGoals) {
+                        timelineContent += `
+                            <div class="timeline-section">
+                                <div class="timeline-section-icon">⚽</div>
+                                <div class="timeline-columns">
+                                    <div class="timeline-column home-column">${homeGoalsHTML}</div>
+                                    <div class="timeline-column away-column">${awayGoalsHTML}</div>
+                                </div>
+                            </div>`;
+                    }
+                    
+                    // Red cards section
+                    if (hasRedCards) {
+                        timelineContent += `
+                            <div class="timeline-section">
+                                <div class="timeline-section-icon">🟥</div>
+                                <div class="timeline-columns">
+                                    <div class="timeline-column home-column">${homeRedCardsHTML}</div>
+                                    <div class="timeline-column away-column">${awayRedCardsHTML}</div>
+                                </div>
+                            </div>`;
+                    }
+                    
+                    timeline = `<div class="match-timeline">${timelineContent}</div>`;
                 }
                 
                 // Soccer Pitch Formation Visualization (respecting formation structure)
