@@ -333,7 +333,7 @@
             text-align: center;
         }
         
-        /* Match Timeline */
+        /* Match Timeline - Left/Right Layout */
         .match-timeline {
             margin: 15px 0;
             padding: 15px;
@@ -344,19 +344,22 @@
         .timeline-item {
             display: flex;
             align-items: center;
-            padding: 8px;
-            margin: 6px 0;
+            padding: 10px;
+            margin: 8px 0;
             border-radius: 6px;
-            border-left: 4px solid #ddd;
             background: white;
+            gap: 10px;
         }
         
-        .timeline-item.home-event {
-            border-left-color: #c8102e;
+        .timeline-item.home-left {
+            justify-content: flex-start;
+            border-left: 4px solid #c8102e;
         }
         
-        .timeline-item.away-event {
-            border-left-color: #0066cc;
+        .timeline-item.away-right {
+            justify-content: flex-end;
+            border-right: 4px solid #333;
+            flex-direction: row-reverse;
         }
         
         .timeline-minute {
@@ -368,12 +371,19 @@
         
         .timeline-icon {
             font-size: 1.2em;
-            margin: 0 10px;
         }
         
         .timeline-text {
             flex: 1;
             font-size: 0.95em;
+        }
+        
+        .timeline-item.home-left .timeline-text {
+            text-align: left;
+        }
+        
+        .timeline-item.away-right .timeline-text {
+            text-align: right;
         }
         
         .timeline-score {
@@ -403,14 +413,7 @@
         .pitch-team {
             font-weight: bold;
             font-size: 1em;
-        }
-        
-        .pitch-team.home-team {
-            color: #c8102e;
-        }
-        
-        .pitch-team.away-team {
-            color: #0066cc;
+            color: #333;
         }
         
         .pitch-vs {
@@ -485,15 +488,7 @@
             font-weight: bold;
             font-size: 0.85em;
             box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-        }
-        
-        .home-player .player-number {
-            background: #c8102e;
-            color: white;
-        }
-        
-        .away-player .player-number {
-            background: #0066cc;
+            background: #333;
             color: white;
         }
         
@@ -639,25 +634,6 @@
                 padding: 10px;
             }
             
-            .timeline-item {
-                padding: 6px;
-                font-size: 0.8em;
-            }
-            
-            .timeline-minute {
-                min-width: 35px;
-                font-size: 0.85em;
-            }
-            
-            .timeline-icon {
-                font-size: 1em;
-                margin: 0 6px;
-            }
-            
-            .timeline-text {
-                font-size: 0.85em;
-            }
-            
             /* Pitch on mobile */
             .pitch-container {
                 padding: 10px;
@@ -705,6 +681,26 @@
             .midfield-line::before {
                 width: 60px;
                 height: 60px;
+            }
+            
+            /* Timeline on mobile */
+            .timeline-item {
+                padding: 8px;
+                margin: 6px 0;
+                gap: 6px;
+            }
+            
+            .timeline-minute {
+                min-width: 35px;
+                font-size: 0.85em;
+            }
+            
+            .timeline-icon {
+                font-size: 1em;
+            }
+            
+            .timeline-text {
+                font-size: 0.85em;
             }
         }
     </style>
@@ -999,7 +995,7 @@
                 // Sort events by minute
                 events.sort((a, b) => a.minute - b.minute);
                 
-                // Generate timeline HTML (no title)
+                // Generate timeline HTML (left-right pattern: home on left, away on right)
                 if (events.length > 0) {
                     const timelineHTML = events.map(event => {
                         if (event.type === 'goal') {
@@ -1009,26 +1005,44 @@
                             const score = `${goal.score?.home}-${goal.score?.away}`;
                             const isPenalty = goal.type === 'PENALTY' ? ' (Penalty)' : '';
                             const isOwnGoal = goal.type === 'OWN_GOAL' ? ' (Own Goal)' : '';
-                            const teamName = goal.team?.name || '';
                             const isHome = goal.team?.id === match.homeTeam.id;
                             
-                            return `<div class="timeline-item goal-item ${isHome ? 'home-event' : 'away-event'}">
-                                <span class="timeline-minute">${event.displayMinute}</span>
-                                <span class="timeline-icon">⚽</span>
-                                <span class="timeline-text"><strong>${scorer}</strong>${assist}${isPenalty}${isOwnGoal} <span class="timeline-score">[${score}]</span></span>
-                            </div>`;
+                            if (isHome) {
+                                // Home team goal - align left
+                                return `<div class="timeline-item home-left">
+                                    <span class="timeline-icon">⚽</span>
+                                    <span class="timeline-text"><strong>${scorer}</strong>${assist}${isPenalty}${isOwnGoal} <span class="timeline-score">${score}</span></span>
+                                    <span class="timeline-minute">${event.displayMinute}</span>
+                                </div>`;
+                            } else {
+                                // Away team goal - align right
+                                return `<div class="timeline-item away-right">
+                                    <span class="timeline-minute">${event.displayMinute}</span>
+                                    <span class="timeline-text"><strong>${scorer}</strong>${assist}${isPenalty}${isOwnGoal} <span class="timeline-score">${score}</span></span>
+                                    <span class="timeline-icon">⚽</span>
+                                </div>`;
+                            }
                         } else {
                             const booking = event.data;
                             const player = booking.player?.name || 'Unknown';
                             const card = booking.card === 'YELLOW' ? '🟨' : '🟥';
-                            const teamName = booking.team?.name || '';
                             const isHome = booking.team?.id === match.homeTeam.id;
                             
-                            return `<div class="timeline-item card-item ${isHome ? 'home-event' : 'away-event'}">
-                                <span class="timeline-minute">${event.displayMinute}</span>
-                                <span class="timeline-icon">${card}</span>
-                                <span class="timeline-text">${player}</span>
-                            </div>`;
+                            if (isHome) {
+                                // Home team card - align left
+                                return `<div class="timeline-item home-left">
+                                    <span class="timeline-icon">${card}</span>
+                                    <span class="timeline-text">${player}</span>
+                                    <span class="timeline-minute">${event.displayMinute}</span>
+                                </div>`;
+                            } else {
+                                // Away team card - align right
+                                return `<div class="timeline-item away-right">
+                                    <span class="timeline-minute">${event.displayMinute}</span>
+                                    <span class="timeline-text">${player}</span>
+                                    <span class="timeline-icon">${card}</span>
+                                </div>`;
+                            }
                         }
                     }).join('');
                     timeline = `<div class="match-timeline">${timelineHTML}</div>`;
@@ -1129,14 +1143,14 @@
                     `;
                 }
 
-                // Full expanded details (VIDEO FIRST, then everything else)
+                // Full expanded details (venue/referee at top, timeline in middle, pitch, then video at bottom)
                 const details = `
                     <div class="match-details">
-                        ${youtubeLink}
                         ${matchInfo}
                         ${refereeSection}
                         ${timeline}
                         ${pitchSection}
+                        ${youtubeLink}
                     </div>
                 `;
 
