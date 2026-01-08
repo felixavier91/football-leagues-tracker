@@ -238,10 +238,14 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                     print(f"  ⏭️  Skipping (LaLiga EA Sports official): {video_title}")
                     continue
                 
-                # Premier League videos must have "NBC Sports" in title
-                if league_code == "PL" and "nbc sports" not in video_title_lower:
-                    print(f"  ⏭️  Skipping (Premier League requires NBC Sports): {video_title}")
-                    continue
+                # Premier League videos must have "NBC Sports" AND "Premier League Highlights" in title
+                if league_code == "PL":
+                    if "nbc sports" not in video_title_lower:
+                        print(f"  ⏭️  Skipping (Premier League requires NBC Sports): {video_title}")
+                        continue
+                    if "premier league highlights" not in video_title_lower:
+                        print(f"  ⏭️  Skipping (Premier League requires 'Premier League Highlights'): {video_title}")
+                        continue
                 
                 # Check if at least one keyword from EITHER team is in the title
                 home_match = any(keyword in video_title_lower for keyword in home_keywords)
