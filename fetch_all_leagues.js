@@ -32,7 +32,13 @@ async function fetchLeague(league) {
             `http://api.football-data.org/v4/competitions/${league.code}/matches?season=${SEASON}`,
             {
                 headers: {
-                    'X-Auth-Token': API_KEY
+                    'X-Auth-Token': API_KEY,
+                    'X-Unfold-Goals': 'true',
+                    'X-Unfold-Lineups': 'true',
+                    'X-Unfold-Bookings': 'true',
+                    'X-Unfold-Substitutions': 'true',
+                    'X-Unfold-Referees': 'true',
+                    'X-Unfold-All': 'true'
                 }
             }
         );
