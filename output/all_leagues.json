@@ -95974,14 +95974,14 @@
         "id": 537987,
         "utcDate": "2026-01-08T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 86,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 1,
         "attendance": null,
         "venue": "Emirates Stadium",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-08T22:42:51Z",
+        "lastUpdated": "2026-01-08T22:49:21Z",
         "homeTeam": {
           "id": 57,
           "name": "Arsenal FC",
@@ -96294,6 +96294,18 @@
             "player": {
               "id": 179744,
               "name": "Mikel Arteta"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 64,
+              "name": "Liverpool FC"
+            },
+            "player": {
+              "id": 45681,
+              "name": "Alexis Mac Allister"
             },
             "card": "YELLOW"
           }
@@ -387173,15 +387185,15 @@
         },
         "id": 536995,
         "utcDate": "2026-01-08T19:45:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 5,
+        "injuryTime": 9,
         "attendance": null,
         "venue": "Giuseppe Meazza",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-08T22:43:16Z",
+        "lastUpdated": "2026-01-08T22:49:01Z",
         "homeTeam": {
           "id": 98,
           "name": "AC Milan",
@@ -387535,7 +387547,19 @@
             }
           }
         ],
-        "penalties": [],
+        "penalties": [
+          {
+            "player": {
+              "id": 9353,
+              "name": "Nicolae Stanciu"
+            },
+            "team": {
+              "id": 107,
+              "name": "Genoa CFC"
+            },
+            "scored": false
+          }
+        ],
         "bookings": [
           {
             "minute": 70,
@@ -387558,6 +387582,30 @@
             "player": {
               "id": 2580,
               "name": "Nicola Leali"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 98,
+              "name": "AC Milan"
+            },
+            "player": {
+              "id": 8390,
+              "name": "Mike Maignan"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 98,
+              "name": "AC Milan"
+            },
+            "player": {
+              "id": 11528,
+              "name": "Fikayo Tomori"
             },
             "card": "YELLOW"
           }

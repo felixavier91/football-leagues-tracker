@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-23",
     "last": "2026-05-24",
-    "played": 185
+    "played": 186
   },
   "competition": {
     "id": 2019,
@@ -91707,15 +91707,15 @@
       },
       "id": 536995,
       "utcDate": "2026-01-08T19:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 5,
+      "injuryTime": 9,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-08T22:43:16Z",
+      "lastUpdated": "2026-01-08T22:49:01Z",
       "homeTeam": {
         "id": 98,
         "name": "AC Milan",
@@ -92069,7 +92069,19 @@
           }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 9353,
+            "name": "Nicolae Stanciu"
+          },
+          "team": {
+            "id": 107,
+            "name": "Genoa CFC"
+          },
+          "scored": false
+        }
+      ],
       "bookings": [
         {
           "minute": 70,
@@ -92092,6 +92104,30 @@
           "player": {
             "id": 2580,
             "name": "Nicola Leali"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "player": {
+            "id": 8390,
+            "name": "Mike Maignan"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "player": {
+            "id": 11528,
+            "name": "Fikayo Tomori"
           },
           "card": "YELLOW"
         }
