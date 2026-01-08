@@ -333,63 +333,67 @@
             text-align: center;
         }
         
-        /* Match Timeline - Left/Right Layout */
+        /* Match Timeline - STRONG Left/Right Visual Separation */
         .match-timeline {
             margin: 15px 0;
-            padding: 15px;
+            padding: 20px;
             background: #fafafa;
             border-radius: 8px;
         }
         
         .timeline-item {
-            display: flex;
-            align-items: center;
-            padding: 10px;
-            margin: 8px 0;
+            padding: 12px;
+            margin: 10px 0;
             border-radius: 6px;
             background: white;
-            gap: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         }
         
         .timeline-item.home-left {
-            justify-content: flex-start;
-            border-left: 4px solid #c8102e;
+            margin-right: 30%;
+            margin-left: 0;
+            background: linear-gradient(90deg, #fff 0%, #f9f9f9 100%);
         }
         
         .timeline-item.away-right {
+            margin-left: 30%;
+            margin-right: 0;
+            background: linear-gradient(90deg, #f9f9f9 0%, #fff 100%);
+        }
+        
+        .timeline-content {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .timeline-item.home-left .timeline-content {
+            justify-content: flex-start;
+        }
+        
+        .timeline-item.away-right .timeline-content {
             justify-content: flex-end;
-            border-right: 4px solid #333;
-            flex-direction: row-reverse;
         }
         
         .timeline-minute {
             font-weight: bold;
             color: #c8102e;
-            min-width: 45px;
             font-size: 0.95em;
-        }
-        
-        .timeline-icon {
-            font-size: 1.2em;
+            padding: 4px 8px;
+            background: #fff3f3;
+            border-radius: 4px;
         }
         
         .timeline-text {
-            flex: 1;
-            font-size: 0.95em;
-        }
-        
-        .timeline-item.home-left .timeline-text {
-            text-align: left;
-        }
-        
-        .timeline-item.away-right .timeline-text {
-            text-align: right;
+            font-size: 1em;
+            font-weight: 600;
+            color: #333;
         }
         
         .timeline-score {
             color: #666;
             font-weight: normal;
-            margin-left: 8px;
+            font-size: 0.9em;
         }
         
         /* Soccer Pitch Formation */
@@ -684,23 +688,35 @@
             }
             
             /* Timeline on mobile */
+            .timeline-item.home-left {
+                margin-right: 20%;
+            }
+            
+            .timeline-item.away-right {
+                margin-left: 20%;
+            }
+            
             .timeline-item {
-                padding: 8px;
-                margin: 6px 0;
+                padding: 10px;
+                margin: 8px 0;
+            }
+            
+            .timeline-content {
                 gap: 6px;
+                flex-wrap: wrap;
             }
             
             .timeline-minute {
-                min-width: 35px;
-                font-size: 0.85em;
-            }
-            
-            .timeline-icon {
-                font-size: 1em;
+                font-size: 0.8em;
+                padding: 3px 6px;
             }
             
             .timeline-text {
                 font-size: 0.85em;
+            }
+            
+            .timeline-score {
+                font-size: 0.8em;
             }
         }
     </style>
@@ -995,31 +1011,34 @@
                 // Sort events by minute
                 events.sort((a, b) => a.minute - b.minute);
                 
-                // Generate timeline HTML (left-right pattern: home on left, away on right)
+                // Generate timeline HTML (STRONG left-right separation for instant recognition)
                 if (events.length > 0) {
                     const timelineHTML = events.map(event => {
                         if (event.type === 'goal') {
                             const goal = event.data;
                             const scorer = goal.scorer?.name || 'Unknown';
-                            const assist = goal.assist?.name ? ` (Assist: ${goal.assist.name})` : '';
                             const score = `${goal.score?.home}-${goal.score?.away}`;
-                            const isPenalty = goal.type === 'PENALTY' ? ' (Penalty)' : '';
-                            const isOwnGoal = goal.type === 'OWN_GOAL' ? ' (Own Goal)' : '';
+                            const isPenalty = goal.type === 'PENALTY' ? ' (pen)' : '';
+                            const isOwnGoal = goal.type === 'OWN_GOAL' ? ' (OG)' : '';
                             const isHome = goal.team?.id === match.homeTeam.id;
                             
                             if (isHome) {
-                                // Home team goal - align left
+                                // Home team goal - LEFT side
                                 return `<div class="timeline-item home-left">
-                                    <span class="timeline-icon">⚽</span>
-                                    <span class="timeline-text"><strong>${scorer}</strong>${assist}${isPenalty}${isOwnGoal} <span class="timeline-score">${score}</span></span>
-                                    <span class="timeline-minute">${event.displayMinute}</span>
+                                    <div class="timeline-content">
+                                        <span class="timeline-minute">${event.displayMinute}</span>
+                                        <span class="timeline-text">⚽ ${scorer}${isPenalty}${isOwnGoal}</span>
+                                        <span class="timeline-score">${score}</span>
+                                    </div>
                                 </div>`;
                             } else {
-                                // Away team goal - align right
+                                // Away team goal - RIGHT side
                                 return `<div class="timeline-item away-right">
-                                    <span class="timeline-minute">${event.displayMinute}</span>
-                                    <span class="timeline-text"><strong>${scorer}</strong>${assist}${isPenalty}${isOwnGoal} <span class="timeline-score">${score}</span></span>
-                                    <span class="timeline-icon">⚽</span>
+                                    <div class="timeline-content">
+                                        <span class="timeline-score">${score}</span>
+                                        <span class="timeline-text">${scorer}${isPenalty}${isOwnGoal} ⚽</span>
+                                        <span class="timeline-minute">${event.displayMinute}</span>
+                                    </div>
                                 </div>`;
                             }
                         } else {
@@ -1029,18 +1048,20 @@
                             const isHome = booking.team?.id === match.homeTeam.id;
                             
                             if (isHome) {
-                                // Home team card - align left
+                                // Home team card - LEFT side
                                 return `<div class="timeline-item home-left">
-                                    <span class="timeline-icon">${card}</span>
-                                    <span class="timeline-text">${player}</span>
-                                    <span class="timeline-minute">${event.displayMinute}</span>
+                                    <div class="timeline-content">
+                                        <span class="timeline-minute">${event.displayMinute}</span>
+                                        <span class="timeline-text">${card} ${player}</span>
+                                    </div>
                                 </div>`;
                             } else {
-                                // Away team card - align right
+                                // Away team card - RIGHT side
                                 return `<div class="timeline-item away-right">
-                                    <span class="timeline-minute">${event.displayMinute}</span>
-                                    <span class="timeline-text">${player}</span>
-                                    <span class="timeline-icon">${card}</span>
+                                    <div class="timeline-content">
+                                        <span class="timeline-text">${player} ${card}</span>
+                                        <span class="timeline-minute">${event.displayMinute}</span>
+                                    </div>
                                 </div>`;
                             }
                         }
