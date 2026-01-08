@@ -932,14 +932,9 @@
                 // Enhanced match details
                 let matchInfo = '';
                 
-                // Venue and Attendance (add city if available from area data)
+                // Venue and Attendance (no city)
                 if (match.venue || match.attendance) {
-                    let venueText = '';
-                    if (match.venue) {
-                        // Check if we have area/city info
-                        const city = match.area?.name || '';
-                        venueText = city ? `📍 ${match.venue}, ${city}` : `📍 ${match.venue}`;
-                    }
+                    const venueText = match.venue ? `📍 ${match.venue}` : '';
                     const attendanceText = match.attendance ? `👥 ${match.attendance.toLocaleString()}` : '';
                     const separator = venueText && attendanceText ? ' • ' : '';
                     matchInfo = `<div class="match-info-line">${venueText}${separator}${attendanceText}</div>`;
@@ -956,42 +951,62 @@
                 
                 // Timeline: Separate goals and red cards into blocks
                 let timeline = '';
-                const goals = [];
-                const redCards = [];
+                const goalsByPlayer = {}; // Group goals by player
+                const redCardsByPlayer = {}; // Group red cards by player
                 
-                // Collect goals
+                // Collect and group goals by player
                 if (match.goals && match.goals.length > 0) {
                     match.goals.forEach(goal => {
                         const scorer = goal.scorer?.name || 'Unknown';
                         const minute = goal.injuryTime ? `${goal.minute}+${goal.injuryTime}'` : `${goal.minute}'`;
                         const isHome = goal.team?.id === match.homeTeam.id;
-                        goals.push({ player: scorer, minute, isHome });
+                        const key = `${scorer}_${isHome}`;
+                        
+                        if (!goalsByPlayer[key]) {
+                            goalsByPlayer[key] = {
+                                player: scorer,
+                                minutes: [],
+                                isHome: isHome
+                            };
+                        }
+                        goalsByPlayer[key].minutes.push(minute);
                     });
                 }
                 
-                // Collect red cards only
+                // Collect and group red cards by player
                 if (match.bookings && match.bookings.length > 0) {
                     match.bookings.forEach(booking => {
-                        if (booking.card === 'RED') {
+                        if (booking.card === 'RED' || booking.card === 'SECOND_YELLOW') {
                             const player = booking.player?.name || 'Unknown';
                             const minute = booking.injuryTime ? `${booking.minute}+${booking.injuryTime}'` : `${booking.minute}'`;
                             const isHome = booking.team?.id === match.homeTeam.id;
-                            redCards.push({ player, minute, isHome });
+                            const key = `${player}_${isHome}`;
+                            
+                            if (!redCardsByPlayer[key]) {
+                                redCardsByPlayer[key] = {
+                                    player: player,
+                                    minutes: [],
+                                    isHome: isHome
+                                };
+                            }
+                            redCardsByPlayer[key].minutes.push(minute);
                         }
                     });
                 }
                 
                 // Build goals block
                 let goalsBlock = '';
-                if (goals.length > 0) {
-                    const goalsHTML = goals.map(goal => {
+                const goalEntries = Object.values(goalsByPlayer);
+                if (goalEntries.length > 0) {
+                    const goalsHTML = goalEntries.map(goal => {
+                        const minutesText = goal.minutes.join(' ');
                         if (goal.isHome) {
                             return `<div class="timeline-item home-left">
-                                <span class="timeline-text">${goal.player} ${goal.minute}</span>
+                                <span class="timeline-text">${goal.player} ${minutesText}</span>
                             </div>`;
                         } else {
                             return `<div class="timeline-item away-right">
-                                <span class="timeline-text">${goal.player} ${goal.minute}</span>
+                                <span class="timeline-text">${goal.player} ${minutesText}</span>
                             </div>`;
                         }
                     }).join('');
@@ -1004,15 +1019,17 @@
                 
                 // Build red cards block
                 let redCardsBlock = '';
-                if (redCards.length > 0) {
-                    const redCardsHTML = redCards.map(card => {
+                const redCardEntries = Object.values(redCardsByPlayer);
+                if (redCardEntries.length > 0) {
+                    const redCardsHTML = redCardEntries.map(card => {
+                        const minutesText = card.minutes.join(' ');
                         if (card.isHome) {
                             return `<div class="timeline-item home-left">
-                                <span class="timeline-text">${card.player} ${card.minute}</span>
+                                <span class="timeline-text">${card.player} ${minutesText}</span>
                             </div>`;
                         } else {
                             return `<div class="timeline-item away-right">
-                                <span class="timeline-text">${card.player} ${card.minute}</span>
+                                <span class="timeline-text">${card.player} ${minutesText}</span>
                             </div>`;
                         }
                     }).join('');
