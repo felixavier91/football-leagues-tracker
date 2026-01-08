@@ -319,7 +319,7 @@
             }
             
             h1 {
-                font-size: 1.3em;
+                font-size: 1.2em;
             }
             
             header {
@@ -343,24 +343,30 @@
             
             .league-buttons {
                 grid-template-columns: repeat(2, 1fr);
-                gap: 8px;
+                gap: 6px;
             }
             
             .league-btn {
-                padding: 8px 10px;
-                font-size: 0.75em;
+                padding: 6px 8px;
+                font-size: 0.7em;
+            }
+            
+            .league-btn img {
+                width: 20px !important;
+                height: 20px !important;
+                margin-right: 4px !important;
             }
             
             .filters {
                 flex-direction: row;
-                padding: 10px;
-                gap: 8px;
+                padding: 12px;
+                gap: 6px;
             }
             
             .filter-btn {
-                flex: 0 0 calc(50% - 4px);
+                flex: 0 0 calc(50% - 3px);
                 padding: 8px 12px;
-                font-size: 0.75em;
+                font-size: 0.8em;
             }
 
             .match-card.collapsed { 
@@ -608,11 +614,13 @@
                     minute: '2-digit'
                 });
                 
-                // Short date for mobile: "Mon 1/4/26 3:00PM"
+                // Short date for mobile: "Mon 1/4/26 15:00" (24-hour format)
                 const matchDate = new Date(match.utcDate);
                 const dayOfWeek = matchDate.toLocaleDateString(undefined, { weekday: 'short' });
                 const year = String(matchDate.getFullYear()).slice(-2);
-                const shortDate = `${dayOfWeek} ${matchDate.getMonth()+1}/${matchDate.getDate()}/${year} ${matchDate.toLocaleTimeString(undefined, {hour: 'numeric', minute: '2-digit'})}`;
+                const hours = String(matchDate.getHours()).padStart(2, '0');
+                const minutes = String(matchDate.getMinutes()).padStart(2, '0');
+                const shortDate = `${dayOfWeek} ${matchDate.getMonth()+1}/${matchDate.getDate()}/${year} ${hours}:${minutes}`;
 
                 const homeWinner = match.score?.winner === 'HOME_TEAM' ? 'winner' : '';
                 const awayWinner = match.score?.winner === 'AWAY_TEAM' ? 'winner' : '';
