@@ -183,6 +183,10 @@
             white-space: nowrap;
             margin-left: auto;
         }
+        
+        .match-oneliner .date-mobile {
+            display: none;
+        }
 
         /* Expanded card details - hidden by default */
         .match-details {
@@ -364,33 +368,42 @@
             }
 
             .match-oneliner {
-                font-size: 0.8em;
+                font-size: 0.85em;
                 gap: 2px;
                 justify-content: flex-start;
             }
 
             .match-oneliner .team-logo {
-                width: 18px;
-                height: 18px;
+                width: 20px;
+                height: 20px;
                 margin-right: 2px;
             }
             
             .match-oneliner .team-name {
-                font-size: 0.9em;
+                font-size: 0.95em;
                 margin: 0 2px;
             }
             
             .match-oneliner .score {
-                font-size: 0.95em;
+                font-size: 1em;
                 padding: 0 2px;
                 white-space: nowrap;
                 margin: 0 2px;
             }
 
             .match-oneliner .date {
-                font-size: 0.9em;
+                font-size: 0.75em;
                 color: #333;
                 margin-left: auto;
+                white-space: nowrap;
+            }
+            
+            .match-oneliner .date-desktop {
+                display: none;
+            }
+            
+            .match-oneliner .date-mobile {
+                display: inline;
             }
                     
             .match-content {
@@ -584,6 +597,8 @@
             container.innerHTML = matches.map(match => {
                 const homeScore = match.score?.fullTime?.home ?? '-';
                 const awayScore = match.score?.fullTime?.away ?? '-';
+                
+                // Full date for desktop
                 const date = new Date(match.utcDate).toLocaleString(undefined, {
                     weekday: 'short',
                     year: 'numeric',
@@ -592,6 +607,12 @@
                     hour: '2-digit',
                     minute: '2-digit'
                 });
+                
+                // Short date for mobile: "Mon 1/4/26 3:00PM"
+                const matchDate = new Date(match.utcDate);
+                const dayOfWeek = matchDate.toLocaleDateString(undefined, { weekday: 'short' });
+                const year = String(matchDate.getFullYear()).slice(-2);
+                const shortDate = `${dayOfWeek} ${matchDate.getMonth()+1}/${matchDate.getDate()}/${year} ${matchDate.toLocaleTimeString(undefined, {hour: 'numeric', minute: '2-digit'})}`;
 
                 const homeWinner = match.score?.winner === 'HOME_TEAM' ? 'winner' : '';
                 const awayWinner = match.score?.winner === 'AWAY_TEAM' ? 'winner' : '';
@@ -604,7 +625,8 @@
                         <span class="score">${homeScore} - ${awayScore}</span>
                         <span class="team-name">${match.awayTeam.shortName}</span>
                         <img src="${match.awayTeam.crest}" class="team-logo" alt="${match.awayTeam.shortName}" onerror="this.style.display='none'">
-                        <span class="date">${date}</span>
+                        <span class="date date-desktop">${date}</span>
+                        <span class="date date-mobile">${shortDate}</span>
                     </div>
                 `;
 
