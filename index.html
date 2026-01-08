@@ -611,23 +611,17 @@
                     const videoId = highlightsDatabase[currentLeagueCode]?.[season]?.[matchKey]?.videoId;
                     
                     if (videoId) {
-                        // Embed the video with tracking and placeholder
+                        // Embed the video directly
                         youtubeLink = `
-                            <div class="video-container">
-                                <div class="video-placeholder" onclick="this.classList.add('hidden'); trackEvent('reveal_video', {league: '${currentLeagueCode}', home: '${match.homeTeam.shortName}', away: '${match.awayTeam.shortName}'})">
-                                    <div>⚽ Click to Watch Highlights</div>
-                                    <div style="font-size: 0.6em; margin-top: 10px;">⚠️ May contain spoilers</div>
-                                </div>
-                                <iframe width="100%" height="315" 
-                                     src="https://www.youtube.com/embed/${videoId}?mute=1"
-                                     frameborder="0" 
-                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                     referrerpolicy="strict-origin-when-cross-origin"
-                                     allowfullscreen
-                                     loading="lazy"
-                                     style="border-radius: 8px;">
-                                   </iframe>
-                            </div>`;
+                            <iframe width="100%" height="315" 
+                                 src="https://www.youtube.com/embed/${videoId}?mute=1"
+                                 frameborder="0" 
+                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                 referrerpolicy="strict-origin-when-cross-origin"
+                                 allowfullscreen
+                                 loading="lazy"
+                                 style="border-radius: 8px; margin-top: 15px;">
+                               </iframe>`;
                     } else {
                         // Fallback to search button with tracking
                         const youtubeSearchQuery = `${match.homeTeam.name} vs ${match.awayTeam.name} highlights`;
