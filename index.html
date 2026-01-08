@@ -333,12 +333,26 @@
             text-align: center;
         }
         
-        /* Match Timeline - Google-style Clean Format */
+        /* Match Timeline - Goals and Red Cards in Separate Blocks */
         .match-timeline {
             margin: 15px 0;
             padding: 20px;
             background: #fafafa;
             border-radius: 8px;
+        }
+        
+        .timeline-section {
+            margin-bottom: 20px;
+        }
+        
+        .timeline-section:last-child {
+            margin-bottom: 0;
+        }
+        
+        .timeline-section-icon {
+            text-align: center;
+            font-size: 1.5em;
+            margin-bottom: 10px;
         }
         
         .timeline-item {
@@ -480,7 +494,7 @@
             }
             
             h1 {
-                font-size: 1.2em;
+                font-size: 1.5em;
             }
             
             header {
@@ -654,6 +668,11 @@
             }
             
             /* Timeline on mobile */
+            .timeline-section-icon {
+                font-size: 1.2em;
+                margin-bottom: 8px;
+            }
+            
             .timeline-item {
                 padding: 6px 8px;
                 margin: 5px 0;
@@ -913,9 +932,14 @@
                 // Enhanced match details
                 let matchInfo = '';
                 
-                // Venue and Attendance
+                // Venue and Attendance (add city if available from area data)
                 if (match.venue || match.attendance) {
-                    const venueText = match.venue ? `📍 ${match.venue}` : '';
+                    let venueText = '';
+                    if (match.venue) {
+                        // Check if we have area/city info
+                        const city = match.area?.name || '';
+                        venueText = city ? `📍 ${match.venue}, ${city}` : `📍 ${match.venue}`;
+                    }
                     const attendanceText = match.attendance ? `👥 ${match.attendance.toLocaleString()}` : '';
                     const separator = venueText && attendanceText ? ' • ' : '';
                     matchInfo = `<div class="match-info-line">${venueText}${separator}${attendanceText}</div>`;
@@ -930,77 +954,77 @@
                     }
                 }
                 
-                // Timeline: Interweave goals and cards chronologically
+                // Timeline: Separate goals and red cards into blocks
                 let timeline = '';
-                const events = [];
+                const goals = [];
+                const redCards = [];
                 
-                // Add goals to events
+                // Collect goals
                 if (match.goals && match.goals.length > 0) {
                     match.goals.forEach(goal => {
-                        const minute = goal.injuryTime ? goal.minute + (goal.injuryTime / 100) : goal.minute;
-                        events.push({
-                            minute: minute,
-                            displayMinute: goal.injuryTime ? `${goal.minute}+${goal.injuryTime}'` : `${goal.minute}'`,
-                            type: 'goal',
-                            data: goal
-                        });
+                        const scorer = goal.scorer?.name || 'Unknown';
+                        const minute = goal.injuryTime ? `${goal.minute}+${goal.injuryTime}'` : `${goal.minute}'`;
+                        const isHome = goal.team?.id === match.homeTeam.id;
+                        goals.push({ player: scorer, minute, isHome });
                     });
                 }
                 
-                // Add bookings to events
+                // Collect red cards only
                 if (match.bookings && match.bookings.length > 0) {
                     match.bookings.forEach(booking => {
-                        const minute = booking.injuryTime ? booking.minute + (booking.injuryTime / 100) : booking.minute;
-                        events.push({
-                            minute: minute,
-                            displayMinute: booking.injuryTime ? `${booking.minute}+${booking.injuryTime}'` : `${booking.minute}'`,
-                            type: 'card',
-                            data: booking
-                        });
+                        if (booking.card === 'RED') {
+                            const player = booking.player?.name || 'Unknown';
+                            const minute = booking.injuryTime ? `${booking.minute}+${booking.injuryTime}'` : `${booking.minute}'`;
+                            const isHome = booking.team?.id === match.homeTeam.id;
+                            redCards.push({ player, minute, isHome });
+                        }
                     });
                 }
                 
-                // Sort events by minute
-                events.sort((a, b) => a.minute - b.minute);
-                
-                // Generate timeline HTML (Clean Google-style format: "player name, minute")
-                if (events.length > 0) {
-                    const timelineHTML = events.map(event => {
-                        if (event.type === 'goal') {
-                            const goal = event.data;
-                            const scorer = goal.scorer?.name || 'Unknown';
-                            const isHome = goal.team?.id === match.homeTeam.id;
-                            
-                            if (isHome) {
-                                // Home team goal - LEFT side
-                                return `<div class="timeline-item home-left">
-                                    <span class="timeline-text">${scorer}, ${event.displayMinute}</span>
-                                </div>`;
-                            } else {
-                                // Away team goal - RIGHT side
-                                return `<div class="timeline-item away-right">
-                                    <span class="timeline-text">${scorer}, ${event.displayMinute}</span>
-                                </div>`;
-                            }
+                // Build goals block
+                let goalsBlock = '';
+                if (goals.length > 0) {
+                    const goalsHTML = goals.map(goal => {
+                        if (goal.isHome) {
+                            return `<div class="timeline-item home-left">
+                                <span class="timeline-text">${goal.player} ${goal.minute}</span>
+                            </div>`;
                         } else {
-                            const booking = event.data;
-                            const player = booking.player?.name || 'Unknown';
-                            const isHome = booking.team?.id === match.homeTeam.id;
-                            
-                            if (isHome) {
-                                // Home team card - LEFT side
-                                return `<div class="timeline-item home-left">
-                                    <span class="timeline-text">${player}, ${event.displayMinute}</span>
-                                </div>`;
-                            } else {
-                                // Away team card - RIGHT side
-                                return `<div class="timeline-item away-right">
-                                    <span class="timeline-text">${player}, ${event.displayMinute}</span>
-                                </div>`;
-                            }
+                            return `<div class="timeline-item away-right">
+                                <span class="timeline-text">${goal.player} ${goal.minute}</span>
+                            </div>`;
                         }
                     }).join('');
-                    timeline = `<div class="match-timeline">${timelineHTML}</div>`;
+                    goalsBlock = `
+                        <div class="timeline-section">
+                            <div class="timeline-section-icon">⚽</div>
+                            ${goalsHTML}
+                        </div>`;
+                }
+                
+                // Build red cards block
+                let redCardsBlock = '';
+                if (redCards.length > 0) {
+                    const redCardsHTML = redCards.map(card => {
+                        if (card.isHome) {
+                            return `<div class="timeline-item home-left">
+                                <span class="timeline-text">${card.player} ${card.minute}</span>
+                            </div>`;
+                        } else {
+                            return `<div class="timeline-item away-right">
+                                <span class="timeline-text">${card.player} ${card.minute}</span>
+                            </div>`;
+                        }
+                    }).join('');
+                    redCardsBlock = `
+                        <div class="timeline-section">
+                            <div class="timeline-section-icon">🟥</div>
+                            ${redCardsHTML}
+                        </div>`;
+                }
+                
+                if (goalsBlock || redCardsBlock) {
+                    timeline = `<div class="match-timeline">${goalsBlock}${redCardsBlock}</div>`;
                 }
                 
                 // Soccer Pitch Formation Visualization (respecting formation structure)
