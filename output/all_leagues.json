@@ -95974,14 +95974,14 @@
         "id": 537987,
         "utcDate": "2026-01-08T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 81,
+        "minute": 86,
         "injuryTime": null,
         "attendance": null,
         "venue": "Emirates Stadium",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-08T22:38:36Z",
+        "lastUpdated": "2026-01-08T22:42:51Z",
         "homeTeam": {
           "id": 57,
           "name": "Arsenal FC",
@@ -96282,6 +96282,18 @@
             "player": {
               "id": 8984,
               "name": "Leandro Trossard"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 83,
+            "team": {
+              "id": 57,
+              "name": "Arsenal FC"
+            },
+            "player": {
+              "id": 179744,
+              "name": "Mikel Arteta"
             },
             "card": "YELLOW"
           }
@@ -387163,13 +387175,13 @@
         "utcDate": "2026-01-08T19:45:00Z",
         "status": "IN_PLAY",
         "minute": 90,
-        "injuryTime": 1,
+        "injuryTime": 5,
         "attendance": null,
         "venue": "Giuseppe Meazza",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-08T22:39:01Z",
+        "lastUpdated": "2026-01-08T22:43:16Z",
         "homeTeam": {
           "id": 98,
           "name": "AC Milan",
@@ -387471,10 +387483,10 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 1
           },
           "halfTime": {
@@ -387501,6 +387513,24 @@
             },
             "score": {
               "home": 0,
+              "away": 1
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 2,
+            "type": "REGULAR",
+            "team": {
+              "id": 98,
+              "name": "AC Milan"
+            },
+            "scorer": {
+              "id": 15892,
+              "name": "Rafael Leão"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
               "away": 1
             }
           }

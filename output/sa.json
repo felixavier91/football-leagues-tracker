@@ -91709,13 +91709,13 @@
       "utcDate": "2026-01-08T19:45:00Z",
       "status": "IN_PLAY",
       "minute": 90,
-      "injuryTime": 1,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-08T22:39:01Z",
+      "lastUpdated": "2026-01-08T22:43:16Z",
       "homeTeam": {
         "id": 98,
         "name": "AC Milan",
@@ -92017,10 +92017,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -92047,6 +92047,24 @@
           },
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "scorer": {
+            "id": 15892,
+            "name": "Rafael Leão"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
