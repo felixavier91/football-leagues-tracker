@@ -316,54 +316,156 @@
         .match-info-line {
             font-size: 0.9em;
             color: #666;
-            margin-bottom: 8px;
-            padding: 8px;
+            margin-bottom: 10px;
+            padding: 10px;
             background: #f9f9f9;
             border-radius: 6px;
+            text-align: center;
         }
         
-        .formations {
-            font-size: 0.9em;
-            color: #555;
-            margin-bottom: 10px;
-            padding: 6px;
-            background: #f0f0f0;
+        .referee-section {
+            font-size: 0.85em;
+            color: #666;
+            margin-bottom: 15px;
+            padding: 8px;
+            background: #f5f5f5;
             border-radius: 4px;
             text-align: center;
         }
         
-        .goals-section, .cards-section {
-            margin: 12px 0;
-            padding: 10px;
+        /* Match Timeline */
+        .match-timeline {
+            margin: 15px 0;
+            padding: 15px;
             background: #fafafa;
-            border-radius: 6px;
-            font-size: 0.9em;
+            border-radius: 8px;
         }
         
-        .goals-section strong, .cards-section strong {
-            color: #c8102e;
+        .match-timeline strong {
             display: block;
-            margin-bottom: 6px;
+            color: #c8102e;
+            margin-bottom: 12px;
+            font-size: 1.1em;
         }
         
-        .goal-item, .card-item {
-            padding: 4px 0;
-            border-left: 3px solid #c8102e;
-            padding-left: 8px;
-            margin: 4px 0;
-        }
-        
-        .card-item {
-            border-left-color: #ffc107;
-        }
-        
-        .referee-section, .injury-time {
-            font-size: 0.85em;
-            color: #666;
+        .timeline-item {
+            display: flex;
+            align-items: center;
+            padding: 8px;
             margin: 6px 0;
-            padding: 6px;
-            background: #f5f5f5;
+            border-radius: 6px;
+            border-left: 4px solid #ddd;
+            background: white;
+        }
+        
+        .timeline-item.home-event {
+            border-left-color: #c8102e;
+        }
+        
+        .timeline-item.away-event {
+            border-left-color: #0066cc;
+        }
+        
+        .timeline-minute {
+            font-weight: bold;
+            color: #c8102e;
+            min-width: 45px;
+            font-size: 0.95em;
+        }
+        
+        .timeline-icon {
+            font-size: 1.2em;
+            margin: 0 10px;
+        }
+        
+        .timeline-text {
+            flex: 1;
+            font-size: 0.95em;
+        }
+        
+        .timeline-score {
+            color: #666;
+            font-weight: normal;
+            margin-left: 8px;
+        }
+        
+        /* Squad Lineups */
+        .squads-section {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+        
+        .squads-title {
+            text-align: center;
+            color: #c8102e;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        
+        .squads-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .squad-column {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        .squad-header {
+            font-weight: bold;
+            font-size: 1.05em;
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+        
+        .squad-header.home-squad {
+            background: #c8102e;
+            color: white;
+        }
+        
+        .squad-header.away-squad {
+            background: #0066cc;
+            color: white;
+        }
+        
+        .squad-category {
+            font-weight: 600;
+            color: #555;
+            margin: 12px 0 8px 0;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .player-item {
+            padding: 6px 8px;
+            margin: 3px 0;
+            background: #fafafa;
             border-radius: 4px;
+            font-size: 0.85em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .player-item.bench {
+            opacity: 0.7;
+            font-style: italic;
+        }
+        
+        .player-position {
+            color: #999;
+            font-size: 0.85em;
         }
         
         /* Mobile optimizations */
@@ -489,14 +591,74 @@
             }
             
             /* Enhanced info on mobile */
-            .match-info-line, .formations, .goals-section, .cards-section, 
-            .referee-section, .injury-time {
+            .match-info-line, .referee-section {
                 font-size: 0.75em;
             }
             
-            .goal-item, .card-item {
+            .match-timeline {
+                padding: 10px;
+            }
+            
+            .match-timeline strong {
+                font-size: 0.95em;
+            }
+            
+            .timeline-item {
+                padding: 6px;
+                font-size: 0.8em;
+            }
+            
+            .timeline-minute {
+                min-width: 35px;
+                font-size: 0.85em;
+            }
+            
+            .timeline-icon {
+                font-size: 1em;
+                margin: 0 6px;
+            }
+            
+            .timeline-text {
+                font-size: 0.85em;
+            }
+            
+            .squads-section {
+                padding: 10px;
+            }
+            
+            .squads-title {
+                font-size: 0.95em;
+            }
+            
+            .squads-container {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .squad-column {
+                padding: 10px;
+            }
+            
+            .squad-header {
                 font-size: 0.9em;
-                padding: 3px 0 3px 6px;
+                padding: 8px;
+            }
+            
+            .squad-category {
+                font-size: 0.75em;
+                margin: 10px 0 6px 0;
+            }
+            
+            .player-item {
+                padding: 5px 6px;
+                font-size: 0.75em;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .player-position {
+                font-size: 0.9em;
+                margin-top: 2px;
             }
         }
     </style>
@@ -749,43 +911,6 @@
                     matchInfo = `<div class="match-info-line">${venueText}${separator}${attendanceText}</div>`;
                 }
                 
-                // Formations
-                let formations = '';
-                if (match.homeTeam?.formation || match.awayTeam?.formation) {
-                    const homeForm = match.homeTeam?.formation || '-';
-                    const awayForm = match.awayTeam?.formation || '-';
-                    formations = `<div class="formations">⚙️ Formations: ${homeForm} vs ${awayForm}</div>`;
-                }
-                
-                // Goals with scorers and assists
-                let goalsSection = '';
-                if (match.goals && match.goals.length > 0) {
-                    const goalsHTML = match.goals.map(goal => {
-                        const minute = goal.injuryTime ? `${goal.minute}+${goal.injuryTime}'` : `${goal.minute}'`;
-                        const scorer = goal.scorer?.name || 'Unknown';
-                        const assist = goal.assist?.name ? ` (${goal.assist.name})` : '';
-                        const teamName = goal.team?.name || '';
-                        const score = `${goal.score?.home}-${goal.score?.away}`;
-                        const isPenalty = goal.type === 'PENALTY' ? ' ⚽(pen)' : ' ⚽';
-                        const isOwnGoal = goal.type === 'OWN_GOAL' ? ' (OG)' : '';
-                        
-                        return `<div class="goal-item">${minute} ${scorer}${assist}${isPenalty}${isOwnGoal} [${score}]</div>`;
-                    }).join('');
-                    goalsSection = `<div class="goals-section"><strong>Goals:</strong><br>${goalsHTML}</div>`;
-                }
-                
-                // Yellow/Red Cards
-                let cardsSection = '';
-                if (match.bookings && match.bookings.length > 0) {
-                    const cardsHTML = match.bookings.map(booking => {
-                        const minute = booking.minute;
-                        const player = booking.player?.name || 'Unknown';
-                        const card = booking.card === 'YELLOW' ? '🟨' : '🟥';
-                        return `<div class="card-item">${minute}' ${card} ${player}</div>`;
-                    }).join('');
-                    cardsSection = `<div class="cards-section"><strong>Cards:</strong><br>${cardsHTML}</div>`;
-                }
-                
                 // Referee
                 let refereeSection = '';
                 if (match.referees && match.referees.length > 0) {
@@ -795,22 +920,134 @@
                     }
                 }
                 
-                // Injury time
-                let injuryTimeSection = '';
-                if (match.injuryTime) {
-                    injuryTimeSection = `<div class="injury-time">⏱️ Injury Time: +${match.injuryTime} min</div>`;
+                // Timeline: Interweave goals and cards chronologically
+                let timeline = '';
+                const events = [];
+                
+                // Add goals to events
+                if (match.goals && match.goals.length > 0) {
+                    match.goals.forEach(goal => {
+                        const minute = goal.injuryTime ? goal.minute + (goal.injuryTime / 100) : goal.minute;
+                        events.push({
+                            minute: minute,
+                            displayMinute: goal.injuryTime ? `${goal.minute}+${goal.injuryTime}'` : `${goal.minute}'`,
+                            type: 'goal',
+                            data: goal
+                        });
+                    });
+                }
+                
+                // Add bookings to events
+                if (match.bookings && match.bookings.length > 0) {
+                    match.bookings.forEach(booking => {
+                        const minute = booking.injuryTime ? booking.minute + (booking.injuryTime / 100) : booking.minute;
+                        events.push({
+                            minute: minute,
+                            displayMinute: booking.injuryTime ? `${booking.minute}+${booking.injuryTime}'` : `${booking.minute}'`,
+                            type: 'card',
+                            data: booking
+                        });
+                    });
+                }
+                
+                // Sort events by minute
+                events.sort((a, b) => a.minute - b.minute);
+                
+                // Generate timeline HTML
+                if (events.length > 0) {
+                    const timelineHTML = events.map(event => {
+                        if (event.type === 'goal') {
+                            const goal = event.data;
+                            const scorer = goal.scorer?.name || 'Unknown';
+                            const assist = goal.assist?.name ? ` (Assist: ${goal.assist.name})` : '';
+                            const score = `${goal.score?.home}-${goal.score?.away}`;
+                            const isPenalty = goal.type === 'PENALTY' ? ' (Penalty)' : '';
+                            const isOwnGoal = goal.type === 'OWN_GOAL' ? ' (Own Goal)' : '';
+                            const teamName = goal.team?.name || '';
+                            const isHome = goal.team?.id === match.homeTeam.id;
+                            
+                            return `<div class="timeline-item goal-item ${isHome ? 'home-event' : 'away-event'}">
+                                <span class="timeline-minute">${event.displayMinute}</span>
+                                <span class="timeline-icon">⚽</span>
+                                <span class="timeline-text"><strong>${scorer}</strong>${assist}${isPenalty}${isOwnGoal} <span class="timeline-score">[${score}]</span></span>
+                            </div>`;
+                        } else {
+                            const booking = event.data;
+                            const player = booking.player?.name || 'Unknown';
+                            const card = booking.card === 'YELLOW' ? '🟨' : '🟥';
+                            const teamName = booking.team?.name || '';
+                            const isHome = booking.team?.id === match.homeTeam.id;
+                            
+                            return `<div class="timeline-item card-item ${isHome ? 'home-event' : 'away-event'}">
+                                <span class="timeline-minute">${event.displayMinute}</span>
+                                <span class="timeline-icon">${card}</span>
+                                <span class="timeline-text">${player}</span>
+                            </div>`;
+                        }
+                    }).join('');
+                    timeline = `<div class="match-timeline"><strong>Match Events:</strong>${timelineHTML}</div>`;
+                }
+                
+                // Squad Lineups
+                let squadsSection = '';
+                if (match.homeTeam?.lineup || match.awayTeam?.lineup) {
+                    const homeFormation = match.homeTeam?.formation || '-';
+                    const awayFormation = match.awayTeam?.formation || '-';
+                    
+                    // Home squad
+                    let homeSquad = '';
+                    if (match.homeTeam?.lineup) {
+                        const starters = match.homeTeam.lineup.map(p => 
+                            `<div class="player-item">${p.shirtNumber}. ${p.name} <span class="player-position">(${p.position})</span></div>`
+                        ).join('');
+                        homeSquad = `<div class="squad-column">
+                            <div class="squad-header home-squad">${match.homeTeam.shortName} (${homeFormation})</div>
+                            <div class="squad-category">Starting XI:</div>
+                            ${starters}`;
+                        
+                        if (match.homeTeam.bench && match.homeTeam.bench.length > 0) {
+                            const bench = match.homeTeam.bench.map(p => 
+                                `<div class="player-item bench">${p.shirtNumber}. ${p.name} <span class="player-position">(${p.position})</span></div>`
+                            ).join('');
+                            homeSquad += `<div class="squad-category">Bench:</div>${bench}`;
+                        }
+                        homeSquad += `</div>`;
+                    }
+                    
+                    // Away squad
+                    let awaySquad = '';
+                    if (match.awayTeam?.lineup) {
+                        const starters = match.awayTeam.lineup.map(p => 
+                            `<div class="player-item">${p.shirtNumber}. ${p.name} <span class="player-position">(${p.position})</span></div>`
+                        ).join('');
+                        awaySquad = `<div class="squad-column">
+                            <div class="squad-header away-squad">${match.awayTeam.shortName} (${awayFormation})</div>
+                            <div class="squad-category">Starting XI:</div>
+                            ${starters}`;
+                        
+                        if (match.awayTeam.bench && match.awayTeam.bench.length > 0) {
+                            const bench = match.awayTeam.bench.map(p => 
+                                `<div class="player-item bench">${p.shirtNumber}. ${p.name} <span class="player-position">(${p.position})</span></div>`
+                            ).join('');
+                            awaySquad += `<div class="squad-category">Bench:</div>${bench}`;
+                        }
+                        awaySquad += `</div>`;
+                    }
+                    
+                    squadsSection = `<div class="squads-section">
+                        <div class="squads-title"><strong>Team Lineups</strong></div>
+                        <div class="squads-container">${homeSquad}${awaySquad}</div>
+                    </div>`;
                 }
 
-                // Full expanded details
+                // Full expanded details (VIDEO FIRST, then everything else)
                 const details = `
                     <div class="match-details">
-                        ${matchInfo}
-                        ${formations}
-                        ${goalsSection}
-                        ${cardsSection}
-                        ${refereeSection}
-                        ${injuryTimeSection}
                         ${youtubeLink}
+                        ${matchInfo}
+                        ${refereeSection}
+                        ${timeline}
+                        ${squadsSection}
                     </div>
                 `;
 
