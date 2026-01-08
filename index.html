@@ -160,34 +160,28 @@
             color: #333;
         }
 
-        .match-oneliner .team-logos {
-            display: flex;
-            gap: 8px;
-            align-items: center;
-        }
-
-        .match-oneliner .team-logos img {
-            width: 24px;
-            height: 24px;
+        .match-oneliner .team-logo {
+            width: 28px;
+            height: 28px;
             object-fit: contain;
         }
 
-        .match-oneliner .match-score {
+        .match-oneliner .team-name {
+            font-weight: 600;
+        }
+
+        .match-oneliner .score {
             font-weight: bold;
             color: #c8102e;
-            min-width: 50px;
-            text-align: center;
+            padding: 0 8px;
+            font-size: 1.1em;
         }
 
-        .match-oneliner .match-teams {
-            font-weight: 600;
-            flex: 1;
-        }
-
-        .match-oneliner .match-time {
+        .match-oneliner .date {
             color: #999;
             font-size: 0.9em;
             white-space: nowrap;
+            margin-left: auto;
         }
 
         /* Expanded card details - hidden by default */
@@ -582,18 +576,15 @@
                 const homeWinner = match.score?.winner === 'HOME_TEAM' ? 'winner' : '';
                 const awayWinner = match.score?.winner === 'AWAY_TEAM' ? 'winner' : '';
 
-                // One-liner format
+                // One-liner format: shield-name-score-name-shield
                 const oneliner = `
                     <div class="match-oneliner">
-                        <div class="team-logos">
-                            <img src="${match.homeTeam.crest}" alt="${match.homeTeam.shortName}" onerror="this.style.display='none'">
-                            <img src="${match.awayTeam.crest}" alt="${match.awayTeam.shortName}" onerror="this.style.display='none'">
-                        </div>
-                        <div class="match-teams">
-                            ${match.homeTeam.shortName} vs ${match.awayTeam.shortName}
-                        </div>
-                        <div class="match-score">${homeScore} - ${awayScore}</div>
-                        <div class="match-time">${date}</div>
+                        <img src="${match.homeTeam.crest}" class="team-logo" alt="${match.homeTeam.shortName}" onerror="this.style.display='none'">
+                        <span class="team-name">${match.homeTeam.shortName}</span>
+                        <span class="score">${homeScore} - ${awayScore}</span>
+                        <span class="team-name">${match.awayTeam.shortName}</span>
+                        <img src="${match.awayTeam.crest}" class="team-logo" alt="${match.awayTeam.shortName}" onerror="this.style.display='none'">
+                        <span class="date">${date}</span>
                     </div>
                 `;
 
