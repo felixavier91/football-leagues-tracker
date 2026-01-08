@@ -380,117 +380,6 @@
             font-weight: normal;
         }
         
-        /* Soccer Pitch Formation */
-        .pitch-container {
-            margin: 20px 0;
-            background: #f9f9f9;
-            border-radius: 12px;
-            padding: 15px;
-        }
-        
-        .pitch-header {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 15px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #e0e0e0;
-        }
-        
-        .pitch-team {
-            font-weight: bold;
-            font-size: 1em;
-            color: #333;
-        }
-        
-        .pitch-vs {
-            color: #999;
-            font-weight: 600;
-        }
-        
-        .soccer-pitch {
-            background: linear-gradient(180deg, #2d5016 0%, #3a6b1e 50%, #2d5016 100%);
-            border-radius: 8px;
-            padding: 15px;
-            position: relative;
-            min-height: 500px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            box-shadow: inset 0 0 30px rgba(0,0,0,0.2);
-        }
-        
-        .pitch-row {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            padding: 8px 0;
-            position: relative;
-            z-index: 2;
-        }
-        
-        .midfield-line {
-            position: absolute;
-            top: 50%;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: rgba(255, 255, 255, 0.3);
-            transform: translateY(-50%);
-            z-index: 1;
-        }
-        
-        .midfield-line::before {
-            content: '';
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            width: 80px;
-            height: 80px;
-            border: 2px solid rgba(255, 255, 255, 0.3);
-            border-radius: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        .pitch-player {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 3px;
-            cursor: pointer;
-            transition: transform 0.2s;
-        }
-        
-        .pitch-player:hover {
-            transform: scale(1.1);
-        }
-        
-        .player-number {
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            font-size: 0.85em;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-            background: #333;
-            color: white;
-        }
-        
-        .player-name-short {
-            background: rgba(255, 255, 255, 0.95);
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-size: 0.7em;
-            font-weight: 600;
-            color: #333;
-            white-space: nowrap;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-        }
-        
         /* Mobile optimizations */
         @media (max-width: 768px) {
             body {
@@ -620,55 +509,6 @@
             
             .match-timeline {
                 padding: 10px;
-            }
-            
-            /* Pitch on mobile */
-            .pitch-container {
-                padding: 10px;
-                margin: 15px 0;
-            }
-            
-            .pitch-header {
-                flex-direction: column;
-                gap: 8px;
-                margin-bottom: 10px;
-            }
-            
-            .pitch-team {
-                font-size: 0.85em;
-            }
-            
-            .pitch-vs {
-                font-size: 0.8em;
-            }
-            
-            .soccer-pitch {
-                min-height: 400px;
-                padding: 10px;
-            }
-            
-            .pitch-row {
-                padding: 5px 0;
-            }
-            
-            .pitch-player {
-                gap: 2px;
-            }
-            
-            .player-number {
-                width: 24px;
-                height: 24px;
-                font-size: 0.7em;
-            }
-            
-            .player-name-short {
-                font-size: 0.6em;
-                padding: 2px 5px;
-            }
-            
-            .midfield-line::before {
-                width: 60px;
-                height: 60px;
             }
             
             /* Timeline on mobile */
@@ -972,13 +812,13 @@
                     });
                 }
                 
-                // Separate red cards by team
+                // Separate red cards by team (RED, YELLOW_RED, or SECOND_YELLOW)
                 const homeRedCards = {};
                 const awayRedCards = {};
                 
                 if (match.bookings && match.bookings.length > 0) {
                     match.bookings.forEach(booking => {
-                        if (booking.card === 'RED' || booking.card === 'SECOND_YELLOW') {
+                        if (booking.card === 'RED' || booking.card === 'SECOND_YELLOW' || booking.card === 'YELLOW_RED') {
                             const player = booking.player?.name || 'Unknown';
                             const minute = booking.injuryTime ? `${booking.minute}+${booking.injuryTime}'` : `${booking.minute}'`;
                             const isHome = booking.team?.id === match.homeTeam.id;
@@ -1052,148 +892,14 @@
                     timeline = `<div class="match-timeline">${timelineContent}</div>`;
                 }
                 
-                // Soccer Pitch Formation Visualization (respecting formation structure)
-                let pitchSection = '';
-                if (match.homeTeam?.lineup && match.awayTeam?.lineup) {
-                    const homeFormation = match.homeTeam?.formation || '';
-                    const awayFormation = match.awayTeam?.formation || '';
-                    
-                    // Parse formation string into array of numbers (e.g., "4-2-3-1" -> [4, 2, 3, 1])
-                    const parseFormation = (formation) => {
-                        if (!formation) return [];
-                        return formation.split('-').map(n => parseInt(n));
-                    };
-                    
-                    // Function to categorize player position into GK, DEF, MID, FWD
-                    const getPositionCategory = (position) => {
-                        const pos = position.toLowerCase();
-                        if (pos.includes('goalkeeper')) return 'GK';
-                        if (pos.includes('back') || pos.includes('defence')) return 'DEF';
-                        if (pos.includes('midfield')) return 'MID';
-                        if (pos.includes('forward') || pos.includes('winger') || pos.includes('striker')) return 'FWD';
-                        return 'MID'; // default
-                    };
-                    
-                    // Group home players by position
-                    const homePlayers = {
-                        GK: [],
-                        DEF: [],
-                        MID: [],
-                        FWD: []
-                    };
-                    
-                    match.homeTeam.lineup.forEach(player => {
-                        const category = getPositionCategory(player.position);
-                        homePlayers[category].push(player);
-                    });
-                    
-                    // Group away players by position
-                    const awayPlayers = {
-                        GK: [],
-                        DEF: [],
-                        MID: [],
-                        FWD: []
-                    };
-                    
-                    match.awayTeam.lineup.forEach(player => {
-                        const category = getPositionCategory(player.position);
-                        awayPlayers[category].push(player);
-                    });
-                    
-                    // Parse formations
-                    const homeFormArray = parseFormation(homeFormation);
-                    const awayFormArray = parseFormation(awayFormation);
-                    
-                    // Generate player HTML
-                    const generatePlayerHTML = (players, teamClass) => {
-                        return players.map(p => 
-                            `<div class="pitch-player ${teamClass}" title="${p.position}">
-                                <div class="player-number">${p.shirtNumber}</div>
-                                <div class="player-name-short">${p.name.split(' ').pop()}</div>
-                            </div>`
-                        ).join('');
-                    };
-                    
-                    // Build rows based on formation
-                    // Away team rows (top to bottom: FWD -> MID layers -> DEF -> GK)
-                    let awayRows = '';
-                    if (awayFormArray.length > 0) {
-                        // Forwards
-                        const fwdCount = awayFormArray[awayFormArray.length - 1];
-                        awayRows += `<div class="pitch-row">${generatePlayerHTML(awayPlayers.FWD.slice(0, fwdCount), 'away-player')}</div>`;
-                        
-                        // Midfield layers (all middle numbers)
-                        for (let i = awayFormArray.length - 2; i > 0; i--) {
-                            const midCount = awayFormArray[i];
-                            const midsToShow = awayPlayers.MID.slice(0, midCount);
-                            awayPlayers.MID = awayPlayers.MID.slice(midCount);
-                            awayRows += `<div class="pitch-row">${generatePlayerHTML(midsToShow, 'away-player')}</div>`;
-                        }
-                        
-                        // Defenders
-                        const defCount = awayFormArray[0];
-                        awayRows += `<div class="pitch-row">${generatePlayerHTML(awayPlayers.DEF.slice(0, defCount), 'away-player')}</div>`;
-                    } else {
-                        // Fallback
-                        awayRows = `
-                            <div class="pitch-row">${generatePlayerHTML(awayPlayers.FWD, 'away-player')}</div>
-                            <div class="pitch-row">${generatePlayerHTML(awayPlayers.MID, 'away-player')}</div>
-                            <div class="pitch-row">${generatePlayerHTML(awayPlayers.DEF, 'away-player')}</div>
-                        `;
-                    }
-                    awayRows += `<div class="pitch-row">${generatePlayerHTML(awayPlayers.GK, 'away-player')}</div>`;
-                    
-                    // Home team rows (bottom to top: GK -> DEF -> MID layers -> FWD)
-                    let homeRows = `<div class="pitch-row">${generatePlayerHTML(homePlayers.GK, 'home-player')}</div>`;
-                    if (homeFormArray.length > 0) {
-                        // Defenders
-                        const defCount = homeFormArray[0];
-                        homeRows += `<div class="pitch-row">${generatePlayerHTML(homePlayers.DEF.slice(0, defCount), 'home-player')}</div>`;
-                        
-                        // Midfield layers (all middle numbers)
-                        for (let i = 1; i < homeFormArray.length - 1; i++) {
-                            const midCount = homeFormArray[i];
-                            const midsToShow = homePlayers.MID.slice(0, midCount);
-                            homePlayers.MID = homePlayers.MID.slice(midCount);
-                            homeRows += `<div class="pitch-row">${generatePlayerHTML(midsToShow, 'home-player')}</div>`;
-                        }
-                        
-                        // Forwards
-                        const fwdCount = homeFormArray[homeFormArray.length - 1];
-                        homeRows += `<div class="pitch-row">${generatePlayerHTML(homePlayers.FWD.slice(0, fwdCount), 'home-player')}</div>`;
-                    } else {
-                        // Fallback
-                        homeRows += `
-                            <div class="pitch-row">${generatePlayerHTML(homePlayers.DEF, 'home-player')}</div>
-                            <div class="pitch-row">${generatePlayerHTML(homePlayers.MID, 'home-player')}</div>
-                            <div class="pitch-row">${generatePlayerHTML(homePlayers.FWD, 'home-player')}</div>
-                        `;
-                    }
-                    
-                    pitchSection = `
-                        <div class="pitch-container">
-                            <div class="pitch-header">
-                                <span class="pitch-team">${match.homeTeam.shortName} (${homeFormation})</span>
-                                <span class="pitch-vs">vs</span>
-                                <span class="pitch-team">${match.awayTeam.shortName} (${awayFormation})</span>
-                            </div>
-                            <div class="soccer-pitch">
-                                ${awayRows}
-                                <div class="midfield-line"></div>
-                                ${homeRows}
-                            </div>
-                        </div>
-                    `;
-                }
 
-                // Full expanded details (VIDEO at top, then venue/referee, timeline, and pitch)
+                // Full expanded details (VIDEO at top, then venue/referee and timeline)
                 const details = `
                     <div class="match-details">
                         ${youtubeLink}
                         ${matchInfo}
                         ${refereeSection}
                         ${timeline}
-                        ${pitchSection}
                     </div>
                 `;
 
