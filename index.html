@@ -1338,6 +1338,18 @@
             // If the clicked card wasn't expanded, expand it now
             if (!isCurrentlyExpanded) {
                 cardElement.classList.add('expanded');
+                
+                // Scroll to the card smoothly after a brief delay to let it expand
+                setTimeout(() => {
+                    const headerHeight = 60; // Approximate header height
+                    const cardTop = cardElement.getBoundingClientRect().top + window.pageYOffset;
+                    const scrollPosition = cardTop - headerHeight - 20; // 20px padding from top
+                    
+                    window.scrollTo({
+                        top: scrollPosition,
+                        behavior: 'smooth'
+                    });
+                }, 100);
             }
         }
 
