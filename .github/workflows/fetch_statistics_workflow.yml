@@ -1,0 +1,43 @@
+name: Fetch Match Statistics
+
+on:
+  schedule:
+    # Run every 10 minutes from 7 AM to 9 PM EST (same as highlights)
+    - cron: '*/10 11-1 * * *'  # 7 AM - 9 PM EST (UTC is 5 hours ahead)
+  workflow_dispatch:  # Allow manual runs
+    inputs:
+      fetch_all:
+        description: 'Fetch all matches (backfill)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  fetch-statistics:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Fetch match statistics
+        run: |
+          if [ "${{ github.event.inputs.fetch_all }}" = "true" ]; then
+            echo "Running in BACKFILL mode (all matches)"
+            node fetch_match_statistics.js --all
+          else
+            echo "Running in NORMAL mode (today's matches only)"
+            node fetch_match_statistics.js
+          fi
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add output/match_statistics.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update match statistics - $(date)" && git push)
