@@ -32,7 +32,7 @@ OUTPUT_FILE = "highlights_database_updated.json"
 DELAY_BETWEEN_SEARCHES = 2  # Seconds (be nice to YouTube)
 
 # Processing mode
-TODAY_ONLY = True  # Set to True to only process today's matches, False to backfill all historical matches
+TODAY_ONLY = True  # Set to True to process matches from the last 48 hours, False to backfill all historical matches
 
 # Leagues to process (set to None to process all)
 LEAGUES_TO_PROCESS = ["PD", "PL", "FL1", "BL1", "SA", "PPL", "DED", "CL"]  # PD = La Liga, PL = Premier League, FL1 = Ligue 1, BL1 = Bundesliga, SA = Serie A, PPL = Primeira Liga, DED = Eredivisie, CL = Champions League
@@ -402,11 +402,15 @@ def process_matches():
                 away_team = match["awayTeam"]["name"]
                 match_key = f"{home_team}-{away_team}-{match_date}"
                 
-                # If TODAY_ONLY mode, skip matches that aren't from today
+                # If TODAY_ONLY mode, skip matches that aren't from the last 48 hours
                 if TODAY_ONLY:
-                    today = date.today().isoformat()
-                    if match_date != today:
-                        continue  # Skip this match, it's not from today
+                    today = date.today()
+                    yesterday = today - timedelta(days=1)
+                    today_str = today.isoformat()
+                    yesterday_str = yesterday.isoformat()
+                    
+                    if match_date != today_str and match_date != yesterday_str:
+                        continue  # Skip this match, it's not from the last 48 hours
                 
                 # Check if match already exists in database with a videoId
                 existing_video_id = highlights[league_code][season].get(match_key, {}).get("videoId")
