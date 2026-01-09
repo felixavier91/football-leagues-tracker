@@ -261,6 +261,58 @@
             color: white;
         }
         
+        /* Match Statistics */
+        .match-stats-container {
+            margin: 20px 0 0 0;
+            padding: 15px;
+            background: #fafafa;
+            border-radius: 8px;
+        }
+        
+        .match-stats-header {
+            font-weight: 700;
+            color: #c8102e;
+            margin-bottom: 15px;
+            text-align: center;
+            font-size: 1.1em;
+        }
+        
+        .match-stats-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .stat-row {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            align-items: center;
+            padding: 10px;
+            background: white;
+            border-radius: 6px;
+        }
+        
+        .stat-home {
+            text-align: center;
+            font-weight: 700;
+            font-size: 1.2em;
+            color: #333;
+        }
+        
+        .stat-label {
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+        
+        .stat-away {
+            text-align: center;
+            font-weight: 700;
+            font-size: 1.2em;
+            color: #333;
+        }
+        
         /* Search Bar */
         .search-container {
             background: white;
@@ -740,6 +792,33 @@
                 padding: 4px 0;
                 font-size: 0.85em;
             }
+            
+            /* Match stats on mobile */
+            .match-stats-container {
+                padding: 12px;
+                margin-top: 15px;
+            }
+            
+            .match-stats-header {
+                font-size: 0.95em;
+                margin-bottom: 10px;
+            }
+            
+            .match-stats-grid {
+                gap: 8px;
+            }
+            
+            .stat-row {
+                padding: 8px;
+            }
+            
+            .stat-home, .stat-away {
+                font-size: 1em;
+            }
+            
+            .stat-label {
+                font-size: 0.8em;
+            }
         }
     </style>
 </head>
@@ -751,7 +830,6 @@
         </div>
 
         <div class="standings-container" id="standingsContainer" style="display: none;">
-            <div class="standings-header">League Stats</div>
             <div class="standings-tabs">
                 <button class="standings-tab active" onclick="switchStatsTab('standings')">Standings</button>
                 <button class="standings-tab" onclick="switchStatsTab('goals')">Goals</button>
