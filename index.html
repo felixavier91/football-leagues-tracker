@@ -116,6 +116,37 @@
             border-bottom: 2px solid #f0f0f0;
         }
         
+        .standings-tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+            overflow-x: auto;
+        }
+        
+        .standings-tab {
+            padding: 10px 15px;
+            background: none;
+            border: none;
+            border-bottom: 3px solid transparent;
+            color: #666;
+            font-weight: 600;
+            font-size: 0.9em;
+            cursor: pointer;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+        
+        .standings-tab:hover {
+            color: #c8102e;
+            background: #fafafa;
+        }
+        
+        .standings-tab.active {
+            color: #c8102e;
+            border-bottom-color: #c8102e;
+        }
+        
         .standings-table {
             overflow-x: auto;
         }
@@ -561,6 +592,16 @@
                 margin-bottom: 12px;
             }
             
+            .standings-tabs {
+                gap: 3px;
+                margin-bottom: 10px;
+            }
+            
+            .standings-tab {
+                padding: 8px 10px;
+                font-size: 0.75em;
+            }
+            
             .standings-table th,
             .standings-table td {
                 padding: 8px 4px;
@@ -710,7 +751,14 @@
         </div>
 
         <div class="standings-container" id="standingsContainer" style="display: none;">
-            <div class="standings-header">League Standings</div>
+            <div class="standings-header">League Stats</div>
+            <div class="standings-tabs">
+                <button class="standings-tab active" onclick="switchStatsTab('standings')">Standings</button>
+                <button class="standings-tab" onclick="switchStatsTab('goals')">Goals</button>
+                <button class="standings-tab" onclick="switchStatsTab('assists')">Assists</button>
+                <button class="standings-tab" onclick="switchStatsTab('yellow')">Yellow Cards</button>
+                <button class="standings-tab" onclick="switchStatsTab('red')">Red Cards</button>
+            </div>
             <div class="standings-table" id="standingsTable"></div>
         </div>
 
@@ -915,8 +963,190 @@
             });
             
             if (standings.length > 0) {
+                // Store data for tab switching
+                window.currentLeagueStats = {
+                    standings: standings,
+                    matches: allLeaguesData[leagueCode].matches
+                };
                 displayStandings(standings);
             }
+        }
+
+        function switchStatsTab(tabName) {
+            // Update active tab
+            document.querySelectorAll('.standings-tab').forEach(tab => tab.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            const container = document.getElementById('standingsTable');
+            container.dataset.expanded = 'false'; // Reset expansion when switching tabs
+            
+            if (!window.currentLeagueStats) return;
+            
+            switch(tabName) {
+                case 'standings':
+                    displayStandings(window.currentLeagueStats.standings);
+                    break;
+                case 'goals':
+                    displayTopScorers(window.currentLeagueStats.matches);
+                    break;
+                case 'assists':
+                    displayTopAssisters(window.currentLeagueStats.matches);
+                    break;
+                case 'yellow':
+                    displayTopYellowCards(window.currentLeagueStats.matches);
+                    break;
+                case 'red':
+                    displayTopRedCards(window.currentLeagueStats.matches);
+                    break;
+            }
+        }
+
+        function displayTopScorers(matches) {
+            const scorers = {};
+            
+            matches.forEach(match => {
+                if (!match.goals) return;
+                match.goals.forEach(goal => {
+                    const scorer = goal.scorer?.name;
+                    const scorerId = goal.scorer?.id;
+                    if (!scorer || !scorerId) return;
+                    
+                    if (!scorers[scorerId]) {
+                        scorers[scorerId] = {
+                            name: scorer,
+                            team: goal.team?.name || '',
+                            goals: 0
+                        };
+                    }
+                    scorers[scorerId].goals++;
+                });
+            });
+            
+            const topScorers = Object.values(scorers)
+                .sort((a, b) => b.goals - a.goals)
+                .slice(0, 6);
+            
+            displayPlayerStats(topScorers, 'Goals', 'goals');
+        }
+
+        function displayTopAssisters(matches) {
+            const assisters = {};
+            
+            matches.forEach(match => {
+                if (!match.goals) return;
+                match.goals.forEach(goal => {
+                    const assister = goal.assist?.name;
+                    const assisterId = goal.assist?.id;
+                    if (!assister || !assisterId) return;
+                    
+                    if (!assisters[assisterId]) {
+                        assisters[assisterId] = {
+                            name: assister,
+                            team: goal.team?.name || '',
+                            assists: 0
+                        };
+                    }
+                    assisters[assisterId].assists++;
+                });
+            });
+            
+            const topAssisters = Object.values(assisters)
+                .sort((a, b) => b.assists - a.assists)
+                .slice(0, 6);
+            
+            displayPlayerStats(topAssisters, 'Assists', 'assists');
+        }
+
+        function displayTopYellowCards(matches) {
+            const yellowCards = {};
+            
+            matches.forEach(match => {
+                if (!match.bookings) return;
+                match.bookings.forEach(booking => {
+                    if (booking.card !== 'YELLOW') return;
+                    const player = booking.player?.name;
+                    const playerId = booking.player?.id;
+                    if (!player || !playerId) return;
+                    
+                    if (!yellowCards[playerId]) {
+                        yellowCards[playerId] = {
+                            name: player,
+                            team: booking.team?.name || '',
+                            yellows: 0
+                        };
+                    }
+                    yellowCards[playerId].yellows++;
+                });
+            });
+            
+            const topYellows = Object.values(yellowCards)
+                .sort((a, b) => b.yellows - a.yellows)
+                .slice(0, 6);
+            
+            displayPlayerStats(topYellows, 'Yellow Cards', 'yellows');
+        }
+
+        function displayTopRedCards(matches) {
+            const redCards = {};
+            
+            matches.forEach(match => {
+                if (!match.bookings) return;
+                match.bookings.forEach(booking => {
+                    if (booking.card !== 'RED' && booking.card !== 'YELLOW_RED' && booking.card !== 'SECOND_YELLOW') return;
+                    const player = booking.player?.name;
+                    const playerId = booking.player?.id;
+                    if (!player || !playerId) return;
+                    
+                    if (!redCards[playerId]) {
+                        redCards[playerId] = {
+                            name: player,
+                            team: booking.team?.name || '',
+                            reds: 0
+                        };
+                    }
+                    redCards[playerId].reds++;
+                });
+            });
+            
+            const topReds = Object.values(redCards)
+                .sort((a, b) => b.reds - a.reds)
+                .slice(0, 6);
+            
+            displayPlayerStats(topReds, 'Red Cards', 'reds');
+        }
+
+        function displayPlayerStats(players, statName, statKey) {
+            const container = document.getElementById('standingsTable');
+            
+            if (players.length === 0) {
+                container.innerHTML = `<div style="text-align: center; padding: 20px; color: #999;">No data available</div>`;
+                return;
+            }
+            
+            const tableHTML = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Player</th>
+                            <th>Team</th>
+                            <th>${statName}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${players.map((player, index) => `
+                            <tr>
+                                <td class="standings-position">${index + 1}</td>
+                                <td style="font-weight: 600;">${player.name}</td>
+                                <td style="color: #666; font-size: 0.85em;">${player.team}</td>
+                                <td class="standings-points">${player[statKey]}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+            
+            container.innerHTML = tableHTML;
         }
 
         function displayStandings(standings) {
