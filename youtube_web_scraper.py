@@ -143,7 +143,8 @@ def create_search_query(home_team, away_team, match_date, league_code):
     elif league_code == "SA":
         broadcaster = "CBS Sports Golazo"
     elif league_code == "PPL":
-        broadcaster = "GolTV highlights"
+        # Use Spanish keywords to favor GolTV's verbose titles
+        broadcaster = "goles resumen"
     elif league_code == "DED":
         broadcaster = "Eredivisie"
     elif league_code == "CL":
@@ -241,11 +242,21 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                 
                 # Portuguese league videos must have pattern "| TeamName Score-Score TeamName |" in title
                 # Example: "| Peñarol 2-2 Nacional |" or "| Benfica 3-1 Porto |"
+                # Prefer videos with Spanish words (GolTV uses Spanish: GOLES, PENAL, PUNTOS, etc.)
                 if league_code == "PPL":
                     # Pattern: pipe, text, space, digit(s), dash, digit(s), space, text, pipe
                     score_pattern = r'\|[^|]+\d+-\d+[^|]+\|'
                     if not re.search(score_pattern, video_title):
                         print(f"  ⏭️  Skipping (Primeira Liga requires '| Team Score-Score Team |' pattern): {video_title}")
+                        continue
+                    
+                    # Check for Spanish indicators (GolTV titles are in Spanish)
+                    spanish_indicators = ['gol', 'penal', 'puntos', 'roja', 'amarilla', 'increíble', 'victoria', 'derrota', 'empate', 'resumen']
+                    has_spanish = any(indicator in video_title_lower for indicator in spanish_indicators)
+                    
+                    # If title has "highlights" or "resumo" (Portuguese), it's likely NOT GolTV
+                    if ('highlights' in video_title_lower or 'resumo' in video_title_lower) and not has_spanish:
+                        print(f"  ⏭️  Skipping (Primeira Liga prefers Spanish titles, not generic highlights): {video_title}")
                         continue
                 
                 # Premier League videos must have "NBC Sports" AND "Premier League Highlights" in title
