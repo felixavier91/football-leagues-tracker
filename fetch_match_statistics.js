@@ -58,14 +58,6 @@ async function fetchMatchStats(matchId) {
         }
 
         const data = await response.json();
-        
-        // Debug: Check if statistics field exists
-        if (data.statistics) {
-            console.log(`  ✓ Statistics available for match ${matchId}`);
-        } else {
-            console.log(`  ⚠ No statistics field for match ${matchId} (competition: ${data.competition?.name})`);
-        }
-        
         return data;
     } catch (error) {
         return null;
@@ -176,7 +168,7 @@ async function fetchMatchStatistics() {
         // Fetch stats for each match
         for (let i = 0; i < matchesToFetch.length; i++) {
             const match = matchesToFetch[i];
-            const matchId = match.id;
+            const matchId = String(match.id); // Convert to string for consistent checking
             
             // Skip if we already have stats for this match
             if (allStats[leagueCode][matchId]) {
@@ -194,11 +186,16 @@ async function fetchMatchStatistics() {
                 fetchedMatches++;
             }
             
-            // Rate limiting: 2000ms (2 seconds) between requests to stay under 30 calls/min
+            // Rate limiting: 2000ms (2 seconds) between requests
             await delay(2000);
         }
         
         console.log(`\n  ✓ Completed ${leagueData.name}`);
+        
+        // Save after completing each league
+        const statsFile = `${OUTPUT_DIR}/match_statistics.json`;
+        fs.writeFileSync(statsFile, JSON.stringify(allStats, null, 2));
+        console.log(`  💾 Saved progress to ${statsFile}`);
     }
     
     // Save updated statistics
