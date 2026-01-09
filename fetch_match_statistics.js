@@ -16,13 +16,13 @@ const leagues = [
 // Comment out any leagues you DON'T want to process
 const LEAGUES_TO_PROCESS = [
     'PL',   // Premier League
-    'PD',   // La Liga
-    'BL1',  // Bundesliga
-    'SA',   // Serie A
-    'FL1',  // Ligue 1
-    'PPL',  // Primeira Liga
-    'DED',  // Eredivisie
-    'CL',   // Champions League
+    // 'PD',   // La Liga
+    // 'BL1',  // Bundesliga
+    // 'SA',   // Serie A
+    // 'FL1',  // Ligue 1
+    // 'PPL',  // Primeira Liga
+    // 'DED',  // Eredivisie
+    // 'CL',   // Champions League
 ];
 
 const API_KEY = '224c667c50404db8adb4c989bc1715e3';
