@@ -1,11 +1,18 @@
 name: Update Highlights Daily
 
 on:
+  # Run every day at 10pm EST (3am UTC next day)
   schedule:
-    - cron: '5,15,25,35,45,55 12-23,0-1 * * *'  # 7am-9pm EST
+    - cron: '0 3 * * *'  # 3am UTC = 10pm EST
   
   # Also allow manual trigger
   workflow_dispatch:
+    inputs:
+      backfill:
+        description: 'Backfill all matches (not just last 48 hours)'
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   update-highlights:
@@ -35,7 +42,13 @@ jobs:
       - name: Run YouTube scraper
         run: |
           cd output
-          python ../youtube_web_scraper.py
+          if [ "${{ github.event.inputs.backfill }}" = "true" ]; then
+            echo "Running in BACKFILL mode (all matches)"
+            python ../youtube_web_scraper.py --backfill
+          else
+            echo "Running in NORMAL mode (last 48 hours)"
+            python ../youtube_web_scraper.py
+          fi
       
       - name: Commit and push if changes
         run: |
