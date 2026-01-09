@@ -192,23 +192,37 @@ async function fetchMatchStatistics() {
             // Skip if we already have stats for this match
             if (allStats[leagueCode][matchId]) {
                 skippedMatches++;
-                process.stdout.write(`  Progress: ${i + 1}/${matchesToFetch.length} (skipped: already exists)\r`);
+                process.stdout.write(`  [${i + 1}/${matchesToFetch.length}] Match ${matchId} - SKIPPED (already exists)\r`);
                 continue;
             }
             
-            process.stdout.write(`  Progress: ${i + 1}/${matchesToFetch.length} (fetching...)\r`);
+            process.stdout.write(`  [${i + 1}/${matchesToFetch.length}] Match ${matchId} - Fetching...\r`);
             
             const detailedMatch = await fetchMatchStats(matchId);
             
             if (detailedMatch) {
                 allStats[leagueCode][matchId] = detailedMatch;
+                
+                // Check if statistics were actually included
+                const hasStats = detailedMatch.homeTeam?.statistics && detailedMatch.awayTeam?.statistics;
+                const statusMsg = hasStats ? '✓ HAS STATS' : '⚠ NO STATS';
+                console.log(`  [${i + 1}/${matchesToFetch.length}] Match ${matchId} - ${statusMsg}`);
+                
                 fetchedMatches++;
+            } else {
+                console.log(`  [${i + 1}/${matchesToFetch.length}] Match ${matchId} - ❌ FETCH FAILED`);
             }
             
             // NO DELAY - fetch as fast as possible
         }
         
         console.log(`\n  ✓ Completed ${leagueData.name}`);
+        
+        // Count matches with actual statistics
+        const matchesWithStats = Object.values(allStats[leagueCode]).filter(m => 
+            m.homeTeam?.statistics && m.awayTeam?.statistics
+        ).length;
+        console.log(`  📊 Matches with statistics: ${matchesWithStats}/${Object.keys(allStats[leagueCode]).length}`);
         
         // Save after completing each league
         const statsFile = `${OUTPUT_DIR}/match_statistics.json`;
@@ -224,6 +238,21 @@ async function fetchMatchStatistics() {
     console.log(`Total matches processed: ${totalMatches}`);
     console.log(`Newly fetched: ${fetchedMatches}`);
     console.log(`Skipped (already exists): ${skippedMatches}`);
+    
+    // Count total matches with actual statistics across all leagues
+    let totalWithStats = 0;
+    let totalWithoutStats = 0;
+    for (const [code, matches] of Object.entries(allStats)) {
+        const withStats = Object.values(matches).filter(m => m.homeTeam?.statistics && m.awayTeam?.statistics).length;
+        const withoutStats = Object.keys(matches).length - withStats;
+        totalWithStats += withStats;
+        totalWithoutStats += withoutStats;
+        if (Object.keys(matches).length > 0) {
+            console.log(`  ${code}: ${withStats} with stats, ${withoutStats} without stats`);
+        }
+    }
+    console.log(`\nGRAND TOTAL: ${totalWithStats} matches WITH statistics, ${totalWithoutStats} WITHOUT statistics`);
+    
     console.log(`\n✓ Match statistics saved to ${statsFile}`);
     
     if (!FETCH_ALL) {
