@@ -1559,14 +1559,137 @@
                     timeline = `<div class="match-timeline">${timelineContent}</div>`;
                 }
                 
+                // Match Statistics from match_statistics.json
+                let matchStatsSection = '';
+                if (match.status === 'FINISHED') {
+                    const matchStats = matchStatistics[currentLeagueCode]?.[match.id];
+                    
+                    if (matchStats && matchStats.statistics && matchStats.statistics.length === 2) {
+                        const homeStats = matchStats.statistics[0].statistics;
+                        const awayStats = matchStats.statistics[1].statistics;
+                        
+                        const statsRows = [];
+                        
+                        // Total Shots
+                        if (homeStats.totalShots !== undefined && awayStats.totalShots !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.totalShots}</div>
+                                    <div class="stat-label">Total Shots</div>
+                                    <div class="stat-away">${awayStats.totalShots}</div>
+                                </div>
+                            `);
+                        }
+                        
+                        // Shots on Target
+                        if (homeStats.shotsOnGoal !== undefined && awayStats.shotsOnGoal !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.shotsOnGoal}</div>
+                                    <div class="stat-label">Shots on Target</div>
+                                    <div class="stat-away">${awayStats.shotsOnGoal}</div>
+                                </div>
+                            `);
+                        }
+                        
+                        // Possession
+                        if (homeStats.ballPossession !== undefined && awayStats.ballPossession !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.ballPossession}%</div>
+                                    <div class="stat-label">Possession</div>
+                                    <div class="stat-away">${awayStats.ballPossession}%</div>
+                                </div>
+                            `);
+                        }
+                        
+                        // Pass Accuracy
+                        if (homeStats.passesPercentage !== undefined && awayStats.passesPercentage !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.passesPercentage}%</div>
+                                    <div class="stat-label">Pass Accuracy</div>
+                                    <div class="stat-away">${awayStats.passesPercentage}%</div>
+                                </div>
+                            `);
+                        }
+                        
+                        // Fouls
+                        if (homeStats.fouls !== undefined && awayStats.fouls !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.fouls}</div>
+                                    <div class="stat-label">Fouls</div>
+                                    <div class="stat-away">${awayStats.fouls}</div>
+                                </div>
+                            `);
+                        }
+                        
+                        // Yellow Cards
+                        if (homeStats.yellowCards !== undefined && awayStats.yellowCards !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.yellowCards}</div>
+                                    <div class="stat-label">Yellow Cards</div>
+                                    <div class="stat-away">${awayStats.yellowCards}</div>
+                                </div>
+                            `);
+                        }
+                        
+                        // Red Cards
+                        if (homeStats.redCards !== undefined && awayStats.redCards !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.redCards}</div>
+                                    <div class="stat-label">Red Cards</div>
+                                    <div class="stat-away">${awayStats.redCards}</div>
+                                </div>
+                            `);
+                        }
+                        
+                        // Offsides
+                        if (homeStats.offsides !== undefined && awayStats.offsides !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.offsides}</div>
+                                    <div class="stat-label">Offsides</div>
+                                    <div class="stat-away">${awayStats.offsides}</div>
+                                </div>
+                            `);
+                        }
+                        
+                        // Corners
+                        if (homeStats.corners !== undefined && awayStats.corners !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.corners}</div>
+                                    <div class="stat-label">Corners</div>
+                                    <div class="stat-away">${awayStats.corners}</div>
+                                </div>
+                            `);
+                        }
+                        
+                        if (statsRows.length > 0) {
+                            matchStatsSection = `
+                                <div class="match-stats-container">
+                                    <div class="match-stats-header">Match Statistics</div>
+                                    <div class="match-stats-grid">
+                                        ${statsRows.join('')}
+                                    </div>
+                                </div>
+                            `;
+                        }
+                    }
+                }
 
-                // Full expanded details (VIDEO at top, then venue/referee and timeline)
+                // Full expanded details (VIDEO at top, then venue/referee, timeline, and stats)
                 const details = `
                     <div class="match-details">
                         ${youtubeLink}
                         ${matchInfo}
                         ${refereeSection}
                         ${timeline}
+                        ${matchStatsSection}
                     </div>
                 `;
 
