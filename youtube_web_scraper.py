@@ -9,6 +9,7 @@ import json
 import time
 import unicodedata
 import re
+import sys
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -31,8 +32,8 @@ OUTPUT_FILE = "highlights_database_updated.json"
 # Search settings
 DELAY_BETWEEN_SEARCHES = 2  # Seconds (be nice to YouTube)
 
-# Processing mode
-TODAY_ONLY = True  # Set to True to process matches from the last 48 hours, False to backfill all historical matches
+# Processing mode - check for --backfill argument
+TODAY_ONLY = '--backfill' not in sys.argv  # Default: process last 48 hours, unless --backfill flag is passed
 
 # Leagues to process (set to None to process all)
 LEAGUES_TO_PROCESS = ["PD", "PL", "FL1", "BL1", "SA", "PPL", "DED", "CL"]  # PD = La Liga, PL = Premier League, FL1 = Ligue 1, BL1 = Bundesliga, SA = Serie A, PPL = Primeira Liga, DED = Eredivisie, CL = Champions League
