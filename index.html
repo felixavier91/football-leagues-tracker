@@ -1564,55 +1564,48 @@
                 if (match.status === 'FINISHED') {
                     const matchStats = matchStatistics[currentLeagueCode]?.[match.id];
                     
-                    if (matchStats && matchStats.statistics && matchStats.statistics.length === 2) {
-                        const homeStats = matchStats.statistics[0].statistics;
-                        const awayStats = matchStats.statistics[1].statistics;
+                    // Statistics are nested in homeTeam.statistics and awayTeam.statistics
+                    if (matchStats && matchStats.homeTeam?.statistics && matchStats.awayTeam?.statistics) {
+                        const homeStats = matchStats.homeTeam.statistics;
+                        const awayStats = matchStats.awayTeam.statistics;
                         
                         const statsRows = [];
                         
                         // Total Shots
-                        if (homeStats.totalShots !== undefined && awayStats.totalShots !== undefined) {
+                        if (homeStats.shots !== undefined && awayStats.shots !== undefined) {
                             statsRows.push(`
                                 <div class="stat-row">
-                                    <div class="stat-home">${homeStats.totalShots}</div>
+                                    <div class="stat-home">${homeStats.shots}</div>
                                     <div class="stat-label">Total Shots</div>
-                                    <div class="stat-away">${awayStats.totalShots}</div>
+                                    <div class="stat-away">${awayStats.shots}</div>
                                 </div>
                             `);
                         }
                         
                         // Shots on Target
-                        if (homeStats.shotsOnGoal !== undefined && awayStats.shotsOnGoal !== undefined) {
+                        if (homeStats.shots_on_goal !== undefined && awayStats.shots_on_goal !== undefined) {
                             statsRows.push(`
                                 <div class="stat-row">
-                                    <div class="stat-home">${homeStats.shotsOnGoal}</div>
+                                    <div class="stat-home">${homeStats.shots_on_goal}</div>
                                     <div class="stat-label">Shots on Target</div>
-                                    <div class="stat-away">${awayStats.shotsOnGoal}</div>
+                                    <div class="stat-away">${awayStats.shots_on_goal}</div>
                                 </div>
                             `);
                         }
                         
                         // Possession
-                        if (homeStats.ballPossession !== undefined && awayStats.ballPossession !== undefined) {
+                        if (homeStats.ball_possession !== undefined && awayStats.ball_possession !== undefined) {
                             statsRows.push(`
                                 <div class="stat-row">
-                                    <div class="stat-home">${homeStats.ballPossession}%</div>
+                                    <div class="stat-home">${homeStats.ball_possession}%</div>
                                     <div class="stat-label">Possession</div>
-                                    <div class="stat-away">${awayStats.ballPossession}%</div>
+                                    <div class="stat-away">${awayStats.ball_possession}%</div>
                                 </div>
                             `);
                         }
                         
-                        // Pass Accuracy
-                        if (homeStats.passesPercentage !== undefined && awayStats.passesPercentage !== undefined) {
-                            statsRows.push(`
-                                <div class="stat-row">
-                                    <div class="stat-home">${homeStats.passesPercentage}%</div>
-                                    <div class="stat-label">Pass Accuracy</div>
-                                    <div class="stat-away">${awayStats.passesPercentage}%</div>
-                                </div>
-                            `);
-                        }
+                        // Pass Accuracy - Calculate from passes and accurate passes if available
+                        // Note: API doesn't provide pass accuracy directly, skip for now
                         
                         // Fouls
                         if (homeStats.fouls !== undefined && awayStats.fouls !== undefined) {
@@ -1626,23 +1619,23 @@
                         }
                         
                         // Yellow Cards
-                        if (homeStats.yellowCards !== undefined && awayStats.yellowCards !== undefined) {
+                        if (homeStats.yellow_cards !== undefined && awayStats.yellow_cards !== undefined) {
                             statsRows.push(`
                                 <div class="stat-row">
-                                    <div class="stat-home">${homeStats.yellowCards}</div>
+                                    <div class="stat-home">${homeStats.yellow_cards}</div>
                                     <div class="stat-label">Yellow Cards</div>
-                                    <div class="stat-away">${awayStats.yellowCards}</div>
+                                    <div class="stat-away">${awayStats.yellow_cards}</div>
                                 </div>
                             `);
                         }
                         
                         // Red Cards
-                        if (homeStats.redCards !== undefined && awayStats.redCards !== undefined) {
+                        if (homeStats.red_cards !== undefined && awayStats.red_cards !== undefined) {
                             statsRows.push(`
                                 <div class="stat-row">
-                                    <div class="stat-home">${homeStats.redCards}</div>
+                                    <div class="stat-home">${homeStats.red_cards}</div>
                                     <div class="stat-label">Red Cards</div>
-                                    <div class="stat-away">${awayStats.redCards}</div>
+                                    <div class="stat-away">${awayStats.red_cards}</div>
                                 </div>
                             `);
                         }
@@ -1659,12 +1652,12 @@
                         }
                         
                         // Corners
-                        if (homeStats.corners !== undefined && awayStats.corners !== undefined) {
+                        if (homeStats.corner_kicks !== undefined && awayStats.corner_kicks !== undefined) {
                             statsRows.push(`
                                 <div class="stat-row">
-                                    <div class="stat-home">${homeStats.corners}</div>
+                                    <div class="stat-home">${homeStats.corner_kicks}</div>
                                     <div class="stat-label">Corners</div>
-                                    <div class="stat-away">${awayStats.corners}</div>
+                                    <div class="stat-away">${awayStats.corner_kicks}</div>
                                 </div>
                             `);
                         }
