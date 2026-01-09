@@ -179,6 +179,21 @@
             color: #c8102e;
         }
         
+        .standings-toggle {
+            text-align: center;
+            padding: 12px;
+            margin-top: 10px;
+            color: #c8102e;
+            font-weight: 600;
+            cursor: pointer;
+            border-top: 2px solid #f0f0f0;
+            transition: background 0.3s;
+        }
+        
+        .standings-toggle:hover {
+            background: #fafafa;
+        }
+        
         .filters {
             background: white;
             border-radius: 15px;
@@ -565,6 +580,11 @@
                 font-size: 0.95em;
             }
             
+            .standings-toggle {
+                padding: 10px;
+                font-size: 0.85em;
+            }
+            
             .filters {
                 flex-direction: row;
                 padding: 12px;
@@ -901,6 +921,8 @@
 
         function displayStandings(standings) {
             const container = document.getElementById('standingsTable');
+            const showAll = container.dataset.expanded === 'true';
+            const teamsToShow = showAll ? standings : standings.slice(0, 6);
             
             const tableHTML = `
                 <table>
@@ -917,7 +939,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        ${standings.map(team => `
+                        ${teamsToShow.map(team => `
                             <tr>
                                 <td class="standings-position">${team.position}</td>
                                 <td>
@@ -936,10 +958,25 @@
                         `).join('')}
                     </tbody>
                 </table>
+                ${standings.length > 6 ? `
+                    <div class="standings-toggle" onclick="toggleStandings()">
+                        ${showAll ? '▲ Show Less' : '▼ Show All (' + standings.length + ' teams)'}
+                    </div>
+                ` : ''}
             `;
             
             container.innerHTML = tableHTML;
+            container.dataset.fullStandings = JSON.stringify(standings);
             document.getElementById('standingsContainer').style.display = 'block';
+        }
+
+        function toggleStandings() {
+            const container = document.getElementById('standingsTable');
+            const currentState = container.dataset.expanded === 'true';
+            container.dataset.expanded = !currentState;
+            
+            const standings = JSON.parse(container.dataset.fullStandings);
+            displayStandings(standings);
         }
 
         function setMatchFilter(filter) {
