@@ -2,8 +2,9 @@ name: Fetch Match Statistics
 
 on:
   schedule:
-    # Run every 10 minutes from 7 AM to 9 PM EST (same as highlights)
-    - cron: '*/10 11-1 * * *'  # 7 AM - 9 PM EST (UTC is 5 hours ahead)
+    # Run every 10 minutes from 7 AM to 9 PM EST (12:00 PM - 2:00 AM UTC next day)
+    - cron: '*/10 12-23 * * *'  # 7 AM - 7 PM EST
+    - cron: '*/10 0-1 * * *'    # 8 PM - 9 PM EST (next day UTC)
   workflow_dispatch:  # Allow manual runs
     inputs:
       fetch_all:
