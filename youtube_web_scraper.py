@@ -123,7 +123,7 @@ def create_search_query(home_team, away_team, match_date, league_code):
     - Ligue 1 (FL1): beIN SPORTS USA
     - Bundesliga (BL1): Bundesliga
     - Serie A (SA): CBS Sports Golazo
-    - Primeira Liga (PPL): VSPORTS - Liga Portugal
+    - Primeira Liga (PPL): GolTV
     - Eredivisie (DED): Eredivisie
     - Champions League (CL): CBS Sports Golazo
     """
@@ -143,7 +143,7 @@ def create_search_query(home_team, away_team, match_date, league_code):
     elif league_code == "SA":
         broadcaster = "CBS Sports Golazo"
     elif league_code == "PPL":
-        broadcaster = "sport tv"
+        broadcaster = "GolTV highlights"
     elif league_code == "DED":
         broadcaster = "Eredivisie"
     elif league_code == "CL":
@@ -238,6 +238,15 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                 if league_code == "PD" and "laliga ea sports" in video_title_lower:
                     print(f"  ⏭️  Skipping (LaLiga EA Sports official): {video_title}")
                     continue
+                
+                # Portuguese league videos must have pattern "| TeamName Score-Score TeamName |" in title
+                # Example: "| Peñarol 2-2 Nacional |" or "| Benfica 3-1 Porto |"
+                if league_code == "PPL":
+                    # Pattern: pipe, text, space, digit(s), dash, digit(s), space, text, pipe
+                    score_pattern = r'\|[^|]+\d+-\d+[^|]+\|'
+                    if not re.search(score_pattern, video_title):
+                        print(f"  ⏭️  Skipping (Primeira Liga requires '| Team Score-Score Team |' pattern): {video_title}")
+                        continue
                 
                 # Premier League videos must have "NBC Sports" AND "Premier League Highlights" in title
                 if league_code == "PL":
