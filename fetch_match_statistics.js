@@ -16,10 +16,10 @@ const leagues = [
 // Comment out any leagues you DON'T want to process
 const LEAGUES_TO_PROCESS = [
     // 'PL',   // Premier League
-    'PD',   // La Liga
-    // 'BL1',  // Bundesliga
-    // 'SA',   // Serie A
-    // 'FL1',  // Ligue 1
+    // 'PD',   // La Liga
+    'BL1',  // Bundesliga
+    'SA',   // Serie A
+    'FL1',  // Ligue 1
     // 'PPL',  // Primeira Liga
     // 'DED',  // Eredivisie
     // 'CL',   // Champions League
