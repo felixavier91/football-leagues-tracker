@@ -15,8 +15,8 @@ const leagues = [
 // *** MANUAL LEAGUE FILTER ***
 // Comment out any leagues you DON'T want to process
 const LEAGUES_TO_PROCESS = [
-    'PL',   // Premier League
-    // 'PD',   // La Liga
+    // 'PL',   // Premier League
+    'PD',   // La Liga
     // 'BL1',  // Bundesliga
     // 'SA',   // Serie A
     // 'FL1',  // Ligue 1
