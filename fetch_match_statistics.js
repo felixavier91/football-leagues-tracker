@@ -24,10 +24,16 @@ if (!fs.existsSync(OUTPUT_DIR)) {
     fs.mkdirSync(OUTPUT_DIR);
 }
 
-// Get today's date in YYYY-MM-DD format
-function getTodayDate() {
+// Get today's date and yesterday's date in YYYY-MM-DD format
+function getRecentDates() {
     const today = new Date();
-    return today.toISOString().split('T')[0];
+    const yesterday = new Date(today);
+    yesterday.setDate(yesterday.getDate() - 1);
+    
+    return {
+        today: today.toISOString().split('T')[0],
+        yesterday: yesterday.toISOString().split('T')[0]
+    };
 }
 
 // Function to fetch detailed match statistics
@@ -70,19 +76,34 @@ function loadExistingStats() {
 
 // Main function
 async function fetchMatchStatistics() {
-    const todayDate = getTodayDate();
+    const dates = getRecentDates();
     
     console.log('=== FETCH MATCH STATISTICS ===');
-    console.log(`Mode: ${FETCH_ALL ? 'BACKFILL ALL MATCHES' : 'TODAY\'S MATCHES ONLY'}`);
-    console.log(`Date: ${todayDate}\n`);
+    console.log(`Mode: ${FETCH_ALL ? 'BACKFILL ALL MATCHES' : 'RECENT MATCHES (LAST 48 HOURS)'}`);
+    console.log(`Checking dates: ${dates.yesterday} and ${dates.today}\n`);
     
     // Load existing statistics
     let allStats = loadExistingStats();
     
-    // Load match data from all_leagues.json
-    const allLeaguesFile = `${OUTPUT_DIR}/all_leagues.json`;
-    if (!fs.existsSync(allLeaguesFile)) {
-        console.error('Error: all_leagues.json not found. Run fetch_all_leagues.js first.');
+    // Try multiple possible locations for all_leagues.json
+    const possiblePaths = [
+        `${OUTPUT_DIR}/all_leagues.json`,
+        'all_leagues.json',
+        '../all_leagues.json'
+    ];
+    
+    let allLeaguesFile = null;
+    for (const path of possiblePaths) {
+        if (fs.existsSync(path)) {
+            allLeaguesFile = path;
+            console.log(`Found all_leagues.json at: ${path}\n`);
+            break;
+        }
+    }
+    
+    if (!allLeaguesFile) {
+        console.error('Error: all_leagues.json not found in any expected location.');
+        console.error('Searched:', possiblePaths.join(', '));
         return;
     }
     
@@ -100,17 +121,40 @@ async function fetchMatchStatistics() {
             allStats[leagueCode] = {};
         }
         
+        // Debug: Show total matches in league
+        console.log(`  Total matches in league: ${leagueData.matches.length}`);
+        
         // Filter matches based on mode
         let matchesToFetch;
         if (FETCH_ALL) {
             // Fetch all finished matches
             matchesToFetch = leagueData.matches.filter(m => m.status === 'FINISHED');
+            console.log(`  Finished matches (all time): ${matchesToFetch.length}`);
         } else {
-            // Fetch only today's finished matches
-            matchesToFetch = leagueData.matches.filter(m => {
+            // Fetch matches from the last 48 hours that are finished
+            const recentFinished = leagueData.matches.filter(m => {
                 const matchDate = m.utcDate.split('T')[0];
-                return matchDate === todayDate && m.status === 'FINISHED';
+                const isRecent = matchDate === dates.today || matchDate === dates.yesterday;
+                const isFinished = m.status === 'FINISHED';
+                
+                // Debug logging
+                if (isRecent) {
+                    console.log(`    Match on ${matchDate}: ${m.homeTeam.shortName} vs ${m.awayTeam.shortName} - Status: ${m.status}`);
+                }
+                
+                return isRecent && isFinished;
             });
+            matchesToFetch = recentFinished;
+            console.log(`  Matches in last 48h: ${leagueData.matches.filter(m => {
+                const matchDate = m.utcDate.split('T')[0];
+                return matchDate === dates.today || matchDate === dates.yesterday;
+            }).length}`);
+            console.log(`  Finished matches in last 48h: ${matchesToFetch.length}`);
+        }
+        
+        if (matchesToFetch.length === 0) {
+            console.log(`  ⚠ No matches to fetch for this league`);
+            continue;
         }
         
         console.log(`  Found ${matchesToFetch.length} matches to process`);
