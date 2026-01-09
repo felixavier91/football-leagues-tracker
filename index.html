@@ -1328,7 +1328,17 @@
         }
 
         function toggleMatchCard(cardElement) {
-            cardElement.classList.toggle('expanded');
+            const isCurrentlyExpanded = cardElement.classList.contains('expanded');
+            
+            // Collapse all cards first
+            document.querySelectorAll('.match-card.expanded').forEach(card => {
+                card.classList.remove('expanded');
+            });
+            
+            // If the clicked card wasn't expanded, expand it now
+            if (!isCurrentlyExpanded) {
+                cardElement.classList.add('expanded');
+            }
         }
 
         function displayMatches(matches) {
