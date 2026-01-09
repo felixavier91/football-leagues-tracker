@@ -43,7 +43,12 @@ async function fetchMatchStats(matchId) {
             `http://api.football-data.org/v4/matches/${matchId}`,
             {
                 headers: {
-                    'X-Auth-Token': API_KEY
+                    'X-Auth-Token': API_KEY,
+                    'X-Unfold-Goals': 'true',
+                    'X-Unfold-Bookings': 'true', 
+                    'X-Unfold-Substitutions': 'true',
+                    'X-Unfold-Lineups': 'true',
+                    'X-Unfold-Referees': 'true'
                 }
             }
         );
@@ -53,6 +58,14 @@ async function fetchMatchStats(matchId) {
         }
 
         const data = await response.json();
+        
+        // Debug: Check if statistics field exists
+        if (data.statistics) {
+            console.log(`  ✓ Statistics available for match ${matchId}`);
+        } else {
+            console.log(`  ⚠ No statistics field for match ${matchId} (competition: ${data.competition?.name})`);
+        }
+        
         return data;
     } catch (error) {
         return null;
@@ -181,8 +194,8 @@ async function fetchMatchStatistics() {
                 fetchedMatches++;
             }
             
-            // Rate limiting: 200ms between requests (5 req/sec max)
-            await delay(200);
+            // Rate limiting: 2000ms (2 seconds) between requests to stay under 30 calls/min
+            await delay(2000);
         }
         
         console.log(`\n  ✓ Completed ${leagueData.name}`);
