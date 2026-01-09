@@ -855,6 +855,7 @@
     <script>
         let allLeaguesData = {};
         let highlightsDatabase = {};
+        let matchStatistics = {};
         let currentLeague = null;
         let currentLeagueCode = null;
         let currentMatches = [];
@@ -862,14 +863,16 @@
 
         // Automatically load data on page load
         window.addEventListener('DOMContentLoaded', function() {
-            // Load both league data and highlights database
+            // Load league data, highlights database, and match statistics
             Promise.all([
                 fetch('output/all_leagues.json').then(r => r.json()),
-                fetch('output/highlights_database.json').then(r => r.json())
+                fetch('output/highlights_database.json').then(r => r.json()),
+                fetch('output/match_statistics.json').then(r => r.json()).catch(() => ({})) // Optional: graceful fail
             ])
-            .then(([leaguesData, highlightsData]) => {
+            .then(([leaguesData, highlightsData, statsData]) => {
                 allLeaguesData = leaguesData;
                 highlightsDatabase = highlightsData.highlights;
+                matchStatistics = statsData;
                 populateLeagueSelector();
                 document.getElementById('leagueSelector').classList.add('show');
             })
@@ -1532,14 +1535,116 @@
                     timeline = `<div class="match-timeline">${timelineContent}</div>`;
                 }
                 
+                // Detailed Match Statistics (from match_statistics.json)
+                let detailedStats = '';
+                if (match.status === 'FINISHED') {
+                    const matchStats = matchStatistics[currentLeagueCode]?.[match.id];
+                    
+                    if (matchStats && matchStats.statistics && matchStats.statistics.length === 2) {
+                        const homeStats = matchStats.statistics[0].statistics;
+                        const awayStats = matchStats.statistics[1].statistics;
+                        
+                        // Build stats rows for key metrics
+                        const statsRows = [];
+                        
+                        // Possession
+                        if (homeStats.ballPossession !== undefined && awayStats.ballPossession !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.ballPossession}%</div>
+                                    <div class="stat-label">Possession</div>
+                                    <div class="stat-away">${awayStats.ballPossession}%</div>
+                                </div>
+                            `);
+                        }
+                        
+                        // Shots
+                        if (homeStats.totalShots !== undefined && awayStats.totalShots !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.totalShots}</div>
+                                    <div class="stat-label">Total Shots</div>
+                                    <div class="stat-away">${awayStats.totalShots}</div>
+                                </div>
+                            `);
+                        }
+                        
+                        // Shots on Target
+                        if (homeStats.shotsOnGoal !== undefined && awayStats.shotsOnGoal !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.shotsOnGoal}</div>
+                                    <div class="stat-label">Shots on Target</div>
+                                    <div class="stat-away">${awayStats.shotsOnGoal}</div>
+                                </div>
+                            `);
+                        }
+                        
+                        // Passes
+                        if (homeStats.passes !== undefined && awayStats.passes !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.passes}</div>
+                                    <div class="stat-label">Passes</div>
+                                    <div class="stat-away">${awayStats.passes}</div>
+                                </div>
+                            `);
+                        }
+                        
+                        // Pass Accuracy
+                        if (homeStats.passesPercentage !== undefined && awayStats.passesPercentage !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.passesPercentage}%</div>
+                                    <div class="stat-label">Pass Accuracy</div>
+                                    <div class="stat-away">${awayStats.passesPercentage}%</div>
+                                </div>
+                            `);
+                        }
+                        
+                        // Corners
+                        if (homeStats.corners !== undefined && awayStats.corners !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.corners}</div>
+                                    <div class="stat-label">Corners</div>
+                                    <div class="stat-away">${awayStats.corners}</div>
+                                </div>
+                            `);
+                        }
+                        
+                        // Fouls
+                        if (homeStats.fouls !== undefined && awayStats.fouls !== undefined) {
+                            statsRows.push(`
+                                <div class="stat-row">
+                                    <div class="stat-home">${homeStats.fouls}</div>
+                                    <div class="stat-label">Fouls</div>
+                                    <div class="stat-away">${awayStats.fouls}</div>
+                                </div>
+                            `);
+                        }
+                        
+                        if (statsRows.length > 0) {
+                            detailedStats = `
+                                <div class="match-stats-container">
+                                    <div class="match-stats-header">Match Statistics</div>
+                                    <div class="match-stats-grid">
+                                        ${statsRows.join('')}
+                                    </div>
+                                </div>
+                            `;
+                        }
+                    }
+                }
 
-                // Full expanded details (VIDEO at top, then venue/referee and timeline)
+                // Full expanded details (VIDEO at top, then venue/referee, timeline, and stats)
                 const details = `
                     <div class="match-details">
                         ${youtubeLink}
                         ${matchInfo}
                         ${refereeSection}
                         ${timeline}
+                        ${detailedStats}
                     </div>
                 `;
 
