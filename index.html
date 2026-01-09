@@ -125,7 +125,7 @@
         }
         
         .standings-tab {
-            padding: 10px 15px;
+            padding: 8px 12px;
             background: none;
             border: none;
             border-bottom: 3px solid transparent;
@@ -134,7 +134,9 @@
             font-size: 0.9em;
             cursor: pointer;
             transition: all 0.3s;
-            white-space: nowrap;
+            white-space: normal;
+            text-align: center;
+            line-height: 1.2;
         }
         
         .standings-tab:hover {
@@ -834,8 +836,8 @@
                 <button class="standings-tab active" onclick="switchStatsTab('standings')">Standings</button>
                 <button class="standings-tab" onclick="switchStatsTab('goals')">Goals</button>
                 <button class="standings-tab" onclick="switchStatsTab('assists')">Assists</button>
-                <button class="standings-tab" onclick="switchStatsTab('yellow')">Yellow Cards</button>
-                <button class="standings-tab" onclick="switchStatsTab('red')">Red Cards</button>
+                <button class="standings-tab" onclick="switchStatsTab('yellow')">Yellow<br>Cards</button>
+                <button class="standings-tab" onclick="switchStatsTab('red')">Red<br>Cards</button>
             </div>
             <div class="standings-table" id="standingsTable"></div>
         </div>
