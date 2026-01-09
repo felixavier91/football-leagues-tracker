@@ -3,13 +3,26 @@ const fs = require('fs');
 // Define all leagues
 const leagues = [
     { code: 'PD', name: 'La Liga', country: 'Spain' },
-    // { code: 'PL', name: 'Premier League', country: 'England' },
-    // { code: 'BL1', name: 'Bundesliga', country: 'Germany' },
-    // { code: 'SA', name: 'Serie A', country: 'Italy' },
-    // { code: 'FL1', name: 'Ligue 1', country: 'France' },
-    // { code: 'PPL', name: 'Primeira Liga', country: 'Portugal' },
-    // { code: 'DED', name: 'Eredivisie', country: 'Netherlands' },
-    // { code: 'CL', name: 'Champions League', country: 'Europe' },
+    { code: 'PL', name: 'Premier League', country: 'England' },
+    { code: 'BL1', name: 'Bundesliga', country: 'Germany' },
+    { code: 'SA', name: 'Serie A', country: 'Italy' },
+    { code: 'FL1', name: 'Ligue 1', country: 'France' },
+    { code: 'PPL', name: 'Primeira Liga', country: 'Portugal' },
+    { code: 'DED', name: 'Eredivisie', country: 'Netherlands' },
+    { code: 'CL', name: 'Champions League', country: 'Europe' },
+];
+
+// *** MANUAL LEAGUE FILTER ***
+// Comment out any leagues you DON'T want to process
+const LEAGUES_TO_PROCESS = [
+    'PL',   // Premier League
+    'PD',   // La Liga
+    'BL1',  // Bundesliga
+    'SA',   // Serie A
+    'FL1',  // Ligue 1
+    'PPL',  // Primeira Liga
+    'DED',  // Eredivisie
+    'CL',   // Champions League
 ];
 
 const API_KEY = '224c667c50404db8adb4c989bc1715e3';
@@ -120,6 +133,12 @@ async function fetchMatchStatistics() {
     
     // Process each league
     for (const [leagueCode, leagueData] of Object.entries(allLeagues)) {
+        // Skip if league not in filter
+        if (!LEAGUES_TO_PROCESS.includes(leagueCode)) {
+            console.log(`\n⏭️  Skipping ${leagueData.name} (not in LEAGUES_TO_PROCESS)`);
+            continue;
+        }
+        
         console.log(`\nProcessing ${leagueData.name}...`);
         
         if (!allStats[leagueCode]) {
@@ -186,8 +205,7 @@ async function fetchMatchStatistics() {
                 fetchedMatches++;
             }
             
-            // Rate limiting: 2000ms (2 seconds) between requests
-            await delay(2000);
+            // NO DELAY - fetch as fast as possible
         }
         
         console.log(`\n  ✓ Completed ${leagueData.name}`);
