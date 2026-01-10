@@ -406,19 +406,25 @@
             font-size: 1.1em;
         }
         
-        .score-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        .score-with-minute {
+            position: relative;
+            display: inline-block;
             padding: 0 8px;
         }
         
+        .score-with-minute .score {
+            padding: 0;
+        }
+        
         .live-minute {
-            font-size: 0.75em;
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.7em;
             color: #c8102e;
             font-weight: 600;
-            line-height: 1;
-            margin-bottom: 2px;
+            white-space: nowrap;
         }
 
         .match-oneliner .date {
@@ -1476,11 +1482,12 @@
                 // Build score section with optional live minute
                 let scoreSection = '';
                 if (isLive && currentMinute > 0) {
+                    // Minute floats above score without taking horizontal space
                     scoreSection = `
-                        <div class="score-container">
+                        <span class="score-with-minute">
                             <span class="live-minute">🔴 ${currentMinute}'</span>
                             <span class="score">${homeScore} - ${awayScore}</span>
-                        </div>
+                        </span>
                     `;
                 } else {
                     scoreSection = `<span class="score">${homeScore} - ${awayScore}</span>`;
