@@ -2,7 +2,7 @@ name: Update Football Data
 
 on:
   schedule:
-  - cron: '0,10,20,30,40,50 12-23,0-2 * * *'  # 7:00am-9:00pm EST Update Data
+  - cron: '0,10,20,30,40,50 12-23,0-2 * * *'  # 7:00am-9:00pm ESTern Update Data
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
   push:
