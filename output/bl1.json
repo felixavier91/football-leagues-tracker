@@ -65800,14 +65800,14 @@
       "id": 540542,
       "utcDate": "2026-01-10T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 59,
+      "minute": 68,
       "injuryTime": null,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T19:47:56Z",
+      "lastUpdated": "2026-01-10T19:56:26Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -66082,7 +66082,7 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 4
         },
         "halfTime": {
@@ -66171,6 +66171,24 @@
             "home": 0,
             "away": 4
           }
+        },
+        {
+          "minute": 66,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "scorer": {
+            "id": 16739,
+            "name": "Alejandro Grimaldo"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 4
+          }
         }
       ],
       "penalties": [
@@ -66182,6 +66200,17 @@
           "team": {
             "id": 10,
             "name": "VfB Stuttgart"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 16739,
+            "name": "Alejandro Grimaldo"
+          },
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
           },
           "scored": true
         }
