@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-23",
     "last": "2026-05-24",
-    "played": 186
+    "played": 188
   },
   "competition": {
     "id": 2019,
@@ -92183,15 +92183,15 @@
       },
       "id": 537009,
       "utcDate": "2026-01-10T14:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 2,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Stadio Giuseppe Sinigaglia",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T16:55:54Z",
+      "lastUpdated": "2026-01-10T17:01:52Z",
       "homeTeam": {
         "id": 7397,
         "name": "Como 1907",
@@ -92511,10 +92511,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -92541,6 +92541,27 @@
           },
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "REGULAR",
+          "team": {
+            "id": 7397,
+            "name": "Como 1907"
+          },
+          "scorer": {
+            "id": 156912,
+            "name": "Martin Baturina"
+          },
+          "assist": {
+            "id": 270254,
+            "name": "Jesús Rodríguez"
+          },
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
@@ -92683,15 +92704,15 @@
       },
       "id": 537013,
       "utcDate": "2026-01-10T14:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 4,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Stadio Friuli",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T16:55:54Z",
+      "lastUpdated": "2026-01-10T17:00:36Z",
       "homeTeam": {
         "id": 115,
         "name": "Udinese Calcio",
@@ -93173,6 +93194,18 @@
           "player": {
             "id": 2148,
             "name": "Antonio Caracciolo"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 487,
+            "name": "AC Pisa 1909"
+          },
+          "player": {
+            "id": 206658,
+            "name": "Francesco Coppola"
           },
           "card": "YELLOW"
         }

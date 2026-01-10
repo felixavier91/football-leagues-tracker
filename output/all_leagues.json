@@ -200449,15 +200449,15 @@
         },
         "id": 544394,
         "utcDate": "2026-01-10T15:15:00Z",
-        "status": "IN_PLAY",
-        "minute": 41,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
-        "attendance": null,
+        "attendance": 17011,
         "venue": "Estadio de la Cerámica",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T16:55:29Z",
+        "lastUpdated": "2026-01-10T17:05:58Z",
         "homeTeam": {
           "id": 94,
           "name": "Villarreal CF",
@@ -200742,8 +200742,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "goals": [],
@@ -200758,6 +200758,18 @@
             "player": {
               "id": 213262,
               "name": "Carles Aleñá"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 45,
+            "team": {
+              "id": 263,
+              "name": "Deportivo Alavés"
+            },
+            "player": {
+              "id": 33622,
+              "name": "Jonny Castro"
             },
             "card": "YELLOW"
           }
@@ -282295,14 +282307,14 @@
         "id": 540544,
         "utcDate": "2026-01-10T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 66,
+        "minute": 76,
         "injuryTime": null,
-        "attendance": null,
+        "attendance": 34700,
         "venue": "Europa-Park Stadion",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T16:55:46Z",
+        "lastUpdated": "2026-01-10T17:06:11Z",
         "homeTeam": {
           "id": 17,
           "name": "SC Freiburg",
@@ -282759,14 +282771,14 @@
         "id": 540547,
         "utcDate": "2026-01-10T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 66,
+        "minute": 77,
         "injuryTime": null,
         "attendance": 22012,
         "venue": "An der Alten Försterei",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T16:55:46Z",
+        "lastUpdated": "2026-01-10T17:06:11Z",
         "homeTeam": {
           "id": 28,
           "name": "1. FC Union Berlin",
@@ -283048,7 +283060,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 0,
@@ -283075,6 +283087,27 @@
             "score": {
               "home": 0,
               "away": 1
+            }
+          },
+          {
+            "minute": 69,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 15,
+              "name": "1. FSV Mainz 05"
+            },
+            "scorer": {
+              "id": 150647,
+              "name": "Benedict Hollerbach"
+            },
+            "assist": {
+              "id": 177460,
+              "name": "Nikolas Veratschnig"
+            },
+            "score": {
+              "home": 0,
+              "away": 2
             }
           }
         ],
@@ -283157,14 +283190,14 @@
         "id": 540549,
         "utcDate": "2026-01-10T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 65,
+        "minute": 76,
         "injuryTime": null,
-        "attendance": null,
+        "attendance": 15000,
         "venue": "Voith-Arena",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T16:55:46Z",
+        "lastUpdated": "2026-01-10T17:06:11Z",
         "homeTeam": {
           "id": 44,
           "name": "1. FC Heidenheim 1846",
@@ -390312,15 +390345,15 @@
         },
         "id": 537009,
         "utcDate": "2026-01-10T14:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 2,
+        "injuryTime": 7,
         "attendance": null,
         "venue": "Stadio Giuseppe Sinigaglia",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T16:55:54Z",
+        "lastUpdated": "2026-01-10T17:01:52Z",
         "homeTeam": {
           "id": 7397,
           "name": "Como 1907",
@@ -390640,10 +390673,10 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 1
           },
           "halfTime": {
@@ -390670,6 +390703,27 @@
             },
             "score": {
               "home": 0,
+              "away": 1
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 4,
+            "type": "REGULAR",
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "scorer": {
+              "id": 156912,
+              "name": "Martin Baturina"
+            },
+            "assist": {
+              "id": 270254,
+              "name": "Jesús Rodríguez"
+            },
+            "score": {
+              "home": 1,
               "away": 1
             }
           }
@@ -390812,15 +390866,15 @@
         },
         "id": 537013,
         "utcDate": "2026-01-10T14:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 4,
+        "injuryTime": 7,
         "attendance": null,
         "venue": "Stadio Friuli",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T16:55:54Z",
+        "lastUpdated": "2026-01-10T17:00:36Z",
         "homeTeam": {
           "id": 115,
           "name": "Udinese Calcio",
@@ -391302,6 +391356,18 @@
             "player": {
               "id": 2148,
               "name": "Antonio Caracciolo"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 487,
+              "name": "AC Pisa 1909"
+            },
+            "player": {
+              "id": 206658,
+              "name": "Francesco Coppola"
             },
             "card": "YELLOW"
           }
@@ -650634,14 +650700,14 @@
         "id": 537594,
         "utcDate": "2026-01-10T15:30:00Z",
         "status": "IN_PLAY",
-        "minute": 23,
+        "minute": 34,
         "injuryTime": null,
         "attendance": null,
         "venue": "AFAS Stadion",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T16:56:20Z",
+        "lastUpdated": "2026-01-10T17:06:38Z",
         "homeTeam": {
           "id": 682,
           "name": "AZ",
