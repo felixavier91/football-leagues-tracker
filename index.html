@@ -1490,8 +1490,7 @@
 
                 // Only show video/search button if match has already started
                 const matchTime = new Date(match.utcDate);
-                const now = new Date();
-                const hasStarted = matchTime <= now;
+                const hasStarted = matchTime <= now; // Reuse 'now' from above
 
                 if (hasStarted) {
                     const matchDate = new Date(match.utcDate).toISOString().split('T')[0];
