@@ -238,8 +238,14 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                 video_title_lower = video_title.lower()
                 
                 # Global filter: Block simulation and live stream videos (all leagues)
-                blocked_keywords = ['simulation', 'simulacion', 'live', 'directo']
-                if any(keyword in video_title_lower for keyword in blocked_keywords):
+                # Use word boundaries to avoid blocking "Liverpool" or "delivered"
+                blocked_patterns = [
+                    r'\bsimulation\b',
+                    r'\bsimulacion\b', 
+                    r'\blive\b',
+                    r'\bdirecto\b'
+                ]
+                if any(re.search(pattern, video_title_lower) for pattern in blocked_patterns):
                     print(f"  ⏭️  Skipping (contains blocked keyword): {video_title}")
                     continue
                 
@@ -394,9 +400,16 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
             except Exception as e:
                 continue
         
-        # Pick video with most views
+        # Pick video with most views, but apply quality filters
         if valid_videos:
-            best_video = max(valid_videos, key=lambda x: x['views'])
+            # Filter out videos with less than 1000 views (likely spam/low quality)
+            high_quality_videos = [v for v in valid_videos if v['views'] >= 1000]
+            
+            if not high_quality_videos:
+                print(f"  ❌ Found {len(valid_videos)} video(s) but all have less than 1,000 views (likely spam)")
+                return None, None
+            
+            best_video = max(high_quality_videos, key=lambda x: x['views'])
             print(f"  🏆 Selected: {best_video['title']} ({best_video['views']:,} views)")
             return best_video['video_id'], best_video['title']
         
