@@ -224,8 +224,8 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
         # Collect all valid videos with their view counts
         valid_videos = []
         
-        # Check top 10 results
-        for renderer in video_renderers[:10]:
+        # Check top 20 results to find quality videos that might rank lower
+        for renderer in video_renderers[:20]:
             try:
                 # Get video link and title
                 video_link = renderer.find_element(By.CSS_SELECTOR, "a#video-title")
