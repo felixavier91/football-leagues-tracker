@@ -90075,14 +90075,14 @@
       "id": 544398,
       "utcDate": "2026-01-10T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 73,
+      "minute": 81,
       "injuryTime": null,
       "attendance": 44949,
       "venue": "Estadio de Mestalla",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T22:35:01Z",
+      "lastUpdated": "2026-01-10T22:43:11Z",
       "homeTeam": {
         "id": 95,
         "name": "Valencia CF",
@@ -90384,18 +90384,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 75,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "scorer": {
+            "id": 8214,
+            "name": "Grady Diangana"
+          },
+          "assist": {
+            "id": 213280,
+            "name": "Adrià Pedrosa"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -90407,6 +90429,18 @@
           "player": {
             "id": 211835,
             "name": "Álvaro Núñez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 73,
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "player": {
+            "id": 151557,
+            "name": "Víctor Chust"
           },
           "card": "YELLOW"
         }
