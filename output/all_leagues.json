@@ -200901,15 +200901,15 @@
         },
         "id": 544393,
         "utcDate": "2026-01-10T17:30:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 5,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadi Municipal de Montilivi",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T17:20:06Z",
+        "lastUpdated": "2026-01-10T18:37:19Z",
         "homeTeam": {
           "id": 298,
           "name": "Girona FC",
@@ -201199,11 +201199,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -284099,15 +284099,15 @@
         },
         "id": 540542,
         "utcDate": "2026-01-10T17:30:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 7,
         "injuryTime": null,
         "attendance": null,
         "venue": "BayArena",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T17:24:22Z",
+        "lastUpdated": "2026-01-10T18:37:26Z",
         "homeTeam": {
           "id": 3,
           "name": "Bayer 04 Leverkusen",
@@ -284379,18 +284379,40 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 7,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 10,
+              "name": "VfB Stuttgart"
+            },
+            "scorer": {
+              "id": 123333,
+              "name": "Jamie Leweling"
+            },
+            "assist": {
+              "id": 6928,
+              "name": "Deniz Undav"
+            },
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -392102,14 +392124,14 @@
         "id": 537006,
         "utcDate": "2026-01-10T17:00:00Z",
         "status": "IN_PLAY",
-        "minute": 25,
+        "minute": 37,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Olimpico, Rome",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T18:25:41Z",
+        "lastUpdated": "2026-01-10T18:37:38Z",
         "homeTeam": {
           "id": 100,
           "name": "AS Roma",
@@ -651700,15 +651722,15 @@
         },
         "id": 537594,
         "utcDate": "2026-01-10T15:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 5,
+        "injuryTime": 4,
         "attendance": 18202,
         "venue": "AFAS Stadion",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T18:26:06Z",
+        "lastUpdated": "2026-01-10T18:27:16Z",
         "homeTeam": {
           "id": 682,
           "name": "AZ",
