@@ -237,11 +237,23 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                 
                 video_title_lower = video_title.lower()
                 
+                # Global filter: Block simulation and live stream videos (all leagues)
+                blocked_keywords = ['simulation', 'simulacion', 'live', 'directo']
+                if any(keyword in video_title_lower for keyword in blocked_keywords):
+                    print(f"  ⏭️  Skipping (contains blocked keyword): {video_title}")
+                    continue
+                
                 # Block videos with "laliga ea sports" anywhere in title (official channel that blocks embedding)
                 # This exact phrase appears in all their videos
                 if league_code == "PD" and "laliga ea sports" in video_title_lower:
                     print(f"  ⏭️  Skipping (LaLiga EA Sports official): {video_title}")
                     continue
+                
+                # Serie A videos must have "CBS Sports Golazo" in title
+                if league_code == "SA":
+                    if "cbs sports golazo" not in video_title_lower:
+                        print(f"  ⏭️  Skipping (Serie A requires CBS Sports Golazo): {video_title}")
+                        continue
                 
                 # Portuguese league videos must have pattern "| TeamName Score-Score TeamName |" in title
                 # Example: "| Peñarol 2-2 Nacional |" or "| Benfica 3-1 Porto |"
