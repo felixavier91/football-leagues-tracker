@@ -282263,14 +282263,14 @@
         "id": 540544,
         "utcDate": "2026-01-10T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 25,
+        "minute": 38,
         "injuryTime": null,
         "attendance": null,
         "venue": "Europa-Park Stadion",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T15:55:37Z",
+        "lastUpdated": "2026-01-10T16:08:20Z",
         "homeTeam": {
           "id": 17,
           "name": "SC Freiburg",
@@ -282627,14 +282627,14 @@
         "id": 540547,
         "utcDate": "2026-01-10T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 25,
+        "minute": 38,
         "injuryTime": null,
         "attendance": 22012,
         "venue": "An der Alten Försterei",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T15:55:37Z",
+        "lastUpdated": "2026-01-10T16:08:20Z",
         "homeTeam": {
           "id": 28,
           "name": "1. FC Union Berlin",
@@ -282912,18 +282912,40 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 30,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 15,
+              "name": "1. FSV Mainz 05"
+            },
+            "scorer": {
+              "id": 320,
+              "name": "Nadiem Amiri"
+            },
+            "assist": {
+              "id": 179889,
+              "name": "Jae-sung Lee"
+            },
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [
           {
@@ -282991,14 +283013,14 @@
         "id": 540549,
         "utcDate": "2026-01-10T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 25,
+        "minute": 37,
         "injuryTime": null,
         "attendance": null,
         "venue": "Voith-Arena",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T15:55:37Z",
+        "lastUpdated": "2026-01-10T16:08:20Z",
         "homeTeam": {
           "id": 44,
           "name": "1. FC Heidenheim 1846",
@@ -283276,10 +283298,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 1
           },
           "halfTime": {
@@ -283327,6 +283349,24 @@
             },
             "score": {
               "home": 1,
+              "away": 1
+            }
+          },
+          {
+            "minute": 26,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 44,
+              "name": "1. FC Heidenheim 1846"
+            },
+            "scorer": {
+              "id": 150698,
+              "name": "Julian Niehues"
+            },
+            "assist": null,
+            "score": {
+              "home": 2,
               "away": 1
             }
           }
@@ -390072,7 +390112,7 @@
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T15:55:54Z",
+        "lastUpdated": "2026-01-10T16:08:29Z",
         "homeTeam": {
           "id": 7397,
           "name": "Como 1907",
@@ -390470,15 +390510,15 @@
         },
         "id": 537013,
         "utcDate": "2026-01-10T14:00:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 48,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Friuli",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T15:55:54Z",
+        "lastUpdated": "2026-01-10T16:08:29Z",
         "homeTeam": {
           "id": 115,
           "name": "Udinese Calcio",
@@ -391021,7 +391061,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57868,
+            "name": "Matteo Marcenaro",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          },
+          {
+            "id": 206190,
+            "name": "Luca Mondin",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "Italy"
+          },
+          {
+            "id": 264304,
+            "name": "Giacomo Monaco",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
