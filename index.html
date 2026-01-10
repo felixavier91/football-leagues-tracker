@@ -227,6 +227,24 @@
             background: #fafafa;
         }
         
+        .stats-section-toggle {
+            text-align: center;
+            padding: 15px;
+            margin-bottom: 15px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            color: #c8102e;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .stats-section-toggle:hover {
+            background: #fafafa;
+            transform: translateY(-2px);
+        }
+        
         .filters {
             background: white;
             border-radius: 15px;
@@ -386,6 +404,21 @@
             color: #c8102e;
             padding: 0 8px;
             font-size: 1.1em;
+        }
+        
+        .score-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 8px;
+        }
+        
+        .live-minute {
+            font-size: 0.75em;
+            color: #c8102e;
+            font-weight: 600;
+            line-height: 1;
+            margin-bottom: 2px;
         }
 
         .match-oneliner .date {
@@ -831,6 +864,10 @@
             <div id="leagueButtons" class="league-buttons"></div>
         </div>
 
+        <div class="stats-section-toggle" id="statsToggleBtn" onclick="toggleStatsSection()" style="display: none;">
+            <span id="statsToggleText">▼ Show Stats & Standings</span>
+        </div>
+
         <div class="standings-container" id="standingsContainer" style="display: none;">
             <div class="standings-tabs">
                 <button class="standings-tab active" onclick="switchStatsTab('standings')">Standings</button>
@@ -957,6 +994,7 @@
             
             document.getElementById('filtersContainer').style.display = 'flex';
             document.getElementById('searchContainer').style.display = 'block';
+            document.getElementById('statsToggleBtn').style.display = 'block';
             
             // Clear search input when changing leagues
             document.getElementById('searchInput').value = '';
@@ -1292,6 +1330,20 @@
             const standings = JSON.parse(container.dataset.fullStandings);
             displayStandings(standings);
         }
+        
+        function toggleStatsSection() {
+            const container = document.getElementById('standingsContainer');
+            const toggleText = document.getElementById('statsToggleText');
+            const isVisible = container.style.display !== 'none';
+            
+            if (isVisible) {
+                container.style.display = 'none';
+                toggleText.textContent = '▼ Show Stats & Standings';
+            } else {
+                container.style.display = 'block';
+                toggleText.textContent = '▲ Hide Stats & Standings';
+            }
+        }
 
         function setMatchFilter(filter) {
             currentFilter = filter;
@@ -1401,12 +1453,32 @@
                 const homeWinner = match.score?.winner === 'HOME_TEAM' ? 'winner' : '';
                 const awayWinner = match.score?.winner === 'AWAY_TEAM' ? 'winner' : '';
 
+                // Check if match is live (in progress)
+                const now = new Date();
+                const matchStart = new Date(match.utcDate);
+                const twoHoursAfterStart = new Date(matchStart.getTime() + (2 * 60 * 60 * 1000));
+                const isLive = now >= matchStart && now <= twoHoursAfterStart && match.status !== 'FINISHED';
+                const currentMinute = match.minute || 0;
+                
+                // Build score section with optional live minute
+                let scoreSection = '';
+                if (isLive && currentMinute > 0) {
+                    scoreSection = `
+                        <div class="score-container">
+                            <span class="live-minute">🔴 ${currentMinute}'</span>
+                            <span class="score">${homeScore} - ${awayScore}</span>
+                        </div>
+                    `;
+                } else {
+                    scoreSection = `<span class="score">${homeScore} - ${awayScore}</span>`;
+                }
+
                 // One-liner format: shield-name-score-name-shield
                 const oneliner = `
                     <div class="match-oneliner">
                         <img src="${match.homeTeam.crest}" class="team-logo" alt="${match.homeTeam.shortName}" onerror="this.style.display='none'">
                         <span class="team-name">${match.homeTeam.shortName}</span>
-                        <span class="score">${homeScore} - ${awayScore}</span>
+                        ${scoreSection}
                         <span class="team-name">${match.awayTeam.shortName}</span>
                         <img src="${match.awayTeam.crest}" class="team-logo" alt="${match.awayTeam.shortName}" onerror="this.style.display='none'">
                         <span class="date date-desktop">${date}</span>
