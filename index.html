@@ -406,25 +406,11 @@
             font-size: 1.1em;
         }
         
-        .score-with-minute {
-            position: relative;
-            display: inline-block;
-            padding: 0 8px;
-        }
-        
-        .score-with-minute .score {
-            padding: 0;
-        }
-        
         .live-minute {
-            position: absolute;
-            top: -12px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 0.7em;
+            font-size: 0.75em;
             color: #c8102e;
             font-weight: 600;
-            white-space: nowrap;
+            margin-right: 8px;
         }
 
         .match-oneliner .date {
@@ -1480,22 +1466,18 @@
                 const currentMinute = match.minute || 0;
                 
                 // Build score section with optional live minute
-                let scoreSection = '';
+                let scoreSection = `<span class="score">${homeScore} - ${awayScore}</span>`;
+                
+                // Live minute indicator at start of line
+                let liveIndicator = '';
                 if (isLive && currentMinute > 0) {
-                    // Minute floats above score without taking horizontal space
-                    scoreSection = `
-                        <span class="score-with-minute">
-                            <span class="live-minute">🔴 ${currentMinute}'</span>
-                            <span class="score">${homeScore} - ${awayScore}</span>
-                        </span>
-                    `;
-                } else {
-                    scoreSection = `<span class="score">${homeScore} - ${awayScore}</span>`;
+                    liveIndicator = `<span class="live-minute">🔴 ${currentMinute}'</span>`;
                 }
 
-                // One-liner format: shield-name-score-name-shield
+                // One-liner format: [live indicator] shield-name-score-name-shield
                 const oneliner = `
                     <div class="match-oneliner">
+                        ${liveIndicator}
                         <img src="${match.homeTeam.crest}" class="team-logo" alt="${match.homeTeam.shortName}" onerror="this.style.display='none'">
                         <span class="team-name">${match.homeTeam.shortName}</span>
                         ${scoreSection}
