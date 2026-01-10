@@ -64339,14 +64339,14 @@
       "id": 540544,
       "utcDate": "2026-01-10T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 15,
+      "minute": 25,
       "injuryTime": null,
       "attendance": null,
       "venue": "Europa-Park Stadion",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T15:45:22Z",
+      "lastUpdated": "2026-01-10T15:55:37Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -64703,14 +64703,14 @@
       "id": 540547,
       "utcDate": "2026-01-10T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 15,
+      "minute": 25,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 22012,
       "venue": "An der Alten Försterei",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T15:45:23Z",
+      "lastUpdated": "2026-01-10T15:55:37Z",
       "homeTeam": {
         "id": 28,
         "name": "1. FC Union Berlin",
@@ -65001,7 +65001,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 19,
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "player": {
+            "id": 37796,
+            "name": "Diogo Leite"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -65054,14 +65067,14 @@
       "id": 540549,
       "utcDate": "2026-01-10T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 15,
+      "minute": 25,
       "injuryTime": null,
       "attendance": null,
       "venue": "Voith-Arena",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T15:45:23Z",
+      "lastUpdated": "2026-01-10T15:55:37Z",
       "homeTeam": {
         "id": 44,
         "name": "1. FC Heidenheim 1846",
@@ -65339,11 +65352,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
@@ -65371,10 +65384,44 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 18,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "scorer": {
+            "id": 152726,
+            "name": "Eric Martel"
+          },
+          "assist": {
+            "id": 8945,
+            "name": "Alessio Castro-Montes"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 21,
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "player": {
+            "id": 152726,
+            "name": "Eric Martel"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
