@@ -221,6 +221,9 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
         print(f"  📅 Match was {days_ago} days ago")
         print(f"  🔑 Looking for keywords: {home_keywords} vs {away_keywords}")
         
+        # Collect all valid videos with their view counts
+        valid_videos = []
+        
         # Check top 10 results
         for renderer in video_renderers[:10]:
             try:
@@ -341,14 +344,48 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                     print(f"  ⚠️  Could not verify upload date: {video_title}")
                     continue
                 
-                # All checks passed!
-                video_id = video_url.split("watch?v=")[1].split("&")[0]
-                print(f"  ✅ Found valid video: {video_title}")
-                print(f"      Upload info: {metadata_text}")
-                return video_id, video_title
+                # All checks passed! Extract view count and add to valid videos
+                try:
+                    video_id = video_url.split("watch?v=")[1].split("&")[0]
+                    
+                    # Try to get view count from metadata
+                    view_count = 0
+                    try:
+                        # View count is typically in the metadata line
+                        view_text = metadata_text.split('•')[0].strip() if '•' in metadata_text else metadata_text.strip()
+                        # Extract number from text like "13K views" or "365 views"
+                        if 'view' in view_text:
+                            view_str = view_text.replace('views', '').replace('view', '').strip()
+                            # Handle K (thousands) and M (millions)
+                            if 'k' in view_str.lower():
+                                view_count = int(float(view_str.lower().replace('k', '')) * 1000)
+                            elif 'm' in view_str.lower():
+                                view_count = int(float(view_str.lower().replace('m', '')) * 1000000)
+                            else:
+                                # Remove commas and convert
+                                view_count = int(view_str.replace(',', ''))
+                    except:
+                        view_count = 0
+                    
+                    valid_videos.append({
+                        'video_id': video_id,
+                        'title': video_title,
+                        'views': view_count,
+                        'metadata': metadata_text
+                    })
+                    print(f"  ✅ Valid video: {video_title} ({view_count:,} views)")
+                    
+                except Exception as e:
+                    continue
                     
             except Exception as e:
                 continue
+        
+        # Pick video with most views
+        if valid_videos:
+            best_video = max(valid_videos, key=lambda x: x['views'])
+            print(f"  🏆 Selected: {best_video['title']} ({best_video['views']:,} views)")
+            return best_video['video_id'], best_video['title']
         
         # No valid videos found
         print(f"  ❌ No videos with matching upload date found")
