@@ -250,7 +250,7 @@
             color: #c8102e;
             cursor: pointer;
             transition: all 0.3s;
-            flex: 0 0 calc(50% - 7.5px);
+            flex: 0 0 calc(33.333% - 10px);
         }
 
         .filter-btn:hover {
@@ -844,6 +844,7 @@
 
         <div class="filters" id="filtersContainer" style="display: none;">
             <button class="filter-btn active" id="recentBtn" onclick="setMatchFilter('recent')">Finished</button>
+            <button class="filter-btn" id="liveBtn" onclick="setMatchFilter('live')">Live</button>
             <button class="filter-btn" id="upcomingBtn" onclick="setMatchFilter('upcoming')">Upcoming</button>
         </div>
 
@@ -1303,13 +1304,25 @@
             
             // Update button states
             document.getElementById('recentBtn').classList.toggle('active', filter === 'recent');
+            document.getElementById('liveBtn').classList.toggle('active', filter === 'live');
             document.getElementById('upcomingBtn').classList.toggle('active', filter === 'upcoming');
             
             // Filter matches
             let filtered = currentMatches;
+            const now = new Date();
             
-            if (filter === 'upcoming') {
-                const now = new Date();
+            if (filter === 'live') {
+                // Show matches that are live (within 2 hours after start time and not finished)
+                filtered = filtered
+                    .filter(m => {
+                        const matchStart = new Date(m.utcDate);
+                        const twoHoursAfterStart = new Date(matchStart.getTime() + (2 * 60 * 60 * 1000));
+                        const isWithinWindow = now >= matchStart && now <= twoHoursAfterStart;
+                        const notFinished = m.status !== 'FINISHED';
+                        return isWithinWindow && notFinished;
+                    })
+                    .sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate));
+            } else if (filter === 'upcoming') {
                 filtered = filtered
                     .filter(m => m.status === 'SCHEDULED' || m.status === 'TIMED')
                     .filter(m => new Date(m.utcDate) >= now)
