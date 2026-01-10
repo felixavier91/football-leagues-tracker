@@ -199977,14 +199977,14 @@
         "id": 544396,
         "utcDate": "2026-01-10T13:00:00Z",
         "status": "IN_PLAY",
-        "minute": 64,
+        "minute": 66,
         "injuryTime": null,
         "attendance": 25549,
         "venue": "Nuevo Carlos Tartiere",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T15:21:13Z",
+        "lastUpdated": "2026-01-10T15:22:52Z",
         "homeTeam": {
           "id": 1048,
           "name": "Real Oviedo",
@@ -200292,10 +200292,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -200303,7 +200303,29 @@
             "away": 0
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 64,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1048,
+              "name": "Real Oviedo"
+            },
+            "scorer": {
+              "id": 146126,
+              "name": "Ilyas Chaira"
+            },
+            "assist": {
+              "id": 185104,
+              "name": "Alex Forés"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [
           {
@@ -389898,14 +389920,14 @@
         "id": 537009,
         "utcDate": "2026-01-10T14:00:00Z",
         "status": "IN_PLAY",
-        "minute": 19,
+        "minute": 21,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Giuseppe Sinigaglia",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T15:21:27Z",
+        "lastUpdated": "2026-01-10T15:23:09Z",
         "homeTeam": {
           "id": 7397,
           "name": "Como 1907",
@@ -390291,14 +390313,14 @@
         "id": 537013,
         "utcDate": "2026-01-10T14:00:00Z",
         "status": "IN_PLAY",
-        "minute": 19,
+        "minute": 21,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Friuli",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T15:21:27Z",
+        "lastUpdated": "2026-01-10T15:23:09Z",
         "homeTeam": {
           "id": 115,
           "name": "Udinese Calcio",
@@ -390630,10 +390652,10 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 1
           },
           "halfTime": {
@@ -390675,7 +390697,10 @@
               "id": 8111,
               "name": "Christian Kabasele"
             },
-            "assist": null,
+            "assist": {
+              "id": 2013,
+              "name": "Nicolò Zaniolo"
+            },
             "score": {
               "home": 1,
               "away": 1
