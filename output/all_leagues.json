@@ -200902,14 +200902,14 @@
         "id": 544393,
         "utcDate": "2026-01-10T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 5,
+        "minute": 14,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadi Municipal de Montilivi",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T18:37:19Z",
+        "lastUpdated": "2026-01-10T18:47:07Z",
         "homeTeam": {
           "id": 298,
           "name": "Girona FC",
@@ -200922,7 +200922,7 @@
             "nationality": "Spain"
           },
           "leagueRank": 17,
-          "formation": "4-5-1",
+          "formation": "4-2-3-1",
           "lineup": [
             {
               "id": 7993,
@@ -284100,14 +284100,14 @@
         "id": 540542,
         "utcDate": "2026-01-10T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 7,
+        "minute": 17,
         "injuryTime": null,
         "attendance": null,
         "venue": "BayArena",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T18:37:26Z",
+        "lastUpdated": "2026-01-10T18:47:12Z",
         "homeTeam": {
           "id": 3,
           "name": "Bayer 04 Leverkusen",
@@ -392124,14 +392124,14 @@
         "id": 537006,
         "utcDate": "2026-01-10T17:00:00Z",
         "status": "IN_PLAY",
-        "minute": 37,
-        "injuryTime": null,
+        "minute": 45,
+        "injuryTime": 1,
         "attendance": null,
         "venue": "Stadio Olimpico, Rome",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T18:37:38Z",
+        "lastUpdated": "2026-01-10T18:47:21Z",
         "homeTeam": {
           "id": 100,
           "name": "AS Roma",
@@ -392613,7 +392613,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11129,
+            "name": "Francesco Fourneau",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          },
+          {
+            "id": 217619,
+            "name": "Khaled Bahri",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "Italy"
+          },
+          {
+            "id": 217545,
+            "name": "Marco Ceolin",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
@@ -652129,7 +652148,7 @@
         },
         "id": 537602,
         "utcDate": "2026-01-10T17:45:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "minute": null,
         "injuryTime": null,
         "attendance": null,
@@ -652137,7 +652156,7 @@
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T17:45:42Z",
+        "lastUpdated": "2026-01-10T18:47:47Z",
         "homeTeam": {
           "id": 666,
           "name": "FC Twente '65",
@@ -652445,11 +652464,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
