@@ -313,8 +313,12 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                         elif 'm' in view_str.lower():
                             view_count = int(float(view_str.lower().replace('m', '').replace(',', '')) * 1000000)
                         else:
-                            view_count = int(view_str.replace(',', '').replace('.', ''))
-                except:
+                            # Plain number like "465" or "1,234"
+                            view_count = int(view_str.replace(',', ''))
+                    else:
+                        print(f"      Debug: Could not find view count in metadata: {metadata_full_text}")
+                except Exception as e:
+                    print(f"      Debug: Error parsing view count: {e}")
                     view_count = 0
                 
                 # Try to get upload date from metadata text
@@ -402,11 +406,14 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
         
         # Pick video with most views, but apply quality filters
         if valid_videos:
-            # Filter out videos with less than 1000 views (likely spam/low quality)
+            # Filter out videos with less than 1000 views OR unparseable view counts (0)
             high_quality_videos = [v for v in valid_videos if v['views'] >= 1000]
             
             if not high_quality_videos:
-                print(f"  ❌ Found {len(valid_videos)} video(s) but all have less than 1,000 views (likely spam)")
+                if any(v['views'] == 0 for v in valid_videos):
+                    print(f"  ❌ Found {len(valid_videos)} video(s) but couldn't parse view counts (suspicious)")
+                else:
+                    print(f"  ❌ Found {len(valid_videos)} video(s) but all have less than 1,000 views (likely spam)")
                 return None, None
             
             best_video = max(high_quality_videos, key=lambda x: x['views'])
