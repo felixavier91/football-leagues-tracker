@@ -64339,14 +64339,14 @@
       "id": 540544,
       "utcDate": "2026-01-10T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 51,
+      "minute": 55,
       "injuryTime": null,
       "attendance": null,
       "venue": "Europa-Park Stadion",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T16:40:24Z",
+      "lastUpdated": "2026-01-10T16:45:00Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -64624,10 +64624,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -64656,9 +64656,39 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 53,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 17,
+            "name": "SC Freiburg"
+          },
+          "scorer": {
+            "id": 6686,
+            "name": "Vincenzo Grifo"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 6686,
+            "name": "Vincenzo Grifo"
+          },
+          "team": {
+            "id": 17,
+            "name": "SC Freiburg"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 4,
@@ -64695,6 +64725,18 @@
             "name": "Philipp Lienhart"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 51,
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "player": {
+            "id": 183356,
+            "name": "Daniel Elfadli"
+          },
+          "card": "YELLOW_RED"
         }
       ],
       "substitutions": [],
@@ -64749,14 +64791,14 @@
       "id": 540547,
       "utcDate": "2026-01-10T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 51,
+      "minute": 56,
       "injuryTime": null,
       "attendance": 22012,
       "venue": "An der Alten Försterei",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T16:40:24Z",
+      "lastUpdated": "2026-01-10T16:45:00Z",
       "homeTeam": {
         "id": 28,
         "name": "1. FC Union Berlin",
@@ -65135,14 +65177,14 @@
       "id": 540549,
       "utcDate": "2026-01-10T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 50,
+      "minute": 55,
       "injuryTime": null,
       "attendance": null,
       "venue": "Voith-Arena",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T16:40:25Z",
+      "lastUpdated": "2026-01-10T16:45:00Z",
       "homeTeam": {
         "id": 44,
         "name": "1. FC Heidenheim 1846",
@@ -65537,6 +65579,18 @@
           "player": {
             "id": 176899,
             "name": "Arijon Ibrahimovic"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 52,
+          "team": {
+            "id": 44,
+            "name": "1. FC Heidenheim 1846"
+          },
+          "player": {
+            "id": 6879,
+            "name": "Jonas Föhrenbach"
           },
           "card": "YELLOW"
         }
