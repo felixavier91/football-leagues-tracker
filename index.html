@@ -1501,11 +1501,12 @@
 
                 let youtubeLink = '';
 
-                // Only show video/search button if match has already started
+                // Only show video/search button if match has finished (not live, not upcoming)
                 const matchTime = new Date(match.utcDate);
                 const hasStarted = matchTime <= now; // Reuse 'now' from above
+                const hasFinished = match.status === 'FINISHED' || !isLive;
 
-                if (hasStarted) {
+                if (hasStarted && hasFinished) {
                     const matchDate = new Date(match.utcDate).toISOString().split('T')[0];
                     const matchKey = `${match.homeTeam.name}-${match.awayTeam.name}-${matchDate}`;
                     const season = '2025-26';
