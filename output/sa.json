@@ -92184,14 +92184,14 @@
       "id": 537009,
       "utcDate": "2026-01-10T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 37,
+      "minute": 43,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Giuseppe Sinigaglia",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T15:39:36Z",
+      "lastUpdated": "2026-01-10T15:45:38Z",
       "homeTeam": {
         "id": 7397,
         "name": "Como 1907",
@@ -92524,7 +92524,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 40,
+          "team": {
+            "id": 7397,
+            "name": "Como 1907"
+          },
+          "player": {
+            "id": 203511,
+            "name": "Nico Paz"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -92577,14 +92590,14 @@
       "id": 537013,
       "utcDate": "2026-01-10T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 38,
+      "minute": 44,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Friuli",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T15:39:36Z",
+      "lastUpdated": "2026-01-10T15:45:38Z",
       "homeTeam": {
         "id": 115,
         "name": "Udinese Calcio",
@@ -92916,10 +92929,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -92969,9 +92982,39 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 40,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "scorer": {
+            "id": 3896,
+            "name": "Keinan Davis"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 3896,
+            "name": "Keinan Davis"
+          },
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 34,
