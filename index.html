@@ -1629,13 +1629,15 @@
                             `);
                         }
                         
-                        // Red Cards
+                        // Red Cards (includes straight reds and second yellows)
                         if (homeStats.red_cards !== undefined && awayStats.red_cards !== undefined) {
+                            const homeReds = (homeStats.red_cards || 0) + (homeStats.yellow_red_cards || 0);
+                            const awayReds = (awayStats.red_cards || 0) + (awayStats.yellow_red_cards || 0);
                             statsRows.push(`
                                 <div class="stat-row">
-                                    <div class="stat-home">${homeStats.red_cards}</div>
+                                    <div class="stat-home">${homeReds}</div>
                                     <div class="stat-label">Red Cards</div>
-                                    <div class="stat-away">${awayStats.red_cards}</div>
+                                    <div class="stat-away">${awayReds}</div>
                                 </div>
                             `);
                         }
