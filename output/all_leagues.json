@@ -200902,14 +200902,14 @@
         "id": 544393,
         "utcDate": "2026-01-10T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 40,
+        "minute": 51,
         "injuryTime": null,
-        "attendance": null,
+        "attendance": 12059,
         "venue": "Estadi Municipal de Montilivi",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T19:12:24Z",
+        "lastUpdated": "2026-01-10T19:40:41Z",
         "homeTeam": {
           "id": 298,
           "name": "Girona FC",
@@ -201199,20 +201199,55 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 44,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 298,
+              "name": "Girona FC"
+            },
+            "scorer": {
+              "id": 160819,
+              "name": "Vladyslav Vanat"
+            },
+            "assist": {
+              "id": 32123,
+              "name": "Alex Moreno"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 46,
+            "team": {
+              "id": 79,
+              "name": "CA Osasuna"
+            },
+            "player": {
+              "id": 111674,
+              "name": "Jon Moncayola"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -284119,14 +284154,14 @@
         "id": 540542,
         "utcDate": "2026-01-10T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 42,
+        "minute": 52,
         "injuryTime": null,
         "attendance": null,
         "venue": "BayArena",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T19:12:31Z",
+        "lastUpdated": "2026-01-10T19:40:51Z",
         "homeTeam": {
           "id": 3,
           "name": "Bayer 04 Leverkusen",
@@ -284402,11 +284437,11 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 2
+            "away": 4
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 4
           }
         },
         "goals": [
@@ -284447,6 +284482,48 @@
             "score": {
               "home": 0,
               "away": 2
+            }
+          },
+          {
+            "minute": 45,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 10,
+              "name": "VfB Stuttgart"
+            },
+            "scorer": {
+              "id": 123333,
+              "name": "Jamie Leweling"
+            },
+            "assist": {
+              "id": 6928,
+              "name": "Deniz Undav"
+            },
+            "score": {
+              "home": 0,
+              "away": 3
+            }
+          },
+          {
+            "minute": 45,
+            "injuryTime": 2,
+            "type": "REGULAR",
+            "team": {
+              "id": 10,
+              "name": "VfB Stuttgart"
+            },
+            "scorer": {
+              "id": 6928,
+              "name": "Deniz Undav"
+            },
+            "assist": {
+              "id": 206,
+              "name": "Chris Führich"
+            },
+            "score": {
+              "home": 0,
+              "away": 4
             }
           }
         ],
@@ -392198,14 +392275,14 @@
         "id": 537006,
         "utcDate": "2026-01-10T17:00:00Z",
         "status": "IN_PLAY",
-        "minute": 53,
+        "minute": 82,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Olimpico, Rome",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T19:12:41Z",
+        "lastUpdated": "2026-01-10T19:41:01Z",
         "homeTeam": {
           "id": 100,
           "name": "AS Roma",
@@ -392525,10 +392602,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
@@ -392536,7 +392613,50 @@
             "away": 0
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 76,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 100,
+              "name": "AS Roma"
+            },
+            "scorer": {
+              "id": 102395,
+              "name": "Kouadio Koné"
+            },
+            "assist": {
+              "id": 171121,
+              "name": "Matias Soule"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          },
+          {
+            "minute": 79,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 100,
+              "name": "AS Roma"
+            },
+            "scorer": {
+              "id": 171121,
+              "name": "Matias Soule"
+            },
+            "assist": {
+              "id": 1823,
+              "name": "Stephan El Shaarawy"
+            },
+            "score": {
+              "home": 2,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [
           {
@@ -392572,6 +392692,18 @@
             "player": {
               "id": 10989,
               "name": "Gian Piero Gasperini"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 59,
+            "team": {
+              "id": 471,
+              "name": "US Sassuolo Calcio"
+            },
+            "player": {
+              "id": 81179,
+              "name": "Arijanet Muric"
             },
             "card": "YELLOW"
           }
@@ -652222,15 +652354,15 @@
         },
         "id": 537602,
         "utcDate": "2026-01-10T17:45:00Z",
-        "status": "IN_PLAY",
-        "minute": 26,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "De Grolsch Veste",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-10T19:13:07Z",
+        "lastUpdated": "2026-01-10T19:41:26Z",
         "homeTeam": {
           "id": 666,
           "name": "FC Twente '65",
@@ -652545,8 +652677,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "goals": [],

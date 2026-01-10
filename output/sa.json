@@ -93262,14 +93262,14 @@
       "id": 537006,
       "utcDate": "2026-01-10T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 53,
+      "minute": 82,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Olimpico, Rome",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T19:12:41Z",
+      "lastUpdated": "2026-01-10T19:41:01Z",
       "homeTeam": {
         "id": 100,
         "name": "AS Roma",
@@ -93589,10 +93589,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -93600,7 +93600,50 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 76,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "scorer": {
+            "id": 102395,
+            "name": "Kouadio Koné"
+          },
+          "assist": {
+            "id": 171121,
+            "name": "Matias Soule"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 79,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "scorer": {
+            "id": 171121,
+            "name": "Matias Soule"
+          },
+          "assist": {
+            "id": 1823,
+            "name": "Stephan El Shaarawy"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -93636,6 +93679,18 @@
           "player": {
             "id": 10989,
             "name": "Gian Piero Gasperini"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 59,
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio"
+          },
+          "player": {
+            "id": 81179,
+            "name": "Arijanet Muric"
           },
           "card": "YELLOW"
         }
