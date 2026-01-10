@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 153
+    "played": 154
   },
   "competition": {
     "id": 2003,
@@ -75300,15 +75300,15 @@
       },
       "id": 537602,
       "utcDate": "2026-01-10T17:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 82,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "De Grolsch Veste",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T20:26:16Z",
+      "lastUpdated": "2026-01-10T20:42:06Z",
       "homeTeam": {
         "id": 666,
         "name": "FC Twente '65",
@@ -75616,10 +75616,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -75643,6 +75643,27 @@
           "assist": null,
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 86,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 666,
+            "name": "FC Twente '65"
+          },
+          "scorer": {
+            "id": 153600,
+            "name": "Daan Rots"
+          },
+          "assist": {
+            "id": 192148,
+            "name": "Mats Rots"
+          },
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
@@ -75682,6 +75703,18 @@
           "player": {
             "id": 81022,
             "name": "Bart van Rooij"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 87,
+          "team": {
+            "id": 684,
+            "name": "PEC Zwolle"
+          },
+          "player": {
+            "id": 7723,
+            "name": "Ryan Thomas"
           },
           "card": "YELLOW"
         }
@@ -75738,14 +75771,14 @@
       "id": 537598,
       "utcDate": "2026-01-10T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 26,
+      "minute": 42,
       "injuryTime": null,
       "attendance": null,
       "venue": "Philips Stadion",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T20:26:16Z",
+      "lastUpdated": "2026-01-10T20:42:56Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -76038,7 +76071,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 4,
           "away": 0
         },
         "halfTime": {
@@ -76086,6 +76119,48 @@
           },
           "score": {
             "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 33,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 221412,
+            "name": "Yarek Gasiorowski"
+          },
+          "assist": {
+            "id": 7451,
+            "name": "Mauro Júnior"
+          },
+          "score": {
+            "home": 3,
+            "away": 0
+          }
+        },
+        {
+          "minute": 39,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 184642,
+            "name": "Ryan Flamingo"
+          },
+          "assist": {
+            "id": 53426,
+            "name": "Joey Veerman"
+          },
+          "score": {
+            "home": 4,
             "away": 0
           }
         }
