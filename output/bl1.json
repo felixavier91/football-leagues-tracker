@@ -65800,14 +65800,14 @@
       "id": 540542,
       "utcDate": "2026-01-10T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 27,
+      "minute": 42,
       "injuryTime": null,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T18:56:52Z",
+      "lastUpdated": "2026-01-10T19:12:31Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -66083,7 +66083,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": null,
@@ -66111,10 +66111,65 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 29,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "scorer": {
+            "id": 6549,
+            "name": "Maximilian Mittelstädt"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 6549,
+            "name": "Maximilian Mittelstädt"
+          },
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 38,
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "player": {
+            "id": 123333,
+            "name": "Jamie Leweling"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 38,
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "player": {
+            "id": 9923,
+            "name": "Mark Flekken"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
