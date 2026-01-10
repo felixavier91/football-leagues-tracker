@@ -64338,15 +64338,15 @@
       },
       "id": 540544,
       "utcDate": "2026-01-10T14:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 51,
       "injuryTime": null,
       "attendance": null,
       "venue": "Europa-Park Stadion",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T16:34:41Z",
+      "lastUpdated": "2026-01-10T16:40:24Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -64624,18 +64624,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 48,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "scorer": {
+            "id": 216835,
+            "name": "Luka Vušković"
+          },
+          "assist": {
+            "id": 50215,
+            "name": "Miro Muheim"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -64726,15 +64748,15 @@
       },
       "id": 540547,
       "utcDate": "2026-01-10T14:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 51,
       "injuryTime": null,
       "attendance": 22012,
       "venue": "An der Alten Försterei",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T16:34:41Z",
+      "lastUpdated": "2026-01-10T16:40:24Z",
       "homeTeam": {
         "id": 28,
         "name": "1. FC Union Berlin",
@@ -65112,15 +65134,15 @@
       },
       "id": 540549,
       "utcDate": "2026-01-10T14:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 50,
       "injuryTime": null,
       "attendance": null,
       "venue": "Voith-Arena",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T16:34:41Z",
+      "lastUpdated": "2026-01-10T16:40:25Z",
       "homeTeam": {
         "id": 44,
         "name": "1. FC Heidenheim 1846",
@@ -65398,11 +65420,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 2,
@@ -65468,6 +65490,27 @@
           "score": {
             "home": 2,
             "away": 1
+          }
+        },
+        {
+          "minute": 48,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "scorer": {
+            "id": 247659,
+            "name": "Said El Mala"
+          },
+          "assist": {
+            "id": 8945,
+            "name": "Alessio Castro-Montes"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
           }
         }
       ],
