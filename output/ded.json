@@ -75770,15 +75770,15 @@
       },
       "id": 537598,
       "utcDate": "2026-01-10T19:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 42,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Philips Stadion",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T20:42:56Z",
+      "lastUpdated": "2026-01-10T21:02:21Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -76072,11 +76072,11 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 4,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 1
         }
       },
       "goals": [
@@ -76163,10 +76163,44 @@
             "home": 4,
             "away": 0
           }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 670,
+            "name": "SBV Excelsior"
+          },
+          "scorer": {
+            "id": 55224,
+            "name": "Ilias Bronkhorst"
+          },
+          "assist": {
+            "id": 81965,
+            "name": "Simon Janssen"
+          },
+          "score": {
+            "home": 4,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "player": {
+            "id": 2004,
+            "name": "Ivan Perišić"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -76224,7 +76258,7 @@
       },
       "id": 537595,
       "utcDate": "2026-01-10T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "minute": null,
       "injuryTime": null,
       "attendance": null,
@@ -76232,7 +76266,7 @@
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T20:14:25Z",
+      "lastUpdated": "2026-01-10T21:02:21Z",
       "homeTeam": {
         "id": 677,
         "name": "FC Groningen",
@@ -76546,11 +76580,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
