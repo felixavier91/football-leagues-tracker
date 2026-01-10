@@ -93261,15 +93261,15 @@
       },
       "id": 537006,
       "utcDate": "2026-01-10T17:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 25,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Olimpico, Rome",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T17:29:35Z",
+      "lastUpdated": "2026-01-10T18:25:41Z",
       "homeTeam": {
         "id": 100,
         "name": "AS Roma",
@@ -93282,7 +93282,7 @@
           "nationality": "Italy"
         },
         "leagueRank": 5,
-        "formation": "3-4-3",
+        "formation": "3-4-1-2",
         "lineup": [
           {
             "id": 16735,
@@ -93589,11 +93589,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -93602,7 +93602,44 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 22,
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "player": {
+            "id": 102395,
+            "name": "Kouadio Koné"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 23,
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "player": {
+            "id": 32703,
+            "name": "Mario Hermoso"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 24,
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "player": {
+            "id": 10989,
+            "name": "Gian Piero Gasperini"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
