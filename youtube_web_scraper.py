@@ -249,6 +249,11 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                     print(f"  ⏭️  Skipping (contains blocked keyword): {video_title}")
                     continue
                 
+                # Block videos with standalone "HD" (case-sensitive) - indicates unofficial channels
+                if re.search(r'\bHD\b', video_title):
+                    print(f"  ⏭️  Skipping (contains 'HD' - unofficial channel): {video_title}")
+                    continue
+                
                 # Block videos with "laliga ea sports" anywhere in title (official channel that blocks embedding)
                 # This exact phrase appears in all their videos
                 if league_code == "PD" and "laliga ea sports" in video_title_lower:
