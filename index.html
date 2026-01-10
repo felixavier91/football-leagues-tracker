@@ -900,6 +900,7 @@
         let currentLeagueCode = null;
         let currentMatches = [];
         let currentFilter = 'recent';
+        let statsExpanded = false; // Track if stats section is expanded
 
         // Automatically load data on page load
         window.addEventListener('DOMContentLoaded', function() {
@@ -995,6 +996,17 @@
             document.getElementById('filtersContainer').style.display = 'flex';
             document.getElementById('searchContainer').style.display = 'block';
             document.getElementById('statsToggleBtn').style.display = 'block';
+            
+            // Honor current stats section state
+            const container = document.getElementById('standingsContainer');
+            const toggleText = document.getElementById('statsToggleText');
+            if (statsExpanded) {
+                container.style.display = 'block';
+                toggleText.textContent = '▲ Hide Stats & Standings';
+            } else {
+                container.style.display = 'none';
+                toggleText.textContent = '▼ Show Stats & Standings';
+            }
             
             // Clear search input when changing leagues
             document.getElementById('searchInput').value = '';
@@ -1334,14 +1346,15 @@
         function toggleStatsSection() {
             const container = document.getElementById('standingsContainer');
             const toggleText = document.getElementById('statsToggleText');
-            const isVisible = container.style.display !== 'none';
             
-            if (isVisible) {
-                container.style.display = 'none';
-                toggleText.textContent = '▼ Show Stats & Standings';
-            } else {
+            statsExpanded = !statsExpanded;
+            
+            if (statsExpanded) {
                 container.style.display = 'block';
                 toggleText.textContent = '▲ Hide Stats & Standings';
+            } else {
+                container.style.display = 'none';
+                toggleText.textContent = '▼ Show Stats & Standings';
             }
         }
 
