@@ -279,6 +279,26 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                     print(f"  ⏭️  Skipping (no team keywords found): {video_title}")
                     continue
                 
+                # Extract view count BEFORE checking upload date
+                view_count = 0
+                try:
+                    # Try to get view count from the viewCountText or metadata
+                    metadata_elem = renderer.find_element(By.CSS_SELECTOR, "#metadata-line")
+                    metadata_full_text = metadata_elem.text
+                    
+                    # Look for view count pattern
+                    view_match = re.search(r'([\d,.]+[kKmM]?)\s*views?', metadata_full_text, re.IGNORECASE)
+                    if view_match:
+                        view_str = view_match.group(1).strip()
+                        if 'k' in view_str.lower():
+                            view_count = int(float(view_str.lower().replace('k', '').replace(',', '')) * 1000)
+                        elif 'm' in view_str.lower():
+                            view_count = int(float(view_str.lower().replace('m', '').replace(',', '')) * 1000000)
+                        else:
+                            view_count = int(view_str.replace(',', '').replace('.', ''))
+                except:
+                    view_count = 0
+                
                 # Try to get upload date from metadata text
                 try:
                     metadata = renderer.find_element(By.CSS_SELECTOR, "#metadata-line")
@@ -344,28 +364,9 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                     print(f"  ⚠️  Could not verify upload date: {video_title}")
                     continue
                 
-                # All checks passed! Extract view count and add to valid videos
+                # All checks passed! Add to valid videos
                 try:
                     video_id = video_url.split("watch?v=")[1].split("&")[0]
-                    
-                    # Try to get view count from metadata
-                    view_count = 0
-                    try:
-                        # View count is typically in the metadata line
-                        view_text = metadata_text.split('•')[0].strip() if '•' in metadata_text else metadata_text.strip()
-                        # Extract number from text like "13K views" or "365 views"
-                        if 'view' in view_text:
-                            view_str = view_text.replace('views', '').replace('view', '').strip()
-                            # Handle K (thousands) and M (millions)
-                            if 'k' in view_str.lower():
-                                view_count = int(float(view_str.lower().replace('k', '')) * 1000)
-                            elif 'm' in view_str.lower():
-                                view_count = int(float(view_str.lower().replace('m', '')) * 1000000)
-                            else:
-                                # Remove commas and convert
-                                view_count = int(view_str.replace(',', ''))
-                    except:
-                        view_count = 0
                     
                     valid_videos.append({
                         'video_id': video_id,
