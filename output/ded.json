@@ -74893,15 +74893,15 @@
       },
       "id": 537594,
       "utcDate": "2026-01-10T15:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 34,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "AFAS Stadion",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T17:06:38Z",
+      "lastUpdated": "2026-01-10T17:21:28Z",
       "homeTeam": {
         "id": 682,
         "name": "AZ",
@@ -75210,8 +75210,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -75235,7 +75235,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 1919,
+            "name": "FC Volendam"
+          },
+          "player": {
+            "id": 282705,
+            "name": "Robin van Cruijsen"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
