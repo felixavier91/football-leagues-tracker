@@ -75301,14 +75301,14 @@
       "id": 537602,
       "utcDate": "2026-01-10T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 53,
+      "minute": 60,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Grolsch Veste",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T19:57:03Z",
+      "lastUpdated": "2026-01-10T20:03:46Z",
       "homeTeam": {
         "id": 666,
         "name": "FC Twente '65",
@@ -75629,7 +75629,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 53,
+          "team": {
+            "id": 684,
+            "name": "PEC Zwolle"
+          },
+          "player": {
+            "id": 160846,
+            "name": "Shola Shoretire"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -75681,15 +75694,15 @@
       },
       "id": 537598,
       "utcDate": "2026-01-10T19:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 3,
       "injuryTime": null,
       "attendance": null,
       "venue": "Philips Stadion",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-10T19:01:41Z",
+      "lastUpdated": "2026-01-10T20:03:47Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -75979,11 +75992,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
