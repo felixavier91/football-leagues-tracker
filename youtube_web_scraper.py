@@ -452,16 +452,9 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
             except Exception as e:
                 continue
         
-        # Pick video with most views, but require minimum 1000 views
+        # Pick video with most views from all valid videos
         if valid_videos:
-            # Filter out videos with less than 1000 views
-            high_quality_videos = [v for v in valid_videos if v['views'] >= 1000]
-            
-            if not high_quality_videos:
-                print(f"  ❌ Found {len(valid_videos)} video(s) but all have less than 1,000 views (likely spam)")
-                return None, None
-            
-            best_video = max(high_quality_videos, key=lambda x: x['views'])
+            best_video = max(valid_videos, key=lambda x: x['views'])
             print(f"  🏆 Selected: {best_video['title']} ({best_video['views']:,} views)")
             return best_video['video_id'], best_video['title']
         
