@@ -95684,14 +95684,14 @@
       "id": 537011,
       "utcDate": "2026-01-11T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 69,
+      "minute": 89,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T22:15:29Z",
+      "lastUpdated": "2026-01-11T22:35:24Z",
       "homeTeam": {
         "id": 108,
         "name": "FC Internazionale Milano",
@@ -96002,8 +96002,8 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 1
+          "home": 2,
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -96052,10 +96052,74 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 73,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 1754,
+            "name": "Hakan Çalhanoğlu"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        {
+          "minute": 81,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "scorer": {
+            "id": 7905,
+            "name": "Scott McTominay"
+          },
+          "assist": {
+            "id": 7565,
+            "name": "Noa Lang"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 1754,
+            "name": "Hakan Çalhanoğlu"
+          },
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 71,
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "player": {
+            "id": 11583,
+            "name": "Antonio Conte"
+          },
+          "card": "RED"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
