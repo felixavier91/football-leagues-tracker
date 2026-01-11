@@ -232,22 +232,10 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                 video_url = video_link.get_attribute("href")
                 video_title = video_link.get_attribute("title")
                 
-                # Get channel name
-                try:
-                    channel_elem = renderer.find_element(By.CSS_SELECTOR, "a.yt-simple-endpoint.style-scope.yt-formatted-string")
-                    channel_name = channel_elem.text
-                except:
-                    try:
-                        channel_elem = renderer.find_element(By.CSS_SELECTOR, "#channel-name a")
-                        channel_name = channel_elem.text
-                    except:
-                        channel_name = ""
-                
                 if not video_url or "watch?v=" not in video_url:
                     continue
                 
                 video_title_lower = video_title.lower()
-                channel_name_lower = channel_name.lower()
                 
                 # Global filter: Block simulation and live stream videos (all leagues)
                 # Use word boundaries to avoid blocking "Liverpool" or "delivered"
@@ -276,12 +264,6 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                 if league_code == "SA":
                     if "cbs sports golazo" not in video_title_lower:
                         print(f"  ⏭️  Skipping (Serie A requires CBS Sports Golazo): {video_title}")
-                        continue
-                
-                # Bundesliga videos must be from "Bundesliga" channel
-                if league_code == "BL1":
-                    if "bundesliga" not in channel_name_lower:
-                        print(f"  ⏭️  Skipping (Bundesliga requires Bundesliga channel): {video_title} (Channel: {channel_name})")
                         continue
                 
                 # Portuguese league videos must have pattern "| TeamName Score-Score TeamName |" in title
@@ -417,10 +399,9 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                         'video_id': video_id,
                         'title': video_title,
                         'views': view_count,
-                        'channel': channel_name,
                         'metadata': metadata_text
                     })
-                    print(f"  ✅ Valid video: {video_title} ({view_count:,} views) - Channel: {channel_name}")
+                    print(f"  ✅ Valid video: {video_title} ({view_count:,} views)")
                     
                 except Exception as e:
                     continue
@@ -428,30 +409,17 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
             except Exception as e:
                 continue
         
-        # Pick video with most views from all valid videos
+        # Pick video with most views, but require minimum 1000 views
         if valid_videos:
-            # For La Liga, prefer channels with "ESPN" or team names
-            if league_code == "PD":
-                # Check if any videos have ESPN in channel name or team names
-                preferred_videos = []
-                for v in valid_videos:
-                    channel_lower = v['channel'].lower()
-                    # Prefer if channel contains "ESPN" or either team name
-                    if 'espn' in channel_lower or home_team.lower() in channel_lower or away_team.lower() in channel_lower:
-                        preferred_videos.append(v)
-                
-                # If we have preferred channels, pick from those; otherwise use all
-                candidates = preferred_videos if preferred_videos else valid_videos
-                best_video = max(candidates, key=lambda x: x['views'])
-                
-                if preferred_videos:
-                    print(f"  🏆 Selected (preferred channel): {best_video['title']} ({best_video['views']:,} views) - Channel: {best_video['channel']}")
-                else:
-                    print(f"  🏆 Selected: {best_video['title']} ({best_video['views']:,} views) - Channel: {best_video['channel']}")
-            else:
-                best_video = max(valid_videos, key=lambda x: x['views'])
-                print(f"  🏆 Selected: {best_video['title']} ({best_video['views']:,} views) - Channel: {best_video['channel']}")
+            # Filter out videos with less than 1000 views
+            high_quality_videos = [v for v in valid_videos if v['views'] >= 1000]
             
+            if not high_quality_videos:
+                print(f"  ❌ Found {len(valid_videos)} video(s) but all have less than 1,000 views (likely spam)")
+                return None, None
+            
+            best_video = max(high_quality_videos, key=lambda x: x['views'])
+            print(f"  🏆 Selected: {best_video['title']} ({best_video['views']:,} views)")
             return best_video['video_id'], best_video['title']
         
         # No valid videos found
