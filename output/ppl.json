@@ -69398,15 +69398,15 @@
       },
       "id": 545842,
       "utcDate": "2026-01-11T15:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 7,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio da Madeira",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T15:30:56Z",
+      "lastUpdated": "2026-01-11T16:37:52Z",
       "homeTeam": {
         "id": 5529,
         "name": "CD Nacional",
@@ -69419,7 +69419,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 13,
-        "formation": "4-3-3",
+        "formation": "4-4-2",
         "lineup": [
           {
             "id": 178927,
@@ -69557,7 +69557,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 14,
-        "formation": "3-5-2",
+        "formation": "3-1-4-2",
         "lineup": [
           {
             "id": 1528,
@@ -69678,20 +69678,52 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 4,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "scorer": {
+            "id": 118015,
+            "name": "Vinícius"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 6,
+          "team": {
+            "id": 5529,
+            "name": "CD Nacional"
+          },
+          "player": {
+            "id": 1437,
+            "name": "Léo Santos"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
