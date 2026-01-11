@@ -201871,15 +201871,15 @@
         },
         "id": 544400,
         "utcDate": "2026-01-11T13:00:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 12,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio de Vallecas",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T12:53:58Z",
+        "lastUpdated": "2026-01-11T14:14:01Z",
         "homeTeam": {
           "id": 87,
           "name": "Rayo Vallecano de Madrid",
@@ -202042,7 +202042,7 @@
             "nationality": "Spain"
           },
           "leagueRank": 17,
-          "formation": "4-2-3-1",
+          "formation": "4-4-2",
           "lineup": [
             {
               "id": 172628,
@@ -202175,18 +202175,40 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 4,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 87,
+              "name": "Rayo Vallecano de Madrid"
+            },
+            "scorer": {
+              "id": 133276,
+              "name": "Jorge de Frutos"
+            },
+            "assist": {
+              "id": 32312,
+              "name": "Álvaro García"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -394069,14 +394091,14 @@
         "id": 537014,
         "utcDate": "2026-01-11T11:30:00Z",
         "status": "IN_PLAY",
-        "minute": 69,
+        "minute": 85,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Via del Mare",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T13:57:51Z",
+        "lastUpdated": "2026-01-11T14:14:21Z",
         "homeTeam": {
           "id": 5890,
           "name": "US Lecce",
@@ -394396,11 +394418,11 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 1,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 1,
@@ -394445,6 +394467,27 @@
             "score": {
               "home": 1,
               "away": 1
+            }
+          },
+          {
+            "minute": 72,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 112,
+              "name": "Parma Calcio 1913"
+            },
+            "scorer": {
+              "id": 157538,
+              "name": "Mateo Pellegrino"
+            },
+            "assist": {
+              "id": 92051,
+              "name": "Adrián Bernabé"
+            },
+            "score": {
+              "home": 1,
+              "away": 2
             }
           }
         ],
@@ -394495,6 +394538,18 @@
             "player": {
               "id": 170915,
               "name": "Mohamed Kaba"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 69,
+            "team": {
+              "id": 112,
+              "name": "Parma Calcio 1913"
+            },
+            "player": {
+              "id": 1839,
+              "name": "Enrico Del Prato"
             },
             "card": "YELLOW"
           }
@@ -394558,7 +394613,7 @@
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-05T01:32:01Z",
+        "lastUpdated": "2026-01-11T14:12:48Z",
         "homeTeam": {
           "id": 99,
           "name": "ACF Fiorentina",
@@ -394571,9 +394626,143 @@
             "nationality": "Italy"
           },
           "leagueRank": 18,
-          "formation": null,
-          "lineup": [],
-          "bench": []
+          "formation": "4-3-3",
+          "lineup": [
+            {
+              "id": 3188,
+              "name": "David De Gea",
+              "position": "Goalkeeper",
+              "shirtNumber": 43
+            },
+            {
+              "id": 3851,
+              "name": "Albert Guðmundsson",
+              "position": "Offence",
+              "shirtNumber": 10
+            },
+            {
+              "id": 129801,
+              "name": "Fabiano Parisi",
+              "position": "Left-Back",
+              "shirtNumber": 65
+            },
+            {
+              "id": 2171,
+              "name": "Moise Kean",
+              "position": "Centre-Forward",
+              "shirtNumber": 20
+            },
+            {
+              "id": 2230,
+              "name": "Rolando Mandragora",
+              "position": "Defensive Midfield",
+              "shirtNumber": 8
+            },
+            {
+              "id": 97879,
+              "name": "Nicolò Fagioli",
+              "position": "Central Midfield",
+              "shirtNumber": 44
+            },
+            {
+              "id": 192307,
+              "name": "Cher Ndour",
+              "position": "Central Midfield",
+              "shirtNumber": 27
+            },
+            {
+              "id": 16474,
+              "name": "Dodô",
+              "position": "Right-Back",
+              "shirtNumber": 2
+            },
+            {
+              "id": 217391,
+              "name": "Pietro Comuzzo",
+              "position": "Centre-Back",
+              "shirtNumber": 15
+            },
+            {
+              "id": 15110,
+              "name": "Marin Pongračić",
+              "position": "Centre-Back",
+              "shirtNumber": 5
+            },
+            {
+              "id": 1847,
+              "name": "Robin Gosens",
+              "position": "Left-Back",
+              "shirtNumber": 21
+            }
+          ],
+          "bench": [
+            {
+              "id": 24293,
+              "name": "Oliver Christensen",
+              "position": "Goalkeeper",
+              "shirtNumber": 53
+            },
+            {
+              "id": 2786,
+              "name": "Luca Lezzerini",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 267944,
+              "name": "Eddy Kouadio",
+              "position": "Defence",
+              "shirtNumber": 60
+            },
+            {
+              "id": 284108,
+              "name": "Eman Košpo",
+              "position": "Defence",
+              "shirtNumber": 23
+            },
+            {
+              "id": 40541,
+              "name": "Manor Solomon",
+              "position": "Left Winger",
+              "shirtNumber": 19
+            },
+            {
+              "id": 98606,
+              "name": "Simon Sohm",
+              "position": "Central Midfield",
+              "shirtNumber": 7
+            },
+            {
+              "id": 1778,
+              "name": "Luca Ranieri",
+              "position": "Centre-Back",
+              "shirtNumber": 6
+            },
+            {
+              "id": 102591,
+              "name": "Roberto Piccoli",
+              "position": "Centre-Forward",
+              "shirtNumber": 91
+            },
+            {
+              "id": 97894,
+              "name": "Hans Nicolussi Caviglia",
+              "position": "Central Midfield",
+              "shirtNumber": 14
+            },
+            {
+              "id": 251135,
+              "name": "Niccolò Fortini",
+              "position": "Left-Back",
+              "shirtNumber": 29
+            },
+            {
+              "id": 177054,
+              "name": "Jacopo Fazzini",
+              "position": "Central Midfield",
+              "shirtNumber": 22
+            }
+          ]
         },
         "awayTeam": {
           "id": 98,
@@ -394587,9 +394776,137 @@
             "nationality": "Italy"
           },
           "leagueRank": 2,
-          "formation": null,
-          "lineup": [],
-          "bench": []
+          "formation": "3-5-2",
+          "lineup": [
+            {
+              "id": 8390,
+              "name": "Mike Maignan",
+              "position": "Goalkeeper",
+              "shirtNumber": 16
+            },
+            {
+              "id": 144909,
+              "name": "Ardon Jasari",
+              "position": "Midfield",
+              "shirtNumber": 30
+            },
+            {
+              "id": 145,
+              "name": "Christian Pulisic",
+              "position": "Right Winger",
+              "shirtNumber": 11
+            },
+            {
+              "id": 304,
+              "name": "Niclas Füllkrug",
+              "position": "Centre-Forward",
+              "shirtNumber": 9
+            },
+            {
+              "id": 8858,
+              "name": "Alexis Saelemaekers",
+              "position": "Right Winger",
+              "shirtNumber": 56
+            },
+            {
+              "id": 8159,
+              "name": "Ruben Loftus-Cheek",
+              "position": "Central Midfield",
+              "shirtNumber": 8
+            },
+            {
+              "id": 115245,
+              "name": "Samuele Ricci",
+              "position": "Defensive Midfield",
+              "shirtNumber": 4
+            },
+            {
+              "id": 32642,
+              "name": "Pervis Estupiñán",
+              "position": "Left-Back",
+              "shirtNumber": 2
+            },
+            {
+              "id": 153556,
+              "name": "Koni De Winter",
+              "position": "Centre-Back",
+              "shirtNumber": 5
+            },
+            {
+              "id": 1753,
+              "name": "Matteo Gabbia",
+              "position": "Centre-Back",
+              "shirtNumber": 46
+            },
+            {
+              "id": 112969,
+              "name": "Strahinja Pavlović",
+              "position": "Centre-Back",
+              "shirtNumber": 31
+            }
+          ],
+          "bench": [
+            {
+              "id": 251128,
+              "name": "Lorenzo Torriani",
+              "position": "Goalkeeper",
+              "shirtNumber": 96
+            },
+            {
+              "id": 256424,
+              "name": "Zachary Athekame",
+              "position": "Defence",
+              "shirtNumber": 24
+            },
+            {
+              "id": 202533,
+              "name": "David Odogu",
+              "position": "Defence",
+              "shirtNumber": 27
+            },
+            {
+              "id": 15892,
+              "name": "Rafael Leão",
+              "position": "Left Winger",
+              "shirtNumber": 10
+            },
+            {
+              "id": 3368,
+              "name": "Adrien Rabiot",
+              "position": "Central Midfield",
+              "shirtNumber": 12
+            },
+            {
+              "id": 8484,
+              "name": "Christopher Nkunku",
+              "position": "Centre-Forward",
+              "shirtNumber": 18
+            },
+            {
+              "id": 43,
+              "name": "Luka Modrić",
+              "position": "Central Midfield",
+              "shirtNumber": 14
+            },
+            {
+              "id": 81299,
+              "name": "Youssouf Fofana",
+              "position": "Defensive Midfield",
+              "shirtNumber": 19
+            },
+            {
+              "id": 244837,
+              "name": "Matteo Duțu",
+              "position": "Centre-Back",
+              "shirtNumber": 35
+            },
+            {
+              "id": 215616,
+              "name": "Davide Bartesaghi",
+              "position": "Left-Back",
+              "shirtNumber": 33
+            }
+          ]
         },
         "score": {
           "winner": null,
@@ -655384,15 +655701,15 @@
         },
         "id": 537599,
         "utcDate": "2026-01-11T11:15:00Z",
-        "status": "IN_PLAY",
-        "minute": 81,
-        "injuryTime": null,
+        "status": "FINISHED",
+        "minute": 90,
+        "injuryTime": 4,
         "attendance": null,
         "venue": "Abe Lenstra Stadion",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T13:58:21Z",
+        "lastUpdated": "2026-01-11T14:13:11Z",
         "homeTeam": {
           "id": 673,
           "name": "SC Heerenveen",
@@ -655706,10 +656023,10 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 2
           },
           "halfTime": {
@@ -655778,6 +656095,27 @@
             },
             "score": {
               "home": 1,
+              "away": 2
+            }
+          },
+          {
+            "minute": 87,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 673,
+              "name": "SC Heerenveen"
+            },
+            "scorer": {
+              "id": 168705,
+              "name": "Amourricho van Axel Dongen"
+            },
+            "assist": {
+              "id": 7684,
+              "name": "Joris van Overeem"
+            },
+            "score": {
+              "home": 2,
               "away": 2
             }
           }
