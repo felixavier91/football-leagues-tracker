@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 141
+    "played": 142
   },
   "competition": {
     "id": 2002,
@@ -66789,15 +66789,15 @@
       },
       "id": 540541,
       "utcDate": "2026-01-11T16:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 74,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": 75000,
       "venue": "Allianz Arena",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T19:02:19Z",
+      "lastUpdated": "2026-01-11T19:26:05Z",
       "homeTeam": {
         "id": 5,
         "name": "FC Bayern München",
@@ -67078,7 +67078,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 6,
+          "home": 8,
           "away": 1
         },
         "halfTime": {
@@ -67225,6 +67225,48 @@
           },
           "score": {
             "home": 6,
+            "away": 1
+          }
+        },
+        {
+          "minute": 76,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 113765,
+            "name": "Michael Olise"
+          },
+          "assist": {
+            "id": 22396,
+            "name": "Luis Díaz"
+          },
+          "score": {
+            "home": 7,
+            "away": 1
+          }
+        },
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 3181,
+            "name": "Leon Goretzka"
+          },
+          "assist": {
+            "id": 149,
+            "name": "Jonathan Tah"
+          },
+          "score": {
+            "home": 8,
             "away": 1
           }
         }
