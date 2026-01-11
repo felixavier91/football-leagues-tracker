@@ -201872,14 +201872,14 @@
         "id": 544400,
         "utcDate": "2026-01-11T13:00:00Z",
         "status": "IN_PLAY",
-        "minute": 61,
+        "minute": 71,
         "injuryTime": null,
         "attendance": 12223,
         "venue": "Estadio de Vallecas",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T15:27:42Z",
+        "lastUpdated": "2026-01-11T15:38:01Z",
         "homeTeam": {
           "id": 87,
           "name": "Rayo Vallecano de Madrid",
@@ -202307,6 +202307,18 @@
             "player": {
               "id": 33138,
               "name": "Toni Lato"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 61,
+            "team": {
+              "id": 89,
+              "name": "RCD Mallorca"
+            },
+            "player": {
+              "id": 33513,
+              "name": "Pablo Maffeo"
             },
             "card": "YELLOW"
           }
@@ -285849,15 +285861,15 @@
         },
         "id": 540546,
         "utcDate": "2026-01-11T14:30:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 8,
         "injuryTime": null,
         "attendance": null,
         "venue": "Borussia-Park",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T14:26:08Z",
+        "lastUpdated": "2026-01-11T15:38:16Z",
         "homeTeam": {
           "id": 18,
           "name": "Borussia Mönchengladbach",
@@ -286129,11 +286141,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -286202,7 +286214,7 @@
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T10:20:57Z",
+        "lastUpdated": "2026-01-11T15:30:07Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -286215,7 +286227,7 @@
             "nationality": "Belgium"
           },
           "leagueRank": 1,
-          "formation": null,
+          "formation": "4-2-3-1",
           "lineup": [],
           "bench": []
         },
@@ -286231,7 +286243,7 @@
             "nationality": "Germany"
           },
           "leagueRank": 14,
-          "formation": null,
+          "formation": "4-2-3-1",
           "lineup": [],
           "bench": []
         },
@@ -286254,7 +286266,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57512,
+            "name": "Tobias Reichel",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 177,
+            "name": "Christian Bandurski",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "Germany"
+          },
+          {
+            "id": 57703,
+            "name": "Marcel Unger",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Germany"
+          }
+        ]
       },
       {
         "area": {
@@ -395243,14 +395274,14 @@
         "id": 537005,
         "utcDate": "2026-01-11T14:00:00Z",
         "status": "IN_PLAY",
-        "minute": 24,
+        "minute": 35,
         "injuryTime": null,
         "attendance": null,
         "venue": "Artemio Franchi, Firenze",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T15:27:57Z",
+        "lastUpdated": "2026-01-11T15:38:24Z",
         "homeTeam": {
           "id": 99,
           "name": "ACF Fiorentina",
@@ -395565,7 +395596,20 @@
         },
         "goals": [],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 31,
+            "team": {
+              "id": 99,
+              "name": "ACF Fiorentina"
+            },
+            "player": {
+              "id": 2171,
+              "name": "Moise Kean"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -566033,7 +566077,7 @@
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-05T01:32:01Z",
+        "lastUpdated": "2026-01-11T15:30:56Z",
         "homeTeam": {
           "id": 5529,
           "name": "CD Nacional",
@@ -566046,9 +566090,131 @@
             "nationality": "Portugal"
           },
           "leagueRank": 13,
-          "formation": null,
-          "lineup": [],
-          "bench": []
+          "formation": "4-3-3",
+          "lineup": [
+            {
+              "id": 178927,
+              "name": "Kaique",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 243604,
+              "name": "José Gomes",
+              "position": "Defence",
+              "shirtNumber": 5
+            },
+            {
+              "id": 169570,
+              "name": "Zé Vitor",
+              "position": "Defence",
+              "shirtNumber": 38
+            },
+            {
+              "id": 1437,
+              "name": "Léo Santos",
+              "position": "Defence",
+              "shirtNumber": 34
+            },
+            {
+              "id": 37447,
+              "name": "João Aurélio",
+              "position": "Midfield",
+              "shirtNumber": 2
+            },
+            {
+              "id": 179837,
+              "name": "Matheus Dias",
+              "position": "Midfield",
+              "shirtNumber": 6
+            },
+            {
+              "id": 147456,
+              "name": "Miguel Baeza",
+              "position": "Midfield",
+              "shirtNumber": 8
+            },
+            {
+              "id": 169258,
+              "name": "Paulinho Bóia",
+              "position": "Midfield",
+              "shirtNumber": 11
+            },
+            {
+              "id": 1362,
+              "name": "Liziero",
+              "position": "Offence",
+              "shirtNumber": 28
+            },
+            {
+              "id": 188085,
+              "name": "Chuchu",
+              "position": "Offence",
+              "shirtNumber": 9
+            },
+            {
+              "id": 218644,
+              "name": "Pablo Ruan",
+              "position": "Offence",
+              "shirtNumber": 99
+            }
+          ],
+          "bench": [
+            {
+              "id": 1232,
+              "name": "Lucas França",
+              "position": "Goalkeeper",
+              "shirtNumber": 37
+            },
+            {
+              "id": 231219,
+              "name": "Francisco Gonçalves",
+              "position": "Defence",
+              "shirtNumber": 33
+            },
+            {
+              "id": 45304,
+              "name": "André Sousa",
+              "position": "Midfield",
+              "shirtNumber": 18
+            },
+            {
+              "id": 270035,
+              "name": "Chiheb Labidi",
+              "position": "Midfield",
+              "shirtNumber": 15
+            },
+            {
+              "id": 280035,
+              "name": "Deivison",
+              "position": "Midfield",
+              "shirtNumber": 88
+            },
+            {
+              "id": 181585,
+              "name": "Daniel",
+              "position": "Midfield",
+              "shirtNumber": 10
+            },
+            {
+              "id": 37194,
+              "name": "Witi",
+              "position": "Offence",
+              "shirtNumber": 7
+            },
+            {
+              "id": 11541,
+              "name": "Lucas João",
+              "position": "Offence",
+              "shirtNumber": 19
+            },
+            {
+              "id": 809,
+              "name": "Lenny Vallier",
+              "position": "Left-Back",
+              "shirtNumber": 24
+            }
+          ]
         },
         "awayTeam": {
           "id": 5530,
@@ -566062,9 +566228,125 @@
             "nationality": "Portugal"
           },
           "leagueRank": 14,
-          "formation": null,
-          "lineup": [],
-          "bench": []
+          "formation": "3-5-2",
+          "lineup": [
+            {
+              "id": 1528,
+              "name": "Gabriel Batista",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 37393,
+              "name": "Serginho",
+              "position": "Goalkeeper",
+              "shirtNumber": 35
+            },
+            {
+              "id": 278476,
+              "name": "Henrique Silva",
+              "position": "Defence",
+              "shirtNumber": 94
+            },
+            {
+              "id": 45265,
+              "name": "Luís Rocha",
+              "position": "Defence",
+              "shirtNumber": 13
+            },
+            {
+              "id": 243594,
+              "name": "Sidney Lima",
+              "position": "Defence",
+              "shirtNumber": 23
+            },
+            {
+              "id": 165583,
+              "name": "Paulo Victor",
+              "position": "Defence",
+              "shirtNumber": 64
+            },
+            {
+              "id": 185110,
+              "name": "Klismahn",
+              "position": "Midfield",
+              "shirtNumber": 77
+            },
+            {
+              "id": 278474,
+              "name": "José Tavares",
+              "position": "Midfield",
+              "shirtNumber": 65
+            },
+            {
+              "id": 124982,
+              "name": "Lucas Soares",
+              "position": "Offence",
+              "shirtNumber": 42
+            },
+            {
+              "id": 168766,
+              "name": "Gabriel Silva",
+              "position": "Offence",
+              "shirtNumber": 10
+            },
+            {
+              "id": 118015,
+              "name": "Vinícius",
+              "position": "Offence",
+              "shirtNumber": 70
+            }
+          ],
+          "bench": [
+            {
+              "id": 181527,
+              "name": "Neneca",
+              "position": "Goalkeeper",
+              "shirtNumber": 12
+            },
+            {
+              "id": 11524,
+              "name": "Frederico Venâncio",
+              "position": "Defence",
+              "shirtNumber": 21
+            },
+            {
+              "id": 178743,
+              "name": "Diogo Calila",
+              "position": "Defence",
+              "shirtNumber": 2
+            },
+            {
+              "id": 80878,
+              "name": "Pedro Ferreira",
+              "position": "Midfield",
+              "shirtNumber": 8
+            },
+            {
+              "id": 168871,
+              "name": "Elias Manoel",
+              "position": "Offence",
+              "shirtNumber": 7
+            },
+            {
+              "id": 181456,
+              "name": "Brenner",
+              "position": "Offence",
+              "shirtNumber": 11
+            },
+            {
+              "id": 129463,
+              "name": "Welinton",
+              "position": "Offence",
+              "shirtNumber": 49
+            },
+            {
+              "id": 122353,
+              "name": "Adriano",
+              "position": "Offence",
+              "shirtNumber": 6
+            }
+          ]
         },
         "score": {
           "winner": null,
@@ -656856,7 +657138,7 @@
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T15:28:41Z",
+        "lastUpdated": "2026-01-11T15:38:54Z",
         "homeTeam": {
           "id": 1912,
           "name": "Telstar 1963",
@@ -657278,15 +657560,15 @@
         },
         "id": 537596,
         "utcDate": "2026-01-11T13:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 47,
         "injuryTime": null,
         "attendance": null,
         "venue": "De Adelaarshorst",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T15:28:42Z",
+        "lastUpdated": "2026-01-11T15:38:54Z",
         "homeTeam": {
           "id": 718,
           "name": "Go Ahead Eagles",
@@ -657294,9 +657576,9 @@
           "tla": "GOA",
           "crest": "https://crests.football-data.org/718.png",
           "coach": {
-            "id": 261137,
-            "name": "Melvin Boel",
-            "nationality": "Netherlands"
+            "id": null,
+            "name": null,
+            "nationality": null
           },
           "leagueRank": 13,
           "formation": "4-2-3-1",
@@ -657450,9 +657732,9 @@
           "tla": "SIT",
           "crest": "https://crests.football-data.org/1920.png",
           "coach": {
-            "id": 55440,
-            "name": "Danny Buijs",
-            "nationality": "Netherlands"
+            "id": null,
+            "name": null,
+            "nationality": null
           },
           "leagueRank": 11,
           "formation": "5-4-1",
@@ -657462,12 +657744,6 @@
               "name": "Mattijs Branderhorst",
               "position": "Goalkeeper",
               "shirtNumber": 31
-            },
-            {
-              "id": 67979,
-              "name": "Justin Lonwijk",
-              "position": "Midfield",
-              "shirtNumber": 17
             },
             {
               "id": 102339,
@@ -657554,12 +657830,6 @@
               "name": "Amin Laoukili",
               "position": "Midfield",
               "shirtNumber": 47
-            },
-            {
-              "id": 43513,
-              "name": "Dimitris Limnios",
-              "position": "Midfield",
-              "shirtNumber": 18
             },
             {
               "id": 252886,
