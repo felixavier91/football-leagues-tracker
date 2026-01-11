@@ -77201,14 +77201,14 @@
       "id": 537601,
       "utcDate": "2026-01-11T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 67,
+      "minute": 82,
       "injuryTime": null,
       "attendance": null,
       "venue": "BUKO Stadion",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T16:01:41Z",
+      "lastUpdated": "2026-01-11T16:16:26Z",
       "homeTeam": {
         "id": 1912,
         "name": "Telstar 1963",
@@ -77519,8 +77519,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 2
+          "home": 1,
+          "away": 3
         },
         "halfTime": {
           "home": 0,
@@ -77569,6 +77569,45 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 72,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "scorer": {
+            "id": 156856,
+            "name": "Youri Baas"
+          },
+          "assist": {
+            "id": 273341,
+            "name": "Rayane Bounida"
+          },
+          "score": {
+            "home": 0,
+            "away": 3
+          }
+        },
+        {
+          "minute": 78,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "scorer": {
+            "id": 156856,
+            "name": "Youri Baas"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 3
+          }
         }
       ],
       "penalties": [],
@@ -77594,6 +77633,18 @@
           "player": {
             "id": 219215,
             "name": "Adil Lechkar"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 74,
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "player": {
+            "id": 7570,
+            "name": "Kasper Dolberg"
           },
           "card": "YELLOW"
         }
@@ -77656,14 +77707,14 @@
       "id": 537596,
       "utcDate": "2026-01-11T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 70,
+      "minute": 84,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Adelaarshorst",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T16:01:31Z",
+      "lastUpdated": "2026-01-11T16:16:21Z",
       "homeTeam": {
         "id": 718,
         "name": "Go Ahead Eagles",
@@ -78009,7 +78060,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 83,
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "player": {
+            "id": 244801,
+            "name": "Justin Hubner"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

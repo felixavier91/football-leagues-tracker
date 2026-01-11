@@ -201871,15 +201871,15 @@
         },
         "id": 544400,
         "utcDate": "2026-01-11T13:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 2,
+        "injuryTime": 6,
         "attendance": 12223,
         "venue": "Estadio de Vallecas",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T16:00:41Z",
+        "lastUpdated": "2026-01-11T16:05:26Z",
         "homeTeam": {
           "id": 87,
           "name": "Rayo Vallecano de Madrid",
@@ -285892,14 +285892,14 @@
         "id": 540546,
         "utcDate": "2026-01-11T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 31,
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Borussia-Park",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T16:00:56Z",
+        "lastUpdated": "2026-01-11T16:15:38Z",
         "homeTeam": {
           "id": 18,
           "name": "Borussia Mönchengladbach",
@@ -286174,7 +286174,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
+            "home": 3,
             "away": 0
           },
           "halfTime": {
@@ -286216,6 +286216,27 @@
             "assist": null,
             "score": {
               "home": 2,
+              "away": 0
+            }
+          },
+          {
+            "minute": 36,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 18,
+              "name": "Borussia Mönchengladbach"
+            },
+            "scorer": {
+              "id": 63218,
+              "name": "Haris Tabaković"
+            },
+            "assist": {
+              "id": 144361,
+              "name": "Luca Netz"
+            },
+            "score": {
+              "home": 3,
               "away": 0
             }
           }
@@ -395352,15 +395373,15 @@
         },
         "id": 537005,
         "utcDate": "2026-01-11T14:00:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 48,
         "injuryTime": null,
         "attendance": null,
         "venue": "Artemio Franchi, Firenze",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T16:01:07Z",
+        "lastUpdated": "2026-01-11T16:15:47Z",
         "homeTeam": {
           "id": 99,
           "name": "ACF Fiorentina",
@@ -657253,14 +657274,14 @@
         "id": 537601,
         "utcDate": "2026-01-11T13:30:00Z",
         "status": "IN_PLAY",
-        "minute": 67,
+        "minute": 82,
         "injuryTime": null,
         "attendance": null,
         "venue": "BUKO Stadion",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T16:01:41Z",
+        "lastUpdated": "2026-01-11T16:16:26Z",
         "homeTeam": {
           "id": 1912,
           "name": "Telstar 1963",
@@ -657571,8 +657592,8 @@
           "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
-            "away": 2
+            "home": 1,
+            "away": 3
           },
           "halfTime": {
             "home": 0,
@@ -657621,6 +657642,45 @@
               "home": 0,
               "away": 2
             }
+          },
+          {
+            "minute": 72,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 678,
+              "name": "AFC Ajax"
+            },
+            "scorer": {
+              "id": 156856,
+              "name": "Youri Baas"
+            },
+            "assist": {
+              "id": 273341,
+              "name": "Rayane Bounida"
+            },
+            "score": {
+              "home": 0,
+              "away": 3
+            }
+          },
+          {
+            "minute": 78,
+            "injuryTime": null,
+            "type": "OWN",
+            "team": {
+              "id": 678,
+              "name": "AFC Ajax"
+            },
+            "scorer": {
+              "id": 156856,
+              "name": "Youri Baas"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
+              "away": 3
+            }
           }
         ],
         "penalties": [],
@@ -657646,6 +657706,18 @@
             "player": {
               "id": 219215,
               "name": "Adil Lechkar"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 74,
+            "team": {
+              "id": 678,
+              "name": "AFC Ajax"
+            },
+            "player": {
+              "id": 7570,
+              "name": "Kasper Dolberg"
             },
             "card": "YELLOW"
           }
@@ -657708,14 +657780,14 @@
         "id": 537596,
         "utcDate": "2026-01-11T13:30:00Z",
         "status": "IN_PLAY",
-        "minute": 70,
+        "minute": 84,
         "injuryTime": null,
         "attendance": null,
         "venue": "De Adelaarshorst",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T16:01:31Z",
+        "lastUpdated": "2026-01-11T16:16:21Z",
         "homeTeam": {
           "id": 718,
           "name": "Go Ahead Eagles",
@@ -658061,7 +658133,20 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 83,
+            "team": {
+              "id": 1920,
+              "name": "Fortuna Sittard"
+            },
+            "player": {
+              "id": 244801,
+              "name": "Justin Hubner"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
