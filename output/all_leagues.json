@@ -396423,14 +396423,14 @@
         "id": 537010,
         "utcDate": "2026-01-11T17:00:00Z",
         "status": "IN_PLAY",
-        "minute": 72,
+        "minute": 88,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Marcantonio Bentegodi",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T19:30:54Z",
+        "lastUpdated": "2026-01-11T19:47:44Z",
         "homeTeam": {
           "id": 450,
           "name": "Hellas Verona FC",
@@ -396738,18 +396738,40 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 0,
             "away": 0
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 79,
+            "injuryTime": null,
+            "type": "OWN",
+            "team": {
+              "id": 450,
+              "name": "Hellas Verona FC"
+            },
+            "scorer": {
+              "id": 24234,
+              "name": "Victor Nelsson"
+            },
+            "assist": {
+              "id": 152787,
+              "name": "Matteo Cancellieri"
+            },
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [
           {
@@ -396862,8 +396884,148 @@
           },
           "leagueRank": 1,
           "formation": null,
-          "lineup": [],
-          "bench": []
+          "lineup": [
+            {
+              "id": 3470,
+              "name": "Yann Sommer",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 8685,
+              "name": "Marcus Thuram-Ulien",
+              "position": "Centre-Forward",
+              "shirtNumber": 9
+            },
+            {
+              "id": 3220,
+              "name": "Lautaro Martínez",
+              "position": "Centre-Forward",
+              "shirtNumber": 10
+            },
+            {
+              "id": 115074,
+              "name": "Luis Henrique",
+              "position": "Left Winger",
+              "shirtNumber": 11
+            },
+            {
+              "id": 1911,
+              "name": "Nicolò Barella",
+              "position": "Central Midfield",
+              "shirtNumber": 23
+            },
+            {
+              "id": 1754,
+              "name": "Hakan Çalhanoğlu",
+              "position": "Defensive Midfield",
+              "shirtNumber": 20
+            },
+            {
+              "id": 2097,
+              "name": "Piotr Zieliński",
+              "position": "Central Midfield",
+              "shirtNumber": 7
+            },
+            {
+              "id": 30821,
+              "name": "Federico Dimarco",
+              "position": "Left-Back",
+              "shirtNumber": 32
+            },
+            {
+              "id": 193,
+              "name": "Yann Aurel Bisseck",
+              "position": "Centre-Back",
+              "shirtNumber": 31
+            },
+            {
+              "id": 143,
+              "name": "Manuel Akanji",
+              "position": "Centre-Back",
+              "shirtNumber": 25
+            },
+            {
+              "id": 1834,
+              "name": "Alessandro Bastoni",
+              "position": "Centre-Back",
+              "shirtNumber": 95
+            }
+          ],
+          "bench": [
+            {
+              "id": 217713,
+              "name": "Alessandro Calligaris",
+              "position": "Goalkeeper",
+              "shirtNumber": 40
+            },
+            {
+              "id": 275967,
+              "name": "Alain Taho",
+              "position": "Goalkeeper",
+              "shirtNumber": 60
+            },
+            {
+              "id": 276065,
+              "name": "Matteo Cocchi",
+              "position": "Defence",
+              "shirtNumber": 43
+            },
+            {
+              "id": 167689,
+              "name": "Carlos Augusto Lobaton",
+              "position": "Defence",
+              "shirtNumber": 30
+            },
+            {
+              "id": 154013,
+              "name": "Petar Sucic",
+              "position": "Midfield",
+              "shirtNumber": 8
+            },
+            {
+              "id": 215433,
+              "name": "Francesco Esposito",
+              "position": "Offence",
+              "shirtNumber": 94
+            },
+            {
+              "id": 2053,
+              "name": "Stefan de Vrij",
+              "position": "Centre-Back",
+              "shirtNumber": 6
+            },
+            {
+              "id": 7795,
+              "name": "Henrikh Mkhitaryan",
+              "position": "Central Midfield",
+              "shirtNumber": 22
+            },
+            {
+              "id": 2200,
+              "name": "Davide Frattesi",
+              "position": "Central Midfield",
+              "shirtNumber": 16
+            },
+            {
+              "id": 168656,
+              "name": "Andy Diouf",
+              "position": "Central Midfield",
+              "shirtNumber": 17
+            },
+            {
+              "id": 152738,
+              "name": "Ange-Yoan Bonny",
+              "position": "Centre-Forward",
+              "shirtNumber": 14
+            },
+            {
+              "id": 2180,
+              "name": "Francesco Acerbi",
+              "position": "Centre-Back",
+              "shirtNumber": 15
+            }
+          ]
         },
         "awayTeam": {
           "id": 113,
@@ -567752,14 +567914,14 @@
         "id": 545837,
         "utcDate": "2026-01-11T18:00:00Z",
         "status": "IN_PLAY",
-        "minute": 29,
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Comendador Almeida Freitas",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T19:31:14Z",
+        "lastUpdated": "2026-01-11T19:48:09Z",
         "homeTeam": {
           "id": 583,
           "name": "Moreirense FC",
@@ -568044,7 +568206,32 @@
         },
         "goals": [],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 30,
+            "team": {
+              "id": 1049,
+              "name": "CD Tondela"
+            },
+            "player": {
+              "id": 188926,
+              "name": "Joe Hodge"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 42,
+            "team": {
+              "id": 583,
+              "name": "Moreirense FC"
+            },
+            "player": {
+              "id": 274500,
+              "name": "Afonso Assis"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
