@@ -91089,15 +91089,15 @@
       },
       "id": 544399,
       "utcDate": "2026-01-11T15:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 44,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 20501,
       "venue": "Estadio Ciudad de Valencia",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T17:01:55Z",
+      "lastUpdated": "2026-01-11T17:15:52Z",
       "homeTeam": {
         "id": 88,
         "name": "Levante UD",
@@ -91412,13 +91412,26 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 33358,
+            "name": "Kike García"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

@@ -69399,14 +69399,14 @@
       "id": 545842,
       "utcDate": "2026-01-11T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 32,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Estádio da Madeira",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T17:02:45Z",
+      "lastUpdated": "2026-01-11T17:16:35Z",
       "homeTeam": {
         "id": 5529,
         "name": "CD Nacional",
@@ -69678,15 +69678,15 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         }
       },
       "goals": [
@@ -69746,9 +69746,39 @@
             "home": 1,
             "away": 2
           }
+        },
+        {
+          "minute": 38,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 5529,
+            "name": "CD Nacional"
+          },
+          "scorer": {
+            "id": 188085,
+            "name": "Chuchu"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 188085,
+            "name": "Chuchu"
+          },
+          "team": {
+            "id": 5529,
+            "name": "CD Nacional"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 6,
