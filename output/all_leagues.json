@@ -286406,14 +286406,14 @@
         "id": 540541,
         "utcDate": "2026-01-11T16:30:00Z",
         "status": "IN_PLAY",
-        "minute": 56,
+        "minute": 63,
         "injuryTime": null,
-        "attendance": null,
+        "attendance": 75000,
         "venue": "Allianz Arena",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T18:44:20Z",
+        "lastUpdated": "2026-01-11T18:51:44Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -396338,15 +396338,15 @@
         },
         "id": 537010,
         "utcDate": "2026-01-11T17:00:00Z",
-        "status": "IN_PLAY",
-        "minute": 43,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Marcantonio Bentegodi",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T18:44:25Z",
+        "lastUpdated": "2026-01-11T18:51:55Z",
         "homeTeam": {
           "id": 450,
           "name": "Hellas Verona FC",
@@ -396661,8 +396661,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "goals": [],
@@ -396816,7 +396816,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11065,
+            "name": "Daniele Doveri",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          },
+          {
+            "id": 10992,
+            "name": "Stefano Alassio",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "Italy"
+          },
+          {
+            "id": 44989,
+            "name": "Valerio Colarossi",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
