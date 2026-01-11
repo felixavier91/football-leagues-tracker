@@ -202399,14 +202399,14 @@
         "id": 544399,
         "utcDate": "2026-01-11T15:15:00Z",
         "status": "IN_PLAY",
-        "minute": 54,
+        "minute": 69,
         "injuryTime": null,
         "attendance": 20501,
         "venue": "Estadio Ciudad de Valencia",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T17:29:30Z",
+        "lastUpdated": "2026-01-11T17:43:40Z",
         "homeTeam": {
           "id": 88,
           "name": "Levante UD",
@@ -202717,8 +202717,8 @@
           "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
-            "away": 0
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
             "home": 0,
@@ -202741,6 +202741,27 @@
             "assist": null,
             "score": {
               "home": 0,
+              "away": 1
+            }
+          },
+          {
+            "minute": 55,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 88,
+              "name": "Levante UD"
+            },
+            "scorer": {
+              "id": 126913,
+              "name": "Iker Losada"
+            },
+            "assist": {
+              "id": 98741,
+              "name": "Adrián de la Fuente"
+            },
+            "score": {
+              "home": 1,
               "away": 1
             }
           }
@@ -286372,15 +286393,15 @@
         },
         "id": 540541,
         "utcDate": "2026-01-11T16:30:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 13,
         "injuryTime": null,
         "attendance": null,
         "venue": "Allianz Arena",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T16:33:24Z",
+        "lastUpdated": "2026-01-11T17:43:50Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -286658,18 +286679,58 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 5,
+            "injuryTime": null,
+            "type": "OWN",
+            "team": {
+              "id": 11,
+              "name": "VfL Wolfsburg"
+            },
+            "scorer": {
+              "id": 121664,
+              "name": "Kilian Fischer"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          },
+          {
+            "minute": 13,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 11,
+              "name": "VfL Wolfsburg"
+            },
+            "scorer": {
+              "id": 184970,
+              "name": "Dzenan Pejcinovic"
+            },
+            "assist": {
+              "id": 23214,
+              "name": "Lovro Majer"
+            },
+            "score": {
+              "home": 1,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -286693,6 +286754,12 @@
             "id": 57703,
             "name": "Marcel Unger",
             "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Germany"
+          },
+          {
+            "id": 57518,
+            "name": "Florian Badstübner",
+            "type": "REFEREE",
             "nationality": "Germany"
           }
         ]
@@ -566887,15 +566954,15 @@
         },
         "id": 545842,
         "utcDate": "2026-01-11T15:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 58,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estádio da Madeira",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T17:30:21Z",
+        "lastUpdated": "2026-01-11T17:44:30Z",
         "homeTeam": {
           "id": 5529,
           "name": "CD Nacional",
@@ -567167,10 +567234,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
+            "home": 3,
             "away": 2
           },
           "halfTime": {
@@ -567253,6 +567320,27 @@
               "home": 2,
               "away": 2
             }
+          },
+          {
+            "minute": 50,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5529,
+              "name": "CD Nacional"
+            },
+            "scorer": {
+              "id": 188085,
+              "name": "Chuchu"
+            },
+            "assist": {
+              "id": 1362,
+              "name": "Liziero"
+            },
+            "score": {
+              "home": 3,
+              "away": 2
+            }
           }
         ],
         "penalties": [
@@ -567302,6 +567390,18 @@
             "player": {
               "id": 218644,
               "name": "Pablo Ruan"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 52,
+            "team": {
+              "id": 5530,
+              "name": "CD Santa Clara"
+            },
+            "player": {
+              "id": 278474,
+              "name": "José Tavares"
             },
             "card": "YELLOW"
           }
@@ -659080,15 +659180,15 @@
         },
         "id": 537600,
         "utcDate": "2026-01-11T15:45:00Z",
-        "status": "IN_PLAY",
-        "minute": 43,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Het Kasteel",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T17:30:30Z",
+        "lastUpdated": "2026-01-11T17:44:40Z",
         "homeTeam": {
           "id": 6806,
           "name": "Sparta Rotterdam",
@@ -659409,8 +659509,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "goals": [

@@ -66789,15 +66789,15 @@
       },
       "id": 540541,
       "utcDate": "2026-01-11T16:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 13,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Arena",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T16:33:24Z",
+      "lastUpdated": "2026-01-11T17:43:50Z",
       "homeTeam": {
         "id": 5,
         "name": "FC Bayern München",
@@ -67075,18 +67075,58 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 5,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "scorer": {
+            "id": 121664,
+            "name": "Kilian Fischer"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 13,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "scorer": {
+            "id": 184970,
+            "name": "Dzenan Pejcinovic"
+          },
+          "assist": {
+            "id": 23214,
+            "name": "Lovro Majer"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -67110,6 +67150,12 @@
           "id": 57703,
           "name": "Marcel Unger",
           "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Germany"
+        },
+        {
+          "id": 57518,
+          "name": "Florian Badstübner",
+          "type": "REFEREE",
           "nationality": "Germany"
         }
       ]
