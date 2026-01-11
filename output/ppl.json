@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 151
+    "played": 152
   },
   "competition": {
     "id": 2017,
@@ -69398,15 +69398,15 @@
       },
       "id": 545842,
       "utcDate": "2026-01-11T15:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 89,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Estádio da Madeira",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T18:15:45Z",
+      "lastUpdated": "2026-01-11T18:24:45Z",
       "homeTeam": {
         "id": 5529,
         "name": "CD Nacional",
@@ -69678,11 +69678,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 3,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": 2,
@@ -69785,6 +69785,27 @@
             "home": 3,
             "away": 2
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 5,
+          "type": "REGULAR",
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "scorer": {
+            "id": 168871,
+            "name": "Elias Manoel"
+          },
+          "assist": {
+            "id": 1528,
+            "name": "Gabriel Batista"
+          },
+          "score": {
+            "home": 3,
+            "away": 3
+          }
         }
       ],
       "penalties": [
@@ -69882,6 +69903,18 @@
           "player": {
             "id": 178927,
             "name": "Kaique"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "player": {
+            "id": 45265,
+            "name": "Luís Rocha"
           },
           "card": "YELLOW"
         }

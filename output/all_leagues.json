@@ -202398,15 +202398,15 @@
         },
         "id": 544399,
         "utcDate": "2026-01-11T15:15:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 9,
+        "injuryTime": 8,
         "attendance": 20501,
         "venue": "Estadio Ciudad de Valencia",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T18:14:51Z",
+        "lastUpdated": "2026-01-11T18:15:26Z",
         "homeTeam": {
           "id": 88,
           "name": "Levante UD",
@@ -286406,14 +286406,14 @@
         "id": 540541,
         "utcDate": "2026-01-11T16:30:00Z",
         "status": "IN_PLAY",
-        "minute": 45,
+        "minute": 48,
         "injuryTime": null,
         "attendance": null,
         "venue": "Allianz Arena",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T18:15:06Z",
+        "lastUpdated": "2026-01-11T18:36:15Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -286698,8 +286698,8 @@
             "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 1
           }
         },
         "goals": [
@@ -286765,7 +286765,20 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 45,
+            "team": {
+              "id": 11,
+              "name": "VfL Wolfsburg"
+            },
+            "player": {
+              "id": 15354,
+              "name": "Mattias Svanberg"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -396287,14 +396300,14 @@
         "id": 537010,
         "utcDate": "2026-01-11T17:00:00Z",
         "status": "IN_PLAY",
-        "minute": 13,
+        "minute": 35,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Marcantonio Bentegodi",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T18:15:16Z",
+        "lastUpdated": "2026-01-11T18:36:25Z",
         "homeTeam": {
           "id": 450,
           "name": "Hellas Verona FC",
@@ -396307,7 +396320,7 @@
             "nationality": "Italy"
           },
           "leagueRank": 19,
-          "formation": "3-5-2",
+          "formation": "3-4-1-2",
           "lineup": [
             {
               "id": 2891,
@@ -396625,6 +396638,30 @@
             "player": {
               "id": 111555,
               "name": "Armel Bella Kotchap"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 18,
+            "team": {
+              "id": 110,
+              "name": "SS Lazio"
+            },
+            "player": {
+              "id": 152787,
+              "name": "Matteo Cancellieri"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 25,
+            "team": {
+              "id": 450,
+              "name": "Hellas Verona FC"
+            },
+            "player": {
+              "id": 169089,
+              "name": "Nicolas Valentini"
             },
             "card": "YELLOW"
           }
@@ -567000,15 +567037,15 @@
         },
         "id": 545842,
         "utcDate": "2026-01-11T15:30:00Z",
-        "status": "IN_PLAY",
-        "minute": 89,
-        "injuryTime": null,
+        "status": "FINISHED",
+        "minute": 90,
+        "injuryTime": 7,
         "attendance": null,
         "venue": "Estádio da Madeira",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T18:15:45Z",
+        "lastUpdated": "2026-01-11T18:24:45Z",
         "homeTeam": {
           "id": 5529,
           "name": "CD Nacional",
@@ -567280,11 +567317,11 @@
           ]
         },
         "score": {
-          "winner": "HOME_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
             "home": 3,
-            "away": 2
+            "away": 3
           },
           "halfTime": {
             "home": 2,
@@ -567387,6 +567424,27 @@
               "home": 3,
               "away": 2
             }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 5,
+            "type": "REGULAR",
+            "team": {
+              "id": 5530,
+              "name": "CD Santa Clara"
+            },
+            "scorer": {
+              "id": 168871,
+              "name": "Elias Manoel"
+            },
+            "assist": {
+              "id": 1528,
+              "name": "Gabriel Batista"
+            },
+            "score": {
+              "home": 3,
+              "away": 3
+            }
           }
         ],
         "penalties": [
@@ -567484,6 +567542,18 @@
             "player": {
               "id": 178927,
               "name": "Kaique"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 5530,
+              "name": "CD Santa Clara"
+            },
+            "player": {
+              "id": 45265,
+              "name": "Luís Rocha"
             },
             "card": "YELLOW"
           }
@@ -659501,14 +659571,14 @@
         "id": 537600,
         "utcDate": "2026-01-11T15:45:00Z",
         "status": "IN_PLAY",
-        "minute": 69,
+        "minute": 90,
         "injuryTime": null,
         "attendance": null,
         "venue": "Het Kasteel",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T18:15:50Z",
+        "lastUpdated": "2026-01-11T18:36:59Z",
         "homeTeam": {
           "id": 6806,
           "name": "Sparta Rotterdam",
@@ -659825,7 +659895,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
@@ -659854,6 +659924,27 @@
               "home": 1,
               "away": 0
             }
+          },
+          {
+            "minute": 88,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 6806,
+              "name": "Sparta Rotterdam"
+            },
+            "scorer": {
+              "id": 4286,
+              "name": "Pelle Clement"
+            },
+            "assist": {
+              "id": 38124,
+              "name": "Tobias Lauritsen"
+            },
+            "score": {
+              "home": 2,
+              "away": 0
+            }
           }
         ],
         "penalties": [],
@@ -659879,6 +659970,30 @@
             "player": {
               "id": 9714,
               "name": "Damon Mirani"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 71,
+            "team": {
+              "id": 671,
+              "name": "Heracles Almelo"
+            },
+            "player": {
+              "id": 167699,
+              "name": "Lequincio Zeefuik"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 82,
+            "team": {
+              "id": 671,
+              "name": "Heracles Almelo"
+            },
+            "player": {
+              "id": 7596,
+              "name": "Thomas Bruns"
             },
             "card": "YELLOW"
           }

@@ -66790,14 +66790,14 @@
       "id": 540541,
       "utcDate": "2026-01-11T16:30:00Z",
       "status": "IN_PLAY",
-      "minute": 45,
+      "minute": 48,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Arena",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T18:15:06Z",
+      "lastUpdated": "2026-01-11T18:36:15Z",
       "homeTeam": {
         "id": 5,
         "name": "FC Bayern München",
@@ -67082,8 +67082,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         }
       },
       "goals": [
@@ -67149,7 +67149,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "player": {
+            "id": 15354,
+            "name": "Mattias Svanberg"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
