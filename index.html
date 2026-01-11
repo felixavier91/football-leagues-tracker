@@ -1555,13 +1555,18 @@
                         const scorer = goal.scorer?.name || 'Unknown';
                         const minute = goal.injuryTime ? `${goal.minute}+${goal.injuryTime}'` : `${goal.minute}'`;
                         const isHome = goal.team?.id === match.homeTeam.id;
+                        const isOwnGoal = goal.type === 'OWN';
                         
-                        if (isHome) {
+                        // Own goals show in opposite team's column with (OG) flag
+                        const displayInHome = isOwnGoal ? !isHome : isHome;
+                        const minuteDisplay = isOwnGoal ? `${minute} (OG)` : minute;
+                        
+                        if (displayInHome) {
                             if (!homeGoals[scorer]) homeGoals[scorer] = [];
-                            homeGoals[scorer].push(minute);
+                            homeGoals[scorer].push(minuteDisplay);
                         } else {
                             if (!awayGoals[scorer]) awayGoals[scorer] = [];
-                            awayGoals[scorer].push(minute);
+                            awayGoals[scorer].push(minuteDisplay);
                         }
                     });
                 }
