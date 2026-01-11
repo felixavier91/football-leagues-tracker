@@ -201872,14 +201872,14 @@
         "id": 544400,
         "utcDate": "2026-01-11T13:00:00Z",
         "status": "IN_PLAY",
-        "minute": 71,
+        "minute": 79,
         "injuryTime": null,
         "attendance": 12223,
         "venue": "Estadio de Vallecas",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T15:38:01Z",
+        "lastUpdated": "2026-01-11T15:46:08Z",
         "homeTeam": {
           "id": 87,
           "name": "Rayo Vallecano de Madrid",
@@ -202319,6 +202319,18 @@
             "player": {
               "id": 33513,
               "name": "Pablo Maffeo"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 78,
+            "team": {
+              "id": 87,
+              "name": "Rayo Vallecano de Madrid"
+            },
+            "player": {
+              "id": 32109,
+              "name": "Óscar Valentín"
             },
             "card": "YELLOW"
           }
@@ -285862,14 +285874,14 @@
         "id": 540546,
         "utcDate": "2026-01-11T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 8,
+        "minute": 16,
         "injuryTime": null,
         "attendance": null,
         "venue": "Borussia-Park",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T15:38:16Z",
+        "lastUpdated": "2026-01-11T15:46:20Z",
         "homeTeam": {
           "id": 18,
           "name": "Borussia Mönchengladbach",
@@ -286141,10 +286153,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -286152,7 +286164,26 @@
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 8,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 18,
+              "name": "Borussia Mönchengladbach"
+            },
+            "scorer": {
+              "id": 82442,
+              "name": "Joseph Scally"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -395274,14 +395305,14 @@
         "id": 537005,
         "utcDate": "2026-01-11T14:00:00Z",
         "status": "IN_PLAY",
-        "minute": 35,
+        "minute": 43,
         "injuryTime": null,
         "attendance": null,
         "venue": "Artemio Franchi, Firenze",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T15:38:24Z",
+        "lastUpdated": "2026-01-11T15:46:32Z",
         "homeTeam": {
           "id": 99,
           "name": "ACF Fiorentina",
@@ -657130,15 +657161,15 @@
         },
         "id": 537601,
         "utcDate": "2026-01-11T13:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 53,
         "injuryTime": null,
         "attendance": null,
         "venue": "BUKO Stadion",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T15:38:54Z",
+        "lastUpdated": "2026-01-11T15:46:58Z",
         "homeTeam": {
           "id": 1912,
           "name": "Telstar 1963",
@@ -657502,7 +657533,20 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 52,
+            "team": {
+              "id": 1912,
+              "name": "Telstar 1963"
+            },
+            "player": {
+              "id": 245618,
+              "name": "Cedric Hatenboer"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -657561,14 +657605,14 @@
         "id": 537596,
         "utcDate": "2026-01-11T13:30:00Z",
         "status": "IN_PLAY",
-        "minute": 47,
+        "minute": 55,
         "injuryTime": null,
         "attendance": null,
         "venue": "De Adelaarshorst",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T15:38:54Z",
+        "lastUpdated": "2026-01-11T15:46:58Z",
         "homeTeam": {
           "id": 718,
           "name": "Go Ahead Eagles",
@@ -658004,8 +658048,148 @@
           },
           "leagueRank": 18,
           "formation": null,
-          "lineup": [],
-          "bench": []
+          "lineup": [
+            {
+              "id": 177975,
+              "name": "Timo Jansink",
+              "position": "Goalkeeper",
+              "shirtNumber": 16
+            },
+            {
+              "id": 7521,
+              "name": "Mike te Wierik",
+              "position": "Defence",
+              "shirtNumber": 23
+            },
+            {
+              "id": 262684,
+              "name": "Luka Kulenović",
+              "position": "Centre-Forward",
+              "shirtNumber": 19
+            },
+            {
+              "id": 111737,
+              "name": "Erik Ahlstrand",
+              "position": "Central Midfield",
+              "shirtNumber": 14
+            },
+            {
+              "id": 167699,
+              "name": "Lequincio Zeefuik",
+              "position": "Centre-Forward",
+              "shirtNumber": 25
+            },
+            {
+              "id": 177672,
+              "name": "Walid Ould-Chikh",
+              "position": "Attacking Midfield",
+              "shirtNumber": 73
+            },
+            {
+              "id": 7528,
+              "name": "Ajdin Hrustic",
+              "position": "Attacking Midfield",
+              "shirtNumber": 70
+            },
+            {
+              "id": 112779,
+              "name": "Jan Žambůrek",
+              "position": "Central Midfield",
+              "shirtNumber": 13
+            },
+            {
+              "id": 9714,
+              "name": "Damon Mirani",
+              "position": "Centre-Back",
+              "shirtNumber": 4
+            },
+            {
+              "id": 192656,
+              "name": "Alec Van Hoorenbeeck",
+              "position": "Centre-Back",
+              "shirtNumber": 18
+            },
+            {
+              "id": 117473,
+              "name": "Ivan Mesík",
+              "position": "Centre-Back",
+              "shirtNumber": 24
+            }
+          ],
+          "bench": [
+            {
+              "id": 56070,
+              "name": "Robin Mantel",
+              "position": "Goalkeeper",
+              "shirtNumber": 30
+            },
+            {
+              "id": 67930,
+              "name": "Fabian de Keijzer",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 182042,
+              "name": "Tristan van Gilst",
+              "position": "Midfield",
+              "shirtNumber": 17
+            },
+            {
+              "id": 288489,
+              "name": "Sil Blokhuis",
+              "position": "Offence",
+              "shirtNumber": 39
+            },
+            {
+              "id": 150521,
+              "name": "Sava Cestic",
+              "position": "Centre-Back",
+              "shirtNumber": 6
+            },
+            {
+              "id": 100089,
+              "name": "Djevencio van der Kust",
+              "position": "Left-Back",
+              "shirtNumber": 5
+            },
+            {
+              "id": 118819,
+              "name": "Jannes Wieckhoff",
+              "position": "Right-Back",
+              "shirtNumber": 3
+            },
+            {
+              "id": 252865,
+              "name": "Jop Tijink",
+              "position": "Centre-Back",
+              "shirtNumber": 27
+            },
+            {
+              "id": 172448,
+              "name": "Mimeirhel Benita",
+              "position": "Right-Back",
+              "shirtNumber": 2
+            },
+            {
+              "id": 130178,
+              "name": "Bryan Limbombe",
+              "position": "Right Winger",
+              "shirtNumber": 7
+            },
+            {
+              "id": 7235,
+              "name": "Mario Engels",
+              "position": "Right Winger",
+              "shirtNumber": 8
+            },
+            {
+              "id": 7596,
+              "name": "Thomas Bruns",
+              "position": "Attacking Midfield",
+              "shirtNumber": 10
+            }
+          ]
         },
         "score": {
           "winner": null,

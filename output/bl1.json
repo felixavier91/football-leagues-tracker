@@ -66341,14 +66341,14 @@
       "id": 540546,
       "utcDate": "2026-01-11T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 8,
+      "minute": 16,
       "injuryTime": null,
       "attendance": null,
       "venue": "Borussia-Park",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T15:38:16Z",
+      "lastUpdated": "2026-01-11T15:46:20Z",
       "homeTeam": {
         "id": 18,
         "name": "Borussia Mönchengladbach",
@@ -66620,10 +66620,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -66631,7 +66631,26 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 8,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 18,
+            "name": "Borussia Mönchengladbach"
+          },
+          "scorer": {
+            "id": 82442,
+            "name": "Joseph Scally"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
