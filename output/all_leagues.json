@@ -202399,14 +202399,14 @@
         "id": 544399,
         "utcDate": "2026-01-11T15:15:00Z",
         "status": "IN_PLAY",
-        "minute": 19,
+        "minute": 33,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Ciudad de Valencia",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T16:37:12Z",
+        "lastUpdated": "2026-01-11T16:50:42Z",
         "homeTeam": {
           "id": 88,
           "name": "Levante UD",
@@ -285892,14 +285892,14 @@
         "id": 540546,
         "utcDate": "2026-01-11T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 49,
+        "minute": 62,
         "injuryTime": null,
         "attendance": null,
         "venue": "Borussia-Park",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T16:37:27Z",
+        "lastUpdated": "2026-01-11T16:50:40Z",
         "homeTeam": {
           "id": 18,
           "name": "Borussia Mönchengladbach",
@@ -286254,7 +286254,20 @@
             "scored": true
           }
         ],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 54,
+            "team": {
+              "id": 16,
+              "name": "FC Augsburg"
+            },
+            "player": {
+              "id": 98953,
+              "name": "Han-Noah Massengo"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -395618,14 +395631,14 @@
         "id": 537005,
         "utcDate": "2026-01-11T14:00:00Z",
         "status": "IN_PLAY",
-        "minute": 70,
+        "minute": 83,
         "injuryTime": null,
         "attendance": null,
         "venue": "Artemio Franchi, Firenze",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T16:37:36Z",
+        "lastUpdated": "2026-01-11T16:50:37Z",
         "homeTeam": {
           "id": 99,
           "name": "ACF Fiorentina",
@@ -396008,6 +396021,18 @@
             "player": {
               "id": 32642,
               "name": "Pervis Estupiñán"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 80,
+            "team": {
+              "id": 99,
+              "name": "ACF Fiorentina"
+            },
+            "player": {
+              "id": 97879,
+              "name": "Nicolò Fagioli"
             },
             "card": "YELLOW"
           }
@@ -566491,14 +566516,14 @@
         "id": 545842,
         "utcDate": "2026-01-11T15:30:00Z",
         "status": "IN_PLAY",
-        "minute": 7,
+        "minute": 22,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estádio da Madeira",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T16:37:52Z",
+        "lastUpdated": "2026-01-11T16:51:50Z",
         "homeTeam": {
           "id": 5529,
           "name": "CD Nacional",
@@ -566773,8 +566798,8 @@
           "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
-            "away": 1
+            "home": 1,
+            "away": 2
           },
           "halfTime": {
             "home": null,
@@ -566798,6 +566823,42 @@
             "score": {
               "home": 0,
               "away": 1
+            }
+          },
+          {
+            "minute": 15,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5530,
+              "name": "CD Santa Clara"
+            },
+            "scorer": {
+              "id": 165583,
+              "name": "Paulo Victor"
+            },
+            "assist": null,
+            "score": {
+              "home": 0,
+              "away": 2
+            }
+          },
+          {
+            "minute": 21,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5529,
+              "name": "CD Nacional"
+            },
+            "scorer": {
+              "id": 188085,
+              "name": "Chuchu"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
+              "away": 2
             }
           }
         ],
@@ -658571,15 +658632,15 @@
         },
         "id": 537600,
         "utcDate": "2026-01-11T15:45:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 4,
         "injuryTime": null,
         "attendance": null,
         "venue": "Het Kasteel",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T15:50:06Z",
+        "lastUpdated": "2026-01-11T16:51:51Z",
         "homeTeam": {
           "id": 6806,
           "name": "Sparta Rotterdam",
@@ -658893,11 +658954,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
