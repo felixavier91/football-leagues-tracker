@@ -94741,14 +94741,14 @@
       "id": 537005,
       "utcDate": "2026-01-11T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 83,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Artemio Franchi, Firenze",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T16:50:37Z",
+      "lastUpdated": "2026-01-11T17:02:20Z",
       "homeTeam": {
         "id": 99,
         "name": "ACF Fiorentina",
@@ -95050,11 +95050,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -95081,6 +95081,27 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "scorer": {
+            "id": 8484,
+            "name": "Christopher Nkunku"
+          },
+          "assist": {
+            "id": 81299,
+            "name": "Youssouf Fofana"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
           }
         }
       ],
@@ -95143,6 +95164,30 @@
           "player": {
             "id": 97879,
             "name": "Nicolò Fagioli"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 84,
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "player": {
+            "id": 3368,
+            "name": "Adrien Rabiot"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "player": {
+            "id": 81299,
+            "name": "Youssouf Fofana"
           },
           "card": "YELLOW"
         }
