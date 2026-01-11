@@ -326,6 +326,47 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                     print(f"      Debug: Error parsing view count: {e}")
                     view_count = 0
                 
+                # For Bundesliga, check if video is from @Bundesliga channel
+                if league_code == "BL1":
+                    try:
+                        # Look for channel link in the renderer
+                        channel_links = renderer.find_elements(By.CSS_SELECTOR, "a[href*='/@']")
+                        is_bundesliga_channel = False
+                        for link in channel_links:
+                            href = link.get_attribute("href")
+                            if "/@bundesliga" in href.lower():
+                                is_bundesliga_channel = True
+                                break
+                        
+                        if not is_bundesliga_channel:
+                            print(f"  ⏭️  Skipping (Bundesliga requires @Bundesliga channel): {video_title}")
+                            continue
+                    except:
+                        # If we can't determine channel, skip for Bundesliga
+                        print(f"  ⏭️  Skipping (Bundesliga - couldn't verify channel): {video_title}")
+                        continue
+                
+                # For La Liga, check if video is from any ESPN channel (@ESPN, @ESPNDeportes, etc.)
+                if league_code == "PD":
+                    try:
+                        # Look for channel link in the renderer
+                        channel_links = renderer.find_elements(By.CSS_SELECTOR, "a[href*='/@']")
+                        is_espn_channel = False
+                        for link in channel_links:
+                            href = link.get_attribute("href")
+                            # Check if channel contains "espn" anywhere in the name
+                            if "/@espn" in href.lower():
+                                is_espn_channel = True
+                                break
+                        
+                        if not is_espn_channel:
+                            print(f"  ⏭️  Skipping (La Liga requires ESPN channel): {video_title}")
+                            continue
+                    except:
+                        # If we can't determine channel, skip for La Liga
+                        print(f"  ⏭️  Skipping (La Liga - couldn't verify channel): {video_title}")
+                        continue
+                
                 # Try to get upload date from metadata text
                 try:
                     metadata = renderer.find_element(By.CSS_SELECTOR, "#metadata-line")
