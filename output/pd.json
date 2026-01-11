@@ -90563,14 +90563,14 @@
       "id": 544400,
       "utcDate": "2026-01-11T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 27,
+      "minute": 40,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio de Vallecas",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T14:29:26Z",
+      "lastUpdated": "2026-01-11T14:42:21Z",
       "homeTeam": {
         "id": 87,
         "name": "Rayo Vallecano de Madrid",
@@ -90866,11 +90866,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
@@ -90898,6 +90898,27 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "scorer": {
+            "id": 30059,
+            "name": "Vedat Muriqi"
+          },
+          "assist": {
+            "id": 33138,
+            "name": "Toni Lato"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -90911,6 +90932,18 @@
           "player": {
             "id": 3724,
             "name": "Johan Mojica"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 40,
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "player": {
+            "id": 2777,
+            "name": "Martin Valjent"
           },
           "card": "YELLOW"
         }
