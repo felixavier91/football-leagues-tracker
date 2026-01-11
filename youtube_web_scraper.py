@@ -232,34 +232,16 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                 video_url = video_link.get_attribute("href")
                 video_title = video_link.get_attribute("title")
                 
-                # Get channel name - try multiple selectors
-                channel_name = ""
+                # Get channel name
                 try:
-                    # Try method 1: channel name link in metadata
-                    channel_elem = renderer.find_element(By.CSS_SELECTOR, "ytd-channel-name#channel-name a")
-                    channel_name = channel_elem.text.strip()
+                    channel_elem = renderer.find_element(By.CSS_SELECTOR, "a.yt-simple-endpoint.style-scope.yt-formatted-string")
+                    channel_name = channel_elem.text
                 except:
                     try:
-                        # Try method 2: text content in channel name div
-                        channel_elem = renderer.find_element(By.CSS_SELECTOR, "ytd-channel-name#channel-name")
-                        channel_name = channel_elem.text.strip()
+                        channel_elem = renderer.find_element(By.CSS_SELECTOR, "#channel-name a")
+                        channel_name = channel_elem.text
                     except:
-                        try:
-                            # Try method 3: yt-formatted-string inside channel name
-                            channel_elem = renderer.find_element(By.CSS_SELECTOR, "#channel-name yt-formatted-string")
-                            channel_name = channel_elem.text.strip()
-                        except:
-                            try:
-                                # Try method 4: any link in channel info
-                                channel_elem = renderer.find_element(By.CSS_SELECTOR, "#channel-info a")
-                                channel_name = channel_elem.text.strip()
-                            except:
-                                channel_name = ""
-                
-                if channel_name:
-                    print(f"      Debug: Channel detected: {channel_name}")
-                else:
-                    print(f"      Debug: Could not detect channel name")
+                        channel_name = ""
                 
                 if not video_url or "watch?v=" not in video_url:
                     continue
