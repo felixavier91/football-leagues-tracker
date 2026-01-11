@@ -94740,15 +94740,15 @@
       },
       "id": 537005,
       "utcDate": "2026-01-11T14:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
-      "injuryTime": 4,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Artemio Franchi, Firenze",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T15:52:50Z",
+      "lastUpdated": "2026-01-11T16:01:07Z",
       "homeTeam": {
         "id": 99,
         "name": "ACF Fiorentina",
@@ -95057,8 +95057,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -95212,7 +95212,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11079,
+          "name": "Marco Guida",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 57238,
+          "name": "Vito Mastrodonato",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 265502,
+          "name": "Andrea Bianchini",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {
