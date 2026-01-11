@@ -243,7 +243,9 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                     r'\bsimulation\b',
                     r'\bsimulacion\b', 
                     r'\blive\b',
-                    r'\bdirecto\b'
+                    r'\bdirecto\b',
+                    r'\bvivo\b',
+                    r'\baudio\b'
                 ]
                 if any(re.search(pattern, video_title_lower) for pattern in blocked_patterns):
                     print(f"  ⏭️  Skipping (contains blocked keyword): {video_title}")
