@@ -94213,15 +94213,15 @@
       },
       "id": 537014,
       "utcDate": "2026-01-11T11:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 69,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Via del Mare",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T13:32:41Z",
+      "lastUpdated": "2026-01-11T13:57:51Z",
       "homeTeam": {
         "id": 5890,
         "name": "US Lecce",
@@ -94541,11 +94541,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -94573,6 +94573,24 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 64,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 5890,
+            "name": "US Lecce"
+          },
+          "scorer": {
+            "id": 246341,
+            "name": "Tiago Gabriel"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -94586,6 +94604,42 @@
           "player": {
             "id": 116223,
             "name": "Santiago Pierotti"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 55,
+          "team": {
+            "id": 5890,
+            "name": "US Lecce"
+          },
+          "player": {
+            "id": 70286,
+            "name": "Ylber Ramadani"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 57,
+          "team": {
+            "id": 5890,
+            "name": "US Lecce"
+          },
+          "player": {
+            "id": 121808,
+            "name": "Lameck Banda"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 62,
+          "team": {
+            "id": 5890,
+            "name": "US Lecce"
+          },
+          "player": {
+            "id": 170915,
+            "name": "Mohamed Kaba"
           },
           "card": "YELLOW"
         }
