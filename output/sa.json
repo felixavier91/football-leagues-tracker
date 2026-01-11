@@ -95244,14 +95244,14 @@
       "id": 537010,
       "utcDate": "2026-01-11T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 13,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Marcantonio Bentegodi",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T18:02:18Z",
+      "lastUpdated": "2026-01-11T18:15:16Z",
       "homeTeam": {
         "id": 450,
         "name": "Hellas Verona FC",
@@ -95572,7 +95572,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 6,
+          "team": {
+            "id": 450,
+            "name": "Hellas Verona FC"
+          },
+          "player": {
+            "id": 111555,
+            "name": "Armel Bella Kotchap"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
