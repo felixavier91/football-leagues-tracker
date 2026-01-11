@@ -77201,14 +77201,14 @@
       "id": 537601,
       "utcDate": "2026-01-11T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 8,
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "BUKO Stadion",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T14:43:07Z",
+      "lastUpdated": "2026-01-11T14:53:16Z",
       "homeTeam": {
         "id": 1912,
         "name": "Telstar 1963",
@@ -77516,18 +77516,61 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 11,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "scorer": {
+            "id": 190731,
+            "name": "Oscar Gloukh"
+          },
+          "assist": {
+            "id": 184716,
+            "name": "Anton Gaaei"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 14,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "scorer": {
+            "id": 189574,
+            "name": "Mika Godts"
+          },
+          "assist": {
+            "id": 156856,
+            "name": "Youri Baas"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -77588,14 +77631,14 @@
       "id": 537596,
       "utcDate": "2026-01-11T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 11,
+      "minute": 21,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Adelaarshorst",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T14:43:07Z",
+      "lastUpdated": "2026-01-11T14:53:16Z",
       "homeTeam": {
         "id": 718,
         "name": "Go Ahead Eagles",
@@ -78022,7 +78065,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 80087,
+          "name": "Jannick van der Laan",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 81794,
+          "name": "Kevin Bodde",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 17118,
+          "name": "Frans Ozinga",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {

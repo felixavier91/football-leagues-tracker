@@ -90563,14 +90563,14 @@
       "id": 544400,
       "utcDate": "2026-01-11T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 40,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Estadio de Vallecas",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T14:42:21Z",
+      "lastUpdated": "2026-01-11T14:52:27Z",
       "homeTeam": {
         "id": 87,
         "name": "Rayo Vallecano de Madrid",
@@ -90866,10 +90866,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -90919,9 +90919,39 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid"
+          },
+          "scorer": {
+            "id": 33496,
+            "name": "Isi Palazón"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 33496,
+            "name": "Isi Palazón"
+          },
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 15,
