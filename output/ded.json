@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 157
+    "played": 158
   },
   "competition": {
     "id": 2003,
@@ -77201,14 +77201,14 @@
       "id": 537601,
       "utcDate": "2026-01-11T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 82,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "BUKO Stadion",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T16:16:26Z",
+      "lastUpdated": "2026-01-11T16:29:11Z",
       "homeTeam": {
         "id": 1912,
         "name": "Telstar 1963",
@@ -77519,7 +77519,7 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 3
         },
         "halfTime": {
@@ -77606,6 +77606,27 @@
           "assist": null,
           "score": {
             "home": 1,
+            "away": 3
+          }
+        },
+        {
+          "minute": 84,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1912,
+            "name": "Telstar 1963"
+          },
+          "scorer": {
+            "id": 7624,
+            "name": "Danny Bakker"
+          },
+          "assist": {
+            "id": 7354,
+            "name": "Jeff Hardeveld"
+          },
+          "score": {
+            "home": 2,
             "away": 3
           }
         }
@@ -77706,15 +77727,15 @@
       },
       "id": 537596,
       "utcDate": "2026-01-11T13:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 84,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "De Adelaarshorst",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T16:16:21Z",
+      "lastUpdated": "2026-01-11T16:28:04Z",
       "homeTeam": {
         "id": 718,
         "name": "Go Ahead Eagles",
@@ -78007,8 +78028,8 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 1
+          "home": 2,
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -78056,6 +78077,48 @@
           "score": {
             "home": 1,
             "away": 1
+          }
+        },
+        {
+          "minute": 86,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 718,
+            "name": "Go Ahead Eagles"
+          },
+          "scorer": {
+            "id": 151613,
+            "name": "Mathis Suray"
+          },
+          "assist": {
+            "id": 147764,
+            "name": "Thibo Baeten"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "scorer": {
+            "id": 244801,
+            "name": "Justin Hubner"
+          },
+          "assist": {
+            "id": 3131,
+            "name": "Alen Halilović"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
           }
         }
       ],
