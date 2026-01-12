@@ -37,7 +37,7 @@ TODAY_ONLY = '--backfill' not in sys.argv  # Default: process last 48 hours, unl
 
 # Leagues to process (set to None to process all)
 # LEAGUES_TO_PROCESS = ["PD", "PL", "FL1", "BL1", "SA", "PPL", "DED", "CL"]  # PD = La Liga, PL = Premier League, FL1 = Ligue 1, BL1 = Bundesliga, SA = Serie A, PPL = Primeira Liga, DED = Eredivisie, CL = Champions League
-LEAGUES_TO_PROCESS = ["PD"]
+LEAGUES_TO_PROCESS = ["DED","PPL"]
 MAX_MATCHES_TO_PROCESS = None  # Process ALL finished matches
 
 # Browser settings
