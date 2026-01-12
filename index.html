@@ -1923,14 +1923,14 @@
                         const homeStarters = matchStats.homeTeam.lineup.map(player => {
                             const name = formatName(player.name);
                             
-                            // Find substitution for this player - check substitutions array
+                            // Find substitution for this player - check substitutions array at root level
                             let subInfo = '';
                             if (matchStats.substitutions) {
                                 const sub = matchStats.substitutions.find(s => 
-                                    s.team === matchStats.homeTeam.name && s.player_out === player.name
+                                    s.team.id === matchStats.homeTeam.id && s.playerOut.name === player.name
                                 );
                                 if (sub) {
-                                    const subInName = formatName(sub.player_in);
+                                    const subInName = formatName(sub.playerIn.name);
                                     const minute = sub.minute;
                                     subInfo = ` <span style="color: #c8102e; font-size: 0.85em;">→${minute}' ${subInName}</span>`;
                                 }
@@ -1943,14 +1943,14 @@
                         const awayStarters = matchStats.awayTeam.lineup.map(player => {
                             const name = formatName(player.name);
                             
-                            // Find substitution for this player - check substitutions array
+                            // Find substitution for this player - check substitutions array at root level
                             let subInfo = '';
                             if (matchStats.substitutions) {
                                 const sub = matchStats.substitutions.find(s => 
-                                    s.team === matchStats.awayTeam.name && s.player_out === player.name
+                                    s.team.id === matchStats.awayTeam.id && s.playerOut.name === player.name
                                 );
                                 if (sub) {
-                                    const subInName = formatName(sub.player_in);
+                                    const subInName = formatName(sub.playerIn.name);
                                     const minute = sub.minute;
                                     subInfo = ` <span style="color: #c8102e; font-size: 0.85em;">→${minute}' ${subInName}</span>`;
                                 }
