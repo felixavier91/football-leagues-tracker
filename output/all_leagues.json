@@ -202844,15 +202844,15 @@
         },
         "id": 544397,
         "utcDate": "2026-01-12T20:00:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 9,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio R. Sanchez Pizjuan",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-12T19:57:56Z",
+        "lastUpdated": "2026-01-12T21:11:46Z",
         "homeTeam": {
           "id": 559,
           "name": "Sevilla FC",
@@ -203015,7 +203015,7 @@
             "nationality": "Spain"
           },
           "leagueRank": 7,
-          "formation": "4-4-2",
+          "formation": "3-4-2-1",
           "lineup": [
             {
               "id": 2788,
@@ -203160,11 +203160,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -398201,14 +398201,14 @@
         "id": 537012,
         "utcDate": "2026-01-12T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 11,
+        "minute": 25,
         "injuryTime": null,
         "attendance": null,
         "venue": "Allianz Stadium",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-12T20:58:15Z",
+        "lastUpdated": "2026-01-12T21:12:05Z",
         "homeTeam": {
           "id": 109,
           "name": "Juventus FC",
@@ -398528,10 +398528,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
@@ -398539,7 +398539,50 @@
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 12,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 109,
+              "name": "Juventus FC"
+            },
+            "scorer": {
+              "id": 1106,
+              "name": "Bremer"
+            },
+            "assist": {
+              "id": 161142,
+              "name": "Fabio Miretti"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          },
+          {
+            "minute": 15,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 109,
+              "name": "Juventus FC"
+            },
+            "scorer": {
+              "id": 8924,
+              "name": "Jonathan David"
+            },
+            "assist": {
+              "id": 99251,
+              "name": "Khéphren Thuram-Ulie"
+            },
+            "score": {
+              "home": 2,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
