@@ -923,14 +923,14 @@
             <div class="standings-table" id="standingsTable"></div>
         </div>
 
+        <div class="search-container" id="searchContainer" style="display: none;">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search teams..." oninput="filterMatchesBySearch()">
+        </div>
+
         <div class="filters" id="filtersContainer" style="display: none;">
             <button class="filter-btn active" id="recentBtn" onclick="setMatchFilter('recent')">Finished</button>
             <button class="filter-btn" id="liveBtn" onclick="setMatchFilter('live')">Live</button>
             <button class="filter-btn" id="upcomingBtn" onclick="setMatchFilter('upcoming')">Upcoming</button>
-        </div>
-
-        <div class="search-container" id="searchContainer" style="display: none;">
-            <input type="text" id="searchInput" class="search-input" placeholder="Search teams..." oninput="filterMatchesBySearch()">
         </div>
 
         <div class="matches-container" id="matchesContainer"></div>
@@ -1442,6 +1442,13 @@
             document.getElementById('liveBtn').classList.toggle('active', filter === 'live');
             document.getElementById('upcomingBtn').classList.toggle('active', filter === 'upcoming');
             
+            // Check if there's an active search and use it
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+            if (searchTerm) {
+                filterMatchesBySearch();
+                return;
+            }
+            
             // Filter matches
             let filtered = currentMatches;
             const now = new Date();
@@ -1901,9 +1908,20 @@
             
             // Filter matches based on current filter first
             let filtered = currentMatches;
+            const now = new Date();
             
-            if (currentFilter === 'upcoming') {
-                const now = new Date();
+            if (currentFilter === 'live') {
+                // Show matches that are live (within 2 hours after start time and not finished)
+                filtered = filtered
+                    .filter(m => {
+                        const matchStart = new Date(m.utcDate);
+                        const twoHoursAfterStart = new Date(matchStart.getTime() + (2 * 60 * 60 * 1000));
+                        const isWithinWindow = now >= matchStart && now <= twoHoursAfterStart;
+                        const notFinished = m.status !== 'FINISHED';
+                        return isWithinWindow && notFinished;
+                    })
+                    .sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate));
+            } else if (currentFilter === 'upcoming') {
                 filtered = filtered
                     .filter(m => m.status === 'SCHEDULED' || m.status === 'TIMED')
                     .filter(m => new Date(m.utcDate) >= now)
