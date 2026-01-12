@@ -202904,7 +202904,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 207080,
+            "name": "José Sánchez Martínez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 193683,
+            "name": "Raúl Cabañero Martínez",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "Spain"
+          },
+          {
+            "id": 206201,
+            "name": "Juan López Mir",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Spain"
+          }
+        ]
       },
       {
         "area": {
@@ -397363,14 +397382,14 @@
         "id": 537008,
         "utcDate": "2026-01-12T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 15,
+        "minute": 42,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Luigi Ferraris",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-12T18:48:09Z",
+        "lastUpdated": "2026-01-12T19:14:45Z",
         "homeTeam": {
           "id": 107,
           "name": "Genoa CFC",
@@ -397731,7 +397750,44 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 15,
+            "team": {
+              "id": 104,
+              "name": "Cagliari Calcio"
+            },
+            "player": {
+              "id": 260246,
+              "name": "Juan Martín Rodriguez"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 30,
+            "team": {
+              "id": 107,
+              "name": "Genoa CFC"
+            },
+            "player": {
+              "id": 24119,
+              "name": "Morten Frendrup"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 42,
+            "team": {
+              "id": 104,
+              "name": "Cagliari Calcio"
+            },
+            "player": {
+              "id": 170374,
+              "name": "Adam Obert"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
