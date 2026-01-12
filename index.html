@@ -1884,13 +1884,12 @@
                     }
                 }
 
-                // Starters and Substitutions Section
+                // Starters and Substitutions Section from match_statistics
                 let startersSection = '';
-                if (match.lineups && match.lineups.length > 0) {
-                    const homeLineup = match.lineups.find(l => l.team.id === match.homeTeam.id);
-                    const awayLineup = match.lineups.find(l => l.team.id === match.awayTeam.id);
+                if (match.status === 'FINISHED') {
+                    const matchStats = matchStatistics[currentLeagueCode]?.[match.id];
                     
-                    if (homeLineup && awayLineup) {
+                    if (matchStats && matchStats.homeTeam?.lineup && matchStats.awayTeam?.lineup) {
                         // Helper function to get last name
                         const getLastName = (fullName) => {
                             const parts = fullName.split(' ');
@@ -1899,20 +1898,18 @@
                         
                         // Build home starters
                         let homeStartersHTML = '';
-                        homeLineup.lineup.forEach(player => {
+                        matchStats.homeTeam.lineup.forEach(player => {
                             const lastName = getLastName(player.name);
                             const position = player.position || '';
                             
                             // Find substitution for this player
                             let subInfo = '';
-                            if (match.substitutions) {
-                                const sub = match.substitutions.find(s => 
-                                    s.team.id === match.homeTeam.id && s.playerOut.id === player.id
-                                );
+                            if (matchStats.homeTeam.substitutions) {
+                                const sub = matchStats.homeTeam.substitutions.find(s => s.player_out === player.name);
                                 if (sub) {
-                                    const subInLastName = getLastName(sub.playerIn.name);
-                                    const minute = sub.injuryTime ? `${sub.minute}+${sub.injuryTime}'` : `${sub.minute}'`;
-                                    subInfo = ` <span style="color: #999; font-size: 0.9em;">→ ${minute} ${subInLastName}</span>`;
+                                    const subInLastName = getLastName(sub.player_in);
+                                    const minute = sub.minute;
+                                    subInfo = ` <span style="color: #999; font-size: 0.9em;">→ ${minute}' ${subInLastName}</span>`;
                                 }
                             }
                             
@@ -1921,20 +1918,18 @@
                         
                         // Build away starters
                         let awayStartersHTML = '';
-                        awayLineup.lineup.forEach(player => {
+                        matchStats.awayTeam.lineup.forEach(player => {
                             const lastName = getLastName(player.name);
                             const position = player.position || '';
                             
                             // Find substitution for this player
                             let subInfo = '';
-                            if (match.substitutions) {
-                                const sub = match.substitutions.find(s => 
-                                    s.team.id === match.awayTeam.id && s.playerOut.id === player.id
-                                );
+                            if (matchStats.awayTeam.substitutions) {
+                                const sub = matchStats.awayTeam.substitutions.find(s => s.player_out === player.name);
                                 if (sub) {
-                                    const subInLastName = getLastName(sub.playerIn.name);
-                                    const minute = sub.injuryTime ? `${sub.minute}+${sub.injuryTime}'` : `${sub.minute}'`;
-                                    subInfo = ` <span style="color: #999; font-size: 0.9em;">→ ${minute} ${subInLastName}</span>`;
+                                    const subInLastName = getLastName(sub.player_in);
+                                    const minute = sub.minute;
+                                    subInfo = ` <span style="color: #999; font-size: 0.9em;">→ ${minute}' ${subInLastName}</span>`;
                                 }
                             }
                             
