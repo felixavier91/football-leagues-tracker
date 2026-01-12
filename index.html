@@ -1919,36 +1919,16 @@
                             return `${firstInitial}. ${lastName}`;
                         };
                         
-                        // Helper function to abbreviate position
-                        const abbreviatePosition = (position) => {
-                            const posMap = {
-                                'Goalkeeper': 'GK',
-                                'Centre-Back': 'CB',
-                                'Left-Back': 'LB',
-                                'Right-Back': 'RB',
-                                'Defensive Midfield': 'CDM',
-                                'Central Midfield': 'CM',
-                                'Attacking Midfield': 'CAM',
-                                'Left Midfield': 'LM',
-                                'Right Midfield': 'RM',
-                                'Left Winger': 'LW',
-                                'Right Winger': 'RW',
-                                'Centre-Forward': 'CF',
-                                'Forward': 'FW',
-                                'Striker': 'ST'
-                            };
-                            return posMap[position] || position;
-                        };
-                        
                         // Build home starters
                         const homeStarters = matchStats.homeTeam.lineup.map(player => {
                             const name = formatName(player.name);
-                            const position = abbreviatePosition(player.position || '');
                             
-                            // Find substitution for this player
+                            // Find substitution for this player - check substitutions array
                             let subInfo = '';
-                            if (matchStats.homeTeam.substitutions) {
-                                const sub = matchStats.homeTeam.substitutions.find(s => s.player_out === player.name);
+                            if (matchStats.substitutions) {
+                                const sub = matchStats.substitutions.find(s => 
+                                    s.team === matchStats.homeTeam.name && s.player_out === player.name
+                                );
                                 if (sub) {
                                     const subInName = formatName(sub.player_in);
                                     const minute = sub.minute;
@@ -1956,18 +1936,19 @@
                                 }
                             }
                             
-                            return `<div class="starter-item">${name} <span style="color: #999;">(${position})</span>${subInfo}</div>`;
+                            return `<div class="starter-item">${name}${subInfo}</div>`;
                         });
                         
                         // Build away starters
                         const awayStarters = matchStats.awayTeam.lineup.map(player => {
                             const name = formatName(player.name);
-                            const position = abbreviatePosition(player.position || '');
                             
-                            // Find substitution for this player
+                            // Find substitution for this player - check substitutions array
                             let subInfo = '';
-                            if (matchStats.awayTeam.substitutions) {
-                                const sub = matchStats.awayTeam.substitutions.find(s => s.player_out === player.name);
+                            if (matchStats.substitutions) {
+                                const sub = matchStats.substitutions.find(s => 
+                                    s.team === matchStats.awayTeam.name && s.player_out === player.name
+                                );
                                 if (sub) {
                                     const subInName = formatName(sub.player_in);
                                     const minute = sub.minute;
@@ -1975,7 +1956,7 @@
                                 }
                             }
                             
-                            return `<div class="starter-item">${name} <span style="color: #999;">(${position})</span>${subInfo}</div>`;
+                            return `<div class="starter-item">${name}${subInfo}</div>`;
                         });
                         
                         // Pad arrays to same length for side-by-side display
