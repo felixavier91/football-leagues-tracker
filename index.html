@@ -1367,7 +1367,12 @@
             document.getElementById('standingsContainer').style.display = 'block';
         }
 
-        function switchVideo(uniqueId, videoIndex) {
+        function switchVideo(uniqueId, videoIndex, event) {
+            // Stop event from bubbling up to card collapse toggle
+            if (event) {
+                event.stopPropagation();
+            }
+            
             // Hide all video panels for this match
             const panels = document.querySelectorAll(`[id^="${uniqueId}-"]`);
             panels.forEach(panel => panel.classList.remove('active'));
@@ -1578,7 +1583,7 @@
                         
                         videoIds.forEach((videoId, index) => {
                             const active = index === 0 ? 'active' : '';
-                            videoTabs += `<button class="video-tab ${active}" onclick="switchVideo('${uniqueId}', ${index})">Video ${index + 1}</button>`;
+                            videoTabs += `<button class="video-tab ${active}" onclick="switchVideo('${uniqueId}', ${index}, event)">Video ${index + 1}</button>`;
                             
                             videoContent += `
                                 <div class="video-panel ${active}" id="${uniqueId}-${index}">
