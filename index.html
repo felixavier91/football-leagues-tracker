@@ -233,6 +233,7 @@
             margin-bottom: 15px;
             background: white;
             border-radius: 15px;
+            border: 2px solid #c8102e;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             color: #c8102e;
             font-weight: 600;
@@ -898,7 +899,7 @@
         </div>
 
         <div class="stats-section-toggle" id="statsToggleBtn" onclick="toggleStatsSection()" style="display: none;">
-            <span id="statsToggleText">▼ Show Stats & Standings</span>
+            <span id="statsToggleText">▼ Show Standings</span>
         </div>
 
         <div class="standings-container" id="standingsContainer" style="display: none;">
@@ -1035,10 +1036,10 @@
             const toggleText = document.getElementById('statsToggleText');
             if (statsExpanded) {
                 container.style.display = 'block';
-                toggleText.textContent = '▲ Hide Stats & Standings';
+                toggleText.textContent = '▲ Hide Standings';
             } else {
                 container.style.display = 'none';
-                toggleText.textContent = '▼ Show Stats & Standings';
+                toggleText.textContent = '▼ Show Standings';
             }
             
             // Clear search input when changing leagues
@@ -1410,10 +1411,10 @@
             
             if (statsExpanded) {
                 container.style.display = 'block';
-                toggleText.textContent = '▲ Hide Stats & Standings';
+                toggleText.textContent = '▲ Hide Standings';
             } else {
                 container.style.display = 'none';
-                toggleText.textContent = '▼ Show Stats & Standings';
+                toggleText.textContent = '▼ Show Standings';
             }
         }
 
