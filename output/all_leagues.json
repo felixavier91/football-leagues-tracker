@@ -397363,14 +397363,14 @@
         "id": 537008,
         "utcDate": "2026-01-12T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": null,
+        "minute": 15,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Luigi Ferraris",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-12T18:33:09Z",
+        "lastUpdated": "2026-01-12T18:48:09Z",
         "homeTeam": {
           "id": 107,
           "name": "Genoa CFC",
@@ -397545,7 +397545,7 @@
             "nationality": "Italy"
           },
           "leagueRank": 15,
-          "formation": "3-5-2",
+          "formation": "4-3-3",
           "lineup": [
             {
               "id": 82004,
@@ -397696,10 +397696,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -397707,7 +397707,29 @@
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 7,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 107,
+              "name": "Genoa CFC"
+            },
+            "scorer": {
+              "id": 144566,
+              "name": "Lorenzo Colombo"
+            },
+            "assist": {
+              "id": 179561,
+              "name": "Ruslan Malinovskiy"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -397821,7 +397843,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57882,
+            "name": "Ermanno Feliciani",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          },
+          {
+            "id": 49494,
+            "name": "Luigi Rossi",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "Italy"
+          },
+          {
+            "id": 182301,
+            "name": "Claudio Barone",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
