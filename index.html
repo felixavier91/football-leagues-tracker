@@ -514,6 +514,47 @@
         .youtube-btn:hover {
             background: #a00d25;
         }
+        
+        /* Video tabs */
+        .video-tabs {
+            display: flex;
+            gap: 8px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        
+        .video-tab {
+            flex: 1;
+            padding: 10px 16px;
+            background: #f0f0f0;
+            border: none;
+            border-radius: 8px 8px 0 0;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            color: #666;
+        }
+        
+        .video-tab:hover {
+            background: #e0e0e0;
+        }
+        
+        .video-tab.active {
+            background: #c8102e;
+            color: white;
+        }
+        
+        .video-content {
+            position: relative;
+        }
+        
+        .video-panel {
+            display: none;
+        }
+        
+        .video-panel.active {
+            display: block;
+        }
 
         .video-container {
             position: relative;
@@ -1326,6 +1367,27 @@
             document.getElementById('standingsContainer').style.display = 'block';
         }
 
+        function switchVideo(uniqueId, videoIndex) {
+            // Hide all video panels for this match
+            const panels = document.querySelectorAll(`[id^="${uniqueId}-"]`);
+            panels.forEach(panel => panel.classList.remove('active'));
+            
+            // Show selected panel
+            const selectedPanel = document.getElementById(`${uniqueId}-${videoIndex}`);
+            if (selectedPanel) selectedPanel.classList.add('active');
+            
+            // Update tab states
+            const container = selectedPanel.closest('.match-card').querySelector('.video-tabs');
+            const tabs = container.querySelectorAll('.video-tab');
+            tabs.forEach((tab, index) => {
+                if (index === videoIndex) {
+                    tab.classList.add('active');
+                } else {
+                    tab.classList.remove('active');
+                }
+            });
+        }
+        
         function toggleStandings() {
             const container = document.getElementById('standingsTable');
             const currentState = container.dataset.expanded === 'true';
@@ -1499,20 +1561,44 @@
                     const matchDate = new Date(match.utcDate).toISOString().split('T')[0];
                     const matchKey = `${match.homeTeam.name}-${match.awayTeam.name}-${matchDate}`;
                     const season = '2025-26';
-                    const videoId = highlightsDatabase[currentLeagueCode]?.[season]?.[matchKey]?.videoId;
+                    const matchData = highlightsDatabase[currentLeagueCode]?.[season]?.[matchKey];
                     
-                    if (videoId) {
-                        // Embed the video directly with quality parameters
-                        youtubeLink = `
-                            <iframe width="100%" height="315" 
-                                 src="https://www.youtube.com/embed/${videoId}?mute=1&vq=hd1080"
-                                 frameborder="0" 
-                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                 referrerpolicy="strict-origin-when-cross-origin"
-                                 allowfullscreen
-                                 loading="lazy"
-                                 style="border-radius: 8px; margin-top: 15px;">
-                               </iframe>`;
+                    // Support both old format (videoId) and new format (videoIds array)
+                    let videoIds = matchData?.videoIds;
+                    if (!videoIds && matchData?.videoId) {
+                        // Old format: convert single videoId to array
+                        videoIds = [matchData.videoId];
+                    }
+                    
+                    if (videoIds && videoIds.length > 0) {
+                        // Create tabs for multiple videos
+                        const uniqueId = `video-${match.id}`;
+                        let videoTabs = '<div class="video-tabs">';
+                        let videoContent = '<div class="video-content">';
+                        
+                        videoIds.forEach((videoId, index) => {
+                            const active = index === 0 ? 'active' : '';
+                            videoTabs += `<button class="video-tab ${active}" onclick="switchVideo('${uniqueId}', ${index})">Video ${index + 1}</button>`;
+                            
+                            videoContent += `
+                                <div class="video-panel ${active}" id="${uniqueId}-${index}">
+                                    <iframe width="100%" height="315" 
+                                         src="https://www.youtube.com/embed/${videoId}?mute=1&vq=hd1080"
+                                         frameborder="0" 
+                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                         referrerpolicy="strict-origin-when-cross-origin"
+                                         allowfullscreen
+                                         loading="lazy"
+                                         style="border-radius: 8px;">
+                                    </iframe>
+                                </div>
+                            `;
+                        });
+                        
+                        videoTabs += '</div>';
+                        videoContent += '</div>';
+                        
+                        youtubeLink = videoTabs + videoContent;
                     } else {
                         // Fallback to search button with tracking
                         const youtubeSearchQuery = `${match.homeTeam.name} vs ${match.awayTeam.name} highlights`;
