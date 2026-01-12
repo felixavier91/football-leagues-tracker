@@ -1922,7 +1922,6 @@
                         // Build home starters
                         const homeStarters = matchStats.homeTeam.lineup.map(player => {
                             const name = formatName(player.name);
-                            const number = player.shirtNumber || '';
                             
                             // Find substitution for this player - check substitutions array at root level
                             let subInfo = '';
@@ -1932,19 +1931,17 @@
                                 );
                                 if (sub) {
                                     const subInName = formatName(sub.playerIn.name);
-                                    const subInNumber = sub.playerIn.shirtNumber || '';
                                     const minute = sub.minute;
-                                    subInfo = ` <span style="color: #c8102e; font-size: 0.85em;">→ ${subInNumber} ${subInName} ${minute}'</span>`;
+                                    subInfo = ` <span style="color: #c8102e; font-size: 0.85em;">→ ${subInName} ${minute}'</span>`;
                                 }
                             }
                             
-                            return `<div class="starter-item">${number} ${name}${subInfo}</div>`;
+                            return `<div class="starter-item">${name}${subInfo}</div>`;
                         });
                         
                         // Build away starters
                         const awayStarters = matchStats.awayTeam.lineup.map(player => {
                             const name = formatName(player.name);
-                            const number = player.shirtNumber || '';
                             
                             // Find substitution for this player - check substitutions array at root level
                             let subInfo = '';
@@ -1954,13 +1951,12 @@
                                 );
                                 if (sub) {
                                     const subInName = formatName(sub.playerIn.name);
-                                    const subInNumber = sub.playerIn.shirtNumber || '';
                                     const minute = sub.minute;
-                                    subInfo = ` <span style="color: #c8102e; font-size: 0.85em;">→ ${subInNumber} ${subInName} ${minute}'</span>`;
+                                    subInfo = ` <span style="color: #c8102e; font-size: 0.85em;">→ ${subInName} ${minute}'</span>`;
                                 }
                             }
                             
-                            return `<div class="starter-item">${number} ${name}${subInfo}</div>`;
+                            return `<div class="starter-item">${name}${subInfo}</div>`;
                         });
                         
                         // Pad arrays to same length for side-by-side display
