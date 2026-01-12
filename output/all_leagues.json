@@ -202845,14 +202845,14 @@
         "id": 544397,
         "utcDate": "2026-01-12T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 83,
+        "minute": 89,
         "injuryTime": null,
         "attendance": 31383,
         "venue": "Estadio R. Sanchez Pizjuan",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-12T22:40:44Z",
+        "lastUpdated": "2026-01-12T22:47:09Z",
         "homeTeam": {
           "id": 559,
           "name": "Sevilla FC",
@@ -203160,19 +203160,50 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 0,
             "away": 0
           }
         },
-        "goals": [],
-        "penalties": [],
+        "goals": [
+          {
+            "minute": 88,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 558,
+              "name": "RC Celta de Vigo"
+            },
+            "scorer": {
+              "id": 3195,
+              "name": "Marcos Alonso"
+            },
+            "assist": null,
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
+        "penalties": [
+          {
+            "player": {
+              "id": 3195,
+              "name": "Marcos Alonso"
+            },
+            "team": {
+              "id": 558,
+              "name": "RC Celta de Vigo"
+            },
+            "scored": true
+          }
+        ],
         "bookings": [
           {
             "minute": 34,
@@ -203207,6 +203238,30 @@
             "player": {
               "id": 180038,
               "name": "Juanlu"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 84,
+            "team": {
+              "id": 558,
+              "name": "RC Celta de Vigo"
+            },
+            "player": {
+              "id": 249529,
+              "name": "Claudio"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 86,
+            "team": {
+              "id": 559,
+              "name": "Sevilla FC"
+            },
+            "player": {
+              "id": 140251,
+              "name": "Batista Mendy"
             },
             "card": "YELLOW"
           }
@@ -398237,7 +398292,7 @@
         },
         "id": 537012,
         "utcDate": "2026-01-12T19:45:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
         "injuryTime": 2,
         "attendance": null,
@@ -398245,7 +398300,7 @@
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-12T22:41:05Z",
+        "lastUpdated": "2026-01-12T22:43:05Z",
         "homeTeam": {
           "id": 109,
           "name": "Juventus FC",
