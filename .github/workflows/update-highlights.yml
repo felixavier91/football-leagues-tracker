@@ -3,8 +3,8 @@ name: Update Highlights Daily
 on:
   # Run every day at 10pm EST (3am UTC next day)
   schedule:
-  # - cron: '3,13,23,33,43,53 12-23,0-2 * * *'  # 7:03am-9:03pm ESTeeeeeeeern Update Highlights
-  - cron: '59 4 * * *'  # 11:59 PM EST (4:59 AM UTC next day)
+  - cron: '3,13,23,33,43,53 12-23,0-2 * * *'  # 7:03am-9:03pm EST Update Highlights
+  # - cron: '59 4 * * *'  # 11:59 PM EST (4:59 AM UTC next day)
   
   # Also allow manual trigger
   workflow_dispatch:
