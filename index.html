@@ -659,6 +659,13 @@
             font-weight: normal;
         }
         
+        .starter-item {
+            padding: 4px 0;
+            font-size: 0.9em;
+            color: #333;
+            line-height: 1.6;
+        }
+        
         /* Mobile optimizations */
         @media (max-width: 768px) {
             body {
@@ -1011,10 +1018,10 @@
                 container.appendChild(button);
             });
 
-            // Auto-select Premier League by default
-            const plButton = container.querySelector('button:nth-child(3)'); // PL is 3rd in custom order (CL, PD, PL)
-            if (plButton) {
-                plButton.click();
+            // Auto-select La Liga by default
+            const pdButton = container.querySelector('button:nth-child(2)'); // PD is 2nd in custom order (CL, PD, PL)
+            if (pdButton) {
+                pdButton.click();
             }
         }
 
@@ -1877,7 +1884,76 @@
                     }
                 }
 
-                // Full expanded details (VIDEO at top, then venue/referee, timeline, and stats)
+                // Starters and Substitutions Section
+                let startersSection = '';
+                if (match.lineups && match.lineups.length > 0) {
+                    const homeLineup = match.lineups.find(l => l.team.id === match.homeTeam.id);
+                    const awayLineup = match.lineups.find(l => l.team.id === match.awayTeam.id);
+                    
+                    if (homeLineup && awayLineup) {
+                        // Helper function to get last name
+                        const getLastName = (fullName) => {
+                            const parts = fullName.split(' ');
+                            return parts[parts.length - 1];
+                        };
+                        
+                        // Build home starters
+                        let homeStartersHTML = '';
+                        homeLineup.lineup.forEach(player => {
+                            const lastName = getLastName(player.name);
+                            const position = player.position || '';
+                            
+                            // Find substitution for this player
+                            let subInfo = '';
+                            if (match.substitutions) {
+                                const sub = match.substitutions.find(s => 
+                                    s.team.id === match.homeTeam.id && s.playerOut.id === player.id
+                                );
+                                if (sub) {
+                                    const subInLastName = getLastName(sub.playerIn.name);
+                                    const minute = sub.injuryTime ? `${sub.minute}+${sub.injuryTime}'` : `${sub.minute}'`;
+                                    subInfo = ` <span style="color: #999; font-size: 0.9em;">→ ${minute} ${subInLastName}</span>`;
+                                }
+                            }
+                            
+                            homeStartersHTML += `<div class="starter-item">${lastName} <span style="color: #999;">(${position})</span>${subInfo}</div>`;
+                        });
+                        
+                        // Build away starters
+                        let awayStartersHTML = '';
+                        awayLineup.lineup.forEach(player => {
+                            const lastName = getLastName(player.name);
+                            const position = player.position || '';
+                            
+                            // Find substitution for this player
+                            let subInfo = '';
+                            if (match.substitutions) {
+                                const sub = match.substitutions.find(s => 
+                                    s.team.id === match.awayTeam.id && s.playerOut.id === player.id
+                                );
+                                if (sub) {
+                                    const subInLastName = getLastName(sub.playerIn.name);
+                                    const minute = sub.injuryTime ? `${sub.minute}+${sub.injuryTime}'` : `${sub.minute}'`;
+                                    subInfo = ` <span style="color: #999; font-size: 0.9em;">→ ${minute} ${subInLastName}</span>`;
+                                }
+                            }
+                            
+                            awayStartersHTML += `<div class="starter-item">${lastName} <span style="color: #999;">(${position})</span>${subInfo}</div>`;
+                        });
+                        
+                        startersSection = `
+                            <div class="match-stats-container" style="margin-top: 15px;">
+                                <div class="timeline-grid">
+                                    <div class="timeline-column home-column">${homeStartersHTML}</div>
+                                    <div class="timeline-divider">Starters</div>
+                                    <div class="timeline-column away-column">${awayStartersHTML}</div>
+                                </div>
+                            </div>
+                        `;
+                    }
+                }
+
+                // Full expanded details (VIDEO at top, then venue/referee, timeline, stats, and starters)
                 const details = `
                     <div class="match-details">
                         ${youtubeLink}
@@ -1885,6 +1961,7 @@
                         ${refereeSection}
                         ${timeline}
                         ${matchStatsSection}
+                        ${startersSection}
                     </div>
                 `;
 
