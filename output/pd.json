@@ -91535,15 +91535,15 @@
       },
       "id": 544397,
       "utcDate": "2026-01-12T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 31,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio R. Sanchez Pizjuan",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-12T21:33:25Z",
+      "lastUpdated": "2026-01-12T21:48:41Z",
       "homeTeam": {
         "id": 559,
         "name": "Sevilla FC",
@@ -91858,13 +91858,26 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 34,
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "player": {
+            "id": 157368,
+            "name": "Ilaix Moriba"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
