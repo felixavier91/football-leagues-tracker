@@ -666,6 +666,26 @@
             line-height: 1.6;
         }
         
+        .starters-container {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        
+        .starters-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .starters-home {
+            text-align: left;
+        }
+        
+        .starters-away {
+            text-align: right;
+        }
+        
         /* Mobile optimizations */
         @media (max-width: 768px) {
             body {
@@ -1890,58 +1910,95 @@
                     const matchStats = matchStatistics[currentLeagueCode]?.[match.id];
                     
                     if (matchStats && matchStats.homeTeam?.lineup && matchStats.awayTeam?.lineup) {
-                        // Helper function to get last name
-                        const getLastName = (fullName) => {
-                            const parts = fullName.split(' ');
-                            return parts[parts.length - 1];
+                        // Helper function to format name as "R. Lewandowski"
+                        const formatName = (fullName) => {
+                            const parts = fullName.trim().split(' ');
+                            if (parts.length === 1) return parts[0];
+                            const firstInitial = parts[0][0];
+                            const lastName = parts[parts.length - 1];
+                            return `${firstInitial}. ${lastName}`;
+                        };
+                        
+                        // Helper function to abbreviate position
+                        const abbreviatePosition = (position) => {
+                            const posMap = {
+                                'Goalkeeper': 'GK',
+                                'Centre-Back': 'CB',
+                                'Left-Back': 'LB',
+                                'Right-Back': 'RB',
+                                'Defensive Midfield': 'CDM',
+                                'Central Midfield': 'CM',
+                                'Attacking Midfield': 'CAM',
+                                'Left Midfield': 'LM',
+                                'Right Midfield': 'RM',
+                                'Left Winger': 'LW',
+                                'Right Winger': 'RW',
+                                'Centre-Forward': 'CF',
+                                'Forward': 'FW',
+                                'Striker': 'ST'
+                            };
+                            return posMap[position] || position;
                         };
                         
                         // Build home starters
-                        let homeStartersHTML = '';
-                        matchStats.homeTeam.lineup.forEach(player => {
-                            const lastName = getLastName(player.name);
-                            const position = player.position || '';
+                        const homeStarters = matchStats.homeTeam.lineup.map(player => {
+                            const name = formatName(player.name);
+                            const position = abbreviatePosition(player.position || '');
                             
                             // Find substitution for this player
                             let subInfo = '';
                             if (matchStats.homeTeam.substitutions) {
                                 const sub = matchStats.homeTeam.substitutions.find(s => s.player_out === player.name);
                                 if (sub) {
-                                    const subInLastName = getLastName(sub.player_in);
+                                    const subInName = formatName(sub.player_in);
                                     const minute = sub.minute;
-                                    subInfo = ` <span style="color: #999; font-size: 0.9em;">→ ${minute}' ${subInLastName}</span>`;
+                                    subInfo = ` <span style="color: #c8102e; font-size: 0.85em;">→${minute}' ${subInName}</span>`;
                                 }
                             }
                             
-                            homeStartersHTML += `<div class="starter-item">${lastName} <span style="color: #999;">(${position})</span>${subInfo}</div>`;
+                            return `<div class="starter-item">${name} <span style="color: #999;">(${position})</span>${subInfo}</div>`;
                         });
                         
                         // Build away starters
-                        let awayStartersHTML = '';
-                        matchStats.awayTeam.lineup.forEach(player => {
-                            const lastName = getLastName(player.name);
-                            const position = player.position || '';
+                        const awayStarters = matchStats.awayTeam.lineup.map(player => {
+                            const name = formatName(player.name);
+                            const position = abbreviatePosition(player.position || '');
                             
                             // Find substitution for this player
                             let subInfo = '';
                             if (matchStats.awayTeam.substitutions) {
                                 const sub = matchStats.awayTeam.substitutions.find(s => s.player_out === player.name);
                                 if (sub) {
-                                    const subInLastName = getLastName(sub.player_in);
+                                    const subInName = formatName(sub.player_in);
                                     const minute = sub.minute;
-                                    subInfo = ` <span style="color: #999; font-size: 0.9em;">→ ${minute}' ${subInLastName}</span>`;
+                                    subInfo = ` <span style="color: #c8102e; font-size: 0.85em;">→${minute}' ${subInName}</span>`;
                                 }
                             }
                             
-                            awayStartersHTML += `<div class="starter-item">${lastName} <span style="color: #999;">(${position})</span>${subInfo}</div>`;
+                            return `<div class="starter-item">${name} <span style="color: #999;">(${position})</span>${subInfo}</div>`;
                         });
+                        
+                        // Pad arrays to same length for side-by-side display
+                        const maxLength = Math.max(homeStarters.length, awayStarters.length);
+                        while (homeStarters.length < maxLength) homeStarters.push('<div class="starter-item">&nbsp;</div>');
+                        while (awayStarters.length < maxLength) awayStarters.push('<div class="starter-item">&nbsp;</div>');
+                        
+                        // Build rows (home and away side by side)
+                        let startersRows = '';
+                        for (let i = 0; i < maxLength; i++) {
+                            startersRows += `
+                                <div class="starters-row">
+                                    <div class="starters-home">${homeStarters[i]}</div>
+                                    <div class="starters-away">${awayStarters[i]}</div>
+                                </div>
+                            `;
+                        }
                         
                         startersSection = `
                             <div class="match-stats-container" style="margin-top: 15px;">
-                                <div class="timeline-grid">
-                                    <div class="timeline-column home-column">${homeStartersHTML}</div>
-                                    <div class="timeline-divider">Starters</div>
-                                    <div class="timeline-column away-column">${awayStartersHTML}</div>
+                                <div style="text-align: center; font-weight: 600; color: #c8102e; margin-bottom: 10px;">Starters</div>
+                                <div class="starters-container">
+                                    ${startersRows}
                                 </div>
                             </div>
                         `;
