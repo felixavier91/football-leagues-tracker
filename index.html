@@ -236,6 +236,7 @@
             border: 2px solid #c8102e;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             color: #c8102e;
+            font-size: 1em;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s;
@@ -688,19 +689,25 @@
             }
             
             .league-buttons {
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: repeat(4, 1fr);
                 gap: 6px;
             }
             
             .league-btn {
-                padding: 6px 8px;
+                padding: 12px 4px;
                 font-size: 0.7em;
+                min-height: 60px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
             }
             
             .league-btn img {
                 width: 20px !important;
                 height: 20px !important;
-                margin-right: 4px !important;
+                margin-right: 0 !important;
+                margin-bottom: 4px !important;
             }
             
             .standings-container {
@@ -758,9 +765,10 @@
                 padding: 8px 4px;
                 font-size: 0.8em;
             }
-
+            
             .stats-section-toggle {
-                padding: 8px 4px;  /* match the filter-btn mobile padding */
+                padding: 8px 4px;
+                font-size: 0.8em;
             }
             
             .search-container {
@@ -1006,7 +1014,7 @@
             });
 
             // Auto-select Premier League by default
-            const plButton = container.querySelector('button:nth-child(2)'); // PL is 3rd in custom order (CL, PD, PL)
+            const plButton = container.querySelector('button:nth-child(3)'); // PL is 3rd in custom order (CL, PD, PL)
             if (plButton) {
                 plButton.click();
             }
