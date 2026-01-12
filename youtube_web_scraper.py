@@ -36,8 +36,12 @@ DELAY_BETWEEN_SEARCHES = 2  # Seconds (be nice to YouTube)
 TODAY_ONLY = '--backfill' not in sys.argv  # Default: process last 48 hours, unless --backfill flag is passed
 
 # Leagues to process (set to None to process all)
-# LEAGUES_TO_PROCESS = ["PD", "PL", "FL1", "BL1", "SA", "PPL", "DED", "CL"]  # PD = La Liga, PL = Premier League, FL1 = Ligue 1, BL1 = Bundesliga, SA = Serie A, PPL = Primeira Liga, DED = Eredivisie, CL = Champions League
-LEAGUES_TO_PROCESS = ["DED","BL1"]
+
+##################################################################### DON'T FORGET TO PICK LEAGUES_TO_PROCESS TO SEARCH ALL LEAGUES ONCE YOU ARE DONE WITH THE BACKFILLING ################################################
+LEAGUES_TO_PROCESS = ["PD", "PL", "FL1", "BL1", "SA", "PPL", "DED", "CL"]  # PD = La Liga, PL = Premier League, FL1 = Ligue 1, BL1 = Bundesliga, SA = Serie A, PPL = Primeira Liga, DED = Eredivisie, CL = Champions League
+# LEAGUES_TO_PROCESS = ["DED","BL1"]
+###########################################################################################################################################################################################################################
+
 MAX_MATCHES_TO_PROCESS = None  # Process ALL finished matches
 
 # Browser settings
