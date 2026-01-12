@@ -452,19 +452,27 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
             except Exception as e:
                 continue
         
-        # Pick video with most views from all valid videos
+        # Pick top 5 videos with most views from all valid videos
         if valid_videos:
-            best_video = max(valid_videos, key=lambda x: x['views'])
-            print(f"  🏆 Selected: {best_video['title']} ({best_video['views']:,} views)")
-            return best_video['video_id'], best_video['title']
+            # Sort by views descending and take top 5
+            sorted_videos = sorted(valid_videos, key=lambda x: x['views'], reverse=True)
+            top_videos = sorted_videos[:5]
+            
+            print(f"  🏆 Selected {len(top_videos)} video(s):")
+            for i, video in enumerate(top_videos, 1):
+                print(f"     #{i}: {video['title']} ({video['views']:,} views)")
+            
+            # Return list of video IDs
+            video_ids = [v['video_id'] for v in top_videos]
+            return video_ids
         
         # No valid videos found
         print(f"  ❌ No videos with matching upload date found")
-        return None, None
+        return None
         
     except Exception as e:
         print(f"  ❌ Error: {e}")
-        return None, None
+        return None
 
 
 # ============================================
@@ -615,14 +623,14 @@ def process_matches():
             print(f"[{i}/{total_matches}] {home_team} vs {away_team} ({match_date})")
             print(f"  🔎 Searching: \"{query}\"")
             
-            # Search YouTube - verify upload date and team keywords, filter blocked channels
-            video_id, video_title = search_youtube_web(driver, query, match_date, home_team, away_team, league_code)
+            # Search YouTube - returns list of top 5 video IDs
+            video_ids = search_youtube_web(driver, query, match_date, home_team, away_team, league_code)
             
-            if video_id:
-                # Update the database
-                highlights[item["league_code"]][item["season"]][item["match_key"]]["videoId"] = video_id
-                print(f"  ✅ Found: {video_title}")
-                print(f"  📺 Video ID: {video_id}")
+            if video_ids:
+                # Update the database with array of video IDs
+                highlights[item["league_code"]][item["season"]][item["match_key"]]["videoIds"] = video_ids
+                print(f"  ✅ Found {len(video_ids)} video(s)")
+                print(f"  📺 Video IDs: {', '.join(video_ids)}")
                 updated_count += 1
             else:
                 print(f"  ⚠️  No video found")
