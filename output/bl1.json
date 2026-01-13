@@ -67165,17 +67165,105 @@
           "REGULAR_SEASON"
         ]
       },
+      "id": 540558,
+      "utcDate": "2026-01-13T00:00:00Z",
+      "status": "POSTPONED",
+      "minute": null,
+      "injuryTime": null,
+      "attendance": null,
+      "venue": "Volksparkstadion",
+      "matchday": 17,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "lastUpdated": "2026-01-13T18:30:05Z",
+      "homeTeam": {
+        "id": 7,
+        "name": "Hamburger SV",
+        "shortName": "HSV",
+        "tla": "HSV",
+        "crest": "https://crests.football-data.org/7.png",
+        "coach": {
+          "id": 179991,
+          "name": "Merlin Polzin",
+          "nationality": "Germany"
+        },
+        "leagueRank": 13,
+        "formation": "3-4-3",
+        "lineup": [],
+        "bench": []
+      },
+      "awayTeam": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": "https://crests.football-data.org/3.png",
+        "coach": {
+          "id": 24245,
+          "name": "Kasper Hjulmand",
+          "nationality": "Denmark"
+        },
+        "leagueRank": 4,
+        "formation": "3-4-2-1",
+        "lineup": [],
+        "bench": []
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "goals": [],
+      "penalties": [],
+      "bookings": [],
+      "substitutions": [],
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "referees": []
+    },
+    {
+      "area": {
+        "id": 2088,
+        "name": "Germany",
+        "code": "DEU",
+        "flag": "https://crests.football-data.org/759.svg"
+      },
+      "competition": {
+        "id": 2002,
+        "name": "Bundesliga",
+        "code": "BL1",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/BL1.png"
+      },
+      "season": {
+        "id": 2414,
+        "startDate": "2025-08-22",
+        "endDate": "2026-05-16",
+        "currentMatchday": 17,
+        "winner": null,
+        "stages": [
+          "REGULAR_SEASON"
+        ]
+      },
       "id": 540553,
       "utcDate": "2026-01-13T17:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 13,
       "injuryTime": null,
       "attendance": null,
       "venue": "MHPArena",
       "matchday": 17,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-13T17:33:40Z",
+      "lastUpdated": "2026-01-13T18:43:09Z",
       "homeTeam": {
         "id": 10,
         "name": "VfB Stuttgart",
@@ -67453,20 +67541,55 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 5,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "scorer": {
+            "id": 7554,
+            "name": "Rasmus Kristensen"
+          },
+          "assist": {
+            "id": 7531,
+            "name": "Ritsu Doan"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 9,
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "player": {
+            "id": 130668,
+            "name": "Arnaud Kalimuendo"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -67526,7 +67649,7 @@
       "matchday": 17,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-13T15:21:06Z",
+      "lastUpdated": "2026-01-13T18:30:05Z",
       "homeTeam": {
         "id": 4,
         "name": "Borussia Dortmund",
@@ -67539,7 +67662,7 @@
           "nationality": "Croatia"
         },
         "leagueRank": 2,
-        "formation": null,
+        "formation": "3-4-2-1",
         "lineup": [],
         "bench": []
       },
@@ -67555,7 +67678,7 @@
           "nationality": "Germany"
         },
         "leagueRank": 12,
-        "formation": null,
+        "formation": "4-2-3-1",
         "lineup": [],
         "bench": []
       },
@@ -67578,7 +67701,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 15408,
+          "name": "Daniel Siebert",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        },
+        {
+          "id": 43880,
+          "name": "Rafael Foltyn",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Germany"
+        },
+        {
+          "id": 340,
+          "name": "Benedikt Kempkes",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Germany"
+        }
+      ]
     },
     {
       "area": {
@@ -67614,7 +67756,7 @@
       "matchday": 17,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-07T01:32:01Z",
+      "lastUpdated": "2026-01-13T18:30:05Z",
       "homeTeam": {
         "id": 15,
         "name": "1. FSV Mainz 05",
@@ -67627,7 +67769,7 @@
           "nationality": "Switzerland"
         },
         "leagueRank": 18,
-        "formation": null,
+        "formation": "5-3-2",
         "lineup": [],
         "bench": []
       },
@@ -67643,7 +67785,7 @@
           "nationality": "Germany"
         },
         "leagueRank": 17,
-        "formation": null,
+        "formation": "3-4-2-1",
         "lineup": [],
         "bench": []
       },
@@ -67666,95 +67808,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
-    },
-    {
-      "area": {
-        "id": 2088,
-        "name": "Germany",
-        "code": "DEU",
-        "flag": "https://crests.football-data.org/759.svg"
-      },
-      "competition": {
-        "id": 2002,
-        "name": "Bundesliga",
-        "code": "BL1",
-        "type": "LEAGUE",
-        "emblem": "https://crests.football-data.org/BL1.png"
-      },
-      "season": {
-        "id": 2414,
-        "startDate": "2025-08-22",
-        "endDate": "2026-05-16",
-        "currentMatchday": 17,
-        "winner": null,
-        "stages": [
-          "REGULAR_SEASON"
-        ]
-      },
-      "id": 540558,
-      "utcDate": "2026-01-13T19:30:00Z",
-      "status": "TIMED",
-      "minute": null,
-      "injuryTime": null,
-      "attendance": null,
-      "venue": "Volksparkstadion",
-      "matchday": 17,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "lastUpdated": "2026-01-11T01:32:00Z",
-      "homeTeam": {
-        "id": 7,
-        "name": "Hamburger SV",
-        "shortName": "HSV",
-        "tla": "HSV",
-        "crest": "https://crests.football-data.org/7.png",
-        "coach": {
-          "id": 179991,
-          "name": "Merlin Polzin",
+      "referees": [
+        {
+          "id": 15824,
+          "name": "Sven Jablonski",
+          "type": "REFEREE",
           "nationality": "Germany"
         },
-        "leagueRank": 13,
-        "formation": null,
-        "lineup": [],
-        "bench": []
-      },
-      "awayTeam": {
-        "id": 3,
-        "name": "Bayer 04 Leverkusen",
-        "shortName": "Leverkusen",
-        "tla": "B04",
-        "crest": "https://crests.football-data.org/3.png",
-        "coach": {
-          "id": 24245,
-          "name": "Kasper Hjulmand",
-          "nationality": "Denmark"
+        {
+          "id": 339,
+          "name": "Sascha Thielert",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Germany"
         },
-        "leagueRank": 4,
-        "formation": null,
-        "lineup": [],
-        "bench": []
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
+        {
+          "id": 8827,
+          "name": "Eduard Beitinger",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Germany"
         }
-      },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
-      "substitutions": [],
-      "odds": {
-        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-      },
-      "referees": []
+      ]
     },
     {
       "area": {
