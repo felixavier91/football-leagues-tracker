@@ -287281,14 +287281,14 @@
         "id": 540553,
         "utcDate": "2026-01-13T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 79,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 4,
         "attendance": 59500,
         "venue": "MHPArena",
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-13T20:10:14Z",
+        "lastUpdated": "2026-01-13T20:25:39Z",
         "homeTeam": {
           "id": 10,
           "name": "VfB Stuttgart",
@@ -287569,8 +287569,8 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
-            "away": 1
+            "home": 3,
+            "away": 2
           },
           "halfTime": {
             "home": 2,
@@ -287637,6 +287637,48 @@
               "home": 2,
               "away": 1
             }
+          },
+          {
+            "minute": 80,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 19,
+              "name": "Eintracht Frankfurt"
+            },
+            "scorer": {
+              "id": 261438,
+              "name": "Ayoube Amaimouni-Echghouyab"
+            },
+            "assist": {
+              "id": 158,
+              "name": "Mahmoud Dahoud"
+            },
+            "score": {
+              "home": 2,
+              "away": 2
+            }
+          },
+          {
+            "minute": 87,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 10,
+              "name": "VfB Stuttgart"
+            },
+            "scorer": {
+              "id": 190,
+              "name": "Nikolas Nartey"
+            },
+            "assist": {
+              "id": 6523,
+              "name": "Josha Vagnoman"
+            },
+            "score": {
+              "home": 3,
+              "away": 2
+            }
           }
         ],
         "penalties": [],
@@ -287662,6 +287704,18 @@
             "player": {
               "id": 7748,
               "name": "Julian Chabot"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 10,
+              "name": "VfB Stuttgart"
+            },
+            "player": {
+              "id": 157263,
+              "name": "Ramon Hendriks"
             },
             "card": "YELLOW"
           }
