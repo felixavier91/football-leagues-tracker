@@ -287783,15 +287783,15 @@
         },
         "id": 540550,
         "utcDate": "2026-01-13T19:30:00Z",
-        "status": "IN_PLAY",
-        "minute": 40,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Signal Iduna Park",
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-13T21:11:04Z",
+        "lastUpdated": "2026-01-13T21:33:49Z",
         "homeTeam": {
           "id": 4,
           "name": "Borussia Dortmund",
@@ -288076,8 +288076,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "goals": [
@@ -288169,15 +288169,15 @@
         },
         "id": 540551,
         "utcDate": "2026-01-13T19:30:00Z",
-        "status": "IN_PLAY",
-        "minute": 40,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "MEWA ARENA",
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-13T21:11:04Z",
+        "lastUpdated": "2026-01-13T21:33:50Z",
         "homeTeam": {
           "id": 15,
           "name": "1. FSV Mainz 05",
@@ -288462,8 +288462,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "goals": [
@@ -288490,7 +288490,20 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 45,
+            "team": {
+              "id": 15,
+              "name": "1. FSV Mainz 05"
+            },
+            "player": {
+              "id": 152,
+              "name": "Dominik Kohr"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
