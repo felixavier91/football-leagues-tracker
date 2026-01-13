@@ -287784,14 +287784,14 @@
         "id": 540550,
         "utcDate": "2026-01-13T19:30:00Z",
         "status": "IN_PLAY",
-        "minute": 17,
+        "minute": 40,
         "injuryTime": null,
         "attendance": null,
         "venue": "Signal Iduna Park",
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-13T20:47:24Z",
+        "lastUpdated": "2026-01-13T21:11:04Z",
         "homeTeam": {
           "id": 4,
           "name": "Borussia Dortmund",
@@ -288104,7 +288104,20 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 23,
+            "team": {
+              "id": 4,
+              "name": "Borussia Dortmund"
+            },
+            "player": {
+              "id": 351,
+              "name": "Niklas Süle"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -288157,14 +288170,14 @@
         "id": 540551,
         "utcDate": "2026-01-13T19:30:00Z",
         "status": "IN_PLAY",
-        "minute": 17,
+        "minute": 40,
         "injuryTime": null,
         "attendance": null,
         "venue": "MEWA ARENA",
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-13T20:47:24Z",
+        "lastUpdated": "2026-01-13T21:11:04Z",
         "homeTeam": {
           "id": 15,
           "name": "1. FSV Mainz 05",
@@ -288442,10 +288455,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -288453,7 +288466,29 @@
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 30,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 15,
+              "name": "1. FSV Mainz 05"
+            },
+            "scorer": {
+              "id": 2114,
+              "name": "Silvan Widmer"
+            },
+            "assist": {
+              "id": 179889,
+              "name": "Jae-sung Lee"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
