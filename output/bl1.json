@@ -68680,15 +68680,15 @@
       },
       "id": 540554,
       "utcDate": "2026-01-14T17:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 63,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volkswagen Arena",
       "matchday": 17,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-14T19:34:54Z",
+      "lastUpdated": "2026-01-14T19:53:44Z",
       "homeTeam": {
         "id": 11,
         "name": "VfL Wolfsburg",
@@ -69031,7 +69031,32 @@
           "scored": true
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 53,
+          "team": {
+            "id": 20,
+            "name": "FC St. Pauli 1910"
+          },
+          "player": {
+            "id": 382,
+            "name": "Lars Ritzka"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 55,
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "player": {
+            "id": 153289,
+            "name": "Moritz Jenz"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
