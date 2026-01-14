@@ -289167,14 +289167,14 @@
         "id": 540552,
         "utcDate": "2026-01-14T19:30:00Z",
         "status": "IN_PLAY",
-        "minute": 7,
+        "minute": 17,
         "injuryTime": null,
         "attendance": null,
         "venue": "Red Bull Arena Leipzig",
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-14T20:37:29Z",
+        "lastUpdated": "2026-01-14T20:48:19Z",
         "homeTeam": {
           "id": 721,
           "name": "RB Leipzig",
@@ -289459,7 +289459,20 @@
         },
         "goals": [],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 14,
+            "team": {
+              "id": 17,
+              "name": "SC Freiburg"
+            },
+            "player": {
+              "id": 145293,
+              "name": "Yuito Suzuki"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -289512,14 +289525,14 @@
         "id": 540556,
         "utcDate": "2026-01-14T19:30:00Z",
         "status": "IN_PLAY",
-        "minute": 7,
+        "minute": 18,
         "injuryTime": null,
         "attendance": null,
         "venue": "PreZero Arena",
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-14T20:37:29Z",
+        "lastUpdated": "2026-01-14T20:48:19Z",
         "homeTeam": {
           "id": 2,
           "name": "TSG 1899 Hoffenheim",
@@ -289876,14 +289889,14 @@
         "id": 540557,
         "utcDate": "2026-01-14T19:30:00Z",
         "status": "IN_PLAY",
-        "minute": 7,
+        "minute": 18,
         "injuryTime": null,
         "attendance": null,
         "venue": "RheinEnergieStadion",
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-14T20:37:29Z",
+        "lastUpdated": "2026-01-14T20:48:19Z",
         "homeTeam": {
           "id": 1,
           "name": "1. FC Köln",
@@ -401612,15 +401625,15 @@
         },
         "id": 536970,
         "utcDate": "2026-01-14T19:45:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 2,
         "injuryTime": null,
         "attendance": null,
         "venue": "Giuseppe Meazza",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-14T19:47:00Z",
+        "lastUpdated": "2026-01-14T20:48:29Z",
         "homeTeam": {
           "id": 108,
           "name": "FC Internazionale Milano",
@@ -401958,11 +401971,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
