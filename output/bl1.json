@@ -68681,14 +68681,14 @@
       "id": 540554,
       "utcDate": "2026-01-14T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 79,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 2,
       "attendance": 22031,
       "venue": "Volkswagen Arena",
       "matchday": 17,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-14T20:08:49Z",
+      "lastUpdated": "2026-01-14T20:23:59Z",
       "homeTeam": {
         "id": 11,
         "name": "VfL Wolfsburg",
@@ -68966,10 +68966,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -69016,6 +69016,27 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "scorer": {
+            "id": 184970,
+            "name": "Dzenan Pejcinovic"
+          },
+          "assist": {
+            "id": 182004,
+            "name": "Adam Daghim"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [
@@ -69053,6 +69074,18 @@
           "player": {
             "id": 153289,
             "name": "Moritz Jenz"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 84,
+          "team": {
+            "id": 20,
+            "name": "FC St. Pauli 1910"
+          },
+          "player": {
+            "id": 64402,
+            "name": "Adam Dźwigała"
           },
           "card": "YELLOW"
         }
