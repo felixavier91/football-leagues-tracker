@@ -69141,15 +69141,15 @@
       },
       "id": 540552,
       "utcDate": "2026-01-14T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 40,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Red Bull Arena Leipzig",
       "matchday": 17,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-14T21:10:54Z",
+      "lastUpdated": "2026-01-14T21:32:34Z",
       "homeTeam": {
         "id": 721,
         "name": "RB Leipzig",
@@ -69428,8 +69428,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -69499,15 +69499,15 @@
       },
       "id": 540556,
       "utcDate": "2026-01-14T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "PreZero Arena",
       "matchday": 17,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-14T21:10:54Z",
+      "lastUpdated": "2026-01-14T21:32:34Z",
       "homeTeam": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
@@ -69788,12 +69788,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 4,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 0
         }
       },
       "goals": [
@@ -69833,6 +69833,45 @@
           },
           "score": {
             "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "scorer": {
+            "id": 318,
+            "name": "Andrej Kramarić"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 4,
+          "type": "REGULAR",
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "scorer": {
+            "id": 318,
+            "name": "Andrej Kramarić"
+          },
+          "assist": {
+            "id": 144433,
+            "name": "Tim Lemperle"
+          },
+          "score": {
+            "home": 4,
             "away": 0
           }
         }
@@ -69927,15 +69966,15 @@
       },
       "id": 540557,
       "utcDate": "2026-01-14T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "RheinEnergieStadion",
       "matchday": 17,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-14T21:10:54Z",
+      "lastUpdated": "2026-01-14T21:32:34Z",
       "homeTeam": {
         "id": 1,
         "name": "1. FC Köln",
@@ -70213,15 +70252,15 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -70237,13 +70276,31 @@
             "id": 327,
             "name": "Linton Maina"
           },
-          "assist": {
-            "id": 99812,
-            "name": "Tom Krauß"
-          },
+          "assist": null,
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 5,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 311,
+            "name": "Serge Gnabry"
+          },
+          "assist": {
+            "id": 113765,
+            "name": "Michael Olise"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
           }
         }
       ],
