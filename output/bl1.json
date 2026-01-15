@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 149
+    "played": 150
   },
   "competition": {
     "id": 2002,
@@ -70517,15 +70517,15 @@
       },
       "id": 540555,
       "utcDate": "2026-01-15T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 80,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 7,
       "attendance": 27267,
       "venue": "WWK ARENA",
       "matchday": 17,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-15T22:13:14Z",
+      "lastUpdated": "2026-01-15T22:31:54Z",
       "homeTeam": {
         "id": 16,
         "name": "FC Augsburg",
@@ -70803,11 +70803,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -70832,6 +70832,27 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "scorer": {
+            "id": 186485,
+            "name": "Marin Ljubicic"
+          },
+          "assist": {
+            "id": 182886,
+            "name": "Andrej Ilic"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -70847,6 +70868,18 @@
             "name": "Kristijan Jakić"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 89,
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "player": {
+            "id": 64934,
+            "name": "Derrick Köhn"
+          },
+          "card": "RED"
         }
       ],
       "substitutions": [],
