@@ -290543,14 +290543,14 @@
         "id": 540555,
         "utcDate": "2026-01-15T19:30:00Z",
         "status": "IN_PLAY",
-        "minute": 17,
+        "minute": 27,
         "injuryTime": null,
         "attendance": null,
         "venue": "WWK ARENA",
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-15T20:48:19Z",
+        "lastUpdated": "2026-01-15T20:58:24Z",
         "homeTeam": {
           "id": 16,
           "name": "FC Augsburg",
@@ -403192,14 +403192,14 @@
         "id": 536968,
         "utcDate": "2026-01-15T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 1,
+        "minute": 11,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Giuseppe Sinigaglia",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-15T20:48:24Z",
+        "lastUpdated": "2026-01-15T20:58:34Z",
         "homeTeam": {
           "id": 7397,
           "name": "Como 1907",
@@ -403519,10 +403519,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -403530,7 +403530,29 @@
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 10,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "scorer": {
+              "id": 9471,
+              "name": "Marc-Oliver Kempf"
+            },
+            "assist": {
+              "id": 156912,
+              "name": "Martin Baturina"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
