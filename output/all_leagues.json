@@ -402415,14 +402415,14 @@
         "id": 536969,
         "utcDate": "2026-01-15T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 5,
+        "minute": 23,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Marcantonio Bentegodi",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-15T18:37:09Z",
+        "lastUpdated": "2026-01-15T18:55:09Z",
         "homeTeam": {
           "id": 450,
           "name": "Hellas Verona FC",
@@ -402745,17 +402745,73 @@
           "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
-            "away": 0
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 13,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 450,
+              "name": "Hellas Verona FC"
+            },
+            "scorer": {
+              "id": 191892,
+              "name": "Gift Orban"
+            },
+            "assist": {
+              "id": 8487,
+              "name": "Antoine Bernede"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          },
+          {
+            "minute": 21,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 103,
+              "name": "Bologna FC 1909"
+            },
+            "scorer": {
+              "id": 1886,
+              "name": "Riccardo Orsolini"
+            },
+            "assist": {
+              "id": 1841,
+              "name": "Remo Freuler"
+            },
+            "score": {
+              "home": 1,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 12,
+            "team": {
+              "id": 450,
+              "name": "Hellas Verona FC"
+            },
+            "player": {
+              "id": 32584,
+              "name": "Unai Núñez"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -402867,7 +402923,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11079,
+            "name": "Marco Guida",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          },
+          {
+            "id": 11066,
+            "name": "Alessandro Lo Cicero",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "Italy"
+          },
+          {
+            "id": 207093,
+            "name": "Daisuke Yoshikawa",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
