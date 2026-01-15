@@ -290542,15 +290542,15 @@
         },
         "id": 540555,
         "utcDate": "2026-01-15T19:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 56,
         "injuryTime": null,
         "attendance": null,
         "venue": "WWK ARENA",
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-15T21:33:44Z",
+        "lastUpdated": "2026-01-15T21:49:14Z",
         "homeTeam": {
           "id": 16,
           "name": "FC Augsburg",
@@ -290860,7 +290860,20 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 53,
+            "team": {
+              "id": 16,
+              "name": "FC Augsburg"
+            },
+            "player": {
+              "id": 23222,
+              "name": "Kristijan Jakić"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -403210,15 +403223,15 @@
         },
         "id": 536968,
         "utcDate": "2026-01-15T19:45:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "minute": 45,
-        "injuryTime": 2,
+        "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Giuseppe Sinigaglia",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-15T21:33:54Z",
+        "lastUpdated": "2026-01-15T21:49:24Z",
         "homeTeam": {
           "id": 7397,
           "name": "Como 1907",
@@ -403545,8 +403558,8 @@
             "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "goals": [
