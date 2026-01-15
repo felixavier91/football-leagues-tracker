@@ -290542,15 +290542,15 @@
         },
         "id": 540555,
         "utcDate": "2026-01-15T19:30:00Z",
-        "status": "IN_PLAY",
-        "minute": 41,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "WWK ARENA",
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-15T21:11:49Z",
+        "lastUpdated": "2026-01-15T21:33:44Z",
         "homeTeam": {
           "id": 16,
           "name": "FC Augsburg",
@@ -290828,18 +290828,37 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 45,
+            "injuryTime": 6,
+            "type": "REGULAR",
+            "team": {
+              "id": 16,
+              "name": "FC Augsburg"
+            },
+            "scorer": {
+              "id": 608,
+              "name": "Alexis Claude Maurice"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -403192,14 +403211,14 @@
         "id": 536968,
         "utcDate": "2026-01-15T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 25,
-        "injuryTime": null,
+        "minute": 45,
+        "injuryTime": 2,
         "attendance": null,
         "venue": "Stadio Giuseppe Sinigaglia",
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-15T21:11:54Z",
+        "lastUpdated": "2026-01-15T21:33:54Z",
         "homeTeam": {
           "id": 7397,
           "name": "Como 1907",
@@ -403519,11 +403538,11 @@
           ]
         },
         "score": {
-          "winner": "HOME_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
             "home": 1,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
@@ -403551,9 +403570,39 @@
               "home": 1,
               "away": 0
             }
+          },
+          {
+            "minute": 45,
+            "injuryTime": 1,
+            "type": "PENALTY",
+            "team": {
+              "id": 98,
+              "name": "AC Milan"
+            },
+            "scorer": {
+              "id": 8484,
+              "name": "Christopher Nkunku"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
+              "away": 1
+            }
           }
         ],
-        "penalties": [],
+        "penalties": [
+          {
+            "player": {
+              "id": 8484,
+              "name": "Christopher Nkunku"
+            },
+            "team": {
+              "id": 98,
+              "name": "AC Milan"
+            },
+            "scored": true
+          }
+        ],
         "bookings": [],
         "substitutions": [],
         "odds": {
