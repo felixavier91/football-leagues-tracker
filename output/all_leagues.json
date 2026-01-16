@@ -203342,14 +203342,14 @@
         "id": 544404,
         "utcDate": "2026-01-16T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 86,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 4,
         "attendance": 28451,
         "venue": "Stage Front Stadium",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-16T22:49:26Z",
+        "lastUpdated": "2026-01-16T22:58:36Z",
         "homeTeam": {
           "id": 80,
           "name": "RCD Espanyol de Barcelona",
@@ -203643,7 +203643,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 0,
@@ -203668,6 +203668,24 @@
               "home": 0,
               "away": 1
             }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 3,
+            "type": "PENALTY",
+            "team": {
+              "id": 298,
+              "name": "Girona FC"
+            },
+            "scorer": {
+              "id": 160819,
+              "name": "Vladyslav Vanat"
+            },
+            "assist": null,
+            "score": {
+              "home": 0,
+              "away": 2
+            }
           }
         ],
         "penalties": [
@@ -203681,6 +203699,17 @@
               "name": "Girona FC"
             },
             "scored": false
+          },
+          {
+            "player": {
+              "id": 160819,
+              "name": "Vladyslav Vanat"
+            },
+            "team": {
+              "id": 298,
+              "name": "Girona FC"
+            },
+            "scored": true
           },
           {
             "player": {
@@ -203776,6 +203805,42 @@
             "player": {
               "id": 215544,
               "name": "Antoniu Roca"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 87,
+            "team": {
+              "id": 298,
+              "name": "Girona FC"
+            },
+            "player": {
+              "id": 32123,
+              "name": "Alex Moreno"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 89,
+            "team": {
+              "id": 80,
+              "name": "RCD Espanyol de Barcelona"
+            },
+            "player": {
+              "id": 186564,
+              "name": "Carlos Romero"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 89,
+            "team": {
+              "id": 298,
+              "name": "Girona FC"
+            },
+            "player": {
+              "id": 160819,
+              "name": "Vladyslav Vanat"
             },
             "card": "YELLOW"
           }
@@ -492297,15 +492362,15 @@
         },
         "id": 542563,
         "utcDate": "2026-01-16T20:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 2,
+        "injuryTime": 5,
         "attendance": null,
         "venue": "Parc des Princes",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-16T22:49:51Z",
+        "lastUpdated": "2026-01-16T22:55:11Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -492580,7 +492645,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
+            "home": 3,
             "away": 0
           },
           "halfTime": {
@@ -492628,6 +492693,24 @@
             },
             "score": {
               "home": 2,
+              "away": 0
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 3,
+            "type": "REGULAR",
+            "team": {
+              "id": 524,
+              "name": "Paris Saint-Germain FC"
+            },
+            "scorer": {
+              "id": 172762,
+              "name": "Bradley Barcola"
+            },
+            "assist": null,
+            "score": {
+              "home": 3,
               "away": 0
             }
           }
@@ -576313,14 +576396,14 @@
         "id": 545853,
         "utcDate": "2026-01-16T20:15:00Z",
         "status": "IN_PLAY",
-        "minute": 72,
+        "minute": 82,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Jose Alvalade",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-16T22:49:56Z",
+        "lastUpdated": "2026-01-16T22:59:12Z",
         "homeTeam": {
           "id": 498,
           "name": "Sporting Clube de Portugal",
@@ -576601,7 +576684,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
+            "home": 3,
             "away": 0
           },
           "halfTime": {
@@ -576649,6 +576732,27 @@
             },
             "score": {
               "home": 2,
+              "away": 0
+            }
+          },
+          {
+            "minute": 78,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 498,
+              "name": "Sporting Clube de Portugal"
+            },
+            "scorer": {
+              "id": 102336,
+              "name": "Daniel Bragança"
+            },
+            "assist": {
+              "id": 32386,
+              "name": "Luis Suárez"
+            },
+            "score": {
+              "home": 3,
               "away": 0
             }
           }

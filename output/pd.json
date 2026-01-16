@@ -92033,14 +92033,14 @@
       "id": 544404,
       "utcDate": "2026-01-16T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 86,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": 28451,
       "venue": "Stage Front Stadium",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-16T22:49:26Z",
+      "lastUpdated": "2026-01-16T22:58:36Z",
       "homeTeam": {
         "id": 80,
         "name": "RCD Espanyol de Barcelona",
@@ -92334,7 +92334,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -92359,6 +92359,24 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 3,
+          "type": "PENALTY",
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scorer": {
+            "id": 160819,
+            "name": "Vladyslav Vanat"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -92372,6 +92390,17 @@
             "name": "Girona FC"
           },
           "scored": false
+        },
+        {
+          "player": {
+            "id": 160819,
+            "name": "Vladyslav Vanat"
+          },
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scored": true
         },
         {
           "player": {
@@ -92467,6 +92496,42 @@
           "player": {
             "id": 215544,
             "name": "Antoniu Roca"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 87,
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "player": {
+            "id": 32123,
+            "name": "Alex Moreno"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 89,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 186564,
+            "name": "Carlos Romero"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 89,
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "player": {
+            "id": 160819,
+            "name": "Vladyslav Vanat"
           },
           "card": "YELLOW"
         }
