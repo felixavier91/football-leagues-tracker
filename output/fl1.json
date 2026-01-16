@@ -71075,14 +71075,14 @@
       "id": 542559,
       "utcDate": "2026-01-16T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 67,
+      "minute": 79,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Louis II",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-16T20:25:16Z",
+      "lastUpdated": "2026-01-16T20:36:31Z",
       "homeTeam": {
         "id": 548,
         "name": "AS Monaco FC",
@@ -71357,17 +71357,70 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 68,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "scorer": {
+            "id": 166640,
+            "name": "Ahmadou Bamba Dieng"
+          },
+          "assist": {
+            "id": 179596,
+            "name": "Bamo Meité"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 76,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "scorer": {
+            "id": 128040,
+            "name": "Ansu Fati"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 70,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "player": {
+            "id": 6687,
+            "name": "Denis Zakaria"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

@@ -70845,15 +70845,15 @@
       },
       "id": 540560,
       "utcDate": "2026-01-16T19:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 4,
       "injuryTime": null,
       "attendance": null,
       "venue": "Wohninvest Weserstadion",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-16T19:15:53Z",
+      "lastUpdated": "2026-01-16T20:36:17Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -71131,18 +71131,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 1,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "scorer": {
+            "id": 130668,
+            "name": "Arnaud Kalimuendo"
+          },
+          "assist": {
+            "id": 184533,
+            "name": "Nathaniel Brown"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
