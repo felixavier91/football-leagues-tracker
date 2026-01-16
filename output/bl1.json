@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 150
+    "played": 151
   },
   "competition": {
     "id": 2002,
@@ -70845,15 +70845,15 @@
       },
       "id": 540560,
       "utcDate": "2026-01-16T19:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 6,
       "attendance": 41800,
       "venue": "Wohninvest Weserstadion",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-16T22:25:16Z",
+      "lastUpdated": "2026-01-16T22:33:12Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -71131,11 +71131,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 3,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": 1,
@@ -71247,6 +71247,27 @@
             "home": 3,
             "away": 2
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "REGULAR",
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "scorer": {
+            "id": 150860,
+            "name": "Ansgar Knauff"
+          },
+          "assist": {
+            "id": 261438,
+            "name": "Ayoube Amaimouni-Echghouyab"
+          },
+          "score": {
+            "home": 3,
+            "away": 3
+          }
         }
       ],
       "penalties": [],
@@ -71296,6 +71317,18 @@
           "player": {
             "id": 261438,
             "name": "Ayoube Amaimouni-Echghouyab"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "player": {
+            "id": 184533,
+            "name": "Nathaniel Brown"
           },
           "card": "YELLOW"
         }

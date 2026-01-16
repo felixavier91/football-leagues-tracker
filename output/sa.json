@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-23",
     "last": "2026-05-24",
-    "played": 200
+    "played": 201
   },
   "competition": {
     "id": 2019,
@@ -99191,15 +99191,15 @@
       },
       "id": 537021,
       "utcDate": "2026-01-16T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 85,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Stadio Romeo Anconetani",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-16T22:25:21Z",
+      "lastUpdated": "2026-01-16T22:37:52Z",
       "homeTeam": {
         "id": 487,
         "name": "AC Pisa 1909",
@@ -99507,10 +99507,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -99531,9 +99531,33 @@
             "id": 120679,
             "name": "Nikola Krstović"
           },
-          "assist": null,
+          "assist": {
+            "id": 142140,
+            "name": "Kamal Deen Sulemana"
+          },
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 87,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 487,
+            "name": "AC Pisa 1909"
+          },
+          "scorer": {
+            "id": 216210,
+            "name": "Rafiu Durosinmi"
+          },
+          "assist": {
+            "id": 1956,
+            "name": "Mehdi Leris"
+          },
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
