@@ -99192,14 +99192,14 @@
       "id": 537021,
       "utcDate": "2026-01-16T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 50,
+      "minute": 85,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Romeo Anconetani",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-16T21:50:52Z",
+      "lastUpdated": "2026-01-16T22:25:21Z",
       "homeTeam": {
         "id": 487,
         "name": "AC Pisa 1909",
@@ -99305,6 +99305,12 @@
             "name": "Tomás Esteves",
             "position": "Defence",
             "shirtNumber": 19
+          },
+          {
+            "id": 260722,
+            "name": "Rosen Bozhinov",
+            "position": "Defence",
+            "shirtNumber": 2
           },
           {
             "id": 286825,
@@ -99451,6 +99457,12 @@
             "shirtNumber": 13
           },
           {
+            "id": 114117,
+            "name": "Giacomo Raspadori",
+            "position": "Offence",
+            "shirtNumber": 18
+          },
+          {
             "id": 7807,
             "name": "Davide Zappacosta",
             "position": "Right Midfield",
@@ -99495,18 +99507,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 83,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "scorer": {
+            "id": 120679,
+            "name": "Nikola Krstović"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -99518,6 +99549,30 @@
           "player": {
             "id": 3553,
             "name": "Mario Pašalić"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 66,
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "player": {
+            "id": 153990,
+            "name": "Giorgio Scalvini"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 81,
+          "team": {
+            "id": 487,
+            "name": "AC Pisa 1909"
+          },
+          "player": {
+            "id": 206658,
+            "name": "Francesco Coppola"
           },
           "card": "YELLOW"
         }

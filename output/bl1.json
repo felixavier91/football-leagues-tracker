@@ -70846,14 +70846,14 @@
       "id": 540560,
       "utcDate": "2026-01-16T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 56,
+      "minute": 90,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 41800,
       "venue": "Wohninvest Weserstadion",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-16T21:50:42Z",
+      "lastUpdated": "2026-01-16T22:25:16Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -71131,11 +71131,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 1
+          "home": 3,
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -71184,6 +71184,69 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 56,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "scorer": {
+            "id": 171714,
+            "name": "Nnamdi Collins"
+          },
+          "assist": {
+            "id": 178658,
+            "name": "Fares Chaïbi"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 78,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen"
+          },
+          "scorer": {
+            "id": 23925,
+            "name": "Jens Stage"
+          },
+          "assist": {
+            "id": 217678,
+            "name": "Samuel Mbangula"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
+        },
+        {
+          "minute": 80,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen"
+          },
+          "scorer": {
+            "id": 212853,
+            "name": "Jovan Milošević"
+          },
+          "assist": {
+            "id": 16346,
+            "name": "Romano Schmid"
+          },
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -71197,6 +71260,42 @@
           "player": {
             "id": 16346,
             "name": "Romano Schmid"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 66,
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "player": {
+            "id": 145893,
+            "name": "Arthur Theate"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 78,
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "player": {
+            "id": 7531,
+            "name": "Ritsu Doan"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 85,
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "player": {
+            "id": 261438,
+            "name": "Ayoube Amaimouni-Echghouyab"
           },
           "card": "YELLOW"
         }

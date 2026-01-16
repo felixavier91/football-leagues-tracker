@@ -203342,14 +203342,14 @@
         "id": 544404,
         "utcDate": "2026-01-16T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 45,
-        "injuryTime": 3,
+        "minute": 62,
+        "injuryTime": null,
         "attendance": null,
         "venue": "Stage Front Stadium",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-16T21:50:38Z",
+        "lastUpdated": "2026-01-16T22:25:07Z",
         "homeTeam": {
           "id": 80,
           "name": "RCD Espanyol de Barcelona",
@@ -203646,8 +203646,8 @@
             "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "goals": [
@@ -291213,14 +291213,14 @@
         "id": 540560,
         "utcDate": "2026-01-16T19:30:00Z",
         "status": "IN_PLAY",
-        "minute": 56,
+        "minute": 90,
         "injuryTime": null,
-        "attendance": null,
+        "attendance": 41800,
         "venue": "Wohninvest Weserstadion",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-16T21:50:42Z",
+        "lastUpdated": "2026-01-16T22:25:16Z",
         "homeTeam": {
           "id": 12,
           "name": "SV Werder Bremen",
@@ -291498,11 +291498,11 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
-            "away": 1
+            "home": 3,
+            "away": 2
           },
           "halfTime": {
             "home": 1,
@@ -291551,6 +291551,69 @@
               "home": 1,
               "away": 1
             }
+          },
+          {
+            "minute": 56,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 19,
+              "name": "Eintracht Frankfurt"
+            },
+            "scorer": {
+              "id": 171714,
+              "name": "Nnamdi Collins"
+            },
+            "assist": {
+              "id": 178658,
+              "name": "Fares Chaïbi"
+            },
+            "score": {
+              "home": 1,
+              "away": 2
+            }
+          },
+          {
+            "minute": 78,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 12,
+              "name": "SV Werder Bremen"
+            },
+            "scorer": {
+              "id": 23925,
+              "name": "Jens Stage"
+            },
+            "assist": {
+              "id": 217678,
+              "name": "Samuel Mbangula"
+            },
+            "score": {
+              "home": 2,
+              "away": 2
+            }
+          },
+          {
+            "minute": 80,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 12,
+              "name": "SV Werder Bremen"
+            },
+            "scorer": {
+              "id": 212853,
+              "name": "Jovan Milošević"
+            },
+            "assist": {
+              "id": 16346,
+              "name": "Romano Schmid"
+            },
+            "score": {
+              "home": 3,
+              "away": 2
+            }
           }
         ],
         "penalties": [],
@@ -291564,6 +291627,42 @@
             "player": {
               "id": 16346,
               "name": "Romano Schmid"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 66,
+            "team": {
+              "id": 19,
+              "name": "Eintracht Frankfurt"
+            },
+            "player": {
+              "id": 145893,
+              "name": "Arthur Theate"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 78,
+            "team": {
+              "id": 19,
+              "name": "Eintracht Frankfurt"
+            },
+            "player": {
+              "id": 7531,
+              "name": "Ritsu Doan"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 85,
+            "team": {
+              "id": 19,
+              "name": "Eintracht Frankfurt"
+            },
+            "player": {
+              "id": 261438,
+              "name": "Ayoube Amaimouni-Echghouyab"
             },
             "card": "YELLOW"
           }
@@ -404415,14 +404514,14 @@
         "id": 537021,
         "utcDate": "2026-01-16T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 50,
+        "minute": 85,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Romeo Anconetani",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-16T21:50:52Z",
+        "lastUpdated": "2026-01-16T22:25:21Z",
         "homeTeam": {
           "id": 487,
           "name": "AC Pisa 1909",
@@ -404528,6 +404627,12 @@
               "name": "Tomás Esteves",
               "position": "Defence",
               "shirtNumber": 19
+            },
+            {
+              "id": 260722,
+              "name": "Rosen Bozhinov",
+              "position": "Defence",
+              "shirtNumber": 2
             },
             {
               "id": 286825,
@@ -404674,6 +404779,12 @@
               "shirtNumber": 13
             },
             {
+              "id": 114117,
+              "name": "Giacomo Raspadori",
+              "position": "Offence",
+              "shirtNumber": 18
+            },
+            {
               "id": 7807,
               "name": "Davide Zappacosta",
               "position": "Right Midfield",
@@ -404718,18 +404829,37 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 0,
             "away": 0
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 83,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 102,
+              "name": "Atalanta BC"
+            },
+            "scorer": {
+              "id": 120679,
+              "name": "Nikola Krstović"
+            },
+            "assist": null,
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [
           {
@@ -404741,6 +404871,30 @@
             "player": {
               "id": 3553,
               "name": "Mario Pašalić"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 66,
+            "team": {
+              "id": 102,
+              "name": "Atalanta BC"
+            },
+            "player": {
+              "id": 153990,
+              "name": "Giorgio Scalvini"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 81,
+            "team": {
+              "id": 487,
+              "name": "AC Pisa 1909"
+            },
+            "player": {
+              "id": 206658,
+              "name": "Francesco Coppola"
             },
             "card": "YELLOW"
           }
@@ -492026,15 +492180,15 @@
         },
         "id": 542563,
         "utcDate": "2026-01-16T20:00:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 68,
         "injuryTime": null,
         "attendance": null,
         "venue": "Parc des Princes",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-16T21:50:57Z",
+        "lastUpdated": "2026-01-16T22:25:32Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -492309,7 +492463,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
@@ -492338,10 +492492,44 @@
               "home": 1,
               "away": 0
             }
+          },
+          {
+            "minute": 64,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 524,
+              "name": "Paris Saint-Germain FC"
+            },
+            "scorer": {
+              "id": 3373,
+              "name": "Ousmane Dembélé"
+            },
+            "assist": {
+              "id": 177522,
+              "name": "Desire Doue"
+            },
+            "score": {
+              "home": 2,
+              "away": 0
+            }
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 62,
+            "team": {
+              "id": 521,
+              "name": "Lille OSC"
+            },
+            "player": {
+              "id": 213221,
+              "name": "Hákon Haraldsson"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -576008,14 +576196,14 @@
         "id": 545853,
         "utcDate": "2026-01-16T20:15:00Z",
         "status": "IN_PLAY",
-        "minute": 34,
+        "minute": 48,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Jose Alvalade",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-16T21:51:08Z",
+        "lastUpdated": "2026-01-16T22:25:37Z",
         "homeTeam": {
           "id": 498,
           "name": "Sporting Clube de Portugal",
@@ -576293,18 +576481,61 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 38,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 498,
+              "name": "Sporting Clube de Portugal"
+            },
+            "scorer": {
+              "id": 128825,
+              "name": "Geny Catamo"
+            },
+            "assist": {
+              "id": 37332,
+              "name": "Trincão"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          },
+          {
+            "minute": 43,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 498,
+              "name": "Sporting Clube de Portugal"
+            },
+            "scorer": {
+              "id": 128825,
+              "name": "Geny Catamo"
+            },
+            "assist": {
+              "id": 145357,
+              "name": "Gonçalo Inácio"
+            },
+            "score": {
+              "home": 2,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [
           {
