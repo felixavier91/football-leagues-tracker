@@ -203342,14 +203342,14 @@
         "id": 544404,
         "utcDate": "2026-01-16T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 37,
-        "injuryTime": null,
+        "minute": 45,
+        "injuryTime": 3,
         "attendance": null,
         "venue": "Stage Front Stadium",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-16T21:39:37Z",
+        "lastUpdated": "2026-01-16T21:50:38Z",
         "homeTeam": {
           "id": 80,
           "name": "RCD Espanyol de Barcelona",
@@ -203639,19 +203639,61 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
-        "penalties": [],
+        "goals": [
+          {
+            "minute": 45,
+            "injuryTime": 3,
+            "type": "PENALTY",
+            "team": {
+              "id": 298,
+              "name": "Girona FC"
+            },
+            "scorer": {
+              "id": 160819,
+              "name": "Vladyslav Vanat"
+            },
+            "assist": null,
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
+        "penalties": [
+          {
+            "player": {
+              "id": 160819,
+              "name": "Vladyslav Vanat"
+            },
+            "team": {
+              "id": 298,
+              "name": "Girona FC"
+            },
+            "scored": false
+          },
+          {
+            "player": {
+              "id": 160819,
+              "name": "Vladyslav Vanat"
+            },
+            "team": {
+              "id": 298,
+              "name": "Girona FC"
+            },
+            "scored": true
+          }
+        ],
         "bookings": [
           {
             "minute": 31,
@@ -203662,6 +203704,18 @@
             "player": {
               "id": 151744,
               "name": "Arnau Martinez"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 45,
+            "team": {
+              "id": 80,
+              "name": "RCD Espanyol de Barcelona"
+            },
+            "player": {
+              "id": 154714,
+              "name": "Omar El Hilali"
             },
             "card": "YELLOW"
           }
@@ -291158,15 +291212,15 @@
         },
         "id": 540560,
         "utcDate": "2026-01-16T19:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 56,
         "injuryTime": null,
         "attendance": null,
         "venue": "Wohninvest Weserstadion",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-16T21:39:47Z",
+        "lastUpdated": "2026-01-16T21:50:42Z",
         "homeTeam": {
           "id": 12,
           "name": "SV Werder Bremen",
@@ -291500,7 +291554,20 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 52,
+            "team": {
+              "id": 12,
+              "name": "SV Werder Bremen"
+            },
+            "player": {
+              "id": 16346,
+              "name": "Romano Schmid"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -404347,15 +404414,15 @@
         },
         "id": 537021,
         "utcDate": "2026-01-16T19:45:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 50,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Romeo Anconetani",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-16T21:39:59Z",
+        "lastUpdated": "2026-01-16T21:50:52Z",
         "homeTeam": {
           "id": 487,
           "name": "AC Pisa 1909",
@@ -491959,15 +492026,15 @@
         },
         "id": 542563,
         "utcDate": "2026-01-16T20:00:00Z",
-        "status": "IN_PLAY",
-        "minute": 40,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Parc des Princes",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-16T21:40:17Z",
+        "lastUpdated": "2026-01-16T21:50:57Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -492246,8 +492313,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "goals": [
@@ -575941,14 +576008,14 @@
         "id": 545853,
         "utcDate": "2026-01-16T20:15:00Z",
         "status": "IN_PLAY",
-        "minute": 23,
+        "minute": 34,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Jose Alvalade",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-16T21:40:28Z",
+        "lastUpdated": "2026-01-16T21:51:08Z",
         "homeTeam": {
           "id": 498,
           "name": "Sporting Clube de Portugal",

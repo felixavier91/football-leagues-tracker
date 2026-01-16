@@ -92033,14 +92033,14 @@
       "id": 544404,
       "utcDate": "2026-01-16T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 37,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Stage Front Stadium",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-16T21:39:37Z",
+      "lastUpdated": "2026-01-16T21:50:38Z",
       "homeTeam": {
         "id": 80,
         "name": "RCD Espanyol de Barcelona",
@@ -92330,19 +92330,61 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": 3,
+          "type": "PENALTY",
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scorer": {
+            "id": 160819,
+            "name": "Vladyslav Vanat"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 160819,
+            "name": "Vladyslav Vanat"
+          },
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scored": false
+        },
+        {
+          "player": {
+            "id": 160819,
+            "name": "Vladyslav Vanat"
+          },
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 31,
@@ -92353,6 +92395,18 @@
           "player": {
             "id": 151744,
             "name": "Arnau Martinez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 154714,
+            "name": "Omar El Hilali"
           },
           "card": "YELLOW"
         }
