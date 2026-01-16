@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 153
+    "played": 154
   },
   "competition": {
     "id": 2015,
@@ -71074,15 +71074,15 @@
       },
       "id": 542559,
       "utcDate": "2026-01-16T18:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 7,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Stade Louis II",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-16T20:55:51Z",
+      "lastUpdated": "2026-01-16T20:56:21Z",
       "homeTeam": {
         "id": 548,
         "name": "AS Monaco FC",
@@ -71514,15 +71514,15 @@
       },
       "id": 542563,
       "utcDate": "2026-01-16T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 26,
       "injuryTime": null,
       "attendance": null,
       "venue": "Parc des Princes",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-16T20:04:00Z",
+      "lastUpdated": "2026-01-16T21:26:38Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -71667,7 +71667,7 @@
           "nationality": null
         },
         "leagueRank": 4,
-        "formation": "4-2-3-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 29890,
@@ -71794,18 +71794,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 13,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 3373,
+            "name": "Ousmane Dembélé"
+          },
+          "assist": {
+            "id": 178722,
+            "name": "Vitinha"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
