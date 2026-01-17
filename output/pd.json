@@ -93063,15 +93063,15 @@
       },
       "id": 544408,
       "utcDate": "2026-01-17T15:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 14,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadi Mallorca Son Moix",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T15:24:05Z",
+      "lastUpdated": "2026-01-17T16:30:28Z",
       "homeTeam": {
         "id": 89,
         "name": "RCD Mallorca",
@@ -93379,18 +93379,61 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 5,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "scorer": {
+            "id": 30059,
+            "name": "Vedat Muriqi"
+          },
+          "assist": {
+            "id": 32717,
+            "name": "Sergi Darder"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 8,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "scorer": {
+            "id": 202335,
+            "name": "Unai Gomez"
+          },
+          "assist": {
+            "id": 81565,
+            "name": "Gorka Guruzeta"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -93504,7 +93547,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 214410,
+          "name": "Alejandro Quintero González",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        },
+        {
+          "id": 215560,
+          "name": "Álvaro Granel Peiró",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 220670,
+          "name": "José Francisco García Lozano",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
