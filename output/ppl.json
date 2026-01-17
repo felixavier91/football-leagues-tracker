@@ -70815,14 +70815,14 @@
       "id": 545859,
       "utcDate": "2026-01-17T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 49,
+      "minute": 65,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Cidade de Barcelos",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T17:41:16Z",
+      "lastUpdated": "2026-01-17T17:56:36Z",
       "homeTeam": {
         "id": 5533,
         "name": "Gil Vicente FC",
@@ -71100,10 +71100,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -71153,10 +71153,41 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 57,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "scorer": {
+            "id": 180125,
+            "name": "Santi García"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 62,
+          "team": {
+            "id": 5529,
+            "name": "CD Nacional"
+          },
+          "player": {
+            "id": 169258,
+            "name": "Paulinho Bóia"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -71323,7 +71354,7 @@
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-12T01:32:01Z",
+      "lastUpdated": "2026-01-17T17:55:58Z",
       "homeTeam": {
         "id": 7822,
         "name": "FC Alverca",
@@ -71336,7 +71367,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 11,
-        "formation": null,
+        "formation": "3-4-3",
         "lineup": [],
         "bench": []
       },
@@ -71352,7 +71383,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 6,
-        "formation": null,
+        "formation": "4-3-3",
         "lineup": [],
         "bench": []
       },

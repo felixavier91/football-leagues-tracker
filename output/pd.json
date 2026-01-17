@@ -93064,14 +93064,14 @@
       "id": 544408,
       "utcDate": "2026-01-17T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 61,
+      "minute": 76,
       "injuryTime": null,
       "attendance": 14284,
       "venue": "Estadi Mallorca Son Moix",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T17:40:30Z",
+      "lastUpdated": "2026-01-17T17:55:29Z",
       "homeTeam": {
         "id": 89,
         "name": "RCD Mallorca",
@@ -93379,10 +93379,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 2
         },
         "halfTime": {
@@ -93471,6 +93471,24 @@
             "home": 2,
             "away": 2
           }
+        },
+        {
+          "minute": 69,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "scorer": {
+            "id": 30059,
+            "name": "Vedat Muriqi"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -93484,6 +93502,17 @@
             "name": "RCD Mallorca"
           },
           "scored": false
+        },
+        {
+          "player": {
+            "id": 30059,
+            "name": "Vedat Muriqi"
+          },
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "scored": true
         }
       ],
       "bookings": [
@@ -93544,6 +93573,66 @@
           "player": {
             "id": 32481,
             "name": "Ruiz de Galarreta"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 70,
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "player": {
+            "id": 81565,
+            "name": "Gorka Guruzeta"
+          },
+          "card": "YELLOW_RED"
+        },
+        {
+          "minute": 71,
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "player": {
+            "id": 202335,
+            "name": "Unai Gomez"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 72,
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "player": {
+            "id": 246633,
+            "name": "Adama Boiro"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 72,
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "player": {
+            "id": 32581,
+            "name": "Iñigo Lekue"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 73,
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "player": {
+            "id": 126878,
+            "name": "Oihan Sancet"
           },
           "card": "YELLOW"
         }
