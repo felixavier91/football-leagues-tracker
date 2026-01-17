@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 193
+    "played": 194
   },
   "competition": {
     "id": 2014,
@@ -94262,15 +94262,15 @@
       },
       "id": 544401,
       "utcDate": "2026-01-17T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 80,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": 60138,
       "venue": "Estadio de La Cartuja",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T22:39:46Z",
+      "lastUpdated": "2026-01-17T22:57:12Z",
       "homeTeam": {
         "id": 90,
         "name": "Real Betis Balompié",
@@ -94551,7 +94551,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -94575,6 +94575,27 @@
           "assist": null,
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 83,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié"
+          },
+          "scorer": {
+            "id": 33117,
+            "name": "Pablo Fornals"
+          },
+          "assist": {
+            "id": 97085,
+            "name": "Antony"
+          },
+          "score": {
+            "home": 2,
             "away": 0
           }
         }
@@ -94638,6 +94659,30 @@
           "player": {
             "id": 212858,
             "name": "Santiago Mouriño"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 86,
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié"
+          },
+          "player": {
+            "id": 33038,
+            "name": "Bartra"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié"
+          },
+          "player": {
+            "id": 128731,
+            "name": "Rodrigo Riquelme"
           },
           "card": "YELLOW"
         }

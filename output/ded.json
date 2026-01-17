@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 164
+    "played": 165
   },
   "competition": {
     "id": 2003,
@@ -80522,15 +80522,15 @@
       },
       "id": 537609,
       "utcDate": "2026-01-17T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 74,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": 20109,
       "venue": "Rat Verlegh",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T22:40:36Z",
+      "lastUpdated": "2026-01-17T23:04:31Z",
       "homeTeam": {
         "id": 681,
         "name": "NAC Breda",
@@ -80835,8 +80835,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
-          "away": 3
+          "home": 3,
+          "away": 4
         },
         "halfTime": {
           "home": 1,
@@ -80945,6 +80945,48 @@
             "home": 2,
             "away": 3
           }
+        },
+        {
+          "minute": 81,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 681,
+            "name": "NAC Breda"
+          },
+          "scorer": {
+            "id": 67887,
+            "name": "Boy Kemper"
+          },
+          "assist": {
+            "id": 6526,
+            "name": "Lewis Holtby"
+          },
+          "score": {
+            "home": 3,
+            "away": 3
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "REGULAR",
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "scorer": {
+            "id": 217935,
+            "name": "Kodai Sano"
+          },
+          "assist": {
+            "id": 182241,
+            "name": "Noe Lebreton"
+          },
+          "score": {
+            "home": 3,
+            "away": 4
+          }
         }
       ],
       "penalties": [],
@@ -80970,6 +81012,18 @@
           "player": {
             "id": 181154,
             "name": "Max Balard"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 87,
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "player": {
+            "id": 131178,
+            "name": "Dirk Proper"
           },
           "card": "YELLOW"
         }
