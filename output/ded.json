@@ -78580,14 +78580,14 @@
       "id": 537603,
       "utcDate": "2026-01-17T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 67,
+      "minute": 79,
       "injuryTime": null,
       "attendance": null,
       "venue": "Johan Cruijff ArenA",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T17:56:35Z",
+      "lastUpdated": "2026-01-17T18:08:35Z",
       "homeTeam": {
         "id": 678,
         "name": "AFC Ajax",
@@ -78901,11 +78901,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 2,
@@ -78975,6 +78975,27 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 66,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 718,
+            "name": "Go Ahead Eagles"
+          },
+          "scorer": {
+            "id": 178570,
+            "name": "Milan Smit"
+          },
+          "assist": {
+            "id": 144367,
+            "name": "Jakob Breum"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -79012,6 +79033,30 @@
           "player": {
             "id": 7682,
             "name": "Joris Kramer"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 72,
+          "team": {
+            "id": 718,
+            "name": "Go Ahead Eagles"
+          },
+          "player": {
+            "id": 7303,
+            "name": "Evert Linthorst"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 77,
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "player": {
+            "id": 184716,
+            "name": "Anton Gaaei"
           },
           "card": "YELLOW"
         }
@@ -79496,7 +79541,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56905,
+          "name": "Bas Nijhuis",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 56915,
+          "name": "Richard Polman",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 17138,
+          "name": "Don Frijn",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
@@ -79584,7 +79648,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56912,
+          "name": "Jeroen Manschot",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 56927,
+          "name": "Freek Vandeursen",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 43717,
+          "name": "Richard Brondijk",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
