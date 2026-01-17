@@ -71263,15 +71263,15 @@
       },
       "id": 545856,
       "utcDate": "2026-01-17T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 10,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio do CD Aves",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T18:03:55Z",
+      "lastUpdated": "2026-01-17T19:13:12Z",
       "homeTeam": {
         "id": 10340,
         "name": "AVS",
@@ -71284,7 +71284,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 18,
-        "formation": "3-4-3",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 168959,
@@ -71549,11 +71549,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -71562,7 +71562,32 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 5,
+          "team": {
+            "id": 10340,
+            "name": "AVS"
+          },
+          "player": {
+            "id": 290394,
+            "name": "Christian Devenish"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 10,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 214415,
+            "name": "Espen van Ee"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -71614,15 +71639,15 @@
       },
       "id": 545858,
       "utcDate": "2026-01-17T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 10,
       "injuryTime": null,
       "attendance": null,
       "venue": "Centro de Formação do FC Alverca",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T18:08:09Z",
+      "lastUpdated": "2026-01-17T19:13:13Z",
       "homeTeam": {
         "id": 7822,
         "name": "FC Alverca",
@@ -71773,7 +71798,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 6,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 52791,
@@ -71900,11 +71925,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,

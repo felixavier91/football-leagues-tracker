@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 155
+    "played": 156
   },
   "competition": {
     "id": 2015,
@@ -71933,15 +71933,15 @@
       },
       "id": 542565,
       "utcDate": "2026-01-17T16:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Stade Bollaert-Delelis",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T18:47:56Z",
+      "lastUpdated": "2026-01-17T18:55:47Z",
       "homeTeam": {
         "id": 546,
         "name": "Racing Club de Lens",
@@ -72326,6 +72326,18 @@
             "name": "Morgan Guilavogui"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 519,
+            "name": "AJ Auxerre"
+          },
+          "player": {
+            "id": 3631,
+            "name": "Assane Dioussé"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -72379,15 +72391,15 @@
       },
       "id": 542561,
       "utcDate": "2026-01-17T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 12,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadium de Toulouse",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T18:29:50Z",
+      "lastUpdated": "2026-01-17T19:13:03Z",
       "homeTeam": {
         "id": 511,
         "name": "Toulouse FC",
@@ -72538,7 +72550,7 @@
           "nationality": "France"
         },
         "leagueRank": 14,
-        "formation": "4-1-4-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 8686,
@@ -72665,18 +72677,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 7,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "scorer": {
+            "id": 191371,
+            "name": "Santiago Hidalgo"
+          },
+          "assist": {
+            "id": 192688,
+            "name": "Aron Dönnum"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -72790,7 +72824,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43886,
+          "name": "Ruddy Buquet",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 57056,
+          "name": "Christophe Mouysset",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 57061,
+          "name": "François Boudikian",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
