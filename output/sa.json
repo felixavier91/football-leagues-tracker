@@ -100093,14 +100093,14 @@
       "id": 537022,
       "utcDate": "2026-01-17T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 6,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Diego Armando Maradona",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T18:08:08Z",
+      "lastUpdated": "2026-01-17T18:22:27Z",
       "homeTeam": {
         "id": 113,
         "name": "SSC Napoli",
@@ -100414,10 +100414,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -100425,7 +100425,26 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 7,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "scorer": {
+            "id": 33628,
+            "name": "Stanislav Lobotka"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
