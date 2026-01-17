@@ -100535,15 +100535,15 @@
       },
       "id": 537016,
       "utcDate": "2026-01-17T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 23,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Unipol Domus",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T21:09:42Z",
+      "lastUpdated": "2026-01-17T21:39:31Z",
       "homeTeam": {
         "id": 104,
         "name": "Cagliari Calcio",
@@ -100864,13 +100864,26 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 31,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "player": {
+            "id": 191712,
+            "name": "Kenan Yıldız"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
