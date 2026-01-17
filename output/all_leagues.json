@@ -96841,14 +96841,14 @@
         "id": 537995,
         "utcDate": "2026-01-17T15:00:00Z",
         "status": "IN_PLAY",
-        "minute": 30,
+        "minute": 41,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadium of Light",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T16:29:59Z",
+        "lastUpdated": "2026-01-17T16:41:40Z",
         "homeTeam": {
           "id": 71,
           "name": "Sunderland AFC",
@@ -97135,8 +97135,8 @@
           "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
-            "away": 0
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
             "home": null,
@@ -97161,6 +97161,27 @@
               "home": 0,
               "away": 1
             }
+          },
+          {
+            "minute": 33,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 71,
+              "name": "Sunderland AFC"
+            },
+            "scorer": {
+              "id": 99664,
+              "name": "Enzo Le Fée"
+            },
+            "assist": {
+              "id": 8371,
+              "name": "Nordi Mukiele"
+            },
+            "score": {
+              "home": 1,
+              "away": 1
+            }
           }
         ],
         "penalties": [],
@@ -97174,6 +97195,18 @@
             "player": {
               "id": 99856,
               "name": "Chris Richards"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 36,
+            "team": {
+              "id": 354,
+              "name": "Crystal Palace FC"
+            },
+            "player": {
+              "id": 180389,
+              "name": "Adam Wharton"
             },
             "card": "YELLOW"
           }
@@ -97230,14 +97263,14 @@
         "id": 537998,
         "utcDate": "2026-01-17T15:00:00Z",
         "status": "IN_PLAY",
-        "minute": 29,
+        "minute": 41,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stamford Bridge",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T16:30:00Z",
+        "lastUpdated": "2026-01-17T16:41:41Z",
         "homeTeam": {
           "id": 61,
           "name": "Chelsea FC",
@@ -97550,7 +97583,20 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 36,
+            "team": {
+              "id": 402,
+              "name": "Brentford FC"
+            },
+            "player": {
+              "id": 123286,
+              "name": "Kevin Schade"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -97603,14 +97649,14 @@
         "id": 537999,
         "utcDate": "2026-01-17T15:00:00Z",
         "status": "IN_PLAY",
-        "minute": 30,
+        "minute": 41,
         "injuryTime": null,
         "attendance": null,
         "venue": "Anfield",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T16:30:00Z",
+        "lastUpdated": "2026-01-17T16:41:41Z",
         "homeTeam": {
           "id": 64,
           "name": "Liverpool FC",
@@ -97900,8 +97946,33 @@
           }
         },
         "goals": [],
-        "penalties": [],
-        "bookings": [],
+        "penalties": [
+          {
+            "player": {
+              "id": 16347,
+              "name": "Dominik Szoboszlai"
+            },
+            "team": {
+              "id": 64,
+              "name": "Liverpool FC"
+            },
+            "scored": false
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 40,
+            "team": {
+              "id": 64,
+              "name": "Liverpool FC"
+            },
+            "player": {
+              "id": 171141,
+              "name": "Milos Kerkez"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -97954,14 +98025,14 @@
         "id": 538000,
         "utcDate": "2026-01-17T15:00:00Z",
         "status": "IN_PLAY",
-        "minute": 28,
+        "minute": 40,
         "injuryTime": null,
         "attendance": null,
         "venue": "Elland Road",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T16:30:00Z",
+        "lastUpdated": "2026-01-17T16:41:41Z",
         "homeTeam": {
           "id": 341,
           "name": "Leeds United FC",
@@ -98342,14 +98413,14 @@
         "id": 538003,
         "utcDate": "2026-01-17T15:00:00Z",
         "status": "IN_PLAY",
-        "minute": 30,
+        "minute": 41,
         "injuryTime": null,
         "attendance": null,
         "venue": "Tottenham Hotspur Stadium",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T16:30:01Z",
+        "lastUpdated": "2026-01-17T16:41:42Z",
         "homeTeam": {
           "id": 73,
           "name": "Tottenham Hotspur FC",
@@ -98684,6 +98755,18 @@
             "player": {
               "id": 7994,
               "name": "Ben Davies"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 39,
+            "team": {
+              "id": 73,
+              "name": "Tottenham Hotspur FC"
+            },
+            "player": {
+              "id": 177040,
+              "name": "Archie Gray"
             },
             "card": "YELLOW"
           }
@@ -206218,14 +206301,14 @@
         "id": 544408,
         "utcDate": "2026-01-17T15:15:00Z",
         "status": "IN_PLAY",
-        "minute": 14,
+        "minute": 25,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadi Mallorca Son Moix",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T16:30:28Z",
+        "lastUpdated": "2026-01-17T16:41:42Z",
         "homeTeam": {
           "id": 89,
           "name": "RCD Mallorca",
@@ -206589,7 +206672,20 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 18,
+            "team": {
+              "id": 89,
+              "name": "RCD Mallorca"
+            },
+            "player": {
+              "id": 2151,
+              "name": "Marash Kumbulla"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -294464,15 +294560,15 @@
         },
         "id": 540561,
         "utcDate": "2026-01-17T14:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 54,
         "injuryTime": null,
         "attendance": null,
         "venue": "PreZero Arena",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T16:30:37Z",
+        "lastUpdated": "2026-01-17T16:41:48Z",
         "homeTeam": {
           "id": 2,
           "name": "TSG 1899 Hoffenheim",
@@ -294782,7 +294878,20 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 48,
+            "team": {
+              "id": 2,
+              "name": "TSG 1899 Hoffenheim"
+            },
+            "player": {
+              "id": 76770,
+              "name": "Wouter Burger"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -294834,15 +294943,15 @@
         },
         "id": 540563,
         "utcDate": "2026-01-17T14:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 55,
         "injuryTime": null,
         "attendance": null,
         "venue": "RheinEnergieStadion",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T16:30:38Z",
+        "lastUpdated": "2026-01-17T16:41:49Z",
         "homeTeam": {
           "id": 1,
           "name": "1. FC Köln",
@@ -295232,15 +295341,15 @@
         },
         "id": 540564,
         "utcDate": "2026-01-17T14:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 54,
         "injuryTime": null,
         "attendance": null,
         "venue": "Volksparkstadion",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T16:30:38Z",
+        "lastUpdated": "2026-01-17T16:41:49Z",
         "homeTeam": {
           "id": 7,
           "name": "Hamburger SV",
@@ -295596,15 +295705,15 @@
         },
         "id": 540566,
         "utcDate": "2026-01-17T14:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 53,
         "injuryTime": null,
         "attendance": null,
         "venue": "Signal Iduna Park",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T16:30:38Z",
+        "lastUpdated": "2026-01-17T16:41:50Z",
         "homeTeam": {
           "id": 4,
           "name": "Borussia Dortmund",
@@ -296006,15 +296115,15 @@
         },
         "id": 540567,
         "utcDate": "2026-01-17T14:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 55,
         "injuryTime": null,
         "attendance": null,
         "venue": "Volkswagen Arena",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T16:30:38Z",
+        "lastUpdated": "2026-01-17T16:41:50Z",
         "homeTeam": {
           "id": 11,
           "name": "VfL Wolfsburg",
@@ -409249,14 +409358,14 @@
         "id": 537023,
         "utcDate": "2026-01-17T14:00:00Z",
         "status": "IN_PLAY",
-        "minute": 71,
+        "minute": 82,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Friuli",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T16:30:48Z",
+        "lastUpdated": "2026-01-17T16:42:17Z",
         "homeTeam": {
           "id": 115,
           "name": "Udinese Calcio",
@@ -409623,7 +409732,20 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 70,
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "player": {
+              "id": 167689,
+              "name": "Carlos Augusto Lobaton"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -581585,14 +581707,14 @@
         "id": 545859,
         "utcDate": "2026-01-17T15:30:00Z",
         "status": "IN_PLAY",
-        "minute": null,
+        "minute": 10,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estádio Cidade de Barcelos",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T16:31:08Z",
+        "lastUpdated": "2026-01-17T16:42:21Z",
         "homeTeam": {
           "id": 5533,
           "name": "Gil Vicente FC",
@@ -673767,14 +673889,14 @@
         "id": 537603,
         "utcDate": "2026-01-17T15:30:00Z",
         "status": "IN_PLAY",
-        "minute": null,
+        "minute": 11,
         "injuryTime": null,
         "attendance": null,
         "venue": "Johan Cruijff ArenA",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T16:31:18Z",
+        "lastUpdated": "2026-01-17T16:42:21Z",
         "homeTeam": {
           "id": 678,
           "name": "AFC Ajax",
