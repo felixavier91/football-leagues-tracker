@@ -79125,14 +79125,14 @@
       "id": 537610,
       "utcDate": "2026-01-17T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 47,
+      "minute": 69,
       "injuryTime": null,
       "attendance": null,
       "venue": "MAC³PARK stadion",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T19:51:10Z",
+      "lastUpdated": "2026-01-17T20:12:56Z",
       "homeTeam": {
         "id": 684,
         "name": "PEC Zwolle",
@@ -79496,6 +79496,18 @@
             "name": "Alexandre Penetra"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 55,
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "player": {
+            "id": 246145,
+            "name": "Mateo Chávez"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -79549,15 +79561,15 @@
       },
       "id": 537604,
       "utcDate": "2026-01-17T19:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 11,
       "injuryTime": null,
       "attendance": null,
       "venue": "Van Donge & De Roo Stadion",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T18:53:27Z",
+      "lastUpdated": "2026-01-17T20:12:57Z",
       "homeTeam": {
         "id": 670,
         "name": "SBV Excelsior",
@@ -79765,6 +79777,18 @@
             "shirtNumber": 11
           },
           {
+            "id": 92124,
+            "name": "Nigel Nwankwo",
+            "position": "Defence",
+            "shirtNumber": 14
+          },
+          {
+            "id": 219280,
+            "name": "Neville Ogidi Nwankwo",
+            "position": "Defence",
+            "shirtNumber": 14
+          },
+          {
             "id": 177052,
             "name": "Nils Rossen",
             "position": "Midfield",
@@ -79841,11 +79865,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -79906,15 +79930,15 @@
       },
       "id": 537607,
       "utcDate": "2026-01-17T19:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 9,
       "injuryTime": null,
       "attendance": null,
       "venue": "Fortuna Sittard Stadion",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T19:01:55Z",
+      "lastUpdated": "2026-01-17T20:12:57Z",
       "homeTeam": {
         "id": 1920,
         "name": "Fortuna Sittard",
@@ -80192,18 +80216,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 8,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 176932,
+            "name": "Paul Wanner"
+          },
+          "assist": {
+            "id": 142790,
+            "name": "Kiliann Sildillia"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

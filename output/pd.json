@@ -93700,14 +93700,14 @@
       "id": 544406,
       "utcDate": "2026-01-17T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 59,
+      "minute": 81,
       "injuryTime": null,
       "attendance": 20651,
       "venue": "Estadio El Sadar",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T19:50:02Z",
+      "lastUpdated": "2026-01-17T20:12:11Z",
       "homeTeam": {
         "id": 79,
         "name": "CA Osasuna",
@@ -94012,8 +94012,8 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 1
+          "home": 2,
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -94062,6 +94062,48 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 68,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "scorer": {
+            "id": 191053,
+            "name": "Alberto Reina"
+          },
+          "assist": {
+            "id": 180295,
+            "name": "Oier Luengo"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 75,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "scorer": {
+            "id": 2237,
+            "name": "Ante Budimir"
+          },
+          "assist": {
+            "id": 151019,
+            "name": "Flavien Boyomo"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -94099,6 +94141,18 @@
           "player": {
             "id": 15864,
             "name": "David Costas"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 77,
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "player": {
+            "id": 32212,
+            "name": "Rubén García"
           },
           "card": "YELLOW"
         }
@@ -94162,7 +94216,7 @@
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-11T01:32:02Z",
+      "lastUpdated": "2026-01-17T20:04:48Z",
       "homeTeam": {
         "id": 90,
         "name": "Real Betis Balompié",
@@ -94175,9 +94229,131 @@
           "nationality": "Chile"
         },
         "leagueRank": 6,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 100130,
+            "name": "Álvaro Vallés Rosa",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 179155,
+            "name": "Valentín Gómez",
+            "position": "Defence",
+            "shirtNumber": 16
+          },
+          {
+            "id": 213268,
+            "name": "Ezequiel Ávila",
+            "position": "Offence",
+            "shirtNumber": 9
+          },
+          {
+            "id": 97085,
+            "name": "Antony",
+            "position": "Right Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 33117,
+            "name": "Pablo Fornals",
+            "position": "Attacking Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 212861,
+            "name": "Sergi Altimira",
+            "position": "Central Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 3216,
+            "name": "Giovani Lo Celso",
+            "position": "Central Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 32710,
+            "name": "Marc Roca",
+            "position": "Defensive Midfield",
+            "shirtNumber": 21
+          },
+          {
+            "id": 33045,
+            "name": "Aitor Ruibal",
+            "position": "Right-Back",
+            "shirtNumber": 24
+          },
+          {
+            "id": 33038,
+            "name": "Bartra",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 138031,
+            "name": "Natan",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          }
+        ],
+        "bench": [
+          {
+            "id": 32695,
+            "name": "Pau López",
+            "position": "Goalkeeper",
+            "shirtNumber": 25
+          },
+          {
+            "id": 8197,
+            "name": "Adrián",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 272694,
+            "name": "Ángel Ortiz",
+            "position": "Defence",
+            "shirtNumber": 40
+          },
+          {
+            "id": 274546,
+            "name": "Pablo García",
+            "position": "Offence",
+            "shirtNumber": 52
+          },
+          {
+            "id": 1745,
+            "name": "Ricardo Rodriguez",
+            "position": "Left-Back",
+            "shirtNumber": 12
+          },
+          {
+            "id": 128731,
+            "name": "Rodrigo Riquelme",
+            "position": "Left Winger",
+            "shirtNumber": 17
+          },
+          {
+            "id": 189529,
+            "name": "Dani Perez",
+            "position": "Attacking Midfield",
+            "shirtNumber": 37
+          },
+          {
+            "id": 9,
+            "name": "Diego Llorente",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 21583,
+            "name": "Cédric Bakambu",
+            "position": "Centre-Forward",
+            "shirtNumber": 11
+          }
+        ]
       },
       "awayTeam": {
         "id": 94,
@@ -94191,9 +94367,131 @@
           "nationality": "Spain"
         },
         "leagueRank": 3,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-4-2",
+        "lineup": [
+          {
+            "id": 178718,
+            "name": "Luiz Junior",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 213263,
+            "name": "Santi Comesaña",
+            "position": "Midfield",
+            "shirtNumber": 14
+          },
+          {
+            "id": 32719,
+            "name": "Gerard Moreno",
+            "position": "Centre-Forward",
+            "shirtNumber": 7
+          },
+          {
+            "id": 136646,
+            "name": "Georges Mikautadze",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 113175,
+            "name": "Tajon Buchanan",
+            "position": "Right Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 3198,
+            "name": "Dani Parejo",
+            "position": "Central Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 150533,
+            "name": "Alberto Moleiro",
+            "position": "Attacking Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 217521,
+            "name": "Pau Navarro",
+            "position": "Centre-Back",
+            "shirtNumber": 26
+          },
+          {
+            "id": 7996,
+            "name": "Juan Foyth",
+            "position": "Right-Back",
+            "shirtNumber": 8
+          },
+          {
+            "id": 178769,
+            "name": "Renato Veiga",
+            "position": "Centre-Back",
+            "shirtNumber": 12
+          },
+          {
+            "id": 267,
+            "name": "Alfonso Pedraza",
+            "position": "Left-Back",
+            "shirtNumber": 24
+          }
+        ],
+        "bench": [
+          {
+            "id": 146023,
+            "name": "Arnau Tenas",
+            "position": "Goalkeeper",
+            "shirtNumber": 25
+          },
+          {
+            "id": 289770,
+            "name": "Carlos Macià",
+            "position": "Midfield",
+            "shirtNumber": 37
+          },
+          {
+            "id": 177826,
+            "name": "Tani Oluwaseyi",
+            "position": "Offence",
+            "shirtNumber": 21
+          },
+          {
+            "id": 110,
+            "name": "Thomas Partey",
+            "position": "Defensive Midfield",
+            "shirtNumber": 16
+          },
+          {
+            "id": 7936,
+            "name": "Ayoze Pérez",
+            "position": "Centre-Forward",
+            "shirtNumber": 22
+          },
+          {
+            "id": 8412,
+            "name": "Nicolas Pépé",
+            "position": "Right Winger",
+            "shirtNumber": 19
+          },
+          {
+            "id": 212858,
+            "name": "Santiago Mouriño",
+            "position": "Centre-Back",
+            "shirtNumber": 15
+          },
+          {
+            "id": 176758,
+            "name": "Rafa Marin",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 180289,
+            "name": "Sergi Cardona",
+            "position": "Left-Back",
+            "shirtNumber": 23
+          }
+        ]
       },
       "score": {
         "winner": null,
