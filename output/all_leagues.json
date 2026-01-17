@@ -99215,14 +99215,14 @@
         "id": 538002,
         "utcDate": "2026-01-17T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 83,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 7,
         "attendance": 30729,
         "venue": "City Ground, Nottingham",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:12:01Z",
+        "lastUpdated": "2026-01-17T20:27:16Z",
         "homeTeam": {
           "id": 351,
           "name": "Nottingham Forest FC",
@@ -99523,6 +99523,18 @@
             "player": {
               "id": 98816,
               "name": "Jurrien Timber"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 351,
+              "name": "Nottingham Forest FC"
+            },
+            "player": {
+              "id": 3386,
+              "name": "Ola Aina"
             },
             "card": "YELLOW"
           }
@@ -207586,14 +207598,14 @@
         "id": 544406,
         "utcDate": "2026-01-17T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 81,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 6,
         "attendance": 20651,
         "venue": "Estadio El Sadar",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:12:11Z",
+        "lastUpdated": "2026-01-17T20:27:21Z",
         "homeTeam": {
           "id": 79,
           "name": "CA Osasuna",
@@ -207895,10 +207907,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
+            "home": 3,
             "away": 2
           },
           "halfTime": {
@@ -207990,6 +208002,24 @@
               "home": 2,
               "away": 2
             }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 2,
+            "type": "REGULAR",
+            "team": {
+              "id": 79,
+              "name": "CA Osasuna"
+            },
+            "scorer": {
+              "id": 273423,
+              "name": "Víctor Muñoz"
+            },
+            "assist": null,
+            "score": {
+              "home": 3,
+              "away": 2
+            }
           }
         ],
         "penalties": [],
@@ -208041,6 +208071,42 @@
               "name": "Rubén García"
             },
             "card": "YELLOW"
+          },
+          {
+            "minute": 84,
+            "team": {
+              "id": 1048,
+              "name": "Real Oviedo"
+            },
+            "player": {
+              "id": 77477,
+              "name": "Nicolas Fonseca"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 88,
+            "team": {
+              "id": 1048,
+              "name": "Real Oviedo"
+            },
+            "player": {
+              "id": 181409,
+              "name": "Jorge Almada"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 79,
+              "name": "CA Osasuna"
+            },
+            "player": {
+              "id": 50890,
+              "name": "Catena"
+            },
+            "card": "RED"
           }
         ],
         "substitutions": [],
@@ -298369,14 +298435,14 @@
         "id": 540559,
         "utcDate": "2026-01-17T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 80,
-        "injuryTime": null,
-        "attendance": null,
+        "minute": 90,
+        "injuryTime": 4,
+        "attendance": 47800,
         "venue": "Red Bull Arena Leipzig",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:12:27Z",
+        "lastUpdated": "2026-01-17T20:27:36Z",
         "homeTeam": {
           "id": 721,
           "name": "RB Leipzig",
@@ -298658,7 +298724,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 1,
-            "away": 2
+            "away": 5
           },
           "halfTime": {
             "home": 1,
@@ -298727,6 +298793,69 @@
             "score": {
               "home": 1,
               "away": 2
+            }
+          },
+          {
+            "minute": 83,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5,
+              "name": "FC Bayern München"
+            },
+            "scorer": {
+              "id": 149,
+              "name": "Jonathan Tah"
+            },
+            "assist": {
+              "id": 113765,
+              "name": "Michael Olise"
+            },
+            "score": {
+              "home": 1,
+              "away": 3
+            }
+          },
+          {
+            "minute": 85,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5,
+              "name": "FC Bayern München"
+            },
+            "scorer": {
+              "id": 202665,
+              "name": "Aleksandar Pavlović"
+            },
+            "assist": {
+              "id": 113765,
+              "name": "Michael Olise"
+            },
+            "score": {
+              "home": 1,
+              "away": 4
+            }
+          },
+          {
+            "minute": 88,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5,
+              "name": "FC Bayern München"
+            },
+            "scorer": {
+              "id": 113765,
+              "name": "Michael Olise"
+            },
+            "assist": {
+              "id": 144393,
+              "name": "Jamal Musiala"
+            },
+            "score": {
+              "home": 1,
+              "away": 5
             }
           }
         ],
@@ -500638,14 +500767,14 @@
         "id": 542561,
         "utcDate": "2026-01-17T18:00:00Z",
         "status": "IN_PLAY",
-        "minute": 54,
+        "minute": 69,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadium de Toulouse",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:12:47Z",
+        "lastUpdated": "2026-01-17T20:27:57Z",
         "homeTeam": {
           "id": 511,
           "name": "Toulouse FC",
@@ -500926,7 +501055,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
+            "home": 3,
             "away": 1
           },
           "halfTime": {
@@ -500994,6 +501123,27 @@
               "home": 2,
               "away": 1
             }
+          },
+          {
+            "minute": 55,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 511,
+              "name": "Toulouse FC"
+            },
+            "scorer": {
+              "id": 191371,
+              "name": "Santiago Hidalgo"
+            },
+            "assist": {
+              "id": 176747,
+              "name": "Frank Magri"
+            },
+            "score": {
+              "home": 3,
+              "away": 1
+            }
           }
         ],
         "penalties": [],
@@ -501019,6 +501169,18 @@
             "player": {
               "id": 8355,
               "name": "Morgan Sanson"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 61,
+            "team": {
+              "id": 511,
+              "name": "Toulouse FC"
+            },
+            "player": {
+              "id": 191371,
+              "name": "Santiago Hidalgo"
             },
             "card": "YELLOW"
           }
@@ -585677,14 +585839,14 @@
         "id": 545856,
         "utcDate": "2026-01-17T18:00:00Z",
         "status": "IN_PLAY",
-        "minute": 49,
+        "minute": 64,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estádio do CD Aves",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:12:52Z",
+        "lastUpdated": "2026-01-17T20:28:11Z",
         "homeTeam": {
           "id": 10340,
           "name": "AVS",
@@ -586045,6 +586207,18 @@
               "name": "Javi Sánchez"
             },
             "card": "YELLOW"
+          },
+          {
+            "minute": 58,
+            "team": {
+              "id": 712,
+              "name": "FC Arouca"
+            },
+            "player": {
+              "id": 81391,
+              "name": "Barbero"
+            },
+            "card": "YELLOW"
           }
         ],
         "substitutions": [],
@@ -586099,14 +586273,14 @@
         "id": 545858,
         "utcDate": "2026-01-17T18:00:00Z",
         "status": "IN_PLAY",
-        "minute": 51,
+        "minute": 66,
         "injuryTime": null,
         "attendance": null,
         "venue": "Centro de Formação do FC Alverca",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:12:52Z",
+        "lastUpdated": "2026-01-17T20:28:11Z",
         "homeTeam": {
           "id": 7822,
           "name": "FC Alverca",
@@ -586387,17 +586561,82 @@
           "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
-            "away": 0
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
             "home": 0,
             "away": 0
           }
         },
-        "goals": [],
-        "penalties": [],
-        "bookings": [],
+        "goals": [
+          {
+            "minute": 60,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 7822,
+              "name": "FC Alverca"
+            },
+            "scorer": {
+              "id": 203421,
+              "name": "Nabil"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          },
+          {
+            "minute": 62,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 583,
+              "name": "Moreirense FC"
+            },
+            "scorer": {
+              "id": 191408,
+              "name": "Rodri Alonso"
+            },
+            "assist": {
+              "id": 211818,
+              "name": "Luís Semedo"
+            },
+            "score": {
+              "home": 1,
+              "away": 1
+            }
+          }
+        ],
+        "penalties": [
+          {
+            "player": {
+              "id": 203421,
+              "name": "Nabil"
+            },
+            "team": {
+              "id": 7822,
+              "name": "FC Alverca"
+            },
+            "scored": true
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 57,
+            "team": {
+              "id": 583,
+              "name": "Moreirense FC"
+            },
+            "player": {
+              "id": 179028,
+              "name": "Michel Augusto"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -678669,14 +678908,14 @@
         "id": 537610,
         "utcDate": "2026-01-17T17:45:00Z",
         "status": "IN_PLAY",
-        "minute": 69,
+        "minute": 84,
         "injuryTime": null,
         "attendance": null,
         "venue": "MAC³PARK stadion",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:12:56Z",
+        "lastUpdated": "2026-01-17T20:28:16Z",
         "homeTeam": {
           "id": 684,
           "name": "PEC Zwolle",
@@ -678976,7 +679215,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 2,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 2,
@@ -679024,6 +679263,24 @@
             "score": {
               "home": 2,
               "away": 0
+            }
+          },
+          {
+            "minute": 74,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 682,
+              "name": "AZ"
+            },
+            "scorer": {
+              "id": 81552,
+              "name": "Peer Koopmeiners"
+            },
+            "assist": null,
+            "score": {
+              "home": 2,
+              "away": 1
             }
           }
         ],
@@ -679106,14 +679363,14 @@
         "id": 537604,
         "utcDate": "2026-01-17T19:00:00Z",
         "status": "IN_PLAY",
-        "minute": 11,
+        "minute": 26,
         "injuryTime": null,
         "attendance": null,
         "venue": "Van Donge & De Roo Stadion",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:12:57Z",
+        "lastUpdated": "2026-01-17T20:28:17Z",
         "homeTeam": {
           "id": 670,
           "name": "SBV Excelsior",
@@ -679475,14 +679732,14 @@
         "id": 537607,
         "utcDate": "2026-01-17T19:00:00Z",
         "status": "IN_PLAY",
-        "minute": 9,
+        "minute": 25,
         "injuryTime": null,
         "attendance": null,
         "venue": "Fortuna Sittard Stadion",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:12:57Z",
+        "lastUpdated": "2026-01-17T20:28:17Z",
         "homeTeam": {
           "id": 1920,
           "name": "Fortuna Sittard",
@@ -679760,10 +680017,10 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 1
           },
           "halfTime": {
@@ -679790,6 +680047,27 @@
             },
             "score": {
               "home": 0,
+              "away": 1
+            }
+          },
+          {
+            "minute": 12,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1920,
+              "name": "Fortuna Sittard"
+            },
+            "scorer": {
+              "id": 7574,
+              "name": "Kaj Sierhuis"
+            },
+            "assist": {
+              "id": 43513,
+              "name": "Dimitris Limnios"
+            },
+            "score": {
+              "home": 1,
               "away": 1
             }
           }
@@ -692649,7 +692927,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 77,
           "name": "Athletic Club",
@@ -693121,7 +693399,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 674,
           "name": "PSV",
@@ -693589,7 +693867,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 109,
           "name": "Juventus FC",
@@ -694154,7 +694432,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 1903,
           "name": "Sport Lisboa e Benfica",
@@ -694646,7 +694924,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 73,
           "name": "Tottenham Hotspur FC",
@@ -695160,7 +695438,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 86,
           "name": "Real Madrid CF",
@@ -695700,7 +695978,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 930,
           "name": "SK Slavia Praha",
@@ -696243,7 +696521,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 654,
           "name": "PAE Olympiakos SFP",
@@ -696666,7 +696944,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 678,
           "name": "AFC Ajax",
@@ -697138,7 +697416,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 64,
           "name": "Liverpool FC",
@@ -697685,7 +697963,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -698144,7 +698422,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -698673,7 +698951,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 1876,
           "name": "FC København",
@@ -699181,7 +699459,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 851,
           "name": "Club Brugge KV",
@@ -699716,7 +699994,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 67,
           "name": "Newcastle United FC",
@@ -700230,7 +700508,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 65,
           "name": "Manchester City FC",
@@ -700678,7 +700956,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 19,
           "name": "Eintracht Frankfurt",
@@ -701219,7 +701497,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 498,
           "name": "Sporting Clube de Portugal",
@@ -701784,7 +702062,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 102,
           "name": "Atalanta BC",
@@ -702253,7 +702531,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 10601,
           "name": "FK Kairat",
@@ -702770,7 +703048,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 610,
           "name": "Galatasaray SK",
@@ -703278,7 +703556,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 78,
           "name": "Club Atlético de Madrid",
@@ -703819,7 +704097,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -704327,7 +704605,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 5721,
           "name": "FK Bodø/Glimt",
@@ -704861,7 +705139,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 11034,
           "name": "Paphos FC",
@@ -705871,7 +706149,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 108,
           "name": "FC Internazionale Milano",
@@ -706361,7 +706639,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 611,
           "name": "Qarabağ Ağdam FK",
@@ -706818,7 +707096,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 3929,
           "name": "Royale Union Saint-Gilloise",
@@ -707355,7 +707633,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 4,
           "name": "Borussia Dortmund",
@@ -707863,7 +708141,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 81,
           "name": "FC Barcelona",
@@ -708368,7 +708646,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 548,
           "name": "AS Monaco FC",
@@ -708879,7 +709157,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 3,
           "name": "Bayer 04 Leverkusen",
@@ -709294,7 +709572,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 57,
           "name": "Arsenal FC",
@@ -709760,7 +710038,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 94,
           "name": "Villarreal CF",
@@ -710247,7 +710525,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 113,
           "name": "SSC Napoli",
@@ -710700,7 +710978,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 81,
           "name": "FC Barcelona",
@@ -711315,7 +711593,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 10601,
           "name": "FK Kairat",
@@ -711756,7 +712034,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 3929,
           "name": "Royale Union Saint-Gilloise",
@@ -712249,7 +712527,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 1876,
           "name": "FC København",
@@ -712784,7 +713062,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 3,
           "name": "Bayer 04 Leverkusen",
@@ -713405,7 +713683,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 94,
           "name": "Villarreal CF",
@@ -713919,7 +714197,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 57,
           "name": "Arsenal FC",
@@ -714896,7 +715174,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 674,
           "name": "PSV",
@@ -715503,7 +715781,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 610,
           "name": "Galatasaray SK",
@@ -715969,7 +716247,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 77,
           "name": "Athletic Club",
@@ -716437,7 +716715,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 19,
           "name": "Eintracht Frankfurt",
@@ -716969,7 +717247,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 102,
           "name": "Atalanta BC",
@@ -717422,7 +717700,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 498,
           "name": "Sporting Clube de Portugal",
@@ -717933,7 +718211,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 548,
           "name": "AS Monaco FC",
@@ -718326,7 +718604,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -718795,7 +719073,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 61,
           "name": "Chelsea FC",
@@ -719388,7 +719666,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 86,
           "name": "Real Madrid CF",
@@ -719797,7 +720075,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 930,
           "name": "SK Slavia Praha",
@@ -720335,7 +720613,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 113,
           "name": "SSC Napoli",
@@ -720752,7 +721030,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 109,
           "name": "Juventus FC",
@@ -721242,7 +721520,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 78,
           "name": "Club Atlético de Madrid",
@@ -721750,7 +722028,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 73,
           "name": "Tottenham Hotspur FC",
@@ -722255,7 +722533,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 5721,
           "name": "FK Bodø/Glimt",
@@ -722706,7 +722984,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 654,
           "name": "PAE Olympiakos SFP",
@@ -723157,7 +723435,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -723638,7 +723916,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 64,
           "name": "Liverpool FC",
@@ -724101,7 +724379,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 11034,
           "name": "Paphos FC",
@@ -724528,7 +724806,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 611,
           "name": "Qarabağ Ağdam FK",
@@ -725072,7 +725350,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 108,
           "name": "FC Internazionale Milano",
@@ -725535,7 +725813,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 65,
           "name": "Manchester City FC",
@@ -726043,7 +726321,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 851,
           "name": "Club Brugge KV",
@@ -726608,7 +726886,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 1903,
           "name": "Sport Lisboa e Benfica",
@@ -727098,7 +727376,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -727575,7 +727853,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 678,
           "name": "AFC Ajax",
@@ -728109,7 +728387,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 67,
           "name": "Newcastle United FC",
@@ -728557,7 +728835,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 678,
           "name": "AFC Ajax",
@@ -729014,7 +729292,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 610,
           "name": "Galatasaray SK",
@@ -729501,7 +729779,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 4,
           "name": "Borussia Dortmund",
@@ -730031,7 +730309,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 65,
           "name": "Manchester City FC",
@@ -730473,7 +730751,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 5721,
           "name": "FK Bodø/Glimt",
@@ -731014,7 +731292,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -731546,7 +731824,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 930,
           "name": "SK Slavia Praha",
@@ -732023,7 +732301,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 113,
           "name": "SSC Napoli",
@@ -732483,7 +732761,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 61,
           "name": "Chelsea FC",
@@ -732979,7 +733257,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 11034,
           "name": "Paphos FC",
@@ -733493,7 +733771,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 1876,
           "name": "FC København",
@@ -734037,7 +734315,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 64,
           "name": "Liverpool FC",
@@ -734536,7 +734814,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -735110,7 +735388,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 19,
           "name": "Eintracht Frankfurt",
@@ -735566,7 +735844,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 498,
           "name": "Sporting Clube de Portugal",
@@ -736083,7 +736361,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 57,
           "name": "Arsenal FC",
@@ -736609,7 +736887,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 654,
           "name": "PAE Olympiakos SFP",
@@ -737150,7 +737428,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 78,
           "name": "Club Atlético de Madrid",
@@ -737628,7 +737906,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 10601,
           "name": "FK Kairat",
@@ -738067,7 +738345,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -738566,7 +738844,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 81,
           "name": "FC Barcelona",
@@ -739053,7 +739331,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 674,
           "name": "PSV",
@@ -739627,7 +739905,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 3929,
           "name": "Royale Union Saint-Gilloise",
@@ -740168,7 +740446,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 73,
           "name": "Tottenham Hotspur FC",
@@ -740711,7 +740989,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 548,
           "name": "AS Monaco FC",
@@ -741159,7 +741437,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 102,
           "name": "Atalanta BC",
@@ -741628,7 +741906,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 108,
           "name": "FC Internazionale Milano",
@@ -742088,7 +742366,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 94,
           "name": "Villarreal CF",
@@ -742602,7 +742880,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 611,
           "name": "Qarabağ Ağdam FK",
@@ -743125,7 +743403,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 4,
           "name": "Borussia Dortmund",
@@ -743582,7 +743860,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 77,
           "name": "Athletic Club",
@@ -743999,7 +744277,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 3,
           "name": "Bayer 04 Leverkusen",
@@ -744495,7 +744773,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 851,
           "name": "Club Brugge KV",
@@ -744946,7 +745224,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 1903,
           "name": "Sport Lisboa e Benfica",
@@ -745382,7 +745660,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 109,
           "name": "Juventus FC",
@@ -745818,7 +746096,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 86,
           "name": "Real Madrid CF",
@@ -746416,7 +746694,7 @@
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 5721,
           "name": "FK Bodø/Glimt",
@@ -746974,7 +747252,7 @@
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 86,
           "name": "Real Madrid CF",
@@ -748183,7 +748461,7 @@
         "matchday": 8,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 65,
           "name": "Manchester City FC",
@@ -749485,7 +749763,7 @@
         "matchday": 8,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": 1903,
           "name": "Sport Lisboa e Benfica",
@@ -753763,7 +754041,7 @@
         "matchday": null,
         "stage": "FINAL",
         "group": null,
-        "lastUpdated": "2026-01-17T15:20:32Z",
+        "lastUpdated": "2026-01-17T20:20:43Z",
         "homeTeam": {
           "id": null,
           "name": null,

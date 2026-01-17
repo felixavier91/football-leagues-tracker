@@ -71264,14 +71264,14 @@
       "id": 545856,
       "utcDate": "2026-01-17T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 49,
+      "minute": 64,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio do CD Aves",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T20:12:52Z",
+      "lastUpdated": "2026-01-17T20:28:11Z",
       "homeTeam": {
         "id": 10340,
         "name": "AVS",
@@ -71632,6 +71632,18 @@
             "name": "Javi Sánchez"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 58,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 81391,
+            "name": "Barbero"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -71686,14 +71698,14 @@
       "id": 545858,
       "utcDate": "2026-01-17T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 51,
+      "minute": 66,
       "injuryTime": null,
       "attendance": null,
       "venue": "Centro de Formação do FC Alverca",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T20:12:52Z",
+      "lastUpdated": "2026-01-17T20:28:11Z",
       "homeTeam": {
         "id": 7822,
         "name": "FC Alverca",
@@ -71974,17 +71986,82 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 60,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 7822,
+            "name": "FC Alverca"
+          },
+          "scorer": {
+            "id": 203421,
+            "name": "Nabil"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 62,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "scorer": {
+            "id": 191408,
+            "name": "Rodri Alonso"
+          },
+          "assist": {
+            "id": 211818,
+            "name": "Luís Semedo"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 203421,
+            "name": "Nabil"
+          },
+          "team": {
+            "id": 7822,
+            "name": "FC Alverca"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 57,
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "player": {
+            "id": 179028,
+            "name": "Michel Augusto"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

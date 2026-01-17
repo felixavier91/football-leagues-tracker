@@ -93700,14 +93700,14 @@
       "id": 544406,
       "utcDate": "2026-01-17T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 81,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": 20651,
       "venue": "Estadio El Sadar",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T20:12:11Z",
+      "lastUpdated": "2026-01-17T20:27:21Z",
       "homeTeam": {
         "id": 79,
         "name": "CA Osasuna",
@@ -94009,10 +94009,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 2
         },
         "halfTime": {
@@ -94104,6 +94104,24 @@
             "home": 2,
             "away": 2
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "scorer": {
+            "id": 273423,
+            "name": "Víctor Muñoz"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -94155,6 +94173,42 @@
             "name": "Rubén García"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 84,
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "player": {
+            "id": 77477,
+            "name": "Nicolas Fonseca"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 88,
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "player": {
+            "id": 181409,
+            "name": "Jorge Almada"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "player": {
+            "id": 50890,
+            "name": "Catena"
+          },
+          "card": "RED"
         }
       ],
       "substitutions": [],
