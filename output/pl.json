@@ -96853,15 +96853,15 @@
       },
       "id": 537995,
       "utcDate": "2026-01-17T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadium of Light",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T16:41:40Z",
+      "lastUpdated": "2026-01-17T16:54:05Z",
       "homeTeam": {
         "id": 71,
         "name": "Sunderland AFC",
@@ -97152,8 +97152,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -97275,15 +97275,15 @@
       },
       "id": 537998,
       "utcDate": "2026-01-17T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stamford Bridge",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T16:41:41Z",
+      "lastUpdated": "2026-01-17T16:54:06Z",
       "homeTeam": {
         "id": 61,
         "name": "Chelsea FC",
@@ -97568,8 +97568,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -97606,6 +97606,18 @@
           "player": {
             "id": 123286,
             "name": "Kevin Schade"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 402,
+            "name": "Brentford FC"
+          },
+          "player": {
+            "id": 10000,
+            "name": "Vitaly Janelt"
           },
           "card": "YELLOW"
         }
@@ -97661,15 +97673,15 @@
       },
       "id": 537999,
       "utcDate": "2026-01-17T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Anfield",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T16:41:41Z",
+      "lastUpdated": "2026-01-17T16:54:07Z",
       "homeTeam": {
         "id": 64,
         "name": "Liverpool FC",
@@ -97947,18 +97959,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 19334,
+            "name": "Florian Wirtz"
+          },
+          "assist": {
+            "id": 7873,
+            "name": "Curtis Jones"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [
         {
           "player": {
@@ -98037,15 +98071,15 @@
       },
       "id": 538000,
       "utcDate": "2026-01-17T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 40,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Elland Road",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T16:41:41Z",
+      "lastUpdated": "2026-01-17T16:54:07Z",
       "homeTeam": {
         "id": 341,
         "name": "Leeds United FC",
@@ -98330,8 +98364,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -98370,6 +98404,18 @@
           "player": {
             "id": 11579,
             "name": "Marco Silva"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 41,
+          "team": {
+            "id": 341,
+            "name": "Leeds United FC"
+          },
+          "player": {
+            "id": 7815,
+            "name": "Ethan Ampadu"
           },
           "card": "YELLOW"
         }
@@ -98425,15 +98471,15 @@
       },
       "id": 538003,
       "utcDate": "2026-01-17T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Tottenham Hotspur Stadium",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T16:41:42Z",
+      "lastUpdated": "2026-01-17T16:54:07Z",
       "homeTeam": {
         "id": 73,
         "name": "Tottenham Hotspur FC",
@@ -98718,8 +98764,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -98780,6 +98826,18 @@
           "player": {
             "id": 177040,
             "name": "Archie Gray"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "player": {
+            "id": 45735,
+            "name": "Christian Romero"
           },
           "card": "YELLOW"
         }

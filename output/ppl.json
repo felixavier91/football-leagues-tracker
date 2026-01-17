@@ -70815,14 +70815,14 @@
       "id": 545859,
       "utcDate": "2026-01-17T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 10,
+      "minute": 22,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Cidade de Barcelos",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T16:42:21Z",
+      "lastUpdated": "2026-01-17T16:54:54Z",
       "homeTeam": {
         "id": 5533,
         "name": "Gil Vicente FC",
@@ -71103,15 +71103,58 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 19,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "scorer": {
+            "id": 37160,
+            "name": "Murilo"
+          },
+          "assist": {
+            "id": 157367,
+            "name": "Luís Esteves"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5529,
+            "name": "CD Nacional"
+          },
+          "scorer": {
+            "id": 169570,
+            "name": "Zé Vitor"
+          },
+          "assist": {
+            "id": 1437,
+            "name": "Léo Santos"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

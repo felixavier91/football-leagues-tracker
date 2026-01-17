@@ -78580,14 +78580,14 @@
       "id": 537603,
       "utcDate": "2026-01-17T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 11,
+      "minute": 24,
       "injuryTime": null,
       "attendance": null,
       "venue": "Johan Cruijff ArenA",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T16:42:21Z",
+      "lastUpdated": "2026-01-17T16:55:09Z",
       "homeTeam": {
         "id": 678,
         "name": "AFC Ajax",
@@ -78901,10 +78901,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -78912,9 +78912,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 15,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "scorer": {
+            "id": 7841,
+            "name": "Davy Klaassen"
+          },
+          "assist": {
+            "id": 189574,
+            "name": "Mika Godts"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 19,
+          "team": {
+            "id": 718,
+            "name": "Go Ahead Eagles"
+          },
+          "player": {
+            "id": 67919,
+            "name": "Kenzo Goudmijn"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -79026,7 +79061,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43861,
+          "name": "Dennis Higler",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 43874,
+          "name": "Mario Diks",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 215404,
+          "name": "Jari van Westen",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
