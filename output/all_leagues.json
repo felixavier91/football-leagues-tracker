@@ -412536,15 +412536,15 @@
         },
         "id": 537016,
         "utcDate": "2026-01-17T19:45:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 11,
         "injuryTime": null,
         "attendance": null,
         "venue": "Unipol Domus",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:10:18Z",
+        "lastUpdated": "2026-01-17T20:57:12Z",
         "homeTeam": {
           "id": 104,
           "name": "Cagliari Calcio",
@@ -412858,11 +412858,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -500767,14 +500767,14 @@
         "id": 542561,
         "utcDate": "2026-01-17T18:00:00Z",
         "status": "IN_PLAY",
-        "minute": 79,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 8,
         "attendance": null,
         "venue": "Stadium de Toulouse",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:38:11Z",
+        "lastUpdated": "2026-01-17T20:57:21Z",
         "homeTeam": {
           "id": 511,
           "name": "Toulouse FC",
@@ -501055,7 +501055,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 4,
+            "home": 5,
             "away": 1
           },
           "halfTime": {
@@ -501160,6 +501160,24 @@
             "assist": null,
             "score": {
               "home": 4,
+              "away": 1
+            }
+          },
+          {
+            "minute": 80,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 511,
+              "name": "Toulouse FC"
+            },
+            "scorer": {
+              "id": 285243,
+              "name": "Julián Vignolo"
+            },
+            "assist": null,
+            "score": {
+              "home": 5,
               "away": 1
             }
           }
@@ -585857,14 +585875,14 @@
         "id": 545856,
         "utcDate": "2026-01-17T18:00:00Z",
         "status": "IN_PLAY",
-        "minute": 75,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 3,
         "attendance": null,
         "venue": "Estádio do CD Aves",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:38:22Z",
+        "lastUpdated": "2026-01-17T20:57:26Z",
         "homeTeam": {
           "id": 10340,
           "name": "AVS",
@@ -586237,6 +586255,42 @@
               "name": "Barbero"
             },
             "card": "YELLOW"
+          },
+          {
+            "minute": 79,
+            "team": {
+              "id": 712,
+              "name": "FC Arouca"
+            },
+            "player": {
+              "id": 153734,
+              "name": "Matí­as Rocha"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 83,
+            "team": {
+              "id": 10340,
+              "name": "AVS"
+            },
+            "player": {
+              "id": 102250,
+              "name": "Jaume Grau"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 89,
+            "team": {
+              "id": 712,
+              "name": "FC Arouca"
+            },
+            "player": {
+              "id": 100703,
+              "name": "Ignacio De Arruabarrena"
+            },
+            "card": "YELLOW"
           }
         ],
         "substitutions": [],
@@ -586291,14 +586345,14 @@
         "id": 545858,
         "utcDate": "2026-01-17T18:00:00Z",
         "status": "IN_PLAY",
-        "minute": 77,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 4,
         "attendance": null,
         "venue": "Centro de Formação do FC Alverca",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:38:22Z",
+        "lastUpdated": "2026-01-17T20:57:26Z",
         "homeTeam": {
           "id": 7822,
           "name": "FC Alverca",
@@ -586674,6 +586728,30 @@
               "name": "Michel Augusto"
             },
             "card": "YELLOW"
+          },
+          {
+            "minute": 83,
+            "team": {
+              "id": 7822,
+              "name": "FC Alverca"
+            },
+            "player": {
+              "id": 192010,
+              "name": "Andre Gomes"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 7822,
+              "name": "FC Alverca"
+            },
+            "player": {
+              "id": 169646,
+              "name": "Lucas Figueiredo"
+            },
+            "card": "YELLOW"
           }
         ],
         "substitutions": [],
@@ -586735,7 +586813,7 @@
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:36:48Z",
+        "lastUpdated": "2026-01-17T20:39:59Z",
         "homeTeam": {
           "id": 496,
           "name": "Rio Ave FC",
@@ -586748,9 +586826,131 @@
             "nationality": "Greece"
           },
           "leagueRank": 10,
-          "formation": "3-4-3",
-          "lineup": [],
-          "bench": []
+          "formation": "3-4-2-1",
+          "lineup": [
+            {
+              "id": 114150,
+              "name": "Cezary Miszta",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 8966,
+              "name": "Jakub Brabec",
+              "position": "Defence",
+              "shirtNumber": 32
+            },
+            {
+              "id": 250593,
+              "name": "Francisco Petrasso",
+              "position": "Defence",
+              "shirtNumber": 23
+            },
+            {
+              "id": 209474,
+              "name": "Nikos Athanasiou",
+              "position": "Defence",
+              "shirtNumber": 3
+            },
+            {
+              "id": 209594,
+              "name": "Andreas Ndoj",
+              "position": "Defence",
+              "shirtNumber": 5
+            },
+            {
+              "id": 193588,
+              "name": "Joao Tome",
+              "position": "Defence",
+              "shirtNumber": 20
+            },
+            {
+              "id": 118074,
+              "name": "Dario Špikić",
+              "position": "Offence",
+              "shirtNumber": 18
+            },
+            {
+              "id": 141542,
+              "name": "Clayton",
+              "position": "Offence",
+              "shirtNumber": 9
+            },
+            {
+              "id": 178810,
+              "name": "André Luiz",
+              "position": "Centre-Forward",
+              "shirtNumber": 11
+            },
+            {
+              "id": 185179,
+              "name": "Brandon Aguilera",
+              "position": "Attacking Midfield",
+              "shirtNumber": 10
+            },
+            {
+              "id": 149940,
+              "name": "Nelson Abbey",
+              "position": "Centre-Back",
+              "shirtNumber": 6
+            }
+          ],
+          "bench": [
+            {
+              "id": 110864,
+              "name": "Kevin Chamorro",
+              "position": "Goalkeeper",
+              "shirtNumber": 22
+            },
+            {
+              "id": 4266,
+              "name": "Omar Richards",
+              "position": "Defence",
+              "shirtNumber": 77
+            },
+            {
+              "id": 81950,
+              "name": "Georgios Liavas",
+              "position": "Defence",
+              "shirtNumber": 54
+            },
+            {
+              "id": 98870,
+              "name": "Jonathan Panzo",
+              "position": "Defence",
+              "shirtNumber": 4
+            },
+            {
+              "id": 246203,
+              "name": "Diogo Oliveira",
+              "position": "Midfield",
+              "shirtNumber": 7
+            },
+            {
+              "id": 264675,
+              "name": "Antonis Papakanellos",
+              "position": "Midfield",
+              "shirtNumber": 19
+            },
+            {
+              "id": 244984,
+              "name": "Karem Zoabi",
+              "position": "Offence",
+              "shirtNumber": 14
+            },
+            {
+              "id": 142162,
+              "name": "Ole Pohlmann",
+              "position": "Central Midfield",
+              "shirtNumber": 80
+            },
+            {
+              "id": 111896,
+              "name": "Tamás Nikitscher",
+              "position": "Central Midfield",
+              "shirtNumber": 44
+            }
+          ]
         },
         "awayTeam": {
           "id": 1903,
@@ -679068,15 +679268,15 @@
         },
         "id": 537610,
         "utcDate": "2026-01-17T17:45:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 4,
+        "injuryTime": 5,
         "attendance": null,
         "venue": "MAC³PARK stadion",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:38:26Z",
+        "lastUpdated": "2026-01-17T20:41:41Z",
         "homeTeam": {
           "id": 684,
           "name": "PEC Zwolle",
@@ -679375,7 +679575,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
+            "home": 3,
             "away": 1
           },
           "halfTime": {
@@ -679456,7 +679656,10 @@
               "id": 160846,
               "name": "Shola Shoretire"
             },
-            "assist": null,
+            "assist": {
+              "id": 7744,
+              "name": "Sheral Floranus"
+            },
             "score": {
               "home": 3,
               "away": 1
@@ -679486,6 +679689,18 @@
             "player": {
               "id": 246145,
               "name": "Mateo Chávez"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 684,
+              "name": "PEC Zwolle"
+            },
+            "player": {
+              "id": 160846,
+              "name": "Shola Shoretire"
             },
             "card": "YELLOW"
           }
@@ -679541,15 +679756,15 @@
         },
         "id": 537604,
         "utcDate": "2026-01-17T19:00:00Z",
-        "status": "IN_PLAY",
-        "minute": 36,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Van Donge & De Roo Stadion",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:38:26Z",
+        "lastUpdated": "2026-01-17T20:57:36Z",
         "homeTeam": {
           "id": 670,
           "name": "SBV Excelsior",
@@ -679852,8 +680067,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "goals": [],
@@ -679910,15 +680125,15 @@
         },
         "id": 537607,
         "utcDate": "2026-01-17T19:00:00Z",
-        "status": "IN_PLAY",
-        "minute": 34,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Fortuna Sittard Stadion",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T20:38:27Z",
+        "lastUpdated": "2026-01-17T20:57:36Z",
         "homeTeam": {
           "id": 1920,
           "name": "Fortuna Sittard",
@@ -680203,8 +680418,8 @@
             "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "goals": [

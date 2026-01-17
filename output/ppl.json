@@ -71264,14 +71264,14 @@
       "id": 545856,
       "utcDate": "2026-01-17T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 75,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Estádio do CD Aves",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T20:38:22Z",
+      "lastUpdated": "2026-01-17T20:57:26Z",
       "homeTeam": {
         "id": 10340,
         "name": "AVS",
@@ -71644,6 +71644,42 @@
             "name": "Barbero"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 79,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 153734,
+            "name": "Matí­as Rocha"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 83,
+          "team": {
+            "id": 10340,
+            "name": "AVS"
+          },
+          "player": {
+            "id": 102250,
+            "name": "Jaume Grau"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 89,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 100703,
+            "name": "Ignacio De Arruabarrena"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -71698,14 +71734,14 @@
       "id": 545858,
       "utcDate": "2026-01-17T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 77,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Centro de Formação do FC Alverca",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T20:38:22Z",
+      "lastUpdated": "2026-01-17T20:57:26Z",
       "homeTeam": {
         "id": 7822,
         "name": "FC Alverca",
@@ -72081,6 +72117,30 @@
             "name": "Michel Augusto"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 83,
+          "team": {
+            "id": 7822,
+            "name": "FC Alverca"
+          },
+          "player": {
+            "id": 192010,
+            "name": "Andre Gomes"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 7822,
+            "name": "FC Alverca"
+          },
+          "player": {
+            "id": 169646,
+            "name": "Lucas Figueiredo"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -72142,7 +72202,7 @@
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T20:36:48Z",
+      "lastUpdated": "2026-01-17T20:39:59Z",
       "homeTeam": {
         "id": 496,
         "name": "Rio Ave FC",
@@ -72155,9 +72215,131 @@
           "nationality": "Greece"
         },
         "leagueRank": 10,
-        "formation": "3-4-3",
-        "lineup": [],
-        "bench": []
+        "formation": "3-4-2-1",
+        "lineup": [
+          {
+            "id": 114150,
+            "name": "Cezary Miszta",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 8966,
+            "name": "Jakub Brabec",
+            "position": "Defence",
+            "shirtNumber": 32
+          },
+          {
+            "id": 250593,
+            "name": "Francisco Petrasso",
+            "position": "Defence",
+            "shirtNumber": 23
+          },
+          {
+            "id": 209474,
+            "name": "Nikos Athanasiou",
+            "position": "Defence",
+            "shirtNumber": 3
+          },
+          {
+            "id": 209594,
+            "name": "Andreas Ndoj",
+            "position": "Defence",
+            "shirtNumber": 5
+          },
+          {
+            "id": 193588,
+            "name": "Joao Tome",
+            "position": "Defence",
+            "shirtNumber": 20
+          },
+          {
+            "id": 118074,
+            "name": "Dario Špikić",
+            "position": "Offence",
+            "shirtNumber": 18
+          },
+          {
+            "id": 141542,
+            "name": "Clayton",
+            "position": "Offence",
+            "shirtNumber": 9
+          },
+          {
+            "id": 178810,
+            "name": "André Luiz",
+            "position": "Centre-Forward",
+            "shirtNumber": 11
+          },
+          {
+            "id": 185179,
+            "name": "Brandon Aguilera",
+            "position": "Attacking Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 149940,
+            "name": "Nelson Abbey",
+            "position": "Centre-Back",
+            "shirtNumber": 6
+          }
+        ],
+        "bench": [
+          {
+            "id": 110864,
+            "name": "Kevin Chamorro",
+            "position": "Goalkeeper",
+            "shirtNumber": 22
+          },
+          {
+            "id": 4266,
+            "name": "Omar Richards",
+            "position": "Defence",
+            "shirtNumber": 77
+          },
+          {
+            "id": 81950,
+            "name": "Georgios Liavas",
+            "position": "Defence",
+            "shirtNumber": 54
+          },
+          {
+            "id": 98870,
+            "name": "Jonathan Panzo",
+            "position": "Defence",
+            "shirtNumber": 4
+          },
+          {
+            "id": 246203,
+            "name": "Diogo Oliveira",
+            "position": "Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 264675,
+            "name": "Antonis Papakanellos",
+            "position": "Midfield",
+            "shirtNumber": 19
+          },
+          {
+            "id": 244984,
+            "name": "Karem Zoabi",
+            "position": "Offence",
+            "shirtNumber": 14
+          },
+          {
+            "id": 142162,
+            "name": "Ole Pohlmann",
+            "position": "Central Midfield",
+            "shirtNumber": 80
+          },
+          {
+            "id": 111896,
+            "name": "Tamás Nikitscher",
+            "position": "Central Midfield",
+            "shirtNumber": 44
+          }
+        ]
       },
       "awayTeam": {
         "id": 1903,
