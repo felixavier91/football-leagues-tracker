@@ -208160,15 +208160,15 @@
         },
         "id": 544401,
         "utcDate": "2026-01-17T20:00:00Z",
-        "status": "IN_PLAY",
-        "minute": 37,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio de La Cartuja",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T21:39:14Z",
+        "lastUpdated": "2026-01-17T21:59:06Z",
         "homeTeam": {
           "id": 90,
           "name": "Real Betis Balompié",
@@ -208181,7 +208181,7 @@
             "nationality": "Chile"
           },
           "leagueRank": 6,
-          "formation": "4-3-3",
+          "formation": "4-2-3-1",
           "lineup": [
             {
               "id": 100130,
@@ -208453,8 +208453,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "goals": [],
@@ -412549,15 +412549,15 @@
         },
         "id": 537016,
         "utcDate": "2026-01-17T19:45:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 55,
         "injuryTime": null,
         "attendance": null,
         "venue": "Unipol Domus",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T21:39:31Z",
+        "lastUpdated": "2026-01-17T21:59:26Z",
         "homeTeam": {
           "id": 104,
           "name": "Cagliari Calcio",
@@ -501299,14 +501299,14 @@
         "id": 542566,
         "utcDate": "2026-01-17T20:05:00Z",
         "status": "IN_PLAY",
-        "minute": 29,
-        "injuryTime": null,
+        "minute": 45,
+        "injuryTime": 4,
         "attendance": null,
         "venue": "Stade Raymond Kopa",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T21:39:42Z",
+        "lastUpdated": "2026-01-17T21:59:37Z",
         "homeTeam": {
           "id": 532,
           "name": "Angers SCO",
@@ -501587,8 +501587,8 @@
           "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
-            "away": 2
+            "home": 1,
+            "away": 4
           },
           "halfTime": {
             "home": null,
@@ -501636,6 +501636,66 @@
             "score": {
               "home": 0,
               "away": 2
+            }
+          },
+          {
+            "minute": 34,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 516,
+              "name": "Olympique de Marseille"
+            },
+            "scorer": {
+              "id": 2499,
+              "name": "Hamed Traoré"
+            },
+            "assist": {
+              "id": 7809,
+              "name": "Emerson"
+            },
+            "score": {
+              "home": 0,
+              "away": 3
+            }
+          },
+          {
+            "minute": 40,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 516,
+              "name": "Olympique de Marseille"
+            },
+            "scorer": {
+              "id": 8492,
+              "name": "Tim Weah"
+            },
+            "assist": {
+              "id": 2499,
+              "name": "Hamed Traoré"
+            },
+            "score": {
+              "home": 0,
+              "away": 4
+            }
+          },
+          {
+            "minute": 45,
+            "injuryTime": 2,
+            "type": "REGULAR",
+            "team": {
+              "id": 532,
+              "name": "Angers SCO"
+            },
+            "scorer": {
+              "id": 185033,
+              "name": "Amine Sbaï"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
+              "away": 4
             }
           }
         ],
@@ -586911,14 +586971,14 @@
         "id": 545855,
         "utcDate": "2026-01-17T20:30:00Z",
         "status": "IN_PLAY",
-        "minute": 7,
+        "minute": 27,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estádio do Rio Ave F.C.",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T21:39:47Z",
+        "lastUpdated": "2026-01-17T21:59:42Z",
         "homeTeam": {
           "id": 496,
           "name": "Rio Ave FC",
@@ -587196,18 +587256,58 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 2
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 16,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1903,
+              "name": "Sport Lisboa e Benfica"
+            },
+            "scorer": {
+              "id": 82403,
+              "name": "Leandro Barreiro Martins"
+            },
+            "assist": {
+              "id": 151558,
+              "name": "Heorhii Sudakov"
+            },
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          },
+          {
+            "minute": 25,
+            "injuryTime": null,
+            "type": "OWN",
+            "team": {
+              "id": 496,
+              "name": "Rio Ave FC"
+            },
+            "scorer": {
+              "id": 209594,
+              "name": "Andreas Ndoj"
+            },
+            "assist": null,
+            "score": {
+              "home": 0,
+              "away": 2
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -679861,15 +679961,15 @@
         },
         "id": 537604,
         "utcDate": "2026-01-17T19:00:00Z",
-        "status": "IN_PLAY",
-        "minute": 83,
-        "injuryTime": null,
+        "status": "FINISHED",
+        "minute": 90,
+        "injuryTime": 5,
         "attendance": null,
         "venue": "Van Donge & De Roo Stadion",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T21:39:56Z",
+        "lastUpdated": "2026-01-17T21:55:51Z",
         "homeTeam": {
           "id": 670,
           "name": "SBV Excelsior",
@@ -680266,6 +680366,18 @@
               "name": "Noah Naujoks"
             },
             "card": "YELLOW"
+          },
+          {
+            "minute": 87,
+            "team": {
+              "id": 670,
+              "name": "SBV Excelsior"
+            },
+            "player": {
+              "id": 255551,
+              "name": "Chris-Kévin Nadje"
+            },
+            "card": "YELLOW"
           }
         ],
         "substitutions": [],
@@ -680319,15 +680431,15 @@
         },
         "id": 537607,
         "utcDate": "2026-01-17T19:00:00Z",
-        "status": "IN_PLAY",
-        "minute": 79,
-        "injuryTime": null,
+        "status": "FINISHED",
+        "minute": 90,
+        "injuryTime": 4,
         "attendance": null,
         "venue": "Fortuna Sittard Stadion",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T21:39:56Z",
+        "lastUpdated": "2026-01-17T21:57:11Z",
         "homeTeam": {
           "id": 1920,
           "name": "Fortuna Sittard",
@@ -680694,6 +680806,18 @@
               "name": "Kiliann Sildillia"
             },
             "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 1920,
+              "name": "Fortuna Sittard"
+            },
+            "player": {
+              "id": 149037,
+              "name": "Syb Van Ottele"
+            },
+            "card": "YELLOW"
           }
         ],
         "substitutions": [],
@@ -680747,15 +680871,15 @@
         },
         "id": 537609,
         "utcDate": "2026-01-17T20:00:00Z",
-        "status": "IN_PLAY",
-        "minute": 33,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Rat Verlegh",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T21:39:56Z",
+        "lastUpdated": "2026-01-17T21:59:46Z",
         "homeTeam": {
           "id": 681,
           "name": "NAC Breda",
@@ -681060,12 +681184,12 @@
           "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 2
           }
         },
         "goals": [
@@ -681105,6 +681229,27 @@
             },
             "score": {
               "home": 0,
+              "away": 2
+            }
+          },
+          {
+            "minute": 38,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 681,
+              "name": "NAC Breda"
+            },
+            "scorer": {
+              "id": 191040,
+              "name": "Moussa Soumano"
+            },
+            "assist": {
+              "id": 150439,
+              "name": "Rio Hillen"
+            },
+            "score": {
+              "home": 1,
               "away": 2
             }
           }

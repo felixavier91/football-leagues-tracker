@@ -72231,14 +72231,14 @@
       "id": 545855,
       "utcDate": "2026-01-17T20:30:00Z",
       "status": "IN_PLAY",
-      "minute": 7,
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio do Rio Ave F.C.",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T21:39:47Z",
+      "lastUpdated": "2026-01-17T21:59:42Z",
       "homeTeam": {
         "id": 496,
         "name": "Rio Ave FC",
@@ -72516,18 +72516,58 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 16,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "scorer": {
+            "id": 82403,
+            "name": "Leandro Barreiro Martins"
+          },
+          "assist": {
+            "id": 151558,
+            "name": "Heorhii Sudakov"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 25,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 496,
+            "name": "Rio Ave FC"
+          },
+          "scorer": {
+            "id": 209594,
+            "name": "Andreas Ndoj"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

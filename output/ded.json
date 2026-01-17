@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 162
+    "played": 164
   },
   "competition": {
     "id": 2003,
@@ -79612,15 +79612,15 @@
       },
       "id": 537604,
       "utcDate": "2026-01-17T19:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 83,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Van Donge & De Roo Stadion",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T21:39:56Z",
+      "lastUpdated": "2026-01-17T21:55:51Z",
       "homeTeam": {
         "id": 670,
         "name": "SBV Excelsior",
@@ -80017,6 +80017,18 @@
             "name": "Noah Naujoks"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 87,
+          "team": {
+            "id": 670,
+            "name": "SBV Excelsior"
+          },
+          "player": {
+            "id": 255551,
+            "name": "Chris-Kévin Nadje"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -80070,15 +80082,15 @@
       },
       "id": 537607,
       "utcDate": "2026-01-17T19:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 79,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Fortuna Sittard Stadion",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T21:39:56Z",
+      "lastUpdated": "2026-01-17T21:57:11Z",
       "homeTeam": {
         "id": 1920,
         "name": "Fortuna Sittard",
@@ -80445,6 +80457,18 @@
             "name": "Kiliann Sildillia"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "player": {
+            "id": 149037,
+            "name": "Syb Van Ottele"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -80498,15 +80522,15 @@
       },
       "id": 537609,
       "utcDate": "2026-01-17T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Rat Verlegh",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T21:39:56Z",
+      "lastUpdated": "2026-01-17T21:59:46Z",
       "homeTeam": {
         "id": 681,
         "name": "NAC Breda",
@@ -80811,12 +80835,12 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         }
       },
       "goals": [
@@ -80856,6 +80880,27 @@
           },
           "score": {
             "home": 0,
+            "away": 2
+          }
+        },
+        {
+          "minute": 38,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 681,
+            "name": "NAC Breda"
+          },
+          "scorer": {
+            "id": 191040,
+            "name": "Moussa Soumano"
+          },
+          "assist": {
+            "id": 150439,
+            "name": "Rio Hillen"
+          },
+          "score": {
+            "home": 1,
             "away": 2
           }
         }
