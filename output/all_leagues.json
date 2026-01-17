@@ -208161,14 +208161,14 @@
         "id": 544401,
         "utcDate": "2026-01-17T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 53,
+        "minute": 70,
         "injuryTime": null,
         "attendance": 60138,
         "venue": "Estadio de La Cartuja",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T22:12:07Z",
+        "lastUpdated": "2026-01-17T22:28:51Z",
         "homeTeam": {
           "id": 90,
           "name": "Real Betis Balompié",
@@ -208446,10 +208446,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -208457,7 +208457,26 @@
             "away": 0
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 57,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 90,
+              "name": "Real Betis Balompié"
+            },
+            "scorer": {
+              "id": 33045,
+              "name": "Aitor Ruibal"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [
           {
@@ -412550,14 +412569,14 @@
         "id": 537016,
         "utcDate": "2026-01-17T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 68,
+        "minute": 85,
         "injuryTime": null,
         "attendance": null,
         "venue": "Unipol Domus",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T22:12:21Z",
+        "lastUpdated": "2026-01-17T22:29:06Z",
         "homeTeam": {
           "id": 104,
           "name": "Cagliari Calcio",
@@ -501320,15 +501339,15 @@
         },
         "id": 542566,
         "utcDate": "2026-01-17T20:05:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 58,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stade Raymond Kopa",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T22:12:27Z",
+        "lastUpdated": "2026-01-17T22:29:17Z",
         "homeTeam": {
           "id": 532,
           "name": "Angers SCO",
@@ -586992,15 +587011,15 @@
         },
         "id": 545855,
         "utcDate": "2026-01-17T20:30:00Z",
-        "status": "IN_PLAY",
-        "minute": 40,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estádio do Rio Ave F.C.",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T22:12:37Z",
+        "lastUpdated": "2026-01-17T22:29:27Z",
         "homeTeam": {
           "id": 496,
           "name": "Rio Ave FC",
@@ -587285,8 +587304,8 @@
             "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 2
           }
         },
         "goals": [
@@ -680893,15 +680912,15 @@
         },
         "id": 537609,
         "utcDate": "2026-01-17T20:00:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 63,
         "injuryTime": null,
         "attendance": null,
         "venue": "Rat Verlegh",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T22:12:46Z",
+        "lastUpdated": "2026-01-17T22:29:31Z",
         "homeTeam": {
           "id": 681,
           "name": "NAC Breda",
@@ -681203,10 +681222,10 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 2
           },
           "halfTime": {
@@ -681272,6 +681291,27 @@
             },
             "score": {
               "home": 1,
+              "away": 2
+            }
+          },
+          {
+            "minute": 55,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 681,
+              "name": "NAC Breda"
+            },
+            "scorer": {
+              "id": 191040,
+              "name": "Moussa Soumano"
+            },
+            "assist": {
+              "id": 125169,
+              "name": "Charles-Andréas Brym"
+            },
+            "score": {
+              "home": 2,
               "away": 2
             }
           }
