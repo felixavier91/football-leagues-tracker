@@ -99215,14 +99215,14 @@
         "id": 538002,
         "utcDate": "2026-01-17T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 7,
+        "minute": 17,
         "injuryTime": null,
         "attendance": null,
         "venue": "City Ground, Nottingham",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T18:37:13Z",
+        "lastUpdated": "2026-01-17T18:47:25Z",
         "homeTeam": {
           "id": 351,
           "name": "Nottingham Forest FC",
@@ -99235,7 +99235,7 @@
             "nationality": "England"
           },
           "leagueRank": 17,
-          "formation": "4-3-3",
+          "formation": "4-2-3-1",
           "lineup": [
             {
               "id": 3643,
@@ -207573,14 +207573,14 @@
         "id": 544406,
         "utcDate": "2026-01-17T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 6,
+        "minute": 16,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio El Sadar",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T18:37:13Z",
+        "lastUpdated": "2026-01-17T18:47:32Z",
         "homeTeam": {
           "id": 79,
           "name": "CA Osasuna",
@@ -207895,7 +207895,20 @@
         },
         "goals": [],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 7,
+            "team": {
+              "id": 1048,
+              "name": "Real Oviedo"
+            },
+            "player": {
+              "id": 79960,
+              "name": "Kwasi Sibo"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -297959,14 +297972,14 @@
         "id": 540559,
         "utcDate": "2026-01-17T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 8,
+        "minute": 17,
         "injuryTime": null,
         "attendance": null,
         "venue": "Red Bull Arena Leipzig",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T18:37:33Z",
+        "lastUpdated": "2026-01-17T18:47:38Z",
         "homeTeam": {
           "id": 721,
           "name": "RB Leipzig",
@@ -411478,14 +411491,14 @@
         "id": 537022,
         "utcDate": "2026-01-17T17:00:00Z",
         "status": "IN_PLAY",
-        "minute": 35,
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Diego Armando Maradona",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T18:37:42Z",
+        "lastUpdated": "2026-01-17T18:47:42Z",
         "homeTeam": {
           "id": 113,
           "name": "SSC Napoli",
@@ -411943,7 +411956,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11029,
+            "name": "Davide Massa",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          },
+          {
+            "id": 11122,
+            "name": "Pietro Dei Giudici",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "Italy"
+          },
+          {
+            "id": 206885,
+            "name": "Davide Moro",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
@@ -499357,14 +499389,14 @@
         "id": 542565,
         "utcDate": "2026-01-17T16:00:00Z",
         "status": "IN_PLAY",
-        "minute": 80,
+        "minute": 90,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stade Bollaert-Delelis",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T18:37:51Z",
+        "lastUpdated": "2026-01-17T18:47:56Z",
         "homeTeam": {
           "id": 546,
           "name": "Racing Club de Lens",
@@ -499735,6 +499767,18 @@
             "player": {
               "id": 153924,
               "name": "Marvin Senaya"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 80,
+            "team": {
+              "id": 546,
+              "name": "Racing Club de Lens"
+            },
+            "player": {
+              "id": 109649,
+              "name": "Morgan Guilavogui"
             },
             "card": "YELLOW"
           }
@@ -677382,15 +677426,15 @@
         },
         "id": 537610,
         "utcDate": "2026-01-17T17:45:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 2,
         "injuryTime": null,
         "attendance": null,
         "venue": "MAC³PARK stadion",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T18:30:58Z",
+        "lastUpdated": "2026-01-17T18:48:23Z",
         "homeTeam": {
           "id": 684,
           "name": "PEC Zwolle",
@@ -677686,11 +677730,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
