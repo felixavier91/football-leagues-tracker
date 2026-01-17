@@ -208161,14 +208161,14 @@
         "id": 544401,
         "utcDate": "2026-01-17T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 70,
+        "minute": 80,
         "injuryTime": null,
         "attendance": 60138,
         "venue": "Estadio de La Cartuja",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T22:28:51Z",
+        "lastUpdated": "2026-01-17T22:39:46Z",
         "homeTeam": {
           "id": 90,
           "name": "Real Betis Balompié",
@@ -208488,6 +208488,54 @@
             "player": {
               "id": 267,
               "name": "Alfonso Pedraza"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 70,
+            "team": {
+              "id": 90,
+              "name": "Real Betis Balompié"
+            },
+            "player": {
+              "id": 179155,
+              "name": "Valentín Gómez"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 74,
+            "team": {
+              "id": 94,
+              "name": "Villarreal CF"
+            },
+            "player": {
+              "id": 33156,
+              "name": "Marcelino"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 76,
+            "team": {
+              "id": 94,
+              "name": "Villarreal CF"
+            },
+            "player": {
+              "id": 213263,
+              "name": "Santi Comesaña"
+            },
+            "card": "RED"
+          },
+          {
+            "minute": 80,
+            "team": {
+              "id": 94,
+              "name": "Villarreal CF"
+            },
+            "player": {
+              "id": 212858,
+              "name": "Santiago Mouriño"
             },
             "card": "YELLOW"
           }
@@ -412569,14 +412617,14 @@
         "id": 537016,
         "utcDate": "2026-01-17T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 85,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 5,
         "attendance": null,
         "venue": "Unipol Domus",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T22:29:06Z",
+        "lastUpdated": "2026-01-17T22:40:16Z",
         "homeTeam": {
           "id": 104,
           "name": "Cagliari Calcio",
@@ -501340,14 +501388,14 @@
         "id": 542566,
         "utcDate": "2026-01-17T20:05:00Z",
         "status": "IN_PLAY",
-        "minute": 58,
+        "minute": 69,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stade Raymond Kopa",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T22:29:17Z",
+        "lastUpdated": "2026-01-17T22:40:22Z",
         "homeTeam": {
           "id": 532,
           "name": "Angers SCO",
@@ -501741,7 +501789,20 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 68,
+            "team": {
+              "id": 532,
+              "name": "Angers SCO"
+            },
+            "player": {
+              "id": 746,
+              "name": "Haris Belkebla"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -587011,15 +587072,15 @@
         },
         "id": 545855,
         "utcDate": "2026-01-17T20:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 47,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estádio do Rio Ave F.C.",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T22:29:27Z",
+        "lastUpdated": "2026-01-17T22:40:27Z",
         "homeTeam": {
           "id": 496,
           "name": "Rio Ave FC",
@@ -680913,14 +680974,14 @@
         "id": 537609,
         "utcDate": "2026-01-17T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 63,
+        "minute": 74,
         "injuryTime": null,
-        "attendance": null,
+        "attendance": 20109,
         "venue": "Rat Verlegh",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T22:29:31Z",
+        "lastUpdated": "2026-01-17T22:40:36Z",
         "homeTeam": {
           "id": 681,
           "name": "NAC Breda",
@@ -681222,11 +681283,11 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 2,
-            "away": 2
+            "away": 3
           },
           "halfTime": {
             "home": 1,
@@ -681314,6 +681375,27 @@
               "home": 2,
               "away": 2
             }
+          },
+          {
+            "minute": 69,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1915,
+              "name": "NEC"
+            },
+            "scorer": {
+              "id": 131178,
+              "name": "Dirk Proper"
+            },
+            "assist": {
+              "id": 21733,
+              "name": "Tjaronn Chery"
+            },
+            "score": {
+              "home": 2,
+              "away": 3
+            }
           }
         ],
         "penalties": [],
@@ -681327,6 +681409,18 @@
             "player": {
               "id": 125169,
               "name": "Charles-Andréas Brym"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 65,
+            "team": {
+              "id": 681,
+              "name": "NAC Breda"
+            },
+            "player": {
+              "id": 181154,
+              "name": "Max Balard"
             },
             "card": "YELLOW"
           }

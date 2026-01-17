@@ -80523,14 +80523,14 @@
       "id": 537609,
       "utcDate": "2026-01-17T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 63,
+      "minute": 74,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 20109,
       "venue": "Rat Verlegh",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T22:29:31Z",
+      "lastUpdated": "2026-01-17T22:40:36Z",
       "homeTeam": {
         "id": 681,
         "name": "NAC Breda",
@@ -80832,11 +80832,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": 1,
@@ -80924,6 +80924,27 @@
             "home": 2,
             "away": 2
           }
+        },
+        {
+          "minute": 69,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "scorer": {
+            "id": 131178,
+            "name": "Dirk Proper"
+          },
+          "assist": {
+            "id": 21733,
+            "name": "Tjaronn Chery"
+          },
+          "score": {
+            "home": 2,
+            "away": 3
+          }
         }
       ],
       "penalties": [],
@@ -80937,6 +80958,18 @@
           "player": {
             "id": 125169,
             "name": "Charles-Andréas Brym"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 65,
+          "team": {
+            "id": 681,
+            "name": "NAC Breda"
+          },
+          "player": {
+            "id": 181154,
+            "name": "Max Balard"
           },
           "card": "YELLOW"
         }
