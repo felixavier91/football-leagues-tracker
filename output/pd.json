@@ -93699,15 +93699,15 @@
       },
       "id": 544406,
       "utcDate": "2026-01-17T17:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 20651,
       "venue": "Estadio El Sadar",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T19:12:22Z",
+      "lastUpdated": "2026-01-17T19:33:53Z",
       "homeTeam": {
         "id": 79,
         "name": "CA Osasuna",
@@ -94009,15 +94009,15 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -94039,6 +94039,27 @@
           },
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "scorer": {
+            "id": 2237,
+            "name": "Ante Budimir"
+          },
+          "assist": {
+            "id": 213260,
+            "name": "Javi Galán"
+          },
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
