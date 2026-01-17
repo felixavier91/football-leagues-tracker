@@ -72391,15 +72391,15 @@
       },
       "id": 542561,
       "utcDate": "2026-01-17T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 34,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadium de Toulouse",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T19:34:22Z",
+      "lastUpdated": "2026-01-17T19:50:57Z",
       "homeTeam": {
         "id": 511,
         "name": "Toulouse FC",
@@ -72680,12 +72680,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "goals": [
@@ -72709,10 +72709,44 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "scorer": {
+            "id": 176747,
+            "name": "Frank Magri"
+          },
+          "assist": {
+            "id": 80175,
+            "name": "Yann Gboho"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 40,
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "player": {
+            "id": 246041,
+            "name": "Abdulay Bah"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

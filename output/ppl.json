@@ -71264,14 +71264,14 @@
       "id": 545856,
       "utcDate": "2026-01-17T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 31,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Estádio do CD Aves",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T19:34:30Z",
+      "lastUpdated": "2026-01-17T19:51:02Z",
       "homeTeam": {
         "id": 10340,
         "name": "AVS",
@@ -71549,18 +71549,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "scorer": {
+            "id": 81391,
+            "name": "Barbero"
+          },
+          "assist": {
+            "id": 169128,
+            "name": "Taichi Fukui"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -71596,6 +71618,18 @@
           "player": {
             "id": 243619,
             "name": "Gustavo Mendonça"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 38,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 80899,
+            "name": "Javi Sánchez"
           },
           "card": "YELLOW"
         }
@@ -71651,15 +71685,15 @@
       },
       "id": 545858,
       "utcDate": "2026-01-17T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 31,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Centro de Formação do FC Alverca",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T19:34:30Z",
+      "lastUpdated": "2026-01-17T19:51:02Z",
       "homeTeam": {
         "id": 7822,
         "name": "FC Alverca",
@@ -71944,8 +71978,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
