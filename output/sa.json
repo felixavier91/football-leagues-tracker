@@ -99652,15 +99652,15 @@
       },
       "id": 537023,
       "utcDate": "2026-01-17T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 23,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Friuli",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T14:56:37Z",
+      "lastUpdated": "2026-01-17T15:25:44Z",
       "homeTeam": {
         "id": 115,
         "name": "Udinese Calcio",
@@ -99673,7 +99673,7 @@
           "nationality": "Germany"
         },
         "leagueRank": 10,
-        "formation": "3-5-2",
+        "formation": "3-5-1-1",
         "lineup": [
           {
             "id": 65480,
@@ -99992,18 +99992,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 20,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 3220,
+            "name": "Lautaro Martínez"
+          },
+          "assist": {
+            "id": 215433,
+            "name": "Francesco Esposito"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

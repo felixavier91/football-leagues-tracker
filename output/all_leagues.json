@@ -96386,14 +96386,14 @@
         "id": 538001,
         "utcDate": "2026-01-17T12:30:00Z",
         "status": "IN_PLAY",
-        "minute": 70,
-        "injuryTime": null,
-        "attendance": null,
+        "minute": 90,
+        "injuryTime": 7,
+        "attendance": 74004,
         "venue": "Old Trafford",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T14:57:05Z",
+        "lastUpdated": "2026-01-17T15:25:13Z",
         "homeTeam": {
           "id": 66,
           "name": "Manchester United FC",
@@ -96674,7 +96674,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
@@ -96701,6 +96701,27 @@
             },
             "score": {
               "home": 1,
+              "away": 0
+            }
+          },
+          {
+            "minute": 76,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 66,
+              "name": "Manchester United FC"
+            },
+            "scorer": {
+              "id": 211559,
+              "name": "Patrick Dorgu"
+            },
+            "assist": {
+              "id": 30842,
+              "name": "Matheus Cunha"
+            },
+            "score": {
+              "home": 2,
               "away": 0
             }
           }
@@ -96752,6 +96773,18 @@
             "player": {
               "id": 206743,
               "name": "Nico O'Reilly"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 75,
+            "team": {
+              "id": 65,
+              "name": "Manchester City FC"
+            },
+            "player": {
+              "id": 187202,
+              "name": "Rico Lewis"
             },
             "card": "YELLOW"
           }
@@ -96815,7 +96848,7 @@
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T01:32:01Z",
+        "lastUpdated": "2026-01-17T15:03:38Z",
         "homeTeam": {
           "id": 71,
           "name": "Sunderland AFC",
@@ -96828,9 +96861,131 @@
             "nationality": "France"
           },
           "leagueRank": 10,
-          "formation": null,
-          "lineup": [],
-          "bench": []
+          "formation": "5-4-1",
+          "lineup": [
+            {
+              "id": 137691,
+              "name": "Robin Roefs",
+              "position": "Goalkeeper",
+              "shirtNumber": 22
+            },
+            {
+              "id": 182273,
+              "name": "Noah Sadiki",
+              "position": "Defence",
+              "shirtNumber": 27
+            },
+            {
+              "id": 97535,
+              "name": "Brian Brobbey",
+              "position": "Centre-Forward",
+              "shirtNumber": 9
+            },
+            {
+              "id": 117687,
+              "name": "Trai Hume",
+              "position": "Right-Back",
+              "shirtNumber": 32
+            },
+            {
+              "id": 99664,
+              "name": "Enzo Le Fée",
+              "position": "Central Midfield",
+              "shirtNumber": 28
+            },
+            {
+              "id": 172275,
+              "name": "Romaine Mundle",
+              "position": "Left Winger",
+              "shirtNumber": 14
+            },
+            {
+              "id": 3477,
+              "name": "Granit Xhaka",
+              "position": "Defensive Midfield",
+              "shirtNumber": 34
+            },
+            {
+              "id": 8371,
+              "name": "Nordi Mukiele",
+              "position": "Right-Back",
+              "shirtNumber": 20
+            },
+            {
+              "id": 121109,
+              "name": "Daniel Ballard",
+              "position": "Centre-Back",
+              "shirtNumber": 5
+            },
+            {
+              "id": 46491,
+              "name": "Omar Alderete",
+              "position": "Centre-Back",
+              "shirtNumber": 15
+            },
+            {
+              "id": 37094,
+              "name": "Reinildo",
+              "position": "Left-Back",
+              "shirtNumber": 17
+            }
+          ],
+          "bench": [
+            {
+              "id": 97249,
+              "name": "Anthony Patterson",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 190817,
+              "name": "Chris Rigg",
+              "position": "Central Midfield",
+              "shirtNumber": 11
+            },
+            {
+              "id": 6259,
+              "name": "Luke O'Nien",
+              "position": "Centre-Back",
+              "shirtNumber": 13
+            },
+            {
+              "id": 172127,
+              "name": "Dan Neil",
+              "position": "Central Midfield",
+              "shirtNumber": 4
+            },
+            {
+              "id": 178644,
+              "name": "Eliezer Mayenda",
+              "position": "Centre-Forward",
+              "shirtNumber": 12
+            },
+            {
+              "id": 83599,
+              "name": "Wilson Isidor",
+              "position": "Centre-Forward",
+              "shirtNumber": 18
+            },
+            {
+              "id": 7468,
+              "name": "Lutsharel Geertruida",
+              "position": "Right-Back",
+              "shirtNumber": 6
+            },
+            {
+              "id": 172123,
+              "name": "Dennis Cirkin",
+              "position": "Left-Back",
+              "shirtNumber": 3
+            },
+            {
+              "id": 166249,
+              "name": "Simon Adingra",
+              "position": "Left Winger",
+              "shirtNumber": 24
+            }
+          ]
         },
         "awayTeam": {
           "id": 354,
@@ -96844,9 +96999,137 @@
             "nationality": "Austria"
           },
           "leagueRank": 13,
-          "formation": null,
-          "lineup": [],
-          "bench": []
+          "formation": "3-4-2-1",
+          "lineup": [
+            {
+              "id": 5457,
+              "name": "Dean Henderson",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 180389,
+              "name": "Adam Wharton",
+              "position": "Midfield",
+              "shirtNumber": 20
+            },
+            {
+              "id": 180081,
+              "name": "Yeremy",
+              "position": "Offence",
+              "shirtNumber": 10
+            },
+            {
+              "id": 641,
+              "name": "Jean-Philippe Mateta",
+              "position": "Centre-Forward",
+              "shirtNumber": 14
+            },
+            {
+              "id": 124694,
+              "name": "Brennan Johnson",
+              "position": "Right Winger",
+              "shirtNumber": 11
+            },
+            {
+              "id": 152149,
+              "name": "Justin Devenny",
+              "position": "Central Midfield",
+              "shirtNumber": 55
+            },
+            {
+              "id": 8124,
+              "name": "Will Hughes",
+              "position": "Central Midfield",
+              "shirtNumber": 19
+            },
+            {
+              "id": 137068,
+              "name": "Tyrick Mitchell",
+              "position": "Left-Back",
+              "shirtNumber": 3
+            },
+            {
+              "id": 3737,
+              "name": "Jefferson Lerma",
+              "position": "Defensive Midfield",
+              "shirtNumber": 8
+            },
+            {
+              "id": 82351,
+              "name": "Maxence Lacroix",
+              "position": "Centre-Back",
+              "shirtNumber": 5
+            },
+            {
+              "id": 99856,
+              "name": "Chris Richards",
+              "position": "Centre-Back",
+              "shirtNumber": 26
+            }
+          ],
+          "bench": [
+            {
+              "id": 8420,
+              "name": "Walter Benítez",
+              "position": "Goalkeeper",
+              "shirtNumber": 44
+            },
+            {
+              "id": 6413,
+              "name": "Remi Matthews",
+              "position": "Goalkeeper",
+              "shirtNumber": 31
+            },
+            {
+              "id": 260271,
+              "name": "Jaydee Canvot",
+              "position": "Defence",
+              "shirtNumber": 23
+            },
+            {
+              "id": 262500,
+              "name": "Danny Imray",
+              "position": "Defence",
+              "shirtNumber": 30
+            },
+            {
+              "id": 289916,
+              "name": "Joel Drakes-Thomas",
+              "position": "Midfield",
+              "shirtNumber": 86
+            },
+            {
+              "id": 187401,
+              "name": "Kaden Rodney",
+              "position": "Defensive Midfield",
+              "shirtNumber": 42
+            },
+            {
+              "id": 260763,
+              "name": "Chrisantus",
+              "position": "Attacking Midfield",
+              "shirtNumber": 12
+            },
+            {
+              "id": 10208,
+              "name": "Borna Sosa",
+              "position": "Left Midfield",
+              "shirtNumber": 24
+            },
+            {
+              "id": 150948,
+              "name": "Chadi Riad",
+              "position": "Centre-Back",
+              "shirtNumber": 34
+            },
+            {
+              "id": 7863,
+              "name": "Nathaniel Clyne",
+              "position": "Right-Back",
+              "shirtNumber": 17
+            }
+          ]
         },
         "score": {
           "winner": null,
@@ -97975,7 +98258,7 @@
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T01:32:01Z",
+        "lastUpdated": "2026-01-17T14:58:21Z",
         "homeTeam": {
           "id": 73,
           "name": "Tottenham Hotspur FC",
@@ -97988,9 +98271,131 @@
             "nationality": "Denmark"
           },
           "leagueRank": 14,
-          "formation": null,
-          "lineup": [],
-          "bench": []
+          "formation": "4-2-3-1",
+          "lineup": [
+            {
+              "id": 3086,
+              "name": "Guglielmo Vicario",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 8708,
+              "name": "Randal Kolo Muani",
+              "position": "Centre-Forward",
+              "shirtNumber": 39
+            },
+            {
+              "id": 184999,
+              "name": "Wilson Odobert",
+              "position": "Right Winger",
+              "shirtNumber": 28
+            },
+            {
+              "id": 148289,
+              "name": "Xavi Simons",
+              "position": "Attacking Midfield",
+              "shirtNumber": 7
+            },
+            {
+              "id": 171977,
+              "name": "Mathys Tel",
+              "position": "Centre-Forward",
+              "shirtNumber": 11
+            },
+            {
+              "id": 177040,
+              "name": "Archie Gray",
+              "position": "Right-Back",
+              "shirtNumber": 14
+            },
+            {
+              "id": 119265,
+              "name": "Conor Gallagher",
+              "position": "Central Midfield",
+              "shirtNumber": 22
+            },
+            {
+              "id": 81037,
+              "name": "Pedro Porro",
+              "position": "Right-Back",
+              "shirtNumber": 23
+            },
+            {
+              "id": 45735,
+              "name": "Christian Romero",
+              "position": "Centre-Back",
+              "shirtNumber": 17
+            },
+            {
+              "id": 131177,
+              "name": "Mickey van de Ven",
+              "position": "Centre-Back",
+              "shirtNumber": 37
+            },
+            {
+              "id": 7994,
+              "name": "Ben Davies",
+              "position": "Centre-Back",
+              "shirtNumber": 33
+            }
+          ],
+          "bench": [
+            {
+              "id": 255239,
+              "name": "Antonín Kinský",
+              "position": "Goalkeeper",
+              "shirtNumber": 31
+            },
+            {
+              "id": 170378,
+              "name": "Destiny Udogie",
+              "position": "Left-Back",
+              "shirtNumber": 13
+            },
+            {
+              "id": 80775,
+              "name": "Djed Spence",
+              "position": "Right-Back",
+              "shirtNumber": 24
+            },
+            {
+              "id": 7878,
+              "name": "Dominic Solanke",
+              "position": "Centre-Forward",
+              "shirtNumber": 19
+            },
+            {
+              "id": 156616,
+              "name": "Dane Scarlett",
+              "position": "Centre-Forward",
+              "shirtNumber": 44
+            },
+            {
+              "id": 140432,
+              "name": "Radu Drăgușin",
+              "position": "Centre-Back",
+              "shirtNumber": 3
+            },
+            {
+              "id": 6655,
+              "name": "Kevin Danso",
+              "position": "Centre-Back",
+              "shirtNumber": 4
+            },
+            {
+              "id": 8410,
+              "name": "Yves Bissouma",
+              "position": "Defensive Midfield",
+              "shirtNumber": 8
+            },
+            {
+              "id": 193622,
+              "name": "Lucas Bergvall",
+              "position": "Central Midfield",
+              "shirtNumber": 15
+            }
+          ]
         },
         "awayTeam": {
           "id": 563,
@@ -98004,9 +98409,131 @@
             "nationality": "Portugal"
           },
           "leagueRank": 18,
-          "formation": null,
-          "lineup": [],
-          "bench": []
+          "formation": "4-2-3-1",
+          "lineup": [
+            {
+              "id": 3357,
+              "name": "Alphonse Aréola",
+              "position": "Goalkeeper",
+              "shirtNumber": 23
+            },
+            {
+              "id": 178755,
+              "name": "Pablo Felipe",
+              "position": "Offence",
+              "shirtNumber": 19
+            },
+            {
+              "id": 28416,
+              "name": "Valentín Castellanos",
+              "position": "Centre-Forward",
+              "shirtNumber": 11
+            },
+            {
+              "id": 11414,
+              "name": "Jarrod Bowen",
+              "position": "Right Winger",
+              "shirtNumber": 20
+            },
+            {
+              "id": 102193,
+              "name": "Crysencio Summerville",
+              "position": "Left Winger",
+              "shirtNumber": 7
+            },
+            {
+              "id": 15742,
+              "name": "Tomáš Souček",
+              "position": "Defensive Midfield",
+              "shirtNumber": 28
+            },
+            {
+              "id": 187216,
+              "name": "Mateus Fernandes",
+              "position": "Central Midfield",
+              "shirtNumber": 18
+            },
+            {
+              "id": 8158,
+              "name": "Aaron Wan-Bissaka",
+              "position": "Right-Back",
+              "shirtNumber": 29
+            },
+            {
+              "id": 7789,
+              "name": "Konstantinos Mavropanos",
+              "position": "Centre-Back",
+              "shirtNumber": 15
+            },
+            {
+              "id": 79903,
+              "name": "Jean-Clair Todibo",
+              "position": "Centre-Back",
+              "shirtNumber": 25
+            },
+            {
+              "id": 188900,
+              "name": "Oliver Scarles",
+              "position": "Left-Back",
+              "shirtNumber": 30
+            }
+          ],
+          "bench": [
+            {
+              "id": 97144,
+              "name": "Mads Hermansen",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 273157,
+              "name": "Ezra Mayers",
+              "position": "Defence",
+              "shirtNumber": 63
+            },
+            {
+              "id": 219676,
+              "name": "Mohamadou Kante",
+              "position": "Midfield",
+              "shirtNumber": 55
+            },
+            {
+              "id": 10777,
+              "name": "Igor",
+              "position": "Centre-Back",
+              "shirtNumber": 5
+            },
+            {
+              "id": 8251,
+              "name": "Callum Wilson",
+              "position": "Centre-Forward",
+              "shirtNumber": 9
+            },
+            {
+              "id": 7995,
+              "name": "Kyle Walker-Peters",
+              "position": "Right-Back",
+              "shirtNumber": 2
+            },
+            {
+              "id": 39104,
+              "name": "Guido Rodríguez",
+              "position": "Defensive Midfield",
+              "shirtNumber": 24
+            },
+            {
+              "id": 176597,
+              "name": "Freddie Potts",
+              "position": "Defensive Midfield",
+              "shirtNumber": 32
+            },
+            {
+              "id": 25376,
+              "name": "Max Kilman",
+              "position": "Centre-Back",
+              "shirtNumber": 3
+            }
+          ]
         },
         "score": {
           "winner": null,
@@ -205057,15 +205584,15 @@
         },
         "id": 544410,
         "utcDate": "2026-01-17T13:00:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 64,
         "injuryTime": null,
-        "attendance": null,
+        "attendance": 70104,
         "venue": "Estadio Santiago Bernabeu",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T14:57:07Z",
+        "lastUpdated": "2026-01-17T15:25:15Z",
         "homeTeam": {
           "id": 86,
           "name": "Real Madrid CF",
@@ -205379,10 +205906,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -205390,8 +205917,39 @@
             "away": 0
           }
         },
-        "goals": [],
-        "penalties": [],
+        "goals": [
+          {
+            "minute": 58,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 86,
+              "name": "Real Madrid CF"
+            },
+            "scorer": {
+              "id": 3374,
+              "name": "Kylian Mbappé"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
+        "penalties": [
+          {
+            "player": {
+              "id": 3374,
+              "name": "Kylian Mbappé"
+            },
+            "team": {
+              "id": 86,
+              "name": "Real Madrid CF"
+            },
+            "scored": true
+          }
+        ],
         "bookings": [
           {
             "minute": 17,
@@ -205489,7 +206047,7 @@
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-11T01:32:02Z",
+        "lastUpdated": "2026-01-17T15:24:05Z",
         "homeTeam": {
           "id": 89,
           "name": "RCD Mallorca",
@@ -205502,9 +206060,149 @@
             "nationality": "Spain"
           },
           "leagueRank": 17,
-          "formation": null,
-          "lineup": [],
-          "bench": []
+          "formation": "4-2-3-1",
+          "lineup": [
+            {
+              "id": 172628,
+              "name": "Leo Román",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 285500,
+              "name": "Jan Virgili",
+              "position": "Offence",
+              "shirtNumber": 17
+            },
+            {
+              "id": 30059,
+              "name": "Vedat Muriqi",
+              "position": "Centre-Forward",
+              "shirtNumber": 7
+            },
+            {
+              "id": 185178,
+              "name": "Mateo Fernandez",
+              "position": "Centre-Forward",
+              "shirtNumber": 18
+            },
+            {
+              "id": 32717,
+              "name": "Sergi Darder",
+              "position": "Central Midfield",
+              "shirtNumber": 10
+            },
+            {
+              "id": 6713,
+              "name": "Omar Mascarell",
+              "position": "Defensive Midfield",
+              "shirtNumber": 5
+            },
+            {
+              "id": 140814,
+              "name": "Samuel Almeida Costa",
+              "position": "Defensive Midfield",
+              "shirtNumber": 12
+            },
+            {
+              "id": 120984,
+              "name": "Mateu Morey",
+              "position": "Right-Back",
+              "shirtNumber": 2
+            },
+            {
+              "id": 2777,
+              "name": "Martin Valjent",
+              "position": "Centre-Back",
+              "shirtNumber": 24
+            },
+            {
+              "id": 2151,
+              "name": "Marash Kumbulla",
+              "position": "Centre-Back",
+              "shirtNumber": 4
+            },
+            {
+              "id": 33138,
+              "name": "Toni Lato",
+              "position": "Left-Back",
+              "shirtNumber": 3
+            }
+          ],
+          "bench": [
+            {
+              "id": 179663,
+              "name": "Lucas Bergström",
+              "position": "Goalkeeper",
+              "shirtNumber": 13
+            },
+            {
+              "id": 274,
+              "name": "Cuéllar",
+              "position": "Goalkeeper",
+              "shirtNumber": 25
+            },
+            {
+              "id": 264398,
+              "name": "Iliesse Salhi",
+              "position": "Midfield",
+              "shirtNumber": 26
+            },
+            {
+              "id": 180040,
+              "name": "Antonio Sánchez",
+              "position": "Midfield",
+              "shirtNumber": 6
+            },
+            {
+              "id": 159520,
+              "name": "Pablo Torre",
+              "position": "Attacking Midfield",
+              "shirtNumber": 20
+            },
+            {
+              "id": 32984,
+              "name": "Antonio Raíllo",
+              "position": "Centre-Back",
+              "shirtNumber": 21
+            },
+            {
+              "id": 33681,
+              "name": "Abdón Prats",
+              "position": "Centre-Forward",
+              "shirtNumber": 9
+            },
+            {
+              "id": 3724,
+              "name": "Johan Mojica",
+              "position": "Left-Back",
+              "shirtNumber": 22
+            },
+            {
+              "id": 218445,
+              "name": "David López",
+              "position": "Centre-Back",
+              "shirtNumber": 27
+            },
+            {
+              "id": 176236,
+              "name": "Javier Llabres",
+              "position": "Left Winger",
+              "shirtNumber": 19
+            },
+            {
+              "id": 192777,
+              "name": "Justin-Noel Kalumba",
+              "position": "Right Winger",
+              "shirtNumber": 30
+            },
+            {
+              "id": 9408,
+              "name": "Takuma Asano",
+              "position": "Right Winger",
+              "shirtNumber": 11
+            }
+          ]
         },
         "awayTeam": {
           "id": 77,
@@ -205518,9 +206216,143 @@
             "nationality": "Spain"
           },
           "leagueRank": 8,
-          "formation": null,
-          "lineup": [],
-          "bench": []
+          "formation": "4-2-3-1",
+          "lineup": [
+            {
+              "id": 32570,
+              "name": "Unai Simón",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 81565,
+              "name": "Gorka Guruzeta",
+              "position": "Centre-Forward",
+              "shirtNumber": 11
+            },
+            {
+              "id": 2294,
+              "name": "Álex Berenguer",
+              "position": "Left Winger",
+              "shirtNumber": 7
+            },
+            {
+              "id": 202335,
+              "name": "Unai Gomez",
+              "position": "Attacking Midfield",
+              "shirtNumber": 20
+            },
+            {
+              "id": 157135,
+              "name": "Nico Williams",
+              "position": "Left Winger",
+              "shirtNumber": 10
+            },
+            {
+              "id": 32481,
+              "name": "Ruiz de Galarreta",
+              "position": "Central Midfield",
+              "shirtNumber": 16
+            },
+            {
+              "id": 244599,
+              "name": "Mikel Jauregizar",
+              "position": "Central Midfield",
+              "shirtNumber": 18
+            },
+            {
+              "id": 136000,
+              "name": "Jesús Areso",
+              "position": "Right-Back",
+              "shirtNumber": 12
+            },
+            {
+              "id": 32618,
+              "name": "Daniel Vivian",
+              "position": "Centre-Back",
+              "shirtNumber": 3
+            },
+            {
+              "id": 151439,
+              "name": "Aitor Paredes Casamichana",
+              "position": "Centre-Back",
+              "shirtNumber": 4
+            },
+            {
+              "id": 8479,
+              "name": "Yuri Berchiche",
+              "position": "Left-Back",
+              "shirtNumber": 17
+            }
+          ],
+          "bench": [
+            {
+              "id": 203459,
+              "name": "Álex Padilla",
+              "position": "Goalkeeper",
+              "shirtNumber": 27
+            },
+            {
+              "id": 286606,
+              "name": "Iker Monreal",
+              "position": "Defence",
+              "shirtNumber": 47
+            },
+            {
+              "id": 278297,
+              "name": "Alejandro Rego",
+              "position": "Midfield",
+              "shirtNumber": 30
+            },
+            {
+              "id": 288898,
+              "name": "Selton Sánchez",
+              "position": "Midfield",
+              "shirtNumber": 44
+            },
+            {
+              "id": 189820,
+              "name": "Urko Izeta",
+              "position": "Offence",
+              "shirtNumber": 25
+            },
+            {
+              "id": 32629,
+              "name": "Iñaki Williams",
+              "position": "Right Winger",
+              "shirtNumber": 9
+            },
+            {
+              "id": 126878,
+              "name": "Oihan Sancet",
+              "position": "Attacking Midfield",
+              "shirtNumber": 8
+            },
+            {
+              "id": 101870,
+              "name": "Roberto Navarro",
+              "position": "Attacking Midfield",
+              "shirtNumber": 23
+            },
+            {
+              "id": 32581,
+              "name": "Iñigo Lekue",
+              "position": "Right-Back",
+              "shirtNumber": 15
+            },
+            {
+              "id": 33091,
+              "name": "Andoni Gorosabel",
+              "position": "Right-Back",
+              "shirtNumber": 2
+            },
+            {
+              "id": 246633,
+              "name": "Adama Boiro",
+              "position": "Left-Back",
+              "shirtNumber": 19
+            }
+          ]
         },
         "score": {
           "winner": null,
@@ -407963,15 +408795,15 @@
         },
         "id": 537023,
         "utcDate": "2026-01-17T14:00:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 23,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Friuli",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-17T14:56:37Z",
+        "lastUpdated": "2026-01-17T15:25:44Z",
         "homeTeam": {
           "id": 115,
           "name": "Udinese Calcio",
@@ -407984,7 +408816,7 @@
             "nationality": "Germany"
           },
           "leagueRank": 10,
-          "formation": "3-5-2",
+          "formation": "3-5-1-1",
           "lineup": [
             {
               "id": 65480,
@@ -408303,18 +409135,40 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 20,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "scorer": {
+              "id": 3220,
+              "name": "Lautaro Martínez"
+            },
+            "assist": {
+              "id": 215433,
+              "name": "Francesco Esposito"
+            },
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -495989,7 +496843,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57088,
+            "name": "Bastien Dechepy",
+            "type": "REFEREE",
+            "nationality": "France"
+          },
+          {
+            "id": 214211,
+            "name": "Brice Parinet",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "France"
+          },
+          {
+            "id": 64786,
+            "name": "Julien Haulbert",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -684819,7 +685692,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 77,
           "name": "Athletic Club",
@@ -685291,7 +686164,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 674,
           "name": "PSV",
@@ -685759,7 +686632,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 109,
           "name": "Juventus FC",
@@ -686324,7 +687197,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 1903,
           "name": "Sport Lisboa e Benfica",
@@ -686816,7 +687689,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 73,
           "name": "Tottenham Hotspur FC",
@@ -687330,7 +688203,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 86,
           "name": "Real Madrid CF",
@@ -687870,7 +688743,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 930,
           "name": "SK Slavia Praha",
@@ -688413,7 +689286,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 654,
           "name": "PAE Olympiakos SFP",
@@ -688836,7 +689709,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 678,
           "name": "AFC Ajax",
@@ -689308,7 +690181,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 64,
           "name": "Liverpool FC",
@@ -689855,7 +690728,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -690314,7 +691187,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -690843,7 +691716,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 1876,
           "name": "FC København",
@@ -691351,7 +692224,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 851,
           "name": "Club Brugge KV",
@@ -691886,7 +692759,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 67,
           "name": "Newcastle United FC",
@@ -692400,7 +693273,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 65,
           "name": "Manchester City FC",
@@ -692848,7 +693721,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 19,
           "name": "Eintracht Frankfurt",
@@ -693389,7 +694262,7 @@
         "matchday": 1,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 498,
           "name": "Sporting Clube de Portugal",
@@ -693954,7 +694827,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 102,
           "name": "Atalanta BC",
@@ -694423,7 +695296,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 10601,
           "name": "FK Kairat",
@@ -694940,7 +695813,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 610,
           "name": "Galatasaray SK",
@@ -695448,7 +696321,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 78,
           "name": "Club Atlético de Madrid",
@@ -695989,7 +696862,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -696497,7 +697370,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 5721,
           "name": "FK Bodø/Glimt",
@@ -697031,7 +697904,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 11034,
           "name": "Paphos FC",
@@ -698041,7 +698914,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 108,
           "name": "FC Internazionale Milano",
@@ -698531,7 +699404,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 611,
           "name": "Qarabağ Ağdam FK",
@@ -698988,7 +699861,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 3929,
           "name": "Royale Union Saint-Gilloise",
@@ -699525,7 +700398,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 4,
           "name": "Borussia Dortmund",
@@ -700033,7 +700906,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 81,
           "name": "FC Barcelona",
@@ -700538,7 +701411,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 548,
           "name": "AS Monaco FC",
@@ -701049,7 +701922,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 3,
           "name": "Bayer 04 Leverkusen",
@@ -701464,7 +702337,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 57,
           "name": "Arsenal FC",
@@ -701930,7 +702803,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 94,
           "name": "Villarreal CF",
@@ -702417,7 +703290,7 @@
         "matchday": 2,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 113,
           "name": "SSC Napoli",
@@ -702870,7 +703743,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 81,
           "name": "FC Barcelona",
@@ -703485,7 +704358,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 10601,
           "name": "FK Kairat",
@@ -703926,7 +704799,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 3929,
           "name": "Royale Union Saint-Gilloise",
@@ -704419,7 +705292,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 1876,
           "name": "FC København",
@@ -704954,7 +705827,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 3,
           "name": "Bayer 04 Leverkusen",
@@ -705575,7 +706448,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 94,
           "name": "Villarreal CF",
@@ -706089,7 +706962,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 57,
           "name": "Arsenal FC",
@@ -707066,7 +707939,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 674,
           "name": "PSV",
@@ -707673,7 +708546,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 610,
           "name": "Galatasaray SK",
@@ -708139,7 +709012,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 77,
           "name": "Athletic Club",
@@ -708607,7 +709480,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 19,
           "name": "Eintracht Frankfurt",
@@ -709139,7 +710012,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 102,
           "name": "Atalanta BC",
@@ -709592,7 +710465,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 498,
           "name": "Sporting Clube de Portugal",
@@ -710103,7 +710976,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 548,
           "name": "AS Monaco FC",
@@ -710496,7 +711369,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -710965,7 +711838,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 61,
           "name": "Chelsea FC",
@@ -711558,7 +712431,7 @@
         "matchday": 3,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 86,
           "name": "Real Madrid CF",
@@ -711967,7 +712840,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 930,
           "name": "SK Slavia Praha",
@@ -712505,7 +713378,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 113,
           "name": "SSC Napoli",
@@ -712922,7 +713795,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 109,
           "name": "Juventus FC",
@@ -713412,7 +714285,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 78,
           "name": "Club Atlético de Madrid",
@@ -713920,7 +714793,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 73,
           "name": "Tottenham Hotspur FC",
@@ -714425,7 +715298,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 5721,
           "name": "FK Bodø/Glimt",
@@ -714876,7 +715749,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 654,
           "name": "PAE Olympiakos SFP",
@@ -715327,7 +716200,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -715808,7 +716681,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 64,
           "name": "Liverpool FC",
@@ -716271,7 +717144,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 11034,
           "name": "Paphos FC",
@@ -716698,7 +717571,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 611,
           "name": "Qarabağ Ağdam FK",
@@ -717242,7 +718115,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 108,
           "name": "FC Internazionale Milano",
@@ -717705,7 +718578,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 65,
           "name": "Manchester City FC",
@@ -718213,7 +719086,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 851,
           "name": "Club Brugge KV",
@@ -718778,7 +719651,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 1903,
           "name": "Sport Lisboa e Benfica",
@@ -719268,7 +720141,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -719745,7 +720618,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 678,
           "name": "AFC Ajax",
@@ -720279,7 +721152,7 @@
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 67,
           "name": "Newcastle United FC",
@@ -720727,7 +721600,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 678,
           "name": "AFC Ajax",
@@ -721184,7 +722057,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 610,
           "name": "Galatasaray SK",
@@ -721671,7 +722544,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 4,
           "name": "Borussia Dortmund",
@@ -722201,7 +723074,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 65,
           "name": "Manchester City FC",
@@ -722643,7 +723516,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 5721,
           "name": "FK Bodø/Glimt",
@@ -723184,7 +724057,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -723716,7 +724589,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 930,
           "name": "SK Slavia Praha",
@@ -724193,7 +725066,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 113,
           "name": "SSC Napoli",
@@ -724653,7 +725526,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 61,
           "name": "Chelsea FC",
@@ -725149,7 +726022,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 11034,
           "name": "Paphos FC",
@@ -725663,7 +726536,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 1876,
           "name": "FC København",
@@ -726207,7 +727080,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 64,
           "name": "Liverpool FC",
@@ -726706,7 +727579,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -727280,7 +728153,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 19,
           "name": "Eintracht Frankfurt",
@@ -727736,7 +728609,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 498,
           "name": "Sporting Clube de Portugal",
@@ -728253,7 +729126,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 57,
           "name": "Arsenal FC",
@@ -728779,7 +729652,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 654,
           "name": "PAE Olympiakos SFP",
@@ -729320,7 +730193,7 @@
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 78,
           "name": "Club Atlético de Madrid",
@@ -729798,7 +730671,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 10601,
           "name": "FK Kairat",
@@ -730237,7 +731110,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -730736,7 +731609,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 81,
           "name": "FC Barcelona",
@@ -731223,7 +732096,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 674,
           "name": "PSV",
@@ -731797,7 +732670,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 3929,
           "name": "Royale Union Saint-Gilloise",
@@ -732338,7 +733211,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 73,
           "name": "Tottenham Hotspur FC",
@@ -732881,7 +733754,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 548,
           "name": "AS Monaco FC",
@@ -733329,7 +734202,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 102,
           "name": "Atalanta BC",
@@ -733798,7 +734671,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 108,
           "name": "FC Internazionale Milano",
@@ -734258,7 +735131,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 94,
           "name": "Villarreal CF",
@@ -734772,7 +735645,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 611,
           "name": "Qarabağ Ağdam FK",
@@ -735295,7 +736168,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 4,
           "name": "Borussia Dortmund",
@@ -735752,7 +736625,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 77,
           "name": "Athletic Club",
@@ -736169,7 +737042,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 3,
           "name": "Bayer 04 Leverkusen",
@@ -736665,7 +737538,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 851,
           "name": "Club Brugge KV",
@@ -737116,7 +737989,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 1903,
           "name": "Sport Lisboa e Benfica",
@@ -737552,7 +738425,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 109,
           "name": "Juventus FC",
@@ -737988,7 +738861,7 @@
         "matchday": 6,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 86,
           "name": "Real Madrid CF",
@@ -738586,7 +739459,7 @@
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 5721,
           "name": "FK Bodø/Glimt",
@@ -739144,7 +740017,7 @@
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 86,
           "name": "Real Madrid CF",
@@ -740353,7 +741226,7 @@
         "matchday": 8,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 65,
           "name": "Manchester City FC",
@@ -741655,7 +742528,7 @@
         "matchday": 8,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": 1903,
           "name": "Sport Lisboa e Benfica",
@@ -745933,7 +746806,7 @@
         "matchday": null,
         "stage": "FINAL",
         "group": null,
-        "lastUpdated": "2026-01-17T10:20:51Z",
+        "lastUpdated": "2026-01-17T15:20:32Z",
         "homeTeam": {
           "id": null,
           "name": null,
