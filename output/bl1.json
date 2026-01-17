@@ -71385,14 +71385,14 @@
       "id": 540561,
       "utcDate": "2026-01-17T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 9,
+      "minute": 29,
       "injuryTime": null,
       "attendance": null,
       "venue": "PreZero Arena",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T15:38:50Z",
+      "lastUpdated": "2026-01-17T15:59:11Z",
       "homeTeam": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
@@ -71755,14 +71755,14 @@
       "id": 540563,
       "utcDate": "2026-01-17T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 9,
+      "minute": 29,
       "injuryTime": null,
       "attendance": null,
       "venue": "RheinEnergieStadion",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T15:38:50Z",
+      "lastUpdated": "2026-01-17T15:59:11Z",
       "homeTeam": {
         "id": 1,
         "name": "1. FC Köln",
@@ -72040,20 +72040,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 29,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "scorer": {
+            "id": 6620,
+            "name": "Stefan Bell"
+          },
+          "assist": {
+            "id": 6707,
+            "name": "Danny da Costa"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 19,
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "player": {
+            "id": 152726,
+            "name": "Eric Martel"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -72106,14 +72141,14 @@
       "id": 540564,
       "utcDate": "2026-01-17T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 8,
+      "minute": 28,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volksparkstadion",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T15:38:50Z",
+      "lastUpdated": "2026-01-17T15:59:12Z",
       "homeTeam": {
         "id": 7,
         "name": "Hamburger SV",
@@ -72457,14 +72492,14 @@
       "id": 540566,
       "utcDate": "2026-01-17T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 9,
+      "minute": 29,
       "injuryTime": null,
       "attendance": null,
       "venue": "Signal Iduna Park",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T15:38:51Z",
+      "lastUpdated": "2026-01-17T15:59:12Z",
       "homeTeam": {
         "id": 4,
         "name": "Borussia Dortmund",
@@ -72755,7 +72790,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 16,
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "player": {
+            "id": 75539,
+            "name": "Nico Schlotterbeck"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -72808,14 +72856,14 @@
       "id": 540567,
       "utcDate": "2026-01-17T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 9,
+      "minute": 29,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volkswagen Arena",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T15:38:51Z",
+      "lastUpdated": "2026-01-17T15:59:13Z",
       "homeTeam": {
         "id": 11,
         "name": "VfL Wolfsburg",
@@ -73106,7 +73154,44 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 16,
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "player": {
+            "id": 9423,
+            "name": "Maximilian Arnold"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 26,
+          "team": {
+            "id": 44,
+            "name": "1. FC Heidenheim 1846"
+          },
+          "player": {
+            "id": 7022,
+            "name": "Marnon-Thomas Busch"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 29,
+          "team": {
+            "id": 44,
+            "name": "1. FC Heidenheim 1846"
+          },
+          "player": {
+            "id": 362,
+            "name": "Niklas Dorsch"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
