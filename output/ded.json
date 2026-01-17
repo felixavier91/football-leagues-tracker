@@ -78579,15 +78579,15 @@
       },
       "id": 537603,
       "utcDate": "2026-01-17T15:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 24,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Johan Cruijff ArenA",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-17T16:55:09Z",
+      "lastUpdated": "2026-01-17T17:26:06Z",
       "homeTeam": {
         "id": 678,
         "name": "AFC Ajax",
@@ -78904,12 +78904,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "goals": [
@@ -78933,6 +78933,27 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 28,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "scorer": {
+            "id": 7570,
+            "name": "Kasper Dolberg"
+          },
+          "assist": {
+            "id": 7841,
+            "name": "Davy Klaassen"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
@@ -78946,6 +78967,18 @@
           "player": {
             "id": 67919,
             "name": "Kenzo Goudmijn"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 39,
+          "team": {
+            "id": 718,
+            "name": "Go Ahead Eagles"
+          },
+          "player": {
+            "id": 178570,
+            "name": "Milan Smit"
           },
           "card": "YELLOW"
         }
