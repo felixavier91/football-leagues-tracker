@@ -99990,15 +99990,15 @@
         },
         "id": 537996,
         "utcDate": "2026-01-18T16:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 49,
         "injuryTime": null,
         "attendance": null,
         "venue": "Villa Park",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:25:22Z",
+        "lastUpdated": "2026-01-18T18:37:52Z",
         "homeTeam": {
           "id": 58,
           "name": "Aston Villa FC",
@@ -100293,6 +100293,18 @@
             "player": {
               "id": 11623,
               "name": "Dwight McNeil"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 47,
+            "team": {
+              "id": 62,
+              "name": "Everton FC"
+            },
+            "player": {
+              "id": 101076,
+              "name": "James Garner"
             },
             "card": "YELLOW"
           }
@@ -210110,15 +210122,15 @@
         },
         "id": 544402,
         "utcDate": "2026-01-18T17:30:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 5,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Abanca-Balaídos",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T17:31:40Z",
+        "lastUpdated": "2026-01-18T18:37:58Z",
         "homeTeam": {
           "id": 558,
           "name": "RC Celta de Vigo",
@@ -210414,11 +210426,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -301056,7 +301068,7 @@
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:25:47Z",
+        "lastUpdated": "2026-01-18T18:38:10Z",
         "homeTeam": {
           "id": 16,
           "name": "FC Augsburg",
@@ -416208,14 +416220,14 @@
         "id": 537018,
         "utcDate": "2026-01-18T17:00:00Z",
         "status": "IN_PLAY",
-        "minute": 21,
+        "minute": 33,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Olimpico Grande Torino",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:25:57Z",
+        "lastUpdated": "2026-01-18T18:38:18Z",
         "homeTeam": {
           "id": 586,
           "name": "Torino FC",
@@ -416517,18 +416529,40 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 26,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 100,
+              "name": "AS Roma"
+            },
+            "scorer": {
+              "id": 7457,
+              "name": "Donyell Malen"
+            },
+            "assist": {
+              "id": 2046,
+              "name": "Paulo Dybala"
+            },
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [
           {
@@ -505687,14 +505721,14 @@
         "id": 542560,
         "utcDate": "2026-01-18T16:15:00Z",
         "status": "IN_PLAY",
-        "minute": 51,
+        "minute": 63,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stade de la Beaujoire",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:26:08Z",
+        "lastUpdated": "2026-01-18T18:38:26Z",
         "homeTeam": {
           "id": 543,
           "name": "FC Nantes",
@@ -505972,10 +506006,10 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 1
           },
           "halfTime": {
@@ -506014,7 +506048,10 @@
               "id": 170412,
               "name": "Matthis Abline"
             },
-            "assist": null,
+            "assist": {
+              "id": 182091,
+              "name": "Junior Mwanga"
+            },
             "score": {
               "home": 1,
               "away": 1
@@ -506068,6 +506105,18 @@
             "player": {
               "id": 8352,
               "name": "Maxime López"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 60,
+            "team": {
+              "id": 1045,
+              "name": "Paris FC"
+            },
+            "player": {
+              "id": 40000,
+              "name": "Timothée Kolodziejczak"
             },
             "card": "YELLOW"
           }
@@ -506124,14 +506173,14 @@
         "id": 542567,
         "utcDate": "2026-01-18T16:15:00Z",
         "status": "IN_PLAY",
-        "minute": 51,
+        "minute": 63,
         "injuryTime": null,
         "attendance": null,
         "venue": "Roazhon Park",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:26:08Z",
+        "lastUpdated": "2026-01-18T18:38:27Z",
         "homeTeam": {
           "id": 529,
           "name": "Stade Rennais FC 1901",
@@ -591869,15 +591918,15 @@
         },
         "id": 545860,
         "utcDate": "2026-01-18T15:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 7,
+        "injuryTime": 6,
         "attendance": null,
         "venue": "Estádio de São Miguel",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:26:17Z",
+        "lastUpdated": "2026-01-18T18:28:13Z",
         "homeTeam": {
           "id": 5530,
           "name": "CD Santa Clara",
@@ -686981,7 +687030,7 @@
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:17:36Z",
+        "lastUpdated": "2026-01-18T18:32:36Z",
         "homeTeam": {
           "id": 1919,
           "name": "FC Volendam",
@@ -687974,14 +688023,14 @@
         "id": 537606,
         "utcDate": "2026-01-18T15:45:00Z",
         "status": "IN_PLAY",
-        "minute": 82,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 3,
         "attendance": 47500,
         "venue": "De Kuip",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:26:21Z",
+        "lastUpdated": "2026-01-18T18:38:41Z",
         "homeTeam": {
           "id": 675,
           "name": "Feyenoord Rotterdam",
@@ -688283,10 +688332,10 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 3,
             "away": 3
           },
           "halfTime": {
@@ -688373,6 +688422,48 @@
             },
             "score": {
               "home": 1,
+              "away": 3
+            }
+          },
+          {
+            "minute": 87,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 675,
+              "name": "Feyenoord Rotterdam"
+            },
+            "scorer": {
+              "id": 289520,
+              "name": "Shaqueel van Persie"
+            },
+            "assist": {
+              "id": 97536,
+              "name": "Quinten Timber"
+            },
+            "score": {
+              "home": 2,
+              "away": 3
+            }
+          },
+          {
+            "minute": 88,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 675,
+              "name": "Feyenoord Rotterdam"
+            },
+            "scorer": {
+              "id": 289520,
+              "name": "Shaqueel van Persie"
+            },
+            "assist": {
+              "id": 169190,
+              "name": "Luciano Valente"
+            },
+            "score": {
+              "home": 3,
               "away": 3
             }
           }

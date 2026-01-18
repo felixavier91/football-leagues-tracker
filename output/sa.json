@@ -101909,14 +101909,14 @@
       "id": 537018,
       "utcDate": "2026-01-18T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 21,
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Olimpico Grande Torino",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T18:25:57Z",
+      "lastUpdated": "2026-01-18T18:38:18Z",
       "homeTeam": {
         "id": 586,
         "name": "Torino FC",
@@ -102218,18 +102218,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 26,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "scorer": {
+            "id": 7457,
+            "name": "Donyell Malen"
+          },
+          "assist": {
+            "id": 2046,
+            "name": "Paulo Dybala"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
