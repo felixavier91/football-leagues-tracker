@@ -414,6 +414,27 @@
             display: block;
         }
         
+        /* Team Shields */
+        .team-shields {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 15px;
+            padding: 0 20px;
+        }
+        
+        .shield-home {
+            text-align: left;
+        }
+        
+        .shield-away {
+            text-align: right;
+        }
+        
+        .shield-home img, .shield-away img {
+            object-fit: contain;
+        }
+        
         /* Search Bar */
         .search-container {
             background: white;
@@ -1974,8 +1995,21 @@
                         }
                         
                         if (statsRows.length > 0) {
+                            // Team shields above stats
+                            const teamShieldsStats = `
+                                <div class="team-shields">
+                                    <div class="shield-home">
+                                        <img src="${match.homeTeam.crest}" alt="${match.homeTeam.shortName}" style="width: 40px; height: 40px;">
+                                    </div>
+                                    <div class="shield-away">
+                                        <img src="${match.awayTeam.crest}" alt="${match.awayTeam.shortName}" style="width: 40px; height: 40px;">
+                                    </div>
+                                </div>
+                            `;
+                            
                             matchStatsSection = `
                                 <div class="match-stats-container">
+                                    ${teamShieldsStats}
                                     <div class="match-stats-grid">
                                         ${statsRows.join('')}
                                     </div>
@@ -2157,13 +2191,39 @@
                             </div>
                         ` : '';
                         
+                        // Managers section
+                        const homeCoachName = matchStats.homeTeam.coach?.name ? formatName(matchStats.homeTeam.coach.name) : 'N/A';
+                        const awayCoachName = matchStats.awayTeam.coach?.name ? formatName(matchStats.awayTeam.coach.name) : 'N/A';
+                        
+                        const managersSection = `
+                            <div style="text-align: center; font-weight: normal; color: #666; margin-top: 15px; margin-bottom: 10px;">Managers</div>
+                            <div class="starters-row">
+                                <div class="starters-home"><div class="starter-item">${homeCoachName}</div></div>
+                                <div class="starters-away"><div class="starter-item">${awayCoachName}</div></div>
+                            </div>
+                        `;
+                        
+                        // Team shields above starters
+                        const teamShields = `
+                            <div class="team-shields">
+                                <div class="shield-home">
+                                    <img src="${match.homeTeam.crest}" alt="${match.homeTeam.shortName}" style="width: 40px; height: 40px;">
+                                </div>
+                                <div class="shield-away">
+                                    <img src="${match.awayTeam.crest}" alt="${match.awayTeam.shortName}" style="width: 40px; height: 40px;">
+                                </div>
+                            </div>
+                        `;
+                        
                         startersSection = `
                             <div class="match-stats-container" style="margin-top: 15px;">
+                                ${teamShields}
                                 <div style="text-align: center; font-weight: normal; color: #666; margin-bottom: 10px;">Starters</div>
                                 <div class="starters-container">
                                     ${startersRows}
                                 </div>
                                 ${benchSection}
+                                ${managersSection}
                             </div>
                         `;
                     }
