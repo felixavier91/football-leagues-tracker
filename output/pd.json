@@ -95630,15 +95630,15 @@
       },
       "id": 544402,
       "utcDate": "2026-01-18T17:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 39,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Abanca-Balaídos",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T19:12:18Z",
+      "lastUpdated": "2026-01-18T19:33:51Z",
       "homeTeam": {
         "id": 558,
         "name": "RC Celta de Vigo",
@@ -95807,7 +95807,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 12,
-        "formation": "4-2-3-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 46245,
@@ -95934,20 +95934,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 40,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "scorer": {
+            "id": 133570,
+            "name": "Sergio Carreira"
+          },
+          "assist": {
+            "id": 175869,
+            "name": "Hugo Alvarez"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 44,
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "player": {
+            "id": 175869,
+            "name": "Hugo Alvarez"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

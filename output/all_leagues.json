@@ -99990,15 +99990,15 @@
         },
         "id": 537996,
         "utcDate": "2026-01-18T16:30:00Z",
-        "status": "IN_PLAY",
-        "minute": 83,
-        "injuryTime": null,
+        "status": "FINISHED",
+        "minute": 90,
+        "injuryTime": 4,
         "attendance": null,
         "venue": "Villa Park",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T19:12:08Z",
+        "lastUpdated": "2026-01-18T19:26:46Z",
         "homeTeam": {
           "id": 58,
           "name": "Aston Villa FC",
@@ -210153,15 +210153,15 @@
         },
         "id": 544402,
         "utcDate": "2026-01-18T17:30:00Z",
-        "status": "IN_PLAY",
-        "minute": 39,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Abanca-Balaídos",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T19:12:18Z",
+        "lastUpdated": "2026-01-18T19:33:51Z",
         "homeTeam": {
           "id": 558,
           "name": "RC Celta de Vigo",
@@ -210330,7 +210330,7 @@
             "nationality": "Spain"
           },
           "leagueRank": 12,
-          "formation": "4-2-3-1",
+          "formation": "4-3-3",
           "lineup": [
             {
               "id": 46245,
@@ -210457,20 +210457,55 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 40,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 558,
+              "name": "RC Celta de Vigo"
+            },
+            "scorer": {
+              "id": 133570,
+              "name": "Sergio Carreira"
+            },
+            "assist": {
+              "id": 175869,
+              "name": "Hugo Alvarez"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 44,
+            "team": {
+              "id": 558,
+              "name": "RC Celta de Vigo"
+            },
+            "player": {
+              "id": 175869,
+              "name": "Hugo Alvarez"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -301110,15 +301145,15 @@
         },
         "id": 540562,
         "utcDate": "2026-01-18T16:30:00Z",
-        "status": "IN_PLAY",
-        "minute": 77,
-        "injuryTime": null,
-        "attendance": null,
+        "status": "FINISHED",
+        "minute": 90,
+        "injuryTime": 7,
+        "attendance": 29160,
         "venue": "WWK ARENA",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T19:12:26Z",
+        "lastUpdated": "2026-01-18T19:33:26Z",
         "homeTeam": {
           "id": 16,
           "name": "FC Augsburg",
@@ -301528,6 +301563,18 @@
             "player": {
               "id": 6661,
               "name": "Michael Gregoritsch"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 82,
+            "team": {
+              "id": 17,
+              "name": "SC Freiburg"
+            },
+            "player": {
+              "id": 145293,
+              "name": "Yuito Suzuki"
             },
             "card": "YELLOW"
           }
@@ -416392,14 +416439,14 @@
         "id": 537018,
         "utcDate": "2026-01-18T17:00:00Z",
         "status": "IN_PLAY",
-        "minute": 47,
+        "minute": 69,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Olimpico Grande Torino",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T19:12:32Z",
+        "lastUpdated": "2026-01-18T19:34:16Z",
         "homeTeam": {
           "id": 586,
           "name": "Torino FC",
@@ -416740,6 +416787,18 @@
             "player": {
               "id": 23287,
               "name": "Ardian Ismajli"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 55,
+            "team": {
+              "id": 100,
+              "name": "AS Roma"
+            },
+            "player": {
+              "id": 1837,
+              "name": "Gianluca Mancini"
             },
             "card": "YELLOW"
           }
@@ -505905,15 +505964,15 @@
         },
         "id": 542560,
         "utcDate": "2026-01-18T16:15:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 6,
+        "injuryTime": 5,
         "attendance": null,
         "venue": "Stade de la Beaujoire",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T19:12:41Z",
+        "lastUpdated": "2026-01-18T19:13:27Z",
         "homeTeam": {
           "id": 543,
           "name": "FC Nantes",
@@ -506378,15 +506437,15 @@
         },
         "id": 542567,
         "utcDate": "2026-01-18T16:15:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 6,
+        "injuryTime": 10,
         "attendance": null,
         "venue": "Roazhon Park",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T19:12:41Z",
+        "lastUpdated": "2026-01-18T19:18:06Z",
         "homeTeam": {
           "id": 529,
           "name": "Stade Rennais FC 1901",
@@ -506766,6 +506825,18 @@
             "player": {
               "id": 204279,
               "name": "Simon Ebonog"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 533,
+              "name": "Le Havre AC"
+            },
+            "player": {
+              "id": 215579,
+              "name": "Mbwana Samatta"
             },
             "card": "YELLOW"
           }
@@ -592627,14 +592698,14 @@
         "id": 545854,
         "utcDate": "2026-01-18T18:00:00Z",
         "status": "IN_PLAY",
-        "minute": 11,
+        "minute": 33,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estádio João Cardoso",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T19:12:43Z",
+        "lastUpdated": "2026-01-18T19:34:31Z",
         "homeTeam": {
           "id": 1049,
           "name": "CD Tondela",
@@ -592647,7 +592718,7 @@
             "nationality": "Italy"
           },
           "leagueRank": 17,
-          "formation": "4-3-3",
+          "formation": "3-4-3",
           "lineup": [
             {
               "id": 182049,
@@ -593050,7 +593121,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 220577,
+            "name": "João Gonçalves",
+            "type": "REFEREE",
+            "nationality": "Portugal"
+          },
+          {
+            "id": 37671,
+            "name": "Pedro Ribeiro",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "Portugal"
+          },
+          {
+            "id": 37674,
+            "name": "Ângelo Carneiro",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Portugal"
+          }
+        ]
       },
       {
         "area": {
@@ -687347,7 +687437,7 @@
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T19:02:36Z",
+        "lastUpdated": "2026-01-18T19:32:36Z",
         "homeTeam": {
           "id": 1919,
           "name": "FC Volendam",
