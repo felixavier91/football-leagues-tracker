@@ -95631,14 +95631,14 @@
       "id": 544402,
       "utcDate": "2026-01-18T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 49,
+      "minute": 58,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 20835,
       "venue": "Estadio Abanca-Balaídos",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T19:40:21Z",
+      "lastUpdated": "2026-01-18T19:49:46Z",
       "homeTeam": {
         "id": 558,
         "name": "RC Celta de Vigo",
@@ -95937,7 +95937,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -95966,9 +95966,39 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 54,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "scorer": {
+            "id": 180104,
+            "name": "Bryan Zaragoza"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 180104,
+            "name": "Bryan Zaragoza"
+          },
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 44,
