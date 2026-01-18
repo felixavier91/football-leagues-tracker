@@ -1945,7 +1945,7 @@
                         // Build home starters with substitution info
                         const homePlayersWithSubs = matchStats.homeTeam.lineup.map(player => {
                             const name = formatName(player.name);
-                            const position = abbreviatePosition(player.position || '');
+                            const shirtNumber = player.shirtNumber || '';
                             
                             // Find substitution for this player
                             let subInfo = '';
@@ -1956,15 +1956,15 @@
                                 );
                                 if (sub) {
                                     const subInName = formatName(sub.playerIn.name);
-                                    const subInPosition = abbreviatePosition(sub.playerIn.position || '');
+                                    const subInNumber = sub.playerIn.shirtNumber || '';
                                     const minute = sub.minute;
-                                    subInfo = ` <span style="color: #c8102e; font-size: 0.85em;">↔ ${subInName} <span style="color: #999;">(${subInPosition})</span> ${minute}'</span>`;
+                                    subInfo = ` <span style="color: #c8102e; font-size: 0.85em;">↔ ${subInName} (${subInNumber}) ${minute}'</span>`;
                                     wasSubbed = true;
                                 }
                             }
                             
                             return {
-                                html: `<div class="starter-item">${name} <span style="color: #999;">(${position})</span>${subInfo}</div>`,
+                                html: `<div class="starter-item">${name} (${shirtNumber})${subInfo}</div>`,
                                 wasSubbed: wasSubbed
                             };
                         });
@@ -1972,7 +1972,7 @@
                         // Build away starters with substitution info
                         const awayPlayersWithSubs = matchStats.awayTeam.lineup.map(player => {
                             const name = formatName(player.name);
-                            const position = abbreviatePosition(player.position || '');
+                            const shirtNumber = player.shirtNumber || '';
                             
                             // Find substitution for this player
                             let subInfo = '';
@@ -1983,15 +1983,15 @@
                                 );
                                 if (sub) {
                                     const subInName = formatName(sub.playerIn.name);
-                                    const subInPosition = abbreviatePosition(sub.playerIn.position || '');
+                                    const subInNumber = sub.playerIn.shirtNumber || '';
                                     const minute = sub.minute;
-                                    subInfo = ` <span style="color: #c8102e; font-size: 0.85em;">↔ ${subInName} <span style="color: #999;">(${subInPosition})</span> ${minute}'</span>`;
+                                    subInfo = ` <span style="color: #c8102e; font-size: 0.85em;">↔ ${subInName} (${subInNumber}) ${minute}'</span>`;
                                     wasSubbed = true;
                                 }
                             }
                             
                             return {
-                                html: `<div class="starter-item">${name} <span style="color: #999;">(${position})</span>${subInfo}</div>`,
+                                html: `<div class="starter-item">${name} (${shirtNumber})${subInfo}</div>`,
                                 wasSubbed: wasSubbed
                             };
                         });
