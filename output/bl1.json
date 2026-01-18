@@ -74590,14 +74590,14 @@
       "id": 540562,
       "utcDate": "2026-01-18T16:30:00Z",
       "status": "IN_PLAY",
-      "minute": 53,
+      "minute": 63,
       "injuryTime": null,
       "attendance": null,
       "venue": "WWK ARENA",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T18:48:42Z",
+      "lastUpdated": "2026-01-18T18:58:16Z",
       "homeTeam": {
         "id": 16,
         "name": "FC Augsburg",
@@ -74879,7 +74879,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -74922,10 +74922,65 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 60,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 17,
+            "name": "SC Freiburg"
+          },
+          "scorer": {
+            "id": 145293,
+            "name": "Yuito Suzuki"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 53,
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "player": {
+            "id": 97120,
+            "name": "Yannik Keitel"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 54,
+          "team": {
+            "id": 17,
+            "name": "SC Freiburg"
+          },
+          "player": {
+            "id": 212309,
+            "name": "Johan Manzambi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 58,
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "player": {
+            "id": 249428,
+            "name": "Noahkai Banks"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
