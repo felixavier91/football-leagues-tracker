@@ -235,14 +235,6 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                 if not video_url or "watch?v=" not in video_url:
                     continue
                 
-                # Extract duration from video thumbnail overlay
-                duration = ""
-                try:
-                    duration_elem = renderer.find_element(By.CSS_SELECTOR, "span.ytd-thumbnail-overlay-time-status-renderer")
-                    duration = duration_elem.text.strip()
-                except:
-                    duration = ""
-                
                 video_title_lower = video_title.lower()
                 
                 # Global filter: Block simulation and live stream videos (all leagues)
@@ -450,7 +442,6 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                         'video_id': video_id,
                         'title': video_title,
                         'views': view_count,
-                        'duration': duration,
                         'metadata': metadata_text
                     })
                     print(f"  ✅ Valid video: {video_title} ({view_count:,} views)")
@@ -469,11 +460,11 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
             
             print(f"  🏆 Selected {len(top_videos)} video(s):")
             for i, video in enumerate(top_videos, 1):
-                print(f"     #{i}: {video['title']} ({video['views']:,} views) [{video['duration']}]")
+                print(f"     #{i}: {video['title']} ({video['views']:,} views)")
             
-            # Return list of video objects with ID and duration
-            videos = [{'id': v['video_id'], 'duration': v['duration']} for v in top_videos]
-            return videos
+            # Return list of video IDs
+            video_ids = [v['video_id'] for v in top_videos]
+            return video_ids
         
         # No valid videos found
         print(f"  ❌ No videos with matching upload date found")
@@ -632,15 +623,14 @@ def process_matches():
             print(f"[{i}/{total_matches}] {home_team} vs {away_team} ({match_date})")
             print(f"  🔎 Searching: \"{query}\"")
             
-            # Search YouTube - returns list of top 5 video objects {id, duration}
-            videos = search_youtube_web(driver, query, match_date, home_team, away_team, league_code)
+            # Search YouTube - returns list of top 5 video IDs
+            video_ids = search_youtube_web(driver, query, match_date, home_team, away_team, league_code)
             
-            if videos:
-                # Update the database with array of video objects
-                highlights[item["league_code"]][item["season"]][item["match_key"]]["videos"] = videos
-                print(f"  ✅ Found {len(videos)} video(s)")
-                for v in videos:
-                    print(f"  📺 {v['id']} [{v['duration']}]")
+            if video_ids:
+                # Update the database with array of video IDs
+                highlights[item["league_code"]][item["season"]][item["match_key"]]["videoIds"] = video_ids
+                print(f"  ✅ Found {len(video_ids)} video(s)")
+                print(f"  📺 Video IDs: {', '.join(video_ids)}")
                 updated_count += 1
             else:
                 print(f"  ⚠️  No video found")
