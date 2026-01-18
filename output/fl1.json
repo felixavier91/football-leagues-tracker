@@ -73418,15 +73418,15 @@
       },
       "id": 542564,
       "utcDate": "2026-01-18T14:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 42,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de la Meinau",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T15:42:34Z",
+      "lastUpdated": "2026-01-18T15:55:03Z",
       "homeTeam": {
         "id": 576,
         "name": "RC Strasbourg Alsace",
@@ -73698,15 +73698,15 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         }
       },
       "goals": [
@@ -73746,6 +73746,27 @@
           "assist": null,
           "score": {
             "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 43,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "scorer": {
+            "id": 204426,
+            "name": "Martial Godo"
+          },
+          "assist": {
+            "id": 135473,
+            "name": "Guela Doué"
+          },
+          "score": {
+            "home": 2,
             "away": 1
           }
         }
@@ -73797,6 +73818,18 @@
           "player": {
             "id": 212866,
             "name": "Sadibou Sané"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "player": {
+            "id": 216372,
+            "name": "Georgiy Tsitaishvili"
           },
           "card": "YELLOW"
         }

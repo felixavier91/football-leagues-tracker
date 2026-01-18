@@ -101405,15 +101405,15 @@
       },
       "id": 537017,
       "utcDate": "2026-01-18T14:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 40,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Renato Dall'Ara",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T15:42:24Z",
+      "lastUpdated": "2026-01-18T15:54:53Z",
       "homeTeam": {
         "id": 103,
         "name": "Bologna FC 1909",
@@ -101755,11 +101755,11 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "goals": [
@@ -101782,6 +101782,24 @@
           "score": {
             "home": 0,
             "away": 1
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "scorer": {
+            "id": 102591,
+            "name": "Roberto Piccoli"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
           }
         }
       ],

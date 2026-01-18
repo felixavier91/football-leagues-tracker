@@ -94739,14 +94739,14 @@
       "id": 544405,
       "utcDate": "2026-01-18T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 83,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": 8361,
       "venue": "Coliseum Alfonso Perez",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T15:41:56Z",
+      "lastUpdated": "2026-01-18T15:54:37Z",
       "homeTeam": {
         "id": 82,
         "name": "Getafe CF",
@@ -95054,18 +95054,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 84,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scorer": {
+            "id": 33146,
+            "name": "Gaya"
+          },
+          "assist": {
+            "id": 30802,
+            "name": "Filip Ugrinic"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -95113,6 +95135,30 @@
           "player": {
             "id": 33146,
             "name": "Gaya"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 86,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "player": {
+            "id": 30802,
+            "name": "Filip Ugrinic"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "player": {
+            "id": 149937,
+            "name": "Carlos Corberán"
           },
           "card": "YELLOW"
         }
