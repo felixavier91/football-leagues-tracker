@@ -73539,14 +73539,14 @@
       "id": 545861,
       "utcDate": "2026-01-18T20:30:00Z",
       "status": "IN_PLAY",
-      "minute": 82,
+      "minute": 90,
       "injuryTime": null,
       "attendance": null,
       "venue": "Éstadio Dom Afonso Henriques",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T23:15:56Z",
+      "lastUpdated": "2026-01-18T23:24:56Z",
       "homeTeam": {
         "id": 5543,
         "name": "Vitória SC",
@@ -73824,18 +73824,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 85,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "scorer": {
+            "id": 153629,
+            "name": "Alan Varela"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [
         {
           "player": {
@@ -73847,6 +73866,17 @@
             "name": "FC Porto"
           },
           "scored": false
+        },
+        {
+          "player": {
+            "id": 153629,
+            "name": "Alan Varela"
+          },
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "scored": true
         }
       ],
       "bookings": [
