@@ -73419,14 +73419,14 @@
       "id": 542564,
       "utcDate": "2026-01-18T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 10,
+      "minute": 30,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de la Meinau",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T15:11:08Z",
+      "lastUpdated": "2026-01-18T15:31:08Z",
       "homeTeam": {
         "id": 576,
         "name": "RC Strasbourg Alsace",
@@ -73701,17 +73701,94 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 12,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "scorer": {
+            "id": 182192,
+            "name": "Diego Moreira"
+          },
+          "assist": {
+            "id": 168949,
+            "name": "Julio Enciso"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 24,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "scorer": {
+            "id": 752,
+            "name": "Gauthier Hein"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 752,
+            "name": "Gauthier Hein"
+          },
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 25,
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "player": {
+            "id": 170261,
+            "name": "Valentin Barco"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 25,
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "player": {
+            "id": 205551,
+            "name": "Lucas Høgsberg"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -73823,7 +73900,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 15545,
+          "name": "Benoît Millot",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 1064,
+          "name": "Erwan Finjean",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 213838,
+          "name": "Florian Gonçalves de Araujo",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -73911,7 +74007,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 25786,
+          "name": "Stéphanie Frappart",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 101793,
+          "name": "Steven Torregrossa",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 64763,
+          "name": "Cédric Favre",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {

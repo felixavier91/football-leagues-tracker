@@ -101406,14 +101406,14 @@
       "id": 537017,
       "utcDate": "2026-01-18T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 9,
+      "minute": 29,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Renato Dall'Ara",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T15:11:03Z",
+      "lastUpdated": "2026-01-18T15:30:49Z",
       "homeTeam": {
         "id": 103,
         "name": "Bologna FC 1909",
@@ -101751,18 +101751,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 19,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "scorer": {
+            "id": 2230,
+            "name": "Rolando Mandragora"
+          },
+          "assist": {
+            "id": 3851,
+            "name": "Albert Guðmundsson"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

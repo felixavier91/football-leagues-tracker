@@ -94739,14 +94739,14 @@
       "id": 544405,
       "utcDate": "2026-01-18T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 51,
+      "minute": 71,
       "injuryTime": null,
       "attendance": 8361,
       "venue": "Coliseum Alfonso Perez",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T15:10:42Z",
+      "lastUpdated": "2026-01-18T15:30:36Z",
       "homeTeam": {
         "id": 82,
         "name": "Getafe CF",
@@ -95067,7 +95067,44 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 51,
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "player": {
+            "id": 45472,
+            "name": "Domingos Duarte"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 63,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "player": {
+            "id": 7672,
+            "name": "Umar Sadiq"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 68,
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "player": {
+            "id": 249599,
+            "name": "Adri Liso"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
