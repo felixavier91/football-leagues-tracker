@@ -210690,14 +210690,14 @@
         "id": 544409,
         "utcDate": "2026-01-18T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": null,
+        "minute": 7,
         "injuryTime": null,
         "attendance": null,
         "venue": "Reale Arena",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T21:03:43Z",
+        "lastUpdated": "2026-01-18T21:10:27Z",
         "homeTeam": {
           "id": 92,
           "name": "Real Sociedad de Fútbol",
@@ -210866,7 +210866,7 @@
             "nationality": "Germany"
           },
           "leagueRank": 1,
-          "formation": "4-3-3",
+          "formation": "4-2-3-1",
           "lineup": [
             {
               "id": 152506,
@@ -210999,18 +210999,37 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 7,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 81,
+              "name": "FC Barcelona"
+            },
+            "scorer": {
+              "id": 214533,
+              "name": "Fermín López"
+            },
+            "assist": null,
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -417288,14 +417307,14 @@
         "id": 537015,
         "utcDate": "2026-01-18T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 15,
+        "minute": 22,
         "injuryTime": null,
         "attendance": null,
         "venue": "Giuseppe Meazza",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T21:04:07Z",
+        "lastUpdated": "2026-01-18T21:10:43Z",
         "homeTeam": {
           "id": 98,
           "name": "AC Milan",
@@ -417640,7 +417659,20 @@
         },
         "goals": [],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 21,
+            "team": {
+              "id": 98,
+              "name": "AC Milan"
+            },
+            "player": {
+              "id": 153556,
+              "name": "Koni De Winter"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -507624,14 +507656,14 @@
         "id": 542562,
         "utcDate": "2026-01-18T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 19,
+        "minute": 26,
         "injuryTime": null,
         "attendance": null,
         "venue": "Groupama Stadium",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T21:04:17Z",
+        "lastUpdated": "2026-01-18T21:10:52Z",
         "homeTeam": {
           "id": 523,
           "name": "Olympique Lyonnais",
@@ -507644,7 +507676,7 @@
             "nationality": null
           },
           "leagueRank": 5,
-          "formation": "4-3-3",
+          "formation": "4-1-2-1-2",
           "lineup": [
             {
               "id": 79776,

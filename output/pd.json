@@ -96167,14 +96167,14 @@
       "id": 544409,
       "utcDate": "2026-01-18T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 7,
       "injuryTime": null,
       "attendance": null,
       "venue": "Reale Arena",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T21:03:43Z",
+      "lastUpdated": "2026-01-18T21:10:27Z",
       "homeTeam": {
         "id": 92,
         "name": "Real Sociedad de Fútbol",
@@ -96343,7 +96343,7 @@
           "nationality": "Germany"
         },
         "leagueRank": 1,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 152506,
@@ -96476,18 +96476,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 7,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 214533,
+            "name": "Fermín López"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
