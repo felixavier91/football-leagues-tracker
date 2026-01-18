@@ -1972,28 +1972,82 @@
                             return posMap[position] || position;
                         };
                         
-                        // Build home starters (number first, no substitutes shown)
-                        const homeStarters = matchStats.homeTeam.lineup.map(player => {
+                        // Build home starters with substitution arrows
+                        const homeStartersData = matchStats.homeTeam.lineup.map(player => {
                             const name = formatName(player.name);
                             const shirtNumber = player.shirtNumber || '';
-                            return `<div class="starter-item">${shirtNumber} ${name}</div>`;
+                            
+                            // Check if this player was substituted
+                            let wasSubbed = false;
+                            if (matchStats.substitutions) {
+                                const sub = matchStats.substitutions.find(s => 
+                                    s.team.id === matchStats.homeTeam.id && s.playerOut.name === player.name
+                                );
+                                wasSubbed = !!sub;
+                            }
+                            
+                            // Arrow on the right for home team (left column)
+                            const arrow = wasSubbed ? ' <span style="color: #c8102e;">↓</span>' : '';
+                            return `<div class="starter-item">${shirtNumber} ${name}${arrow}</div>`;
                         });
                         
-                        // Build away starters (number last, no substitutes shown)
-                        const awayStarters = matchStats.awayTeam.lineup.map(player => {
+                        // Build away starters with substitution arrows
+                        const awayStartersData = matchStats.awayTeam.lineup.map(player => {
                             const name = formatName(player.name);
                             const shirtNumber = player.shirtNumber || '';
-                            return `<div class="starter-item">${name} ${shirtNumber}</div>`;
+                            
+                            // Check if this player was substituted
+                            let wasSubbed = false;
+                            if (matchStats.substitutions) {
+                                const sub = matchStats.substitutions.find(s => 
+                                    s.team.id === matchStats.awayTeam.id && s.playerOut.name === player.name
+                                );
+                                wasSubbed = !!sub;
+                            }
+                            
+                            // Arrow on the left for away team (right column)
+                            const arrow = wasSubbed ? '<span style="color: #c8102e;">↓</span> ' : '';
+                            return `<div class="starter-item">${arrow}${name} ${shirtNumber}</div>`;
                         });
                         
-                        // Pad arrays to same length for side-by-side display
-                        const maxLength = Math.max(homeStarters.length, awayStarters.length);
-                        while (homeStarters.length < maxLength) homeStarters.push('<div class="starter-item">&nbsp;</div>');
-                        while (awayStarters.length < maxLength) awayStarters.push('<div class="starter-item">&nbsp;</div>');
+                        // Build home substitutes (players who came on)
+                        const homeSubsData = [];
+                        if (matchStats.substitutions) {
+                            matchStats.substitutions.forEach(sub => {
+                                if (sub.team.id === matchStats.homeTeam.id) {
+                                    const name = formatName(sub.playerIn.name);
+                                    const benchPlayer = matchStats.homeTeam.bench.find(b => b.id === sub.playerIn.id);
+                                    const shirtNumber = benchPlayer?.shirtNumber || '';
+                                    // Arrow on the right for home team (left column)
+                                    homeSubsData.push(`<div class="starter-item">${shirtNumber} ${name} <span style="color: #c8102e;">↑</span></div>`);
+                                }
+                            });
+                        }
                         
-                        // Build rows (home and away side by side)
+                        // Build away substitutes (players who came on)
+                        const awaySubsData = [];
+                        if (matchStats.substitutions) {
+                            matchStats.substitutions.forEach(sub => {
+                                if (sub.team.id === matchStats.awayTeam.id) {
+                                    const name = formatName(sub.playerIn.name);
+                                    const benchPlayer = matchStats.awayTeam.bench.find(b => b.id === sub.playerIn.id);
+                                    const shirtNumber = benchPlayer?.shirtNumber || '';
+                                    // Arrow on the left for away team (right column)
+                                    awaySubsData.push(`<div class="starter-item"><span style="color: #c8102e;">↑</span> ${name} ${shirtNumber}</div>`);
+                                }
+                            });
+                        }
+                        
+                        // Pad starters to same length
+                        const homeStarters = [...homeStartersData];
+                        const awayStarters = [...awayStartersData];
+                        const maxStartersLength = Math.max(homeStarters.length, awayStarters.length);
+                        while (homeStarters.length < maxStartersLength) homeStarters.push('<div class="starter-item">&nbsp;</div>');
+                        while (awayStarters.length < maxStartersLength) awayStarters.push('<div class="starter-item">&nbsp;</div>');
+                        
+                        // Build starters rows
                         let startersRows = '';
-                        for (let i = 0; i < maxLength; i++) {
+                        for (let i = 0; i < maxStartersLength; i++) {
                             startersRows += `
                                 <div class="starters-row">
                                     <div class="starters-home">${homeStarters[i]}</div>
@@ -2002,11 +2056,39 @@
                             `;
                         }
                         
+                        // Pad substitutes to same length
+                        const homeSubs = [...homeSubsData];
+                        const awaySubs = [...awaySubsData];
+                        const maxSubsLength = Math.max(homeSubs.length, awaySubs.length);
+                        while (homeSubs.length < maxSubsLength) homeSubs.push('<div class="starter-item">&nbsp;</div>');
+                        while (awaySubs.length < maxSubsLength) awaySubs.push('<div class="starter-item">&nbsp;</div>');
+                        
+                        // Build substitutes rows
+                        let subsRows = '';
+                        for (let i = 0; i < maxSubsLength; i++) {
+                            subsRows += `
+                                <div class="starters-row">
+                                    <div class="starters-home">${homeSubs[i]}</div>
+                                    <div class="starters-away">${awaySubs[i]}</div>
+                                </div>
+                            `;
+                        }
+                        
+                        // Only show substitutes section if there are any subs
+                        const subsSection = maxSubsLength > 0 ? `
+                            <div style="text-align: center; font-weight: 600; color: #666; margin-top: 15px; margin-bottom: 10px;">Substitutes</div>
+                            <div class="starters-container">
+                                ${subsRows}
+                            </div>
+                        ` : '';
+                        
                         startersSection = `
                             <div class="match-stats-container" style="margin-top: 15px;">
+                                <div style="text-align: center; font-weight: 600; color: #666; margin-bottom: 10px;">Starters</div>
                                 <div class="starters-container">
                                     ${startersRows}
                                 </div>
+                                ${subsSection}
                             </div>
                         `;
                     }
