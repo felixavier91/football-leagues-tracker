@@ -1988,9 +1988,9 @@
                                     wasSubbed = !!sub;
                                 }
                                 
-                                // Fixed-width arrow placeholder for alignment (right side for home)
-                                const arrow = wasSubbed ? '<span style="color: #c8102e; font-size: 1.5em; display: inline-block; width: 20px; text-align: center;">↓</span>' : '<span style="display: inline-block; width: 20px;"></span>';
-                                return `<div class="starter-item">${shirtNumber} ${name} ${arrow}</div>`;
+                                // Arrow on the right for home team (left column) - wider but not taller
+                                const arrow = wasSubbed ? ' <span style="color: #c8102e; font-weight: bold; transform: scaleX(1.5); display: inline-block;">↓</span>' : '';
+                                return `<div class="starter-item">${shirtNumber} ${name}${arrow}</div>`;
                             });
                         
                         // Build away starters with substitution arrows, sorted by shirt number
@@ -2009,9 +2009,9 @@
                                     wasSubbed = !!sub;
                                 }
                                 
-                                // Fixed-width arrow placeholder for alignment (left side for away)
-                                const arrow = wasSubbed ? '<span style="color: #c8102e; font-size: 1.5em; display: inline-block; width: 20px; text-align: center;">↓</span>' : '<span style="display: inline-block; width: 20px;"></span>';
-                                return `<div class="starter-item">${arrow} ${name} ${shirtNumber}</div>`;
+                                // Arrow on the left for away team (right column) - wider but not taller
+                                const arrow = wasSubbed ? '<span style="color: #c8102e; font-weight: bold; transform: scaleX(1.5); display: inline-block;">↓</span> ' : '';
+                                return `<div class="starter-item">${arrow}${name} ${shirtNumber}</div>`;
                             });
                         
                         // Build home bench (entire bench, sorted by shirt number)
@@ -2032,9 +2032,9 @@
                                         cameOn = !!sub;
                                     }
                                     
-                                    // Fixed-width arrow placeholder for alignment (right side for home)
-                                    const arrow = cameOn ? '<span style="color: #c8102e; font-size: 1.5em; display: inline-block; width: 20px; text-align: center;">↑</span>' : '<span style="display: inline-block; width: 20px;"></span>';
-                                    homeBenchData.push(`<div class="starter-item">${shirtNumber} ${name} ${arrow}</div>`);
+                                    // Arrow on the right for home team (left column) - wider but not taller
+                                    const arrow = cameOn ? ' <span style="color: #c8102e; font-weight: bold; transform: scaleX(1.5); display: inline-block;">↑</span>' : '';
+                                    homeBenchData.push(`<div class="starter-item">${shirtNumber} ${name}${arrow}</div>`);
                                 });
                         }
                         
@@ -2056,9 +2056,9 @@
                                         cameOn = !!sub;
                                     }
                                     
-                                    // Fixed-width arrow placeholder for alignment (left side for away)
-                                    const arrow = cameOn ? '<span style="color: #c8102e; font-size: 1.5em; display: inline-block; width: 20px; text-align: center;">↑</span>' : '<span style="display: inline-block; width: 20px;"></span>';
-                                    awayBenchData.push(`<div class="starter-item">${arrow} ${name} ${shirtNumber}</div>`);
+                                    // Arrow on the left for away team (right column) - wider but not taller
+                                    const arrow = cameOn ? '<span style="color: #c8102e; font-weight: bold; transform: scaleX(1.5); display: inline-block;">↑</span> ' : '';
+                                    awayBenchData.push(`<div class="starter-item">${arrow}${name} ${shirtNumber}</div>`);
                                 });
                         }
                         
