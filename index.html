@@ -2113,12 +2113,12 @@
 
                 // League Standings Section (at bottom of card)
                 let standingsSection = '';
-                if (currentLeague && currentLeague.standings && currentLeague.standings[0]?.table) {
-                    const table = currentLeague.standings[0].table;
+                if (window.currentLeagueStats && window.currentLeagueStats.standings) {
+                    const standings = window.currentLeagueStats.standings;
                     const homeTeamId = match.homeTeam.id;
                     const awayTeamId = match.awayTeam.id;
                     
-                    let standingsRows = table.map(team => {
+                    let standingsRows = standings.map(team => {
                         const isHighlighted = (team.team.id === homeTeamId || team.team.id === awayTeamId);
                         const rowClass = isHighlighted ? 'class="standings-highlight"' : '';
                         
