@@ -81080,14 +81080,14 @@
       "id": 537611,
       "utcDate": "2026-01-18T11:15:00Z",
       "status": "IN_PLAY",
-      "minute": 57,
+      "minute": 81,
       "injuryTime": null,
       "attendance": 24105,
       "venue": "Abe Lenstra Stadion",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T13:35:56Z",
+      "lastUpdated": "2026-01-18T13:59:46Z",
       "homeTeam": {
         "id": 673,
         "name": "SC Heerenveen",
@@ -81395,18 +81395,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 58,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 673,
+            "name": "SC Heerenveen"
+          },
+          "scorer": {
+            "id": 191291,
+            "name": "Bernt Klaverboer"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 79,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "scorer": {
+            "id": 179522,
+            "name": "Tijmen Blokzijl"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -81418,6 +81455,30 @@
           "player": {
             "id": 53313,
             "name": "Sam Kersten"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 67,
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "player": {
+            "id": 189599,
+            "name": "Jorg Schreuders"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 74,
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "player": {
+            "id": 190468,
+            "name": "Tygo Land"
           },
           "card": "YELLOW"
         }
