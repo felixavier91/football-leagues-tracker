@@ -375,6 +375,45 @@
             border-bottom-color: #a00d25;
         }
         
+        /* Match Tabs */
+        .match-tabs {
+            display: flex;
+            gap: 8px;
+            margin: 15px 0 10px 0;
+            border-bottom: 2px solid #ddd;
+        }
+        
+        .match-tab {
+            flex: 1;
+            padding: 10px 16px;
+            background: transparent;
+            border: none;
+            border-bottom: 3px solid transparent;
+            color: #666;
+            font-size: 0.95em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .match-tab:hover {
+            color: #c8102e;
+            background: #f9f9f9;
+        }
+        
+        .match-tab.active {
+            color: #c8102e;
+            border-bottom-color: #c8102e;
+        }
+        
+        .match-tab-panel {
+            display: none;
+        }
+        
+        .match-tab-panel.active {
+            display: block;
+        }
+        
         /* Search Bar */
         .search-container {
             background: white;
@@ -1437,6 +1476,25 @@
             });
         }
         
+        function switchMatchTab(button, panelId, event) {
+            // Prevent card from collapsing when clicking tab
+            event.stopPropagation();
+            
+            // Get all tabs and panels in this match card
+            const tabContainer = button.parentElement;
+            const allTabs = tabContainer.querySelectorAll('.match-tab');
+            const cardElement = tabContainer.closest('.match-card');
+            const allPanels = cardElement.querySelectorAll('.match-tab-panel');
+            
+            // Remove active class from all tabs and panels
+            allTabs.forEach(tab => tab.classList.remove('active'));
+            allPanels.forEach(panel => panel.classList.remove('active'));
+            
+            // Add active class to clicked tab and corresponding panel
+            button.classList.add('active');
+            document.getElementById(panelId).classList.add('active');
+        }
+        
         // toggleStandings not needed - standings now in match cards
         // function toggleStandings() {
         //     const container = document.getElementById('standingsTable');
@@ -2164,16 +2222,37 @@
                     `;
                 }
 
-                // Full expanded details (VIDEO at top, then venue/referee, timeline, stats, starters, and standings)
+                // Create tabs for Stats, Lineups, and Standings
+                const matchTabs = `
+                    <div class="match-tabs">
+                        <button class="match-tab active" onclick="switchMatchTab(this, 'stats-${match.id}', event)">Stats</button>
+                        <button class="match-tab" onclick="switchMatchTab(this, 'lineups-${match.id}', event)">Lineups</button>
+                        <button class="match-tab" onclick="switchMatchTab(this, 'standings-${match.id}', event)">Standings</button>
+                    </div>
+                `;
+
+                // Wrap each section in a tab panel
+                const tabPanels = `
+                    <div class="match-tab-panel active" id="stats-${match.id}">
+                        ${matchStatsSection}
+                    </div>
+                    <div class="match-tab-panel" id="lineups-${match.id}">
+                        ${startersSection}
+                    </div>
+                    <div class="match-tab-panel" id="standings-${match.id}">
+                        ${standingsSection}
+                    </div>
+                `;
+
+                // Full expanded details (VIDEO at top, then venue/referee, timeline, tabs with content)
                 const details = `
                     <div class="match-details">
                         ${youtubeLink}
                         ${matchInfo}
                         ${refereeSection}
                         ${timeline}
-                        ${matchStatsSection}
-                        ${startersSection}
-                        ${standingsSection}
+                        ${matchTabs}
+                        ${tabPanels}
                     </div>
                 `;
 
