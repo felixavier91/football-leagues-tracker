@@ -208900,14 +208900,14 @@
         "id": 544405,
         "utcDate": "2026-01-18T13:00:00Z",
         "status": "IN_PLAY",
-        "minute": 35,
-        "injuryTime": null,
+        "minute": 45,
+        "injuryTime": 2,
         "attendance": null,
         "venue": "Coliseum Alfonso Perez",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T14:36:18Z",
+        "lastUpdated": "2026-01-18T14:48:27Z",
         "homeTeam": {
           "id": 82,
           "name": "Getafe CF",
@@ -299645,7 +299645,7 @@
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T14:23:35Z",
+        "lastUpdated": "2026-01-18T14:38:14Z",
         "homeTeam": {
           "id": 10,
           "name": "VfB Stuttgart",
@@ -299658,7 +299658,7 @@
             "nationality": "Germany"
           },
           "leagueRank": 5,
-          "formation": "4-4-2",
+          "formation": "4-2-2-2",
           "lineup": [
             {
               "id": 6491,
@@ -683922,14 +683922,14 @@
         "id": 537605,
         "utcDate": "2026-01-18T13:30:00Z",
         "status": "IN_PLAY",
-        "minute": 5,
+        "minute": 17,
         "injuryTime": null,
         "attendance": null,
         "venue": "Kras Stadion",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T14:36:59Z",
+        "lastUpdated": "2026-01-18T14:49:07Z",
         "homeTeam": {
           "id": 1919,
           "name": "FC Volendam",
@@ -684225,10 +684225,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -684236,7 +684236,29 @@
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 10,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1919,
+              "name": "FC Volendam"
+            },
+            "scorer": {
+              "id": 214142,
+              "name": "Joël Ideho"
+            },
+            "assist": {
+              "id": 190770,
+              "name": "Brandley Kuwas"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -684297,14 +684319,14 @@
         "id": 537608,
         "utcDate": "2026-01-18T13:30:00Z",
         "status": "IN_PLAY",
-        "minute": 3,
+        "minute": 15,
         "injuryTime": null,
         "attendance": null,
         "venue": "Erve Asito",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T14:36:59Z",
+        "lastUpdated": "2026-01-18T14:49:07Z",
         "homeTeam": {
           "id": 671,
           "name": "Heracles Almelo",
@@ -684731,7 +684753,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 43899,
+            "name": "Danny Makkelie",
+            "type": "REFEREE",
+            "nationality": "Netherlands"
+          },
+          {
+            "id": 43900,
+            "name": "Hessel Steegstra",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "Netherlands"
+          },
+          {
+            "id": 15154,
+            "name": "Jan de Vries",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Netherlands"
+          }
+        ]
       },
       {
         "area": {
