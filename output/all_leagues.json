@@ -210690,14 +210690,14 @@
         "id": 544409,
         "utcDate": "2026-01-18T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 51,
+        "minute": 70,
         "injuryTime": null,
         "attendance": 36346,
         "venue": "Reale Arena",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T22:17:52Z",
+        "lastUpdated": "2026-01-18T22:36:42Z",
         "homeTeam": {
           "id": 92,
           "name": "Real Sociedad de Fútbol",
@@ -211044,6 +211044,18 @@
             "player": {
               "id": 156615,
               "name": "Beñat Turrientes"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 51,
+            "team": {
+              "id": 92,
+              "name": "Real Sociedad de Fútbol"
+            },
+            "player": {
+              "id": 141571,
+              "name": "Jon Aramburu"
             },
             "card": "YELLOW"
           }
@@ -417323,14 +417335,14 @@
         "id": 537015,
         "utcDate": "2026-01-18T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 72,
+        "minute": 90,
         "injuryTime": null,
         "attendance": null,
         "venue": "Giuseppe Meazza",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T22:18:21Z",
+        "lastUpdated": "2026-01-18T22:36:56Z",
         "homeTeam": {
           "id": 98,
           "name": "AC Milan",
@@ -417662,10 +417674,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -417673,7 +417685,29 @@
             "away": 0
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 76,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 98,
+              "name": "AC Milan"
+            },
+            "scorer": {
+              "id": 304,
+              "name": "Niclas Füllkrug"
+            },
+            "assist": {
+              "id": 8858,
+              "name": "Alexis Saelemaekers"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [
           {
@@ -417685,6 +417719,18 @@
             "player": {
               "id": 153556,
               "name": "Koni De Winter"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 84,
+            "team": {
+              "id": 5890,
+              "name": "US Lecce"
+            },
+            "player": {
+              "id": 70286,
+              "name": "Ylber Ramadani"
             },
             "card": "YELLOW"
           }
@@ -507672,14 +507718,14 @@
         "id": 542562,
         "utcDate": "2026-01-18T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 75,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 3,
         "attendance": null,
         "venue": "Groupama Stadium",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T22:18:26Z",
+        "lastUpdated": "2026-01-18T22:37:06Z",
         "homeTeam": {
           "id": 523,
           "name": "Olympique Lyonnais",
@@ -507955,7 +508001,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 2,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 2,
@@ -508004,6 +508050,27 @@
               "home": 2,
               "away": 0
             }
+          },
+          {
+            "minute": 87,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 512,
+              "name": "Stade Brestois 29"
+            },
+            "scorer": {
+              "id": 116407,
+              "name": "Eric Junior Dina Ebimbe"
+            },
+            "assist": {
+              "id": 441,
+              "name": "Brendan Chardonnet"
+            },
+            "score": {
+              "home": 2,
+              "away": 1
+            }
           }
         ],
         "penalties": [],
@@ -508029,6 +508096,18 @@
             "player": {
               "id": 7792,
               "name": "Ainsley Maitland-Niles"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 86,
+            "team": {
+              "id": 523,
+              "name": "Olympique Lyonnais"
+            },
+            "player": {
+              "id": 178964,
+              "name": "Abner Vinicius"
             },
             "card": "YELLOW"
           }
@@ -594258,7 +594337,7 @@
         },
         "id": 545861,
         "utcDate": "2026-01-18T20:30:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "minute": 45,
         "injuryTime": null,
         "attendance": null,
@@ -594266,7 +594345,7 @@
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T22:18:36Z",
+        "lastUpdated": "2026-01-18T22:37:16Z",
         "homeTeam": {
           "id": 5543,
           "name": "Vitória SC",
@@ -594551,8 +594630,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "goals": [],

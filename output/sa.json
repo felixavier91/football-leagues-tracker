@@ -102358,14 +102358,14 @@
       "id": 537015,
       "utcDate": "2026-01-18T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 72,
+      "minute": 90,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T22:18:21Z",
+      "lastUpdated": "2026-01-18T22:36:56Z",
       "homeTeam": {
         "id": 98,
         "name": "AC Milan",
@@ -102697,10 +102697,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -102708,7 +102708,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 76,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "scorer": {
+            "id": 304,
+            "name": "Niclas Füllkrug"
+          },
+          "assist": {
+            "id": 8858,
+            "name": "Alexis Saelemaekers"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -102720,6 +102742,18 @@
           "player": {
             "id": 153556,
             "name": "Koni De Winter"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 84,
+          "team": {
+            "id": 5890,
+            "name": "US Lecce"
+          },
+          "player": {
+            "id": 70286,
+            "name": "Ylber Ramadani"
           },
           "card": "YELLOW"
         }
