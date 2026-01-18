@@ -417288,14 +417288,14 @@
         "id": 537015,
         "utcDate": "2026-01-18T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": null,
+        "minute": 7,
         "injuryTime": null,
         "attendance": null,
         "venue": "Giuseppe Meazza",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T20:46:27Z",
+        "lastUpdated": "2026-01-18T20:55:32Z",
         "homeTeam": {
           "id": 98,
           "name": "AC Milan",
@@ -507624,14 +507624,14 @@
         "id": 542562,
         "utcDate": "2026-01-18T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 1,
+        "minute": 10,
         "injuryTime": null,
         "attendance": null,
         "venue": "Groupama Stadium",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T20:46:37Z",
+        "lastUpdated": "2026-01-18T20:55:42Z",
         "homeTeam": {
           "id": 523,
           "name": "Olympique Lyonnais",
@@ -593667,14 +593667,14 @@
         "id": 545854,
         "utcDate": "2026-01-18T18:00:00Z",
         "status": "IN_PLAY",
-        "minute": 86,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 4,
         "attendance": null,
         "venue": "Estádio João Cardoso",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T20:46:46Z",
+        "lastUpdated": "2026-01-18T20:55:51Z",
         "homeTeam": {
           "id": 1049,
           "name": "CD Tondela",
@@ -593952,19 +593952,72 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 0,
             "away": 0
           }
         },
-        "goals": [],
-        "penalties": [],
+        "goals": [
+          {
+            "minute": 90,
+            "injuryTime": 2,
+            "type": "PENALTY",
+            "team": {
+              "id": 5613,
+              "name": "Sporting Clube de Braga"
+            },
+            "scorer": {
+              "id": 121007,
+              "name": "Rodrigo Zalazar"
+            },
+            "assist": null,
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
+        "penalties": [
+          {
+            "player": {
+              "id": 204143,
+              "name": "Hugo Félix"
+            },
+            "team": {
+              "id": 1049,
+              "name": "CD Tondela"
+            },
+            "scored": false
+          },
+          {
+            "player": {
+              "id": 121007,
+              "name": "Rodrigo Zalazar"
+            },
+            "team": {
+              "id": 5613,
+              "name": "Sporting Clube de Braga"
+            },
+            "scored": true
+          },
+          {
+            "player": {
+              "id": 204143,
+              "name": "Hugo Félix"
+            },
+            "team": {
+              "id": 1049,
+              "name": "CD Tondela"
+            },
+            "scored": false
+          }
+        ],
         "bookings": [
           {
             "minute": 10,
@@ -594013,6 +594066,18 @@
               "name": "Gustaf Lagerbielke"
             },
             "card": "YELLOW_RED"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 1049,
+              "name": "CD Tondela"
+            },
+            "player": {
+              "id": 45331,
+              "name": "Bebeto"
+            },
+            "card": "YELLOW"
           }
         ],
         "substitutions": [],
@@ -688686,7 +688751,7 @@
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T20:32:36Z",
+        "lastUpdated": "2026-01-18T20:47:36Z",
         "homeTeam": {
           "id": 1919,
           "name": "FC Volendam",
