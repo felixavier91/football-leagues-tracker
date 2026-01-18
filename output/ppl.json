@@ -72659,14 +72659,14 @@
       "id": 545860,
       "utcDate": "2026-01-18T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 69,
+      "minute": 82,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio de São Miguel",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T17:58:11Z",
+      "lastUpdated": "2026-01-18T18:10:53Z",
       "homeTeam": {
         "id": 5530,
         "name": "CD Santa Clara",
@@ -72944,18 +72944,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 75,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5531,
+            "name": "FC Famalicão"
+          },
+          "scorer": {
+            "id": 169412,
+            "name": "Marcos Vinicios"
+          },
+          "assist": {
+            "id": 126147,
+            "name": "Rodrigo Pinheiro"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -73023,7 +73045,7 @@
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-12T01:32:02Z",
+      "lastUpdated": "2026-01-18T18:09:54Z",
       "homeTeam": {
         "id": 1049,
         "name": "CD Tondela",
@@ -73036,9 +73058,131 @@
           "nationality": "Italy"
         },
         "leagueRank": 17,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "3-4-3",
+        "lineup": [
+          {
+            "id": 182049,
+            "name": "Bernardo Fontes",
+            "position": "Goalkeeper",
+            "shirtNumber": 31
+          },
+          {
+            "id": 146970,
+            "name": "Christian Marques",
+            "position": "Defence",
+            "shirtNumber": 4
+          },
+          {
+            "id": 178447,
+            "name": "Brayan Medina",
+            "position": "Defence",
+            "shirtNumber": 20
+          },
+          {
+            "id": 45331,
+            "name": "Bebeto",
+            "position": "Defence",
+            "shirtNumber": 2
+          },
+          {
+            "id": 166113,
+            "name": "Emmanuel Maviram",
+            "position": "Defence",
+            "shirtNumber": 60
+          },
+          {
+            "id": 98947,
+            "name": "Rodrigo Conceição",
+            "position": "Defence",
+            "shirtNumber": 27
+          },
+          {
+            "id": 243612,
+            "name": "Cícero",
+            "position": "Midfield",
+            "shirtNumber": 97
+          },
+          {
+            "id": 133788,
+            "name": "Sphephelo Sithole",
+            "position": "Midfield",
+            "shirtNumber": 15
+          },
+          {
+            "id": 204143,
+            "name": "Hugo Félix",
+            "position": "Midfield",
+            "shirtNumber": 79
+          },
+          {
+            "id": 242516,
+            "name": "Pedro Maranhão",
+            "position": "Offence",
+            "shirtNumber": 7
+          },
+          {
+            "id": 255930,
+            "name": "Makan Aïko",
+            "position": "Left Winger",
+            "shirtNumber": 90
+          }
+        ],
+        "bench": [
+          {
+            "id": 152461,
+            "name": "Lucas Cañizars",
+            "position": "Goalkeeper",
+            "shirtNumber": 30
+          },
+          {
+            "id": 171329,
+            "name": "Tiago Manso",
+            "position": "Defence",
+            "shirtNumber": 48
+          },
+          {
+            "id": 32288,
+            "name": "João Afonso",
+            "position": "Defence",
+            "shirtNumber": 5
+          },
+          {
+            "id": 167273,
+            "name": "Helder Tavares",
+            "position": "Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 262938,
+            "name": "Juan Rodríguez",
+            "position": "Midfield",
+            "shirtNumber": 32
+          },
+          {
+            "id": 179588,
+            "name": "Sie Ouattara",
+            "position": "Offence",
+            "shirtNumber": 70
+          },
+          {
+            "id": 206797,
+            "name": "Afonso Rodrigues",
+            "position": "Offence",
+            "shirtNumber": 19
+          },
+          {
+            "id": 812,
+            "name": "Jordan Siebatcheu",
+            "position": "Centre-Forward",
+            "shirtNumber": 29
+          },
+          {
+            "id": 188926,
+            "name": "Joe Hodge",
+            "position": "Defensive Midfield",
+            "shirtNumber": 10
+          }
+        ]
       },
       "awayTeam": {
         "id": 5613,
@@ -73052,7 +73196,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 5,
-        "formation": null,
+        "formation": "3-4-3",
         "lineup": [],
         "bench": []
       },
