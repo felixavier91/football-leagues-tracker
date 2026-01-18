@@ -2039,8 +2039,8 @@
                                     wasSubbed = !!sub;
                                 }
                                 
-                                // Arrow on the right for home team (left column) - much wider
-                                const arrow = wasSubbed ? ' <span style="color: #c8102e; font-weight: bold; transform: scaleX(3); display: inline-block;">↓</span>' : '';
+                                // Arrow on the right for home team (left column) - wider, taller, more spacing
+                                const arrow = wasSubbed ? ' <span style="color: #c8102e; font-weight: bold; transform: scale(2.5, 1.8); display: inline-block; margin-left: 8px;">↓</span>' : '';
                                 return `<div class="starter-item">${shirtNumber} ${name}${arrow}</div>`;
                             });
                         
@@ -2060,8 +2060,8 @@
                                     wasSubbed = !!sub;
                                 }
                                 
-                                // Arrow on the left for away team (right column) - much wider
-                                const arrow = wasSubbed ? '<span style="color: #c8102e; font-weight: bold; transform: scaleX(3); display: inline-block;">↓</span> ' : '';
+                                // Arrow on the left for away team (right column) - wider, taller, more spacing
+                                const arrow = wasSubbed ? '<span style="color: #c8102e; font-weight: bold; transform: scale(2.5, 1.8); display: inline-block; margin-right: 8px;">↓</span> ' : '';
                                 return `<div class="starter-item">${arrow}${name} ${shirtNumber}</div>`;
                             });
                         
@@ -2083,8 +2083,8 @@
                                         cameOn = !!sub;
                                     }
                                     
-                                    // Arrow on the right for home team (left column) - much wider and green
-                                    const arrow = cameOn ? ' <span style="color: #28a745; font-weight: bold; transform: scaleX(3); display: inline-block;">↑</span>' : '';
+                                    // Arrow on the right for home team (left column) - wider, taller, green, more spacing
+                                    const arrow = cameOn ? ' <span style="color: #28a745; font-weight: bold; transform: scale(2.5, 1.8); display: inline-block; margin-left: 8px;">↑</span>' : '';
                                     homeBenchData.push(`<div class="starter-item">${shirtNumber} ${name}${arrow}</div>`);
                                 });
                         }
@@ -2107,8 +2107,8 @@
                                         cameOn = !!sub;
                                     }
                                     
-                                    // Arrow on the left for away team (right column) - much wider and green
-                                    const arrow = cameOn ? '<span style="color: #28a745; font-weight: bold; transform: scaleX(3); display: inline-block;">↑</span> ' : '';
+                                    // Arrow on the left for away team (right column) - wider, taller, green, more spacing
+                                    const arrow = cameOn ? '<span style="color: #28a745; font-weight: bold; transform: scale(2.5, 1.8); display: inline-block; margin-right: 8px;">↑</span> ' : '';
                                     awayBenchData.push(`<div class="starter-item">${arrow}${name} ${shirtNumber}</div>`);
                                 });
                         }
