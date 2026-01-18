@@ -975,17 +975,6 @@
             <div id="leagueButtons" class="league-buttons"></div>
         </div>
 
-        <div class="standings-container" id="standingsContainer" style="display: none;">
-            <div class="standings-tabs">
-                <button class="standings-tab active" onclick="switchStatsTab('standings')">Standings</button>
-                <button class="standings-tab" onclick="switchStatsTab('goals')">Goals</button>
-                <button class="standings-tab" onclick="switchStatsTab('assists')">Assists</button>
-                <button class="standings-tab" onclick="switchStatsTab('yellow')">Yellow<br>Cards</button>
-                <button class="standings-tab" onclick="switchStatsTab('red')">Red<br>Cards</button>
-            </div>
-            <div class="standings-table" id="standingsTable"></div>
-        </div>
-
         <div class="filters" id="filtersContainer" style="display: none;">
             <button class="filter-btn active" id="recentBtn" onclick="setMatchFilter('recent')">Finished</button>
             <button class="filter-btn" id="liveBtn" onclick="setMatchFilter('live')">Live</button>
@@ -1097,22 +1086,6 @@
             calculateStandings(leagueCode);
             
             document.getElementById('filtersContainer').style.display = 'flex';
-            document.getElementById('searchContainer').style.display = 'block';
-            document.getElementById('statsToggleBtn').style.display = 'block';
-            
-            // Honor current stats section state
-            const container = document.getElementById('standingsContainer');
-            const toggleText = document.getElementById('statsToggleText');
-            if (statsExpanded) {
-                container.style.display = 'block';
-                toggleText.textContent = '▲ Hide Standings';
-            } else {
-                container.style.display = 'none';
-                toggleText.textContent = '▼ Show Standings';
-            }
-            
-            // Clear search input when changing leagues
-            document.getElementById('searchInput').value = '';
             
             // Show finished matches by default
             setMatchFilter(currentFilter);
@@ -1205,7 +1178,8 @@
                     standings: standings,
                     matches: allLeaguesData[leagueCode].matches
                 };
-                displayStandings(standings);
+                // Standings now shown in match cards
+                // displayStandings(standings);
             }
         }
 
@@ -1463,29 +1437,31 @@
             });
         }
         
-        function toggleStandings() {
-            const container = document.getElementById('standingsTable');
-            const currentState = container.dataset.expanded === 'true';
-            container.dataset.expanded = !currentState;
-            
-            const standings = JSON.parse(container.dataset.fullStandings);
-            displayStandings(standings);
-        }
+        // toggleStandings not needed - standings now in match cards
+        // function toggleStandings() {
+        //     const container = document.getElementById('standingsTable');
+        //     const currentState = container.dataset.expanded === 'true';
+        //     container.dataset.expanded = !currentState;
+        //     
+        //     const standings = JSON.parse(container.dataset.fullStandings);
+        //     displayStandings(standings);
+        // }
         
-        function toggleStatsSection() {
-            const container = document.getElementById('standingsContainer');
-            const toggleText = document.getElementById('statsToggleText');
-            
-            statsExpanded = !statsExpanded;
-            
-            if (statsExpanded) {
-                container.style.display = 'block';
-                toggleText.textContent = '▲ Hide Standings';
-            } else {
-                container.style.display = 'none';
-                toggleText.textContent = '▼ Show Standings';
-            }
-        }
+        // toggleStatsSection not needed - removed Show Standings button
+        // function toggleStatsSection() {
+        //     const container = document.getElementById('standingsContainer');
+        //     const toggleText = document.getElementById('statsToggleText');
+        //     
+        //     statsExpanded = !statsExpanded;
+        //     
+        //     if (statsExpanded) {
+        //         container.style.display = 'block';
+        //         toggleText.textContent = '▲ Hide Standings';
+        //     } else {
+        //         container.style.display = 'none';
+        //         toggleText.textContent = '▼ Show Standings';
+        //     }
+        // }
 
         function setMatchFilter(filter) {
             currentFilter = filter;
