@@ -1972,86 +1972,94 @@
                             return posMap[position] || position;
                         };
                         
-                        // Build home starters with substitution arrows
-                        const homeStartersData = matchStats.homeTeam.lineup.map(player => {
-                            const name = formatName(player.name);
-                            const shirtNumber = player.shirtNumber || '';
-                            
-                            // Check if this player was substituted
-                            let wasSubbed = false;
-                            if (matchStats.substitutions) {
-                                const sub = matchStats.substitutions.find(s => 
-                                    s.team.id === matchStats.homeTeam.id && s.playerOut.name === player.name
-                                );
-                                wasSubbed = !!sub;
-                            }
-                            
-                            // Arrow on the right for home team (left column) - much bigger
-                            const arrow = wasSubbed ? ' <span style="color: #c8102e; font-size: 1.5em;">↓</span>' : '';
-                            return `<div class="starter-item">${shirtNumber} ${name}${arrow}</div>`;
-                        });
+                        // Build home starters with substitution arrows, sorted by shirt number
+                        const homeStartersData = matchStats.homeTeam.lineup
+                            .sort((a, b) => (a.shirtNumber || 99) - (b.shirtNumber || 99))
+                            .map(player => {
+                                const name = formatName(player.name);
+                                const shirtNumber = player.shirtNumber || '';
+                                
+                                // Check if this player was substituted
+                                let wasSubbed = false;
+                                if (matchStats.substitutions) {
+                                    const sub = matchStats.substitutions.find(s => 
+                                        s.team.id === matchStats.homeTeam.id && s.playerOut.name === player.name
+                                    );
+                                    wasSubbed = !!sub;
+                                }
+                                
+                                // Fixed-width arrow placeholder for alignment (right side for home)
+                                const arrow = wasSubbed ? '<span style="color: #c8102e; font-size: 1.5em; display: inline-block; width: 20px; text-align: center;">↓</span>' : '<span style="display: inline-block; width: 20px;"></span>';
+                                return `<div class="starter-item">${shirtNumber} ${name} ${arrow}</div>`;
+                            });
                         
-                        // Build away starters with substitution arrows
-                        const awayStartersData = matchStats.awayTeam.lineup.map(player => {
-                            const name = formatName(player.name);
-                            const shirtNumber = player.shirtNumber || '';
-                            
-                            // Check if this player was substituted
-                            let wasSubbed = false;
-                            if (matchStats.substitutions) {
-                                const sub = matchStats.substitutions.find(s => 
-                                    s.team.id === matchStats.awayTeam.id && s.playerOut.name === player.name
-                                );
-                                wasSubbed = !!sub;
-                            }
-                            
-                            // Arrow on the left for away team (right column) - much bigger
-                            const arrow = wasSubbed ? '<span style="color: #c8102e; font-size: 1.5em;">↓</span> ' : '';
-                            return `<div class="starter-item">${arrow}${name} ${shirtNumber}</div>`;
-                        });
+                        // Build away starters with substitution arrows, sorted by shirt number
+                        const awayStartersData = matchStats.awayTeam.lineup
+                            .sort((a, b) => (a.shirtNumber || 99) - (b.shirtNumber || 99))
+                            .map(player => {
+                                const name = formatName(player.name);
+                                const shirtNumber = player.shirtNumber || '';
+                                
+                                // Check if this player was substituted
+                                let wasSubbed = false;
+                                if (matchStats.substitutions) {
+                                    const sub = matchStats.substitutions.find(s => 
+                                        s.team.id === matchStats.awayTeam.id && s.playerOut.name === player.name
+                                    );
+                                    wasSubbed = !!sub;
+                                }
+                                
+                                // Fixed-width arrow placeholder for alignment (left side for away)
+                                const arrow = wasSubbed ? '<span style="color: #c8102e; font-size: 1.5em; display: inline-block; width: 20px; text-align: center;">↓</span>' : '<span style="display: inline-block; width: 20px;"></span>';
+                                return `<div class="starter-item">${arrow} ${name} ${shirtNumber}</div>`;
+                            });
                         
-                        // Build home bench (entire bench, not just those who came on)
+                        // Build home bench (entire bench, sorted by shirt number)
                         const homeBenchData = [];
                         if (matchStats.homeTeam.bench) {
-                            matchStats.homeTeam.bench.forEach(player => {
-                                const name = formatName(player.name);
-                                const shirtNumber = player.shirtNumber || '';
-                                
-                                // Check if this player came on as a substitute
-                                let cameOn = false;
-                                if (matchStats.substitutions) {
-                                    const sub = matchStats.substitutions.find(s => 
-                                        s.team.id === matchStats.homeTeam.id && s.playerIn.id === player.id
-                                    );
-                                    cameOn = !!sub;
-                                }
-                                
-                                // Arrow on the right for home team (left column) - much bigger
-                                const arrow = cameOn ? ' <span style="color: #c8102e; font-size: 1.5em;">↑</span>' : '';
-                                homeBenchData.push(`<div class="starter-item">${shirtNumber} ${name}${arrow}</div>`);
-                            });
+                            matchStats.homeTeam.bench
+                                .sort((a, b) => (a.shirtNumber || 99) - (b.shirtNumber || 99))
+                                .forEach(player => {
+                                    const name = formatName(player.name);
+                                    const shirtNumber = player.shirtNumber || '';
+                                    
+                                    // Check if this player came on as a substitute
+                                    let cameOn = false;
+                                    if (matchStats.substitutions) {
+                                        const sub = matchStats.substitutions.find(s => 
+                                            s.team.id === matchStats.homeTeam.id && s.playerIn.id === player.id
+                                        );
+                                        cameOn = !!sub;
+                                    }
+                                    
+                                    // Fixed-width arrow placeholder for alignment (right side for home)
+                                    const arrow = cameOn ? '<span style="color: #c8102e; font-size: 1.5em; display: inline-block; width: 20px; text-align: center;">↑</span>' : '<span style="display: inline-block; width: 20px;"></span>';
+                                    homeBenchData.push(`<div class="starter-item">${shirtNumber} ${name} ${arrow}</div>`);
+                                });
                         }
                         
-                        // Build away bench (entire bench, not just those who came on)
+                        // Build away bench (entire bench, sorted by shirt number)
                         const awayBenchData = [];
                         if (matchStats.awayTeam.bench) {
-                            matchStats.awayTeam.bench.forEach(player => {
-                                const name = formatName(player.name);
-                                const shirtNumber = player.shirtNumber || '';
-                                
-                                // Check if this player came on as a substitute
-                                let cameOn = false;
-                                if (matchStats.substitutions) {
-                                    const sub = matchStats.substitutions.find(s => 
-                                        s.team.id === matchStats.awayTeam.id && s.playerIn.id === player.id
-                                    );
-                                    cameOn = !!sub;
-                                }
-                                
-                                // Arrow on the left for away team (right column) - much bigger
-                                const arrow = cameOn ? '<span style="color: #c8102e; font-size: 1.5em;">↑</span> ' : '';
-                                awayBenchData.push(`<div class="starter-item">${arrow}${name} ${shirtNumber}</div>`);
-                            });
+                            matchStats.awayTeam.bench
+                                .sort((a, b) => (a.shirtNumber || 99) - (b.shirtNumber || 99))
+                                .forEach(player => {
+                                    const name = formatName(player.name);
+                                    const shirtNumber = player.shirtNumber || '';
+                                    
+                                    // Check if this player came on as a substitute
+                                    let cameOn = false;
+                                    if (matchStats.substitutions) {
+                                        const sub = matchStats.substitutions.find(s => 
+                                            s.team.id === matchStats.awayTeam.id && s.playerIn.id === player.id
+                                        );
+                                        cameOn = !!sub;
+                                    }
+                                    
+                                    // Fixed-width arrow placeholder for alignment (left side for away)
+                                    const arrow = cameOn ? '<span style="color: #c8102e; font-size: 1.5em; display: inline-block; width: 20px; text-align: center;">↑</span>' : '<span style="display: inline-block; width: 20px;"></span>';
+                                    awayBenchData.push(`<div class="starter-item">${arrow} ${name} ${shirtNumber}</div>`);
+                                });
                         }
                         
                         // Pad starters to same length
