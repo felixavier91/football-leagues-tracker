@@ -73904,14 +73904,14 @@
       "id": 542560,
       "utcDate": "2026-01-18T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 83,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Stade de la Beaujoire",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T18:58:31Z",
+      "lastUpdated": "2026-01-18T19:12:41Z",
       "homeTeam": {
         "id": 543,
         "name": "FC Nantes",
@@ -74377,14 +74377,14 @@
       "id": 542567,
       "utcDate": "2026-01-18T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 83,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Roazhon Park",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T18:58:31Z",
+      "lastUpdated": "2026-01-18T19:12:41Z",
       "homeTeam": {
         "id": 529,
         "name": "Stade Rennais FC 1901",
@@ -74662,10 +74662,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -74692,6 +74692,27 @@
           },
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 86,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "scorer": {
+            "id": 3483,
+            "name": "Breel Embolo"
+          },
+          "assist": {
+            "id": 96869,
+            "name": "Ludovic Blas"
+          },
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
@@ -74731,6 +74752,18 @@
           "player": {
             "id": 106838,
             "name": "Lionel Mpasi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 533,
+            "name": "Le Havre AC"
+          },
+          "player": {
+            "id": 204279,
+            "name": "Simon Ebonog"
           },
           "card": "YELLOW"
         }

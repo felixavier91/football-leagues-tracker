@@ -99991,14 +99991,14 @@
         "id": 537996,
         "utcDate": "2026-01-18T16:30:00Z",
         "status": "IN_PLAY",
-        "minute": 69,
+        "minute": 83,
         "injuryTime": null,
         "attendance": null,
         "venue": "Villa Park",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:57:46Z",
+        "lastUpdated": "2026-01-18T19:12:08Z",
         "homeTeam": {
           "id": 58,
           "name": "Aston Villa FC",
@@ -210154,14 +210154,14 @@
         "id": 544402,
         "utcDate": "2026-01-18T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 25,
+        "minute": 39,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Abanca-Balaídos",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:57:58Z",
+        "lastUpdated": "2026-01-18T19:12:18Z",
         "homeTeam": {
           "id": 558,
           "name": "RC Celta de Vigo",
@@ -210582,7 +210582,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 206211,
+            "name": "Jesús Gil Manzano",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 206204,
+            "name": "Ángel Nevado Rodríguez",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "Spain"
+          },
+          {
+            "id": 206214,
+            "name": "Javier Martínez Nicolás",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Spain"
+          }
+        ]
       },
       {
         "area": {
@@ -301092,14 +301111,14 @@
         "id": 540562,
         "utcDate": "2026-01-18T16:30:00Z",
         "status": "IN_PLAY",
-        "minute": 63,
+        "minute": 77,
         "injuryTime": null,
         "attendance": null,
         "venue": "WWK ARENA",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:58:16Z",
+        "lastUpdated": "2026-01-18T19:12:26Z",
         "homeTeam": {
           "id": 16,
           "name": "FC Augsburg",
@@ -301377,11 +301396,11 @@
           ]
         },
         "score": {
-          "winner": "HOME_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
             "home": 2,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 0,
@@ -301442,6 +301461,24 @@
               "home": 2,
               "away": 1
             }
+          },
+          {
+            "minute": 62,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 17,
+              "name": "SC Freiburg"
+            },
+            "scorer": {
+              "id": 156629,
+              "name": "Igor Matanovic"
+            },
+            "assist": null,
+            "score": {
+              "home": 2,
+              "away": 2
+            }
           }
         ],
         "penalties": [],
@@ -301479,6 +301516,18 @@
             "player": {
               "id": 249428,
               "name": "Noahkai Banks"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 62,
+            "team": {
+              "id": 16,
+              "name": "FC Augsburg"
+            },
+            "player": {
+              "id": 6661,
+              "name": "Michael Gregoritsch"
             },
             "card": "YELLOW"
           }
@@ -416342,15 +416391,15 @@
         },
         "id": 537018,
         "utcDate": "2026-01-18T17:00:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 47,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Olimpico Grande Torino",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:58:27Z",
+        "lastUpdated": "2026-01-18T19:12:32Z",
         "homeTeam": {
           "id": 586,
           "name": "Torino FC",
@@ -416358,9 +416407,9 @@
           "tla": "TOR",
           "crest": "https://crests.football-data.org/586.png",
           "coach": {
-            "id": 11020,
-            "name": "Marco Baroni",
-            "nationality": "Italy"
+            "id": null,
+            "name": null,
+            "nationality": null
           },
           "leagueRank": 12,
           "formation": "3-1-4-2",
@@ -416508,9 +416557,9 @@
           "tla": "ROM",
           "crest": "https://crests.football-data.org/100.png",
           "coach": {
-            "id": 10989,
-            "name": "Gian Piero Gasperini",
-            "nationality": "Italy"
+            "id": null,
+            "name": null,
+            "nationality": null
           },
           "leagueRank": 5,
           "formation": "3-4-2-1",
@@ -416534,16 +416583,16 @@
               "shirtNumber": 21
             },
             {
-              "id": 7457,
-              "name": "Donyell Malen",
-              "position": "Right Winger",
-              "shirtNumber": 14
-            },
-            {
               "id": 149173,
               "name": "Devyne Rensch",
               "position": "Right-Back",
               "shirtNumber": 2
+            },
+            {
+              "id": 7457,
+              "name": "Donyell Malen",
+              "position": "Right Winger",
+              "shirtNumber": 14
             },
             {
               "id": 1819,
@@ -416562,12 +416611,6 @@
               "name": "Kouadio Koné",
               "position": "Central Midfield",
               "shirtNumber": 17
-            },
-            {
-              "id": 29622,
-              "name": "Zeki Çelik",
-              "position": "Right-Back",
-              "shirtNumber": 19
             },
             {
               "id": 32703,
@@ -416620,12 +416663,6 @@
               "shirtNumber": 78
             },
             {
-              "id": 29622,
-              "name": "Zeki Çelik",
-              "position": "Right-Back",
-              "shirtNumber": 19
-            },
-            {
               "id": 7383,
               "name": "Kostas Tsimikas",
               "position": "Left-Back",
@@ -416638,12 +416675,6 @@
               "shirtNumber": 18
             },
             {
-              "id": 149173,
-              "name": "Devyne Rensch",
-              "position": "Right-Back",
-              "shirtNumber": 2
-            },
-            {
               "id": 192382,
               "name": "Niccolo Pisilli",
               "position": "Central Midfield",
@@ -416654,6 +416685,12 @@
               "name": "Daniele Ghilardi",
               "position": "Centre-Back",
               "shirtNumber": 87
+            },
+            {
+              "id": 29622,
+              "name": "Zeki Çelik",
+              "position": "Right-Back",
+              "shirtNumber": 19
             }
           ]
         },
@@ -505869,14 +505906,14 @@
         "id": 542560,
         "utcDate": "2026-01-18T16:15:00Z",
         "status": "IN_PLAY",
-        "minute": 83,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 6,
         "attendance": null,
         "venue": "Stade de la Beaujoire",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:58:31Z",
+        "lastUpdated": "2026-01-18T19:12:41Z",
         "homeTeam": {
           "id": 543,
           "name": "FC Nantes",
@@ -506342,14 +506379,14 @@
         "id": 542567,
         "utcDate": "2026-01-18T16:15:00Z",
         "status": "IN_PLAY",
-        "minute": 83,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 6,
         "attendance": null,
         "venue": "Roazhon Park",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:58:31Z",
+        "lastUpdated": "2026-01-18T19:12:41Z",
         "homeTeam": {
           "id": 529,
           "name": "Stade Rennais FC 1901",
@@ -506627,10 +506664,10 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 1
           },
           "halfTime": {
@@ -506657,6 +506694,27 @@
             },
             "score": {
               "home": 0,
+              "away": 1
+            }
+          },
+          {
+            "minute": 86,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 529,
+              "name": "Stade Rennais FC 1901"
+            },
+            "scorer": {
+              "id": 3483,
+              "name": "Breel Embolo"
+            },
+            "assist": {
+              "id": 96869,
+              "name": "Ludovic Blas"
+            },
+            "score": {
+              "home": 1,
               "away": 1
             }
           }
@@ -506696,6 +506754,18 @@
             "player": {
               "id": 106838,
               "name": "Lionel Mpasi"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 533,
+              "name": "Le Havre AC"
+            },
+            "player": {
+              "id": 204279,
+              "name": "Simon Ebonog"
             },
             "card": "YELLOW"
           }
@@ -592556,15 +592626,15 @@
         },
         "id": 545854,
         "utcDate": "2026-01-18T18:00:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 11,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estádio João Cardoso",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:11:33Z",
+        "lastUpdated": "2026-01-18T19:12:43Z",
         "homeTeam": {
           "id": 1049,
           "name": "CD Tondela",
@@ -592577,7 +592647,7 @@
             "nationality": "Italy"
           },
           "leagueRank": 17,
-          "formation": "3-4-3",
+          "formation": "4-3-3",
           "lineup": [
             {
               "id": 182049,
@@ -592842,11 +592912,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -592855,7 +592925,20 @@
         },
         "goals": [],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 10,
+            "team": {
+              "id": 1049,
+              "name": "CD Tondela"
+            },
+            "player": {
+              "id": 178447,
+              "name": "Brayan Medina"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -687264,7 +687347,7 @@
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T18:47:36Z",
+        "lastUpdated": "2026-01-18T19:02:36Z",
         "homeTeam": {
           "id": 1919,
           "name": "FC Volendam",

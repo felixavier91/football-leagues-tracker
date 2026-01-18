@@ -73062,15 +73062,15 @@
       },
       "id": 545854,
       "utcDate": "2026-01-18T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 11,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio João Cardoso",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T18:11:33Z",
+      "lastUpdated": "2026-01-18T19:12:43Z",
       "homeTeam": {
         "id": 1049,
         "name": "CD Tondela",
@@ -73083,7 +73083,7 @@
           "nationality": "Italy"
         },
         "leagueRank": 17,
-        "formation": "3-4-3",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 182049,
@@ -73348,11 +73348,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -73361,7 +73361,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 10,
+          "team": {
+            "id": 1049,
+            "name": "CD Tondela"
+          },
+          "player": {
+            "id": 178447,
+            "name": "Brayan Medina"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
