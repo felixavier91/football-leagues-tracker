@@ -73903,15 +73903,15 @@
       },
       "id": 542560,
       "utcDate": "2026-01-18T16:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de la Beaujoire",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T16:41:21Z",
+      "lastUpdated": "2026-01-18T17:33:37Z",
       "homeTeam": {
         "id": 543,
         "name": "FC Nantes",
@@ -73924,7 +73924,7 @@
           "nationality": "Morocco"
         },
         "leagueRank": 16,
-        "formation": "4-2-3-1",
+        "formation": "3-4-3",
         "lineup": [
           {
             "id": 3240,
@@ -74189,18 +74189,37 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 6,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1045,
+            "name": "Paris FC"
+          },
+          "scorer": {
+            "id": 108520,
+            "name": "Ilan Kebbal"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -74254,15 +74273,15 @@
       },
       "id": 542567,
       "utcDate": "2026-01-18T16:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Roazhon Park",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T16:25:49Z",
+      "lastUpdated": "2026-01-18T17:33:38Z",
       "homeTeam": {
         "id": 529,
         "name": "Stade Rennais FC 1901",
@@ -74275,7 +74294,7 @@
           "nationality": "Senegal"
         },
         "leagueRank": 6,
-        "formation": "3-5-2",
+        "formation": "3-1-4-2",
         "lineup": [
           {
             "id": 8316,
@@ -74540,11 +74559,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,

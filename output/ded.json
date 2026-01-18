@@ -81545,7 +81545,7 @@
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T17:02:36Z",
+      "lastUpdated": "2026-01-18T17:32:36Z",
       "homeTeam": {
         "id": 1919,
         "name": "FC Volendam",
@@ -82537,15 +82537,15 @@
       },
       "id": 537606,
       "utcDate": "2026-01-18T15:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 25,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Kuip",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T17:11:47Z",
+      "lastUpdated": "2026-01-18T17:33:47Z",
       "homeTeam": {
         "id": 675,
         "name": "Feyenoord Rotterdam",
@@ -82847,18 +82847,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 40,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "scorer": {
+            "id": 38122,
+            "name": "Joshua Kitolano"
+          },
+          "assist": {
+            "id": 38124,
+            "name": "Tobias Lauritsen"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -82882,6 +82904,30 @@
           "player": {
             "id": 254376,
             "name": "Ayoni Santos"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 38,
+          "team": {
+            "id": 675,
+            "name": "Feyenoord Rotterdam"
+          },
+          "player": {
+            "id": 244466,
+            "name": "Anis Moussa"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 43,
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "player": {
+            "id": 289506,
+            "name": "Lushendry Martes"
           },
           "card": "YELLOW"
         }

@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 157
+    "played": 158
   },
   "competition": {
     "id": 2002,
@@ -74170,15 +74170,15 @@
       },
       "id": 540565,
       "utcDate": "2026-01-18T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 83,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": 59500,
       "venue": "MHPArena",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T17:11:11Z",
+      "lastUpdated": "2026-01-18T17:23:51Z",
       "homeTeam": {
         "id": 10,
         "name": "VfB Stuttgart",
@@ -74456,11 +74456,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -74487,6 +74487,27 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 83,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "scorer": {
+            "id": 72432,
+            "name": "Jeong Wooyeong"
+          },
+          "assist": {
+            "id": 203039,
+            "name": "Stanley N'Soki"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
           }
         }
       ],
@@ -74568,15 +74589,15 @@
       },
       "id": 540562,
       "utcDate": "2026-01-18T16:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 3,
       "injuryTime": null,
       "attendance": null,
       "venue": "WWK ARENA",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T16:19:50Z",
+      "lastUpdated": "2026-01-18T17:33:21Z",
       "homeTeam": {
         "id": 16,
         "name": "FC Augsburg",
@@ -74854,11 +74875,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
