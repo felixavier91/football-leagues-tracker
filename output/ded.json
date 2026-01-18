@@ -81538,14 +81538,14 @@
       "id": 537605,
       "utcDate": "2026-01-18T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 66,
+      "minute": 80,
       "injuryTime": null,
       "attendance": 6921,
       "venue": "Kras Stadion",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T15:55:26Z",
+      "lastUpdated": "2026-01-18T16:09:01Z",
       "homeTeam": {
         "id": 1919,
         "name": "FC Volendam",
@@ -81941,16 +81941,16 @@
           "nationality": "Netherlands"
         },
         {
-          "id": 221741,
-          "name": "keiner keiner",
-          "type": "ASSISTANT_REFEREE_N2",
-          "nationality": null
-        },
-        {
           "id": 214462,
           "name": "Murat Küçükerbir",
           "type": "ASSISTANT_REFEREE_N2",
           "nationality": "Netherlands"
+        },
+        {
+          "id": 221741,
+          "name": "keiner keiner",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": null
         }
       ]
     },
@@ -81981,14 +81981,14 @@
       "id": 537608,
       "utcDate": "2026-01-18T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 53,
+      "minute": 67,
       "injuryTime": null,
       "attendance": 12274,
       "venue": "Erve Asito",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T15:55:27Z",
+      "lastUpdated": "2026-01-18T16:09:01Z",
       "homeTeam": {
         "id": 671,
         "name": "Heracles Almelo",
@@ -82294,7 +82294,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -82319,9 +82319,39 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 55,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 666,
+            "name": "FC Twente '65"
+          },
+          "scorer": {
+            "id": 16061,
+            "name": "Ricky van Wolfswinkel"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 16061,
+            "name": "Ricky van Wolfswinkel"
+          },
+          "team": {
+            "id": 666,
+            "name": "FC Twente '65"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 24,
@@ -82334,6 +82364,30 @@
             "name": "Thomas van den Belt"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 58,
+          "team": {
+            "id": 671,
+            "name": "Heracles Almelo"
+          },
+          "player": {
+            "id": 7528,
+            "name": "Ajdin Hrustic"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 58,
+          "team": {
+            "id": 666,
+            "name": "FC Twente '65"
+          },
+          "player": {
+            "id": 124715,
+            "name": "Ramiz Zerrouki"
+          },
+          "card": "RED"
         }
       ],
       "substitutions": [],
