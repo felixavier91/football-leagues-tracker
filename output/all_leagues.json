@@ -99591,14 +99591,14 @@
         "id": 538004,
         "utcDate": "2026-01-18T14:00:00Z",
         "status": "IN_PLAY",
-        "minute": 81,
+        "minute": 90,
         "injuryTime": null,
-        "attendance": null,
+        "attendance": 29751,
         "venue": "Molineux Stadium",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T16:37:53Z",
+        "lastUpdated": "2026-01-18T16:48:26Z",
         "homeTeam": {
           "id": 76,
           "name": "Wolverhampton Wanderers FC",
@@ -99911,6 +99911,18 @@
             "player": {
               "id": 153570,
               "name": "Yerson Mosquera"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 89,
+            "team": {
+              "id": 67,
+              "name": "Newcastle United FC"
+            },
+            "player": {
+              "id": 81082,
+              "name": "Sven Botman"
             },
             "card": "YELLOW"
           }
@@ -209670,14 +209682,14 @@
         "id": 544407,
         "utcDate": "2026-01-18T15:15:00Z",
         "status": "IN_PLAY",
-        "minute": 21,
+        "minute": 32,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Cívitas Metropolitano",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T16:38:00Z",
+        "lastUpdated": "2026-01-18T16:48:35Z",
         "homeTeam": {
           "id": 78,
           "name": "Club Atlético de Madrid",
@@ -209984,6 +209996,18 @@
             "player": {
               "id": 173617,
               "name": "Pablo Ibáñez Tébar"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 27,
+            "team": {
+              "id": 78,
+              "name": "Club Atlético de Madrid"
+            },
+            "player": {
+              "id": 123265,
+              "name": "Johnny"
             },
             "card": "YELLOW"
           }
@@ -300297,14 +300321,14 @@
         "id": 540565,
         "utcDate": "2026-01-18T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 50,
+        "minute": 61,
         "injuryTime": null,
         "attendance": null,
         "venue": "MHPArena",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T16:38:22Z",
+        "lastUpdated": "2026-01-18T16:48:47Z",
         "homeTeam": {
           "id": 10,
           "name": "VfB Stuttgart",
@@ -300582,10 +300606,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -300593,7 +300617,29 @@
             "away": 0
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 59,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 10,
+              "name": "VfB Stuttgart"
+            },
+            "scorer": {
+              "id": 206,
+              "name": "Chris Führich"
+            },
+            "assist": {
+              "id": 157263,
+              "name": "Ramon Hendriks"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [
           {
@@ -415329,14 +415375,14 @@
         "id": 537017,
         "utcDate": "2026-01-18T14:00:00Z",
         "status": "IN_PLAY",
-        "minute": 73,
+        "minute": 84,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Renato Dall'Ara",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T16:38:27Z",
+        "lastUpdated": "2026-01-18T16:48:51Z",
         "homeTeam": {
           "id": 103,
           "name": "Bologna FC 1909",
@@ -415731,6 +415777,18 @@
             "player": {
               "id": 111777,
               "name": "Emil Holm"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 77,
+            "team": {
+              "id": 103,
+              "name": "Bologna FC 1909"
+            },
+            "player": {
+              "id": 32491,
+              "name": "Juan Miranda"
             },
             "card": "YELLOW"
           }
@@ -504500,14 +504558,14 @@
         "id": 542564,
         "utcDate": "2026-01-18T14:00:00Z",
         "status": "IN_PLAY",
-        "minute": 79,
+        "minute": 89,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stade de la Meinau",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T16:38:33Z",
+        "lastUpdated": "2026-01-18T16:49:06Z",
         "homeTeam": {
           "id": 576,
           "name": "RC Strasbourg Alsace",
@@ -504992,7 +505050,7 @@
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-12T01:32:02Z",
+        "lastUpdated": "2026-01-18T16:41:21Z",
         "homeTeam": {
           "id": 543,
           "name": "FC Nantes",
@@ -505005,7 +505063,7 @@
             "nationality": "Morocco"
           },
           "leagueRank": 16,
-          "formation": null,
+          "formation": "4-2-3-1",
           "lineup": [
             {
               "id": 3240,
@@ -505143,9 +505201,131 @@
             "nationality": "France"
           },
           "leagueRank": 15,
-          "formation": null,
-          "lineup": [],
-          "bench": []
+          "formation": "5-4-1",
+          "lineup": [
+            {
+              "id": 3175,
+              "name": "Kevin Trapp",
+              "position": "Goalkeeper",
+              "shirtNumber": 35
+            },
+            {
+              "id": 106896,
+              "name": "Jean-Philippe Krasso",
+              "position": "Centre-Forward",
+              "shirtNumber": 11
+            },
+            {
+              "id": 108520,
+              "name": "Ilan Kebbal",
+              "position": "Attacking Midfield",
+              "shirtNumber": 10
+            },
+            {
+              "id": 8352,
+              "name": "Maxime López",
+              "position": "Defensive Midfield",
+              "shirtNumber": 21
+            },
+            {
+              "id": 129221,
+              "name": "Adama Camara",
+              "position": "Defensive Midfield",
+              "shirtNumber": 17
+            },
+            {
+              "id": 638,
+              "name": "Alimami Gory",
+              "position": "Left Winger",
+              "shirtNumber": 7
+            },
+            {
+              "id": 8808,
+              "name": "Hamari Traoré",
+              "position": "Right-Back",
+              "shirtNumber": 14
+            },
+            {
+              "id": 245430,
+              "name": "Nhoa Sangui",
+              "position": "Left-Back",
+              "shirtNumber": 19
+            },
+            {
+              "id": 169339,
+              "name": "Mamadou Mbow",
+              "position": "Centre-Back",
+              "shirtNumber": 5
+            },
+            {
+              "id": 151363,
+              "name": "Otavio Ataide",
+              "position": "Centre-Back",
+              "shirtNumber": 6
+            },
+            {
+              "id": 40000,
+              "name": "Timothée Kolodziejczak",
+              "position": "Centre-Back",
+              "shirtNumber": 15
+            }
+          ],
+          "bench": [
+            {
+              "id": 138022,
+              "name": "Obed Nkambadio",
+              "position": "Goalkeeper",
+              "shirtNumber": 16
+            },
+            {
+              "id": 94034,
+              "name": "Tuomas Ollila",
+              "position": "Left-Back",
+              "shirtNumber": 2
+            },
+            {
+              "id": 34754,
+              "name": "Marshall Munetsi",
+              "position": "Central Midfield",
+              "shirtNumber": 18
+            },
+            {
+              "id": 565,
+              "name": "Vincent Marchetti",
+              "position": "Central Midfield",
+              "shirtNumber": 4
+            },
+            {
+              "id": 941,
+              "name": "Julien López Baila",
+              "position": "Left Winger",
+              "shirtNumber": 20
+            },
+            {
+              "id": 182267,
+              "name": "Luca Koleosho",
+              "position": "Right Winger",
+              "shirtNumber": 24
+            },
+            {
+              "id": 176893,
+              "name": "Lohann Doucet",
+              "position": "Defensive Midfield",
+              "shirtNumber": 8
+            },
+            {
+              "id": 8900,
+              "name": "Thibault De Smet",
+              "position": "Left-Back",
+              "shirtNumber": 28
+            },
+            {
+              "id": 823,
+              "name": "Mathieu Cafaro",
+              "position": "Right Winger",
+              "shirtNumber": 13
+            }
+          ]
         },
         "score": {
           "winner": null,
@@ -590947,14 +591127,14 @@
         "id": 545860,
         "utcDate": "2026-01-18T15:30:00Z",
         "status": "IN_PLAY",
-        "minute": 9,
+        "minute": 19,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estádio de São Miguel",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T16:38:44Z",
+        "lastUpdated": "2026-01-18T16:49:15Z",
         "homeTeam": {
           "id": 5530,
           "name": "CD Santa Clara",
@@ -685748,7 +685928,7 @@
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T16:32:37Z",
+        "lastUpdated": "2026-01-18T16:47:36Z",
         "homeTeam": {
           "id": 1919,
           "name": "FC Volendam",
@@ -686231,15 +686411,15 @@
         },
         "id": 537608,
         "utcDate": "2026-01-18T13:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 6,
+        "injuryTime": 7,
         "attendance": 12274,
         "venue": "Erve Asito",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T16:38:51Z",
+        "lastUpdated": "2026-01-18T16:41:11Z",
         "homeTeam": {
           "id": 671,
           "name": "Heracles Almelo",
@@ -686740,15 +686920,15 @@
         },
         "id": 537606,
         "utcDate": "2026-01-18T15:45:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 2,
         "injuryTime": null,
         "attendance": null,
         "venue": "De Kuip",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T15:47:22Z",
+        "lastUpdated": "2026-01-18T16:49:21Z",
         "homeTeam": {
           "id": 675,
           "name": "Feyenoord Rotterdam",
@@ -687050,11 +687230,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
