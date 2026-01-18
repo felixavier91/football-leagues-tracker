@@ -1477,13 +1477,6 @@
             document.getElementById('liveBtn').classList.toggle('active', filter === 'live');
             document.getElementById('upcomingBtn').classList.toggle('active', filter === 'upcoming');
             
-            // Check if there's an active search and use it
-            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
-            if (searchTerm) {
-                filterMatchesBySearch();
-                return;
-            }
-            
             // Filter matches
             let filtered = currentMatches;
             const now = new Date();
@@ -2191,62 +2184,10 @@
             }).join('');
         }
 
-        function filterMatchesBySearch() {
-            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
-            
-            // If search is empty, just show current filter results
-            if (!searchTerm) {
-                setMatchFilter(currentFilter);
-                return;
-            }
-            
-            // Filter matches based on current filter first
-            let filtered = currentMatches;
-            const now = new Date();
-            
-            if (currentFilter === 'live') {
-                // Show matches that are live (within 2 hours after start time and not finished)
-                filtered = filtered
-                    .filter(m => {
-                        const matchStart = new Date(m.utcDate);
-                        const twoHoursAfterStart = new Date(matchStart.getTime() + (2 * 60 * 60 * 1000));
-                        const isWithinWindow = now >= matchStart && now <= twoHoursAfterStart;
-                        const notFinished = m.status !== 'FINISHED';
-                        return isWithinWindow && notFinished;
-                    })
-                    .sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate));
-            } else if (currentFilter === 'upcoming') {
-                filtered = filtered
-                    .filter(m => m.status === 'SCHEDULED' || m.status === 'TIMED')
-                    .filter(m => new Date(m.utcDate) >= now)
-                    .sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate));
-            } else {
-                // Show matches that are finished OR have a video
-                filtered = filtered
-                    .filter(m => {
-                        const matchDate = new Date(m.utcDate).toISOString().split('T')[0];
-                        const matchKey = `${m.homeTeam.name}-${m.awayTeam.name}-${matchDate}`;
-                        const hasVideo = highlightsDatabase[currentLeagueCode]?.['2025-26']?.[matchKey]?.videoId;
-                        return m.status === 'FINISHED' || hasVideo;
-                    })
-                    .sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate));
-            }
-            
-            // Now filter by search term
-            filtered = filtered.filter(match => {
-                const homeTeam = match.homeTeam.name.toLowerCase();
-                const homeShort = match.homeTeam.shortName.toLowerCase();
-                const awayTeam = match.awayTeam.name.toLowerCase();
-                const awayShort = match.awayTeam.shortName.toLowerCase();
-                
-                return homeTeam.includes(searchTerm) || 
-                       homeShort.includes(searchTerm) || 
-                       awayTeam.includes(searchTerm) || 
-                       awayShort.includes(searchTerm);
-            });
-            
-            displayMatches(filtered);
-        }
+        // Search function removed - search bar deleted
+        // function filterMatchesBySearch() {
+        //     ...
+        // }
     </script>
 </body>
 </html>
