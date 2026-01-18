@@ -1613,22 +1613,30 @@
                     const season = '2025-26';
                     const matchData = highlightsDatabase[currentLeagueCode]?.[season]?.[matchKey];
                     
-                    // Support both old format (videoId) and new format (videoIds array)
-                    let videoIds = matchData?.videoIds;
-                    if (!videoIds && matchData?.videoId) {
-                        // Old format: convert single videoId to array
-                        videoIds = [matchData.videoId];
+                    // Support multiple formats: videos (new with duration), videoIds (array), videoId (single)
+                    let videos = matchData?.videos;
+                    
+                    // Backward compatibility for videoIds array (convert to videos format)
+                    if (!videos && matchData?.videoIds) {
+                        videos = matchData.videoIds.map(id => ({id: id, duration: ''}));
                     }
                     
-                    if (videoIds && videoIds.length > 0) {
+                    // Backward compatibility for single videoId (convert to videos format)
+                    if (!videos && matchData?.videoId) {
+                        videos = [{id: matchData.videoId, duration: ''}];
+                    }
+                    
+                    if (videos && videos.length > 0) {
                         // Create tabs for multiple videos
                         const uniqueId = `video-${match.id}`;
                         let videoTabs = '<div class="video-tabs">';
                         let videoContent = '<div class="video-content">';
                         
-                        videoIds.forEach((videoId, index) => {
+                        videos.forEach((video, index) => {
                             const active = index === 0 ? 'active' : '';
-                            videoTabs += `<button class="video-tab ${active}" onclick="switchVideo('${uniqueId}', ${index}, event)">Video ${index + 1}</button>`;
+                            const videoId = video.id || video; // Handle both object and string formats
+                            const duration = video.duration ? ` (${video.duration})` : '';
+                            videoTabs += `<button class="video-tab ${active}" onclick="switchVideo('${uniqueId}', ${index}, event)">Video ${index + 1}${duration}</button>`;
                             
                             videoContent += `
                                 <div class="video-panel ${active}" id="${uniqueId}-${index}">
