@@ -1700,6 +1700,17 @@
                         videoIds = [matchData.videoId];
                     }
                     
+                    // Always create search button
+                    const youtubeSearchQuery = `${match.homeTeam.name} vs ${match.awayTeam.name} highlights`;
+                    const searchButton = `
+                        <div style="text-align: center; margin-top: 10px;">
+                            <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeSearchQuery)}" 
+                               target="_blank" 
+                               class="youtube-btn"
+                               onclick="trackEvent('search_youtube', {league: '${currentLeagueCode}', home: '${match.homeTeam.shortName}', away: '${match.awayTeam.shortName}'})">Search on YouTube</a>
+                        </div>
+                    `;
+                    
                     if (videoIds && videoIds.length > 0) {
                         // Create tabs for multiple videos
                         const uniqueId = `video-${match.id}`;
@@ -1728,14 +1739,10 @@
                         videoTabs += '</div>';
                         videoContent += '</div>';
                         
-                        youtubeLink = videoTabs + videoContent;
+                        youtubeLink = videoTabs + videoContent + searchButton;
                     } else {
-                        // Fallback to search button with tracking
-                        const youtubeSearchQuery = `${match.homeTeam.name} vs ${match.awayTeam.name} highlights`;
-                        youtubeLink = `<a href="https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeSearchQuery)}" 
-                                         target="_blank" 
-                                         class="youtube-btn"
-                                         onclick="trackEvent('search_youtube', {league: '${currentLeagueCode}', home: '${match.homeTeam.shortName}', away: '${match.awayTeam.shortName}'})">📺 Watch on Youtube</a>`;
+                        // No videos - just show search button
+                        youtubeLink = searchButton;
                     }
                 }
 
@@ -2243,6 +2250,7 @@
                         return `
                             <tr ${rowClass}>
                                 <td>${team.position}</td>
+                                <td style="text-align: center;"><img src="${team.team.crest}" alt="${team.team.shortName}" style="width: 20px; height: 20px; object-fit: contain;"></td>
                                 <td style="text-align: left;">${team.team.shortName || team.team.name}</td>
                                 <td>${team.playedGames}</td>
                                 <td>${team.won}</td>
@@ -2258,11 +2266,11 @@
                     
                     standingsSection = `
                         <div class="match-stats-container" style="margin-top: 20px;">
-                            <div style="text-align: center; font-weight: normal; color: #666; margin-bottom: 10px;">League Standings</div>
                             <table class="standings-table">
                                 <thead>
                                     <tr>
                                         <th>Pos</th>
+                                        <th></th>
                                         <th style="text-align: left;">Team</th>
                                         <th>P</th>
                                         <th>W</th>
