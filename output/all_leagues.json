@@ -210690,14 +210690,14 @@
         "id": 544409,
         "utcDate": "2026-01-18T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 23,
+        "minute": 33,
         "injuryTime": null,
         "attendance": null,
         "venue": "Reale Arena",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T21:26:37Z",
+        "lastUpdated": "2026-01-18T21:35:42Z",
         "homeTeam": {
           "id": 92,
           "name": "Real Sociedad de Fútbol",
@@ -210999,10 +210999,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -211010,7 +211010,29 @@
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 32,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 92,
+              "name": "Real Sociedad de Fútbol"
+            },
+            "scorer": {
+              "id": 180137,
+              "name": "Mikel Oyarzabal"
+            },
+            "assist": {
+              "id": 3259,
+              "name": "Gonçalo Guedes"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -417287,15 +417309,15 @@
         },
         "id": 537015,
         "utcDate": "2026-01-18T19:45:00Z",
-        "status": "IN_PLAY",
-        "minute": 38,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Giuseppe Meazza",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T21:26:56Z",
+        "lastUpdated": "2026-01-18T21:36:03Z",
         "homeTeam": {
           "id": 98,
           "name": "AC Milan",
@@ -417634,8 +417656,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "goals": [],
@@ -507636,15 +507658,15 @@
         },
         "id": 542562,
         "utcDate": "2026-01-18T19:45:00Z",
-        "status": "IN_PLAY",
-        "minute": 41,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Groupama Stadium",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T21:27:11Z",
+        "lastUpdated": "2026-01-18T21:36:11Z",
         "homeTeam": {
           "id": 523,
           "name": "Olympique Lyonnais",
@@ -507919,12 +507941,12 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           }
         },
         "goals": [
@@ -507940,9 +507962,33 @@
               "id": 121312,
               "name": "Pavel Šulc"
             },
-            "assist": null,
+            "assist": {
+              "id": 204136,
+              "name": "Afonso Moreira"
+            },
             "score": {
               "home": 1,
+              "away": 0
+            }
+          },
+          {
+            "minute": 45,
+            "injuryTime": 1,
+            "type": "REGULAR",
+            "team": {
+              "id": 523,
+              "name": "Olympique Lyonnais"
+            },
+            "scorer": {
+              "id": 178964,
+              "name": "Abner Vinicius"
+            },
+            "assist": {
+              "id": 188487,
+              "name": "Endrick"
+            },
+            "score": {
+              "home": 2,
               "away": 0
             }
           }
@@ -594187,15 +594233,15 @@
         },
         "id": 545861,
         "utcDate": "2026-01-18T20:30:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 2,
         "injuryTime": null,
         "attendance": null,
         "venue": "Éstadio Dom Afonso Henriques",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T20:30:27Z",
+        "lastUpdated": "2026-01-18T21:36:16Z",
         "homeTeam": {
           "id": 5543,
           "name": "Vitória SC",
@@ -594473,11 +594519,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -688807,7 +688853,7 @@
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T21:17:36Z",
+        "lastUpdated": "2026-01-18T21:32:36Z",
         "homeTeam": {
           "id": 1919,
           "name": "FC Volendam",

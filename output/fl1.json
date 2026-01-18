@@ -74831,15 +74831,15 @@
       },
       "id": 542562,
       "utcDate": "2026-01-18T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Groupama Stadium",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T21:27:11Z",
+      "lastUpdated": "2026-01-18T21:36:11Z",
       "homeTeam": {
         "id": 523,
         "name": "Olympique Lyonnais",
@@ -75114,12 +75114,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "goals": [
@@ -75135,9 +75135,33 @@
             "id": 121312,
             "name": "Pavel Šulc"
           },
-          "assist": null,
+          "assist": {
+            "id": 204136,
+            "name": "Afonso Moreira"
+          },
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "scorer": {
+            "id": 178964,
+            "name": "Abner Vinicius"
+          },
+          "assist": {
+            "id": 188487,
+            "name": "Endrick"
+          },
+          "score": {
+            "home": 2,
             "away": 0
           }
         }
