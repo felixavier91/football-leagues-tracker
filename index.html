@@ -343,6 +343,38 @@
             padding: 2px 8px;
         }
         
+        .standings-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9em;
+            color: #666;
+        }
+        
+        .standings-table th {
+            background: #f5f5f5;
+            padding: 8px 4px;
+            text-align: center;
+            font-weight: 600;
+            color: #333;
+            border-bottom: 2px solid #ddd;
+        }
+        
+        .standings-table td {
+            padding: 6px 4px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .standings-table tr.standings-highlight {
+            background-color: #c8102e;
+            color: white;
+        }
+        
+        .standings-table tr.standings-highlight td {
+            color: white;
+            border-bottom-color: #a00d25;
+        }
+        
         /* Search Bar */
         .search-container {
             background: white;
@@ -943,10 +975,6 @@
             <div id="leagueButtons" class="league-buttons"></div>
         </div>
 
-        <div class="stats-section-toggle" id="statsToggleBtn" onclick="toggleStatsSection()" style="display: none;">
-            <span id="statsToggleText">▼ Show Standings</span>
-        </div>
-
         <div class="standings-container" id="standingsContainer" style="display: none;">
             <div class="standings-tabs">
                 <button class="standings-tab active" onclick="switchStatsTab('standings')">Standings</button>
@@ -956,10 +984,6 @@
                 <button class="standings-tab" onclick="switchStatsTab('red')">Red<br>Cards</button>
             </div>
             <div class="standings-table" id="standingsTable"></div>
-        </div>
-
-        <div class="search-container" id="searchContainer" style="display: none;">
-            <input type="text" id="searchInput" class="search-input" placeholder="Search teams..." oninput="filterMatchesBySearch()">
         </div>
 
         <div class="filters" id="filtersContainer" style="display: none;">
@@ -2118,7 +2142,58 @@
                     }
                 }
 
-                // Full expanded details (VIDEO at top, then venue/referee, timeline, stats, and starters)
+                // League Standings Section (at bottom of card)
+                let standingsSection = '';
+                if (currentLeague && currentLeague.standings && currentLeague.standings[0]?.table) {
+                    const table = currentLeague.standings[0].table;
+                    const homeTeamId = match.homeTeam.id;
+                    const awayTeamId = match.awayTeam.id;
+                    
+                    let standingsRows = table.map(team => {
+                        const isHighlighted = (team.team.id === homeTeamId || team.team.id === awayTeamId);
+                        const rowClass = isHighlighted ? 'class="standings-highlight"' : '';
+                        
+                        return `
+                            <tr ${rowClass}>
+                                <td>${team.position}</td>
+                                <td style="text-align: left;">${team.team.shortName || team.team.name}</td>
+                                <td>${team.playedGames}</td>
+                                <td>${team.won}</td>
+                                <td>${team.draw}</td>
+                                <td>${team.lost}</td>
+                                <td>${team.goalsFor}:${team.goalsAgainst}</td>
+                                <td>${team.goalDifference}</td>
+                                <td><strong>${team.points}</strong></td>
+                            </tr>
+                        `;
+                    }).join('');
+                    
+                    standingsSection = `
+                        <div class="match-stats-container" style="margin-top: 20px;">
+                            <div style="text-align: center; font-weight: normal; color: #666; margin-bottom: 10px;">League Standings</div>
+                            <table class="standings-table">
+                                <thead>
+                                    <tr>
+                                        <th>Pos</th>
+                                        <th style="text-align: left;">Team</th>
+                                        <th>P</th>
+                                        <th>W</th>
+                                        <th>D</th>
+                                        <th>L</th>
+                                        <th>GF:GA</th>
+                                        <th>GD</th>
+                                        <th>Pts</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${standingsRows}
+                                </tbody>
+                            </table>
+                        </div>
+                    `;
+                }
+
+                // Full expanded details (VIDEO at top, then venue/referee, timeline, stats, starters, and standings)
                 const details = `
                     <div class="match-details">
                         ${youtubeLink}
@@ -2127,6 +2202,7 @@
                         ${timeline}
                         ${matchStatsSection}
                         ${startersSection}
+                        ${standingsSection}
                     </div>
                 `;
 
