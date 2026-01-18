@@ -210689,15 +210689,15 @@
         },
         "id": 544409,
         "utcDate": "2026-01-18T20:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "minute": 45,
-        "injuryTime": 6,
+        "injuryTime": null,
         "attendance": null,
         "venue": "Reale Arena",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T21:54:27Z",
+        "lastUpdated": "2026-01-18T22:04:42Z",
         "homeTeam": {
           "id": 92,
           "name": "Real Sociedad de Fútbol",
@@ -211006,8 +211006,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "goals": [
@@ -417323,14 +417323,14 @@
         "id": 537015,
         "utcDate": "2026-01-18T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 48,
+        "minute": 58,
         "injuryTime": null,
         "attendance": null,
         "venue": "Giuseppe Meazza",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T21:54:46Z",
+        "lastUpdated": "2026-01-18T22:05:01Z",
         "homeTeam": {
           "id": 98,
           "name": "AC Milan",
@@ -507672,14 +507672,14 @@
         "id": 542562,
         "utcDate": "2026-01-18T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 52,
+        "minute": 62,
         "injuryTime": null,
         "attendance": null,
         "venue": "Groupama Stadium",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T21:54:56Z",
+        "lastUpdated": "2026-01-18T22:05:16Z",
         "homeTeam": {
           "id": 523,
           "name": "Olympique Lyonnais",
@@ -507954,7 +507954,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
+            "home": 3,
             "away": 0
           },
           "halfTime": {
@@ -508002,6 +508002,24 @@
             },
             "score": {
               "home": 2,
+              "away": 0
+            }
+          },
+          {
+            "minute": 60,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 523,
+              "name": "Olympique Lyonnais"
+            },
+            "scorer": {
+              "id": 121312,
+              "name": "Pavel Šulc"
+            },
+            "assist": null,
+            "score": {
+              "home": 3,
               "away": 0
             }
           }
@@ -594259,14 +594277,14 @@
         "id": 545861,
         "utcDate": "2026-01-18T20:30:00Z",
         "status": "IN_PLAY",
-        "minute": 22,
+        "minute": 32,
         "injuryTime": null,
         "attendance": null,
         "venue": "Éstadio Dom Afonso Henriques",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T21:55:12Z",
+        "lastUpdated": "2026-01-18T22:05:26Z",
         "homeTeam": {
           "id": 5543,
           "name": "Vitória SC",
@@ -594556,7 +594574,19 @@
           }
         },
         "goals": [],
-        "penalties": [],
+        "penalties": [
+          {
+            "player": {
+              "id": 215434,
+              "name": "Samu Omorodion"
+            },
+            "team": {
+              "id": 503,
+              "name": "FC Porto"
+            },
+            "scored": false
+          }
+        ],
         "bookings": [],
         "substitutions": [],
         "odds": {
