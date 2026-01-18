@@ -1692,10 +1692,16 @@
                         const minute = goal.injuryTime ? `${goal.minute}+${goal.injuryTime}'` : `${goal.minute}'`;
                         const isHome = goal.team?.id === match.homeTeam.id;
                         const isOwnGoal = goal.type === 'OWN';
+                        const isPenalty = goal.type === 'PENALTY';
                         
                         // Own goals show in opposite team's column with (OG) flag
                         const displayInHome = isOwnGoal ? !isHome : isHome;
-                        const minuteDisplay = isOwnGoal ? `${minute} (OG)` : minute;
+                        let minuteDisplay = minute;
+                        if (isOwnGoal) {
+                            minuteDisplay = `${minute} (OG)`;
+                        } else if (isPenalty) {
+                            minuteDisplay = `${minute} (P)`;
+                        }
                         
                         if (displayInHome) {
                             if (!homeGoals[scorer]) homeGoals[scorer] = [];
