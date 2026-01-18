@@ -99590,15 +99590,15 @@
         },
         "id": 538004,
         "utcDate": "2026-01-18T14:00:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 10,
         "injuryTime": null,
         "attendance": null,
         "venue": "Molineux Stadium",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T13:58:14Z",
+        "lastUpdated": "2026-01-18T15:10:33Z",
         "homeTeam": {
           "id": 76,
           "name": "Wolverhampton Wanderers FC",
@@ -99876,11 +99876,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -208900,14 +208900,14 @@
         "id": 544405,
         "utcDate": "2026-01-18T13:00:00Z",
         "status": "IN_PLAY",
-        "minute": 45,
-        "injuryTime": 2,
-        "attendance": null,
+        "minute": 51,
+        "injuryTime": null,
+        "attendance": 8361,
         "venue": "Coliseum Alfonso Perez",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T14:48:27Z",
+        "lastUpdated": "2026-01-18T15:10:42Z",
         "homeTeam": {
           "id": 82,
           "name": "Getafe CF",
@@ -208915,9 +208915,9 @@
           "tla": "GET",
           "crest": "https://crests.football-data.org/82.png",
           "coach": {
-            "id": 3155,
-            "name": "Pepe Bordalás",
-            "nationality": "Spain"
+            "id": null,
+            "name": null,
+            "nationality": null
           },
           "leagueRank": 15,
           "formation": "4-4-2",
@@ -208927,12 +208927,6 @@
               "name": "David Soria",
               "position": "Goalkeeper",
               "shirtNumber": 13
-            },
-            {
-              "id": 213274,
-              "name": "Kiko Femenía",
-              "position": "Defence",
-              "shirtNumber": 17
             },
             {
               "id": 249599,
@@ -209045,12 +209039,6 @@
               "shirtNumber": 12
             },
             {
-              "id": 31969,
-              "name": "Javi Muñoz",
-              "position": "Central Midfield",
-              "shirtNumber": 14
-            },
-            {
               "id": 102213,
               "name": "Yvan Neyou",
               "position": "Defensive Midfield",
@@ -209077,9 +209065,9 @@
           "tla": "VAL",
           "crest": "https://crests.football-data.org/95.png",
           "coach": {
-            "id": 149937,
-            "name": "Carlos Corberán",
-            "nationality": "Spain"
+            "id": null,
+            "name": null,
+            "nationality": null
           },
           "leagueRank": 18,
           "formation": "4-4-2",
@@ -209234,8 +209222,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "goals": [],
@@ -209300,7 +209288,7 @@
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T01:32:00Z",
+        "lastUpdated": "2026-01-18T15:04:39Z",
         "homeTeam": {
           "id": 78,
           "name": "Club Atlético de Madrid",
@@ -209313,9 +209301,137 @@
             "nationality": "Argentina"
           },
           "leagueRank": 4,
-          "formation": null,
-          "lineup": [],
-          "bench": []
+          "formation": "4-4-2",
+          "lineup": [
+            {
+              "id": 120,
+              "name": "Jan Oblak",
+              "position": "Goalkeeper",
+              "shirtNumber": 13
+            },
+            {
+              "id": 176745,
+              "name": "Marc Pubill",
+              "position": "Defence",
+              "shirtNumber": 18
+            },
+            {
+              "id": 177509,
+              "name": "Pablo Barrios",
+              "position": "Midfield",
+              "shirtNumber": 8
+            },
+            {
+              "id": 8167,
+              "name": "Alexander Sørloth",
+              "position": "Centre-Forward",
+              "shirtNumber": 9
+            },
+            {
+              "id": 98571,
+              "name": "Julián Álvarez",
+              "position": "Centre-Forward",
+              "shirtNumber": 19
+            },
+            {
+              "id": 171964,
+              "name": "Giuliano Simeone",
+              "position": "Right Winger",
+              "shirtNumber": 20
+            },
+            {
+              "id": 123265,
+              "name": "Johnny",
+              "position": "Defensive Midfield",
+              "shirtNumber": 5
+            },
+            {
+              "id": 79953,
+              "name": "Thiago Almada",
+              "position": "Attacking Midfield",
+              "shirtNumber": 11
+            },
+            {
+              "id": 70,
+              "name": "Marcos Llorente",
+              "position": "Right Midfield",
+              "shirtNumber": 14
+            },
+            {
+              "id": 15542,
+              "name": "Dávid Hancko",
+              "position": "Centre-Back",
+              "shirtNumber": 17
+            },
+            {
+              "id": 151241,
+              "name": "Matteo Ruggeri",
+              "position": "Left Midfield",
+              "shirtNumber": 3
+            }
+          ],
+          "bench": [
+            {
+              "id": 279062,
+              "name": "Salvi Esquivel",
+              "position": "Goalkeeper",
+              "shirtNumber": 31
+            },
+            {
+              "id": 46554,
+              "name": "Juan Musso",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 213277,
+              "name": "José Giménez",
+              "position": "Defence",
+              "shirtNumber": 2
+            },
+            {
+              "id": 279061,
+              "name": "Alejandro Monserrate",
+              "position": "Midfield",
+              "shirtNumber": 27
+            },
+            {
+              "id": 213278,
+              "name": "Álex Baena",
+              "position": "Offence",
+              "shirtNumber": 10
+            },
+            {
+              "id": 112,
+              "name": "Koke",
+              "position": "Central Midfield",
+              "shirtNumber": 6
+            },
+            {
+              "id": 46452,
+              "name": "Nahuel Molina",
+              "position": "Right-Back",
+              "shirtNumber": 16
+            },
+            {
+              "id": 99791,
+              "name": "Robin Le Normand",
+              "position": "Centre-Back",
+              "shirtNumber": 24
+            },
+            {
+              "id": 114,
+              "name": "Antoine Griezmann",
+              "position": "Centre-Forward",
+              "shirtNumber": 7
+            },
+            {
+              "id": 244719,
+              "name": "Rayane Belaid",
+              "position": "Left Winger",
+              "shirtNumber": 29
+            }
+          ]
         },
         "awayTeam": {
           "id": 263,
@@ -209329,9 +209445,131 @@
             "nationality": "Argentina"
           },
           "leagueRank": 17,
-          "formation": null,
-          "lineup": [],
-          "bench": []
+          "formation": "4-1-4-1",
+          "lineup": [
+            {
+              "id": 283,
+              "name": "Sivera",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 213262,
+              "name": "Carles Aleñá",
+              "position": "Midfield",
+              "shirtNumber": 10
+            },
+            {
+              "id": 11733,
+              "name": "Toni Martínez",
+              "position": "Centre-Forward",
+              "shirtNumber": 11
+            },
+            {
+              "id": 213404,
+              "name": "Carlos Vicente",
+              "position": "Right Winger",
+              "shirtNumber": 7
+            },
+            {
+              "id": 173617,
+              "name": "Pablo Ibáñez Tébar",
+              "position": "Central Midfield",
+              "shirtNumber": 19
+            },
+            {
+              "id": 33092,
+              "name": "Jon Guridi",
+              "position": "Central Midfield",
+              "shirtNumber": 18
+            },
+            {
+              "id": 157626,
+              "name": "Antonio Blanco",
+              "position": "Defensive Midfield",
+              "shirtNumber": 8
+            },
+            {
+              "id": 33622,
+              "name": "Jonny Castro",
+              "position": "Right-Back",
+              "shirtNumber": 17
+            },
+            {
+              "id": 46123,
+              "name": "Nahuel Tenaglia",
+              "position": "Right-Back",
+              "shirtNumber": 14
+            },
+            {
+              "id": 144615,
+              "name": "Jon Pacheco",
+              "position": "Centre-Back",
+              "shirtNumber": 5
+            },
+            {
+              "id": 119282,
+              "name": "Victor Parada",
+              "position": "Left-Back",
+              "shirtNumber": 24
+            }
+          ],
+          "bench": [
+            {
+              "id": 32911,
+              "name": "Raúl Fernández",
+              "position": "Goalkeeper",
+              "shirtNumber": 13
+            },
+            {
+              "id": 273343,
+              "name": "Yusi",
+              "position": "Defence",
+              "shirtNumber": 3
+            },
+            {
+              "id": 146350,
+              "name": "Calebe",
+              "position": "Midfield",
+              "shirtNumber": 20
+            },
+            {
+              "id": 11113,
+              "name": "Lucas Boyé",
+              "position": "Offence",
+              "shirtNumber": 15
+            },
+            {
+              "id": 246154,
+              "name": "Aitor Mañas",
+              "position": "Offence",
+              "shirtNumber": 34
+            },
+            {
+              "id": 15868,
+              "name": "Denís Suárez",
+              "position": "Attacking Midfield",
+              "shirtNumber": 4
+            },
+            {
+              "id": 184988,
+              "name": "Abde Rebbach",
+              "position": "Left Winger",
+              "shirtNumber": 21
+            },
+            {
+              "id": 33093,
+              "name": "Ander Guevara",
+              "position": "Central Midfield",
+              "shirtNumber": 6
+            },
+            {
+              "id": 28663,
+              "name": "Carlos Benavidez",
+              "position": "Defensive Midfield",
+              "shirtNumber": 23
+            }
+          ]
         },
         "score": {
           "winner": null,
@@ -414381,15 +414619,15 @@
         },
         "id": 537017,
         "utcDate": "2026-01-18T14:00:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 9,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Renato Dall'Ara",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T14:18:55Z",
+        "lastUpdated": "2026-01-18T15:11:03Z",
         "homeTeam": {
           "id": 103,
           "name": "Bologna FC 1909",
@@ -414421,6 +414659,12 @@
               "name": "Nicolò Cambiaghi",
               "position": "Offence",
               "shirtNumber": 28
+            },
+            {
+              "id": 56645,
+              "name": "Nicolò Casale",
+              "position": "Centre-Back",
+              "shirtNumber": 16
             },
             {
               "id": 170891,
@@ -414483,6 +414727,12 @@
               "name": "Łukasz Skorupski",
               "position": "Goalkeeper",
               "shirtNumber": 1
+            },
+            {
+              "id": 152702,
+              "name": "Martin Vitík",
+              "position": "Defence",
+              "shirtNumber": 41
             },
             {
               "id": 127143,
@@ -414715,11 +414965,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -503474,15 +503724,15 @@
         },
         "id": 542564,
         "utcDate": "2026-01-18T14:00:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 10,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stade de la Meinau",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T14:09:39Z",
+        "lastUpdated": "2026-01-18T15:11:08Z",
         "homeTeam": {
           "id": 576,
           "name": "RC Strasbourg Alsace",
@@ -503754,11 +504004,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -683922,14 +684172,14 @@
         "id": 537605,
         "utcDate": "2026-01-18T13:30:00Z",
         "status": "IN_PLAY",
-        "minute": 17,
+        "minute": 39,
         "injuryTime": null,
         "attendance": null,
         "venue": "Kras Stadion",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T14:49:07Z",
+        "lastUpdated": "2026-01-18T15:11:22Z",
         "homeTeam": {
           "id": 1919,
           "name": "FC Volendam",
@@ -684260,7 +684510,32 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 23,
+            "team": {
+              "id": 1919,
+              "name": "FC Volendam"
+            },
+            "player": {
+              "id": 248937,
+              "name": "Precious Ugwu"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 28,
+            "team": {
+              "id": 676,
+              "name": "FC Utrecht"
+            },
+            "player": {
+              "id": 150525,
+              "name": "Miguel Rodríguez"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -684319,14 +684594,14 @@
         "id": 537608,
         "utcDate": "2026-01-18T13:30:00Z",
         "status": "IN_PLAY",
-        "minute": 15,
+        "minute": 37,
         "injuryTime": null,
         "attendance": null,
         "venue": "Erve Asito",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T14:49:07Z",
+        "lastUpdated": "2026-01-18T15:11:22Z",
         "homeTeam": {
           "id": 671,
           "name": "Heracles Almelo",
@@ -684628,20 +684903,52 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 30,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "scorer": {
+              "id": 79901,
+              "name": "Thomas van den Belt"
+            },
+            "assist": null,
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 24,
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "player": {
+              "id": 79901,
+              "name": "Thomas van den Belt"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
