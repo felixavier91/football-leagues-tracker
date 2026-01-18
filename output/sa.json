@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-23",
     "last": "2026-05-24",
-    "played": 205
+    "played": 206
   },
   "competition": {
     "id": 2019,
@@ -101405,15 +101405,15 @@
       },
       "id": 537017,
       "utcDate": "2026-01-18T14:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 84,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Stadio Renato Dall'Ara",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T16:48:51Z",
+      "lastUpdated": "2026-01-18T17:03:51Z",
       "homeTeam": {
         "id": 103,
         "name": "Bologna FC 1909",
@@ -101748,7 +101748,7 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 2
         },
         "halfTime": {
@@ -101795,6 +101795,27 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "scorer": {
+            "id": 171123,
+            "name": "Giovanni Fabbian"
+          },
+          "assist": {
+            "id": 176664,
+            "name": "Jonathan Rowe"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -101820,6 +101841,18 @@
           "player": {
             "id": 32491,
             "name": "Juan Miranda"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "player": {
+            "id": 34638,
+            "name": "Lewis Ferguson"
           },
           "card": "YELLOW"
         }
