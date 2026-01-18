@@ -335,6 +335,14 @@
             color: #666;
         }
         
+        .stat-highlight {
+            background-color: #c8102e;
+            color: white !important;
+            font-weight: 600;
+            border-radius: 4px;
+            padding: 2px 8px;
+        }
+        
         /* Search Bar */
         .search-container {
             background: white;
@@ -1807,33 +1815,39 @@
                         
                         // Total Shots
                         if (homeStats.shots !== undefined && awayStats.shots !== undefined) {
+                            const homeClass = homeStats.shots > awayStats.shots ? 'stat-highlight' : '';
+                            const awayClass = awayStats.shots > homeStats.shots ? 'stat-highlight' : '';
                             statsRows.push(`
                                 <div class="stat-row">
-                                    <div class="stat-home">${homeStats.shots}</div>
+                                    <div class="stat-home ${homeClass}">${homeStats.shots}</div>
                                     <div class="stat-label">Total Shots</div>
-                                    <div class="stat-away">${awayStats.shots}</div>
+                                    <div class="stat-away ${awayClass}">${awayStats.shots}</div>
                                 </div>
                             `);
                         }
                         
                         // Shots on Target
                         if (homeStats.shots_on_goal !== undefined && awayStats.shots_on_goal !== undefined) {
+                            const homeClass = homeStats.shots_on_goal > awayStats.shots_on_goal ? 'stat-highlight' : '';
+                            const awayClass = awayStats.shots_on_goal > homeStats.shots_on_goal ? 'stat-highlight' : '';
                             statsRows.push(`
                                 <div class="stat-row">
-                                    <div class="stat-home">${homeStats.shots_on_goal}</div>
+                                    <div class="stat-home ${homeClass}">${homeStats.shots_on_goal}</div>
                                     <div class="stat-label">Shots on Target</div>
-                                    <div class="stat-away">${awayStats.shots_on_goal}</div>
+                                    <div class="stat-away ${awayClass}">${awayStats.shots_on_goal}</div>
                                 </div>
                             `);
                         }
                         
                         // Possession
                         if (homeStats.ball_possession !== undefined && awayStats.ball_possession !== undefined) {
+                            const homeClass = homeStats.ball_possession > awayStats.ball_possession ? 'stat-highlight' : '';
+                            const awayClass = awayStats.ball_possession > homeStats.ball_possession ? 'stat-highlight' : '';
                             statsRows.push(`
                                 <div class="stat-row">
-                                    <div class="stat-home">${homeStats.ball_possession}%</div>
+                                    <div class="stat-home ${homeClass}">${homeStats.ball_possession}%</div>
                                     <div class="stat-label">Possession</div>
-                                    <div class="stat-away">${awayStats.ball_possession}%</div>
+                                    <div class="stat-away ${awayClass}">${awayStats.ball_possession}%</div>
                                 </div>
                             `);
                         }
@@ -1843,22 +1857,26 @@
                         
                         // Fouls
                         if (homeStats.fouls !== undefined && awayStats.fouls !== undefined) {
+                            const homeClass = homeStats.fouls < awayStats.fouls ? 'stat-highlight' : '';
+                            const awayClass = awayStats.fouls < homeStats.fouls ? 'stat-highlight' : '';
                             statsRows.push(`
                                 <div class="stat-row">
-                                    <div class="stat-home">${homeStats.fouls}</div>
+                                    <div class="stat-home ${homeClass}">${homeStats.fouls}</div>
                                     <div class="stat-label">Fouls</div>
-                                    <div class="stat-away">${awayStats.fouls}</div>
+                                    <div class="stat-away ${awayClass}">${awayStats.fouls}</div>
                                 </div>
                             `);
                         }
                         
                         // Yellow Cards
                         if (homeStats.yellow_cards !== undefined && awayStats.yellow_cards !== undefined) {
+                            const homeClass = homeStats.yellow_cards < awayStats.yellow_cards ? 'stat-highlight' : '';
+                            const awayClass = awayStats.yellow_cards < homeStats.yellow_cards ? 'stat-highlight' : '';
                             statsRows.push(`
                                 <div class="stat-row">
-                                    <div class="stat-home">${homeStats.yellow_cards}</div>
+                                    <div class="stat-home ${homeClass}">${homeStats.yellow_cards}</div>
                                     <div class="stat-label">Yellow Cards</div>
-                                    <div class="stat-away">${awayStats.yellow_cards}</div>
+                                    <div class="stat-away ${awayClass}">${awayStats.yellow_cards}</div>
                                 </div>
                             `);
                         }
@@ -1867,33 +1885,39 @@
                         if (homeStats.red_cards !== undefined && awayStats.red_cards !== undefined) {
                             const homeReds = (homeStats.red_cards || 0) + (homeStats.yellow_red_cards || 0);
                             const awayReds = (awayStats.red_cards || 0) + (awayStats.yellow_red_cards || 0);
+                            const homeClass = homeReds < awayReds ? 'stat-highlight' : '';
+                            const awayClass = awayReds < homeReds ? 'stat-highlight' : '';
                             statsRows.push(`
                                 <div class="stat-row">
-                                    <div class="stat-home">${homeReds}</div>
+                                    <div class="stat-home ${homeClass}">${homeReds}</div>
                                     <div class="stat-label">Red Cards</div>
-                                    <div class="stat-away">${awayReds}</div>
+                                    <div class="stat-away ${awayClass}">${awayReds}</div>
                                 </div>
                             `);
                         }
                         
                         // Offsides
                         if (homeStats.offsides !== undefined && awayStats.offsides !== undefined) {
+                            const homeClass = homeStats.offsides < awayStats.offsides ? 'stat-highlight' : '';
+                            const awayClass = awayStats.offsides < homeStats.offsides ? 'stat-highlight' : '';
                             statsRows.push(`
                                 <div class="stat-row">
-                                    <div class="stat-home">${homeStats.offsides}</div>
+                                    <div class="stat-home ${homeClass}">${homeStats.offsides}</div>
                                     <div class="stat-label">Offsides</div>
-                                    <div class="stat-away">${awayStats.offsides}</div>
+                                    <div class="stat-away ${awayClass}">${awayStats.offsides}</div>
                                 </div>
                             `);
                         }
                         
                         // Corners
                         if (homeStats.corner_kicks !== undefined && awayStats.corner_kicks !== undefined) {
+                            const homeClass = homeStats.corner_kicks > awayStats.corner_kicks ? 'stat-highlight' : '';
+                            const awayClass = awayStats.corner_kicks > homeStats.corner_kicks ? 'stat-highlight' : '';
                             statsRows.push(`
                                 <div class="stat-row">
-                                    <div class="stat-home">${homeStats.corner_kicks}</div>
+                                    <div class="stat-home ${homeClass}">${homeStats.corner_kicks}</div>
                                     <div class="stat-label">Corners</div>
-                                    <div class="stat-away">${awayStats.corner_kicks}</div>
+                                    <div class="stat-away ${awayClass}">${awayStats.corner_kicks}</div>
                                 </div>
                             `);
                         }
