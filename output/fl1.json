@@ -73904,14 +73904,14 @@
       "id": 542560,
       "utcDate": "2026-01-18T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 63,
+      "minute": 73,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de la Beaujoire",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T18:38:26Z",
+      "lastUpdated": "2026-01-18T18:49:01Z",
       "homeTeam": {
         "id": 543,
         "name": "FC Nantes",
@@ -74356,14 +74356,14 @@
       "id": 542567,
       "utcDate": "2026-01-18T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 63,
+      "minute": 73,
       "injuryTime": null,
       "attendance": null,
       "venue": "Roazhon Park",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T18:38:27Z",
+      "lastUpdated": "2026-01-18T18:49:01Z",
       "homeTeam": {
         "id": 529,
         "name": "Stade Rennais FC 1901",
@@ -74641,18 +74641,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 69,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 533,
+            "name": "Le Havre AC"
+          },
+          "scorer": {
+            "id": 111230,
+            "name": "Felix Mambimbi"
+          },
+          "assist": {
+            "id": 178663,
+            "name": "Rassoul N'Diaye"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -74664,6 +74686,18 @@
           "player": {
             "id": 98763,
             "name": "Musa Al Taamari"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 72,
+          "team": {
+            "id": 533,
+            "name": "Le Havre AC"
+          },
+          "player": {
+            "id": 281103,
+            "name": "Kenny Quetant"
           },
           "card": "YELLOW"
         }
@@ -74779,7 +74813,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57087,
+          "name": "Romain Lissorgue",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 160742,
+          "name": "Youssef El Hamzaoui",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 206183,
+          "name": "Husseyin Ocak",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {

@@ -74589,15 +74589,15 @@
       },
       "id": 540562,
       "utcDate": "2026-01-18T16:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 53,
       "injuryTime": null,
       "attendance": null,
       "venue": "WWK ARENA",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-18T18:38:10Z",
+      "lastUpdated": "2026-01-18T18:48:42Z",
       "homeTeam": {
         "id": 16,
         "name": "FC Augsburg",
@@ -74875,10 +74875,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -74886,7 +74886,44 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 47,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "scorer": {
+            "id": 608,
+            "name": "Alexis Claude Maurice"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 49,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "scorer": {
+            "id": 9432,
+            "name": "Elvis Rexhbecaj"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
