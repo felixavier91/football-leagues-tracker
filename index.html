@@ -1956,7 +1956,9 @@
                                 );
                                 if (sub) {
                                     const subInName = formatName(sub.playerIn.name);
-                                    const subInNumber = sub.playerIn.shirtNumber || '';
+                                    // Get shirt number from bench using player ID
+                                    const benchPlayer = matchStats.homeTeam.bench.find(b => b.id === sub.playerIn.id);
+                                    const subInNumber = benchPlayer?.shirtNumber || '';
                                     const minute = sub.minute;
                                     subInfo = ` <span style="color: #c8102e; font-size: 0.85em;">↔ ${subInName} (${subInNumber}) ${minute}'</span>`;
                                     wasSubbed = true;
@@ -1983,7 +1985,9 @@
                                 );
                                 if (sub) {
                                     const subInName = formatName(sub.playerIn.name);
-                                    const subInNumber = sub.playerIn.shirtNumber || '';
+                                    // Get shirt number from bench using player ID
+                                    const benchPlayer = matchStats.awayTeam.bench.find(b => b.id === sub.playerIn.id);
+                                    const subInNumber = benchPlayer?.shirtNumber || '';
                                     const minute = sub.minute;
                                     subInfo = ` <span style="color: #c8102e; font-size: 0.85em;">↔ ${subInName} (${subInNumber}) ${minute}'</span>`;
                                     wasSubbed = true;
