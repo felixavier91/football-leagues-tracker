@@ -160,7 +160,7 @@
         
         .standings-table th {
             background: #f5f5f5;
-            padding: 12px 8px;
+            padding: 12px 4px;
             text-align: left;
             font-weight: 600;
             color: #333;
@@ -169,12 +169,12 @@
         }
         
         .standings-table th:first-child {
-            width: 40px;
+            width: 35px;
             text-align: center;
         }
         
         .standings-table td {
-            padding: 10px 8px;
+            padding: 10px 4px;
             border-bottom: 1px solid #f0f0f0;
             font-size: 0.9em;
         }
@@ -1805,6 +1805,14 @@
             const oneliner = matchCard.querySelector('.match-card-inner');
             const onelinerClone = oneliner ? oneliner.cloneNode(true) : null;
             
+            // Style the oneliner for modal display
+            if (onelinerClone) {
+                onelinerClone.style.marginBottom = '20px';
+                onelinerClone.style.paddingBottom = '15px';
+                onelinerClone.style.borderBottom = '2px solid #e0e0e0';
+                onelinerClone.style.cursor = 'default'; // Remove pointer cursor
+            }
+            
             // Show in modal
             const modalContent = document.getElementById('modalMatchContent');
             console.log('Modal content element:', modalContent);
@@ -2001,7 +2009,10 @@
                         let videoTabs = '<div class="video-tabs">';
                         let videoContent = '<div class="video-content">';
                         
-                        videoIds.forEach((videoId, index) => {
+                        // Limit to top 4 videos
+                        const videosToShow = videoIds.slice(0, 4);
+                        
+                        videosToShow.forEach((videoId, index) => {
                             const active = index === 0 ? 'active' : '';
                             videoTabs += `<button class="video-tab ${active}" onclick="switchVideo('${uniqueId}', ${index}, event)">Video ${index + 1}</button>`;
                             
@@ -2175,6 +2186,19 @@
                         const awayStats = matchStats.awayTeam.statistics;
                         
                         const statsRows = [];
+                        
+                        // Goals
+                        const homeGoals = match.score?.fullTime?.home ?? 0;
+                        const awayGoals = match.score?.fullTime?.away ?? 0;
+                        const homeGoalsClass = homeGoals > awayGoals ? 'stat-highlight' : '';
+                        const awayGoalsClass = awayGoals > homeGoals ? 'stat-highlight' : '';
+                        statsRows.push(`
+                            <div class="stat-row">
+                                <div class="stat-home ${homeGoalsClass}">${homeGoals}</div>
+                                <div class="stat-label">Goals</div>
+                                <div class="stat-away ${awayGoalsClass}">${awayGoals}</div>
+                            </div>
+                        `);
                         
                         // Total Shots
                         if (homeStats.shots !== undefined && awayStats.shots !== undefined) {
