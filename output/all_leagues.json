@@ -100392,14 +100392,14 @@
         "id": 537997,
         "utcDate": "2026-01-19T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 12,
+        "minute": 19,
         "injuryTime": null,
         "attendance": null,
         "venue": "Amex Stadium",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-19T21:12:18Z",
+        "lastUpdated": "2026-01-19T21:20:08Z",
         "homeTeam": {
           "id": 397,
           "name": "Brighton & Hove Albion FC",
@@ -211477,14 +211477,14 @@
         "id": 544403,
         "utcDate": "2026-01-19T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 10,
+        "minute": 17,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Martinez Valero",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-19T21:12:28Z",
+        "lastUpdated": "2026-01-19T21:20:18Z",
         "homeTeam": {
           "id": 285,
           "name": "Elche CF",
@@ -211786,10 +211786,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -211797,7 +211797,29 @@
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 14,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 285,
+              "name": "Elche CF"
+            },
+            "scorer": {
+              "id": 32052,
+              "name": "Aleix Febas"
+            },
+            "assist": {
+              "id": 165143,
+              "name": "Martim Neto"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -418845,14 +418867,14 @@
         "id": 537019,
         "utcDate": "2026-01-19T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 26,
+        "minute": 33,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Olimpico, Rome",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-19T21:12:48Z",
+        "lastUpdated": "2026-01-19T21:20:34Z",
         "homeTeam": {
           "id": 110,
           "name": "SS Lazio",
@@ -596146,15 +596168,15 @@
         },
         "id": 545857,
         "utcDate": "2026-01-19T20:15:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 4,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Jose Gomes",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-19T20:11:19Z",
+        "lastUpdated": "2026-01-19T21:20:48Z",
         "homeTeam": {
           "id": 9136,
           "name": "CF Estrela da Amadora",
@@ -596432,18 +596454,40 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 3,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 582,
+              "name": "GD Estoril Praia"
+            },
+            "scorer": {
+              "id": 16752,
+              "name": "João Carvalho"
+            },
+            "assist": {
+              "id": 135650,
+              "name": "Jordan Holsgrove"
+            },
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],

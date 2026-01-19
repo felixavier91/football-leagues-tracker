@@ -74004,15 +74004,15 @@
       },
       "id": 545857,
       "utcDate": "2026-01-19T20:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 4,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Gomes",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-19T20:11:19Z",
+      "lastUpdated": "2026-01-19T21:20:48Z",
       "homeTeam": {
         "id": 9136,
         "name": "CF Estrela da Amadora",
@@ -74290,18 +74290,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 3,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 582,
+            "name": "GD Estoril Praia"
+          },
+          "scorer": {
+            "id": 16752,
+            "name": "João Carvalho"
+          },
+          "assist": {
+            "id": 135650,
+            "name": "Jordan Holsgrove"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
