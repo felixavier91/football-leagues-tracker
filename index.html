@@ -1816,13 +1816,19 @@
             
             // Re-attach video tab handlers
             const videoTabs = detailsClone.querySelectorAll('.video-tab');
-            videoTabs.forEach((tab, index) => {
-                tab.onclick = (e) => {
-                    e.stopPropagation();
-                    const uniqueId = tab.closest('.match-details').querySelector('[id^="video-"]').id.split('-')[1];
-                    switchVideo(`video-${uniqueId}`, index, e);
-                };
-            });
+            if (videoTabs.length > 0) {
+                // Get the unique ID from the first video panel
+                const firstPanel = detailsClone.querySelector('[id^="video-"]');
+                if (firstPanel) {
+                    const uniqueId = firstPanel.id.replace(/-\d+$/, ''); // Remove the index part, keep video-{matchId}
+                    videoTabs.forEach((tab, index) => {
+                        tab.onclick = (e) => {
+                            e.stopPropagation();
+                            switchVideoInModal(uniqueId, index, modalContent);
+                        };
+                    });
+                }
+            }
             
             // Re-attach match tab handlers (Stats/Lineups/Standings)
             const matchTabs = detailsClone.querySelectorAll('.match-tab');
@@ -1866,6 +1872,28 @@
             if (targetPanel) {
                 targetPanel.classList.add('active');
             }
+        }
+        
+        function switchVideoInModal(uniqueId, videoIndex, modalContent) {
+            // Hide all video panels for this match
+            const panels = modalContent.querySelectorAll(`[id^="${uniqueId}-"]`);
+            panels.forEach(panel => panel.classList.remove('active'));
+            
+            // Show selected panel
+            const selectedPanel = modalContent.querySelector(`#${uniqueId}-${videoIndex}`);
+            if (selectedPanel) {
+                selectedPanel.classList.add('active');
+            }
+            
+            // Update tab states
+            const tabs = modalContent.querySelectorAll('.video-tab');
+            tabs.forEach((tab, index) => {
+                if (index === videoIndex) {
+                    tab.classList.add('active');
+                } else {
+                    tab.classList.remove('active');
+                }
+            });
         }
         
         function closeMatchModal() {
