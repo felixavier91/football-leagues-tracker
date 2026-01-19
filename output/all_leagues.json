@@ -100392,14 +100392,14 @@
         "id": 537997,
         "utcDate": "2026-01-19T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 19,
+        "minute": 33,
         "injuryTime": null,
         "attendance": null,
         "venue": "Amex Stadium",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-19T21:20:08Z",
+        "lastUpdated": "2026-01-19T21:33:03Z",
         "homeTeam": {
           "id": 397,
           "name": "Brighton & Hove Albion FC",
@@ -100677,19 +100677,50 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
-        "penalties": [],
+        "goals": [
+          {
+            "minute": 32,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 1044,
+              "name": "AFC Bournemouth"
+            },
+            "scorer": {
+              "id": 6396,
+              "name": "Marcus Tavernier"
+            },
+            "assist": null,
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
+        "penalties": [
+          {
+            "player": {
+              "id": 6396,
+              "name": "Marcus Tavernier"
+            },
+            "team": {
+              "id": 1044,
+              "name": "AFC Bournemouth"
+            },
+            "scored": true
+          }
+        ],
         "bookings": [],
         "substitutions": [],
         "odds": {
@@ -211477,14 +211508,14 @@
         "id": 544403,
         "utcDate": "2026-01-19T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 17,
+        "minute": 31,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Martinez Valero",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-19T21:20:18Z",
+        "lastUpdated": "2026-01-19T21:33:14Z",
         "homeTeam": {
           "id": 285,
           "name": "Elche CF",
@@ -211620,6 +211651,12 @@
               "name": "Adam",
               "position": "Offence",
               "shirtNumber": 32
+            },
+            {
+              "id": 290923,
+              "name": "Álex Sánchez",
+              "position": null,
+              "shirtNumber": 38
             },
             {
               "id": 206810,
@@ -211821,7 +211858,20 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 21,
+            "team": {
+              "id": 285,
+              "name": "Elche CF"
+            },
+            "player": {
+              "id": 151557,
+              "name": "Víctor Chust"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -418867,14 +418917,14 @@
         "id": 537019,
         "utcDate": "2026-01-19T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 33,
-        "injuryTime": null,
+        "minute": 45,
+        "injuryTime": 1,
         "attendance": null,
         "venue": "Stadio Olimpico, Rome",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-19T21:20:34Z",
+        "lastUpdated": "2026-01-19T21:33:28Z",
         "homeTeam": {
           "id": 110,
           "name": "SS Lazio",
@@ -419249,7 +419299,19 @@
             }
           }
         ],
-        "penalties": [],
+        "penalties": [
+          {
+            "player": {
+              "id": 203511,
+              "name": "Nico Paz"
+            },
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "scored": false
+          }
+        ],
         "bookings": [
           {
             "minute": 21,
@@ -419272,6 +419334,30 @@
             "player": {
               "id": 114212,
               "name": "Ivan Smolčić"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 42,
+            "team": {
+              "id": 110,
+              "name": "SS Lazio"
+            },
+            "player": {
+              "id": 1740,
+              "name": "Alessio Romagnoli"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 44,
+            "team": {
+              "id": 110,
+              "name": "SS Lazio"
+            },
+            "player": {
+              "id": 2329,
+              "name": "Danilo Cataldi"
             },
             "card": "YELLOW"
           }
@@ -596169,14 +596255,14 @@
         "id": 545857,
         "utcDate": "2026-01-19T20:15:00Z",
         "status": "IN_PLAY",
-        "minute": 4,
+        "minute": 18,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Jose Gomes",
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-19T21:20:48Z",
+        "lastUpdated": "2026-01-19T21:33:44Z",
         "homeTeam": {
           "id": 9136,
           "name": "CF Estrela da Amadora",

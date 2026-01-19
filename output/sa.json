@@ -103216,14 +103216,14 @@
       "id": 537019,
       "utcDate": "2026-01-19T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 33,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Stadio Olimpico, Rome",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-19T21:20:34Z",
+      "lastUpdated": "2026-01-19T21:33:28Z",
       "homeTeam": {
         "id": 110,
         "name": "SS Lazio",
@@ -103598,7 +103598,19 @@
           }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 203511,
+            "name": "Nico Paz"
+          },
+          "team": {
+            "id": 7397,
+            "name": "Como 1907"
+          },
+          "scored": false
+        }
+      ],
       "bookings": [
         {
           "minute": 21,
@@ -103621,6 +103633,30 @@
           "player": {
             "id": 114212,
             "name": "Ivan Smolčić"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 42,
+          "team": {
+            "id": 110,
+            "name": "SS Lazio"
+          },
+          "player": {
+            "id": 1740,
+            "name": "Alessio Romagnoli"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 44,
+          "team": {
+            "id": 110,
+            "name": "SS Lazio"
+          },
+          "player": {
+            "id": 2329,
+            "name": "Danilo Cataldi"
           },
           "card": "YELLOW"
         }
