@@ -100451,7 +100451,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11520,
+            "name": "Paul Tierney",
+            "type": "REFEREE",
+            "nationality": "England"
+          },
+          {
+            "id": 11586,
+            "name": "Richard West",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "England"
+          },
+          {
+            "id": 11521,
+            "name": "Mark Scholes",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "England"
+          }
+        ]
       },
       {
         "area": {
@@ -211273,7 +211292,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 15628,
+            "name": "Ricardo de Burgos",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 207125,
+            "name": "Iker De Francisco Grijalba",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "Spain"
+          },
+          {
+            "id": 127994,
+            "name": "Asier Pérez de Mendiola",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Spain"
+          }
+        ]
       },
       {
         "area": {
@@ -417889,14 +417927,14 @@
         "id": 537024,
         "utcDate": "2026-01-19T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 27,
+        "minute": 39,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Giovanni Zini",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-19T18:58:51Z",
+        "lastUpdated": "2026-01-19T19:10:29Z",
         "homeTeam": {
           "id": 457,
           "name": "US Cremonese",
@@ -418074,6 +418112,12 @@
               "shirtNumber": 17
             },
             {
+              "id": 2185,
+              "name": "Pol Mikel Lirola",
+              "position": "Right-Back",
+              "shirtNumber": 14
+            },
+            {
               "id": 124473,
               "name": "Amin Sarr",
               "position": "Centre-Forward",
@@ -418199,7 +418243,20 @@
         },
         "goals": [],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 37,
+            "team": {
+              "id": 457,
+              "name": "US Cremonese"
+            },
+            "player": {
+              "id": 2373,
+              "name": "Federico Bonazzoli"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -689468,7 +689525,7 @@
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-19T16:32:36Z",
+        "lastUpdated": "2026-01-19T19:10:08Z",
         "homeTeam": {
           "id": 1919,
           "name": "FC Volendam",
