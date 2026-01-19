@@ -948,8 +948,8 @@
             
             .standings-table th,
             .standings-table td {
-                padding: 8px 4px;
-                font-size: 0.75em;
+                padding: 12px 6px;
+                font-size: 32px;
             }
             
             .standings-team {
@@ -1004,33 +1004,35 @@
 
             .match-oneliner {
                 font-size: 0.85em;
-                gap: 2px;
+                gap: 0px;
                 justify-content: flex-start;
             }
 
             .match-oneliner .team-logo {
                 width: 20px;
                 height: 20px;
-                margin-right: 2px;
+                margin-right: 0px;
             }
             
             .match-oneliner .team-name {
                 font-size: 0.95em;
-                margin: 0 2px;
+                margin: 0;
+                padding: 0 2px;
             }
             
             .match-oneliner .score {
                 font-size: 1em;
                 padding: 0 2px;
                 white-space: nowrap;
-                margin: 0 2px;
+                margin: 0;
             }
 
             .match-oneliner .date {
-                font-size: 0.75em;
+                font-size: 1em;
                 color: #333;
                 margin-left: auto;
                 white-space: nowrap;
+                font-weight: 600;
             }
             
             .match-oneliner .date-desktop {
@@ -2623,7 +2625,7 @@
                                 <td>${team.won}</td>
                                 <td>${team.draw}</td>
                                 <td>${team.lost}</td>
-                                <td>${team.points}</td>
+                                <td style="font-weight: bold;">${team.points}</td>
                                 <td>${team.goalsFor}</td>
                                 <td>${team.goalsAgainst}</td>
                                 <td>${team.goalDifference}</td>
