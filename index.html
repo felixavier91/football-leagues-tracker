@@ -264,6 +264,53 @@
             display: none;
         }
         
+        /* Modal Styles */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            overflow-y: auto;
+            padding: 20px;
+        }
+        
+        .modal-overlay.active {
+            display: block;
+        }
+        
+        .modal-content {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            position: relative;
+            padding: 20px;
+        }
+        
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #c8102e;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            font-size: 24px;
+            cursor: pointer;
+            line-height: 1;
+            z-index: 10;
+        }
+        
+        .modal-close:hover {
+            background: #a00d25;
+        }
+        
         .filter-btn {
             padding: 12px 24px;
             background: white;
@@ -1079,6 +1126,13 @@
         </div>
 
         <div class="matches-container" id="matchesContainer"></div>
+        
+        <div class="modal-overlay" id="matchModal" onclick="if(event.target === this) closeMatchModal()">
+            <div class="modal-content">
+                <button class="modal-close" onclick="closeMatchModal()">×</button>
+                <div id="modalMatchContent"></div>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -1709,16 +1763,70 @@
         }
 
         function toggleMatchCard(cardElement) {
-            const isCurrentlyExpanded = cardElement.classList.contains('expanded');
+            // Get match ID from the card
+            const matchCard = cardElement.querySelector('.match-card-inner');
+            if (!matchCard) return;
             
-            // Collapse all cards first
-            document.querySelectorAll('.match-card.expanded').forEach(card => {
-                card.classList.remove('expanded');
-            });
+            // Extract match data from the card (we'll need to store match ID as data attribute)
+            const matchId = cardElement.getAttribute('data-match-id');
+            if (!matchId) return;
             
-            // If the clicked card wasn't expanded, expand it now
-            if (!isCurrentlyExpanded) {
-                cardElement.classList.add('expanded');
+            // Navigate to match detail view
+            showMatchDetail(matchId);
+        }
+        
+        function showMatchDetail(matchId) {
+            // Find the match card
+            const matchCard = document.querySelector(`[data-match-id="${matchId}"]`);
+            if (!matchCard) return;
+            
+            // Clone the card details section
+            const matchDetails = matchCard.querySelector('.match-details');
+            if (!matchDetails) return;
+            
+            const detailsClone = matchDetails.cloneNode(true);
+            
+            // Also clone the one-liner for context
+            const oneliner = matchCard.querySelector('.match-card-inner');
+            const onelinerClone = oneliner ? oneliner.cloneNode(true) : null;
+            
+            // Show in modal
+            const modalContent = document.getElementById('modalMatchContent');
+            modalContent.innerHTML = '';
+            if (onelinerClone) {
+                modalContent.appendChild(onelinerClone);
+            }
+            modalContent.appendChild(detailsClone);
+            
+            // Show modal
+            document.getElementById('matchModal').classList.add('active');
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        }
+        
+        function closeMatchModal() {
+            document.getElementById('matchModal').classList.remove('active');
+            document.body.style.overflow = ''; // Restore scrolling
+        }
+        
+        function closeMatchDetail() {
+            // Hide detail view
+            document.getElementById('matchDetailContainer').style.display = 'none';
+            
+            // Show main content
+            if (window.innerWidth <= 768) {
+                document.getElementById('leagueSelector').style.display = 'none'; // Keep hidden on mobile
+            } else {
+                document.getElementById('leagueSelector').style.display = 'block';
+            }
+            document.getElementById('filtersContainer').style.display = 'flex';
+            document.getElementById('matchesContainer').style.display = 'block';
+        }
+        
+        function buildMatchDetailHTML(match) {
+            // This will be the full match card content, but in a detail view
+            // We'll reuse the existing match card HTML generation logic
+            const homeScore = match.score?.fullTime?.home ?? '-';
+            const awayScore = match.score?.fullTime?.away ?? '-';
                 
                 // Scroll to the card smoothly after a brief delay to let it expand
                 setTimeout(() => {
@@ -2442,7 +2550,7 @@
                 `;
 
                 return `
-                    <div class="match-card" onclick="toggleMatchCard(this)">
+                    <div class="match-card" data-match-id="${match.id}" onclick="toggleMatchCard(this)">
                         ${oneliner}
                         ${details}
                     </div>
