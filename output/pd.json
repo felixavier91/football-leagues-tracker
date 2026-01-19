@@ -96691,14 +96691,14 @@
       "id": 544403,
       "utcDate": "2026-01-19T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 87,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": 22594,
       "venue": "Estadio Martinez Valero",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-19T22:46:37Z",
+      "lastUpdated": "2026-01-19T22:56:07Z",
       "homeTeam": {
         "id": 285,
         "name": "Elche CF",
@@ -97006,11 +97006,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -97077,9 +97077,39 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 2,
+          "type": "PENALTY",
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC"
+          },
+          "scorer": {
+            "id": 82132,
+            "name": "Akor Adams"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 82132,
+            "name": "Akor Adams"
+          },
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 21,
@@ -97114,6 +97144,18 @@
           "player": {
             "id": 206810,
             "name": "Yago Santiago"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "player": {
+            "id": 33516,
+            "name": "Bambo Diaby"
           },
           "card": "YELLOW"
         }
