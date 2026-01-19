@@ -164,7 +164,7 @@
             text-align: left;
             font-weight: 600;
             color: #333;
-            font-size: 0.9em;
+            font-size: 1em;
             border-bottom: 2px solid #e0e0e0;
         }
         
@@ -176,7 +176,7 @@
         .standings-table td {
             padding: 10px 4px;
             border-bottom: 1px solid #f0f0f0;
-            font-size: 0.9em;
+            font-size: 1em;
         }
         
         .standings-table tr:hover {
@@ -1802,7 +1802,7 @@
             detailsClone.style.display = 'block';
             
             // Also clone the one-liner for context
-            const oneliner = matchCard.querySelector('.match-card-inner');
+            const oneliner = matchCard.querySelector('.match-oneliner');
             const onelinerClone = oneliner ? oneliner.cloneNode(true) : null;
             
             // Style the oneliner for modal display
@@ -1811,6 +1811,7 @@
                 onelinerClone.style.paddingBottom = '15px';
                 onelinerClone.style.borderBottom = '2px solid #e0e0e0';
                 onelinerClone.style.cursor = 'default'; // Remove pointer cursor
+                onelinerClone.style.display = 'flex'; // Ensure it displays
             }
             
             // Show in modal
@@ -2340,13 +2341,12 @@
                     const matchStats = matchStatistics[currentLeagueCode]?.[match.id];
                     
                     if (matchStats && matchStats.homeTeam?.lineup && matchStats.awayTeam?.lineup) {
-                        // Helper function to format name as "R. Lewandowski"
+                        // Helper function to format name as just last name
                         const formatName = (fullName) => {
                             const parts = fullName.trim().split(' ');
                             if (parts.length === 1) return parts[0];
-                            const firstInitial = parts[0][0];
                             const lastName = parts[parts.length - 1];
-                            return `${firstInitial}. ${lastName}`;
+                            return lastName;
                         };
                         
                         // Helper function to abbreviate position
@@ -2574,26 +2574,28 @@
                     
                     standingsSection = `
                         <div class="match-stats-container" style="margin-top: 20px;">
-                            <table class="standings-table">
-                                <thead>
-                                    <tr>
-                                        <th>Pos</th>
-                                        <th></th>
-                                        <th style="text-align: left;">Team</th>
-                                        <th>P</th>
-                                        <th>W</th>
-                                        <th>D</th>
-                                        <th>L</th>
-                                        <th>GF</th>
-                                        <th>GA</th>
-                                        <th>GD</th>
-                                        <th>Pts</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    ${standingsRows}
-                                </tbody>
-                            </table>
+                            <div style="overflow-x: auto;">
+                                <table class="standings-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Pos</th>
+                                            <th></th>
+                                            <th style="text-align: left;">Team</th>
+                                            <th>MP</th>
+                                            <th>W</th>
+                                            <th>D</th>
+                                            <th>L</th>
+                                            <th>GF</th>
+                                            <th>GA</th>
+                                            <th>GD</th>
+                                            <th>Pts</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        ${standingsRows}
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     `;
                 }
