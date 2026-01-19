@@ -1763,13 +1763,16 @@
         }
 
         function toggleMatchCard(cardElement) {
-            // Get match ID from the card
-            const matchCard = cardElement.querySelector('.match-card-inner');
-            if (!matchCard) return;
+            console.log('toggleMatchCard called with:', cardElement);
             
-            // Extract match data from the card (we'll need to store match ID as data attribute)
+            // Extract match ID directly from the card element
             const matchId = cardElement.getAttribute('data-match-id');
-            if (!matchId) return;
+            console.log('Match ID:', matchId);
+            
+            if (!matchId) {
+                console.error('No match ID found on card element');
+                return;
+            }
             
             // Navigate to match detail view
             showMatchDetail(matchId);
