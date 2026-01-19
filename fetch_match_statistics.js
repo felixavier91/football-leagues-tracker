@@ -189,25 +189,15 @@ async function fetchMatchStatistics() {
             const match = matchesToFetch[i];
             const matchId = String(match.id); // Convert to string for consistent checking
             
-            // Check if we already have COMPLETE stats for this match
-            const existingMatch = allStats[leagueCode][matchId];
-            const hasCompleteStats = existingMatch && 
-                                      existingMatch.homeTeam?.statistics && 
-                                      existingMatch.awayTeam?.statistics &&
-                                      existingMatch.homeTeam.statistics.ball_possession !== null &&
-                                      existingMatch.awayTeam.statistics.ball_possession !== null;
-            
-            if (hasCompleteStats) {
+            // In --all mode, skip if we already have stats
+            // In 48-hour mode, always fetch to get latest data
+            if (FETCH_ALL && allStats[leagueCode][matchId]) {
                 skippedMatches++;
-                process.stdout.write(`  [${i + 1}/${matchesToFetch.length}] Match ${matchId} - SKIPPED (has complete stats)\r`);
+                process.stdout.write(`  [${i + 1}/${matchesToFetch.length}] Match ${matchId} - SKIPPED (already exists)\r`);
                 continue;
             }
             
-            if (existingMatch && !hasCompleteStats) {
-                process.stdout.write(`  [${i + 1}/${matchesToFetch.length}] Match ${matchId} - RE-FETCHING (incomplete stats)...\r`);
-            } else {
-                process.stdout.write(`  [${i + 1}/${matchesToFetch.length}] Match ${matchId} - Fetching...\r`);
-            }
+            process.stdout.write(`  [${i + 1}/${matchesToFetch.length}] Match ${matchId} - Fetching...\r`);
             
             const detailedMatch = await fetchMatchStats(matchId);
             
