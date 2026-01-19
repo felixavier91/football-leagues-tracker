@@ -260,6 +260,10 @@
             justify-content: center;
         }
         
+        .league-dropdown {
+            display: none;
+        }
+        
         .filter-btn {
             padding: 12px 24px;
             background: white;
@@ -815,9 +819,35 @@
                 margin-bottom: 10px !important;
             }
             
+            .league-selector {
+                display: none;
+            }
+            
             .league-buttons {
-                grid-template-columns: repeat(8, 1fr);
-                gap: 4px;
+                display: none;
+            }
+            
+            .league-dropdown {
+                display: block;
+                flex: 0 0 auto;
+                margin-right: 4px;
+            }
+            
+            .league-dropdown select {
+                padding: 8px;
+                font-size: 0.96em;
+                font-weight: 600;
+                color: #c8102e;
+                background: white;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+                height: 100%;
+            }
+            
+            .filters {
+                display: flex !important;
+                align-items: stretch;
             }
             
             .league-btn {
@@ -1036,6 +1066,19 @@
         </div>
 
         <div class="filters" id="filtersContainer" style="display: none;">
+            <div class="league-dropdown">
+                <select id="leagueDropdown" onchange="selectLeagueFromDropdown(this.value)">
+                    <option value="">Select League</option>
+                    <option value="CL">CL</option>
+                    <option value="PD">La Liga</option>
+                    <option value="PL">Premier League</option>
+                    <option value="FL1">Ligue 1</option>
+                    <option value="BL1">Bundesliga</option>
+                    <option value="SA">Serie A</option>
+                    <option value="DED">Eredivisie</option>
+                    <option value="PPL">Primeira Liga</option>
+                </select>
+            </div>
             <button class="filter-btn active" id="recentBtn" onclick="setMatchFilter('recent')">Finished</button>
             <button class="filter-btn" id="liveBtn" onclick="setMatchFilter('live')">Live</button>
             <button class="filter-btn" id="upcomingBtn" onclick="setMatchFilter('upcoming')">Upcoming</button>
@@ -1124,6 +1167,37 @@
             if (pdButton) {
                 pdButton.click();
             }
+        }
+
+        function selectLeagueFromDropdown(leagueCode) {
+            if (!leagueCode) return;
+            
+            currentLeagueCode = leagueCode;
+            currentLeague = allLeaguesData[leagueCode];
+            currentMatches = currentLeague.matches;
+            
+            // Track league selection
+            trackEvent('select_league', {
+                league_name: currentLeague.name,
+                league_code: leagueCode
+            });
+            
+            // Calculate and display standings from match data
+            calculateStandings(leagueCode);
+            
+            document.getElementById('filtersContainer').style.display = 'flex';
+            
+            // Update button states for desktop
+            document.querySelectorAll('.league-btn').forEach(btn => {
+                if (btn.getAttribute('onclick').includes(leagueCode)) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+            
+            // Show finished matches by default
+            setMatchFilter(currentFilter);
         }
 
         function selectLeague(leagueCode, button) {
