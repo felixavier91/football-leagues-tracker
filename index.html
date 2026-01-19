@@ -160,23 +160,25 @@
         
         .standings-table th {
             background: #f5f5f5;
-            padding: 12px 4px;
+            padding: 12px 6px;
             text-align: left;
             font-weight: 600;
             color: #333;
-            font-size: 1em;
+            font-size: 1.2em;
             border-bottom: 2px solid #e0e0e0;
+            white-space: nowrap;
         }
         
         .standings-table th:first-child {
-            width: 35px;
+            width: 40px;
             text-align: center;
         }
         
         .standings-table td {
-            padding: 10px 4px;
+            padding: 12px 6px;
             border-bottom: 1px solid #f0f0f0;
-            font-size: 1em;
+            font-size: 1.2em;
+            white-space: nowrap;
         }
         
         .standings-table tr:hover {
@@ -2555,6 +2557,9 @@
                         const isHighlighted = (team.team.id === homeTeamId || team.team.id === awayTeamId);
                         const rowClass = isHighlighted ? 'class="standings-highlight"' : '';
                         
+                        // Last 5 placeholder (we don't have this data, so show dashes)
+                        const last5 = '-----';
+                        
                         return `
                             <tr ${rowClass}>
                                 <td>${team.position}</td>
@@ -2564,10 +2569,11 @@
                                 <td>${team.won}</td>
                                 <td>${team.draw}</td>
                                 <td>${team.lost}</td>
+                                <td><strong>${team.points}</strong></td>
                                 <td>${team.goalsFor}</td>
                                 <td>${team.goalsAgainst}</td>
                                 <td>${team.goalDifference}</td>
-                                <td><strong>${team.points}</strong></td>
+                                <td>${last5}</td>
                             </tr>
                         `;
                     }).join('');
@@ -2585,10 +2591,11 @@
                                             <th>W</th>
                                             <th>D</th>
                                             <th>L</th>
+                                            <th>Pts</th>
                                             <th>GF</th>
                                             <th>GA</th>
                                             <th>GD</th>
-                                            <th>Pts</th>
+                                            <th>Last 5</th>
                                         </tr>
                                     </thead>
                                     <tbody>
