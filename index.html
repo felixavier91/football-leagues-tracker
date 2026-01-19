@@ -160,24 +160,24 @@
         
         .standings-table th {
             background: #f5f5f5;
-            padding: 12px 6px;
+            padding: 14px 8px;
             text-align: left;
             font-weight: 600;
             color: #333;
-            font-size: 1.2em;
+            font-size: 1.5em;
             border-bottom: 2px solid #e0e0e0;
             white-space: nowrap;
         }
         
         .standings-table th:first-child {
-            width: 40px;
+            width: 45px;
             text-align: center;
         }
         
         .standings-table td {
-            padding: 12px 6px;
+            padding: 14px 8px;
             border-bottom: 1px solid #f0f0f0;
-            font-size: 1.2em;
+            font-size: 1.5em;
             white-space: nowrap;
         }
         
@@ -1348,7 +1348,8 @@
                         goalsFor: 0,
                         goalsAgainst: 0,
                         goalDifference: 0,
-                        points: 0
+                        points: 0,
+                        matches: [] // Store matches for last 5
                     };
                 }
                 if (!teams[awayTeam.id]) {
@@ -1361,9 +1362,24 @@
                         goalsFor: 0,
                         goalsAgainst: 0,
                         goalDifference: 0,
-                        points: 0
+                        points: 0,
+                        matches: [] // Store matches for last 5
                     };
                 }
+                
+                // Store match result for each team
+                teams[homeTeam.id].matches.push({
+                    date: new Date(match.utcDate),
+                    homeScore: homeScore,
+                    awayScore: awayScore,
+                    isHome: true
+                });
+                teams[awayTeam.id].matches.push({
+                    date: new Date(match.utcDate),
+                    homeScore: homeScore,
+                    awayScore: awayScore,
+                    isHome: false
+                });
                 
                 // Update stats
                 teams[homeTeam.id].playedGames++;
@@ -1391,6 +1407,30 @@
                 
                 teams[homeTeam.id].goalDifference = teams[homeTeam.id].goalsFor - teams[homeTeam.id].goalsAgainst;
                 teams[awayTeam.id].goalDifference = teams[awayTeam.id].goalsFor - teams[awayTeam.id].goalsAgainst;
+            });
+            
+            // Calculate Last 5 for each team
+            Object.values(teams).forEach(team => {
+                // Sort matches by date (most recent first)
+                team.matches.sort((a, b) => b.date - a.date);
+                
+                // Take last 5 matches
+                const last5Matches = team.matches.slice(0, 5);
+                
+                // Generate form string with symbols
+                team.last5 = last5Matches.map(match => {
+                    const teamScore = match.isHome ? match.homeScore : match.awayScore;
+                    const opponentScore = match.isHome ? match.awayScore : match.homeScore;
+                    
+                    if (teamScore > opponentScore) return '✓'; // Win - green checkmark
+                    if (teamScore < opponentScore) return '✗'; // Loss - red X
+                    return '−'; // Draw - gray dash
+                }).join(' ');
+                
+                // If less than 5 matches, pad with spaces
+                while (team.last5.split(' ').length < 5) {
+                    team.last5 += ' −';
+                }
             });
             
             // Convert to array and sort by points, then goal difference
@@ -2557,8 +2597,12 @@
                         const isHighlighted = (team.team.id === homeTeamId || team.team.id === awayTeamId);
                         const rowClass = isHighlighted ? 'class="standings-highlight"' : '';
                         
-                        // Last 5 placeholder (we don't have this data, so show dashes)
-                        const last5 = '-----';
+                        // Format Last 5 with colors
+                        const last5HTML = team.last5.split(' ').map(symbol => {
+                            if (symbol === '✓') return '<span style="color: #28a745;">✓</span>'; // Green
+                            if (symbol === '✗') return '<span style="color: #dc3545;">✗</span>'; // Red
+                            return '<span style="color: #999;">−</span>'; // Gray
+                        }).join(' ');
                         
                         return `
                             <tr ${rowClass}>
@@ -2573,7 +2617,7 @@
                                 <td>${team.goalsFor}</td>
                                 <td>${team.goalsAgainst}</td>
                                 <td>${team.goalDifference}</td>
-                                <td>${last5}</td>
+                                <td>${last5HTML}</td>
                             </tr>
                         `;
                     }).join('');
