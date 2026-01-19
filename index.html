@@ -1808,40 +1808,6 @@
             document.body.style.overflow = ''; // Restore scrolling
         }
         
-        function closeMatchDetail() {
-            // Hide detail view
-            document.getElementById('matchDetailContainer').style.display = 'none';
-            
-            // Show main content
-            if (window.innerWidth <= 768) {
-                document.getElementById('leagueSelector').style.display = 'none'; // Keep hidden on mobile
-            } else {
-                document.getElementById('leagueSelector').style.display = 'block';
-            }
-            document.getElementById('filtersContainer').style.display = 'flex';
-            document.getElementById('matchesContainer').style.display = 'block';
-        }
-        
-        function buildMatchDetailHTML(match) {
-            // This will be the full match card content, but in a detail view
-            // We'll reuse the existing match card HTML generation logic
-            const homeScore = match.score?.fullTime?.home ?? '-';
-            const awayScore = match.score?.fullTime?.away ?? '-';
-                
-                // Scroll to the card smoothly after a brief delay to let it expand
-                setTimeout(() => {
-                    const headerHeight = 60; // Approximate header height
-                    const cardTop = cardElement.getBoundingClientRect().top + window.pageYOffset;
-                    const scrollPosition = cardTop - headerHeight - 20; // 20px padding from top
-                    
-                    window.scrollTo({
-                        top: scrollPosition,
-                        behavior: 'smooth'
-                    });
-                }, 100);
-            }
-        }
-
         function displayMatches(matches) {
             const container = document.getElementById('matchesContainer');
             
