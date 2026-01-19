@@ -1814,6 +1814,33 @@
             }
             modalContent.appendChild(detailsClone);
             
+            // Re-attach video tab handlers
+            const videoTabs = detailsClone.querySelectorAll('.video-tab');
+            videoTabs.forEach((tab, index) => {
+                tab.onclick = (e) => {
+                    e.stopPropagation();
+                    const uniqueId = tab.closest('.match-details').querySelector('[id^="video-"]').id.split('-')[1];
+                    switchVideo(`video-${uniqueId}`, index, e);
+                };
+            });
+            
+            // Re-attach match tab handlers (Stats/Lineups/Standings)
+            const matchTabs = detailsClone.querySelectorAll('.match-tab');
+            matchTabs.forEach(tab => {
+                const originalOnclick = tab.getAttribute('onclick');
+                if (originalOnclick) {
+                    // Extract panel ID from onclick
+                    const match = originalOnclick.match(/'([^']+)'/);
+                    if (match) {
+                        const panelId = match[1];
+                        tab.onclick = (e) => {
+                            e.stopPropagation();
+                            switchMatchTabInModal(tab, panelId);
+                        };
+                    }
+                }
+            });
+            
             // Show modal
             const modal = document.getElementById('matchModal');
             console.log('Modal element:', modal);
@@ -1821,6 +1848,24 @@
             document.body.style.overflow = 'hidden'; // Prevent background scrolling
             
             console.log('Modal should be visible now');
+        }
+        
+        function switchMatchTabInModal(button, panelId) {
+            // Get all tabs and panels in the modal
+            const modalContent = document.getElementById('modalMatchContent');
+            const allTabs = modalContent.querySelectorAll('.match-tab');
+            const allPanels = modalContent.querySelectorAll('.match-tab-panel');
+            
+            // Remove active class from all
+            allTabs.forEach(tab => tab.classList.remove('active'));
+            allPanels.forEach(panel => panel.classList.remove('active'));
+            
+            // Add active to clicked tab and corresponding panel
+            button.classList.add('active');
+            const targetPanel = modalContent.querySelector(`#${panelId}`);
+            if (targetPanel) {
+                targetPanel.classList.add('active');
+            }
         }
         
         function closeMatchModal() {
