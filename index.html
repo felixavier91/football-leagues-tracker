@@ -1776,15 +1776,27 @@
         }
         
         function showMatchDetail(matchId) {
+            console.log('Opening match detail for ID:', matchId);
+            
             // Find the match card
             const matchCard = document.querySelector(`[data-match-id="${matchId}"]`);
-            if (!matchCard) return;
+            console.log('Found match card:', matchCard);
+            if (!matchCard) {
+                console.error('Match card not found for ID:', matchId);
+                return;
+            }
             
             // Clone the card details section
             const matchDetails = matchCard.querySelector('.match-details');
-            if (!matchDetails) return;
+            console.log('Found match details:', matchDetails);
+            if (!matchDetails) {
+                console.error('Match details not found in card');
+                return;
+            }
             
             const detailsClone = matchDetails.cloneNode(true);
+            // Make sure details are visible in modal
+            detailsClone.style.display = 'block';
             
             // Also clone the one-liner for context
             const oneliner = matchCard.querySelector('.match-card-inner');
@@ -1792,6 +1804,7 @@
             
             // Show in modal
             const modalContent = document.getElementById('modalMatchContent');
+            console.log('Modal content element:', modalContent);
             modalContent.innerHTML = '';
             if (onelinerClone) {
                 modalContent.appendChild(onelinerClone);
@@ -1799,8 +1812,12 @@
             modalContent.appendChild(detailsClone);
             
             // Show modal
-            document.getElementById('matchModal').classList.add('active');
+            const modal = document.getElementById('matchModal');
+            console.log('Modal element:', modal);
+            modal.classList.add('active');
             document.body.style.overflow = 'hidden'; // Prevent background scrolling
+            
+            console.log('Modal should be visible now');
         }
         
         function closeMatchModal() {
