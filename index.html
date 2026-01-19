@@ -160,24 +160,24 @@
         
         .standings-table th {
             background: #f5f5f5;
-            padding: 14px 8px;
+            padding: 16px 10px;
             text-align: left;
             font-weight: 600;
             color: #333;
-            font-size: 1.5em;
+            font-size: 1.8em;
             border-bottom: 2px solid #e0e0e0;
             white-space: nowrap;
         }
         
         .standings-table th:first-child {
-            width: 45px;
+            width: 50px;
             text-align: center;
         }
         
         .standings-table td {
-            padding: 14px 8px;
+            padding: 16px 10px;
             border-bottom: 1px solid #f0f0f0;
-            font-size: 1.5em;
+            font-size: 1.8em;
             white-space: nowrap;
         }
         
@@ -552,6 +552,8 @@
 
         .match-oneliner .team-name {
             font-weight: 600;
+            min-width: 50px;
+            text-align: center;
         }
 
         .match-oneliner .score {
@@ -559,6 +561,9 @@
             color: #c8102e;
             padding: 0 8px;
             font-size: 1.1em;
+            min-width: 60px;
+            text-align: center;
+            display: inline-block;
         }
         
         .live-minute {
@@ -2597,11 +2602,11 @@
                         const isHighlighted = (team.team.id === homeTeamId || team.team.id === awayTeamId);
                         const rowClass = isHighlighted ? 'class="standings-highlight"' : '';
                         
-                        // Format Last 5 with colors
+                        // Format Last 5 with colors (no bold)
                         const last5HTML = team.last5.split(' ').map(symbol => {
-                            if (symbol === '✓') return '<span style="color: #28a745;">✓</span>'; // Green
-                            if (symbol === '✗') return '<span style="color: #dc3545;">✗</span>'; // Red
-                            return '<span style="color: #999;">−</span>'; // Gray
+                            if (symbol === '✓') return '<span style="color: #28a745; font-weight: normal;">✓</span>'; // Green
+                            if (symbol === '✗') return '<span style="color: #dc3545; font-weight: normal;">✗</span>'; // Red
+                            return '<span style="color: #999; font-weight: normal;">−</span>'; // Gray
                         }).join(' ');
                         
                         return `
@@ -2613,7 +2618,7 @@
                                 <td>${team.won}</td>
                                 <td>${team.draw}</td>
                                 <td>${team.lost}</td>
-                                <td><strong>${team.points}</strong></td>
+                                <td>${team.points}</td>
                                 <td>${team.goalsFor}</td>
                                 <td>${team.goalsAgainst}</td>
                                 <td>${team.goalDifference}</td>
