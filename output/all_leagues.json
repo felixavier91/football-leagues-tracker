@@ -759504,14 +759504,14 @@
         "id": 551943,
         "utcDate": "2026-01-20T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 74,
+        "minute": 80,
         "injuryTime": null,
         "attendance": null,
         "venue": "Tottenham Hotspur Stadium",
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-20T22:31:49Z",
+        "lastUpdated": "2026-01-20T22:38:09Z",
         "homeTeam": {
           "id": 73,
           "name": "Tottenham Hotspur FC",
@@ -759940,14 +759940,14 @@
         "id": 551962,
         "utcDate": "2026-01-20T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 71,
+        "minute": 78,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Jose Alvalade",
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-20T22:31:49Z",
+        "lastUpdated": "2026-01-20T22:38:09Z",
         "homeTeam": {
           "id": 498,
           "name": "Sporting Clube de Portugal",
@@ -760231,10 +760231,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -760242,7 +760242,29 @@
             "away": 0
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 74,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 498,
+              "name": "Sporting Clube de Portugal"
+            },
+            "scorer": {
+              "id": 32386,
+              "name": "Luis Suárez"
+            },
+            "assist": {
+              "id": 137045,
+              "name": "Georgios Vagiannidis"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [
           {
@@ -760315,14 +760337,14 @@
         "id": 551973,
         "utcDate": "2026-01-20T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 73,
+        "minute": 79,
         "injuryTime": null,
         "attendance": null,
         "venue": "Georgios Karaiskakis",
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-20T22:31:49Z",
+        "lastUpdated": "2026-01-20T22:38:09Z",
         "homeTeam": {
           "id": 654,
           "name": "PAE Olympiakos SFP",
@@ -760686,6 +760708,18 @@
               "name": "Christian Kofane"
             },
             "card": "YELLOW"
+          },
+          {
+            "minute": 73,
+            "team": {
+              "id": 654,
+              "name": "PAE Olympiakos SFP"
+            },
+            "player": {
+              "id": 3820,
+              "name": "Mehdi Taremi"
+            },
+            "card": "YELLOW"
           }
         ],
         "substitutions": [],
@@ -760745,14 +760779,14 @@
         "id": 552011,
         "utcDate": "2026-01-20T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 75,
+        "minute": 81,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio de la Cerámica",
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-20T22:31:49Z",
+        "lastUpdated": "2026-01-20T22:38:10Z",
         "homeTeam": {
           "id": 94,
           "name": "Villarreal CF",
@@ -761196,14 +761230,14 @@
         "id": 552038,
         "utcDate": "2026-01-20T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 70,
+        "minute": 76,
         "injuryTime": null,
         "attendance": null,
         "venue": "Parken",
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-20T22:31:49Z",
+        "lastUpdated": "2026-01-20T22:38:10Z",
         "homeTeam": {
           "id": 1876,
           "name": "FC København",
@@ -761505,10 +761539,10 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 1
           },
           "halfTime": {
@@ -761537,9 +761571,50 @@
               "home": 0,
               "away": 1
             }
+          },
+          {
+            "minute": 72,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1876,
+              "name": "FC København"
+            },
+            "scorer": {
+              "id": 31117,
+              "name": "Jordan Larsson"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
+              "away": 1
+            }
           }
         ],
-        "penalties": [],
+        "penalties": [
+          {
+            "player": {
+              "id": 31117,
+              "name": "Jordan Larsson"
+            },
+            "team": {
+              "id": 1876,
+              "name": "FC København"
+            },
+            "scored": false
+          },
+          {
+            "player": {
+              "id": 31117,
+              "name": "Jordan Larsson"
+            },
+            "team": {
+              "id": 1876,
+              "name": "FC København"
+            },
+            "scored": false
+          }
+        ],
         "bookings": [
           {
             "minute": 35,
@@ -761635,14 +761710,14 @@
         "id": 551929,
         "utcDate": "2026-01-20T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 71,
+        "minute": 78,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Santiago Bernabeu",
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-20T22:31:49Z",
+        "lastUpdated": "2026-01-20T22:38:10Z",
         "homeTeam": {
           "id": 86,
           "name": "Real Madrid CF",
@@ -761936,7 +762011,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 5,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 2,
@@ -762045,6 +762120,24 @@
               "home": 5,
               "away": 0
             }
+          },
+          {
+            "minute": 72,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 548,
+              "name": "AS Monaco FC"
+            },
+            "scorer": {
+              "id": 67965,
+              "name": "Jordan Teze"
+            },
+            "assist": null,
+            "score": {
+              "home": 5,
+              "away": 1
+            }
           }
         ],
         "penalties": [],
@@ -762131,14 +762224,14 @@
         "id": 551933,
         "utcDate": "2026-01-20T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 74,
+        "minute": 80,
         "injuryTime": null,
         "attendance": null,
         "venue": "Giuseppe Meazza",
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-20T22:31:49Z",
+        "lastUpdated": "2026-01-20T22:38:10Z",
         "homeTeam": {
           "id": 108,
           "name": "FC Internazionale Milano",
