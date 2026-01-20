@@ -1138,9 +1138,65 @@
             Soccer Highlights
         </h1>
         
-        <div style="text-align: center; margin-bottom: 10px;">
-            <img src="banner.png" alt="Banner" style="max-width: 100%; height: auto; border-radius: 8px;">
+        <div id="playerBanner" style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 0; margin-bottom: 10px; border-radius: 8px; overflow: hidden;">
+            <!-- 6 random player images will be inserted here -->
         </div>
+        
+        <script>
+            // Automatically load all images from banner folder
+            async function loadBannerImages() {
+                try {
+                    // Try to fetch directory listing
+                    const response = await fetch('banner/');
+                    const text = await response.text();
+                    
+                    // Parse HTML to find image files
+                    const parser = new DOMParser();
+                    const doc = parser.parseFromString(text, 'text/html');
+                    const links = Array.from(doc.querySelectorAll('a'));
+                    
+                    // Filter for image files (jpg, jpeg, png, webp, avif)
+                    const imageFiles = links
+                        .map(a => a.getAttribute('href'))
+                        .filter(href => href && /\.(jpg|jpeg|png|webp|avif)$/i.test(href))
+                        .map(file => `banner/${file}`);
+                    
+                    return imageFiles;
+                } catch (error) {
+                    // Fallback: manually list images (you can add your filenames here)
+                    console.log('Using fallback image list');
+                    return [
+                        'banner/1.jpg',
+                        'banner/2.png',
+                        'banner/3.webp',
+                        'banner/4.avif',
+                        // Add more filenames as fallback
+                    ];
+                }
+            }
+            
+            // Shuffle and pick 6 random images (no duplicates)
+            function getRandomPlayers(arr, count) {
+                const shuffled = [...arr].sort(() => Math.random() - 0.5);
+                return shuffled.slice(0, count); // Takes first 6 from shuffled array - guarantees unique images
+            }
+            
+            // Load banner on page load
+            loadBannerImages().then(playerImages => {
+                const bannerDiv = document.getElementById('playerBanner');
+                const selectedPlayers = getRandomPlayers(playerImages, 6);
+                
+                selectedPlayers.forEach(imgSrc => {
+                    const img = document.createElement('img');
+                    img.src = imgSrc;
+                    img.style.cssText = 'width: 100%; height: 150px; object-fit: cover; display: block;';
+                    img.onerror = function() {
+                        this.style.display = 'none'; // Hide if image doesn't load
+                    };
+                    bannerDiv.appendChild(img);
+                });
+            });
+        </script>
         
         <div class="league-selector" id="leagueSelector">
             <div id="leagueButtons" class="league-buttons"></div>
