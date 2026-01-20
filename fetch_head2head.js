@@ -39,8 +39,8 @@ async function main() {
     console.log('=== Fetching Head2Head Data ===');
     console.log('Time:', new Date().toISOString());
     
-    // Load all leagues data
-    const allLeaguesData = JSON.parse(fs.readFileSync('all_leagues.json', 'utf8'));
+    // Load all leagues data from output folder
+    const allLeaguesData = JSON.parse(fs.readFileSync('output/all_leagues.json', 'utf8'));
     
     // Load existing head2head data
     let head2headData = {};
