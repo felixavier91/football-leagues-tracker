@@ -3,7 +3,7 @@ name: Fetch Match Statistics
 on:
   schedule:
     - cron: '6,16,26,36,46,56 12-23,0-2 * * *'  # 7:06am-9:06pm ESTeeeeern Fetch Statistics
-    # - cron: '59 4 * * *'  # 11:59 PM EST (4:59 AM UTC next day)
+    # - cron: '59 4 * * *'  # 11:59 PM ESTern (4:59 AM UTC next day)
   workflow_dispatch:  # Allow manual runs
     inputs:
       fetch_all:
