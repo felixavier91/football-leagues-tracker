@@ -54705,14 +54705,14 @@
       "id": 551943,
       "utcDate": "2026-01-20T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 51,
+      "minute": 74,
       "injuryTime": null,
       "attendance": null,
       "venue": "Tottenham Hotspur Stadium",
       "matchday": 7,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-20T22:09:08Z",
+      "lastUpdated": "2026-01-20T22:31:49Z",
       "homeTeam": {
         "id": 73,
         "name": "Tottenham Hotspur FC",
@@ -55141,14 +55141,14 @@
       "id": 551962,
       "utcDate": "2026-01-20T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 49,
+      "minute": 71,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Alvalade",
       "matchday": 7,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-20T22:09:09Z",
+      "lastUpdated": "2026-01-20T22:31:49Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -55445,7 +55445,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 59,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 53190,
+            "name": "Ricardo Mangas"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -55503,14 +55516,14 @@
       "id": 551973,
       "utcDate": "2026-01-20T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 50,
+      "minute": 73,
       "injuryTime": null,
       "attendance": null,
       "venue": "Georgios Karaiskakis",
       "matchday": 7,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-20T22:09:09Z",
+      "lastUpdated": "2026-01-20T22:31:49Z",
       "homeTeam": {
         "id": 654,
         "name": "PAE Olympiakos SFP",
@@ -55933,14 +55946,14 @@
       "id": 552011,
       "utcDate": "2026-01-20T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 52,
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio de la Cerámica",
       "matchday": 7,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-20T22:09:09Z",
+      "lastUpdated": "2026-01-20T22:31:49Z",
       "homeTeam": {
         "id": 94,
         "name": "Villarreal CF",
@@ -56236,11 +56249,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -56268,6 +56281,24 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 61,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "scorer": {
+            "id": 190731,
+            "name": "Oscar Gloukh"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -56281,6 +56312,30 @@
           "player": {
             "id": 7679,
             "name": "Owen Wijndal"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 60,
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "player": {
+            "id": 212858,
+            "name": "Santiago Mouriño"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 71,
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "player": {
+            "id": 110,
+            "name": "Thomas Partey"
           },
           "card": "YELLOW"
         }
@@ -56342,14 +56397,14 @@
       "id": 552038,
       "utcDate": "2026-01-20T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 47,
+      "minute": 70,
       "injuryTime": null,
       "attendance": null,
       "venue": "Parken",
       "matchday": 7,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-20T22:09:09Z",
+      "lastUpdated": "2026-01-20T22:31:49Z",
       "homeTeam": {
         "id": 1876,
         "name": "FC København",
@@ -56781,14 +56836,14 @@
       "id": 551929,
       "utcDate": "2026-01-20T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 49,
+      "minute": 71,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 7,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-20T22:09:09Z",
+      "lastUpdated": "2026-01-20T22:31:49Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -57081,7 +57136,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 5,
           "away": 0
         },
         "halfTime": {
@@ -57129,6 +57184,66 @@
           },
           "score": {
             "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 51,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 250304,
+            "name": "Franco Mastantuono"
+          },
+          "assist": {
+            "id": 1556,
+            "name": "Vinicius Junior"
+          },
+          "score": {
+            "home": 3,
+            "away": 0
+          }
+        },
+        {
+          "minute": 55,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "scorer": {
+            "id": 6493,
+            "name": "Thilo Kehrer"
+          },
+          "assist": null,
+          "score": {
+            "home": 4,
+            "away": 0
+          }
+        },
+        {
+          "minute": 63,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 1556,
+            "name": "Vinicius Junior"
+          },
+          "assist": {
+            "id": 169162,
+            "name": "Arda Guler"
+          },
+          "score": {
+            "home": 5,
             "away": 0
           }
         }
@@ -57217,14 +57332,14 @@
       "id": 551933,
       "utcDate": "2026-01-20T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 51,
+      "minute": 74,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 7,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-20T22:09:09Z",
+      "lastUpdated": "2026-01-20T22:31:49Z",
       "homeTeam": {
         "id": 108,
         "name": "FC Internazionale Milano",
@@ -57609,7 +57724,32 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 72,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "player": {
+            "id": 1834,
+            "name": "Alessandro Bastoni"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 73,
+          "team": {
+            "id": 57,
+            "name": "Arsenal FC"
+          },
+          "player": {
+            "id": 7935,
+            "name": "Mikel Merino"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
