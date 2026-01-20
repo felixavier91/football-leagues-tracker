@@ -1138,7 +1138,7 @@
             Soccer Highlights
         </h1>
         
-        <div id="playerBanner" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; margin-bottom: 10px; border-radius: 8px; overflow: hidden;">
+        <div id="playerBanner" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; margin-bottom: 10px; border-radius: 8px; overflow: hidden; opacity: 0; transition: opacity 1s ease-in;">
             <!-- 5 random player images will be inserted here -->
         </div>
         
@@ -1175,35 +1175,13 @@
                 return shuffled.slice(0, count); // Takes first 5 from shuffled array - guarantees unique images
             }
             
-            // Load image with retry logic
-            function loadImageWithRetry(imgSrc, maxRetries = 3) {
+            // Preload a single image
+            function preloadImage(imgSrc) {
                 return new Promise((resolve, reject) => {
-                    let attempts = 0;
-                    
-                    function tryLoad() {
-                        const img = document.createElement('img');
-                        img.style.cssText = 'width: 100%; height: 150px; object-fit: cover; display: block;';
-                        
-                        img.onload = function() {
-                            resolve(img);
-                        };
-                        
-                        img.onerror = function() {
-                            attempts++;
-                            if (attempts < maxRetries) {
-                                console.log(`Retry ${attempts} for: ${imgSrc}`);
-                                setTimeout(tryLoad, 200 * attempts); // Exponential backoff
-                            } else {
-                                console.error('Failed to load after retries:', imgSrc);
-                                reject(new Error('Image load failed'));
-                            }
-                        };
-                        
-                        // Add timestamp to prevent caching issues
-                        img.src = imgSrc + '?t=' + Date.now();
-                    }
-                    
-                    tryLoad();
+                    const img = new Image();
+                    img.onload = () => resolve(img);
+                    img.onerror = () => reject(new Error(`Failed to load ${imgSrc}`));
+                    img.src = imgSrc;
                 });
             }
             
@@ -1217,15 +1195,31 @@
                 const bannerDiv = document.getElementById('playerBanner');
                 const selectedPlayers = getRandomPlayers(playerImages, 5);
                 
-                // Load all images with retry logic
-                for (const imgSrc of selectedPlayers) {
-                    try {
-                        const img = await loadImageWithRetry(imgSrc);
+                // Preload ALL images first (in parallel)
+                console.log('Preloading banner images...');
+                const imagePromises = selectedPlayers.map(src => preloadImage(src));
+                
+                try {
+                    // Wait for all images to load
+                    const loadedImages = await Promise.all(imagePromises);
+                    console.log('All images loaded, adding to DOM...');
+                    
+                    // Add all images to DOM (hidden initially due to opacity: 0)
+                    loadedImages.forEach(img => {
+                        img.style.cssText = 'width: 100%; height: 150px; object-fit: cover; display: block;';
                         bannerDiv.appendChild(img);
-                    } catch (error) {
-                        // Skip images that fail after retries
-                        console.error('Skipping image:', imgSrc);
-                    }
+                    });
+                    
+                    // Wait a moment, then fade in all at once
+                    setTimeout(() => {
+                        bannerDiv.style.opacity = '1';
+                        console.log('Banner fade-in complete');
+                    }, 100);
+                    
+                } catch (error) {
+                    console.error('Error loading banner images:', error);
+                    // Show banner anyway with whatever loaded
+                    bannerDiv.style.opacity = '1';
                 }
             });
         </script>
