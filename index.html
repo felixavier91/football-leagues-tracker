@@ -575,6 +575,16 @@
             margin-right: 8px;
         }
         
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+        
+        .live-dot {
+            display: inline-block;
+            animation: blink 1.5s ease-in-out infinite;
+        }
+        
         .match-oneliner .date {
             font-size: 1.2em;
             font-weight: 500;
@@ -1917,6 +1927,29 @@
             }
             
             displayMatches(filtered);
+            updateLiveButtonIndicator();
+        }
+        
+        function updateLiveButtonIndicator() {
+            const now = new Date();
+            const hasLiveGames = currentMatches.some(m => {
+                const matchStart = new Date(m.utcDate);
+                const twoHoursAfterStart = new Date(matchStart.getTime() + (2 * 60 * 60 * 1000));
+                const isWithinWindow = now >= matchStart && now <= twoHoursAfterStart;
+                const notFinished = m.status !== 'FINISHED';
+                return isWithinWindow && notFinished;
+            });
+            
+            const liveBtn = document.getElementById('liveBtn');
+            if (hasLiveGames) {
+                if (!liveBtn.querySelector('.live-dot')) {
+                    liveBtn.innerHTML = 'Live <span class="live-dot" style="position: absolute; top: 8px; right: 8px; font-size: 0.6em;">🔴</span>';
+                    liveBtn.style.position = 'relative';
+                }
+            } else {
+                liveBtn.innerHTML = 'Live';
+                liveBtn.style.position = '';
+            }
         }
 
         function toggleMatchCard(cardElement) {
@@ -2112,7 +2145,7 @@
                 // Live minute indicator at start of line
                 let liveIndicator = '';
                 if (isLive && currentMinute > 0) {
-                    liveIndicator = `<span class="live-minute">🔴 ${currentMinute}'</span>`;
+                    liveIndicator = `<span class="live-minute"><span class="live-dot">🔴</span> ${currentMinute}'</span>`;
                 }
 
                 // One-liner format: [live indicator] shield-name-score-name-shield
