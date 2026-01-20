@@ -443,12 +443,12 @@
         
         .match-tab {
             flex: 1;
-            padding: 10px 16px;
+            padding: 10px 8px;
             background: transparent;
             border: none;
             border-bottom: 3px solid transparent;
             color: #666;
-            font-size: 0.95em;
+            font-size: 0.85em;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -2822,10 +2822,7 @@
                     
                     historySection = `
                         <div class="match-stats-container" style="margin-top: 15px;">
-                            ${aggregateHTML}
-                            <div style="margin-top: 15px;">
-                                ${historicalMatches}
-                            </div>
+                            ${historicalMatches}
                         </div>
                     `;
                 } else {
