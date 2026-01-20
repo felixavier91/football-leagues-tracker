@@ -1138,8 +1138,8 @@
             Soccer Highlights
         </h1>
         
-        <div id="playerBanner" style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 0; margin-bottom: 10px; border-radius: 8px; overflow: hidden;">
-            <!-- 6 random player images will be inserted here -->
+        <div id="playerBanner" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; margin-bottom: 10px; border-radius: 8px; overflow: hidden;">
+            <!-- 5 random player images will be inserted here -->
         </div>
         
         <script>
@@ -1163,10 +1163,10 @@
                 }
             }
             
-            // Shuffle and pick 6 random images (no duplicates)
+            // Shuffle and pick 5 random images (no duplicates)
             function getRandomPlayers(arr, count) {
                 const shuffled = [...arr].sort(() => Math.random() - 0.5);
-                return shuffled.slice(0, count); // Takes first 6 from shuffled array - guarantees unique images
+                return shuffled.slice(0, count); // Takes first 5 from shuffled array - guarantees unique images
             }
             
             // Load banner on page load
@@ -1177,7 +1177,7 @@
                 }
                 
                 const bannerDiv = document.getElementById('playerBanner');
-                const selectedPlayers = getRandomPlayers(playerImages, 6);
+                const selectedPlayers = getRandomPlayers(playerImages, 5);
                 
                 selectedPlayers.forEach(imgSrc => {
                     const img = document.createElement('img');
