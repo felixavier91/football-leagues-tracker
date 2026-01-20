@@ -263,7 +263,6 @@
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
-            min-height: 80px;
         }
         
         .league-dropdown {
@@ -893,6 +892,7 @@
                 display: block;
                 flex: 0 0 auto;
                 margin-right: 0px;
+                min-width: 80px;
             }
             
             .league-dropdown select {
@@ -1230,6 +1230,7 @@
         <div class="filters" id="filtersContainer">
             <div class="league-dropdown">
                 <select id="leagueDropdown" onchange="selectLeagueFromDropdown(this.value)">
+                    <option value="">League</option>
                 </select>
             </div>
             <button class="filter-btn active" id="recentBtn" onclick="setMatchFilter('recent')">Finished</button>
