@@ -8,7 +8,7 @@ const API_KEY = process.env.FOOTBALL_API_KEY;
 
 // Debug: Check if API key is loaded
 if (!API_KEY) {
-    console.error('ERROR: FOOTBALL_DATA_API_KEY environment variable is not set!');
+    console.error('ERROR: FOOTBALL_API_KEY environment variable is not set!');
     console.error('Please set it in GitHub Secrets or as an environment variable');
     process.exit(1);
 }
