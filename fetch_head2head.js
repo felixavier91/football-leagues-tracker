@@ -4,7 +4,7 @@
 const https = require('https');
 const fs = require('fs');
 
-const API_KEY = process.env.FOOTBALL_DATA_API_KEY;
+const API_KEY = process.env.FOOTBALL_API_KEY;
 
 // Debug: Check if API key is loaded
 if (!API_KEY) {
