@@ -6,6 +6,14 @@ const fs = require('fs');
 
 const API_KEY = process.env.FOOTBALL_DATA_API_KEY;
 
+// Debug: Check if API key is loaded
+if (!API_KEY) {
+    console.error('ERROR: FOOTBALL_DATA_API_KEY environment variable is not set!');
+    console.error('Please set it in GitHub Secrets or as an environment variable');
+    process.exit(1);
+}
+console.log('API Key loaded:', API_KEY ? `${API_KEY.substring(0, 8)}...` : 'NOT SET');
+
 async function fetchHead2Head(matchId) {
     console.log(`Fetching head2head for match ${matchId}...`);
     
@@ -27,21 +35,30 @@ async function fetchHead2Head(matchId) {
             });
             
             res.on('end', () => {
-                if (res.statusCode === 200) {
-                    try {
-                        resolve(JSON.parse(data));
-                    } catch (error) {
-                        reject(new Error(`Failed to parse JSON: ${error.message}`));
+                // Accept any response, don't check status code
+                try {
+                    const parsed = JSON.parse(data);
+                    // Check if we got actual match data (not an error object)
+                    if (parsed.matches && parsed.matches.length > 0) {
+                        console.log(`  ✓ Got ${parsed.matches.length} historical matches`);
+                        resolve(parsed);
+                    } else if (parsed.errorCode) {
+                        console.log(`  ⚠ API returned error for match ${matchId}: ${parsed.message}`);
+                        resolve(null);
+                    } else {
+                        console.log(`  ⚠ No matches returned for ${matchId}`);
+                        resolve(null);
                     }
-                } else {
-                    console.error(`HTTP ${res.statusCode} for match ${matchId}: ${data}`);
-                    reject(new Error(`HTTP ${res.statusCode}: ${data}`));
+                } catch (error) {
+                    console.error(`  ✗ Failed to parse response: ${error.message}`);
+                    resolve(null);
                 }
             });
         });
         
         req.on('error', (e) => {
-            reject(e);
+            console.error(`  ✗ Request error: ${e.message}`);
+            resolve(null); // Don't reject, just return null
         });
         
         req.end();
@@ -100,20 +117,24 @@ async function main() {
     
     // Fetch head2head for each match
     let fetchedCount = 0;
+    let skippedCount = 0;
     
-    for (const match of upcomingMatches) {
-        console.log(`\n${match.homeTeam} vs ${match.awayTeam} (${match.league})`);
+    for (let i = 0; i < upcomingMatches.length; i++) {
+        const match = upcomingMatches[i];
+        console.log(`\n[${i + 1}/${upcomingMatches.length}] ${match.homeTeam} vs ${match.awayTeam} (${match.league})`);
         
         const h2hData = await fetchHead2Head(match.id);
         
-        if (h2hData) {
+        if (h2hData && h2hData.matches && h2hData.matches.length > 0) {
             head2headData[match.id] = h2hData;
             fetchedCount++;
-            console.log(`  ✓ Fetched ${h2hData.matches?.length || 0} historical matches`);
+        } else {
+            skippedCount++;
+            console.log(`  ⊘ Skipped (no data available)`);
         }
         
-        // Rate limiting - wait 6 seconds between requests (10 requests per minute limit)
-        if (fetchedCount < upcomingMatches.length) {
+        // Rate limiting - wait 6 seconds between requests (except after last one)
+        if (i < upcomingMatches.length - 1) {
             await new Promise(resolve => setTimeout(resolve, 6000));
         }
     }
@@ -122,6 +143,7 @@ async function main() {
     fs.writeFileSync('head2head.json', JSON.stringify(head2headData, null, 2));
     console.log(`\n=== Complete ===`);
     console.log(`Fetched: ${fetchedCount} new entries`);
+    console.log(`Skipped: ${skippedCount} entries`);
     console.log(`Total entries: ${Object.keys(head2headData).length}`);
 }
 
