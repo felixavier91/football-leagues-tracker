@@ -1942,7 +1942,9 @@
             });
             
             const liveBtn = document.getElementById('liveBtn');
-            if (hasLiveGames) {
+            
+            // Hide dot when Live filter is active, show when there are live games and filter is not active
+            if (hasLiveGames && currentFilter !== 'live') {
                 if (!liveBtn.querySelector('.live-dot')) {
                     liveBtn.innerHTML = 'Live <span class="live-dot" style="position: absolute; top: 8px; right: 8px; font-size: 0.6em;">🔴</span>';
                     liveBtn.style.position = 'relative';
