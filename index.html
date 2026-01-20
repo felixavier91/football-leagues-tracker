@@ -1153,9 +1153,15 @@
                     const imageFiles = text
                         .split('\n')
                         .map(line => line.trim())
-                        .filter(line => line && !line.startsWith('#')) // Skip empty lines and comments
+                        .filter(line => {
+                            // Skip empty lines, comments, and non-image files
+                            if (!line || line.startsWith('#')) return false;
+                            // Only include files with image extensions
+                            return /\.(jpg|jpeg|png|webp|avif|gif)$/i.test(line);
+                        })
                         .map(file => `banner/${file}`);
                     
+                    console.log('Loaded banner images:', imageFiles);
                     return imageFiles;
                 } catch (error) {
                     console.error('Could not load banner-list.txt:', error);
@@ -1169,8 +1175,40 @@
                 return shuffled.slice(0, count); // Takes first 5 from shuffled array - guarantees unique images
             }
             
+            // Load image with retry logic
+            function loadImageWithRetry(imgSrc, maxRetries = 3) {
+                return new Promise((resolve, reject) => {
+                    let attempts = 0;
+                    
+                    function tryLoad() {
+                        const img = document.createElement('img');
+                        img.style.cssText = 'width: 100%; height: 150px; object-fit: cover; display: block;';
+                        
+                        img.onload = function() {
+                            resolve(img);
+                        };
+                        
+                        img.onerror = function() {
+                            attempts++;
+                            if (attempts < maxRetries) {
+                                console.log(`Retry ${attempts} for: ${imgSrc}`);
+                                setTimeout(tryLoad, 200 * attempts); // Exponential backoff
+                            } else {
+                                console.error('Failed to load after retries:', imgSrc);
+                                reject(new Error('Image load failed'));
+                            }
+                        };
+                        
+                        // Add timestamp to prevent caching issues
+                        img.src = imgSrc + '?t=' + Date.now();
+                    }
+                    
+                    tryLoad();
+                });
+            }
+            
             // Load banner on page load
-            loadBannerImages().then(playerImages => {
+            loadBannerImages().then(async playerImages => {
                 if (playerImages.length === 0) {
                     console.error('No images found in banner-list.txt');
                     return;
@@ -1179,16 +1217,16 @@
                 const bannerDiv = document.getElementById('playerBanner');
                 const selectedPlayers = getRandomPlayers(playerImages, 5);
                 
-                selectedPlayers.forEach(imgSrc => {
-                    const img = document.createElement('img');
-                    img.src = imgSrc;
-                    img.style.cssText = 'width: 100%; height: 150px; object-fit: cover; display: block;';
-                    img.onerror = function() {
-                        console.error('Failed to load:', imgSrc);
-                        this.style.display = 'none'; // Hide if image doesn't load
-                    };
-                    bannerDiv.appendChild(img);
-                });
+                // Load all images with retry logic
+                for (const imgSrc of selectedPlayers) {
+                    try {
+                        const img = await loadImageWithRetry(imgSrc);
+                        bannerDiv.appendChild(img);
+                    } catch (error) {
+                        // Skip images that fail after retries
+                        console.error('Skipping image:', imgSrc);
+                    }
+                }
             });
         </script>
         
@@ -1220,6 +1258,7 @@
         let allLeaguesData = {};
         let highlightsDatabase = {};
         let matchStatistics = {};
+        let head2headData = {}; // Store head2head historical matches
         let currentLeague = null;
         let currentLeagueCode = null;
         let currentMatches = [];
@@ -1228,16 +1267,19 @@
 
         // Automatically load data on page load
         window.addEventListener('DOMContentLoaded', function() {
-            // Load league data, highlights database, and match statistics
+            // Load league data, highlights database, match statistics, and head2head data
             Promise.all([
                 fetch('output/all_leagues.json').then(r => r.json()),
                 fetch('output/highlights_database.json').then(r => r.json()),
-                fetch('output/match_statistics.json').then(r => r.json()).catch(() => ({})) // Optional: graceful fail
+                fetch('output/match_statistics.json').then(r => r.json()).catch(() => ({})), // Optional: graceful fail
+                fetch('head2head.json').then(r => r.json()).catch(() => ({})) // Optional: graceful fail
             ])
-            .then(([leaguesData, highlightsData, statsData]) => {
+            .then(([leaguesData, highlightsData, statsData, h2hData]) => {
                 allLeaguesData = leaguesData;
                 highlightsDatabase = highlightsData.highlights;
                 matchStatistics = statsData;
+                head2headData = h2hData;
+                console.log('Loaded head2head data for', Object.keys(head2headData).length, 'matches');
                 populateLeagueSelector();
                 document.getElementById('leagueSelector').classList.add('show');
             })
@@ -2719,13 +2761,80 @@
                 }
 
                 // Create tabs for Stats, Lineups, and Standings
+                // Create tabs for Stats, Standings, Lineups, and History
                 const matchTabs = `
                     <div class="match-tabs">
                         <button class="match-tab active" onclick="switchMatchTab(this, 'stats-${match.id}', event)">Stats</button>
                         <button class="match-tab" onclick="switchMatchTab(this, 'standings-${match.id}', event)">Standings</button>
                         <button class="match-tab" onclick="switchMatchTab(this, 'lineups-${match.id}', event)">Lineups</button>
+                        <button class="match-tab" onclick="switchMatchTab(this, 'history-${match.id}', event)">History</button>
                     </div>
                 `;
+                
+                // Build History section
+                let historySection = '';
+                const h2h = head2headData[match.id];
+                if (h2h && h2h.matches && h2h.matches.length > 0) {
+                    // Aggregate stats at top
+                    const agg = h2h.aggregates;
+                    const homeTeamName = match.homeTeam.tla;
+                    const awayTeamName = match.awayTeam.tla;
+                    
+                    const aggregateHTML = `
+                        <div style="background: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+                            <div style="text-align: center; font-weight: 600; color: #333; margin-bottom: 10px;">Head to Head Record</div>
+                            <div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: center; text-align: center;">
+                                <div>
+                                    <div style="font-size: 1.5em; font-weight: bold; color: #c8102e;">${agg.homeTeam.wins}</div>
+                                    <div style="font-size: 0.85em; color: #666;">${homeTeamName} Wins</div>
+                                </div>
+                                <div>
+                                    <div style="font-size: 1.5em; font-weight: bold; color: #666;">${agg.homeTeam.draws}</div>
+                                    <div style="font-size: 0.85em; color: #666;">Draws</div>
+                                </div>
+                                <div>
+                                    <div style="font-size: 1.5em; font-weight: bold; color: #c8102e;">${agg.awayTeam.wins}</div>
+                                    <div style="font-size: 0.85em; color: #666;">${awayTeamName} Wins</div>
+                                </div>
+                            </div>
+                            <div style="text-align: center; margin-top: 10px; font-size: 0.85em; color: #666;">
+                                ${agg.numberOfMatches} matches played
+                            </div>
+                        </div>
+                    `;
+                    
+                    // Historical matches in chronological order (newest first)
+                    const historicalMatches = h2h.matches
+                        .sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate))
+                        .map(histMatch => {
+                            const histDate = new Date(histMatch.utcDate).toLocaleDateString(undefined, {
+                                year: 'numeric',
+                                month: 'short',
+                                day: 'numeric'
+                            });
+                            
+                            const homeScore = histMatch.score?.fullTime?.home ?? '-';
+                            const awayScore = histMatch.score?.fullTime?.away ?? '-';
+                            
+                            return `<div class="match-oneliner" style="padding: 10px; border-bottom: 1px solid #f0f0f0;"><img src="${histMatch.homeTeam.crest}" class="team-logo" alt="${histMatch.homeTeam.tla}" onerror="this.style.display='none'"><span class="team-name">${histMatch.homeTeam.tla}</span><span class="score">${homeScore} - ${awayScore}</span><span class="team-name">${histMatch.awayTeam.tla}</span><img src="${histMatch.awayTeam.crest}" class="team-logo" alt="${histMatch.awayTeam.tla}" onerror="this.style.display='none'"><span class="date" style="margin-left: auto; font-size: 0.85em;">${histDate}</span></div>`;
+                        })
+                        .join('');
+                    
+                    historySection = `
+                        <div class="match-stats-container" style="margin-top: 15px;">
+                            ${aggregateHTML}
+                            <div style="margin-top: 15px;">
+                                ${historicalMatches}
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    historySection = `
+                        <div class="match-stats-container" style="margin-top: 15px; text-align: center; color: #666;">
+                            No historical data available
+                        </div>
+                    `;
+                }
 
                 // Wrap each section in a tab panel
                 const tabPanels = `
@@ -2737,6 +2846,9 @@
                     </div>
                     <div class="match-tab-panel" id="lineups-${match.id}">
                         ${startersSection}
+                    </div>
+                    <div class="match-tab-panel" id="history-${match.id}">
+                        ${historySection}
                     </div>
                 `;
 
