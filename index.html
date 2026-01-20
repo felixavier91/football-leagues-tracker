@@ -159,6 +159,7 @@
         .standings-table table {
             width: 100%;
             border-collapse: collapse;
+            table-layout: fixed;
         }
         
         .standings-table th {
@@ -966,12 +967,16 @@
                 font-size: 14px;
             }
             
+            .standings-table table {
+                table-layout: fixed;
+            }
+            
             /* Fix Team column width for consistent alignment across all leagues */
             .standings-table th:nth-child(3),
             .standings-table td:nth-child(3) {
-                width: 140px;
-                min-width: 140px;
-                max-width: 140px;
+                width: 140px !important;
+                min-width: 140px !important;
+                max-width: 140px !important;
             }
             
             .standings-team {
