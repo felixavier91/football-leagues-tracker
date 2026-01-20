@@ -971,12 +971,65 @@
                 table-layout: fixed;
             }
             
-            /* Fix Team column width for consistent alignment across all leagues */
+            /* Fixed widths for all columns - prevents dynamic resizing */
+            .standings-table th:nth-child(1),
+            .standings-table td:nth-child(1) {
+                width: 35px !important;  /* Pos */
+            }
+            
+            .standings-table th:nth-child(2),
+            .standings-table td:nth-child(2) {
+                width: 30px !important;  /* Shield */
+            }
+            
             .standings-table th:nth-child(3),
             .standings-table td:nth-child(3) {
-                width: 130px !important;
-                min-width: 130px !important;
-                max-width: 130px !important;
+                width: 140px !important;  /* Team */
+            }
+            
+            .standings-table th:nth-child(4),
+            .standings-table td:nth-child(4) {
+                width: 35px !important;  /* MP */
+            }
+            
+            .standings-table th:nth-child(5),
+            .standings-table td:nth-child(5) {
+                width: 30px !important;  /* W */
+            }
+            
+            .standings-table th:nth-child(6),
+            .standings-table td:nth-child(6) {
+                width: 30px !important;  /* D */
+            }
+            
+            .standings-table th:nth-child(7),
+            .standings-table td:nth-child(7) {
+                width: 30px !important;  /* L */
+            }
+            
+            .standings-table th:nth-child(8),
+            .standings-table td:nth-child(8) {
+                width: 40px !important;  /* Pts */
+            }
+            
+            .standings-table th:nth-child(9),
+            .standings-table td:nth-child(9) {
+                width: 35px !important;  /* GF */
+            }
+            
+            .standings-table th:nth-child(10),
+            .standings-table td:nth-child(10) {
+                width: 35px !important;  /* GA */
+            }
+            
+            .standings-table th:nth-child(11),
+            .standings-table td:nth-child(11) {
+                width: 35px !important;  /* GD */
+            }
+            
+            .standings-table th:nth-child(12),
+            .standings-table td:nth-child(12) {
+                width: 80px !important;  /* Last 5 */
             }
             
             .standings-team {
