@@ -966,16 +966,18 @@
                 font-size: 14px;
             }
             
-            /* Fix Team column width for consistent alignment */
+            /* Fix Team column width for consistent alignment across all leagues */
             .standings-table th:nth-child(3),
             .standings-table td:nth-child(3) {
-                width: 120px;
-                max-width: 120px;
+                width: 140px;
+                min-width: 140px;
+                max-width: 140px;
             }
             
             .standings-team {
                 gap: 4px;
-                max-width: 120px;
+                width: 140px;
+                min-width: 140px;
             }
             
             .standings-team img {
