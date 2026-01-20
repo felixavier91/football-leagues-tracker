@@ -6,33 +6,46 @@ const fs = require('fs');
 
 const API_KEY = process.env.FOOTBALL_DATA_API_KEY;
 
-function httpsGet(url, headers = {}) {
+async function fetchHead2Head(matchId) {
+    console.log(`Fetching head2head for match ${matchId}...`);
+    
     return new Promise((resolve, reject) => {
-        https.get(url, { headers }, (res) => {
+        const options = {
+            hostname: 'api.football-data.org',
+            path: `/v4/matches/${matchId}/head2head?limit=50`,
+            method: 'GET',
+            headers: {
+                'X-Auth-Token': API_KEY
+            }
+        };
+        
+        const req = https.request(options, (res) => {
             let data = '';
-            res.on('data', chunk => data += chunk);
+            
+            res.on('data', (chunk) => {
+                data += chunk;
+            });
+            
             res.on('end', () => {
                 if (res.statusCode === 200) {
-                    resolve(JSON.parse(data));
+                    try {
+                        resolve(JSON.parse(data));
+                    } catch (error) {
+                        reject(new Error(`Failed to parse JSON: ${error.message}`));
+                    }
                 } else {
+                    console.error(`HTTP ${res.statusCode} for match ${matchId}: ${data}`);
                     reject(new Error(`HTTP ${res.statusCode}: ${data}`));
                 }
             });
-        }).on('error', reject);
+        });
+        
+        req.on('error', (e) => {
+            reject(e);
+        });
+        
+        req.end();
     });
-}
-
-async function fetchHead2Head(matchId) {
-    const url = `https://api.football-data.org/v4/matches/${matchId}/head2head?limit=50`;
-    console.log(`Fetching head2head for match ${matchId}...`);
-    
-    try {
-        const data = await httpsGet(url, { 'X-Auth-Token': API_KEY });
-        return data;
-    } catch (error) {
-        console.error(`Error fetching match ${matchId}:`, error.message);
-        return null;
-    }
 }
 
 async function main() {
