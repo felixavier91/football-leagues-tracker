@@ -419,13 +419,13 @@
         }
         
         .standings-table tr.standings-highlight {
-            background-color: #c8102e;
-            color: white;
+            background-color: #e0e0e0;
+            color: #333;
         }
         
         .standings-table tr.standings-highlight td {
-            color: white;
-            border-bottom-color: #a00d25;
+            color: #333;
+            border-bottom-color: #d0d0d0;
         }
         
         /* Match Tabs */
@@ -1867,8 +1867,7 @@
             // Style the oneliner for modal display
             if (onelinerClone) {
                 onelinerClone.style.marginBottom = '20px';
-                onelinerClone.style.paddingBottom = '15px';
-                onelinerClone.style.borderBottom = '2px solid #e0e0e0';
+                onelinerClone.style.paddingBottom = '0px';
                 onelinerClone.style.cursor = 'default'; // Remove pointer cursor
                 onelinerClone.style.display = 'flex'; // Ensure it displays
             }
@@ -2661,8 +2660,8 @@
                 const matchTabs = `
                     <div class="match-tabs">
                         <button class="match-tab active" onclick="switchMatchTab(this, 'stats-${match.id}', event)">Stats</button>
-                        <button class="match-tab" onclick="switchMatchTab(this, 'lineups-${match.id}', event)">Lineups</button>
                         <button class="match-tab" onclick="switchMatchTab(this, 'standings-${match.id}', event)">Standings</button>
+                        <button class="match-tab" onclick="switchMatchTab(this, 'lineups-${match.id}', event)">Lineups</button>
                     </div>
                 `;
 
@@ -2671,11 +2670,11 @@
                     <div class="match-tab-panel active" id="stats-${match.id}">
                         ${matchStatsSection}
                     </div>
-                    <div class="match-tab-panel" id="lineups-${match.id}">
-                        ${startersSection}
-                    </div>
                     <div class="match-tab-panel" id="standings-${match.id}">
                         ${standingsSection}
+                    </div>
+                    <div class="match-tab-panel" id="lineups-${match.id}">
+                        ${startersSection}
                     </div>
                 `;
 
