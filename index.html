@@ -2818,16 +2818,16 @@
                         return `
                             <tr ${rowClass}>
                                 <td>${team.position}</td>
-                                <td style="text-align: center;"><img src="${team.team.crest}" alt="${team.team.shortName}" style="width: 20px; height: 20px; object-fit: contain;"></td>
-                                <td style="text-align: left;">${team.team.shortName || team.team.name}</td>
+                                <td style="text-align: center;"><img src="${team.team.crest}" alt="${team.team.tla}" style="width: 20px; height: 20px; object-fit: contain;"></td>
+                                <td style="text-align: left;">${team.team.tla}</td>
                                 <td>${team.playedGames}</td>
                                 <td>${team.won}</td>
                                 <td>${team.draw}</td>
                                 <td>${team.lost}</td>
-                                <td style="font-weight: bold;">${team.points}</td>
                                 <td>${team.goalsFor}</td>
                                 <td>${team.goalsAgainst}</td>
                                 <td>${team.goalDifference}</td>
+                                <td style="font-weight: bold;">${team.points}</td>
                                 <td>${last5HTML}</td>
                             </tr>
                         `;
@@ -2839,18 +2839,18 @@
                                 <table class="standings-table">
                                     <thead>
                                         <tr>
-                                            <th>Pos</th>
+                                            <th style="font-weight: normal;">Pos</th>
                                             <th></th>
-                                            <th style="text-align: left;">Team</th>
-                                            <th>MP</th>
-                                            <th>W</th>
-                                            <th>D</th>
-                                            <th>L</th>
-                                            <th>Pts</th>
-                                            <th>GF</th>
-                                            <th>GA</th>
-                                            <th>GD</th>
-                                            <th>Last 5</th>
+                                            <th style="text-align: left; font-weight: normal;">Team</th>
+                                            <th style="font-weight: normal;">MP</th>
+                                            <th style="font-weight: normal;">W</th>
+                                            <th style="font-weight: normal;">D</th>
+                                            <th style="font-weight: normal;">L</th>
+                                            <th style="font-weight: normal;">GF</th>
+                                            <th style="font-weight: normal;">GA</th>
+                                            <th style="font-weight: normal;">GD</th>
+                                            <th style="font-weight: bold;">Pts</th>
+                                            <th style="font-weight: normal;">Last 5</th>
                                         </tr>
                                     </thead>
                                     <tbody>
