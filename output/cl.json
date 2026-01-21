@@ -59176,15 +59176,15 @@
       },
       "id": 551949,
       "utcDate": "2026-01-21T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 32,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Orange Vélodrome",
       "matchday": 7,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-21T21:34:33Z",
+      "lastUpdated": "2026-01-21T21:52:48Z",
       "homeTeam": {
         "id": 516,
         "name": "Olympique de Marseille",
@@ -59480,18 +59480,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 16347,
+            "name": "Dominik Szoboszlai"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -59550,15 +59569,15 @@
       },
       "id": 551956,
       "utcDate": "2026-01-21T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Fortuna Arena",
       "matchday": 7,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-21T21:34:33Z",
+      "lastUpdated": "2026-01-21T21:52:48Z",
       "homeTeam": {
         "id": 930,
         "name": "SK Slavia Praha",
@@ -59866,15 +59885,15 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 0
+          "home": 2,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         }
       },
       "goals": [
@@ -59897,6 +59916,66 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 34,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 214533,
+            "name": "Fermín López"
+          },
+          "assist": {
+            "id": 7559,
+            "name": "Frenkie de Jong"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 214533,
+            "name": "Fermín López"
+          },
+          "assist": {
+            "id": 133860,
+            "name": "Pedri"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 44,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 371,
+            "name": "Robert Lewandowski"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
           }
         }
       ],
@@ -59958,15 +60037,15 @@
       },
       "id": 551986,
       "utcDate": "2026-01-21T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 34,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Gewiss Stadium",
       "matchday": 7,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-21T21:34:33Z",
+      "lastUpdated": "2026-01-21T21:52:48Z",
       "homeTeam": {
         "id": 102,
         "name": "Atalanta BC",
@@ -60287,8 +60366,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -60385,15 +60464,15 @@
       },
       "id": 551988,
       "utcDate": "2026-01-21T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Stadium",
       "matchday": 7,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-21T21:34:33Z",
+      "lastUpdated": "2026-01-21T21:52:48Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -60714,8 +60793,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -60778,14 +60857,14 @@
       "id": 552036,
       "utcDate": "2026-01-21T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 34,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "St James' Park",
       "matchday": 7,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-21T21:34:33Z",
+      "lastUpdated": "2026-01-21T21:52:48Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -61207,15 +61286,15 @@
       },
       "id": 551914,
       "utcDate": "2026-01-21T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Arena",
       "matchday": 7,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-21T21:34:33Z",
+      "lastUpdated": "2026-01-21T21:52:48Z",
       "homeTeam": {
         "id": 5,
         "name": "FC Bayern München",
@@ -61494,8 +61573,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -61570,15 +61649,15 @@
       },
       "id": 551921,
       "utcDate": "2026-01-21T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 34,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stamford Bridge",
       "matchday": 7,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-21T21:34:33Z",
+      "lastUpdated": "2026-01-21T21:52:48Z",
       "homeTeam": {
         "id": 61,
         "name": "Chelsea FC",
@@ -61881,8 +61960,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
