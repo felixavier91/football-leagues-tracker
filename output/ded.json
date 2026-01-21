@@ -81545,7 +81545,7 @@
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-21T16:10:08Z",
+      "lastUpdated": "2026-01-21T20:10:08Z",
       "homeTeam": {
         "id": 1919,
         "name": "FC Volendam",
@@ -83107,14 +83107,14 @@
       "id": 537577,
       "utcDate": "2026-01-21T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 65,
+      "minute": 72,
       "injuryTime": null,
       "attendance": null,
       "venue": "AFAS Stadion",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-21T20:07:17Z",
+      "lastUpdated": "2026-01-21T20:13:58Z",
       "homeTeam": {
         "id": 682,
         "name": "AZ",
@@ -83416,10 +83416,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -83427,9 +83427,41 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 65,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "scorer": {
+            "id": 131041,
+            "name": "Troy Parrott"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 67,
+          "team": {
+            "id": 670,
+            "name": "SBV Excelsior"
+          },
+          "player": {
+            "id": 176693,
+            "name": "Gyan de Regt"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
