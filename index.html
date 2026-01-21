@@ -57,8 +57,10 @@
         .container { max-width: 1200px; margin: 0 auto; }
         
         .header-design {
-            max-height: 30vh; /* 70% reduction from full height */
-            object-fit: contain;
+            width: 100%;
+            height: auto;
+            transform: scale(1.5); /* Zoom in 150% */
+            transform-origin: top center; /* Scale from top center */
         }
         
         h1 { color: #333; font-size: 2.5em; margin-bottom: 10px; }
@@ -902,6 +904,10 @@
             
             .subtitle {
                 font-size: 0.8em;
+            }
+            
+            .header-design {
+                transform: none; /* Reset desktop zoom */
             }
             
             .league-selector {
