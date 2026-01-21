@@ -764352,14 +764352,14 @@
         "id": 551949,
         "utcDate": "2026-01-21T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 14,
+        "minute": 32,
         "injuryTime": null,
         "attendance": null,
         "venue": "Orange Vélodrome",
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-21T21:15:58Z",
+        "lastUpdated": "2026-01-21T21:34:33Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -764726,14 +764726,14 @@
         "id": 551956,
         "utcDate": "2026-01-21T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 14,
+        "minute": 33,
         "injuryTime": null,
         "attendance": null,
         "venue": "Fortuna Arena",
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-21T21:15:58Z",
+        "lastUpdated": "2026-01-21T21:34:33Z",
         "homeTeam": {
           "id": 930,
           "name": "SK Slavia Praha",
@@ -765134,14 +765134,14 @@
         "id": 551986,
         "utcDate": "2026-01-21T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 16,
+        "minute": 34,
         "injuryTime": null,
         "attendance": null,
         "venue": "Gewiss Stadium",
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-21T21:15:58Z",
+        "lastUpdated": "2026-01-21T21:34:33Z",
         "homeTeam": {
           "id": 102,
           "name": "Atalanta BC",
@@ -765455,10 +765455,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -765466,9 +765466,44 @@
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 16,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 102,
+              "name": "Atalanta BC"
+            },
+            "scorer": {
+              "id": 2681,
+              "name": "Gianluca Scamacca"
+            },
+            "assist": {
+              "id": 152528,
+              "name": "Nicola Zalewski"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 22,
+            "team": {
+              "id": 77,
+              "name": "Athletic Club"
+            },
+            "player": {
+              "id": 32618,
+              "name": "Daniel Vivian"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -765526,14 +765561,14 @@
         "id": 551988,
         "utcDate": "2026-01-21T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 15,
+        "minute": 33,
         "injuryTime": null,
         "attendance": null,
         "venue": "Allianz Stadium",
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-21T21:15:58Z",
+        "lastUpdated": "2026-01-21T21:34:33Z",
         "homeTeam": {
           "id": 109,
           "name": "Juventus FC",
@@ -765918,14 +765953,14 @@
         "id": 552036,
         "utcDate": "2026-01-21T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 16,
+        "minute": 34,
         "injuryTime": null,
         "attendance": null,
         "venue": "St James' Park",
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-21T21:15:58Z",
+        "lastUpdated": "2026-01-21T21:34:33Z",
         "homeTeam": {
           "id": 67,
           "name": "Newcastle United FC",
@@ -766212,7 +766247,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
@@ -766241,10 +766276,56 @@
               "home": 1,
               "away": 0
             }
+          },
+          {
+            "minute": 30,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 67,
+              "name": "Newcastle United FC"
+            },
+            "scorer": {
+              "id": 7848,
+              "name": "Anthony Gordon"
+            },
+            "assist": {
+              "id": 612,
+              "name": "Yoane Wissa"
+            },
+            "score": {
+              "home": 2,
+              "away": 0
+            }
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 26,
+            "team": {
+              "id": 67,
+              "name": "Newcastle United FC"
+            },
+            "player": {
+              "id": 1684,
+              "name": "Bruno Guimarães"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 34,
+            "team": {
+              "id": 674,
+              "name": "PSV"
+            },
+            "player": {
+              "id": 142790,
+              "name": "Kiliann Sildillia"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -766302,14 +766383,14 @@
         "id": 551914,
         "utcDate": "2026-01-21T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 14,
+        "minute": 33,
         "injuryTime": null,
         "attendance": null,
         "venue": "Allianz Arena",
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-21T21:15:58Z",
+        "lastUpdated": "2026-01-21T21:34:33Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -766594,7 +766675,20 @@
         },
         "goals": [],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 18,
+            "team": {
+              "id": 5,
+              "name": "FC Bayern München"
+            },
+            "player": {
+              "id": 168299,
+              "name": "Min-Jae Kim"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -766652,14 +766746,14 @@
         "id": 551921,
         "utcDate": "2026-01-21T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 15,
+        "minute": 34,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stamford Bridge",
         "matchday": 7,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-01-21T21:15:58Z",
+        "lastUpdated": "2026-01-21T21:34:33Z",
         "homeTeam": {
           "id": 61,
           "name": "Chelsea FC",
@@ -766968,7 +767062,20 @@
         },
         "goals": [],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 33,
+            "team": {
+              "id": 11034,
+              "name": "Paphos FC"
+            },
+            "player": {
+              "id": 73401,
+              "name": "Mislav Oršić"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
