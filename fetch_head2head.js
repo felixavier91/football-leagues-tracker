@@ -1,15 +1,14 @@
-// Fetch head2head data for upcoming matches (next 48 hours)
+// Fetch head2head data for upcoming matches (next 7 days)
 // Run daily at 6 AM
 
 const https = require('https');
 const fs = require('fs');
 
-// const API_KEY = process.env.FOOTBALL_API_KEY;
-const API_KEY = '224c667c50404db8adb4c989bc1715e3'
+const API_KEY = process.env.FOOTBALL_DATA_API_KEY;
 
 // Debug: Check if API key is loaded
 if (!API_KEY) {
-    console.error('ERROR: FOOTBALL_API_KEY environment variable is not set!');
+    console.error('ERROR: FOOTBALL_DATA_API_KEY environment variable is not set!');
     console.error('Please set it in GitHub Secrets or as an environment variable');
     process.exit(1);
 }
@@ -80,13 +79,13 @@ async function main() {
         console.log(`Loaded ${Object.keys(head2headData).length} existing head2head entries`);
     }
     
-    // Get current time and 48-hour window
+    // Get current time and 7-day window
     const now = new Date();
-    const in48Hours = new Date(now.getTime() + 48 * 60 * 60 * 1000);
+    const in7Days = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
     
-    console.log(`Looking for matches between ${now.toISOString()} and ${in48Hours.toISOString()}`);
+    console.log(`Looking for matches between ${now.toISOString()} and ${in7Days.toISOString()}`);
     
-    // Find all matches in next 48 hours
+    // Find all matches in next 7 days
     const upcomingMatches = [];
     
     for (const [leagueCode, leagueData] of Object.entries(allLeaguesData)) {
@@ -95,8 +94,8 @@ async function main() {
         for (const match of leagueData.matches) {
             const matchDate = new Date(match.utcDate);
             
-            // Check if match is in next 48 hours
-            if (matchDate >= now && matchDate <= in48Hours) {
+            // Check if match is in next 7 days
+            if (matchDate >= now && matchDate <= in7Days) {
                 // Skip if already have data for this match
                 if (head2headData[match.id]) {
                     console.log(`  Skipping match ${match.id} (already exists)`);
@@ -114,7 +113,7 @@ async function main() {
         }
     }
     
-    console.log(`Found ${upcomingMatches.length} matches in next 48 hours`);
+    console.log(`Found ${upcomingMatches.length} matches in next 7 days`);
     
     // Fetch head2head for each match
     let fetchedCount = 0;
