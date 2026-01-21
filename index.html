@@ -616,6 +616,17 @@
             white-space: nowrap;
         }
         
+        .match-info-separator {
+            width: 20px; /* Gap between score section and date */
+        }
+        
+        .match-info-item {
+            color: #666;
+            font-size: 0.85em;
+            white-space: nowrap;
+            margin-left: 20px; /* Gap between info items */
+        }
+        
         .match-oneliner .date-mobile {
             display: none;
         }
@@ -1151,6 +1162,11 @@
             .match-oneliner .date-mobile {
                 display: inline;
             }
+            
+            .match-info-separator,
+            .match-info-item {
+                display: none; /* Hide venue/attendance/referee on mobile */
+            }
                     
             .match-content {
                 flex-direction: column;
@@ -1242,7 +1258,7 @@
             Soccer Highlights
         </h1>
         
-        <div id="playerBanner" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; margin-bottom: 10px; border-radius: 8px; overflow: hidden; opacity: 0; transition: opacity 1s ease-in; min-height: 150px;">
+        <div id="playerBanner" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; margin-bottom: 10px; border-radius: 8px; overflow: hidden; opacity: 0; transition: opacity 1s ease-in; height: 150px;">
             <!-- 5 random player images will be inserted here -->
         </div>
         
@@ -2245,8 +2261,14 @@
                     liveIndicator = `<span class="live-minute"><span class="live-dot">🔴</span> ${currentMinute}'</span>`;
                 }
 
-                // One-liner format: [live indicator] shield-name-score-name-shield
-                const oneliner = `<div class="match-oneliner">${liveIndicator}<img src="${match.homeTeam.crest}" class="team-logo" alt="${match.homeTeam.tla}" onerror="this.style.display='none'"><span class="team-name">${match.homeTeam.tla}</span>${scoreSection}<span class="team-name">${match.awayTeam.tla}</span><img src="${match.awayTeam.crest}" class="team-logo" alt="${match.awayTeam.tla}" onerror="this.style.display='none'"><span class="date date-desktop">${date}</span><span class="date date-mobile">${shortDate}</span></div>`;
+                // Build match info for desktop (venue, attendance, referee)
+                const venue = match.venue || 'N/A';
+                const attendance = match.attendance ? match.attendance.toLocaleString() : 'N/A';
+                const referee = match.referees?.find(r => r.type === 'REFEREE')?.name || 'N/A';
+                const matchInfo = `<span class="match-info-item">📍 ${venue}</span><span class="match-info-item">👥 ${attendance}</span><span class="match-info-item">👨‍⚖️ ${referee}</span>`;
+
+                // One-liner format: [live indicator] shield-name-score-name-shield | date | venue | attendance | referee
+                const oneliner = `<div class="match-oneliner">${liveIndicator}<img src="${match.homeTeam.crest}" class="team-logo" alt="${match.homeTeam.tla}" onerror="this.style.display='none'"><span class="team-name">${match.homeTeam.tla}</span>${scoreSection}<span class="team-name">${match.awayTeam.tla}</span><img src="${match.awayTeam.crest}" class="team-logo" alt="${match.awayTeam.tla}" onerror="this.style.display='none'"><span class="match-info-separator"></span><span class="date date-desktop">${date}</span><span class="date date-mobile">${shortDate}</span>${matchInfo}</div>`;
 
                 let youtubeLink = '';
 
