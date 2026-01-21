@@ -54,18 +54,11 @@
             -webkit-overflow-scrolling: touch;
         }
         
-        .container { max-width: 1200px; margin: 0 auto; position: relative; }
+        .container { max-width: 1200px; margin: 0 auto; }
         
         .header-design {
-            width: 100%;
-            max-height: 250px; /* Only show top portion */
-            object-fit: cover;
-            object-position: top; /* Align to top, cut off bottom */
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: -1; /* Behind content */
+            max-height: 30vh; /* 70% reduction from full height */
+            object-fit: contain;
         }
         
         h1 { color: #333; font-size: 2.5em; margin-bottom: 10px; }
@@ -75,7 +68,6 @@
             background: white;
             border-radius: 15px;
             padding: 20px;
-            margin-top: 250px; /* Space for Soccer Highlights design */
             margin-bottom: 20px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             text-align: center;
@@ -914,19 +906,7 @@
             
             .league-selector {
                 padding: 10px;
-                margin-top: 0; /* Reset desktop spacing */
                 margin-bottom: 10px;
-            }
-            
-            .header-design {
-                position: relative; /* Reset desktop fixed positioning */
-                max-height: none; /* Reset desktop height limit */
-                object-fit: none;
-                z-index: auto;
-            }
-            
-            .container {
-                position: static; /* Reset desktop relative positioning */
             }
             
             .league-selector h2 {
