@@ -83107,14 +83107,14 @@
       "id": 537577,
       "utcDate": "2026-01-21T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 79,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "AFAS Stadion",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-21T20:21:38Z",
+      "lastUpdated": "2026-01-21T20:33:53Z",
       "homeTeam": {
         "id": 682,
         "name": "AZ",
@@ -83416,11 +83416,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -83444,6 +83444,27 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 81,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 670,
+            "name": "SBV Excelsior"
+          },
+          "scorer": {
+            "id": 189609,
+            "name": "Miliano Jonathans"
+          },
+          "assist": {
+            "id": 7341,
+            "name": "Mike van Duinen"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
           }
         }
       ],
@@ -83470,6 +83491,18 @@
           "player": {
             "id": 250978,
             "name": "Elijah Dijkstra"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 86,
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "player": {
+            "id": 246145,
+            "name": "Mateo Chávez"
           },
           "card": "YELLOW"
         }
