@@ -56,6 +56,12 @@
         
         .container { max-width: 1200px; margin: 0 auto; }
         
+        .header-design-container {
+            overflow: hidden;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        
         .header-design {
             width: 100%;
             height: auto;
@@ -1249,7 +1255,9 @@
 </head>
 <body>
     <div class="container">
-        <img src="soccer_highlights_design.png" alt="Soccer Highlights" class="header-design" style="width: 100%; height: auto; display: block; margin-bottom: 10px; border-radius: 8px;">
+        <div class="header-design-container">
+            <img src="soccer_highlights_design.png" alt="Soccer Highlights" class="header-design" style="width: 100%; height: auto; display: block;">
+        </div>
         
         <div class="league-selector" id="leagueSelector">
             <div id="leagueButtons" class="league-buttons"></div>
