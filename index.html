@@ -58,10 +58,13 @@
         
         .header-design {
             width: 100%;
-            height: auto;
-            position: absolute;
+            max-height: 250px; /* Only show top portion */
+            object-fit: cover;
+            object-position: top; /* Align to top, cut off bottom */
+            position: fixed;
             top: 0;
             left: 0;
+            right: 0;
             z-index: -1; /* Behind content */
         }
         
@@ -916,7 +919,9 @@
             }
             
             .header-design {
-                position: relative; /* Reset desktop absolute positioning */
+                position: relative; /* Reset desktop fixed positioning */
+                max-height: none; /* Reset desktop height limit */
+                object-fit: none;
                 z-index: auto;
             }
             
