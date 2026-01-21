@@ -56,6 +56,11 @@
         
         .container { max-width: 1200px; margin: 0 auto; }
         
+        .header-design {
+            max-height: 30vh; /* 70% reduction from full height */
+            object-fit: contain;
+        }
+        
         h1 { color: #333; font-size: 2.5em; margin-bottom: 10px; }
         .subtitle { color: #666; font-size: 1.1em; }
         
@@ -1238,7 +1243,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="soccer_highlights_design.png" alt="Soccer Highlights" style="width: 100%; height: auto; display: block; margin-bottom: 10px; border-radius: 8px;">
+        <img src="soccer_highlights_design.png" alt="Soccer Highlights" class="header-design" style="width: 100%; height: auto; display: block; margin-bottom: 10px; border-radius: 8px;">
         
         <div class="league-selector" id="leagueSelector">
             <div id="leagueButtons" class="league-buttons"></div>
