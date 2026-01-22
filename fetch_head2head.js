@@ -81,7 +81,7 @@ async function main() {
     
     // Get current time and 14-day window
     const now = new Date();
-    const in14Days = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
+    const in14Days = new Date(now.getTime() + 21 * 24 * 60 * 60 * 1000);
     
     console.log(`Looking for matches between ${now.toISOString()} and ${in14Days.toISOString()}`);
     
