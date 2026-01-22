@@ -5,6 +5,12 @@ on:
     # Run every 5 minutes between 6:00-7:00 AM EST (11:00-12:00 UTC)
     - cron: '*/5 11 * * *'  # Every 5 minutes during the 11th hour (11:00-11:59 UTC)
   workflow_dispatch: # Allow manual trigger
+    inputs:
+      fetch_all:
+        description: 'Fetch all matches (backfill)'
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   fetch-head2head:
@@ -23,7 +29,13 @@ jobs:
         env:
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: |
-          node fetch_head2head.js
+          if [ "${{ github.event.inputs.fetch_all }}" = "true" ]; then
+            echo "Running in BACKFILL mode (refetch all matches)"
+            node fetch_head2head.js --all
+          else
+            echo "Running in NORMAL mode (skip existing data)"
+            node fetch_head2head.js
+          fi
       
       - name: Commit and push if changed
         run: |
