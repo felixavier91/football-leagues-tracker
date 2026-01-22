@@ -148,7 +148,7 @@ async function main() {
     
     for (let i = 0; i < matchesToFetch.length; i++) {
         const match = matchesToFetch[i];
-        console.log(`\n[${i + 1}/${upcomingMatches.length}] ${match.homeTeam} vs ${match.awayTeam} (${match.league})`);
+        console.log(`\n[${i + 1}/${matchesToFetch.length}] ${match.homeTeam} vs ${match.awayTeam} (${match.league})`);
         
         const h2hData = await fetchHead2Head(match.id);
         
