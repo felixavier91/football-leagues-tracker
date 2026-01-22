@@ -25,7 +25,7 @@ const LEAGUES_TO_PROCESS = [
     'CL',   // Champions League
 ];
 
-const API_KEY = '224c667c50404db8adb4c989bc1715e3';
+const API_KEY = process.env.FOOTBALL_API_KEY;
 const SEASON = '2025';
 const OUTPUT_DIR = 'output';
 
