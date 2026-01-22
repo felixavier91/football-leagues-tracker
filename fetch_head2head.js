@@ -8,7 +8,7 @@ const API_KEY = process.env.FOOTBALL_API_KEY;
 
 // Debug: Check if API key is loaded
 if (!API_KEY) {
-    console.error('ERROR: FOOTBALL_DATA_API_KEY environment variable is not set!');
+    console.error('ERROR: FOOTBALL_API_KEY environment variable is not set!');
     console.error('Please set it in GitHub Secrets or as an environment variable');
     process.exit(1);
 }
@@ -79,9 +79,13 @@ async function main() {
         console.log(`Loaded ${Object.keys(head2headData).length} existing head2head entries`);
     }
     
+    // Check for backfill mode (fetch all matches, not just those missing data)
+    const isBackfill = process.argv.includes('--all');
+    console.log(`Mode: ${isBackfill ? 'BACKFILL (refetch all)' : 'NORMAL (skip existing)'}`);
+    
     // Get current time and 14-day window
     const now = new Date();
-    const in14Days = new Date(now.getTime() + 21 * 24 * 60 * 60 * 1000);
+    const in14Days = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
     
     console.log(`Looking for matches between ${now.toISOString()} and ${in14Days.toISOString()}`);
     
@@ -96,8 +100,8 @@ async function main() {
             
             // Check if match is in next 14 days
             if (matchDate >= now && matchDate <= in14Days) {
-                // Skip if already have data for this match
-                if (head2headData[match.id]) {
+                // In normal mode, skip if already have data for this match
+                if (!isBackfill && head2headData[match.id]) {
                     console.log(`  Skipping match ${match.id} (already exists)`);
                     continue;
                 }
@@ -131,11 +135,6 @@ async function main() {
         } else {
             skippedCount++;
             console.log(`  ⊘ Skipped (no data available)`);
-        }
-        
-        // Rate limiting - wait 6 seconds between requests (except after last one)
-        if (i < upcomingMatches.length - 1) {
-            await new Promise(resolve => setTimeout(resolve, 6000));
         }
     }
     
