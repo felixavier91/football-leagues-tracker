@@ -592,10 +592,10 @@
         }
 
         .match-oneliner .score {
-            font-weight: bold;
-            color: #c8102e;
+            font-weight: 600;
+            color: #333;
             padding: 0;
-            font-size: 1.1em;
+            font-size: 1em;
             width: 40px;
             text-align: center;
             display: inline-block;
@@ -2878,7 +2878,7 @@
                             });
                             
                             // Determine if we need to swap teams to match current match order
-                            let leftTeam, rightTeam, leftScore, rightScore;
+                            let leftTeam, rightTeam, leftScore, rightScore, leftWon, rightWon;
                             
                             if (histMatch.homeTeam.id === currentHomeTeamId) {
                                 // Historical home team matches current home team - keep order
@@ -2886,15 +2886,23 @@
                                 rightTeam = histMatch.awayTeam;
                                 leftScore = histMatch.score?.fullTime?.home ?? '-';
                                 rightScore = histMatch.score?.fullTime?.away ?? '-';
+                                leftWon = histMatch.score?.winner === 'HOME_TEAM';
+                                rightWon = histMatch.score?.winner === 'AWAY_TEAM';
                             } else {
                                 // Historical home team matches current away team - swap order
                                 leftTeam = histMatch.awayTeam;
                                 rightTeam = histMatch.homeTeam;
                                 leftScore = histMatch.score?.fullTime?.away ?? '-';
                                 rightScore = histMatch.score?.fullTime?.home ?? '-';
+                                leftWon = histMatch.score?.winner === 'AWAY_TEAM';
+                                rightWon = histMatch.score?.winner === 'HOME_TEAM';
                             }
                             
-                            return `<div class="match-oneliner" style="padding: 10px; border-bottom: 1px solid #f0f0f0;"><img src="${leftTeam.crest}" class="team-logo" alt="${leftTeam.tla}" onerror="this.style.display='none'"><span class="team-name">${leftTeam.tla}</span><span class="score">${leftScore} - ${rightScore}</span><span class="team-name">${rightTeam.tla}</span><img src="${rightTeam.crest}" class="team-logo" alt="${rightTeam.tla}" onerror="this.style.display='none'"><span class="date" style="margin-left: auto; font-size: 0.85em;">${histDate}</span></div>`;
+                            // Style scores - winner gets red background with white text
+                            const leftScoreStyle = leftWon ? 'background: #c8102e; color: white; padding: 2px 6px; border-radius: 4px;' : '';
+                            const rightScoreStyle = rightWon ? 'background: #c8102e; color: white; padding: 2px 6px; border-radius: 4px;' : '';
+                            
+                            return `<div class="match-oneliner" style="padding: 10px; border-bottom: 1px solid #f0f0f0;"><img src="${leftTeam.crest}" class="team-logo" alt="${leftTeam.tla}" onerror="this.style.display='none'"><span class="team-name">${leftTeam.tla}</span><span class="score"><span style="${leftScoreStyle}">${leftScore}</span> - <span style="${rightScoreStyle}">${rightScore}</span></span><span class="team-name">${rightTeam.tla}</span><img src="${rightTeam.crest}" class="team-logo" alt="${rightTeam.tla}" onerror="this.style.display='none'"><span class="date" style="margin-left: auto; font-size: 0.85em;">${histDate}</span></div>`;
                         })
                         .join('');
                     
