@@ -26,6 +26,8 @@ jobs:
           node-version: '18'
       
       - name: Fetch match statistics
+        env:
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: |
           if [ "${{ github.event.inputs.fetch_all }}" = "true" ]; then
             echo "Running in BACKFILL mode (all matches)"
