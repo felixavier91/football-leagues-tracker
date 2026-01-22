@@ -79,18 +79,22 @@ async function main() {
         console.log(`Loaded ${Object.keys(head2headData).length} existing head2head entries`);
     }
     
-    // Check for backfill mode (fetch all matches, not just those missing data)
+    // Check for backfill mode (fetch past matches that are missing data)
     const isBackfill = process.argv.includes('--all');
-    console.log(`Mode: ${isBackfill ? 'BACKFILL (refetch all)' : 'NORMAL (skip existing)'}`);
+    console.log(`Mode: ${isBackfill ? 'BACKFILL (past matches without data)' : 'NORMAL (upcoming only, skip existing)'}`);
     
     // Get current time and 14-day window
     const now = new Date();
     const in14Days = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
     
-    console.log(`Looking for matches between ${now.toISOString()} and ${in14Days.toISOString()}`);
+    if (isBackfill) {
+        console.log(`BACKFILL MODE: Looking for past/finished matches without h2h data`);
+    } else {
+        console.log(`NORMAL MODE: Looking for matches between ${now.toISOString()} and ${in14Days.toISOString()}`);
+    }
     
-    // Find all matches in next 14 days
-    const upcomingMatches = [];
+    // Find matches to fetch
+    const matchesToFetch = [];
     
     for (const [leagueCode, leagueData] of Object.entries(allLeaguesData)) {
         if (!leagueData.matches) continue;
@@ -98,33 +102,52 @@ async function main() {
         for (const match of leagueData.matches) {
             const matchDate = new Date(match.utcDate);
             
-            // Check if match is in next 14 days
-            if (matchDate >= now && matchDate <= in14Days) {
-                // In normal mode, skip if already have data for this match
-                if (!isBackfill && head2headData[match.id]) {
-                    console.log(`  Skipping match ${match.id} (already exists)`);
-                    continue;
-                }
+            if (isBackfill) {
+                // Backfill mode: only past/finished matches that don't have data yet
+                const isPast = matchDate < now;
+                const missingData = !head2headData[match.id];
                 
-                upcomingMatches.push({
-                    id: match.id,
-                    homeTeam: match.homeTeam.name,
-                    awayTeam: match.awayTeam.name,
-                    date: match.utcDate,
-                    league: leagueCode
-                });
+                if (isPast && missingData) {
+                    matchesToFetch.push({
+                        id: match.id,
+                        homeTeam: match.homeTeam.name,
+                        awayTeam: match.awayTeam.name,
+                        date: match.utcDate,
+                        league: leagueCode
+                    });
+                }
+            } else {
+                // Normal mode: only upcoming matches in next 14 days
+                const isUpcoming = matchDate >= now && matchDate <= in14Days;
+                
+                if (isUpcoming) {
+                    // Skip if already have data for this match
+                    if (head2headData[match.id]) {
+                        console.log(`  Skipping match ${match.id} (already exists)`);
+                        continue;
+                    }
+                    
+                    matchesToFetch.push({
+                        id: match.id,
+                        homeTeam: match.homeTeam.name,
+                        awayTeam: match.awayTeam.name,
+                        date: match.utcDate,
+                        league: leagueCode
+                    });
+                }
+            }
             }
         }
     }
     
-    console.log(`Found ${upcomingMatches.length} matches in next 14 days`);
+    console.log(`Found ${matchesToFetch.length} matches to process`);
     
     // Fetch head2head for each match
     let fetchedCount = 0;
     let skippedCount = 0;
     
-    for (let i = 0; i < upcomingMatches.length; i++) {
-        const match = upcomingMatches[i];
+    for (let i = 0; i < matchesToFetch.length; i++) {
+        const match = matchesToFetch[i];
         console.log(`\n[${i + 1}/${upcomingMatches.length}] ${match.homeTeam} vs ${match.awayTeam} (${match.league})`);
         
         const h2hData = await fetchHead2Head(match.id);
