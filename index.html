@@ -711,7 +711,7 @@
             display: block;
             margin: 15px auto 0 auto;
             padding: 10px 20px;
-            background: #c8102e;
+            background: #888;
             color: white;
             text-decoration: none;
             border-radius: 8px;
@@ -722,7 +722,7 @@
         }
         
         .youtube-btn:hover {
-            background: #a00d25;
+            background: #666;
         }
         
         /* Video tabs */
@@ -2211,7 +2211,7 @@
                             <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeSearchQuery)}" 
                                target="_blank" 
                                class="youtube-btn"
-                               onclick="trackEvent('search_youtube', {league: '${currentLeagueCode}', home: '${match.homeTeam.shortName}', away: '${match.awayTeam.shortName}'})">Search on YouTube</a>
+                               onclick="trackEvent('search_youtube', {league: '${currentLeagueCode}', home: '${match.homeTeam.shortName}', away: '${match.awayTeam.shortName}'})">Find more videos</a>
                         </div>
                     `;
                     
@@ -2864,6 +2864,10 @@
                     `;
                     
                     // Historical matches in chronological order (newest first)
+                    // Keep team positions consistent with current match
+                    const currentHomeTeamId = match.homeTeam.id;
+                    const currentAwayTeamId = match.awayTeam.id;
+                    
                     const historicalMatches = h2h.matches
                         .sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate))
                         .map(histMatch => {
@@ -2873,10 +2877,24 @@
                                 day: 'numeric'
                             });
                             
-                            const homeScore = histMatch.score?.fullTime?.home ?? '-';
-                            const awayScore = histMatch.score?.fullTime?.away ?? '-';
+                            // Determine if we need to swap teams to match current match order
+                            let leftTeam, rightTeam, leftScore, rightScore;
                             
-                            return `<div class="match-oneliner" style="padding: 10px; border-bottom: 1px solid #f0f0f0;"><img src="${histMatch.homeTeam.crest}" class="team-logo" alt="${histMatch.homeTeam.tla}" onerror="this.style.display='none'"><span class="team-name">${histMatch.homeTeam.tla}</span><span class="score">${homeScore} - ${awayScore}</span><span class="team-name">${histMatch.awayTeam.tla}</span><img src="${histMatch.awayTeam.crest}" class="team-logo" alt="${histMatch.awayTeam.tla}" onerror="this.style.display='none'"><span class="date" style="margin-left: auto; font-size: 0.85em;">${histDate}</span></div>`;
+                            if (histMatch.homeTeam.id === currentHomeTeamId) {
+                                // Historical home team matches current home team - keep order
+                                leftTeam = histMatch.homeTeam;
+                                rightTeam = histMatch.awayTeam;
+                                leftScore = histMatch.score?.fullTime?.home ?? '-';
+                                rightScore = histMatch.score?.fullTime?.away ?? '-';
+                            } else {
+                                // Historical home team matches current away team - swap order
+                                leftTeam = histMatch.awayTeam;
+                                rightTeam = histMatch.homeTeam;
+                                leftScore = histMatch.score?.fullTime?.away ?? '-';
+                                rightScore = histMatch.score?.fullTime?.home ?? '-';
+                            }
+                            
+                            return `<div class="match-oneliner" style="padding: 10px; border-bottom: 1px solid #f0f0f0;"><img src="${leftTeam.crest}" class="team-logo" alt="${leftTeam.tla}" onerror="this.style.display='none'"><span class="team-name">${leftTeam.tla}</span><span class="score">${leftScore} - ${rightScore}</span><span class="team-name">${rightTeam.tla}</span><img src="${rightTeam.crest}" class="team-logo" alt="${rightTeam.tla}" onerror="this.style.display='none'"><span class="date" style="margin-left: auto; font-size: 0.85em;">${histDate}</span></div>`;
                         })
                         .join('');
                     
