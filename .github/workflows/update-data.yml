@@ -28,7 +28,7 @@ jobs:
       
       - name: Fetch football data
         env:
-          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+          API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: |
           # Update the API key in the script temporarily
           sed -i "s/const API_KEY = .*/const API_KEY = '$API_KEY';/" fetch_all_leagues.js
