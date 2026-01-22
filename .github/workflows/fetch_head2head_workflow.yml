@@ -21,7 +21,7 @@ jobs:
       
       - name: Fetch head2head data
         env:
-          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: |
           node fetch_head2head.js
       
