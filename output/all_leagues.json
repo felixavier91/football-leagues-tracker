@@ -212035,14 +212035,14 @@
         "id": 544416,
         "utcDate": "2026-01-23T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 6,
+        "minute": 21,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Ciudad de Valencia",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-23T21:08:39Z",
+        "lastUpdated": "2026-01-23T21:23:39Z",
         "homeTeam": {
           "id": 88,
           "name": "Levante UD",
@@ -212211,7 +212211,7 @@
             "nationality": "Spain"
           },
           "leagueRank": 8,
-          "formation": "5-4-1",
+          "formation": "4-5-1",
           "lineup": [
             {
               "id": 180898,
@@ -212356,18 +212356,37 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 11,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 285,
+              "name": "Elche CF"
+            },
+            "scorer": {
+              "id": 189369,
+              "name": "Alvaro Rodriguez"
+            },
+            "assist": null,
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -303299,15 +303318,15 @@
         },
         "id": 540576,
         "utcDate": "2026-01-23T19:30:00Z",
-        "status": "IN_PLAY",
-        "minute": 37,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": 29546,
         "venue": "Millerntor-Stadion",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-23T21:08:50Z",
+        "lastUpdated": "2026-01-23T21:23:59Z",
         "homeTeam": {
           "id": 20,
           "name": "FC St. Pauli 1910",
@@ -303592,8 +303611,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "goals": [],
@@ -420257,14 +420276,14 @@
         "id": 537031,
         "utcDate": "2026-01-23T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 22,
+        "minute": 37,
         "injuryTime": null,
         "attendance": null,
         "venue": "Giuseppe Meazza",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-23T21:08:59Z",
+        "lastUpdated": "2026-01-23T21:24:19Z",
         "homeTeam": {
           "id": 108,
           "name": "FC Internazionale Milano",
@@ -420594,7 +420613,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": null,
@@ -420619,6 +420638,27 @@
               "home": 0,
               "away": 1
             }
+          },
+          {
+            "minute": 23,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 487,
+              "name": "AC Pisa 1909"
+            },
+            "scorer": {
+              "id": 2436,
+              "name": "Stefano Moreo"
+            },
+            "assist": {
+              "id": 420,
+              "name": "Mattéo Tramoni"
+            },
+            "score": {
+              "home": 0,
+              "away": 2
+            }
           }
         ],
         "penalties": [],
@@ -420632,6 +420672,30 @@
             "player": {
               "id": 56647,
               "name": "Marius Mihai Marin"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 26,
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "player": {
+              "id": 3220,
+              "name": "Lautaro Martínez"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 30,
+            "team": {
+              "id": 487,
+              "name": "AC Pisa 1909"
+            },
+            "player": {
+              "id": 2853,
+              "name": "Alberto Gilardino"
             },
             "card": "YELLOW"
           }
@@ -510801,14 +510865,14 @@
         "id": 542569,
         "utcDate": "2026-01-23T19:00:00Z",
         "status": "IN_PLAY",
-        "minute": 53,
+        "minute": 69,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stade de l'Abbé-Deschamps",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-23T21:09:09Z",
+        "lastUpdated": "2026-01-23T21:24:25Z",
         "homeTeam": {
           "id": 519,
           "name": "AJ Auxerre",
@@ -598218,15 +598282,15 @@
         },
         "id": 545862,
         "utcDate": "2026-01-23T20:15:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 8,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estádio Municipal de Rio Maior",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-23T20:15:53Z",
+        "lastUpdated": "2026-01-23T21:24:35Z",
         "homeTeam": {
           "id": 6618,
           "name": "Casa Pia AC",
@@ -598504,11 +598568,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
