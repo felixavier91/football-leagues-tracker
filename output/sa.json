@@ -103770,14 +103770,14 @@
       "id": 537031,
       "utcDate": "2026-01-23T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 8,
+      "minute": 22,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-23T20:54:34Z",
+      "lastUpdated": "2026-01-23T21:08:59Z",
       "homeTeam": {
         "id": 108,
         "name": "FC Internazionale Milano",
@@ -104103,20 +104103,52 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 11,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 487,
+            "name": "AC Pisa 1909"
+          },
+          "scorer": {
+            "id": 2436,
+            "name": "Stefano Moreo"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 15,
+          "team": {
+            "id": 487,
+            "name": "AC Pisa 1909"
+          },
+          "player": {
+            "id": 56647,
+            "name": "Marius Mihai Marin"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
