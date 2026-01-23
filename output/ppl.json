@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 162
+    "played": 163
   },
   "competition": {
     "id": 2017,
@@ -74531,15 +74531,15 @@
       },
       "id": 545862,
       "utcDate": "2026-01-23T20:15:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 10,
       "attendance": null,
       "venue": "Estádio Municipal de Rio Maior",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-23T23:09:08Z",
+      "lastUpdated": "2026-01-23T23:21:38Z",
       "homeTeam": {
         "id": 6618,
         "name": "Casa Pia AC",
@@ -74817,11 +74817,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 3,
-          "away": 1
+          "away": 3
         },
         "halfTime": {
           "home": 1,
@@ -74906,9 +74906,59 @@
             "home": 3,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 10340,
+            "name": "AVS"
+          },
+          "scorer": {
+            "id": 2470,
+            "name": "Nenê"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 2
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 9,
+          "type": "REGULAR",
+          "team": {
+            "id": 10340,
+            "name": "AVS"
+          },
+          "scorer": {
+            "id": 280041,
+            "name": "Guilherme Neiva"
+          },
+          "assist": {
+            "id": 192912,
+            "name": "Pedro Lima"
+          },
+          "score": {
+            "home": 3,
+            "away": 3
+          }
         }
       ],
       "penalties": [
+        {
+          "player": {
+            "id": 2470,
+            "name": "Nenê"
+          },
+          "team": {
+            "id": 10340,
+            "name": "AVS"
+          },
+          "scored": true
+        },
         {
           "player": {
             "id": 2470,
