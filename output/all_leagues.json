@@ -303300,14 +303300,14 @@
         "id": 540576,
         "utcDate": "2026-01-23T19:30:00Z",
         "status": "IN_PLAY",
-        "minute": null,
+        "minute": 13,
         "injuryTime": null,
         "attendance": null,
         "venue": "Millerntor-Stadion",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-23T20:31:24Z",
+        "lastUpdated": "2026-01-23T20:45:30Z",
         "homeTeam": {
           "id": 20,
           "name": "FC St. Pauli 1910",
@@ -303598,7 +303598,20 @@
         },
         "goals": [],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 7,
+            "team": {
+              "id": 20,
+              "name": "FC St. Pauli 1910"
+            },
+            "player": {
+              "id": 64402,
+              "name": "Adam Dźwigała"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -420231,7 +420244,7 @@
         },
         "id": 537031,
         "utcDate": "2026-01-23T19:45:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "minute": null,
         "injuryTime": null,
         "attendance": null,
@@ -420239,7 +420252,7 @@
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-23T20:04:12Z",
+        "lastUpdated": "2026-01-23T20:45:34Z",
         "homeTeam": {
           "id": 108,
           "name": "FC Internazionale Milano",
@@ -420565,11 +420578,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -510744,14 +510757,14 @@
         "id": 542569,
         "utcDate": "2026-01-23T19:00:00Z",
         "status": "IN_PLAY",
-        "minute": 31,
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stade de l'Abbé-Deschamps",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-23T20:31:43Z",
+        "lastUpdated": "2026-01-23T20:45:43Z",
         "homeTeam": {
           "id": 519,
           "name": "AJ Auxerre",

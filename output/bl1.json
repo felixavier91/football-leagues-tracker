@@ -75075,14 +75075,14 @@
       "id": 540576,
       "utcDate": "2026-01-23T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 13,
       "injuryTime": null,
       "attendance": null,
       "venue": "Millerntor-Stadion",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-23T20:31:24Z",
+      "lastUpdated": "2026-01-23T20:45:30Z",
       "homeTeam": {
         "id": 20,
         "name": "FC St. Pauli 1910",
@@ -75373,7 +75373,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 7,
+          "team": {
+            "id": 20,
+            "name": "FC St. Pauli 1910"
+          },
+          "player": {
+            "id": 64402,
+            "name": "Adam Dźwigała"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
