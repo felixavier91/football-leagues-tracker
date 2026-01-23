@@ -97124,14 +97124,14 @@
       "id": 544416,
       "utcDate": "2026-01-23T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 50,
+      "minute": 65,
       "injuryTime": null,
       "attendance": 18973,
       "venue": "Estadio Ciudad de Valencia",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-23T22:09:13Z",
+      "lastUpdated": "2026-01-23T22:23:47Z",
       "homeTeam": {
         "id": 88,
         "name": "Levante UD",
@@ -97445,10 +97445,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -97474,6 +97474,27 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 50,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 88,
+            "name": "Levante UD"
+          },
+          "scorer": {
+            "id": 32830,
+            "name": "Pablo Martínez"
+          },
+          "assist": {
+            "id": 162,
+            "name": "Jeremy Toljan"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -97487,6 +97508,18 @@
           "player": {
             "id": 156525,
             "name": "Carlos Álvarez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 56,
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "player": {
+            "id": 117813,
+            "name": "Léo Pétrot"
           },
           "card": "YELLOW"
         }
