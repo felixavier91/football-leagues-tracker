@@ -74532,14 +74532,14 @@
       "id": 545862,
       "utcDate": "2026-01-23T20:15:00Z",
       "status": "IN_PLAY",
-      "minute": 8,
+      "minute": 24,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Municipal de Rio Maior",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-23T21:24:35Z",
+      "lastUpdated": "2026-01-23T21:41:35Z",
       "homeTeam": {
         "id": 6618,
         "name": "Casa Pia AC",
@@ -74817,10 +74817,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -74828,9 +74828,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 5,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 6618,
+            "name": "Casa Pia AC"
+          },
+          "scorer": {
+            "id": 138218,
+            "name": "David Sousa"
+          },
+          "assist": {
+            "id": 126156,
+            "name": "Rafael Brito"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 13,
+          "team": {
+            "id": 10340,
+            "name": "AVS"
+          },
+          "player": {
+            "id": 169554,
+            "name": "Roni"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

@@ -75278,14 +75278,14 @@
       "id": 542569,
       "utcDate": "2026-01-23T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 69,
+      "minute": 85,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de l'Abbé-Deschamps",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-23T21:24:25Z",
+      "lastUpdated": "2026-01-23T21:41:29Z",
       "homeTeam": {
         "id": 519,
         "name": "AJ Auxerre",
@@ -75551,20 +75551,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 79,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 172762,
+            "name": "Bradley Barcola"
+          },
+          "assist": {
+            "id": 3373,
+            "name": "Ousmane Dembélé"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 72,
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "player": {
+            "id": 169204,
+            "name": "Lucas Beraldo"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

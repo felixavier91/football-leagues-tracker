@@ -103769,15 +103769,15 @@
       },
       "id": 537031,
       "utcDate": "2026-01-23T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 37,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-23T21:24:19Z",
+      "lastUpdated": "2026-01-23T21:41:24Z",
       "homeTeam": {
         "id": 108,
         "name": "FC Internazionale Milano",
@@ -104103,15 +104103,15 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 3,
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 2
         }
       },
       "goals": [
@@ -104153,9 +104153,81 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 39,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 2097,
+            "name": "Piotr Zieliński"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 41,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 3220,
+            "name": "Lautaro Martínez"
+          },
+          "assist": {
+            "id": 30821,
+            "name": "Federico Dimarco"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 215433,
+            "name": "Francesco Esposito"
+          },
+          "assist": {
+            "id": 1834,
+            "name": "Alessandro Bastoni"
+          },
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 2097,
+            "name": "Piotr Zieliński"
+          },
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 15,

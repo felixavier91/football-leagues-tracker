@@ -212035,14 +212035,14 @@
         "id": 544416,
         "utcDate": "2026-01-23T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 21,
+        "minute": 39,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Ciudad de Valencia",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-23T21:23:39Z",
+        "lastUpdated": "2026-01-23T21:41:00Z",
         "homeTeam": {
           "id": 88,
           "name": "Levante UD",
@@ -212388,7 +212388,20 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 38,
+            "team": {
+              "id": 88,
+              "name": "Levante UD"
+            },
+            "player": {
+              "id": 156525,
+              "name": "Carlos Álvarez"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -303326,7 +303339,7 @@
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-23T21:23:59Z",
+        "lastUpdated": "2026-01-23T21:41:15Z",
         "homeTeam": {
           "id": 20,
           "name": "FC St. Pauli 1910",
@@ -420275,15 +420288,15 @@
         },
         "id": 537031,
         "utcDate": "2026-01-23T19:45:00Z",
-        "status": "IN_PLAY",
-        "minute": 37,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Giuseppe Meazza",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-23T21:24:19Z",
+        "lastUpdated": "2026-01-23T21:41:24Z",
         "homeTeam": {
           "id": 108,
           "name": "FC Internazionale Milano",
@@ -420609,15 +420622,15 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 3,
             "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 3,
+            "away": 2
           }
         },
         "goals": [
@@ -420659,9 +420672,81 @@
               "home": 0,
               "away": 2
             }
+          },
+          {
+            "minute": 39,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "scorer": {
+              "id": 2097,
+              "name": "Piotr Zieliński"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
+              "away": 2
+            }
+          },
+          {
+            "minute": 41,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "scorer": {
+              "id": 3220,
+              "name": "Lautaro Martínez"
+            },
+            "assist": {
+              "id": 30821,
+              "name": "Federico Dimarco"
+            },
+            "score": {
+              "home": 2,
+              "away": 2
+            }
+          },
+          {
+            "minute": 45,
+            "injuryTime": 2,
+            "type": "REGULAR",
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "scorer": {
+              "id": 215433,
+              "name": "Francesco Esposito"
+            },
+            "assist": {
+              "id": 1834,
+              "name": "Alessandro Bastoni"
+            },
+            "score": {
+              "home": 3,
+              "away": 2
+            }
           }
         ],
-        "penalties": [],
+        "penalties": [
+          {
+            "player": {
+              "id": 2097,
+              "name": "Piotr Zieliński"
+            },
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "scored": true
+          }
+        ],
         "bookings": [
           {
             "minute": 15,
@@ -510865,14 +510950,14 @@
         "id": 542569,
         "utcDate": "2026-01-23T19:00:00Z",
         "status": "IN_PLAY",
-        "minute": 69,
+        "minute": 85,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stade de l'Abbé-Deschamps",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-23T21:24:25Z",
+        "lastUpdated": "2026-01-23T21:41:29Z",
         "homeTeam": {
           "id": 519,
           "name": "AJ Auxerre",
@@ -511138,20 +511223,55 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 0,
             "away": 0
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 79,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 524,
+              "name": "Paris Saint-Germain FC"
+            },
+            "scorer": {
+              "id": 172762,
+              "name": "Bradley Barcola"
+            },
+            "assist": {
+              "id": 3373,
+              "name": "Ousmane Dembélé"
+            },
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 72,
+            "team": {
+              "id": 524,
+              "name": "Paris Saint-Germain FC"
+            },
+            "player": {
+              "id": 169204,
+              "name": "Lucas Beraldo"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -598283,14 +598403,14 @@
         "id": 545862,
         "utcDate": "2026-01-23T20:15:00Z",
         "status": "IN_PLAY",
-        "minute": 8,
+        "minute": 24,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estádio Municipal de Rio Maior",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-23T21:24:35Z",
+        "lastUpdated": "2026-01-23T21:41:35Z",
         "homeTeam": {
           "id": 6618,
           "name": "Casa Pia AC",
@@ -598568,10 +598688,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -598579,9 +598699,44 @@
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 5,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 6618,
+              "name": "Casa Pia AC"
+            },
+            "scorer": {
+              "id": 138218,
+              "name": "David Sousa"
+            },
+            "assist": {
+              "id": 126156,
+              "name": "Rafael Brito"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 13,
+            "team": {
+              "id": 10340,
+              "name": "AVS"
+            },
+            "player": {
+              "id": 169554,
+              "name": "Roni"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
