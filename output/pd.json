@@ -97124,14 +97124,14 @@
       "id": 544416,
       "utcDate": "2026-01-23T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 65,
+      "minute": 79,
       "injuryTime": null,
       "attendance": 18973,
       "venue": "Estadio Ciudad de Valencia",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-23T22:23:47Z",
+      "lastUpdated": "2026-01-23T22:38:13Z",
       "homeTeam": {
         "id": 88,
         "name": "Levante UD",
@@ -97445,10 +97445,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -97495,6 +97495,27 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 68,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 88,
+            "name": "Levante UD"
+          },
+          "scorer": {
+            "id": 98741,
+            "name": "Adrián de la Fuente"
+          },
+          "assist": {
+            "id": 32830,
+            "name": "Pablo Martínez"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -97520,6 +97541,30 @@
           "player": {
             "id": 117813,
             "name": "Léo Pétrot"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 67,
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "player": {
+            "id": 32052,
+            "name": "Aleix Febas"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 71,
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "player": {
+            "id": 1760,
+            "name": "André Silva"
           },
           "card": "YELLOW"
         }

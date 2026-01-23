@@ -103770,14 +103770,14 @@
       "id": 537031,
       "utcDate": "2026-01-23T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 77,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": 73594,
       "venue": "Giuseppe Meazza",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-23T22:24:08Z",
+      "lastUpdated": "2026-01-23T22:38:28Z",
       "homeTeam": {
         "id": 108,
         "name": "FC Internazionale Milano",
@@ -104106,7 +104106,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
+          "home": 5,
           "away": 2
         },
         "halfTime": {
@@ -104213,6 +104213,48 @@
             "home": 3,
             "away": 2
           }
+        },
+        {
+          "minute": 82,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 30821,
+            "name": "Federico Dimarco"
+          },
+          "assist": {
+            "id": 8685,
+            "name": "Marcus Thuram-Ulien"
+          },
+          "score": {
+            "home": 4,
+            "away": 2
+          }
+        },
+        {
+          "minute": 86,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 152738,
+            "name": "Ange-Yoan Bonny"
+          },
+          "assist": {
+            "id": 30821,
+            "name": "Federico Dimarco"
+          },
+          "score": {
+            "home": 5,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -104274,6 +104316,30 @@
           "player": {
             "id": 3064,
             "name": "Arturo Calabresi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 78,
+          "team": {
+            "id": 487,
+            "name": "AC Pisa 1909"
+          },
+          "player": {
+            "id": 206715,
+            "name": "Ebenezer Akinsanmiro"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 89,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "player": {
+            "id": 1911,
+            "name": "Nicolò Barella"
           },
           "card": "YELLOW"
         }
