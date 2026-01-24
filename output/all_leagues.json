@@ -216043,15 +216043,15 @@
         },
         "id": 544420,
         "utcDate": "2026-01-24T20:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "minute": 45,
-        "injuryTime": 2,
+        "injuryTime": null,
         "attendance": null,
         "venue": "Estadio de la Cerámica",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T21:48:19Z",
+        "lastUpdated": "2026-01-24T21:56:28Z",
         "homeTeam": {
           "id": 94,
           "name": "Villarreal CF",
@@ -216342,8 +216342,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "goals": [],
@@ -427779,15 +427779,15 @@
         },
         "id": 537034,
         "utcDate": "2026-01-24T19:45:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 53,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Via del Mare",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T21:48:34Z",
+        "lastUpdated": "2026-01-24T21:56:48Z",
         "homeTeam": {
           "id": 5890,
           "name": "US Lecce",
@@ -428138,7 +428138,20 @@
         },
         "goals": [],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 52,
+            "team": {
+              "id": 5890,
+              "name": "US Lecce"
+            },
+            "player": {
+              "id": 185129,
+              "name": "Danilo Veiga"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -519229,15 +519242,15 @@
         },
         "id": 542573,
         "utcDate": "2026-01-24T20:05:00Z",
-        "status": "IN_PLAY",
-        "minute": 43,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Orange Vélodrome",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T21:48:38Z",
+        "lastUpdated": "2026-01-24T21:56:53Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -519522,8 +519535,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           }
         },
         "goals": [
@@ -608011,14 +608024,14 @@
         "id": 545867,
         "utcDate": "2026-01-24T20:30:00Z",
         "status": "IN_PLAY",
-        "minute": 14,
+        "minute": 22,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estádio Antonio Coimbra da Mota",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T21:48:49Z",
+        "lastUpdated": "2026-01-24T21:57:08Z",
         "homeTeam": {
           "id": 582,
           "name": "GD Estoril Praia",
@@ -608309,7 +608322,20 @@
         },
         "goals": [],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 22,
+            "team": {
+              "id": 5543,
+              "name": "Vitória SC"
+            },
+            "player": {
+              "id": 149724,
+              "name": "Alioune Ndoye"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -705148,13 +705174,13 @@
         "utcDate": "2026-01-24T19:00:00Z",
         "status": "IN_PLAY",
         "minute": 90,
-        "injuryTime": null,
+        "injuryTime": 7,
         "attendance": 34900,
         "venue": "Philips Stadion",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T21:48:52Z",
+        "lastUpdated": "2026-01-24T21:57:17Z",
         "homeTeam": {
           "id": 674,
           "name": "PSV",
@@ -705444,10 +705470,10 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 2
           },
           "halfTime": {
@@ -705515,6 +705541,27 @@
               "home": 1,
               "away": 2
             }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 2,
+            "type": "REGULAR",
+            "team": {
+              "id": 674,
+              "name": "PSV"
+            },
+            "scorer": {
+              "id": 7443,
+              "name": "Armando Obispo"
+            },
+            "assist": {
+              "id": 53426,
+              "name": "Joey Veerman"
+            },
+            "score": {
+              "home": 2,
+              "away": 2
+            }
           }
         ],
         "penalties": [],
@@ -705576,6 +705623,30 @@
             "player": {
               "id": 130173,
               "name": "Ismael Saibari"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 81,
+            "team": {
+              "id": 681,
+              "name": "NAC Breda"
+            },
+            "player": {
+              "id": 84069,
+              "name": "Daniel Bielica"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 674,
+              "name": "PSV"
+            },
+            "player": {
+              "id": 7443,
+              "name": "Armando Obispo"
             },
             "card": "YELLOW"
           }
@@ -705645,7 +705716,7 @@
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T21:48:53Z",
+        "lastUpdated": "2026-01-24T21:57:18Z",
         "homeTeam": {
           "id": 666,
           "name": "FC Twente '65",

@@ -105455,15 +105455,15 @@
       },
       "id": 537034,
       "utcDate": "2026-01-24T19:45:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 53,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Via del Mare",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T21:48:34Z",
+      "lastUpdated": "2026-01-24T21:56:48Z",
       "homeTeam": {
         "id": 5890,
         "name": "US Lecce",
@@ -105814,7 +105814,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 52,
+          "team": {
+            "id": 5890,
+            "name": "US Lecce"
+          },
+          "player": {
+            "id": 185129,
+            "name": "Danilo Veiga"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
