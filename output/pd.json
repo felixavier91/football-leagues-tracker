@@ -98190,14 +98190,14 @@
       "id": 544417,
       "utcDate": "2026-01-24T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 67,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": 44163,
       "venue": "Estadio de Mestalla",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T17:40:47Z",
+      "lastUpdated": "2026-01-24T18:06:58Z",
       "homeTeam": {
         "id": 95,
         "name": "Valencia CF",
@@ -98499,11 +98499,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -98573,6 +98573,24 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 79,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scorer": {
+            "id": 172108,
+            "name": "Copete"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -98610,6 +98628,18 @@
           "player": {
             "id": 157190,
             "name": "Jesus Vazquez Alcalde"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 67,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 32362,
+            "name": "Fernando Calero"
           },
           "card": "YELLOW"
         }

@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 221
+    "played": 224
   },
   "competition": {
     "id": 2021,
@@ -101395,15 +101395,15 @@
       },
       "id": 538009,
       "utcDate": "2026-01-24T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 81,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": 21618,
       "venue": "Turf Moor",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T17:40:40Z",
+      "lastUpdated": "2026-01-24T17:59:21Z",
       "homeTeam": {
         "id": 328,
         "name": "Burnley FC",
@@ -101681,11 +101681,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -101748,6 +101748,27 @@
           "score": {
             "home": 2,
             "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "scorer": {
+            "id": 45735,
+            "name": "Christian Romero"
+          },
+          "assist": {
+            "id": 184999,
+            "name": "Wilson Odobert"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
           }
         }
       ],
@@ -101817,15 +101838,15 @@
       },
       "id": 538011,
       "utcDate": "2026-01-24T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 84,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Craven Cottage",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T17:40:40Z",
+      "lastUpdated": "2026-01-24T17:53:56Z",
       "homeTeam": {
         "id": 63,
         "name": "Fulham FC",
@@ -102103,10 +102124,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -102156,6 +102177,24 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 63,
+            "name": "Fulham FC"
+          },
+          "scorer": {
+            "id": 11777,
+            "name": "Harry Wilson"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -102169,6 +102208,18 @@
           "player": {
             "id": 8973,
             "name": "Sander Berge"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 397,
+            "name": "Brighton & Hove Albion FC"
+          },
+          "player": {
+            "id": 264300,
+            "name": "Charalampos Kostoulas"
           },
           "card": "YELLOW"
         }
@@ -102230,15 +102281,15 @@
       },
       "id": 538012,
       "utcDate": "2026-01-24T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 80,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Etihad Stadium",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T17:40:41Z",
+      "lastUpdated": "2026-01-24T17:59:21Z",
       "homeTeam": {
         "id": 65,
         "name": "Manchester City FC",
@@ -102606,6 +102657,18 @@
           "player": {
             "id": 91512,
             "name": "Matheus Nunes"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 88,
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "player": {
+            "id": 153570,
+            "name": "Yerson Mosquera"
           },
           "card": "YELLOW"
         }
