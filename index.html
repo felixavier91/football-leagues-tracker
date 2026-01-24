@@ -948,47 +948,17 @@
             }
             
             .league-dropdown select {
-                padding: 4px 4px;
-                font-size: 0.7em;
+                padding: 8px 4px;
+                font-size: 0.85em;
                 font-weight: 600;
                 color: #c8102e;
                 background: white;
                 border: none;
                 border-radius: 8px;
                 cursor: pointer;
-                height: auto;
-                min-height: 40px;
+                height: 100%;
                 width: auto;
-                min-width: 70px;
-                line-height: 1.2;
-                white-space: normal;
-                text-align: center;
-            }
-            
-            .league-display {
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                pointer-events: none;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-size: 0.7em;
-                font-weight: 600;
-                color: #c8102e;
-                line-height: 1.1;
-                text-align: center;
-                padding: 4px;
-            }
-            
-            .league-dropdown {
-                position: relative;
-            }
-            
-            .league-dropdown select:focus + .league-display {
-                display: none !important;
+                min-width: 50px;
             }
             
             .filters {
@@ -1301,7 +1271,6 @@
 
         <div class="filters" id="filtersContainer">
             <div class="league-dropdown">
-                <div class="league-display" id="leagueDisplay" style="display: none;"></div>
                 <select id="leagueDropdown" onchange="selectLeagueFromDropdown(this.value)">
                     <option value="">League</option>
                 </select>
@@ -1331,32 +1300,6 @@
         let currentMatches = [];
         let currentFilter = 'recent';
         let statsExpanded = false; // Track if stats section is expanded
-        
-        // League name mappings for mobile dropdown
-        const leagueNames = {
-            'PD': 'Primera Division',
-            'PL': 'Premier League',
-            'BL1': 'Bundesliga',
-            'SA': 'Serie A',
-            'FL1': 'Ligue 1',
-            'CL': 'Champions League',
-            'DED': 'Eredivisie',
-            'PPL': 'Primeira Liga',
-            'BSA': 'Brasileirão'
-        };
-        
-        // Display names with line breaks for mobile (stacked display)
-        const leagueDisplayNames = {
-            'PD': 'Primera<br>Division',
-            'PL': 'Premier<br>League',
-            'BL1': 'Bundesliga',
-            'SA': 'Serie A',
-            'FL1': 'Ligue 1',
-            'CL': 'Champions<br>League',
-            'DED': 'Eredivisie',
-            'PPL': 'Primeira<br>Liga',
-            'BSA': 'Brasileirão'
-        };
 
         // Automatically load data on page load
         window.addEventListener('DOMContentLoaded', function() {
@@ -1441,22 +1384,21 @@
                     const option = document.createElement('option');
                     option.value = code;
                     const emblem = league.matches?.[0]?.competition?.emblem || '';
-                    // Use full league name in dropdown options
-                    option.textContent = leagueNames[code] || code;
+                    // Use league code as text since we can't easily embed images in options
+                    option.textContent = code;
                     // Store emblem as data attribute
                     option.setAttribute('data-emblem', emblem);
                     dropdown.appendChild(option);
                 });
                 dropdown.value = 'PD';
                 
-                // Update dropdown visual to show selected league's emblem and code
+                // Update dropdown visual to show selected league's emblem
                 updateDropdownEmblem('PD');
             }
         }
         
         function updateDropdownEmblem(leagueCode) {
             const dropdown = document.getElementById('leagueDropdown');
-            const display = document.getElementById('leagueDisplay');
             if (!dropdown || !allLeaguesData[leagueCode]) return;
             
             const emblem = allLeaguesData[leagueCode].matches?.[0]?.competition?.emblem || '';
@@ -1466,12 +1408,6 @@
                 dropdown.style.backgroundPosition = '6px center';
                 dropdown.style.backgroundRepeat = 'no-repeat';
                 dropdown.style.paddingLeft = '30px';
-            }
-            
-            // Update display overlay with stacked name (mobile only)
-            if (display) {
-                display.innerHTML = leagueDisplayNames[leagueCode] || leagueCode;
-                display.style.display = 'flex';
             }
         }
 
