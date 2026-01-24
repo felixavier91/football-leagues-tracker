@@ -99238,14 +99238,14 @@
       "id": 544420,
       "utcDate": "2026-01-24T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 86,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": 20432,
       "venue": "Estadio de la Cerámica",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T22:45:08Z",
+      "lastUpdated": "2026-01-24T22:54:13Z",
       "homeTeam": {
         "id": 94,
         "name": "Villarreal CF",
@@ -99533,7 +99533,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -99558,9 +99558,39 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "PENALTY",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 3374,
+            "name": "Kylian Mbappé"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 3374,
+            "name": "Kylian Mbappé"
+          },
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 2,

@@ -216044,14 +216044,14 @@
         "id": 544420,
         "utcDate": "2026-01-24T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 86,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 4,
         "attendance": 20432,
         "venue": "Estadio de la Cerámica",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T22:45:08Z",
+        "lastUpdated": "2026-01-24T22:54:13Z",
         "homeTeam": {
           "id": 94,
           "name": "Villarreal CF",
@@ -216339,7 +216339,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 0,
@@ -216364,9 +216364,39 @@
               "home": 0,
               "away": 1
             }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 4,
+            "type": "PENALTY",
+            "team": {
+              "id": 86,
+              "name": "Real Madrid CF"
+            },
+            "scorer": {
+              "id": 3374,
+              "name": "Kylian Mbappé"
+            },
+            "assist": null,
+            "score": {
+              "home": 0,
+              "away": 2
+            }
           }
         ],
-        "penalties": [],
+        "penalties": [
+          {
+            "player": {
+              "id": 3374,
+              "name": "Kylian Mbappé"
+            },
+            "team": {
+              "id": 86,
+              "name": "Real Madrid CF"
+            },
+            "scored": true
+          }
+        ],
         "bookings": [
           {
             "minute": 2,
@@ -519322,14 +519352,14 @@
         "id": 542573,
         "utcDate": "2026-01-24T20:05:00Z",
         "status": "IN_PLAY",
-        "minute": 80,
+        "minute": 89,
         "injuryTime": null,
         "attendance": null,
         "venue": "Orange Vélodrome",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T22:45:38Z",
+        "lastUpdated": "2026-01-24T22:54:38Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -519611,7 +519641,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 3,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 2,
@@ -519680,6 +519710,27 @@
             "score": {
               "home": 3,
               "away": 0
+            }
+          },
+          {
+            "minute": 85,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 546,
+              "name": "Racing Club de Lens"
+            },
+            "scorer": {
+              "id": 276430,
+              "name": "Rayan Fofana"
+            },
+            "assist": {
+              "id": 150964,
+              "name": "Mamadou Sangare"
+            },
+            "score": {
+              "home": 3,
+              "away": 1
             }
           }
         ],
@@ -608148,14 +608199,14 @@
         "id": 545867,
         "utcDate": "2026-01-24T20:30:00Z",
         "status": "IN_PLAY",
-        "minute": 53,
+        "minute": 62,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estádio Antonio Coimbra da Mota",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T22:45:43Z",
+        "lastUpdated": "2026-01-24T22:54:48Z",
         "homeTeam": {
           "id": 582,
           "name": "GD Estoril Praia",
@@ -608433,10 +608484,10 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 2
           },
           "halfTime": {
@@ -608502,6 +608553,27 @@
             "assist": null,
             "score": {
               "home": 1,
+              "away": 2
+            }
+          },
+          {
+            "minute": 56,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 582,
+              "name": "GD Estoril Praia"
+            },
+            "scorer": {
+              "id": 141357,
+              "name": "Alejandro Marqués"
+            },
+            "assist": {
+              "id": 636,
+              "name": "Rafik Guitane"
+            },
+            "score": {
+              "home": 2,
               "away": 2
             }
           }
@@ -705930,14 +706002,14 @@
         "id": 537620,
         "utcDate": "2026-01-24T20:00:00Z",
         "status": "IN_PLAY",
-        "minute": 87,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 6,
         "attendance": 29000,
         "venue": "De Grolsch Veste",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T22:45:52Z",
+        "lastUpdated": "2026-01-24T22:54:58Z",
         "homeTeam": {
           "id": 666,
           "name": "FC Twente '65",
