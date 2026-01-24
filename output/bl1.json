@@ -75450,15 +75450,15 @@
       },
       "id": 540569,
       "utcDate": "2026-01-24T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 39,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Voith-Arena",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T16:09:10Z",
+      "lastUpdated": "2026-01-24T16:23:25Z",
       "homeTeam": {
         "id": 44,
         "name": "1. FC Heidenheim 1846",
@@ -75743,8 +75743,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -75801,15 +75801,15 @@
       },
       "id": 540570,
       "utcDate": "2026-01-24T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 39,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T16:09:10Z",
+      "lastUpdated": "2026-01-24T16:23:25Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -76094,8 +76094,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -76174,15 +76174,15 @@
       },
       "id": 540572,
       "utcDate": "2026-01-24T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 39,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "MEWA ARENA",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T16:09:11Z",
+      "lastUpdated": "2026-01-24T16:23:25Z",
       "homeTeam": {
         "id": 15,
         "name": "1. FSV Mainz 05",
@@ -76467,8 +76467,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -76572,15 +76572,15 @@
       },
       "id": 540573,
       "utcDate": "2026-01-24T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 39,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Arena",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T16:09:11Z",
+      "lastUpdated": "2026-01-24T16:23:26Z",
       "homeTeam": {
         "id": 5,
         "name": "FC Bayern München",
@@ -76865,8 +76865,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -76945,15 +76945,15 @@
       },
       "id": 540574,
       "utcDate": "2026-01-24T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 39,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Deutsche Bank Park",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T16:09:11Z",
+      "lastUpdated": "2026-01-24T16:23:00Z",
       "homeTeam": {
         "id": 19,
         "name": "Eintracht Frankfurt",
@@ -77232,8 +77232,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -77257,7 +77257,32 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 44,
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "player": {
+            "id": 62631,
+            "name": "Vladimir Coufal"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "player": {
+            "id": 151443,
+            "name": "Albian Hajdari"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

@@ -104417,14 +104417,14 @@
       "id": 537029,
       "utcDate": "2026-01-24T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 48,
+      "minute": 62,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Giuseppe Sinigaglia",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T16:09:08Z",
+      "lastUpdated": "2026-01-24T16:23:23Z",
       "homeTeam": {
         "id": 7397,
         "name": "Como 1907",
@@ -104723,7 +104723,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -104773,9 +104773,39 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 59,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 7397,
+            "name": "Como 1907"
+          },
+          "scorer": {
+            "id": 124620,
+            "name": "Lucas Da Cunha"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 0
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 124620,
+            "name": "Lucas Da Cunha"
+          },
+          "team": {
+            "id": 7397,
+            "name": "Como 1907"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 17,
