@@ -1300,6 +1300,19 @@
         let currentMatches = [];
         let currentFilter = 'recent';
         let statsExpanded = false; // Track if stats section is expanded
+        
+        // League name mappings for mobile dropdown
+        const leagueNames = {
+            'PD': 'Primera Division',
+            'PL': 'Premier League',
+            'BL1': 'Bundesliga',
+            'SA': 'Serie A',
+            'FL1': 'Ligue 1',
+            'CL': 'Champions League',
+            'DED': 'Eredivisie',
+            'PPL': 'Primeira Liga',
+            'BSA': 'Brasileirão'
+        };
 
         // Automatically load data on page load
         window.addEventListener('DOMContentLoaded', function() {
@@ -1384,15 +1397,15 @@
                     const option = document.createElement('option');
                     option.value = code;
                     const emblem = league.matches?.[0]?.competition?.emblem || '';
-                    // Use league code as text since we can't easily embed images in options
-                    option.textContent = code;
+                    // Use full league name in dropdown options
+                    option.textContent = leagueNames[code] || code;
                     // Store emblem as data attribute
                     option.setAttribute('data-emblem', emblem);
                     dropdown.appendChild(option);
                 });
                 dropdown.value = 'PD';
                 
-                // Update dropdown visual to show selected league's emblem
+                // Update dropdown visual to show selected league's emblem and code
                 updateDropdownEmblem('PD');
             }
         }
@@ -1409,7 +1422,41 @@
                 dropdown.style.backgroundRepeat = 'no-repeat';
                 dropdown.style.paddingLeft = '30px';
             }
+            
+            // Restore all options to full names, then set selected to code
+            Array.from(dropdown.options).forEach(opt => {
+                const code = opt.value;
+                opt.textContent = leagueNames[code] || code;
+            });
+            
+            // Set selected option to show code only (for display in bar)
+            const selectedOption = dropdown.options[dropdown.selectedIndex];
+            if (selectedOption) {
+                selectedOption.textContent = leagueCode;
+            }
         }
+        
+        // Restore full names when dropdown is opened (on focus)
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdown = document.getElementById('leagueDropdown');
+            if (dropdown) {
+                dropdown.addEventListener('focus', function() {
+                    // Restore all options to full names when dropdown opens
+                    Array.from(this.options).forEach(opt => {
+                        const code = opt.value;
+                        opt.textContent = leagueNames[code] || code;
+                    });
+                });
+                
+                dropdown.addEventListener('blur', function() {
+                    // Set selected back to code when dropdown closes
+                    const selectedOption = this.options[this.selectedIndex];
+                    if (selectedOption) {
+                        selectedOption.textContent = this.value;
+                    }
+                });
+            }
+        });
 
         function selectLeagueFromDropdown(leagueCode) {
             console.log('Dropdown changed to:', leagueCode);
