@@ -216043,15 +216043,15 @@
         },
         "id": 544420,
         "utcDate": "2026-01-24T20:00:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 49,
         "injuryTime": null,
-        "attendance": null,
+        "attendance": 20432,
         "venue": "Estadio de la Cerámica",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T21:56:28Z",
+        "lastUpdated": "2026-01-24T22:08:03Z",
         "homeTeam": {
           "id": 94,
           "name": "Villarreal CF",
@@ -216335,18 +216335,37 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 0,
             "away": 0
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 47,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 86,
+              "name": "Real Madrid CF"
+            },
+            "scorer": {
+              "id": 3374,
+              "name": "Kylian Mbappé"
+            },
+            "assist": null,
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [
           {
@@ -427780,14 +427799,14 @@
         "id": 537034,
         "utcDate": "2026-01-24T19:45:00Z",
         "status": "IN_PLAY",
-        "minute": 53,
+        "minute": 64,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Via del Mare",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T21:56:48Z",
+        "lastUpdated": "2026-01-24T22:08:28Z",
         "homeTeam": {
           "id": 5890,
           "name": "US Lecce",
@@ -519250,7 +519269,7 @@
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T21:56:53Z",
+        "lastUpdated": "2026-01-24T22:08:38Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -608024,14 +608043,14 @@
         "id": 545867,
         "utcDate": "2026-01-24T20:30:00Z",
         "status": "IN_PLAY",
-        "minute": 22,
+        "minute": 34,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estádio Antonio Coimbra da Mota",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T21:57:08Z",
+        "lastUpdated": "2026-01-24T22:08:43Z",
         "homeTeam": {
           "id": 582,
           "name": "GD Estoril Praia",
@@ -608309,18 +608328,79 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
-            "away": 0
+            "home": 1,
+            "away": 2
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 27,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5543,
+              "name": "Vitória SC"
+            },
+            "scorer": {
+              "id": 45514,
+              "name": "Samu"
+            },
+            "assist": {
+              "id": 191013,
+              "name": "Goncalo Nogueira"
+            },
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          },
+          {
+            "minute": 29,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 582,
+              "name": "GD Estoril Praia"
+            },
+            "scorer": {
+              "id": 553,
+              "name": "Yanis Begraoui"
+            },
+            "assist": {
+              "id": 636,
+              "name": "Rafik Guitane"
+            },
+            "score": {
+              "home": 1,
+              "away": 1
+            }
+          },
+          {
+            "minute": 34,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5543,
+              "name": "Vitória SC"
+            },
+            "scorer": {
+              "id": 280042,
+              "name": "Matija Mitrović"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
+              "away": 2
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [
           {
@@ -608332,6 +608412,30 @@
             "player": {
               "id": 149724,
               "name": "Alioune Ndoye"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 26,
+            "team": {
+              "id": 582,
+              "name": "GD Estoril Praia"
+            },
+            "player": {
+              "id": 636,
+              "name": "Rafik Guitane"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 33,
+            "team": {
+              "id": 582,
+              "name": "GD Estoril Praia"
+            },
+            "player": {
+              "id": 254264,
+              "name": "Nodar Lominadze"
             },
             "card": "YELLOW"
           }
@@ -705172,15 +705276,15 @@
         },
         "id": 537618,
         "utcDate": "2026-01-24T19:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 7,
+        "injuryTime": 6,
         "attendance": 34900,
         "venue": "Philips Stadion",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T21:57:17Z",
+        "lastUpdated": "2026-01-24T21:57:53Z",
         "homeTeam": {
           "id": 674,
           "name": "PSV",
@@ -705708,15 +705812,15 @@
         },
         "id": 537620,
         "utcDate": "2026-01-24T20:00:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 50,
         "injuryTime": null,
         "attendance": null,
         "venue": "De Grolsch Veste",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T21:57:18Z",
+        "lastUpdated": "2026-01-24T22:08:53Z",
         "homeTeam": {
           "id": 666,
           "name": "FC Twente '65",
