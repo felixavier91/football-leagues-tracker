@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 171
+    "played": 172
   },
   "competition": {
     "id": 2003,
@@ -84037,15 +84037,15 @@
       },
       "id": 537617,
       "utcDate": "2026-01-24T17:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 89,
-      "injuryTime": null,
-      "attendance": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
+      "attendance": 12650,
       "venue": "Stadion De Goffert",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T20:35:37Z",
+      "lastUpdated": "2026-01-24T20:43:53Z",
       "homeTeam": {
         "id": 1915,
         "name": "NEC",
@@ -84436,6 +84436,18 @@
             "name": "Ryan Thomas"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "player": {
+            "id": 126924,
+            "name": "Gonzalo Crettaz"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -84490,14 +84502,14 @@
       "id": 537618,
       "utcDate": "2026-01-24T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 34,
+      "minute": 44,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 34900,
       "venue": "Philips Stadion",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T20:35:38Z",
+      "lastUpdated": "2026-01-24T20:44:58Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -84822,7 +84834,32 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 41,
+          "team": {
+            "id": 681,
+            "name": "NAC Breda"
+          },
+          "player": {
+            "id": 150439,
+            "name": "Rio Hillen"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 43,
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "player": {
+            "id": 9770,
+            "name": "Jerdy Schouten"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
