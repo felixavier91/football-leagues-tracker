@@ -953,7 +953,8 @@
                 font-size: 0.85em;
                 font-weight: 600;
                 color: #c8102e;
-                background: white;
+                background: white url('https://crests.football-data.org/PD.png') no-repeat 8px center;
+                background-size: 40px 40px;
                 border: none;
                 border-radius: 8px;
                 cursor: pointer;
@@ -1273,7 +1274,7 @@
         <div class="filters" id="filtersContainer">
             <div class="league-dropdown">
                 <select id="leagueDropdown" onchange="selectLeagueFromDropdown(this.value)">
-                    <option value="">League</option>
+                    <option value="PD">PD</option>
                 </select>
             </div>
             <button class="filter-btn active" id="recentBtn" onclick="setMatchFilter('recent')">Finished</button>
