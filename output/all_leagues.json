@@ -100868,14 +100868,14 @@
         "id": 538014,
         "utcDate": "2026-01-24T12:30:00Z",
         "status": "IN_PLAY",
-        "minute": 59,
+        "minute": 68,
         "injuryTime": null,
         "attendance": null,
         "venue": "London Stadium",
         "matchday": 23,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T14:48:56Z",
+        "lastUpdated": "2026-01-24T14:57:47Z",
         "homeTeam": {
           "id": 563,
           "name": "West Ham United FC",
@@ -101157,7 +101157,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 3,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 3,
@@ -101220,6 +101220,27 @@
             "score": {
               "home": 3,
               "away": 0
+            }
+          },
+          {
+            "minute": 66,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 71,
+              "name": "Sunderland AFC"
+            },
+            "scorer": {
+              "id": 97535,
+              "name": "Brian Brobbey"
+            },
+            "assist": {
+              "id": 8371,
+              "name": "Nordi Mukiele"
+            },
+            "score": {
+              "home": 3,
+              "away": 1
             }
           }
         ],
@@ -101609,6 +101630,18 @@
           {
             "id": 11495,
             "name": "Ian Hussin",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "England"
+          },
+          {
+            "id": 11495,
+            "name": "Ian Hussin",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "England"
+          },
+          {
+            "id": 11438,
+            "name": "Dan Cook",
             "type": "ASSISTANT_REFEREE_N2",
             "nationality": "England"
           }
@@ -213018,15 +213051,15 @@
         },
         "id": 544419,
         "utcDate": "2026-01-24T13:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "minute": 45,
-        "injuryTime": 1,
+        "injuryTime": null,
         "attendance": null,
         "venue": "Estadio de Vallecas",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T14:49:14Z",
+        "lastUpdated": "2026-01-24T14:58:02Z",
         "homeTeam": {
           "id": 87,
           "name": "Rayo Vallecano de Madrid",
@@ -213329,8 +213362,8 @@
             "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "goals": [
