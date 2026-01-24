@@ -101395,15 +101395,15 @@
       },
       "id": 538009,
       "utcDate": "2026-01-24T15:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 7,
       "injuryTime": null,
       "attendance": null,
       "venue": "Turf Moor",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T14:58:31Z",
+      "lastUpdated": "2026-01-24T16:08:47Z",
       "homeTeam": {
         "id": 328,
         "name": "Burnley FC",
@@ -101681,11 +101681,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -101746,15 +101746,15 @@
       },
       "id": 538011,
       "utcDate": "2026-01-24T15:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 8,
       "injuryTime": null,
       "attendance": null,
       "venue": "Craven Cottage",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T14:58:31Z",
+      "lastUpdated": "2026-01-24T16:08:47Z",
       "homeTeam": {
         "id": 63,
         "name": "Fulham FC",
@@ -102032,11 +102032,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -102103,15 +102103,15 @@
       },
       "id": 538012,
       "utcDate": "2026-01-24T15:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 8,
       "injuryTime": null,
       "attendance": null,
       "venue": "Etihad Stadium",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T14:58:32Z",
+      "lastUpdated": "2026-01-24T16:08:34Z",
       "homeTeam": {
         "id": 65,
         "name": "Manchester City FC",
@@ -102389,18 +102389,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 6,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "scorer": {
+            "id": 66896,
+            "name": "Omar Marmoush"
+          },
+          "assist": {
+            "id": 91512,
+            "name": "Matheus Nunes"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
