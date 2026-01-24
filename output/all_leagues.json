@@ -213832,14 +213832,14 @@
         "id": 544419,
         "utcDate": "2026-01-24T13:00:00Z",
         "status": "IN_PLAY",
-        "minute": 87,
-        "injuryTime": null,
+        "minute": 90,
+        "injuryTime": 4,
         "attendance": 12091,
         "venue": "Estadio de Vallecas",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T15:48:39Z",
+        "lastUpdated": "2026-01-24T15:56:43Z",
         "homeTeam": {
           "id": 87,
           "name": "Rayo Vallecano de Madrid",
@@ -214135,11 +214135,11 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 1,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 0,
@@ -214188,6 +214188,45 @@
               "home": 1,
               "away": 1
             }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 1,
+            "type": "REGULAR",
+            "team": {
+              "id": 79,
+              "name": "CA Osasuna"
+            },
+            "scorer": {
+              "id": 273423,
+              "name": "Víctor Muñoz"
+            },
+            "assist": {
+              "id": 111674,
+              "name": "Jon Moncayola"
+            },
+            "score": {
+              "home": 1,
+              "away": 2
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 4,
+            "type": "REGULAR",
+            "team": {
+              "id": 79,
+              "name": "CA Osasuna"
+            },
+            "scorer": {
+              "id": 249577,
+              "name": "Asier Osambela"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
+              "away": 3
+            }
           }
         ],
         "penalties": [],
@@ -214225,6 +214264,18 @@
             "player": {
               "id": 159409,
               "name": "Jorge Herrando"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 87,
+              "name": "Rayo Vallecano de Madrid"
+            },
+            "player": {
+              "id": 37649,
+              "name": "Pathé Ciss"
             },
             "card": "YELLOW"
           }
@@ -305734,14 +305785,14 @@
         "id": 540569,
         "utcDate": "2026-01-24T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 19,
+        "minute": 27,
         "injuryTime": null,
         "attendance": null,
         "venue": "Voith-Arena",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T15:49:06Z",
+        "lastUpdated": "2026-01-24T15:56:53Z",
         "homeTeam": {
           "id": 44,
           "name": "1. FC Heidenheim 1846",
@@ -306085,14 +306136,14 @@
         "id": 540570,
         "utcDate": "2026-01-24T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 18,
+        "minute": 27,
         "injuryTime": null,
         "attendance": null,
         "venue": "BayArena",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T15:49:06Z",
+        "lastUpdated": "2026-01-24T15:56:54Z",
         "homeTeam": {
           "id": 3,
           "name": "Bayer 04 Leverkusen",
@@ -306436,14 +306487,14 @@
         "id": 540572,
         "utcDate": "2026-01-24T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 19,
+        "minute": 27,
         "injuryTime": null,
         "attendance": null,
         "venue": "MEWA ARENA",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T15:49:06Z",
+        "lastUpdated": "2026-01-24T15:56:54Z",
         "homeTeam": {
           "id": 15,
           "name": "1. FSV Mainz 05",
@@ -306755,7 +306806,19 @@
             }
           }
         ],
-        "penalties": [],
+        "penalties": [
+          {
+            "player": {
+              "id": 45593,
+              "name": "Phillip Tietz"
+            },
+            "team": {
+              "id": 15,
+              "name": "1. FSV Mainz 05"
+            },
+            "scored": false
+          }
+        ],
         "bookings": [],
         "substitutions": [],
         "odds": {
@@ -306809,14 +306872,14 @@
         "id": 540573,
         "utcDate": "2026-01-24T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 19,
+        "minute": 27,
         "injuryTime": null,
         "attendance": null,
         "venue": "Allianz Arena",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T15:49:07Z",
+        "lastUpdated": "2026-01-24T15:56:55Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -307094,10 +307157,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -307105,7 +307168,29 @@
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 23,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5,
+              "name": "FC Bayern München"
+            },
+            "scorer": {
+              "id": 48657,
+              "name": "Hiroki Ito"
+            },
+            "assist": {
+              "id": 113765,
+              "name": "Michael Olise"
+            },
+            "score": {
+              "home": 1,
+              "away": 0
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -307160,14 +307245,14 @@
         "id": 540574,
         "utcDate": "2026-01-24T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 19,
+        "minute": 27,
         "injuryTime": null,
         "attendance": null,
         "venue": "Deutsche Bank Park",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T15:49:07Z",
+        "lastUpdated": "2026-01-24T15:56:55Z",
         "homeTeam": {
           "id": 19,
           "name": "Eintracht Frankfurt",
@@ -424311,15 +424396,15 @@
         },
         "id": 537029,
         "utcDate": "2026-01-24T14:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "minute": 45,
-        "injuryTime": 2,
+        "injuryTime": null,
         "attendance": null,
         "venue": "Stadio Giuseppe Sinigaglia",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T15:49:16Z",
+        "lastUpdated": "2026-01-24T15:57:27Z",
         "homeTeam": {
           "id": 7397,
           "name": "Como 1907",
@@ -424622,8 +424707,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           }
         },
         "goals": [
