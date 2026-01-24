@@ -75567,14 +75567,14 @@
       "id": 545868,
       "utcDate": "2026-01-24T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 64,
+      "minute": 77,
       "injuryTime": null,
       "attendance": null,
       "venue": "Municipal de Arouca",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T20:21:56Z",
+      "lastUpdated": "2026-01-24T20:35:33Z",
       "homeTeam": {
         "id": 712,
         "name": "FC Arouca",
@@ -75908,7 +75908,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 64,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 270551,
+            "name": "João Simões"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -75968,7 +75981,7 @@
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-20T01:32:02Z",
+      "lastUpdated": "2026-01-24T20:35:00Z",
       "homeTeam": {
         "id": 582,
         "name": "GD Estoril Praia",
@@ -75981,9 +75994,131 @@
           "nationality": "Scotland"
         },
         "leagueRank": 9,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "3-4-3",
+        "lineup": [
+          {
+            "id": 7821,
+            "name": "Joel Robles",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 37555,
+            "name": "Pedro Amaral",
+            "position": "Defence",
+            "shirtNumber": 24
+          },
+          {
+            "id": 75196,
+            "name": "Felix Bacher",
+            "position": "Defence",
+            "shirtNumber": 25
+          },
+          {
+            "id": 151006,
+            "name": "Kévin Boma",
+            "position": "Defence",
+            "shirtNumber": 44
+          },
+          {
+            "id": 141472,
+            "name": "Ricard Sánchez",
+            "position": "Defence",
+            "shirtNumber": 2
+          },
+          {
+            "id": 16752,
+            "name": "João Carvalho",
+            "position": "Midfield",
+            "shirtNumber": 12
+          },
+          {
+            "id": 254264,
+            "name": "Nodar Lominadze",
+            "position": "Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 636,
+            "name": "Rafik Guitane",
+            "position": "Right Winger",
+            "shirtNumber": 99
+          },
+          {
+            "id": 141357,
+            "name": "Alejandro Marqués",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 553,
+            "name": "Yanis Begraoui",
+            "position": "Centre-Forward",
+            "shirtNumber": 14
+          },
+          {
+            "id": 135650,
+            "name": "Jordan Holsgrove",
+            "position": "Defensive Midfield",
+            "shirtNumber": 10
+          }
+        ],
+        "bench": [
+          {
+            "id": 153884,
+            "name": "Martin Turk",
+            "position": "Goalkeeper",
+            "shirtNumber": 16
+          },
+          {
+            "id": 185120,
+            "name": "Gonçalo Costa",
+            "position": "Defence",
+            "shirtNumber": 20
+          },
+          {
+            "id": 37554,
+            "name": "Ferro",
+            "position": "Defence",
+            "shirtNumber": 4
+          },
+          {
+            "id": 175853,
+            "name": "Antef Tsoungui",
+            "position": "Defence",
+            "shirtNumber": 5
+          },
+          {
+            "id": 213075,
+            "name": "Peixinho",
+            "position": "Midfield",
+            "shirtNumber": 70
+          },
+          {
+            "id": 243570,
+            "name": "Pedro Carvalho",
+            "position": "Midfield",
+            "shirtNumber": 22
+          },
+          {
+            "id": 8569,
+            "name": "Xeka",
+            "position": "Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 189251,
+            "name": "Khayon Edwards",
+            "position": "Offence",
+            "shirtNumber": 11
+          },
+          {
+            "id": 16754,
+            "name": "Pizzi",
+            "position": "Attacking Midfield",
+            "shirtNumber": 21
+          }
+        ]
       },
       "awayTeam": {
         "id": 5543,
@@ -75997,9 +76132,131 @@
           "nationality": "Portugal"
         },
         "leagueRank": 8,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-2-3-1",
+        "lineup": [
+          {
+            "id": 246248,
+            "name": "Juan Castillo",
+            "position": "Goalkeeper",
+            "shirtNumber": 25
+          },
+          {
+            "id": 177044,
+            "name": "Joao Mendes",
+            "position": "Defence",
+            "shirtNumber": 13
+          },
+          {
+            "id": 280042,
+            "name": "Matija Mitrović",
+            "position": "Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 45514,
+            "name": "Samu",
+            "position": "Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 281959,
+            "name": "Noah Saviolo",
+            "position": "Offence",
+            "shirtNumber": 48
+          },
+          {
+            "id": 280039,
+            "name": "Oumar Camara",
+            "position": "Offence",
+            "shirtNumber": 19
+          },
+          {
+            "id": 149724,
+            "name": "Alioune Ndoye",
+            "position": "Offence",
+            "shirtNumber": 90
+          },
+          {
+            "id": 191013,
+            "name": "Goncalo Nogueira",
+            "position": "Central Midfield",
+            "shirtNumber": 30
+          },
+          {
+            "id": 204259,
+            "name": "Anthony Strata",
+            "position": "Right-Back",
+            "shirtNumber": 66
+          },
+          {
+            "id": 185139,
+            "name": "Miguel Nóbrega",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 28243,
+            "name": "Rodrigo Abascal",
+            "position": "Centre-Back",
+            "shirtNumber": 26
+          }
+        ],
+        "bench": [
+          {
+            "id": 45324,
+            "name": "Charles Silva",
+            "position": "Goalkeeper",
+            "shirtNumber": 27
+          },
+          {
+            "id": 274548,
+            "name": "Thiago Balieiro",
+            "position": "Defence",
+            "shirtNumber": 28
+          },
+          {
+            "id": 243705,
+            "name": "Ricardo Rocha",
+            "position": "Defence",
+            "shirtNumber": 80
+          },
+          {
+            "id": 28976,
+            "name": "Orest Lebedenko",
+            "position": "Defence",
+            "shirtNumber": 17
+          },
+          {
+            "id": 262361,
+            "name": "Diogo Lobão",
+            "position": "Defence",
+            "shirtNumber": 23
+          },
+          {
+            "id": 170076,
+            "name": "Fabio Blanco",
+            "position": "Offence",
+            "shirtNumber": 22
+          },
+          {
+            "id": 284497,
+            "name": "Ejike Opara",
+            "position": "Offence",
+            "shirtNumber": 33
+          },
+          {
+            "id": 243569,
+            "name": "Gustavo Silva",
+            "position": "Offence",
+            "shirtNumber": 11
+          },
+          {
+            "id": 171351,
+            "name": "Miguel Magalhães",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          }
+        ]
       },
       "score": {
         "winner": null,

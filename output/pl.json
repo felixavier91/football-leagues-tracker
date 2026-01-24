@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 224
+    "played": 225
   },
   "competition": {
     "id": 2021,
@@ -102736,15 +102736,15 @@
       },
       "id": 538005,
       "utcDate": "2026-01-24T17:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 2,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Vitality Stadium",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T20:21:14Z",
+      "lastUpdated": "2026-01-24T20:25:54Z",
       "homeTeam": {
         "id": 1044,
         "name": "AFC Bournemouth",
@@ -103022,10 +103022,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 2
         },
         "halfTime": {
@@ -103117,6 +103117,24 @@
             "home": 2,
             "away": 2
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 5,
+          "type": "REGULAR",
+          "team": {
+            "id": 1044,
+            "name": "AFC Bournemouth"
+          },
+          "scorer": {
+            "id": 137047,
+            "name": "Amine Adli"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -103130,6 +103148,18 @@
           "player": {
             "id": 204241,
             "name": "Eli Kroupi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "player": {
+            "id": 81793,
+            "name": "Ryan Gravenberch"
           },
           "card": "YELLOW"
         }
