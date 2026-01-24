@@ -102736,7 +102736,7 @@
       },
       "id": 538005,
       "utcDate": "2026-01-24T17:30:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
       "injuryTime": null,
       "attendance": null,
@@ -102744,7 +102744,7 @@
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T19:15:04Z",
+      "lastUpdated": "2026-01-24T19:25:44Z",
       "homeTeam": {
         "id": 1044,
         "name": "AFC Bournemouth",
@@ -103026,11 +103026,11 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         }
       },
       "goals": [
@@ -103075,10 +103075,44 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 7869,
+            "name": "Virgil van Dijk"
+          },
+          "assist": {
+            "id": 16347,
+            "name": "Dominik Szoboszlai"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 1044,
+            "name": "AFC Bournemouth"
+          },
+          "player": {
+            "id": 204241,
+            "name": "Eli Kroupi"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

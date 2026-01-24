@@ -84038,14 +84038,14 @@
       "id": 537617,
       "utcDate": "2026-01-24T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 27,
+      "minute": 38,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadion De Goffert",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T19:16:14Z",
+      "lastUpdated": "2026-01-24T19:26:47Z",
       "homeTeam": {
         "id": 1915,
         "name": "NEC",
@@ -84370,7 +84370,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 38,
+          "team": {
+            "id": 684,
+            "name": "PEC Zwolle"
+          },
+          "player": {
+            "id": 160846,
+            "name": "Shola Shoretire"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -84754,6 +84767,12 @@
         {
           "id": 81798,
           "name": "Yorick Weterings",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 291272,
+          "name": "Yorden Weterings",
           "type": "ASSISTANT_REFEREE_N2",
           "nationality": "Netherlands"
         }
