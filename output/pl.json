@@ -102737,14 +102737,14 @@
       "id": 538005,
       "utcDate": "2026-01-24T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 80,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Vitality Stadium",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T20:08:08Z",
+      "lastUpdated": "2026-01-24T20:21:14Z",
       "homeTeam": {
         "id": 1044,
         "name": "AFC Bournemouth",
@@ -103022,11 +103022,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 2,
@@ -103095,6 +103095,27 @@
           "score": {
             "home": 2,
             "away": 1
+          }
+        },
+        {
+          "minute": 80,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 16347,
+            "name": "Dominik Szoboszlai"
+          },
+          "assist": {
+            "id": 3754,
+            "name": "Mohamed Salah"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
           }
         }
       ],
