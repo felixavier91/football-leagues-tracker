@@ -100881,14 +100881,14 @@
       "id": 538014,
       "utcDate": "2026-01-24T12:30:00Z",
       "status": "IN_PLAY",
-      "minute": 28,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "London Stadium",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T13:59:33Z",
+      "lastUpdated": "2026-01-24T14:18:28Z",
       "homeTeam": {
         "id": 563,
         "name": "West Ham United FC",
@@ -101169,7 +101169,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -101198,10 +101198,83 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 28,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 563,
+            "name": "West Ham United FC"
+          },
+          "scorer": {
+            "id": 11414,
+            "name": "Jarrod Bowen"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 43,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 563,
+            "name": "West Ham United FC"
+          },
+          "scorer": {
+            "id": 187216,
+            "name": "Mateus Fernandes"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 0
+          }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 11414,
+            "name": "Jarrod Bowen"
+          },
+          "team": {
+            "id": 563,
+            "name": "West Ham United FC"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 30,
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "player": {
+            "id": 121109,
+            "name": "Daniel Ballard"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 35,
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "player": {
+            "id": 37094,
+            "name": "Reinildo"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -101313,7 +101386,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11309,
+          "name": "Peter Bankes",
+          "type": "REFEREE",
+          "nationality": "England"
+        },
+        {
+          "id": 193192,
+          "name": "Edward Smart",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "England"
+        },
+        {
+          "id": 213684,
+          "name": "Blake Antrobus",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "England"
+        }
+      ]
     },
     {
       "area": {
@@ -101401,7 +101493,32 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11605,
+          "name": "Michael Oliver",
+          "type": "REFEREE",
+          "nationality": "England"
+        },
+        {
+          "id": 11564,
+          "name": "Stuart Burt",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "England"
+        },
+        {
+          "id": 11581,
+          "name": "Gary Beswick",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "England"
+        },
+        {
+          "id": 11404,
+          "name": "James Mainwaring",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "England"
+        }
+      ]
     },
     {
       "area": {
@@ -101489,7 +101606,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 210717,
+          "name": "Farai Hallam",
+          "type": "REFEREE",
+          "nationality": "England"
+        },
+        {
+          "id": 11438,
+          "name": "Dan Cook",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "England"
+        },
+        {
+          "id": 11495,
+          "name": "Ian Hussin",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "England"
+        }
+      ]
     },
     {
       "area": {
