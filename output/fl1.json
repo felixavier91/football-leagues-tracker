@@ -76468,14 +76468,14 @@
       "id": 542573,
       "utcDate": "2026-01-24T20:05:00Z",
       "status": "IN_PLAY",
-      "minute": 2,
+      "minute": 16,
       "injuryTime": null,
       "attendance": null,
       "venue": "Orange Vélodrome",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T21:07:23Z",
+      "lastUpdated": "2026-01-24T21:21:28Z",
       "homeTeam": {
         "id": 516,
         "name": "Olympique de Marseille",
@@ -76753,10 +76753,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -76764,7 +76764,50 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 3,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "scorer": {
+            "id": 8476,
+            "name": "Amine Gouiri"
+          },
+          "assist": {
+            "id": 119703,
+            "name": "Igor Paixão"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 13,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "scorer": {
+            "id": 188476,
+            "name": "Ethan Nwaneri"
+          },
+          "assist": {
+            "id": 8093,
+            "name": "Pierre Emile Højbjerg"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
