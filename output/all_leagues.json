@@ -101382,15 +101382,15 @@
         },
         "id": 538009,
         "utcDate": "2026-01-24T15:00:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 49,
         "injuryTime": null,
-        "attendance": null,
+        "attendance": 21618,
         "venue": "Turf Moor",
         "matchday": 23,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T16:55:55Z",
+        "lastUpdated": "2026-01-24T17:09:16Z",
         "homeTeam": {
           "id": 328,
           "name": "Burnley FC",
@@ -101773,15 +101773,15 @@
         },
         "id": 538011,
         "utcDate": "2026-01-24T15:00:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 52,
         "injuryTime": null,
         "attendance": null,
         "venue": "Craven Cottage",
         "matchday": 23,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T16:55:56Z",
+        "lastUpdated": "2026-01-24T17:09:16Z",
         "homeTeam": {
           "id": 63,
           "name": "Fulham FC",
@@ -102152,15 +102152,15 @@
         },
         "id": 538012,
         "utcDate": "2026-01-24T15:00:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 49,
         "injuryTime": null,
         "attendance": null,
         "venue": "Etihad Stadium",
         "matchday": 23,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T16:55:57Z",
+        "lastUpdated": "2026-01-24T17:09:16Z",
         "homeTeam": {
           "id": 65,
           "name": "Manchester City FC",
@@ -214458,15 +214458,15 @@
         },
         "id": 544417,
         "utcDate": "2026-01-24T15:15:00Z",
-        "status": "IN_PLAY",
-        "minute": 38,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio de Mestalla",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T16:56:19Z",
+        "lastUpdated": "2026-01-24T17:09:31Z",
         "homeTeam": {
           "id": 95,
           "name": "Valencia CF",
@@ -214775,8 +214775,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "goals": [
@@ -214803,7 +214803,20 @@
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 45,
+            "team": {
+              "id": 80,
+              "name": "RCD Espanyol de Barcelona"
+            },
+            "player": {
+              "id": 125210,
+              "name": "Pol Lozano"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -305953,14 +305966,14 @@
         "id": 540569,
         "utcDate": "2026-01-24T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 69,
+        "minute": 82,
         "injuryTime": null,
         "attendance": null,
         "venue": "Voith-Arena",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T16:56:33Z",
+        "lastUpdated": "2026-01-24T17:09:38Z",
         "homeTeam": {
           "id": 44,
           "name": "1. FC Heidenheim 1846",
@@ -306242,7 +306255,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 2
+            "away": 3
           },
           "halfTime": {
             "home": 0,
@@ -306290,6 +306303,27 @@
             "score": {
               "home": 0,
               "away": 2
+            }
+          },
+          {
+            "minute": 70,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 721,
+              "name": "RB Leipzig"
+            },
+            "scorer": {
+              "id": 9905,
+              "name": "David Raum"
+            },
+            "assist": {
+              "id": 277484,
+              "name": "Yan Diomandé"
+            },
+            "score": {
+              "home": 0,
+              "away": 3
             }
           }
         ],
@@ -306347,14 +306381,14 @@
         "id": 540570,
         "utcDate": "2026-01-24T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 65,
+        "minute": 78,
         "injuryTime": null,
         "attendance": null,
         "venue": "BayArena",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T16:56:33Z",
+        "lastUpdated": "2026-01-24T17:09:38Z",
         "homeTeam": {
           "id": 3,
           "name": "Bayer 04 Leverkusen",
@@ -306720,14 +306754,14 @@
         "id": 540572,
         "utcDate": "2026-01-24T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 65,
+        "minute": 79,
         "injuryTime": null,
-        "attendance": null,
+        "attendance": 30000,
         "venue": "MEWA ARENA",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T16:56:14Z",
+        "lastUpdated": "2026-01-24T17:09:38Z",
         "homeTeam": {
           "id": 15,
           "name": "1. FSV Mainz 05",
@@ -307005,10 +307039,10 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 2,
             "away": 1
           },
           "halfTime": {
@@ -307035,6 +307069,48 @@
             },
             "score": {
               "home": 0,
+              "away": 1
+            }
+          },
+          {
+            "minute": 68,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 15,
+              "name": "1. FSV Mainz 05"
+            },
+            "scorer": {
+              "id": 45593,
+              "name": "Phillip Tietz"
+            },
+            "assist": {
+              "id": 320,
+              "name": "Nadiem Amiri"
+            },
+            "score": {
+              "home": 1,
+              "away": 1
+            }
+          },
+          {
+            "minute": 73,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 15,
+              "name": "1. FSV Mainz 05"
+            },
+            "scorer": {
+              "id": 6620,
+              "name": "Stefan Bell"
+            },
+            "assist": {
+              "id": 150647,
+              "name": "Benedict Hollerbach"
+            },
+            "score": {
+              "home": 2,
               "away": 1
             }
           }
@@ -307074,6 +307150,18 @@
             "player": {
               "id": 124324,
               "name": "Patrick Wimmer"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 70,
+            "team": {
+              "id": 11,
+              "name": "VfL Wolfsburg"
+            },
+            "player": {
+              "id": 115078,
+              "name": "Vinícius Souza"
             },
             "card": "YELLOW"
           }
@@ -307130,14 +307218,14 @@
         "id": 540573,
         "utcDate": "2026-01-24T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 67,
+        "minute": 80,
         "injuryTime": null,
-        "attendance": null,
+        "attendance": 75000,
         "venue": "Allianz Arena",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T16:56:14Z",
+        "lastUpdated": "2026-01-24T17:09:38Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -307415,11 +307503,11 @@
           ]
         },
         "score": {
-          "winner": "HOME_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
             "home": 1,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 1,
@@ -307447,10 +307535,44 @@
               "home": 1,
               "away": 0
             }
+          },
+          {
+            "minute": 75,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 16,
+              "name": "FC Augsburg"
+            },
+            "scorer": {
+              "id": 169668,
+              "name": "Arthur Chaves"
+            },
+            "assist": {
+              "id": 192654,
+              "name": "Mert Kömür"
+            },
+            "score": {
+              "home": 1,
+              "away": 1
+            }
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 73,
+            "team": {
+              "id": 5,
+              "name": "FC Bayern München"
+            },
+            "player": {
+              "id": 149,
+              "name": "Jonathan Tah"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -307503,14 +307625,14 @@
         "id": 540574,
         "utcDate": "2026-01-24T14:30:00Z",
         "status": "IN_PLAY",
-        "minute": 65,
+        "minute": 78,
         "injuryTime": null,
         "attendance": null,
         "venue": "Deutsche Bank Park",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T16:56:14Z",
+        "lastUpdated": "2026-01-24T17:09:38Z",
         "homeTeam": {
           "id": 19,
           "name": "Eintracht Frankfurt",
@@ -307786,7 +307908,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 1,
-            "away": 2
+            "away": 3
           },
           "halfTime": {
             "home": 1,
@@ -307849,6 +307971,24 @@
             "score": {
               "home": 1,
               "away": 2
+            }
+          },
+          {
+            "minute": 65,
+            "injuryTime": null,
+            "type": "OWN",
+            "team": {
+              "id": 19,
+              "name": "Eintracht Frankfurt"
+            },
+            "scorer": {
+              "id": 169297,
+              "name": "Aurele Amenda"
+            },
+            "assist": null,
+            "score": {
+              "home": 1,
+              "away": 3
             }
           }
         ],
@@ -515670,15 +515810,15 @@
         },
         "id": 542576,
         "utcDate": "2026-01-24T16:00:00Z",
-        "status": "TIMED",
-        "minute": null,
+        "status": "IN_PLAY",
+        "minute": 9,
         "injuryTime": null,
         "attendance": null,
         "venue": "Roazhon Park",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T16:17:12Z",
+        "lastUpdated": "2026-01-24T17:10:14Z",
         "homeTeam": {
           "id": 529,
           "name": "Stade Rennais FC 1901",
@@ -515968,18 +516108,40 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 3,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 525,
+              "name": "FC Lorient"
+            },
+            "scorer": {
+              "id": 8437,
+              "name": "Jean-Victor Makengo"
+            },
+            "assist": {
+              "id": 177695,
+              "name": "Montassar Talbi"
+            },
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -516093,7 +516255,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 64781,
+            "name": "Marc Bollengier",
+            "type": "REFEREE",
+            "nationality": "France"
+          },
+          {
+            "id": 186381,
+            "name": "Thomas Luczynski",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "France"
+          },
+          {
+            "id": 57072,
+            "name": "Yannick Boutry",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -603638,14 +603819,14 @@
         "id": 545865,
         "utcDate": "2026-01-24T15:30:00Z",
         "status": "IN_PLAY",
-        "minute": 24,
+        "minute": 38,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Comendador Joaquim de Almeida Freitas",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T16:56:19Z",
+        "lastUpdated": "2026-01-24T17:10:13Z",
         "homeTeam": {
           "id": 583,
           "name": "Moreirense FC",
@@ -603948,6 +604129,18 @@
               "name": "Mateja Stjepanovic"
             },
             "card": "YELLOW"
+          },
+          {
+            "minute": 34,
+            "team": {
+              "id": 583,
+              "name": "Moreirense FC"
+            },
+            "player": {
+              "id": 13839,
+              "name": "Maracás"
+            },
+            "card": "YELLOW"
           }
         ],
         "substitutions": [],
@@ -604061,7 +604254,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 220533,
+            "name": "Hélder Carvalho",
+            "type": "REFEREE",
+            "nationality": "Portugal"
+          },
+          {
+            "id": 220529,
+            "name": "José Mira",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "Portugal"
+          },
+          {
+            "id": 243568,
+            "name": "Alexandre Ferreira",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Portugal"
+          }
+        ]
       },
       {
         "area": {
@@ -700032,14 +700244,14 @@
         "id": 537612,
         "utcDate": "2026-01-24T15:30:00Z",
         "status": "IN_PLAY",
-        "minute": 26,
+        "minute": 39,
         "injuryTime": null,
         "attendance": null,
         "venue": "Johan Cruijff ArenA",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T16:56:19Z",
+        "lastUpdated": "2026-01-24T17:10:13Z",
         "homeTeam": {
           "id": 678,
           "name": "AFC Ajax",
@@ -700344,7 +700556,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
@@ -700371,6 +700583,27 @@
             },
             "score": {
               "home": 1,
+              "away": 0
+            }
+          },
+          {
+            "minute": 36,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 678,
+              "name": "AFC Ajax"
+            },
+            "scorer": {
+              "id": 156856,
+              "name": "Youri Baas"
+            },
+            "assist": {
+              "id": 273341,
+              "name": "Rayane Bounida"
+            },
+            "score": {
+              "home": 2,
               "away": 0
             }
           }

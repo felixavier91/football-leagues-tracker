@@ -98189,15 +98189,15 @@
       },
       "id": 544417,
       "utcDate": "2026-01-24T15:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 38,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio de Mestalla",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T16:56:19Z",
+      "lastUpdated": "2026-01-24T17:09:31Z",
       "homeTeam": {
         "id": 95,
         "name": "Valencia CF",
@@ -98506,8 +98506,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -98534,7 +98534,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 125210,
+            "name": "Pol Lozano"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
