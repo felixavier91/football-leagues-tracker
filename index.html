@@ -948,17 +948,16 @@
             }
             
             .league-dropdown select {
-                padding: 8px 4px;
-                font-size: 0.85em;
-                font-weight: 600;
-                color: #c8102e;
+                padding: 8px;
+                font-size: 0; /* Hide text, show only icon */
+                color: transparent;
                 background: white;
                 border: none;
                 border-radius: 8px;
                 cursor: pointer;
                 height: 100%;
-                width: auto;
-                min-width: 50px;
+                width: 56px; /* Just icon: 40px + 2*8px padding */
+                min-width: 56px;
             }
             
             .filters {
@@ -1404,10 +1403,9 @@
             const emblem = allLeaguesData[leagueCode].matches?.[0]?.competition?.emblem || '';
             if (emblem) {
                 dropdown.style.backgroundImage = `url('${emblem}')`;
-                dropdown.style.backgroundSize = '20px 20px';
-                dropdown.style.backgroundPosition = '6px center';
+                dropdown.style.backgroundSize = '40px 40px'; // 100% bigger (was 20px)
+                dropdown.style.backgroundPosition = 'center center'; // Centered since no text
                 dropdown.style.backgroundRepeat = 'no-repeat';
-                dropdown.style.paddingLeft = '30px';
             }
         }
 
