@@ -102731,7 +102731,7 @@
         "matchday": 23,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:25:44Z",
+        "lastUpdated": "2026-01-24T19:31:17Z",
         "homeTeam": {
           "id": 1044,
           "name": "AFC Bournemouth",
@@ -215512,7 +215512,7 @@
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:25:49Z",
+        "lastUpdated": "2026-01-24T19:31:29Z",
         "homeTeam": {
           "id": 559,
           "name": "Sevilla FC",
@@ -309243,7 +309243,7 @@
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:26:14Z",
+        "lastUpdated": "2026-01-24T19:31:39Z",
         "homeTeam": {
           "id": 28,
           "name": "1. FC Union Berlin",
@@ -426833,14 +426833,14 @@
         "id": 537025,
         "utcDate": "2026-01-24T17:00:00Z",
         "status": "IN_PLAY",
-        "minute": 62,
+        "minute": 67,
         "injuryTime": null,
         "attendance": null,
         "venue": "Artemio Franchi, Firenze",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:26:18Z",
+        "lastUpdated": "2026-01-24T19:31:48Z",
         "homeTeam": {
           "id": 99,
           "name": "ACF Fiorentina",
@@ -427015,7 +427015,7 @@
             "nationality": "Italy"
           },
           "leagueRank": 15,
-          "formation": "3-5-2",
+          "formation": "3-5-1-1",
           "lineup": [
             {
               "id": 82004,
@@ -427232,6 +427232,18 @@
             "player": {
               "id": 15110,
               "name": "Marin Pongračić"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 63,
+            "team": {
+              "id": 104,
+              "name": "Cagliari Calcio"
+            },
+            "player": {
+              "id": 82004,
+              "name": "Elia Caprile"
             },
             "card": "YELLOW"
           }
@@ -518046,14 +518058,14 @@
         "id": 542568,
         "utcDate": "2026-01-24T18:00:00Z",
         "status": "IN_PLAY",
-        "minute": 26,
+        "minute": 32,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stade Océane",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:26:29Z",
+        "lastUpdated": "2026-01-24T19:31:59Z",
         "homeTeam": {
           "id": 533,
           "name": "Le Havre AC",
@@ -606367,14 +606379,14 @@
         "id": 545868,
         "utcDate": "2026-01-24T18:00:00Z",
         "status": "IN_PLAY",
-        "minute": 26,
+        "minute": 32,
         "injuryTime": null,
         "attendance": null,
         "venue": "Municipal de Arouca",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:26:29Z",
+        "lastUpdated": "2026-01-24T19:32:10Z",
         "homeTeam": {
           "id": 712,
           "name": "FC Arouca",
@@ -606777,7 +606789,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 37812,
+            "name": "Fábio Veríssimo",
+            "type": "REFEREE",
+            "nationality": "Portugal"
+          },
+          {
+            "id": 37388,
+            "name": "Pedro Martins",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "Portugal"
+          },
+          {
+            "id": 151190,
+            "name": "Hugo Marques",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Portugal"
+          }
+        ]
       },
       {
         "area": {
@@ -703127,14 +703158,14 @@
         "id": 537617,
         "utcDate": "2026-01-24T17:45:00Z",
         "status": "IN_PLAY",
-        "minute": 38,
+        "minute": 43,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadion De Goffert",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:26:47Z",
+        "lastUpdated": "2026-01-24T19:32:14Z",
         "homeTeam": {
           "id": 1915,
           "name": "NEC",
@@ -703424,10 +703455,10 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 1
           },
           "halfTime": {
@@ -703454,6 +703485,27 @@
             },
             "score": {
               "home": 0,
+              "away": 1
+            }
+          },
+          {
+            "minute": 39,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1915,
+              "name": "NEC"
+            },
+            "scorer": {
+              "id": 48659,
+              "name": "Koki Ogawa"
+            },
+            "assist": {
+              "id": 21733,
+              "name": "Tjaronn Chery"
+            },
+            "score": {
+              "home": 1,
               "away": 1
             }
           }
