@@ -948,17 +948,47 @@
             }
             
             .league-dropdown select {
-                padding: 8px 4px;
-                font-size: 0.85em;
+                padding: 4px 4px;
+                font-size: 0.7em;
                 font-weight: 600;
                 color: #c8102e;
                 background: white;
                 border: none;
                 border-radius: 8px;
                 cursor: pointer;
-                height: 100%;
+                height: auto;
+                min-height: 40px;
                 width: auto;
-                min-width: 50px;
+                min-width: 70px;
+                line-height: 1.2;
+                white-space: normal;
+                text-align: center;
+            }
+            
+            .league-display {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                pointer-events: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 0.7em;
+                font-weight: 600;
+                color: #c8102e;
+                line-height: 1.1;
+                text-align: center;
+                padding: 4px;
+            }
+            
+            .league-dropdown {
+                position: relative;
+            }
+            
+            .league-dropdown select:focus + .league-display {
+                display: none !important;
             }
             
             .filters {
@@ -1271,6 +1301,7 @@
 
         <div class="filters" id="filtersContainer">
             <div class="league-dropdown">
+                <div class="league-display" id="leagueDisplay" style="display: none;"></div>
                 <select id="leagueDropdown" onchange="selectLeagueFromDropdown(this.value)">
                     <option value="">League</option>
                 </select>
@@ -1311,6 +1342,19 @@
             'CL': 'Champions League',
             'DED': 'Eredivisie',
             'PPL': 'Primeira Liga',
+            'BSA': 'Brasileirão'
+        };
+        
+        // Display names with line breaks for mobile (stacked display)
+        const leagueDisplayNames = {
+            'PD': 'Primera<br>Division',
+            'PL': 'Premier<br>League',
+            'BL1': 'Bundesliga',
+            'SA': 'Serie A',
+            'FL1': 'Ligue 1',
+            'CL': 'Champions<br>League',
+            'DED': 'Eredivisie',
+            'PPL': 'Primeira<br>Liga',
             'BSA': 'Brasileirão'
         };
 
@@ -1412,6 +1456,7 @@
         
         function updateDropdownEmblem(leagueCode) {
             const dropdown = document.getElementById('leagueDropdown');
+            const display = document.getElementById('leagueDisplay');
             if (!dropdown || !allLeaguesData[leagueCode]) return;
             
             const emblem = allLeaguesData[leagueCode].matches?.[0]?.competition?.emblem || '';
@@ -1423,40 +1468,12 @@
                 dropdown.style.paddingLeft = '30px';
             }
             
-            // Restore all options to full names, then set selected to code
-            Array.from(dropdown.options).forEach(opt => {
-                const code = opt.value;
-                opt.textContent = leagueNames[code] || code;
-            });
-            
-            // Set selected option to show code only (for display in bar)
-            const selectedOption = dropdown.options[dropdown.selectedIndex];
-            if (selectedOption) {
-                selectedOption.textContent = leagueCode;
+            // Update display overlay with stacked name (mobile only)
+            if (display) {
+                display.innerHTML = leagueDisplayNames[leagueCode] || leagueCode;
+                display.style.display = 'flex';
             }
         }
-        
-        // Restore full names when dropdown is opened (on focus)
-        document.addEventListener('DOMContentLoaded', function() {
-            const dropdown = document.getElementById('leagueDropdown');
-            if (dropdown) {
-                dropdown.addEventListener('focus', function() {
-                    // Restore all options to full names when dropdown opens
-                    Array.from(this.options).forEach(opt => {
-                        const code = opt.value;
-                        opt.textContent = leagueNames[code] || code;
-                    });
-                });
-                
-                dropdown.addEventListener('blur', function() {
-                    // Set selected back to code when dropdown closes
-                    const selectedOption = this.options[this.selectedIndex];
-                    if (selectedOption) {
-                        selectedOption.textContent = this.value;
-                    }
-                });
-            }
-        });
 
         function selectLeagueFromDropdown(leagueCode) {
             console.log('Dropdown changed to:', leagueCode);
