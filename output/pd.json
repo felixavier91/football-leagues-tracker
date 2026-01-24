@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 201
+    "played": 202
   },
   "competition": {
     "id": 2014,
@@ -98189,15 +98189,15 @@
       },
       "id": 544417,
       "utcDate": "2026-01-24T15:15:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 1,
+      "injuryTime": 8,
       "attendance": 44163,
       "venue": "Estadio de Mestalla",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T18:06:58Z",
+      "lastUpdated": "2026-01-24T18:15:19Z",
       "homeTeam": {
         "id": 95,
         "name": "Valencia CF",
@@ -98499,10 +98499,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 2
         },
         "halfTime": {
@@ -98591,9 +98591,39 @@
             "home": 2,
             "away": 2
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "PENALTY",
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scorer": {
+            "id": 136349,
+            "name": "Largie Ramazani"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 136349,
+            "name": "Largie Ramazani"
+          },
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 45,
@@ -98640,6 +98670,30 @@
           "player": {
             "id": 32362,
             "name": "Fernando Calero"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 180108,
+            "name": "Rubén Sánchez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 149049,
+            "name": "Tyrhys Dolan"
           },
           "card": "YELLOW"
         }
