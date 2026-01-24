@@ -1377,14 +1377,27 @@
             // Populate dropdown with league options including emblems
             const dropdown = document.getElementById('leagueDropdown');
             if (dropdown) {
+                // League name mappings
+                const leagueNames = {
+                    'PD': 'Primera Division',
+                    'PL': 'Premier League',
+                    'BL1': 'Bundesliga',
+                    'SA': 'Serie A',
+                    'FL1': 'Ligue 1',
+                    'CL': 'Champions League',
+                    'DED': 'Eredivisie',
+                    'PPL': 'Primeira Liga',
+                    'BSA': 'Brasileirão'
+                };
+                
                 dropdown.innerHTML = ''; // Clear existing options
                 sortedLeagues.forEach(code => {
                     const league = allLeaguesData[code];
                     const option = document.createElement('option');
                     option.value = code;
                     const emblem = league.matches?.[0]?.competition?.emblem || '';
-                    // Use league code as text since we can't easily embed images in options
-                    option.textContent = code;
+                    // Use full league name in dropdown
+                    option.textContent = leagueNames[code] || code;
                     // Store emblem as data attribute
                     option.setAttribute('data-emblem', emblem);
                     dropdown.appendChild(option);
