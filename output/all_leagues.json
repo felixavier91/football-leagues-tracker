@@ -102723,15 +102723,15 @@
         },
         "id": 538005,
         "utcDate": "2026-01-24T17:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 51,
         "injuryTime": null,
         "attendance": null,
         "venue": "Vitality Stadium",
         "matchday": 23,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:31:17Z",
+        "lastUpdated": "2026-01-24T19:39:33Z",
         "homeTeam": {
           "id": 1044,
           "name": "AFC Bournemouth",
@@ -215504,15 +215504,15 @@
         },
         "id": 544414,
         "utcDate": "2026-01-24T17:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 48,
         "injuryTime": null,
-        "attendance": null,
+        "attendance": 34642,
         "venue": "Estadio R. Sanchez Pizjuan",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:31:29Z",
+        "lastUpdated": "2026-01-24T19:39:38Z",
         "homeTeam": {
           "id": 559,
           "name": "Sevilla FC",
@@ -309235,15 +309235,15 @@
         },
         "id": 540568,
         "utcDate": "2026-01-24T17:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 49,
         "injuryTime": null,
         "attendance": null,
         "venue": "An der Alten Försterei",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:31:39Z",
+        "lastUpdated": "2026-01-24T19:39:48Z",
         "homeTeam": {
           "id": 28,
           "name": "1. FC Union Berlin",
@@ -426833,14 +426833,14 @@
         "id": 537025,
         "utcDate": "2026-01-24T17:00:00Z",
         "status": "IN_PLAY",
-        "minute": 67,
+        "minute": 76,
         "injuryTime": null,
         "attendance": null,
         "venue": "Artemio Franchi, Firenze",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:31:48Z",
+        "lastUpdated": "2026-01-24T19:39:54Z",
         "homeTeam": {
           "id": 99,
           "name": "ACF Fiorentina",
@@ -427169,7 +427169,7 @@
           "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 2
           },
           "halfTime": {
@@ -427217,6 +427217,27 @@
             },
             "score": {
               "home": 0,
+              "away": 2
+            }
+          },
+          {
+            "minute": 74,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 99,
+              "name": "ACF Fiorentina"
+            },
+            "scorer": {
+              "id": 99858,
+              "name": "Marco Brescianini"
+            },
+            "assist": {
+              "id": 16474,
+              "name": "Dodô"
+            },
+            "score": {
+              "home": 1,
               "away": 2
             }
           }
@@ -518058,14 +518079,14 @@
         "id": 542568,
         "utcDate": "2026-01-24T18:00:00Z",
         "status": "IN_PLAY",
-        "minute": 32,
+        "minute": 40,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stade Océane",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:31:59Z",
+        "lastUpdated": "2026-01-24T19:40:24Z",
         "homeTeam": {
           "id": 533,
           "name": "Le Havre AC",
@@ -518216,7 +518237,7 @@
             "nationality": "Belgium"
           },
           "leagueRank": 9,
-          "formation": "4-1-3-2",
+          "formation": "4-2-2-2",
           "lineup": [
             {
               "id": 9535,
@@ -606379,14 +606400,14 @@
         "id": 545868,
         "utcDate": "2026-01-24T18:00:00Z",
         "status": "IN_PLAY",
-        "minute": 32,
+        "minute": 40,
         "injuryTime": null,
         "attendance": null,
         "venue": "Municipal de Arouca",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:32:10Z",
+        "lastUpdated": "2026-01-24T19:40:29Z",
         "homeTeam": {
           "id": 712,
           "name": "FC Arouca",
@@ -606664,18 +606685,40 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 35,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 498,
+              "name": "Sporting Clube de Portugal"
+            },
+            "scorer": {
+              "id": 32386,
+              "name": "Luis Suárez"
+            },
+            "assist": {
+              "id": 28770,
+              "name": "Maximiliano Araújo"
+            },
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -703157,15 +703200,15 @@
         },
         "id": 537617,
         "utcDate": "2026-01-24T17:45:00Z",
-        "status": "IN_PLAY",
-        "minute": 43,
+        "status": "PAUSED",
+        "minute": 45,
         "injuryTime": null,
         "attendance": null,
         "venue": "Stadion De Goffert",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:32:14Z",
+        "lastUpdated": "2026-01-24T19:40:29Z",
         "homeTeam": {
           "id": 1915,
           "name": "NEC",
@@ -703462,8 +703505,8 @@
             "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "goals": [
