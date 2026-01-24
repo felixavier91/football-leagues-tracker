@@ -104416,15 +104416,15 @@
       },
       "id": 537029,
       "utcDate": "2026-01-24T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 8,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Giuseppe Sinigaglia",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T14:26:20Z",
+      "lastUpdated": "2026-01-24T15:09:35Z",
       "homeTeam": {
         "id": 7397,
         "name": "Como 1907",
@@ -104720,18 +104720,37 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 8,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7397,
+            "name": "Como 1907"
+          },
+          "scorer": {
+            "id": 43285,
+            "name": "Anastasios Douvikas"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
