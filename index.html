@@ -1404,10 +1404,10 @@
             const emblem = allLeaguesData[leagueCode].matches?.[0]?.competition?.emblem || '';
             if (emblem) {
                 dropdown.style.backgroundImage = `url('${emblem}')`;
-                dropdown.style.backgroundSize = '20px 20px';
-                dropdown.style.backgroundPosition = '6px center';
+                dropdown.style.backgroundSize = '40px 40px'; // 100% bigger (was 20px)
+                dropdown.style.backgroundPosition = '8px center';
                 dropdown.style.backgroundRepeat = 'no-repeat';
-                dropdown.style.paddingLeft = '30px';
+                dropdown.style.paddingLeft = '52px'; // More padding for bigger icon
             }
         }
 
