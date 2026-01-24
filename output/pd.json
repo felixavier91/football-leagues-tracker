@@ -98190,14 +98190,14 @@
       "id": 544417,
       "utcDate": "2026-01-24T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 5,
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio de Mestalla",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T16:23:11Z",
+      "lastUpdated": "2026-01-24T16:37:00Z",
       "homeTeam": {
         "id": 95,
         "name": "Valencia CF",
@@ -98499,10 +98499,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -98510,7 +98510,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 15,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scorer": {
+            "id": 32762,
+            "name": "Hugo Duro"
+          },
+          "assist": {
+            "id": 98572,
+            "name": "Lucas Beltrán"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -98624,7 +98646,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 214213,
+          "name": "Francisco Hernández Maeso",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        },
+        {
+          "id": 58174,
+          "name": "Iván Masso Granado",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 214216,
+          "name": "Abraham Pérez Dapía",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
