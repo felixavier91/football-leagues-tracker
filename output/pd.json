@@ -98750,14 +98750,14 @@
       "id": 544414,
       "utcDate": "2026-01-24T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 54,
+      "minute": 58,
       "injuryTime": null,
       "attendance": 34642,
       "venue": "Estadio R. Sanchez Pizjuan",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T19:44:37Z",
+      "lastUpdated": "2026-01-24T19:49:44Z",
       "homeTeam": {
         "id": 559,
         "name": "Sevilla FC",
@@ -99065,10 +99065,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -99115,9 +99115,39 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 56,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC"
+          },
+          "scorer": {
+            "id": 82132,
+            "name": "Akor Adams"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 82132,
+            "name": "Akor Adams"
+          },
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 21,

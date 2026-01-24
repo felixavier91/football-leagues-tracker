@@ -102724,14 +102724,14 @@
         "id": 538005,
         "utcDate": "2026-01-24T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 56,
+        "minute": 61,
         "injuryTime": null,
         "attendance": null,
         "venue": "Vitality Stadium",
         "matchday": 23,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:44:28Z",
+        "lastUpdated": "2026-01-24T19:49:38Z",
         "homeTeam": {
           "id": 1044,
           "name": "AFC Bournemouth",
@@ -215505,14 +215505,14 @@
         "id": 544414,
         "utcDate": "2026-01-24T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 54,
+        "minute": 58,
         "injuryTime": null,
         "attendance": 34642,
         "venue": "Estadio R. Sanchez Pizjuan",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:44:37Z",
+        "lastUpdated": "2026-01-24T19:49:44Z",
         "homeTeam": {
           "id": 559,
           "name": "Sevilla FC",
@@ -215820,10 +215820,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 1
           },
           "halfTime": {
@@ -215870,9 +215870,39 @@
               "home": 1,
               "away": 1
             }
+          },
+          {
+            "minute": 56,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 559,
+              "name": "Sevilla FC"
+            },
+            "scorer": {
+              "id": 82132,
+              "name": "Akor Adams"
+            },
+            "assist": null,
+            "score": {
+              "home": 2,
+              "away": 1
+            }
           }
         ],
-        "penalties": [],
+        "penalties": [
+          {
+            "player": {
+              "id": 82132,
+              "name": "Akor Adams"
+            },
+            "team": {
+              "id": 559,
+              "name": "Sevilla FC"
+            },
+            "scored": true
+          }
+        ],
         "bookings": [
           {
             "minute": 21,
@@ -309236,14 +309266,14 @@
         "id": 540568,
         "utcDate": "2026-01-24T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 55,
+        "minute": 59,
         "injuryTime": null,
         "attendance": null,
         "venue": "An der Alten Försterei",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:44:48Z",
+        "lastUpdated": "2026-01-24T19:49:48Z",
         "homeTeam": {
           "id": 28,
           "name": "1. FC Union Berlin",
@@ -309552,7 +309582,7 @@
             }
           },
           {
-            "minute": 54,
+            "minute": 53,
             "injuryTime": null,
             "type": "REGULAR",
             "team": {
@@ -309586,7 +309616,20 @@
             "scored": true
           }
         ],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 59,
+            "team": {
+              "id": 4,
+              "name": "Borussia Dortmund"
+            },
+            "player": {
+              "id": 3183,
+              "name": "Emre Can"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -426854,14 +426897,14 @@
         "id": 537025,
         "utcDate": "2026-01-24T17:00:00Z",
         "status": "IN_PLAY",
-        "minute": 81,
+        "minute": 86,
         "injuryTime": null,
         "attendance": null,
         "venue": "Artemio Franchi, Firenze",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:44:53Z",
+        "lastUpdated": "2026-01-24T19:50:02Z",
         "homeTeam": {
           "id": 99,
           "name": "ACF Fiorentina",
@@ -427286,6 +427329,18 @@
             "player": {
               "id": 82004,
               "name": "Elia Caprile"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 85,
+            "team": {
+              "id": 104,
+              "name": "Cagliari Calcio"
+            },
+            "player": {
+              "id": 3728,
+              "name": "Yerry Mina"
             },
             "card": "YELLOW"
           }
@@ -518100,14 +518155,14 @@
         "id": 542568,
         "utcDate": "2026-01-24T18:00:00Z",
         "status": "IN_PLAY",
-        "minute": 44,
-        "injuryTime": null,
+        "minute": 45,
+        "injuryTime": 5,
         "attendance": null,
         "venue": "Stade Océane",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:45:09Z",
+        "lastUpdated": "2026-01-24T19:50:24Z",
         "homeTeam": {
           "id": 533,
           "name": "Le Havre AC",
@@ -606420,15 +606475,15 @@
         },
         "id": 545868,
         "utcDate": "2026-01-24T18:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "minute": 45,
-        "injuryTime": 1,
+        "injuryTime": null,
         "attendance": null,
         "venue": "Municipal de Arouca",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:45:18Z",
+        "lastUpdated": "2026-01-24T19:50:29Z",
         "homeTeam": {
           "id": 712,
           "name": "FC Arouca",
@@ -606713,8 +606768,8 @@
             "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "goals": [
@@ -703229,7 +703284,7 @@
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T19:45:29Z",
+        "lastUpdated": "2026-01-24T19:50:42Z",
         "homeTeam": {
           "id": 1915,
           "name": "NEC",
