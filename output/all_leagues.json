@@ -102724,14 +102724,14 @@
         "id": 538005,
         "utcDate": "2026-01-24T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 3,
+        "minute": 15,
         "injuryTime": null,
         "attendance": null,
         "venue": "Vitality Stadium",
         "matchday": 23,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T18:33:18Z",
+        "lastUpdated": "2026-01-24T18:45:44Z",
         "homeTeam": {
           "id": 1044,
           "name": "AFC Bournemouth",
@@ -215428,14 +215428,14 @@
         "id": 544414,
         "utcDate": "2026-01-24T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": null,
+        "minute": 13,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio R. Sanchez Pizjuan",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T18:33:29Z",
+        "lastUpdated": "2026-01-24T18:45:49Z",
         "homeTeam": {
           "id": 559,
           "name": "Sevilla FC",
@@ -309087,14 +309087,14 @@
         "id": 540568,
         "utcDate": "2026-01-24T17:30:00Z",
         "status": "IN_PLAY",
-        "minute": 3,
+        "minute": 16,
         "injuryTime": null,
         "attendance": null,
         "venue": "An der Alten Försterei",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T18:33:39Z",
+        "lastUpdated": "2026-01-24T18:46:15Z",
         "homeTeam": {
           "id": 28,
           "name": "1. FC Union Berlin",
@@ -309372,19 +309372,50 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
-        "penalties": [],
+        "goals": [
+          {
+            "minute": 10,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 4,
+              "name": "Borussia Dortmund"
+            },
+            "scorer": {
+              "id": 3183,
+              "name": "Emre Can"
+            },
+            "assist": null,
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
+        "penalties": [
+          {
+            "player": {
+              "id": 3183,
+              "name": "Emre Can"
+            },
+            "team": {
+              "id": 4,
+              "name": "Borussia Dortmund"
+            },
+            "scored": true
+          }
+        ],
         "bookings": [],
         "substitutions": [],
         "odds": {
@@ -426653,14 +426684,14 @@
         "id": 537025,
         "utcDate": "2026-01-24T17:00:00Z",
         "status": "IN_PLAY",
-        "minute": 29,
+        "minute": 42,
         "injuryTime": null,
         "attendance": null,
         "venue": "Artemio Franchi, Firenze",
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T18:33:49Z",
+        "lastUpdated": "2026-01-24T18:46:18Z",
         "homeTeam": {
           "id": 99,
           "name": "ACF Fiorentina",
@@ -426986,18 +427017,40 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
             "away": null
           }
         },
-        "goals": [],
+        "goals": [
+          {
+            "minute": 31,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 104,
+              "name": "Cagliari Calcio"
+            },
+            "scorer": {
+              "id": 191289,
+              "name": "Semih Kilicsoy"
+            },
+            "assist": {
+              "id": 206136,
+              "name": "Marco Palestra"
+            },
+            "score": {
+              "home": 0,
+              "away": 1
+            }
+          }
+        ],
         "penalties": [],
         "bookings": [],
         "substitutions": [],
@@ -427111,7 +427164,26 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11053,
+            "name": "Daniele Chiffi",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          },
+          {
+            "id": 57247,
+            "name": "Davide Imperiale",
+            "type": "ASSISTANT_REFEREE_N1",
+            "nationality": "Italy"
+          },
+          {
+            "id": 217619,
+            "name": "Khaled Bahri",
+            "type": "ASSISTANT_REFEREE_N2",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
@@ -517363,14 +517435,14 @@
         "id": 542576,
         "utcDate": "2026-01-24T16:00:00Z",
         "status": "IN_PLAY",
-        "minute": 77,
+        "minute": 90,
         "injuryTime": null,
         "attendance": null,
         "venue": "Roazhon Park",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T18:33:53Z",
+        "lastUpdated": "2026-01-24T18:46:33Z",
         "homeTeam": {
           "id": 529,
           "name": "Stade Rennais FC 1901",
@@ -517664,7 +517736,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 0,
@@ -517691,6 +517763,24 @@
             "score": {
               "home": 0,
               "away": 1
+            }
+          },
+          {
+            "minute": 77,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 525,
+              "name": "FC Lorient"
+            },
+            "scorer": {
+              "id": 177248,
+              "name": "Pablo Pagis"
+            },
+            "assist": null,
+            "score": {
+              "home": 0,
+              "away": 2
             }
           }
         ],
@@ -702821,7 +702911,7 @@
         },
         "id": 537617,
         "utcDate": "2026-01-24T17:45:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "minute": null,
         "injuryTime": null,
         "attendance": null,
@@ -702829,7 +702919,7 @@
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T18:03:23Z",
+        "lastUpdated": "2026-01-24T18:46:45Z",
         "homeTeam": {
           "id": 1915,
           "name": "NEC",
@@ -703119,11 +703209,11 @@
           ]
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
