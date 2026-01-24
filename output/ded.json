@@ -84038,14 +84038,14 @@
       "id": 537617,
       "utcDate": "2026-01-24T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 6,
+      "minute": 22,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadion De Goffert",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T18:54:54Z",
+      "lastUpdated": "2026-01-24T19:10:50Z",
       "homeTeam": {
         "id": 1915,
         "name": "NEC",
@@ -84335,18 +84335,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 15,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 684,
+            "name": "PEC Zwolle"
+          },
+          "scorer": {
+            "id": 7729,
+            "name": "Younes Namli"
+          },
+          "assist": {
+            "id": 167455,
+            "name": "Jamiro Monteiro"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -84408,7 +84430,7 @@
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-19T01:32:01Z",
+      "lastUpdated": "2026-01-24T19:08:15Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -84421,7 +84443,7 @@
           "nationality": "Netherlands"
         },
         "leagueRank": 1,
-        "formation": null,
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 136350,
@@ -84553,9 +84575,149 @@
           "nationality": "Belgium"
         },
         "leagueRank": 17,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "5-3-2",
+        "lineup": [
+          {
+            "id": 84069,
+            "name": "Daniel Bielica",
+            "position": "Goalkeeper",
+            "shirtNumber": 99
+          },
+          {
+            "id": 150439,
+            "name": "Rio Hillen",
+            "position": "Defence",
+            "shirtNumber": 22
+          },
+          {
+            "id": 3957,
+            "name": "Denis Odoi",
+            "position": "Defence",
+            "shirtNumber": 3
+          },
+          {
+            "id": 179479,
+            "name": "Kamal Sowah",
+            "position": "Midfield",
+            "shirtNumber": 14
+          },
+          {
+            "id": 181154,
+            "name": "Max Balard",
+            "position": "Midfield",
+            "shirtNumber": 16
+          },
+          {
+            "id": 125169,
+            "name": "Charles-Andréas Brym",
+            "position": "Centre-Forward",
+            "shirtNumber": 7
+          },
+          {
+            "id": 191040,
+            "name": "Moussa Soumano",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 154112,
+            "name": "Mohamed Nassoh",
+            "position": "Attacking Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 245796,
+            "name": "Cherrion Valerius",
+            "position": "Centre-Back",
+            "shirtNumber": 25
+          },
+          {
+            "id": 67887,
+            "name": "Boy Kemper",
+            "position": "Left-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 99195,
+            "name": "Leo Greiml",
+            "position": "Centre-Back",
+            "shirtNumber": 12
+          }
+        ],
+        "bench": [
+          {
+            "id": 7738,
+            "name": "Roy Kortsmit",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 7546,
+            "name": "Kostas Lamprou",
+            "position": "Goalkeeper",
+            "shirtNumber": 31
+          },
+          {
+            "id": 284062,
+            "name": "Jayden Candelaria",
+            "position": "Defence",
+            "shirtNumber": 21
+          },
+          {
+            "id": 181796,
+            "name": "Brahim Ghalidi",
+            "position": "Midfield",
+            "shirtNumber": 55
+          },
+          {
+            "id": 80336,
+            "name": "Sydney van Hooijdonk",
+            "position": "Centre-Forward",
+            "shirtNumber": 17
+          },
+          {
+            "id": 233584,
+            "name": "Juho Talvitie",
+            "position": "Right Winger",
+            "shirtNumber": 32
+          },
+          {
+            "id": 150572,
+            "name": "Casper Staring",
+            "position": "Defensive Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 80767,
+            "name": "Enes Mahmutović",
+            "position": "Centre-Back",
+            "shirtNumber": 15
+          },
+          {
+            "id": 7590,
+            "name": "Boyd Lucassen",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 7291,
+            "name": "Clint Leemans",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 6526,
+            "name": "Lewis Holtby",
+            "position": "Central Midfield",
+            "shirtNumber": 90
+          },
+          {
+            "id": 7990,
+            "name": "André Ayew",
+            "position": "Left Winger",
+            "shirtNumber": 24
+          }
+        ]
       },
       "score": {
         "winner": null,
@@ -84683,7 +84845,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 9561,
+          "name": "Allard Lindhout",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 14764,
+          "name": "Johan Balder",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 81794,
+          "name": "Kevin Bodde",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {

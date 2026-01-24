@@ -76079,15 +76079,15 @@
       },
       "id": 542568,
       "utcDate": "2026-01-24T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 10,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Océane",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T18:14:25Z",
+      "lastUpdated": "2026-01-24T19:10:29Z",
       "homeTeam": {
         "id": 533,
         "name": "Le Havre AC",
@@ -76100,7 +76100,7 @@
           "nationality": "France"
         },
         "leagueRank": 14,
-        "formation": "3-4-1-2",
+        "formation": "4-3-1-2",
         "lineup": [
           {
             "id": 106838,
@@ -76365,11 +76365,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -76490,7 +76490,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43926,
+          "name": "Benoît Bastien",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 43885,
+          "name": "Hicham Zakrani",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 64762,
+          "name": "Aurélien Berthomieu",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
