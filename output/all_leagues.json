@@ -101383,14 +101383,14 @@
         "id": 538009,
         "utcDate": "2026-01-24T15:00:00Z",
         "status": "IN_PLAY",
-        "minute": 65,
+        "minute": 81,
         "injuryTime": null,
         "attendance": 21618,
         "venue": "Turf Moor",
         "matchday": 23,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T17:24:23Z",
+        "lastUpdated": "2026-01-24T17:40:40Z",
         "homeTeam": {
           "id": 328,
           "name": "Burnley FC",
@@ -101668,10 +101668,10 @@
           ]
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 1
           },
           "halfTime": {
@@ -101718,10 +101718,41 @@
               "home": 1,
               "away": 1
             }
+          },
+          {
+            "minute": 76,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 328,
+              "name": "Burnley FC"
+            },
+            "scorer": {
+              "id": 34760,
+              "name": "Lyle Foster"
+            },
+            "assist": null,
+            "score": {
+              "home": 2,
+              "away": 1
+            }
           }
         ],
         "penalties": [],
-        "bookings": [],
+        "bookings": [
+          {
+            "minute": 79,
+            "team": {
+              "id": 328,
+              "name": "Burnley FC"
+            },
+            "player": {
+              "id": 213243,
+              "name": "Josh Laurent"
+            },
+            "card": "YELLOW"
+          }
+        ],
         "substitutions": [],
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -101774,14 +101805,14 @@
         "id": 538011,
         "utcDate": "2026-01-24T15:00:00Z",
         "status": "IN_PLAY",
-        "minute": 68,
+        "minute": 84,
         "injuryTime": null,
         "attendance": null,
         "venue": "Craven Cottage",
         "matchday": 23,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T17:24:23Z",
+        "lastUpdated": "2026-01-24T17:40:40Z",
         "homeTeam": {
           "id": 63,
           "name": "Fulham FC",
@@ -102059,10 +102090,10 @@
           ]
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 1
           },
           "halfTime": {
@@ -102089,6 +102120,27 @@
             },
             "score": {
               "home": 0,
+              "away": 1
+            }
+          },
+          {
+            "minute": 72,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 63,
+              "name": "Fulham FC"
+            },
+            "scorer": {
+              "id": 33124,
+              "name": "Samuel Chukwueze"
+            },
+            "assist": {
+              "id": 2253,
+              "name": "Joachim Andersen"
+            },
+            "score": {
+              "home": 1,
               "away": 1
             }
           }
@@ -102166,14 +102218,14 @@
         "id": 538012,
         "utcDate": "2026-01-24T15:00:00Z",
         "status": "IN_PLAY",
-        "minute": 64,
+        "minute": 80,
         "injuryTime": null,
         "attendance": null,
         "venue": "Etihad Stadium",
         "matchday": 23,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T17:24:24Z",
+        "lastUpdated": "2026-01-24T17:40:41Z",
         "homeTeam": {
           "id": 65,
           "name": "Manchester City FC",
@@ -102519,6 +102571,30 @@
               "name": "André"
             },
             "card": "YELLOW"
+          },
+          {
+            "minute": 67,
+            "team": {
+              "id": 76,
+              "name": "Wolverhampton Wanderers FC"
+            },
+            "player": {
+              "id": 138034,
+              "name": "João Gomes"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 71,
+            "team": {
+              "id": 65,
+              "name": "Manchester City FC"
+            },
+            "player": {
+              "id": 91512,
+              "name": "Matheus Nunes"
+            },
+            "card": "YELLOW"
           }
         ],
         "substitutions": [],
@@ -102592,7 +102668,7 @@
         "matchday": 23,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-18T01:32:02Z",
+        "lastUpdated": "2026-01-24T17:27:43Z",
         "homeTeam": {
           "id": 1044,
           "name": "AFC Bournemouth",
@@ -102605,9 +102681,131 @@
             "nationality": "Spain"
           },
           "leagueRank": 15,
-          "formation": null,
-          "lineup": [],
-          "bench": []
+          "formation": "4-2-3-1",
+          "lineup": [
+            {
+              "id": 121765,
+              "name": "Đorđe Petrović",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 131260,
+              "name": "Evanilson",
+              "position": "Centre-Forward",
+              "shirtNumber": 9
+            },
+            {
+              "id": 227048,
+              "name": "Álex Jiménez",
+              "position": "Right-Back",
+              "shirtNumber": 20
+            },
+            {
+              "id": 204241,
+              "name": "Eli Kroupi",
+              "position": "Centre-Forward",
+              "shirtNumber": 22
+            },
+            {
+              "id": 137047,
+              "name": "Amine Adli",
+              "position": "Left Winger",
+              "shirtNumber": 21
+            },
+            {
+              "id": 161088,
+              "name": "Alex Scott",
+              "position": "Central Midfield",
+              "shirtNumber": 8
+            },
+            {
+              "id": 3327,
+              "name": "Lewis Cook",
+              "position": "Central Midfield",
+              "shirtNumber": 4
+            },
+            {
+              "id": 8231,
+              "name": "Adam Smith",
+              "position": "Right-Back",
+              "shirtNumber": 15
+            },
+            {
+              "id": 82145,
+              "name": "James Hill",
+              "position": "Centre-Back",
+              "shirtNumber": 23
+            },
+            {
+              "id": 46046,
+              "name": "Marcos Senesi",
+              "position": "Centre-Back",
+              "shirtNumber": 5
+            },
+            {
+              "id": 135482,
+              "name": "Adrien Truffert",
+              "position": "Left-Back",
+              "shirtNumber": 3
+            }
+          ],
+          "bench": [
+            {
+              "id": 8079,
+              "name": "Fraser Forster",
+              "position": "Goalkeeper",
+              "shirtNumber": 17
+            },
+            {
+              "id": 227046,
+              "name": "Veljko Milosavljević",
+              "position": "Defence",
+              "shirtNumber": 44
+            },
+            {
+              "id": 192316,
+              "name": "Alex Toth",
+              "position": "Midfield",
+              "shirtNumber": 27
+            },
+            {
+              "id": 289696,
+              "name": "Malcom Dacosta",
+              "position": "Offence",
+              "shirtNumber": 51
+            },
+            {
+              "id": 273757,
+              "name": "Remy Rees-Dottin",
+              "position": "Offence",
+              "shirtNumber": 50
+            },
+            {
+              "id": 33132,
+              "name": "Enes Ünal",
+              "position": "Centre-Forward",
+              "shirtNumber": 26
+            },
+            {
+              "id": 209103,
+              "name": "Dominic Sadi",
+              "position": "Left Winger",
+              "shirtNumber": 49
+            },
+            {
+              "id": 98745,
+              "name": "Bafodé Diakité",
+              "position": "Centre-Back",
+              "shirtNumber": 18
+            },
+            {
+              "id": 34495,
+              "name": "Ryan Christie",
+              "position": "Central Midfield",
+              "shirtNumber": 10
+            }
+          ]
         },
         "awayTeam": {
           "id": 64,
@@ -102621,9 +102819,131 @@
             "nationality": "Netherlands"
           },
           "leagueRank": 4,
-          "formation": null,
-          "lineup": [],
-          "bench": []
+          "formation": "4-2-2-2",
+          "lineup": [
+            {
+              "id": 1795,
+              "name": "Alisson",
+              "position": "Goalkeeper",
+              "shirtNumber": 1
+            },
+            {
+              "id": 3754,
+              "name": "Mohamed Salah",
+              "position": "Right Winger",
+              "shirtNumber": 11
+            },
+            {
+              "id": 7459,
+              "name": "Cody Gakpo",
+              "position": "Left Winger",
+              "shirtNumber": 18
+            },
+            {
+              "id": 16347,
+              "name": "Dominik Szoboszlai",
+              "position": "Central Midfield",
+              "shirtNumber": 8
+            },
+            {
+              "id": 19334,
+              "name": "Florian Wirtz",
+              "position": "Attacking Midfield",
+              "shirtNumber": 7
+            },
+            {
+              "id": 81793,
+              "name": "Ryan Gravenberch",
+              "position": "Defensive Midfield",
+              "shirtNumber": 38
+            },
+            {
+              "id": 45681,
+              "name": "Alexis Mac Allister",
+              "position": "Central Midfield",
+              "shirtNumber": 10
+            },
+            {
+              "id": 128954,
+              "name": "Jeremie Frimpong",
+              "position": "Right Midfield",
+              "shirtNumber": 30
+            },
+            {
+              "id": 7862,
+              "name": "Joe Gomez",
+              "position": "Centre-Back",
+              "shirtNumber": 2
+            },
+            {
+              "id": 7869,
+              "name": "Virgil van Dijk",
+              "position": "Centre-Back",
+              "shirtNumber": 4
+            },
+            {
+              "id": 171141,
+              "name": "Milos Kerkez",
+              "position": "Left-Back",
+              "shirtNumber": 6
+            }
+          ],
+          "bench": [
+            {
+              "id": 84506,
+              "name": "Giorgi Mamardashvili",
+              "position": "Goalkeeper",
+              "shirtNumber": 25
+            },
+            {
+              "id": 11629,
+              "name": "Freddie Woodman",
+              "position": "Goalkeeper",
+              "shirtNumber": 28
+            },
+            {
+              "id": 273453,
+              "name": "Rio Ngumoha",
+              "position": "Offence",
+              "shirtNumber": 73
+            },
+            {
+              "id": 7868,
+              "name": "Andrew Robertson",
+              "position": "Left-Back",
+              "shirtNumber": 26
+            },
+            {
+              "id": 124778,
+              "name": "Calvin Ramsay",
+              "position": "Right-Back",
+              "shirtNumber": 47
+            },
+            {
+              "id": 230517,
+              "name": "Trey Nyoni",
+              "position": "Attacking Midfield",
+              "shirtNumber": 42
+            },
+            {
+              "id": 7873,
+              "name": "Curtis Jones",
+              "position": "Central Midfield",
+              "shirtNumber": 17
+            },
+            {
+              "id": 3269,
+              "name": "Wataru Endō",
+              "position": "Defensive Midfield",
+              "shirtNumber": 3
+            },
+            {
+              "id": 152454,
+              "name": "Hugo Ekitike",
+              "position": "Centre-Forward",
+              "shirtNumber": 22
+            }
+          ]
         },
         "score": {
           "winner": null,
@@ -214485,14 +214805,14 @@
         "id": 544417,
         "utcDate": "2026-01-24T15:15:00Z",
         "status": "IN_PLAY",
-        "minute": 50,
+        "minute": 67,
         "injuryTime": null,
         "attendance": 44163,
         "venue": "Estadio de Mestalla",
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T17:24:29Z",
+        "lastUpdated": "2026-01-24T17:40:47Z",
         "homeTeam": {
           "id": 95,
           "name": "Valencia CF",
@@ -214797,8 +215117,8 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
-            "away": 0
+            "home": 2,
+            "away": 1
           },
           "halfTime": {
             "home": 1,
@@ -214826,6 +215146,48 @@
               "home": 1,
               "away": 0
             }
+          },
+          {
+            "minute": 54,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 80,
+              "name": "RCD Espanyol de Barcelona"
+            },
+            "scorer": {
+              "id": 154000,
+              "name": "RamónTerrats Espacio"
+            },
+            "assist": {
+              "id": 33358,
+              "name": "Kike García"
+            },
+            "score": {
+              "home": 1,
+              "away": 1
+            }
+          },
+          {
+            "minute": 59,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 95,
+              "name": "Valencia CF"
+            },
+            "scorer": {
+              "id": 30823,
+              "name": "Eray Cömert"
+            },
+            "assist": {
+              "id": 9870,
+              "name": "Arnaut Danjuma"
+            },
+            "score": {
+              "home": 2,
+              "away": 1
+            }
           }
         ],
         "penalties": [],
@@ -214839,6 +215201,30 @@
             "player": {
               "id": 125210,
               "name": "Pol Lozano"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 56,
+            "team": {
+              "id": 80,
+              "name": "RCD Espanyol de Barcelona"
+            },
+            "player": {
+              "id": 33358,
+              "name": "Kike García"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 63,
+            "team": {
+              "id": 95,
+              "name": "Valencia CF"
+            },
+            "player": {
+              "id": 157190,
+              "name": "Jesus Vazquez Alcalde"
             },
             "card": "YELLOW"
           }
@@ -306693,15 +307079,15 @@
         },
         "id": 540570,
         "utcDate": "2026-01-24T14:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 2,
+        "injuryTime": 7,
         "attendance": 30210,
         "venue": "BayArena",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T17:24:38Z",
+        "lastUpdated": "2026-01-24T17:29:58Z",
         "homeTeam": {
           "id": 3,
           "name": "Bayer 04 Leverkusen",
@@ -307062,6 +307448,18 @@
               "name": "Julián Malatini"
             },
             "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 12,
+              "name": "SV Werder Bremen"
+            },
+            "player": {
+              "id": 93320,
+              "name": "Olivier Deman"
+            },
+            "card": "YELLOW"
           }
         ],
         "substitutions": [],
@@ -307115,15 +307513,15 @@
         },
         "id": 540572,
         "utcDate": "2026-01-24T14:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 3,
+        "injuryTime": 8,
         "attendance": 30000,
         "venue": "MEWA ARENA",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T17:24:38Z",
+        "lastUpdated": "2026-01-24T17:29:58Z",
         "homeTeam": {
           "id": 15,
           "name": "1. FSV Mainz 05",
@@ -307517,6 +307915,17 @@
               "name": "1. FSV Mainz 05"
             },
             "scored": true
+          },
+          {
+            "player": {
+              "id": 45593,
+              "name": "Phillip Tietz"
+            },
+            "team": {
+              "id": 15,
+              "name": "1. FSV Mainz 05"
+            },
+            "scored": false
           }
         ],
         "bookings": [
@@ -307632,15 +308041,15 @@
         },
         "id": 540573,
         "utcDate": "2026-01-24T14:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 4,
+        "injuryTime": 5,
         "attendance": 75000,
         "venue": "Allianz Arena",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T17:24:38Z",
+        "lastUpdated": "2026-01-24T17:25:39Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -308060,15 +308469,15 @@
         },
         "id": 540574,
         "utcDate": "2026-01-24T14:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "minute": 90,
-        "injuryTime": 2,
+        "injuryTime": 4,
         "attendance": 58500,
         "venue": "Deutsche Bank Park",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T17:24:38Z",
+        "lastUpdated": "2026-01-24T17:27:04Z",
         "homeTeam": {
           "id": 19,
           "name": "Eintracht Frankfurt",
@@ -308463,6 +308872,18 @@
             "player": {
               "id": 206319,
               "name": "Leon Avdullahu"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "team": {
+              "id": 2,
+              "name": "TSG 1899 Hoffenheim"
+            },
+            "player": {
+              "id": 326,
+              "name": "Ihlas Bebou"
             },
             "card": "YELLOW"
           }
@@ -516795,14 +517216,14 @@
         "id": 542576,
         "utcDate": "2026-01-24T16:00:00Z",
         "status": "IN_PLAY",
-        "minute": 24,
+        "minute": 40,
         "injuryTime": null,
         "attendance": null,
         "venue": "Roazhon Park",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T17:24:49Z",
+        "lastUpdated": "2026-01-24T17:41:12Z",
         "homeTeam": {
           "id": 529,
           "name": "Stade Rennais FC 1901",
@@ -517137,6 +517558,18 @@
             "player": {
               "id": 149850,
               "name": "Esteban Lepaul"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 32,
+            "team": {
+              "id": 529,
+              "name": "Stade Rennais FC 1901"
+            },
+            "player": {
+              "id": 8695,
+              "name": "Valentin Rongier"
             },
             "card": "YELLOW"
           }
@@ -604815,15 +605248,15 @@
         },
         "id": 545865,
         "utcDate": "2026-01-24T15:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 53,
         "injuryTime": null,
         "attendance": null,
         "venue": "Estadio Comendador Joaquim de Almeida Freitas",
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T17:25:09Z",
+        "lastUpdated": "2026-01-24T17:41:28Z",
         "homeTeam": {
           "id": 583,
           "name": "Moreirense FC",
@@ -701240,15 +701673,15 @@
         },
         "id": 537612,
         "utcDate": "2026-01-24T15:30:00Z",
-        "status": "PAUSED",
-        "minute": 45,
+        "status": "IN_PLAY",
+        "minute": 55,
         "injuryTime": null,
         "attendance": null,
         "venue": "Johan Cruijff ArenA",
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-01-24T17:25:09Z",
+        "lastUpdated": "2026-01-24T17:41:28Z",
         "homeTeam": {
           "id": 678,
           "name": "AFC Ajax",
@@ -701417,7 +701850,7 @@
             "nationality": "Netherlands"
           },
           "leagueRank": 15,
-          "formation": "4-3-3",
+          "formation": "4-2-3-1",
           "lineup": [
             {
               "id": 186557,
