@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 164
+    "played": 165
   },
   "competition": {
     "id": 2017,
@@ -75566,15 +75566,15 @@
       },
       "id": 545868,
       "utcDate": "2026-01-24T18:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 5,
+      "injuryTime": 9,
       "attendance": null,
       "venue": "Municipal de Arouca",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T20:54:13Z",
+      "lastUpdated": "2026-01-24T20:59:53Z",
       "homeTeam": {
         "id": 712,
         "name": "FC Arouca",
@@ -75852,11 +75852,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -75904,6 +75904,27 @@
           "score": {
             "home": 1,
             "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 6,
+          "type": "REGULAR",
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scorer": {
+            "id": 32386,
+            "name": "Luis Suárez"
+          },
+          "assist": {
+            "id": 128825,
+            "name": "Geny Catamo"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
           }
         }
       ],
@@ -75968,6 +75989,54 @@
             "name": "Luis Suárez"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 73998,
+            "name": "Morten Hjulmand"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 45210,
+            "name": "Matheus Reis"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 32014,
+            "name": "Rui Silva"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 153734,
+            "name": "Matí­as Rocha"
+          },
+          "card": "RED"
         }
       ],
       "substitutions": [],

@@ -99237,15 +99237,15 @@
       },
       "id": 544420,
       "utcDate": "2026-01-24T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 5,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio de la Cerámica",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-24T20:00:51Z",
+      "lastUpdated": "2026-01-24T21:06:59Z",
       "homeTeam": {
         "id": 94,
         "name": "Villarreal CF",
@@ -99529,11 +99529,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -99542,7 +99542,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 2,
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "player": {
+            "id": 7996,
+            "name": "Juan Foyth"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
