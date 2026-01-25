@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 170
+    "played": 171
   },
   "competition": {
     "id": 2015,
@@ -78789,15 +78789,15 @@
       },
       "id": 542574,
       "utcDate": "2026-01-25T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 87,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Stade Pierre-Mauroy",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T22:29:48Z",
+      "lastUpdated": "2026-01-25T22:39:48Z",
       "homeTeam": {
         "id": 521,
         "name": "Lille OSC",
@@ -79078,7 +79078,7 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 4
         },
         "halfTime": {
@@ -79168,6 +79168,27 @@
           },
           "score": {
             "home": 0,
+            "away": 4
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "scorer": {
+            "id": 213511,
+            "name": "Matias Fernandez-Pardo"
+          },
+          "assist": {
+            "id": 170451,
+            "name": "Marius Broholm"
+          },
+          "score": {
+            "home": 1,
             "away": 4
           }
         }
