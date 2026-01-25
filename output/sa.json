@@ -106341,14 +106341,14 @@
       "id": 537027,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 64,
+      "minute": 81,
       "injuryTime": null,
       "attendance": null,
       "venue": "Gewiss Stadium",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T16:21:14Z",
+      "lastUpdated": "2026-01-25T16:37:50Z",
       "homeTeam": {
         "id": 102,
         "name": "Atalanta BC",
@@ -106671,7 +106671,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -106716,6 +106716,27 @@
           },
           "score": {
             "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 73,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "scorer": {
+            "id": 114117,
+            "name": "Giacomo Raspadori"
+          },
+          "assist": {
+            "id": 120679,
+            "name": "Nikola Krstović"
+          },
+          "score": {
+            "home": 3,
             "away": 0
           }
         }
@@ -106799,14 +106820,14 @@
       "id": 537028,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 62,
+      "minute": 79,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Luigi Ferraris",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T16:21:14Z",
+      "lastUpdated": "2026-01-25T16:37:51Z",
       "homeTeam": {
         "id": 107,
         "name": "Genoa CFC",
@@ -106906,6 +106927,12 @@
             "name": "Nils Zätterström",
             "position": "Defence",
             "shirtNumber": 13
+          },
+          {
+            "id": 252927,
+            "name": "Alin Kumer",
+            "position": "Defence",
+            "shirtNumber": 42
           },
           {
             "id": 179561,
@@ -107141,7 +107168,7 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 2
         },
         "halfTime": {
@@ -107188,6 +107215,24 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 62,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 107,
+            "name": "Genoa CFC"
+          },
+          "scorer": {
+            "id": 179561,
+            "name": "Ruslan Malinovskiy"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -107203,6 +107248,42 @@
             "name": "Łukasz Skorupski"
           },
           "card": "RED"
+        },
+        {
+          "minute": 68,
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "player": {
+            "id": 2076,
+            "name": "Ciro Immobile"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 71,
+          "team": {
+            "id": 107,
+            "name": "Genoa CFC"
+          },
+          "player": {
+            "id": 179561,
+            "name": "Ruslan Malinovskiy"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 75,
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "player": {
+            "id": 1862,
+            "name": "Federico Ravaglia"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],

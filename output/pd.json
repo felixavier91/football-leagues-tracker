@@ -100166,14 +100166,14 @@
       "id": 544413,
       "utcDate": "2026-01-25T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 2,
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Camp Nou",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T16:20:49Z",
+      "lastUpdated": "2026-01-25T16:37:29Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -100342,7 +100342,7 @@
           "nationality": "Uruguay"
         },
         "leagueRank": 20,
-        "formation": "4-4-2",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 32016,
@@ -100494,7 +100494,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 9,
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "player": {
+            "id": 264320,
+            "name": "Gerard Martín"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -100606,7 +100619,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 80747,
+          "name": "Javier Alberola Rojas",
+          "type": "REFEREE",
+          "nationality": null
+        },
+        {
+          "id": 206207,
+          "name": "Alfredo Rodríguez Moreno",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 207062,
+          "name": "Jorge Bueno Mateo",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {

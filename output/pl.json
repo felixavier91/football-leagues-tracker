@@ -103216,14 +103216,14 @@
       "id": 538006,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 63,
+      "minute": 80,
       "injuryTime": null,
       "attendance": null,
       "venue": "Selhurst Park",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T16:20:40Z",
+      "lastUpdated": "2026-01-25T16:37:23Z",
       "homeTeam": {
         "id": 354,
         "name": "Crystal Palace FC",
@@ -103505,7 +103505,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": 0,
@@ -103551,9 +103551,39 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 64,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "scorer": {
+            "id": 102603,
+            "name": "Enzo Fernández"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 3
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 102603,
+            "name": "Enzo Fernández"
+          },
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 20,
@@ -103566,6 +103596,42 @@
             "name": "Moisés Caicedo"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 63,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 260271,
+            "name": "Jaydee Canvot"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 67,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 180389,
+            "name": "Adam Wharton"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 72,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 180389,
+            "name": "Adam Wharton"
+          },
+          "card": "YELLOW_RED"
         }
       ],
       "substitutions": [],
@@ -103620,14 +103686,14 @@
       "id": 538008,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 57,
+      "minute": 73,
       "injuryTime": null,
       "attendance": null,
       "venue": "Brentford Community Stadium",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T16:20:40Z",
+      "lastUpdated": "2026-01-25T16:37:23Z",
       "homeTeam": {
         "id": 402,
         "name": "Brentford FC",
@@ -103937,7 +104003,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 66,
+          "team": {
+            "id": 402,
+            "name": "Brentford FC"
+          },
+          "player": {
+            "id": 204421,
+            "name": "Yegor Yarmolyuk"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -103990,14 +104069,14 @@
       "id": 538013,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 61,
+      "minute": 77,
       "injuryTime": null,
       "attendance": 52134,
       "venue": "St James' Park",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T16:20:41Z",
+      "lastUpdated": "2026-01-25T16:37:23Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -104383,7 +104462,7 @@
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T10:21:01Z",
+      "lastUpdated": "2026-01-25T16:28:12Z",
       "homeTeam": {
         "id": 57,
         "name": "Arsenal FC",
@@ -104396,9 +104475,131 @@
           "nationality": "Spain"
         },
         "leagueRank": 1,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 4832,
+            "name": "David Raya",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 99813,
+            "name": "Bukayo Saka",
+            "position": "Right Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 3236,
+            "name": "Gabriel Jesus",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 8984,
+            "name": "Leandro Trossard",
+            "position": "Left Winger",
+            "shirtNumber": 19
+          },
+          {
+            "id": 7427,
+            "name": "Martin Ødegaard",
+            "position": "Attacking Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 115035,
+            "name": "Martín Zubimendi",
+            "position": "Defensive Midfield",
+            "shirtNumber": 36
+          },
+          {
+            "id": 8215,
+            "name": "Declan Rice",
+            "position": "Central Midfield",
+            "shirtNumber": 41
+          },
+          {
+            "id": 98816,
+            "name": "Jurrien Timber",
+            "position": "Right-Back",
+            "shirtNumber": 12
+          },
+          {
+            "id": 80171,
+            "name": "William Saliba",
+            "position": "Centre-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 23128,
+            "name": "Gabriel",
+            "position": "Centre-Back",
+            "shirtNumber": 6
+          },
+          {
+            "id": 125674,
+            "name": "Piero Hincapié",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          }
+        ],
+        "bench": [
+          {
+            "id": 3189,
+            "name": "Kepa Arrizabalaga",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 6154,
+            "name": "Ben White",
+            "position": "Right-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 172839,
+            "name": "Cristhian Mosquera",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 7935,
+            "name": "Mikel Merino",
+            "position": "Central Midfield",
+            "shirtNumber": 23
+          },
+          {
+            "id": 61450,
+            "name": "Martinelli",
+            "position": "Left Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 167720,
+            "name": "Noni Madueke",
+            "position": "Right Winger",
+            "shirtNumber": 20
+          },
+          {
+            "id": 244120,
+            "name": "Myles Lewis-Skelly",
+            "position": "Left-Back",
+            "shirtNumber": 49
+          },
+          {
+            "id": 8279,
+            "name": "Viktor Gyökeres",
+            "position": "Centre-Forward",
+            "shirtNumber": 14
+          },
+          {
+            "id": 4032,
+            "name": "Eberechi Eze",
+            "position": "Attacking Midfield",
+            "shirtNumber": 10
+          }
+        ]
       },
       "awayTeam": {
         "id": 66,
@@ -104412,9 +104613,131 @@
           "nationality": "England"
         },
         "leagueRank": 5,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-2-3-1",
+        "lineup": [
+          {
+            "id": 129946,
+            "name": "Senne Lammens",
+            "position": "Goalkeeper",
+            "shirtNumber": 31
+          },
+          {
+            "id": 8626,
+            "name": "Bryan Mbeumo",
+            "position": "Right Winger",
+            "shirtNumber": 19
+          },
+          {
+            "id": 133584,
+            "name": "Amad Diallo",
+            "position": "Right Winger",
+            "shirtNumber": 16
+          },
+          {
+            "id": 3257,
+            "name": "Bruno Fernandes",
+            "position": "Attacking Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 211559,
+            "name": "Patrick Dorgu",
+            "position": "Left-Back",
+            "shirtNumber": 13
+          },
+          {
+            "id": 3231,
+            "name": "Casemiro",
+            "position": "Defensive Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 190797,
+            "name": "Kobbie Mainoo",
+            "position": "Central Midfield",
+            "shirtNumber": 37
+          },
+          {
+            "id": 15905,
+            "name": "Diogo Dalot",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 3326,
+            "name": "Harry Maguire",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 46451,
+            "name": "Lisandro Martínez",
+            "position": "Centre-Back",
+            "shirtNumber": 6
+          },
+          {
+            "id": 7898,
+            "name": "Luke Shaw",
+            "position": "Left-Back",
+            "shirtNumber": 23
+          }
+        ],
+        "bench": [
+          {
+            "id": 29518,
+            "name": "Altay Bayındır",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 124244,
+            "name": "Benjamin Šeško",
+            "position": "Centre-Forward",
+            "shirtNumber": 30
+          },
+          {
+            "id": 181933,
+            "name": "Leny Yoro",
+            "position": "Centre-Back",
+            "shirtNumber": 15
+          },
+          {
+            "id": 28549,
+            "name": "Manuel Ugarte",
+            "position": "Defensive Midfield",
+            "shirtNumber": 25
+          },
+          {
+            "id": 30842,
+            "name": "Matheus Cunha",
+            "position": "Centre-Forward",
+            "shirtNumber": 10
+          },
+          {
+            "id": 7599,
+            "name": "Mason Mount",
+            "position": "Attacking Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 7553,
+            "name": "Noussair Mazraoui",
+            "position": "Right-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 7467,
+            "name": "Tyrell Malacia",
+            "position": "Left-Back",
+            "shirtNumber": 12
+          },
+          {
+            "id": 247644,
+            "name": "Ayden Heaven",
+            "position": "Centre-Back",
+            "shirtNumber": 26
+          }
+        ]
       },
       "score": {
         "winner": null,
