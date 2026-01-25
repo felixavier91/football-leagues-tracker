@@ -78789,15 +78789,15 @@
       },
       "id": 542574,
       "utcDate": "2026-01-25T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 25,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Pierre-Mauroy",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T21:10:48Z",
+      "lastUpdated": "2026-01-25T21:39:58Z",
       "homeTeam": {
         "id": 521,
         "name": "Lille OSC",
@@ -79079,11 +79079,11 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "goals": [
@@ -79107,10 +79107,56 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 26,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "scorer": {
+            "id": 168949,
+            "name": "Julio Enciso"
+          },
+          "assist": {
+            "id": 203561,
+            "name": "Joaquín Panichelli"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 36,
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "player": {
+            "id": 135473,
+            "name": "Guela Doué"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 36,
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "player": {
+            "id": 221819,
+            "name": "Ayyoub Bouaddi"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
