@@ -78790,14 +78790,14 @@
       "id": 542574,
       "utcDate": "2026-01-25T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 11,
+      "minute": 25,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Pierre-Mauroy",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T20:56:48Z",
+      "lastUpdated": "2026-01-25T21:10:48Z",
       "homeTeam": {
         "id": 521,
         "name": "Lille OSC",
@@ -79075,18 +79075,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 25,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "scorer": {
+            "id": 203561,
+            "name": "Joaquín Panichelli"
+          },
+          "assist": {
+            "id": 135473,
+            "name": "Guela Doué"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
