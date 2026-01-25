@@ -78622,14 +78622,14 @@
       "id": 540575,
       "utcDate": "2026-01-25T16:30:00Z",
       "status": "IN_PLAY",
-      "minute": 59,
+      "minute": 68,
       "injuryTime": null,
       "attendance": null,
       "venue": "Europa-Park Stadion",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T18:47:53Z",
+      "lastUpdated": "2026-01-25T18:56:27Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -78980,8 +78980,33 @@
           }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 156629,
+            "name": "Igor Matanovic"
+          },
+          "team": {
+            "id": 17,
+            "name": "SC Freiburg"
+          },
+          "scored": false
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 62,
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "player": {
+            "id": 99812,
+            "name": "Tom Krauß"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

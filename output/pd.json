@@ -100642,14 +100642,14 @@
       "id": 544415,
       "utcDate": "2026-01-25T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 15,
+      "minute": 23,
       "injuryTime": null,
       "attendance": null,
       "venue": "Reale Arena",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T18:47:44Z",
+      "lastUpdated": "2026-01-25T18:56:04Z",
       "homeTeam": {
         "id": 92,
         "name": "Real Sociedad de Fútbol",
@@ -100963,10 +100963,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -100974,9 +100974,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 17,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol"
+          },
+          "scorer": {
+            "id": 180137,
+            "name": "Mikel Oyarzabal"
+          },
+          "assist": {
+            "id": 156615,
+            "name": "Beñat Turrientes"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 16,
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol"
+          },
+          "player": {
+            "id": 82516,
+            "name": "Luka Sučić"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
