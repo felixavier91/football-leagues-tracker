@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 166
+    "played": 167
   },
   "competition": {
     "id": 2017,
@@ -76626,15 +76626,15 @@
       },
       "id": 545866,
       "utcDate": "2026-01-25T15:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Estádio da Madeira",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T18:22:48Z",
+      "lastUpdated": "2026-01-25T18:27:43Z",
       "homeTeam": {
         "id": 5529,
         "name": "CD Nacional",
@@ -76915,7 +76915,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 0
         },
         "halfTime": {
@@ -76986,6 +76986,27 @@
             "home": 3,
             "away": 0
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5529,
+            "name": "CD Nacional"
+          },
+          "scorer": {
+            "id": 37194,
+            "name": "Witi"
+          },
+          "assist": {
+            "id": 179837,
+            "name": "Matheus Dias"
+          },
+          "score": {
+            "home": 4,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
@@ -77011,6 +77032,18 @@
           "player": {
             "id": 169570,
             "name": "Zé Vitor"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 5529,
+            "name": "CD Nacional"
+          },
+          "player": {
+            "id": 243604,
+            "name": "José Gomes"
           },
           "card": "YELLOW"
         }
@@ -77508,6 +77541,12 @@
           }
         ],
         "bench": [
+          {
+            "id": 282866,
+            "name": "Arnas Voitinovičius",
+            "position": "Goalkeeper",
+            "shirtNumber": 51
+          },
           {
             "id": 246194,
             "name": "Diogo Prioste",

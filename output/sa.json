@@ -107410,14 +107410,14 @@
       "id": 537032,
       "utcDate": "2026-01-25T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 21,
+      "minute": 37,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Stadium",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T18:22:20Z",
+      "lastUpdated": "2026-01-25T18:38:04Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -107707,10 +107707,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -107718,9 +107718,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "scorer": {
+            "id": 8924,
+            "name": "Jonathan David"
+          },
+          "assist": {
+            "id": 1751,
+            "name": "Manuel Locatelli"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 34,
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "player": {
+            "id": 161310,
+            "name": "Juan Jesus"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
