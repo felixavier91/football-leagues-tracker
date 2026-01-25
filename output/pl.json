@@ -103216,14 +103216,14 @@
       "id": 538006,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 19,
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Selhurst Park",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T15:20:15Z",
+      "lastUpdated": "2026-01-25T15:34:09Z",
       "homeTeam": {
         "id": 354,
         "name": "Crystal Palace FC",
@@ -103514,7 +103514,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 20,
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "player": {
+            "id": 121103,
+            "name": "Moisés Caicedo"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -103567,14 +103580,14 @@
       "id": 538008,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 19,
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "Brentford Community Stadium",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T15:20:15Z",
+      "lastUpdated": "2026-01-25T15:34:09Z",
       "homeTeam": {
         "id": 402,
         "name": "Brentford FC",
@@ -103937,14 +103950,14 @@
       "id": 538013,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 19,
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "St James' Park",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T15:20:15Z",
+      "lastUpdated": "2026-01-25T15:34:09Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -104246,7 +104259,10 @@
             "id": 31941,
             "name": "Emiliano Buendía"
           },
-          "assist": null,
+          "assist": {
+            "id": 82140,
+            "name": "Morgan Rogers"
+          },
           "score": {
             "home": 0,
             "away": 1
@@ -104254,7 +104270,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 27,
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "player": {
+            "id": 10653,
+            "name": "Joelinton"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -104366,7 +104395,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11585,
+          "name": "Craig Pawson",
+          "type": "REFEREE",
+          "nationality": "England"
+        },
+        {
+          "id": 11530,
+          "name": "Lee Betts",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "England"
+        },
+        {
+          "id": 193196,
+          "name": "Matt Wilkes",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "England"
+        }
+      ]
     },
     {
       "area": {
