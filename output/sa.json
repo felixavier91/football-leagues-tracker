@@ -106341,14 +106341,14 @@
       "id": 537027,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 7,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Gewiss Stadium",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T15:07:22Z",
+      "lastUpdated": "2026-01-25T15:20:36Z",
       "homeTeam": {
         "id": 102,
         "name": "Atalanta BC",
@@ -106668,10 +106668,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -106679,8 +106679,39 @@
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 15,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "scorer": {
+            "id": 2681,
+            "name": "Gianluca Scamacca"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 2681,
+            "name": "Gianluca Scamacca"
+          },
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {
@@ -106734,14 +106765,14 @@
       "id": 537028,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 5,
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Luigi Ferraris",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T15:07:23Z",
+      "lastUpdated": "2026-01-25T15:20:36Z",
       "homeTeam": {
         "id": 107,
         "name": "Genoa CFC",

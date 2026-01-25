@@ -76941,14 +76941,14 @@
       "id": 542571,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 7,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de la Beaujoire",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T15:07:34Z",
+      "lastUpdated": "2026-01-25T15:20:49Z",
       "homeTeam": {
         "id": 543,
         "name": "FC Nantes",
@@ -76961,7 +76961,7 @@
           "nationality": "Morocco"
         },
         "leagueRank": 16,
-        "formation": "5-4-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 3240,
@@ -77226,20 +77226,67 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 16,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "scorer": {
+            "id": 213270,
+            "name": "Mohamed Cho"
+          },
+          "assist": {
+            "id": 1023,
+            "name": "Jonathan Clauss"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 9,
+          "team": {
+            "id": 543,
+            "name": "FC Nantes"
+          },
+          "player": {
+            "id": 149044,
+            "name": "Johann Lepenant"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 17,
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "player": {
+            "id": 99394,
+            "name": "Ali El Abdi"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -77351,7 +77398,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57092,
+          "name": "Eric Wattellier",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 57041,
+          "name": "Mikael Berchebru",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 57053,
+          "name": "Aurélien Drouet",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -77439,7 +77505,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57039,
+          "name": "Thomas Léonard",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 57049,
+          "name": "Mehdi Rahmouni",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 64786,
+          "name": "Julien Haulbert",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -77527,7 +77612,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57084,
+          "name": "Guillaume Paradis",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 213837,
+          "name": "Nicolas Durand",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 57080,
+          "name": "Cyril Mugnier",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
