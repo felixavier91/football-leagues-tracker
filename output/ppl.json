@@ -77099,15 +77099,15 @@
       },
       "id": 545869,
       "utcDate": "2026-01-25T18:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 61,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Municipal 22 de Junho",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T19:50:53Z",
+      "lastUpdated": "2026-01-25T20:18:58Z",
       "homeTeam": {
         "id": 5531,
         "name": "FC Famalicão",
@@ -77420,7 +77420,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 51,
+          "team": {
+            "id": 1049,
+            "name": "CD Tondela"
+          },
+          "player": {
+            "id": 32288,
+            "name": "João Afonso"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -77473,14 +77486,14 @@
       "id": 545870,
       "utcDate": "2026-01-25T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 45,
-      "injuryTime": 4,
+      "minute": 57,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Estádio da Luz",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T19:50:53Z",
+      "lastUpdated": "2026-01-25T20:18:58Z",
       "homeTeam": {
         "id": 1903,
         "name": "Sport Lisboa e Benfica",
@@ -77761,12 +77774,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -77790,9 +77803,39 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 55,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "scorer": {
+            "id": 67299,
+            "name": "Vangelis Pavlidis"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 67299,
+            "name": "Vangelis Pavlidis"
+          },
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 15,
@@ -77851,6 +77894,18 @@
           "player": {
             "id": 185610,
             "name": "Antonio Silva"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 52,
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "player": {
+            "id": 80875,
+            "name": "Jefferson Encada"
           },
           "card": "YELLOW"
         }
