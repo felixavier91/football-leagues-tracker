@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-23",
     "last": "2026-05-24",
-    "played": 215
+    "played": 216
   },
   "competition": {
     "id": 2019,
@@ -106340,15 +106340,15 @@
       },
       "id": 537027,
       "utcDate": "2026-01-25T14:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Gewiss Stadium",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T16:47:43Z",
+      "lastUpdated": "2026-01-25T16:53:10Z",
       "homeTeam": {
         "id": 102,
         "name": "Atalanta BC",
@@ -106671,7 +106671,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 0
         },
         "halfTime": {
@@ -106737,6 +106737,24 @@
           },
           "score": {
             "home": 3,
+            "away": 0
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "scorer": {
+            "id": 120679,
+            "name": "Nikola Krstović"
+          },
+          "assist": null,
+          "score": {
+            "home": 4,
             "away": 0
           }
         }
@@ -106820,14 +106838,14 @@
       "id": 537028,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 88,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Stadio Luigi Ferraris",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T16:47:43Z",
+      "lastUpdated": "2026-01-25T16:56:48Z",
       "homeTeam": {
         "id": 107,
         "name": "Genoa CFC",
@@ -107165,10 +107183,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 2
         },
         "halfTime": {
@@ -107252,6 +107270,27 @@
           },
           "score": {
             "home": 2,
+            "away": 2
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 107,
+            "name": "Genoa CFC"
+          },
+          "scorer": {
+            "id": 97869,
+            "name": "Junior Messias"
+          },
+          "assist": {
+            "id": 188644,
+            "name": "Alessandro Marcandalli"
+          },
+          "score": {
+            "home": 3,
             "away": 2
           }
         }

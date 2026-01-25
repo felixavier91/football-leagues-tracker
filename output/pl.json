@@ -103217,13 +103217,13 @@
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 8,
       "attendance": null,
       "venue": "Selhurst Park",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T16:47:23Z",
+      "lastUpdated": "2026-01-25T16:56:18Z",
       "homeTeam": {
         "id": 354,
         "name": "Crystal Palace FC",
@@ -103582,7 +103582,10 @@
             "id": 99856,
             "name": "Chris Richards"
           },
-          "assist": null,
+          "assist": {
+            "id": 150948,
+            "name": "Chadi Riad"
+          },
           "score": {
             "home": 1,
             "away": 3
@@ -103650,6 +103653,30 @@
             "name": "Adam Wharton"
           },
           "card": "YELLOW_RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 3737,
+            "name": "Jefferson Lerma"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "player": {
+            "id": 166366,
+            "name": "Andrey Santos"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -103704,14 +103731,14 @@
       "id": 538008,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 83,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Brentford Community Stadium",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T16:47:23Z",
+      "lastUpdated": "2026-01-25T16:56:18Z",
       "homeTeam": {
         "id": 402,
         "name": "Brentford FC",
@@ -104108,14 +104135,14 @@
       "id": 538013,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 87,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": 52134,
       "venue": "St James' Park",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T16:47:23Z",
+      "lastUpdated": "2026-01-25T16:56:18Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -104397,7 +104424,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -104425,6 +104452,27 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 58,
+            "name": "Aston Villa FC"
+          },
+          "scorer": {
+            "id": 4444,
+            "name": "Ollie Watkins"
+          },
+          "assist": {
+            "id": 3359,
+            "name": "Lucas Digne"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -104450,6 +104498,18 @@
           "player": {
             "id": 3359,
             "name": "Lucas Digne"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 58,
+            "name": "Aston Villa FC"
+          },
+          "player": {
+            "id": 131120,
+            "name": "Ian Maatsen"
           },
           "card": "YELLOW"
         }
