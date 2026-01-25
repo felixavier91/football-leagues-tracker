@@ -77099,15 +77099,15 @@
       },
       "id": 545869,
       "utcDate": "2026-01-25T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 32,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Municipal 22 de Junho",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T19:33:48Z",
+      "lastUpdated": "2026-01-25T19:50:53Z",
       "homeTeam": {
         "id": 5531,
         "name": "FC Famalicão",
@@ -77392,8 +77392,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -77473,14 +77473,14 @@
       "id": 545870,
       "utcDate": "2026-01-25T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 32,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Estádio da Luz",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T19:33:48Z",
+      "lastUpdated": "2026-01-25T19:50:53Z",
       "homeTeam": {
         "id": 1903,
         "name": "Sport Lisboa e Benfica",
@@ -77758,10 +77758,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -77769,7 +77769,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "scorer": {
+            "id": 67299,
+            "name": "Vangelis Pavlidis"
+          },
+          "assist": {
+            "id": 209178,
+            "name": "Sidny Lopes Cabral"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -77781,6 +77803,54 @@
           "player": {
             "id": 122432,
             "name": "Kevin Höög-Jansson"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 33,
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "player": {
+            "id": 81357,
+            "name": "Ianis Stoica"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 37,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "player": {
+            "id": 158894,
+            "name": "Enzo Barrenechea"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "player": {
+            "id": 38088,
+            "name": "Fredrik Aursnes"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "player": {
+            "id": 185610,
+            "name": "Antonio Silva"
           },
           "card": "YELLOW"
         }
