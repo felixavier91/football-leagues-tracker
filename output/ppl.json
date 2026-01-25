@@ -78046,14 +78046,14 @@
       "id": 545863,
       "utcDate": "2026-01-25T20:30:00Z",
       "status": "IN_PLAY",
-      "minute": 7,
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Municipal de Braga",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T21:40:18Z",
+      "lastUpdated": "2026-01-25T21:59:48Z",
       "homeTeam": {
         "id": 5613,
         "name": "Sporting Clube de Braga",
@@ -78204,7 +78204,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 10,
-        "formation": "3-4-3",
+        "formation": "3-4-2-1",
         "lineup": [
           {
             "id": 192010,
@@ -78331,10 +78331,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -78342,7 +78342,47 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 17,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "scorer": {
+            "id": 13911,
+            "name": "Vitor Carvalho"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 23,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "scorer": {
+            "id": 121007,
+            "name": "Rodrigo Zalazar"
+          },
+          "assist": {
+            "id": 45401,
+            "name": "Ricardo Horta"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
