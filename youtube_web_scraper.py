@@ -268,6 +268,12 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                         print(f"  ⏭️  Skipping (Serie A requires CBS Sports Golazo): {video_title}")
                         continue
                 
+                # Ligue 1 videos must have "beIN SPORTS USA" in title
+                if league_code == "FL1":
+                    if "bein sports usa" not in video_title_lower:
+                        print(f"  ⏭️  Skipping (Ligue 1 requires beIN SPORTS USA): {video_title}")
+                        continue
+                
                 # Portuguese league videos must have pattern "| TeamName Score-Score TeamName |" in title
                 # Example: "| Peñarol 2-2 Nacional |" or "| Benfica 3-1 Porto |"
                 # Prefer videos with Spanish words (GolTV uses Spanish: GOLES, PENAL, PUNTOS, etc.)
