@@ -77455,15 +77455,15 @@
       },
       "id": 542570,
       "utcDate": "2026-01-25T16:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T16:34:08Z",
+      "lastUpdated": "2026-01-25T17:42:29Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -77476,7 +77476,7 @@
           "nationality": "France"
         },
         "leagueRank": 18,
-        "formation": "4-2-3-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 246635,
@@ -77614,7 +77614,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 4,
-        "formation": "4-4-2",
+        "formation": "4-3-2-1",
         "lineup": [
           {
             "id": 79776,
@@ -77741,18 +77741,61 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 11,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "scorer": {
+            "id": 188487,
+            "name": "Endrick"
+          },
+          "assist": {
+            "id": 366,
+            "name": "Corentin Tolisso"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 16,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "scorer": {
+            "id": 137655,
+            "name": "Ruben Kluivert"
+          },
+          "assist": {
+            "id": 281451,
+            "name": "Khalis Merah"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -77806,15 +77849,15 @@
       },
       "id": 542572,
       "utcDate": "2026-01-25T16:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Jean Bouin",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T16:34:08Z",
+      "lastUpdated": "2026-01-25T17:42:29Z",
       "homeTeam": {
         "id": 1045,
         "name": "Paris FC",
@@ -78092,11 +78135,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -78157,15 +78200,15 @@
       },
       "id": 542575,
       "utcDate": "2026-01-25T16:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Francis-Le Blé",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T16:18:25Z",
+      "lastUpdated": "2026-01-25T17:42:29Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -78178,13 +78221,19 @@
           "nationality": "France"
         },
         "leagueRank": 11,
-        "formation": "4-2-3-1",
+        "formation": "4-2-2-2",
         "lineup": [
           {
             "id": 731,
             "name": "Grégoire Coudert",
             "position": "Goalkeeper",
             "shirtNumber": 30
+          },
+          {
+            "id": 160896,
+            "name": "Daouda Guindo",
+            "position": "Defence",
+            "shirtNumber": 27
           },
           {
             "id": 723,
@@ -78310,7 +78359,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 8,
-        "formation": "3-4-3",
+        "formation": "3-4-2-1",
         "lineup": [
           {
             "id": 178669,
@@ -78437,11 +78486,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -78450,7 +78499,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 15,
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "player": {
+            "id": 723,
+            "name": "Ludovic Ajorque"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

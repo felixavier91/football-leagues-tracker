@@ -78621,15 +78621,15 @@
       },
       "id": 540575,
       "utcDate": "2026-01-25T16:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 12,
       "injuryTime": null,
       "attendance": null,
       "venue": "Europa-Park Stadion",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T16:19:45Z",
+      "lastUpdated": "2026-01-25T17:42:12Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -78907,18 +78907,58 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 10,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 17,
+            "name": "SC Freiburg"
+          },
+          "scorer": {
+            "id": 171203,
+            "name": "Max Rosenfelder"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 11,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 17,
+            "name": "SC Freiburg"
+          },
+          "scorer": {
+            "id": 175704,
+            "name": "Derry Scherhant"
+          },
+          "assist": {
+            "id": 145293,
+            "name": "Yuito Suzuki"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

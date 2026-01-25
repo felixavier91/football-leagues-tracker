@@ -86348,14 +86348,14 @@
       "id": 537614,
       "utcDate": "2026-01-25T15:45:00Z",
       "status": "IN_PLAY",
-      "minute": 24,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 11,
       "attendance": null,
       "venue": "Stadion Galgenwaard",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T17:10:53Z",
+      "lastUpdated": "2026-01-25T17:42:43Z",
       "homeTeam": {
         "id": 676,
         "name": "FC Utrecht",
@@ -86698,7 +86698,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 28,
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "player": {
+            "id": 7949,
+            "name": "Bruno Martins Indi"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -86750,15 +86763,15 @@
       },
       "id": 537615,
       "utcDate": "2026-01-25T15:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 23,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Kuip",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T17:10:53Z",
+      "lastUpdated": "2026-01-25T17:42:44Z",
       "homeTeam": {
         "id": 675,
         "name": "Feyenoord Rotterdam",
@@ -87066,15 +87079,15 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         }
       },
       "goals": [
@@ -87090,15 +87103,106 @@
             "id": 214587,
             "name": "Leo Sauer"
           },
-          "assist": null,
+          "assist": {
+            "id": 244466,
+            "name": "Anis Moussa"
+          },
           "score": {
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 29,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 671,
+            "name": "Heracles Almelo"
+          },
+          "scorer": {
+            "id": 262684,
+            "name": "Luka Kulenović"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 35,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 675,
+            "name": "Feyenoord Rotterdam"
+          },
+          "scorer": {
+            "id": 176299,
+            "name": "Jordan Bos"
+          },
+          "assist": {
+            "id": 170561,
+            "name": "In-beom Hwang"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 262684,
+            "name": "Luka Kulenović"
+          },
+          "team": {
+            "id": 671,
+            "name": "Heracles Almelo"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 32,
+          "team": {
+            "id": 671,
+            "name": "Heracles Almelo"
+          },
+          "player": {
+            "id": 167699,
+            "name": "Lequincio Zeefuik"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 32,
+          "team": {
+            "id": 675,
+            "name": "Feyenoord Rotterdam"
+          },
+          "player": {
+            "id": 169190,
+            "name": "Luciano Valente"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 39,
+          "team": {
+            "id": 671,
+            "name": "Heracles Almelo"
+          },
+          "player": {
+            "id": 117473,
+            "name": "Ivan Mesík"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

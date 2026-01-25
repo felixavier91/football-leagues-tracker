@@ -100166,14 +100166,14 @@
       "id": 544413,
       "utcDate": "2026-01-25T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 48,
+      "minute": 64,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 44763,
       "venue": "Camp Nou",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T17:25:53Z",
+      "lastUpdated": "2026-01-25T17:41:53Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -100481,10 +100481,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -100492,7 +100492,44 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 52,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 23132,
+            "name": "Dani Olmo"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 57,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 37428,
+            "name": "Raphinha"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -100591,7 +100628,7 @@
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T01:32:00Z",
+      "lastUpdated": "2026-01-25T17:28:01Z",
       "homeTeam": {
         "id": 92,
         "name": "Real Sociedad de Fútbol",
@@ -100604,7 +100641,7 @@
           "nationality": "USA"
         },
         "leagueRank": 10,
-        "formation": null,
+        "formation": "4-4-2",
         "lineup": [
           {
             "id": 32413,
@@ -100705,6 +100742,12 @@
             "shirtNumber": 9
           },
           {
+            "id": 277466,
+            "name": "Dani Díaz",
+            "position": "Offence",
+            "shirtNumber": 26
+          },
+          {
             "id": 29,
             "name": "Igor Zubeldía",
             "position": "Centre-Back",
@@ -100754,9 +100797,149 @@
           "nationality": "Spain"
         },
         "leagueRank": 7,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "3-4-3",
+        "lineup": [
+          {
+            "id": 2788,
+            "name": "Ionuț Radu",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 279927,
+            "name": "Manuel Fernández",
+            "position": "Defence",
+            "shirtNumber": 12
+          },
+          {
+            "id": 180502,
+            "name": "Jones El-Abdellaoui",
+            "position": "Midfield",
+            "shirtNumber": 39
+          },
+          {
+            "id": 180104,
+            "name": "Bryan Zaragoza",
+            "position": "Offence",
+            "shirtNumber": 15
+          },
+          {
+            "id": 188859,
+            "name": "Pablo Duran",
+            "position": "Centre-Forward",
+            "shirtNumber": 18
+          },
+          {
+            "id": 133570,
+            "name": "Sergio Carreira",
+            "position": "Right-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 157368,
+            "name": "Ilaix Moriba",
+            "position": "Central Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 168650,
+            "name": "Hugo Sotelo",
+            "position": "Central Midfield",
+            "shirtNumber": 22
+          },
+          {
+            "id": 175869,
+            "name": "Hugo Alvarez",
+            "position": "Left Winger",
+            "shirtNumber": 23
+          },
+          {
+            "id": 31019,
+            "name": "Carl Starfelt",
+            "position": "Centre-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 3195,
+            "name": "Marcos Alonso",
+            "position": "Left-Back",
+            "shirtNumber": 20
+          }
+        ],
+        "bench": [
+          {
+            "id": 32918,
+            "name": "Iván Villar",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 288775,
+            "name": "Hugo Burcio",
+            "position": "Midfield",
+            "shirtNumber": 38
+          },
+          {
+            "id": 272435,
+            "name": "Miguel Román",
+            "position": "Midfield",
+            "shirtNumber": 16
+          },
+          {
+            "id": 170438,
+            "name": "Williot Swedberg",
+            "position": "Left Winger",
+            "shirtNumber": 19
+          },
+          {
+            "id": 253001,
+            "name": "Javi Rueda",
+            "position": "Right-Back",
+            "shirtNumber": 17
+          },
+          {
+            "id": 229003,
+            "name": "Javi Rodríguez",
+            "position": "Centre-Back",
+            "shirtNumber": 32
+          },
+          {
+            "id": 57610,
+            "name": "Mihajlo Ristić",
+            "position": "Left-Back",
+            "shirtNumber": 21
+          },
+          {
+            "id": 146986,
+            "name": "Óscar Mingueza",
+            "position": "Right-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 32056,
+            "name": "Borja Iglesias",
+            "position": "Centre-Forward",
+            "shirtNumber": 7
+          },
+          {
+            "id": 159446,
+            "name": "Carlos Dominguez",
+            "position": "Centre-Back",
+            "shirtNumber": 24
+          },
+          {
+            "id": 3201,
+            "name": "Iago Aspas",
+            "position": "Centre-Forward",
+            "shirtNumber": 10
+          },
+          {
+            "id": 8968,
+            "name": "Joseph Aidoo",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          }
+        ]
       },
       "score": {
         "winner": null,
