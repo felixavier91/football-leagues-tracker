@@ -85847,15 +85847,15 @@
       },
       "id": 537613,
       "utcDate": "2026-01-25T13:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 35,
       "injuryTime": null,
       "attendance": null,
       "venue": "Euroborg",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T13:42:50Z",
+      "lastUpdated": "2026-01-25T15:07:53Z",
       "homeTeam": {
         "id": 677,
         "name": "FC Groningen",
@@ -86157,20 +86157,109 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 6,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "scorer": {
+            "id": 217464,
+            "name": "Dies Janse"
+          },
+          "assist": {
+            "id": 186400,
+            "name": "Younes Taha"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 12,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "scorer": {
+            "id": 7574,
+            "name": "Kaj Sierhuis"
+          },
+          "assist": {
+            "id": 244801,
+            "name": "Justin Hubner"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 32,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "scorer": {
+            "id": 81053,
+            "name": "Lance Duijvestijn"
+          },
+          "assist": {
+            "id": 3983,
+            "name": "Ivo Pinto"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 25,
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "player": {
+            "id": 154590,
+            "name": "Stije Resink"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 35,
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "player": {
+            "id": 102339,
+            "name": "Mohammed Ihattaren"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -86282,7 +86371,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56917,
+          "name": "Erwin Blank",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 17128,
+          "name": "Nils van Kampen",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 81024,
+          "name": "Roan van Marrewijk",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
@@ -86370,7 +86478,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43858,
+          "name": "Serdar Gözübüyük",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 17109,
+          "name": "Patrick Inia",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 56924,
+          "name": "Rogier Honig",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
