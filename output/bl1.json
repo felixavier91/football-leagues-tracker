@@ -78176,14 +78176,14 @@
       "id": 540571,
       "utcDate": "2026-01-25T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 25,
+      "minute": 37,
       "injuryTime": null,
       "attendance": null,
       "venue": "Borussia-Park",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T15:55:49Z",
+      "lastUpdated": "2026-01-25T16:07:18Z",
       "homeTeam": {
         "id": 18,
         "name": "Borussia Mönchengladbach",
@@ -78461,18 +78461,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "scorer": {
+            "id": 123333,
+            "name": "Jamie Leweling"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [
         {
           "player": {
