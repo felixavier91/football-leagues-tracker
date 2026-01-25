@@ -106341,14 +106341,14 @@
       "id": 537027,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 34,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Gewiss Stadium",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T15:34:50Z",
+      "lastUpdated": "2026-01-25T15:46:39Z",
       "homeTeam": {
         "id": 102,
         "name": "Atalanta BC",
@@ -106786,14 +106786,14 @@
       "id": 537028,
       "utcDate": "2026-01-25T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 32,
+      "minute": 44,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Luigi Ferraris",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T15:34:50Z",
+      "lastUpdated": "2026-01-25T15:46:39Z",
       "homeTeam": {
         "id": 107,
         "name": "Genoa CFC",
@@ -107125,18 +107125,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 35,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "scorer": {
+            "id": 34638,
+            "name": "Lewis Ferguson"
+          },
+          "assist": {
+            "id": 191379,
+            "name": "Benjamín Domínguez"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
