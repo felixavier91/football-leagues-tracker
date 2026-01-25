@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 228
+    "played": 229
   },
   "competition": {
     "id": 2021,
@@ -104565,15 +104565,15 @@
       },
       "id": 538007,
       "utcDate": "2026-01-25T16:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 84,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 8,
       "attendance": 60296,
       "venue": "Emirates Stadium",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T19:11:18Z",
+      "lastUpdated": "2026-01-25T19:28:18Z",
       "homeTeam": {
         "id": 57,
         "name": "Arsenal FC",
@@ -104854,8 +104854,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 2
+          "home": 2,
+          "away": 3
         },
         "halfTime": {
           "home": 1,
@@ -104919,6 +104919,45 @@
             "home": 1,
             "away": 2
           }
+        },
+        {
+          "minute": 84,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 57,
+            "name": "Arsenal FC"
+          },
+          "scorer": {
+            "id": 7935,
+            "name": "Mikel Merino"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
+        },
+        {
+          "minute": 87,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "scorer": {
+            "id": 30842,
+            "name": "Matheus Cunha"
+          },
+          "assist": {
+            "id": 190797,
+            "name": "Kobbie Mainoo"
+          },
+          "score": {
+            "home": 2,
+            "away": 3
+          }
         }
       ],
       "penalties": [],
@@ -104932,6 +104971,18 @@
           "player": {
             "id": 8215,
             "name": "Declan Rice"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 57,
+            "name": "Arsenal FC"
+          },
+          "player": {
+            "id": 4032,
+            "name": "Eberechi Eze"
           },
           "card": "YELLOW"
         }
