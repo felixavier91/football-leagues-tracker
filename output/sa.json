@@ -107871,14 +107871,14 @@
       "id": 537026,
       "utcDate": "2026-01-25T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 55,
+      "minute": 67,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Olimpico, Rome",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T21:59:33Z",
+      "lastUpdated": "2026-01-25T22:11:23Z",
       "homeTeam": {
         "id": 100,
         "name": "AS Roma",
@@ -108180,18 +108180,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 62,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "scorer": {
+            "id": 153556,
+            "name": "Koni De Winter"
+          },
+          "assist": {
+            "id": 43,
+            "name": "Luka Modrić"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -108203,6 +108225,18 @@
           "player": {
             "id": 3368,
             "name": "Adrien Rabiot"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 55,
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "player": {
+            "id": 256424,
+            "name": "Zachary Athekame"
           },
           "card": "YELLOW"
         }
