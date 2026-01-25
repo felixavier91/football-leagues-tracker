@@ -77456,14 +77456,14 @@
       "id": 542570,
       "utcDate": "2026-01-25T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 81,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T18:56:43Z",
+      "lastUpdated": "2026-01-25T19:11:58Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -77745,7 +77745,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 4
+          "away": 5
         },
         "halfTime": {
           "home": 1,
@@ -77872,9 +77872,39 @@
             "home": 2,
             "away": 4
           }
+        },
+        {
+          "minute": 87,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "scorer": {
+            "id": 188487,
+            "name": "Endrick"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 5
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 188487,
+            "name": "Endrick"
+          },
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 72,
@@ -77941,14 +77971,14 @@
       "id": 542572,
       "utcDate": "2026-01-25T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 83,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Stade Jean Bouin",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T18:56:43Z",
+      "lastUpdated": "2026-01-25T19:11:58Z",
       "homeTeam": {
         "id": 1045,
         "name": "Paris FC",
@@ -78317,14 +78347,14 @@
       "id": 542575,
       "utcDate": "2026-01-25T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 81,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Stade Francis-Le Blé",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T18:56:43Z",
+      "lastUpdated": "2026-01-25T19:11:58Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -78680,6 +78710,30 @@
           "player": {
             "id": 80175,
             "name": "Yann Gboho"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 83,
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "player": {
+            "id": 77803,
+            "name": "Mark McKenzie"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "player": {
+            "id": 150797,
+            "name": "Charlie Cresswell"
           },
           "card": "YELLOW"
         }
