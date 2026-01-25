@@ -77456,14 +77456,14 @@
       "id": 542570,
       "utcDate": "2026-01-25T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 27,
+      "minute": 41,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T17:42:29Z",
+      "lastUpdated": "2026-01-25T17:56:40Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -77614,7 +77614,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 4,
-        "formation": "4-3-2-1",
+        "formation": "3-4-1-2",
         "lineup": [
           {
             "id": 79776,
@@ -77744,8 +77744,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 2
+          "home": 1,
+          "away": 3
         },
         "halfTime": {
           "home": null,
@@ -77793,6 +77793,42 @@
           "score": {
             "home": 0,
             "away": 2
+          }
+        },
+        {
+          "minute": 32,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "scorer": {
+            "id": 175845,
+            "name": "Tyler Morton"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 3
+          }
+        },
+        {
+          "minute": 34,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "scorer": {
+            "id": 45199,
+            "name": "Koffi Franck Kouao"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 3
           }
         }
       ],
@@ -77850,14 +77886,14 @@
       "id": 542572,
       "utcDate": "2026-01-25T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 27,
+      "minute": 42,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Jean Bouin",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T17:42:29Z",
+      "lastUpdated": "2026-01-25T17:56:40Z",
       "homeTeam": {
         "id": 1045,
         "name": "Paris FC",
@@ -78148,7 +78184,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 25,
+          "team": {
+            "id": 1045,
+            "name": "Paris FC"
+          },
+          "player": {
+            "id": 40000,
+            "name": "Timothée Kolodziejczak"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -78201,14 +78250,14 @@
       "id": 542575,
       "utcDate": "2026-01-25T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 27,
+      "minute": 41,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Francis-Le Blé",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T17:42:29Z",
+      "lastUpdated": "2026-01-25T17:56:40Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -78486,18 +78535,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 27,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "scorer": {
+            "id": 192686,
+            "name": "Pape Diop"
+          },
+          "assist": {
+            "id": 77803,
+            "name": "Mark McKenzie"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
