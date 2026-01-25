@@ -107871,14 +107871,14 @@
       "id": 537026,
       "utcDate": "2026-01-25T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 67,
+      "minute": 85,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Olimpico, Rome",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T22:11:23Z",
+      "lastUpdated": "2026-01-25T22:29:38Z",
       "homeTeam": {
         "id": 100,
         "name": "AS Roma",
@@ -108180,10 +108180,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -108212,9 +108212,39 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 74,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "scorer": {
+            "id": 1819,
+            "name": "Lorenzo Pellegrini"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 1819,
+            "name": "Lorenzo Pellegrini"
+          },
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 51,
@@ -108237,6 +108267,30 @@
           "player": {
             "id": 256424,
             "name": "Zachary Athekame"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 70,
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "player": {
+            "id": 43,
+            "name": "Luka Modrić"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 74,
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "player": {
+            "id": 8390,
+            "name": "Mike Maignan"
           },
           "card": "YELLOW"
         }
