@@ -76940,15 +76940,15 @@
       },
       "id": 542571,
       "utcDate": "2026-01-25T14:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
-      "injuryTime": 1,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Stade de la Beaujoire",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T15:46:50Z",
+      "lastUpdated": "2026-01-25T15:56:14Z",
       "homeTeam": {
         "id": 543,
         "name": "FC Nantes",
@@ -77229,12 +77229,12 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 3
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 3
         }
       },
       "goals": [
@@ -77295,6 +77295,27 @@
           "assist": null,
           "score": {
             "home": 0,
+            "away": 3
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 543,
+            "name": "FC Nantes"
+          },
+          "scorer": {
+            "id": 114672,
+            "name": "Mostafa Mohamed"
+          },
+          "assist": {
+            "id": 3393,
+            "name": "Chidozie Awaziem"
+          },
+          "score": {
+            "home": 1,
             "away": 3
           }
         }

@@ -99693,14 +99693,14 @@
       "id": 544412,
       "utcDate": "2026-01-25T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 74,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": 55028,
       "venue": "Estadio Cívitas Metropolitano",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T15:34:23Z",
+      "lastUpdated": "2026-01-25T15:55:38Z",
       "homeTeam": {
         "id": 78,
         "name": "Club Atlético de Madrid",
@@ -100011,7 +100011,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -100035,6 +100035,42 @@
           "assist": null,
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 75,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "scorer": {
+            "id": 218445,
+            "name": "David López"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 87,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "scorer": {
+            "id": 79953,
+            "name": "Thiago Almada"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
             "away": 0
           }
         }
@@ -100062,6 +100098,18 @@
           "player": {
             "id": 45680,
             "name": "Nicolás González"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 86,
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "player": {
+            "id": 218445,
+            "name": "David López"
           },
           "card": "YELLOW"
         }
