@@ -104566,14 +104566,14 @@
       "id": 538007,
       "utcDate": "2026-01-25T16:30:00Z",
       "status": "IN_PLAY",
-      "minute": 26,
+      "minute": 38,
       "injuryTime": null,
       "attendance": null,
       "venue": "Emirates Stadium",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-25T17:56:10Z",
+      "lastUpdated": "2026-01-25T18:07:59Z",
       "homeTeam": {
         "id": 57,
         "name": "Arsenal FC",
@@ -104854,15 +104854,52 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 29,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "scorer": {
+            "id": 46451,
+            "name": "Lisandro Martínez"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 37,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "scorer": {
+            "id": 8626,
+            "name": "Bryan Mbeumo"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
