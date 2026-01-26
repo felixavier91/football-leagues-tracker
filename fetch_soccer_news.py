@@ -49,6 +49,10 @@ def scrape_article(url):
                 break
         
         if article_content:
+            # Remove unwanted elements that cause indentation/spacing issues
+            for element in article_content.find_all(['img', 'figure', 'figcaption', 'picture', 'iframe', 'video']):
+                element.decompose()
+            
             # Extract text from paragraphs
             paragraphs = article_content.find_all(['p', 'h1', 'h2', 'h3', 'h4'])
             full_text = '\n\n'.join([p.get_text().strip() for p in paragraphs if p.get_text().strip()])
@@ -80,9 +84,9 @@ def scrape_article(url):
                         print(f"  ✂️  Cutting at line {i}: '{line[:50]}...'")
                         break
             
-            # Keep only lines before cutoff
-            clean_lines = lines[:cutoff_index]
-            clean_text = '\n'.join(clean_lines).strip()
+            # Keep only lines before cutoff and strip each line
+            clean_lines = [line.strip() for line in lines[:cutoff_index] if line.strip()]
+            clean_text = '\n\n'.join(clean_lines)
             
             return clean_text if clean_text else "Could not extract article content"
         else:
