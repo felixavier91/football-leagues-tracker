@@ -133,14 +133,34 @@ def main():
         
         # Process each article on this page
         for idx, entry in enumerate(feed.entries, 1):
-            print(f"\n[Page {page} - Article {idx}/{len(feed.entries)}] Processing: {entry.title}")
+            title = entry.title
+            print(f"\n[Page {page} - Article {idx}/{len(feed.entries)}] Processing: {title}")
+            
+            # Filter out unwanted article types by headline
+            title_lower = title.lower()
+            
+            # Skip articles with "Commentary"
+            if 'commentary' in title_lower:
+                print(f"  ⏭️  Skipping: Contains 'Commentary'")
+                continue
+            
+            # Skip articles with "Report, result and goals"
+            if 'report, result and goals' in title_lower:
+                print(f"  ⏭️  Skipping: Contains 'Report, result and goals'")
+                continue
+            
+            # Skip articles with score patterns like "3-1", "2-0", etc.
+            import re
+            if re.search(r'\b\d+-\d+\b', title):
+                print(f"  ⏭️  Skipping: Contains score pattern (e.g., '3-1')")
+                continue
             
             # Fetch full article content
             article_text = scrape_article(entry.link)
             
             # Build article object
             article = {
-                "title": entry.title,
+                "title": title,
                 "url": entry.link,
                 "published": convert_timestamp(entry.published) if hasattr(entry, 'published') else None,
                 "summary": entry.summary if hasattr(entry, 'summary') else None,
