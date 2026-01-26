@@ -102,47 +102,68 @@ def convert_timestamp(timestamp_str):
         return timestamp_str
 
 def main():
-    feed_url = "https://www.101greatgoals.com/football/feed/"
+    base_feed_url = "https://www.101greatgoals.com/football/feed/"
     output_file = "output/soccer_news.json"
+    num_pages = 10
     
-    # Fetch RSS feed
-    feed = fetch_rss_feed(feed_url)
+    all_articles = []
     
-    articles = []
-    
-    # Process each article
-    for idx, entry in enumerate(feed.entries, 1):
-        print(f"\n[{idx}/{len(feed.entries)}] Processing: {entry.title}")
+    # Fetch 10 pages
+    for page in range(1, num_pages + 1):
+        # Build feed URL with pagination
+        if page == 1:
+            feed_url = base_feed_url
+        else:
+            feed_url = f"{base_feed_url}?paged={page}"
         
-        # Fetch full article content
-        article_text = scrape_article(entry.link)
+        print(f"\n{'='*80}")
+        print(f"FETCHING PAGE {page}/{num_pages}")
+        print(f"{'='*80}")
         
-        # Build article object
-        article = {
-            "title": entry.title,
-            "url": entry.link,
-            "published": convert_timestamp(entry.published) if hasattr(entry, 'published') else None,
-            "summary": entry.summary if hasattr(entry, 'summary') else None,
-            "content": article_text
-        }
+        # Fetch RSS feed for this page
+        feed = fetch_rss_feed(feed_url)
         
-        articles.append(article)
+        if not feed.entries:
+            print(f"No entries found on page {page}, stopping.")
+            break
         
-        # Small delay to be respectful to the server
-        time.sleep(1)
+        # Process each article on this page
+        for idx, entry in enumerate(feed.entries, 1):
+            print(f"\n[Page {page} - Article {idx}/{len(feed.entries)}] Processing: {entry.title}")
+            
+            # Fetch full article content
+            article_text = scrape_article(entry.link)
+            
+            # Build article object
+            article = {
+                "title": entry.title,
+                "url": entry.link,
+                "published": convert_timestamp(entry.published) if hasattr(entry, 'published') else None,
+                "summary": entry.summary if hasattr(entry, 'summary') else None,
+                "content": article_text
+            }
+            
+            all_articles.append(article)
+            
+            # Small delay to be respectful to the server
+            time.sleep(1)
+        
+        # Delay between pages
+        time.sleep(2)
     
     # Save to JSON
     output_data = {
         "generated": datetime.now().strftime('%B %d, %Y %I:%M:%S %p EST'),
         "source": "101 Great Goals",
-        "total_articles": len(articles),
-        "articles": articles
+        "total_articles": len(all_articles),
+        "articles": all_articles
     }
     
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
     
     print(f"\n✅ Done! Saved to {output_file}")
+    print(f"Total articles processed: {len(all_articles)}")
     print(f"Total articles processed: {len(articles)}")
 
 if __name__ == "__main__":
