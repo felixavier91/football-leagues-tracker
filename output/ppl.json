@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 170
+    "played": 171
   },
   "competition": {
     "id": 2017,
@@ -78557,15 +78557,15 @@
       },
       "id": 545864,
       "utcDate": "2026-01-26T20:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 74,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Estadio do Dragao",
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-26T22:48:28Z",
+      "lastUpdated": "2026-01-26T23:11:38Z",
       "homeTeam": {
         "id": 503,
         "name": "FC Porto",
@@ -78846,7 +78846,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -78870,6 +78870,48 @@
           "assist": null,
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 75,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "scorer": {
+            "id": 227047,
+            "name": "Martim Fernandes"
+          },
+          "assist": {
+            "id": 1166,
+            "name": "Pepê"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 86,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "scorer": {
+            "id": 39102,
+            "name": "William da Silva"
+          },
+          "assist": {
+            "id": 7448,
+            "name": "Pablo Rosario"
+          },
+          "score": {
+            "home": 3,
             "away": 0
           }
         }
@@ -78947,6 +78989,18 @@
             "name": "Martín Fernández Benítez"
           },
           "card": "RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "player": {
+            "id": 147286,
+            "name": "Jakub Kiwior"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
