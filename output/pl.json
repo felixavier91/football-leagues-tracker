@@ -105039,14 +105039,14 @@
       "id": 538010,
       "utcDate": "2026-01-26T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 54,
+      "minute": 89,
       "injuryTime": null,
       "attendance": null,
       "venue": "Everton Stadium",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-26T22:12:39Z",
+      "lastUpdated": "2026-01-26T22:47:38Z",
       "homeTeam": {
         "id": 62,
         "name": "Everton FC",
@@ -105197,7 +105197,7 @@
           "nationality": "Germany"
         },
         "leagueRank": 16,
-        "formation": "3-5-2",
+        "formation": "3-4-2-1",
         "lineup": [
           {
             "id": 7913,
@@ -105324,10 +105324,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -105356,10 +105356,56 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 76,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 62,
+            "name": "Everton FC"
+          },
+          "scorer": {
+            "id": 171995,
+            "name": "Thierno Barry"
+          },
+          "assist": {
+            "id": 3627,
+            "name": "Idrissa Gana Guèye"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 54,
+          "team": {
+            "id": 341,
+            "name": "Leeds United FC"
+          },
+          "player": {
+            "id": 65843,
+            "name": "Anton Stach"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 56,
+          "team": {
+            "id": 341,
+            "name": "Leeds United FC"
+          },
+          "player": {
+            "id": 75284,
+            "name": "Ilia Gruev"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

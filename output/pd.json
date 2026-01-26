@@ -101603,14 +101603,14 @@
       "id": 544418,
       "utcDate": "2026-01-26T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 55,
+      "minute": 89,
       "injuryTime": null,
       "attendance": 11388,
       "venue": "Estadi Municipal de Montilivi",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-26T22:12:48Z",
+      "lastUpdated": "2026-01-26T22:47:48Z",
       "homeTeam": {
         "id": 298,
         "name": "Girona FC",
@@ -101894,18 +101894,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 59,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "scorer": {
+            "id": 156967,
+            "name": "Luis Vázquez"
+          },
+          "assist": {
+            "id": 83351,
+            "name": "Juan Iglesias"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -101929,6 +101951,42 @@
           "player": {
             "id": 45472,
             "name": "Domingos Duarte"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 80,
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "player": {
+            "id": 32123,
+            "name": "Alex Moreno"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 83,
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "player": {
+            "id": 191064,
+            "name": "Mario Martin"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 87,
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "player": {
+            "id": 32111,
+            "name": "Fran Beltrán"
           },
           "card": "YELLOW"
         }
