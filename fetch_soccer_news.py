@@ -164,7 +164,6 @@ def main():
     
     print(f"\n✅ Done! Saved to {output_file}")
     print(f"Total articles processed: {len(all_articles)}")
-    print(f"Total articles processed: {len(articles)}")
 
 if __name__ == "__main__":
     main()
