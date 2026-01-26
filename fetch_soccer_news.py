@@ -49,6 +49,23 @@ def scrape_article(url):
                 break
         
         if article_content:
+            # Remove unwanted sections
+            unwanted_keywords = [
+                'topics:', 'follow us', 'latest news', 'more from', 
+                'subscribe', 'newsletter', 'share this', 'related articles',
+                'also read', 'you might also like'
+            ]
+            
+            # Remove elements that contain unwanted keywords
+            for element in article_content.find_all(['div', 'section', 'aside', 'p', 'h2', 'h3', 'h4']):
+                text_lower = element.get_text().lower().strip()
+                if any(keyword in text_lower for keyword in unwanted_keywords):
+                    element.decompose()
+            
+            # Remove author bio sections (usually have class with 'author', 'bio', 'byline')
+            for element in article_content.find_all(class_=lambda x: x and any(term in str(x).lower() for term in ['author', 'bio', 'byline', 'writer'])):
+                element.decompose()
+            
             # Extract text from paragraphs
             paragraphs = article_content.find_all(['p', 'h1', 'h2', 'h3', 'h4'])
             text = '\n\n'.join([p.get_text().strip() for p in paragraphs if p.get_text().strip()])
@@ -59,16 +76,13 @@ def scrape_article(url):
     except Exception as e:
         return f"Error fetching article: {str(e)}"
 
-def convert_timestamp_to_est(timestamp_str):
-    """Convert RSS timestamp to EST"""
+def convert_timestamp(timestamp_str):
+    """Convert RSS timestamp to ISO format for client-side rendering"""
     try:
         # Parse the timestamp
         dt = datetime.strptime(timestamp_str, '%a, %d %b %Y %H:%M:%S %z')
-        # Convert to EST (UTC-5)
-        from datetime import timezone, timedelta
-        est = timezone(timedelta(hours=-5))
-        dt_est = dt.astimezone(est)
-        return dt_est.strftime('%B %d, %Y %I:%M:%S %p EST')
+        # Return ISO format (browser will handle local timezone conversion)
+        return dt.isoformat()
     except:
         return timestamp_str
 
@@ -92,7 +106,7 @@ def main():
         article = {
             "title": entry.title,
             "url": entry.link,
-            "published": convert_timestamp_to_est(entry.published) if hasattr(entry, 'published') else None,
+            "published": convert_timestamp(entry.published) if hasattr(entry, 'published') else None,
             "summary": entry.summary if hasattr(entry, 'summary') else None,
             "content": article_text
         }

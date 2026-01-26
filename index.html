@@ -2173,17 +2173,37 @@
                 return;
             }
             
-            container.innerHTML = soccerNews.articles.map((article, index) => `
-                <div class="match-card news-card" onclick="openNewsModal(${index})">
-                    <div class="match-oneliner">
-                        <div style="flex: 1; padding: 15px;">
-                            <div style="font-weight: 600; font-size: 1.1em; color: #1a1a1a; margin-bottom: 8px;">${article.title}</div>
-                            ${article.published ? `<div style="color: #666; font-size: 0.85em;">${article.published}</div>` : ''}
+            container.innerHTML = soccerNews.articles.map((article, index) => {
+                // Format date in 24hr local time
+                let formattedDate = '';
+                if (article.published) {
+                    try {
+                        const date = new Date(article.published);
+                        formattedDate = date.toLocaleString(undefined, {
+                            year: 'numeric',
+                            month: 'long',
+                            day: 'numeric',
+                            hour: '2-digit',
+                            minute: '2-digit',
+                            hour12: false
+                        });
+                    } catch (e) {
+                        formattedDate = article.published;
+                    }
+                }
+                
+                return `
+                    <div class="match-card news-card" onclick="openNewsModal(${index})">
+                        <div class="match-oneliner">
+                            <div style="flex: 1; padding: 15px;">
+                                <div style="font-weight: 600; font-size: 1.1em; color: #1a1a1a; margin-bottom: 8px;">${article.title}</div>
+                                ${formattedDate ? `<div style="color: #666; font-size: 0.85em;">${formattedDate}</div>` : ''}
+                            </div>
+                            <div style="color: #c8102e; padding-right: 15px; font-size: 1.2em;">›</div>
                         </div>
-                        <div style="color: #c8102e; padding-right: 15px; font-size: 1.2em;">›</div>
                     </div>
-                </div>
-            `).join('');
+                `;
+            }).join('');
         }
         
         function openNewsModal(index) {
@@ -2193,11 +2213,29 @@
             const modalContent = document.getElementById('modalMatchContent');
             const modal = document.getElementById('matchModal');
             
+            // Format published date in 24hr local time
+            let formattedDate = '';
+            if (article.published) {
+                try {
+                    const date = new Date(article.published);
+                    formattedDate = date.toLocaleString(undefined, {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                        hour: '2-digit',
+                        minute: '2-digit',
+                        hour12: false
+                    });
+                } catch (e) {
+                    formattedDate = article.published;
+                }
+            }
+            
             // Build article modal content
             modalContent.innerHTML = `
                 <div style="padding: 20px;">
                     <h2 style="margin: 0 0 15px 0; color: #1a1a1a; line-height: 1.3;">${article.title}</h2>
-                    ${article.published ? `<div style="color: #666; font-size: 0.9em; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 2px solid #f0f0f0;">${article.published}</div>` : ''}
+                    ${formattedDate ? `<div style="color: #666; font-size: 0.9em; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 2px solid #f0f0f0;">${formattedDate}</div>` : ''}
                     
                     ${article.summary ? `
                         <div style="background: #f8f8f8; padding: 15px; border-radius: 8px; margin-bottom: 20px; font-style: italic; color: #555;">
@@ -2207,12 +2245,6 @@
                     
                     <div style="line-height: 1.8; color: #333; white-space: pre-wrap;">
                         ${article.content || 'Content not available'}
-                    </div>
-                    
-                    <div style="margin-top: 30px; padding-top: 20px; border-top: 2px solid #f0f0f0;">
-                        <a href="${article.url}" target="_blank" style="display: inline-block; background: #c8102e; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600;">
-                            Read on 101 Great Goals →
-                        </a>
                     </div>
                 </div>
             `;
