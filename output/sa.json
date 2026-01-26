@@ -108347,14 +108347,14 @@
       "id": 537030,
       "utcDate": "2026-01-26T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 18,
+      "minute": 26,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Marcantonio Bentegodi",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-26T21:04:23Z",
+      "lastUpdated": "2026-01-26T21:11:49Z",
       "homeTeam": {
         "id": 450,
         "name": "Hellas Verona FC",
@@ -108659,15 +108659,55 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 23,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "scorer": {
+            "id": 190552,
+            "name": "Arthur Atta"
+          },
+          "assist": {
+            "id": 99311,
+            "name": "Jordan Zemura"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 26,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 450,
+            "name": "Hellas Verona FC"
+          },
+          "scorer": {
+            "id": 191892,
+            "name": "Gift Orban"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
