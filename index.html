@@ -2174,18 +2174,16 @@
             }
             
             container.innerHTML = soccerNews.articles.map((article, index) => {
-                // Format date in 24hr local time - shorter format
+                // Format date without day of week: "Jan 26, 15:30"
                 let formattedDate = '';
                 if (article.published) {
                     try {
                         const date = new Date(article.published);
-                        formattedDate = date.toLocaleString(undefined, {
-                            month: 'short',
-                            day: 'numeric',
-                            hour: '2-digit',
-                            minute: '2-digit',
-                            hour12: false
-                        });
+                        const month = date.toLocaleDateString(undefined, { month: 'short' });
+                        const day = date.getDate();
+                        const hours = String(date.getHours()).padStart(2, '0');
+                        const minutes = String(date.getMinutes()).padStart(2, '0');
+                        formattedDate = `${month} ${day}, ${hours}:${minutes}`;
                     } catch (e) {
                         formattedDate = '';
                     }
@@ -2265,19 +2263,15 @@
                 const homeScore = match.score?.fullTime?.home ?? '-';
                 const awayScore = match.score?.fullTime?.away ?? '-';
                 
-                // Full date for desktop - manual format to use comma instead of "at"
+                // Same date format for both desktop and mobile: "Mon 1/26/25, 15:00"
                 const matchDate = new Date(match.utcDate);
                 const dayOfWeek = matchDate.toLocaleDateString(undefined, { weekday: 'short' });
-                const month = matchDate.toLocaleDateString(undefined, { month: 'short' });
+                const month = matchDate.getMonth() + 1;
                 const day = matchDate.getDate();
-                const year = matchDate.getFullYear();
+                const year = String(matchDate.getFullYear()).slice(-2);
                 const hours = String(matchDate.getHours()).padStart(2, '0');
                 const minutes = String(matchDate.getMinutes()).padStart(2, '0');
-                const date = `${dayOfWeek}, ${month} ${day}, ${year}, ${hours}:${minutes}`;
-                
-                // Short date for mobile: "Mon 1/4/26 15:00" (24-hour format)
-                const mobileYear = String(matchDate.getFullYear()).slice(-2);
-                const shortDate = `${dayOfWeek} ${matchDate.getMonth()+1}/${matchDate.getDate()}/${mobileYear} ${hours}:${minutes}`;
+                const date = `${dayOfWeek} ${month}/${day}/${year}, ${hours}:${minutes}`;
 
                 const homeWinner = match.score?.winner === 'HOME_TEAM' ? 'winner' : '';
                 const awayWinner = match.score?.winner === 'AWAY_TEAM' ? 'winner' : '';
@@ -2299,7 +2293,7 @@
                 }
 
                 // One-liner format: [live indicator] shield-name-score-name-shield
-                const oneliner = `<div class="match-oneliner">${liveIndicator}<img src="${match.homeTeam.crest}" class="team-logo" alt="${match.homeTeam.tla}" onerror="this.style.display='none'"><span class="team-name">${match.homeTeam.tla}</span>${scoreSection}<span class="team-name">${match.awayTeam.tla}</span><img src="${match.awayTeam.crest}" class="team-logo" alt="${match.awayTeam.tla}" onerror="this.style.display='none'"><span class="date date-desktop">${date}</span><span class="date date-mobile">${shortDate}</span></div>`;
+                const oneliner = `<div class="match-oneliner">${liveIndicator}<img src="${match.homeTeam.crest}" class="team-logo" alt="${match.homeTeam.tla}" onerror="this.style.display='none'"><span class="team-name">${match.homeTeam.tla}</span>${scoreSection}<span class="team-name">${match.awayTeam.tla}</span><img src="${match.awayTeam.crest}" class="team-logo" alt="${match.awayTeam.tla}" onerror="this.style.display='none'"><span class="date">${date}</span></div>`;
 
                 let youtubeLink = '';
 
