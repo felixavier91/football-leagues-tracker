@@ -108347,14 +108347,14 @@
       "id": 537030,
       "utcDate": "2026-01-26T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 56,
+      "minute": 69,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Marcantonio Bentegodi",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-26T22:00:43Z",
+      "lastUpdated": "2026-01-26T22:13:08Z",
       "homeTeam": {
         "id": 450,
         "name": "Hellas Verona FC",
@@ -108656,11 +108656,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 3
         },
         "halfTime": {
           "home": 1,
@@ -108709,6 +108709,45 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 58,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "scorer": {
+            "id": 2996,
+            "name": "Alessandro Zanoli"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 66,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "scorer": {
+            "id": 3896,
+            "name": "Keinan Davis"
+          },
+          "assist": {
+            "id": 190552,
+            "name": "Arthur Atta"
+          },
+          "score": {
+            "home": 1,
+            "away": 3
+          }
         }
       ],
       "penalties": [],
@@ -108722,6 +108761,18 @@
           "player": {
             "id": 2185,
             "name": "Pol Mikel Lirola"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 56,
+          "team": {
+            "id": 450,
+            "name": "Hellas Verona FC"
+          },
+          "player": {
+            "id": 2006,
+            "name": "Roberto Gagliardini"
           },
           "card": "YELLOW"
         }
