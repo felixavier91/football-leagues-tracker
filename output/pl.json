@@ -105039,14 +105039,14 @@
       "id": 538010,
       "utcDate": "2026-01-26T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 19,
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Everton Stadium",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-26T21:20:24Z",
+      "lastUpdated": "2026-01-26T21:32:34Z",
       "homeTeam": {
         "id": 62,
         "name": "Everton FC",
@@ -105324,18 +105324,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 28,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 341,
+            "name": "Leeds United FC"
+          },
+          "scorer": {
+            "id": 5613,
+            "name": "James Justin"
+          },
+          "assist": {
+            "id": 65843,
+            "name": "Anton Stach"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
