@@ -2174,32 +2174,31 @@
             }
             
             container.innerHTML = soccerNews.articles.map((article, index) => {
-                // Format date in 24hr local time
+                // Format date in 24hr local time - shorter format
                 let formattedDate = '';
                 if (article.published) {
                     try {
                         const date = new Date(article.published);
                         formattedDate = date.toLocaleString(undefined, {
-                            year: 'numeric',
-                            month: 'long',
+                            month: 'short',
                             day: 'numeric',
                             hour: '2-digit',
                             minute: '2-digit',
                             hour12: false
                         });
                     } catch (e) {
-                        formattedDate = article.published;
+                        formattedDate = '';
                     }
                 }
                 
                 return `
                     <div class="match-card news-card" onclick="openNewsModal(${index})">
-                        <div class="match-oneliner">
-                            <div style="flex: 1; padding: 15px;">
-                                <div style="font-weight: 600; font-size: 1.1em; color: #1a1a1a; margin-bottom: 8px;">${article.title}</div>
-                                ${formattedDate ? `<div style="color: #666; font-size: 0.85em;">${formattedDate}</div>` : ''}
+                        <div class="match-oneliner" style="display: flex; align-items: center; overflow: hidden;">
+                            <div style="flex: 1; min-width: 0; overflow-x: auto; white-space: nowrap; padding: 12px 15px; scrollbar-width: thin;">
+                                <span style="font-weight: 600; font-size: 1em; color: #1a1a1a;">${article.title}</span>
+                                ${formattedDate ? `<span style="color: #888; font-size: 0.9em; margin-left: 15px;">• ${formattedDate}</span>` : ''}
                             </div>
-                            <div style="color: #c8102e; padding-right: 15px; font-size: 1.2em;">›</div>
+                            <div style="color: #c8102e; padding: 0 15px; font-size: 1.2em; flex-shrink: 0;">›</div>
                         </div>
                     </div>
                 `;
