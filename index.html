@@ -2265,23 +2265,19 @@
                 const homeScore = match.score?.fullTime?.home ?? '-';
                 const awayScore = match.score?.fullTime?.away ?? '-';
                 
-                // Full date for desktop
-                const date = new Date(match.utcDate).toLocaleString(undefined, {
-                    weekday: 'short',
-                    year: 'numeric',
-                    month: 'short',
-                    day: 'numeric',
-                    hour: '2-digit',
-                    minute: '2-digit'
-                });
-                
-                // Short date for mobile: "Mon 1/4/26 15:00" (24-hour format)
+                // Full date for desktop - manual format to use comma instead of "at"
                 const matchDate = new Date(match.utcDate);
                 const dayOfWeek = matchDate.toLocaleDateString(undefined, { weekday: 'short' });
-                const year = String(matchDate.getFullYear()).slice(-2);
+                const month = matchDate.toLocaleDateString(undefined, { month: 'short' });
+                const day = matchDate.getDate();
+                const year = matchDate.getFullYear();
                 const hours = String(matchDate.getHours()).padStart(2, '0');
                 const minutes = String(matchDate.getMinutes()).padStart(2, '0');
-                const shortDate = `${dayOfWeek} ${matchDate.getMonth()+1}/${matchDate.getDate()}/${year} ${hours}:${minutes}`;
+                const date = `${dayOfWeek}, ${month} ${day}, ${year}, ${hours}:${minutes}`;
+                
+                // Short date for mobile: "Mon 1/4/26 15:00" (24-hour format)
+                const mobileYear = String(matchDate.getFullYear()).slice(-2);
+                const shortDate = `${dayOfWeek} ${matchDate.getMonth()+1}/${matchDate.getDate()}/${mobileYear} ${hours}:${minutes}`;
 
                 const homeWinner = match.score?.winner === 'HOME_TEAM' ? 'winner' : '';
                 const awayWinner = match.score?.winner === 'AWAY_TEAM' ? 'winner' : '';
