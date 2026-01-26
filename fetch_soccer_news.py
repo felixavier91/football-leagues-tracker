@@ -49,27 +49,42 @@ def scrape_article(url):
                 break
         
         if article_content:
-            # Remove unwanted sections
-            unwanted_keywords = [
-                'topics:', 'follow us', 'latest news', 'more from', 
-                'subscribe', 'newsletter', 'share this', 'related articles',
-                'also read', 'you might also like'
-            ]
-            
-            # Remove elements that contain unwanted keywords
-            for element in article_content.find_all(['div', 'section', 'aside', 'p', 'h2', 'h3', 'h4']):
-                text_lower = element.get_text().lower().strip()
-                if any(keyword in text_lower for keyword in unwanted_keywords):
-                    element.decompose()
-            
-            # Remove author bio sections (usually have class with 'author', 'bio', 'byline')
-            for element in article_content.find_all(class_=lambda x: x and any(term in str(x).lower() for term in ['author', 'bio', 'byline', 'writer'])):
-                element.decompose()
-            
             # Extract text from paragraphs
             paragraphs = article_content.find_all(['p', 'h1', 'h2', 'h3', 'h4'])
-            text = '\n\n'.join([p.get_text().strip() for p in paragraphs if p.get_text().strip()])
-            return text
+            full_text = '\n\n'.join([p.get_text().strip() for p in paragraphs if p.get_text().strip()])
+            
+            # Cut off text at unwanted sections (delete that line and everything after it)
+            cutoff_phrases = [
+                'Topics:',
+                'Follow us:',
+                'Latest News',
+                'More from',
+                'Mitch Fretton',
+                '101GreatGoals',
+                'Subscribe',
+                'Newsletter',
+                'Related articles',
+                'Also read',
+                'You might also like'
+            ]
+            
+            # Find earliest cutoff point
+            lines = full_text.split('\n')
+            cutoff_index = len(lines)
+            
+            for i, line in enumerate(lines):
+                line_lower = line.strip().lower()
+                for phrase in cutoff_phrases:
+                    if phrase.lower() in line_lower:
+                        cutoff_index = min(cutoff_index, i)
+                        print(f"  ✂️  Cutting at line {i}: '{line[:50]}...'")
+                        break
+            
+            # Keep only lines before cutoff
+            clean_lines = lines[:cutoff_index]
+            clean_text = '\n'.join(clean_lines).strip()
+            
+            return clean_text if clean_text else "Could not extract article content"
         else:
             return "Could not extract article content"
             
