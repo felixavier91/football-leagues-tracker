@@ -2196,8 +2196,8 @@
                         <div class="match-oneliner" style="display: flex; align-items: center; overflow: hidden;">
                             <div style="flex: 1; min-width: 0; overflow-x: auto; white-space: nowrap; padding: 0; scrollbar-width: none; -ms-overflow-style: none;">
                                 <style>.news-card .match-oneliner > div::-webkit-scrollbar { display: none; }</style>
+                                ${formattedDate ? `<span style="color: #888; font-size: 0.9em;">${formattedDate} • </span>` : ''}
                                 <span style="font-weight: normal; font-size: 1em; color: #1a1a1a;">${article.title}</span>
-                                ${formattedDate ? `<span style="color: #888; font-size: 0.9em; margin-left: 15px;">• ${formattedDate}</span>` : ''}
                             </div>
                             <div style="color: #c8102e; padding: 0; font-size: 1.2em; flex-shrink: 0;">›</div>
                         </div>
