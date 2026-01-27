@@ -144,6 +144,11 @@ def main():
                 print(f"  ⏭️  Skipping: Contains 'Commentary'")
                 continue
             
+            # Skip articles with "European round-up"
+            if 'european round-up' in title_lower:
+                print(f"  ⏭️  Skipping: Contains 'European round-up'")
+                continue
+            
             # Skip articles with various report/result patterns
             if 'report, result and goals' in title_lower:
                 print(f"  ⏭️  Skipping: Contains 'Report, result and goals'")
