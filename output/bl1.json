@@ -79082,15 +79082,15 @@
       },
       "id": 540545,
       "utcDate": "2026-01-27T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Wohninvest Weserstadion",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-27T21:11:13Z",
+      "lastUpdated": "2026-01-27T21:32:00Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -79362,18 +79362,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 44,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "scorer": {
+            "id": 113457,
+            "name": "Alexander Prass"
+          },
+          "assist": {
+            "id": 318,
+            "name": "Andrej Kramarić"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -79427,15 +79449,15 @@
       },
       "id": 540548,
       "utcDate": "2026-01-27T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 40,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 29147,
       "venue": "Millerntor-Stadion",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-27T21:11:14Z",
+      "lastUpdated": "2026-01-27T21:32:01Z",
       "homeTeam": {
         "id": 20,
         "name": "FC St. Pauli 1910",
@@ -79720,8 +79742,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
