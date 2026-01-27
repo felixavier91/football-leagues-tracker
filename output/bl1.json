@@ -79082,15 +79082,15 @@
       },
       "id": 540545,
       "utcDate": "2026-01-27T19:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 61,
       "injuryTime": null,
       "attendance": null,
       "venue": "Wohninvest Weserstadion",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-27T21:32:00Z",
+      "lastUpdated": "2026-01-27T21:48:13Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -79366,7 +79366,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -79394,10 +79394,53 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 54,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "scorer": {
+            "id": 6836,
+            "name": "Grischa Prömel"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 47,
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen"
+          },
+          "player": {
+            "id": 212853,
+            "name": "Jovan Milošević"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 52,
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "player": {
+            "id": 76770,
+            "name": "Wouter Burger"
+          },
+          "card": "RED"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -79449,15 +79492,15 @@
       },
       "id": 540548,
       "utcDate": "2026-01-27T19:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 58,
       "injuryTime": null,
       "attendance": 29147,
       "venue": "Millerntor-Stadion",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-27T21:32:01Z",
+      "lastUpdated": "2026-01-27T21:48:14Z",
       "homeTeam": {
         "id": 20,
         "name": "FC St. Pauli 1910",
@@ -79748,7 +79791,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 49,
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "player": {
+            "id": 56829,
+            "name": "Christoph Baumgartner"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
