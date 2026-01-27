@@ -149,6 +149,36 @@ def main():
                 print(f"  ⏭️  Skipping: Contains 'Report, result and goals'")
                 continue
             
+            # Skip articles with "fixtures, results, squad"
+            if 'fixtures, results, squad' in title_lower:
+                print(f"  ⏭️  Skipping: Contains 'fixtures, results, squad'")
+                continue
+            
+            # Skip articles with "Text updates, goals"
+            if 'text updates, goals' in title_lower:
+                print(f"  ⏭️  Skipping: Contains 'Text updates, goals'")
+                continue
+            
+            # Skip articles with line-up related strings
+            if 'line-ups confirmed' in title_lower or 'confirmed line-ups' in title_lower:
+                print(f"  ⏭️  Skipping: Contains line-ups confirmation")
+                continue
+            
+            # Skip articles that start with "WATCH:"
+            if title.startswith('WATCH:'):
+                print(f"  ⏭️  Skipping: Starts with 'WATCH:'")
+                continue
+            
+            # Skip articles that start with "LIVE -"
+            if title.startswith('LIVE -'):
+                print(f"  ⏭️  Skipping: Starts with 'LIVE -'")
+                continue
+            
+            # Skip articles that start with "FPL "
+            if title.startswith('FPL '):
+                print(f"  ⏭️  Skipping: Starts with 'FPL '")
+                continue
+            
             # Skip articles with score patterns like "3-1", "2-0", etc.
             import re
             if re.search(r'\b\d+-\d+\b', title):
