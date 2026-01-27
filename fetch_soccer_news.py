@@ -166,7 +166,11 @@ def main():
             if 'results, scores, goals' in title_lower:
                 print(f"  ⏭️  Skipping: Contains 'Results, scores, goals'")
                 continue
-            
+
+            if 'reports, scores, reaction' in title_lower:
+                print(f"  ⏭️  Skipping: Contains 'reports, scores, reaction'")
+                continue
+                
             # Skip articles with "fixtures, results, squad"
             if 'fixtures, results, squad' in title_lower:
                 print(f"  ⏭️  Skipping: Contains 'fixtures, results, squad'")
