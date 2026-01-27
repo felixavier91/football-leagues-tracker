@@ -143,6 +143,11 @@ def main():
             if 'commentary' in title_lower:
                 print(f"  ⏭️  Skipping: Contains 'Commentary'")
                 continue
+
+            # skip articles with "Champions League round-up"
+            if 'champions league round-up' in title_lower:
+                print(f"  ⏭️  Skipping: Contains 'Champions League round-up'")
+                continue
             
             # Skip articles with "European round-up"
             if 'european round-up' in title_lower:
