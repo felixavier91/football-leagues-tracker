@@ -206,6 +206,10 @@ def main():
             if 'lineups' in title_lower:
                 print(f"  ⏭️  Skipping: Contains 'lineups'")
                 continue
+
+            if 'vs' in title_lower:
+                print(f"  ⏭️  Skipping: Contains 'vs'")
+                continue
             
             # Skip articles that start with "WATCH:"
             if title.startswith('WATCH:'):
