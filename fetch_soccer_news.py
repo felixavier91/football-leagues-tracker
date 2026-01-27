@@ -144,9 +144,17 @@ def main():
                 print(f"  ⏭️  Skipping: Contains 'Commentary'")
                 continue
             
-            # Skip articles with "Report, result and goals"
+            # Skip articles with various report/result patterns
             if 'report, result and goals' in title_lower:
                 print(f"  ⏭️  Skipping: Contains 'Report, result and goals'")
+                continue
+            
+            if 'report, result, goals' in title_lower:
+                print(f"  ⏭️  Skipping: Contains 'Report, result, goals'")
+                continue
+            
+            if 'results, scores, goals' in title_lower:
+                print(f"  ⏭️  Skipping: Contains 'Results, scores, goals'")
                 continue
             
             # Skip articles with "fixtures, results, squad"
@@ -154,14 +162,35 @@ def main():
                 print(f"  ⏭️  Skipping: Contains 'fixtures, results, squad'")
                 continue
             
-            # Skip articles with "Text updates, goals"
+            # Skip articles with "fixtures" anywhere
+            if 'fixtures' in title_lower:
+                print(f"  ⏭️  Skipping: Contains 'fixtures'")
+                continue
+            
+            # Skip articles with text updates patterns
             if 'text updates, goals' in title_lower:
                 print(f"  ⏭️  Skipping: Contains 'Text updates, goals'")
                 continue
             
-            # Skip articles with line-up related strings
+            if 'text, updates, goals' in title_lower:
+                print(f"  ⏭️  Skipping: Contains 'Text, updates, goals'")
+                continue
+            
+            if 'updates, goals and stats' in title_lower:
+                print(f"  ⏭️  Skipping: Contains 'Updates, goals and stats'")
+                continue
+            
+            # Skip articles with line-up related strings (any variation)
             if 'line-ups confirmed' in title_lower or 'confirmed line-ups' in title_lower:
                 print(f"  ⏭️  Skipping: Contains line-ups confirmation")
+                continue
+            
+            if 'line-ups' in title_lower:
+                print(f"  ⏭️  Skipping: Contains 'line-ups'")
+                continue
+            
+            if 'lineups' in title_lower:
+                print(f"  ⏭️  Skipping: Contains 'lineups'")
                 continue
             
             # Skip articles that start with "WATCH:"
@@ -169,9 +198,9 @@ def main():
                 print(f"  ⏭️  Skipping: Starts with 'WATCH:'")
                 continue
             
-            # Skip articles that start with "LIVE -"
-            if title.startswith('LIVE -'):
-                print(f"  ⏭️  Skipping: Starts with 'LIVE -'")
+            # Skip articles that start with "LIVE" (any variation)
+            if title.startswith('LIVE'):
+                print(f"  ⏭️  Skipping: Starts with 'LIVE'")
                 continue
             
             # Skip articles that start with "FPL "
