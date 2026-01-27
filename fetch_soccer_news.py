@@ -108,7 +108,7 @@ def convert_timestamp(timestamp_str):
 def main():
     base_feed_url = "https://www.101greatgoals.com/football/feed/"
     output_file = "output/soccer_news.json"
-    num_pages = 10
+    num_pages = 20
     
     all_articles = []
     
