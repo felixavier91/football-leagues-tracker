@@ -207,8 +207,12 @@ def main():
                 print(f"  ⏭️  Skipping: Contains 'lineups'")
                 continue
 
-            if 'vs' in title_lower:
-                print(f"  ⏭️  Skipping: Contains 'vs'")
+            if ' vs ' in title_lower:
+                print(f"  ⏭️  Skipping: Contains ' vs '")
+                continue
+
+            if ' v ' in title_lower:
+                print(f"  ⏭️  Skipping: Contains ' v '")
                 continue
             
             # Skip articles that start with "WATCH:"
