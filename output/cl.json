@@ -62568,15 +62568,15 @@
       },
       "id": 551950,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 76,
       "injuryTime": null,
       "attendance": null,
       "venue": "Anfield",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:32Z",
+      "lastUpdated": "2026-01-28T22:33:50Z",
       "homeTeam": {
         "id": 64,
         "name": "Liverpool FC",
@@ -62875,7 +62875,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 5,
           "away": 0
         },
         "halfTime": {
@@ -62925,10 +62925,83 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 50,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 3754,
+            "name": "Mohamed Salah"
+          },
+          "assist": {
+            "id": 16347,
+            "name": "Dominik Szoboszlai"
+          },
+          "score": {
+            "home": 3,
+            "away": 0
+          }
+        },
+        {
+          "minute": 57,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 152454,
+            "name": "Hugo Ekitike"
+          },
+          "assist": {
+            "id": 7869,
+            "name": "Virgil van Dijk"
+          },
+          "score": {
+            "home": 4,
+            "away": 0
+          }
+        },
+        {
+          "minute": 61,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 45681,
+            "name": "Alexis Mac Allister"
+          },
+          "assist": null,
+          "score": {
+            "home": 5,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 70,
+          "team": {
+            "id": 611,
+            "name": "Qarabağ Ağdam FK"
+          },
+          "player": {
+            "id": 15135,
+            "name": "Marko Janković"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -62985,15 +63058,15 @@
       },
       "id": 551957,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 76,
       "injuryTime": null,
       "attendance": null,
       "venue": "Camp Nou",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:33Z",
+      "lastUpdated": "2026-01-28T22:33:50Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -63289,10 +63362,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 3,
           "away": 1
         },
         "halfTime": {
@@ -63321,9 +63394,81 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 48,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 371,
+            "name": "Robert Lewandowski"
+          },
+          "assist": {
+            "id": 202283,
+            "name": "Lamine Yamal"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 60,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 202283,
+            "name": "Lamine Yamal"
+          },
+          "assist": {
+            "id": 214533,
+            "name": "Fermín López"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        {
+          "minute": 69,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 37428,
+            "name": "Raphinha"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 37428,
+            "name": "Raphinha"
+          },
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 27,
@@ -63418,15 +63563,15 @@
       },
       "id": 551967,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 76,
       "injuryTime": null,
       "attendance": null,
       "venue": "Etihad Stadium",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:33Z",
+      "lastUpdated": "2026-01-28T22:33:50Z",
       "homeTeam": {
         "id": 65,
         "name": "Manchester City FC",
@@ -63854,15 +63999,15 @@
       },
       "id": 551970,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 74,
       "injuryTime": null,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:33Z",
+      "lastUpdated": "2026-01-28T22:33:47Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -64149,7 +64294,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -64196,6 +64341,27 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 57,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "scorer": {
+            "id": 16739,
+            "name": "Alejandro Grimaldo"
+          },
+          "assist": {
+            "id": 45,
+            "name": "Lucas Vázquez"
+          },
+          "score": {
+            "home": 3,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
@@ -64209,6 +64375,30 @@
           "player": {
             "id": 217521,
             "name": "Pau Navarro"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 52,
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "player": {
+            "id": 176758,
+            "name": "Rafa Marin"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 55,
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "player": {
+            "id": 8412,
+            "name": "Nicolas Pépé"
           },
           "card": "YELLOW"
         }
@@ -64269,15 +64459,15 @@
       },
       "id": 551980,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Emirates Stadium",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:33Z",
+      "lastUpdated": "2026-01-28T22:33:47Z",
       "homeTeam": {
         "id": 57,
         "name": "Arsenal FC",
@@ -64686,6 +64876,18 @@
             "name": "Riccardo Calafiori"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 69,
+          "team": {
+            "id": 10601,
+            "name": "FK Kairat"
+          },
+          "player": {
+            "id": 216468,
+            "name": "Jorginho"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -64744,15 +64946,15 @@
       },
       "id": 551987,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 78,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Joseph Marien",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:33Z",
+      "lastUpdated": "2026-01-28T22:33:48Z",
       "homeTeam": {
         "id": 3929,
         "name": "Royale Union Saint-Gilloise",
@@ -65042,10 +65244,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -65053,7 +65255,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 70,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 3929,
+            "name": "Royale Union Saint-Gilloise"
+          },
+          "scorer": {
+            "id": 213425,
+            "name": "Anan Khalaili"
+          },
+          "assist": {
+            "id": 123292,
+            "name": "Anouar Ait El Hadj"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -65077,6 +65301,18 @@
           "player": {
             "id": 130420,
             "name": "Lazar Samardzic"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 69,
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "player": {
+            "id": 263661,
+            "name": "Honest Ahanor"
           },
           "card": "YELLOW"
         }
@@ -65137,15 +65373,15 @@
       },
       "id": 551993,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Jan Breydel Stadion",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:33Z",
+      "lastUpdated": "2026-01-28T22:33:48Z",
       "homeTeam": {
         "id": 851,
         "name": "Club Brugge KV",
@@ -65503,6 +65739,18 @@
             "name": "Michael Murillo"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 50,
+          "team": {
+            "id": 851,
+            "name": "Club Brugge KV"
+          },
+          "player": {
+            "id": 8888,
+            "name": "Hans Vanaken"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -65561,15 +65809,15 @@
       },
       "id": 551998,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 77,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 58000,
       "venue": "Deutsche Bank Park",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:33Z",
+      "lastUpdated": "2026-01-28T22:33:48Z",
       "homeTeam": {
         "id": 19,
         "name": "Eintracht Frankfurt",
@@ -65871,20 +66119,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 47,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "scorer": {
+            "id": 8708,
+            "name": "Randal Kolo Muani"
+          },
+          "assist": {
+            "id": 45735,
+            "name": "Christian Romero"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 74,
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "player": {
+            "id": 3086,
+            "name": "Guglielmo Vicario"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -65941,15 +66224,15 @@
       },
       "id": 552006,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Louis II",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:33Z",
+      "lastUpdated": "2026-01-28T22:33:48Z",
       "homeTeam": {
         "id": 548,
         "name": "AS Monaco FC",
@@ -66276,6 +66559,30 @@
             "name": "Sébastien Pocognoli"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 63,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "player": {
+            "id": 6493,
+            "name": "Thilo Kehrer"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 71,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "player": {
+            "id": 204269,
+            "name": "Lamine Camara"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -66334,15 +66641,15 @@
       },
       "id": 552007,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Cívitas Metropolitano",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:33Z",
+      "lastUpdated": "2026-01-28T22:33:48Z",
       "homeTeam": {
         "id": 78,
         "name": "Club Atlético de Madrid",
@@ -66632,11 +66939,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -66685,10 +66992,53 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 59,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5721,
+            "name": "FK Bodø/Glimt"
+          },
+          "scorer": {
+            "id": 184735,
+            "name": "Kasper Högh"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 64,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "player": {
+            "id": 70,
+            "name": "Marcos Llorente"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 67,
+          "team": {
+            "id": 5721,
+            "name": "FK Bodø/Glimt"
+          },
+          "player": {
+            "id": 167067,
+            "name": "Nikita Haikin"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -66745,15 +67095,15 @@
       },
       "id": 552028,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "San Mamés",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:33Z",
+      "lastUpdated": "2026-01-28T22:33:48Z",
       "homeTeam": {
         "id": 77,
         "name": "Athletic Club",
@@ -67061,11 +67411,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 2,
@@ -67129,6 +67479,24 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 62,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scorer": {
+            "id": 37332,
+            "name": "Trincão"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -67178,6 +67546,30 @@
           "player": {
             "id": 81565,
             "name": "Gorka Guruzeta"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 49,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 270551,
+            "name": "João Simões"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 55,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 92050,
+            "name": "Pedro Gonçalves"
           },
           "card": "YELLOW"
         }
@@ -67238,15 +67630,15 @@
       },
       "id": 552030,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Johan Cruijff ArenA",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:33Z",
+      "lastUpdated": "2026-01-28T22:33:48Z",
       "homeTeam": {
         "id": 678,
         "name": "AFC Ajax",
@@ -67259,7 +67651,7 @@
           "nationality": "Netherlands"
         },
         "leagueRank": null,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 152579,
@@ -67563,16 +67955,68 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 52,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 654,
+            "name": "PAE Olympiakos SFP"
+          },
+          "scorer": {
+            "id": 3256,
+            "name": "Gelson Martins"
+          },
+          "assist": {
+            "id": 3820,
+            "name": "Mehdi Taremi"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 69,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "scorer": {
+            "id": 7570,
+            "name": "Kasper Dolberg"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 7570,
+            "name": "Kasper Dolberg"
+          },
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 45,
@@ -67583,6 +68027,18 @@
           "player": {
             "id": 185116,
             "name": "Costinha"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 49,
+          "team": {
+            "id": 654,
+            "name": "PAE Olympiakos SFP"
+          },
+          "player": {
+            "id": 141302,
+            "name": "Santiago Hezze"
           },
           "card": "YELLOW"
         }
@@ -67643,15 +68099,15 @@
       },
       "id": 552050,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Parc des Princes",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:33Z",
+      "lastUpdated": "2026-01-28T22:33:48Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -68079,15 +68535,15 @@
       },
       "id": 552051,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 76,
       "injuryTime": null,
       "attendance": null,
       "venue": "Alphamega Stadium",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:33Z",
+      "lastUpdated": "2026-01-28T22:33:48Z",
       "homeTeam": {
         "id": 11034,
         "name": "Paphos FC",
@@ -68383,10 +68839,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -68433,6 +68889,24 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 53,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 11034,
+            "name": "Paphos FC"
+          },
+          "scorer": {
+            "id": 270823,
+            "name": "Bruno"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -68446,6 +68920,30 @@
           "player": {
             "id": 127813,
             "name": "David Zima"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 59,
+          "team": {
+            "id": 930,
+            "name": "SK Slavia Praha"
+          },
+          "player": {
+            "id": 15731,
+            "name": "Jan Bořil"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 66,
+          "team": {
+            "id": 930,
+            "name": "SK Slavia Praha"
+          },
+          "player": {
+            "id": 16222,
+            "name": "Jindřich Trpišovský"
           },
           "card": "YELLOW"
         }
@@ -68506,15 +69004,15 @@
       },
       "id": 551913,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 76,
       "injuryTime": null,
       "attendance": null,
       "venue": "Philips Stadion",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:34Z",
+      "lastUpdated": "2026-01-28T22:33:49Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -68810,18 +69308,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 58,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 144393,
+            "name": "Jamal Musiala"
+          },
+          "assist": {
+            "id": 277592,
+            "name": "Lennart Karl"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -68917,15 +69437,15 @@
       },
       "id": 551920,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Diego Armando Maradona",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:34Z",
+      "lastUpdated": "2026-01-28T22:33:49Z",
       "homeTeam": {
         "id": 113,
         "name": "SSC Napoli",
@@ -69209,11 +69729,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 2,
@@ -69279,6 +69799,27 @@
           "score": {
             "home": 2,
             "away": 1
+          }
+        },
+        {
+          "minute": 61,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "scorer": {
+            "id": 103125,
+            "name": "João Pedro"
+          },
+          "assist": {
+            "id": 144892,
+            "name": "Cole Palmer"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
           }
         }
       ],
@@ -69365,15 +69906,15 @@
       },
       "id": 551926,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 70,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio da Luz",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:34Z",
+      "lastUpdated": "2026-01-28T22:33:49Z",
       "homeTeam": {
         "id": 1903,
         "name": "Sport Lisboa e Benfica",
@@ -69690,8 +70231,8 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
-          "away": 1
+          "home": 3,
+          "away": 2
         },
         "halfTime": {
           "home": 2,
@@ -69758,6 +70299,48 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 54,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "scorer": {
+            "id": 157796,
+            "name": "Andreas Schjelderup"
+          },
+          "assist": {
+            "id": 67299,
+            "name": "Vangelis Pavlidis"
+          },
+          "score": {
+            "home": 3,
+            "away": 1
+          }
+        },
+        {
+          "minute": 58,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 3374,
+            "name": "Kylian Mbappé"
+          },
+          "assist": {
+            "id": 169162,
+            "name": "Arda Guler"
+          },
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -69807,6 +70390,30 @@
           "player": {
             "id": 272712,
             "name": "Raúl"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 62,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "player": {
+            "id": 191727,
+            "name": "Dean Huijsen"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 66,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "player": {
+            "id": 182020,
+            "name": "Álvaro Carreras"
           },
           "card": "YELLOW"
         }
@@ -69867,15 +70474,15 @@
       },
       "id": 551932,
       "utcDate": "2026-01-28T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 76,
       "injuryTime": null,
       "attendance": null,
       "venue": "Signal Iduna Park",
       "matchday": 8,
       "stage": "LEAGUE_STAGE",
       "group": null,
-      "lastUpdated": "2026-01-28T21:53:34Z",
+      "lastUpdated": "2026-01-28T22:33:49Z",
       "homeTeam": {
         "id": 4,
         "name": "Borussia Dortmund",
@@ -70166,7 +70773,32 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 56,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "player": {
+            "id": 143,
+            "name": "Manuel Akanji"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 75,
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "player": {
+            "id": 8805,
+            "name": "Ramy Bensebaini"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
