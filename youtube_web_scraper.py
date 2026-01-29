@@ -268,6 +268,12 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                         print(f"  ⏭️  Skipping (Serie A requires CBS Sports Golazo): {video_title}")
                         continue
                 
+                # Champions League videos must have "CBS Sports Golazo" in title
+                if league_code == "CL":
+                    if "cbs sports golazo" not in video_title_lower:
+                        print(f"  ⏭️  Skipping (Champions League requires CBS Sports Golazo): {video_title}")
+                        continue
+                
                 # Ligue 1 videos must have "beIN SPORTS USA" in title
                 if league_code == "FL1":
                     if "bein sports usa" not in video_title_lower:
