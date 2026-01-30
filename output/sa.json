@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-23",
     "last": "2026-05-24",
-    "played": 220
+    "played": 221
   },
   "competition": {
     "id": 2019,
@@ -108828,15 +108828,15 @@
       },
       "id": 537039,
       "utcDate": "2026-01-30T19:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 7,
+      "injuryTime": 12,
       "attendance": null,
       "venue": "Stadio Olimpico, Rome",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-30T22:42:13Z",
+      "lastUpdated": "2026-01-30T22:49:33Z",
       "homeTeam": {
         "id": 110,
         "name": "SS Lazio",
@@ -109180,10 +109180,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 2
         },
         "halfTime": {
@@ -109266,6 +109266,24 @@
             "home": 2,
             "away": 2
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 10,
+          "type": "PENALTY",
+          "team": {
+            "id": 110,
+            "name": "SS Lazio"
+          },
+          "scorer": {
+            "id": 2329,
+            "name": "Danilo Cataldi"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -109288,6 +109306,17 @@
           "team": {
             "id": 107,
             "name": "Genoa CFC"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 2329,
+            "name": "Danilo Cataldi"
+          },
+          "team": {
+            "id": 110,
+            "name": "SS Lazio"
           },
           "scored": true
         }
