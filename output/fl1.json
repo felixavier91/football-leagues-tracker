@@ -79295,15 +79295,15 @@
       },
       "id": 542584,
       "utcDate": "2026-01-30T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 28,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Bollaert-Delelis",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-30T21:13:34Z",
+      "lastUpdated": "2026-01-30T21:33:53Z",
       "homeTeam": {
         "id": 546,
         "name": "Racing Club de Lens",
@@ -79581,18 +79581,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 546,
+            "name": "Racing Club de Lens"
+          },
+          "scorer": {
+            "id": 8372,
+            "name": "Ruben Aguilar"
+          },
+          "assist": {
+            "id": 8717,
+            "name": "Matthieu Udol"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
