@@ -79056,15 +79056,15 @@
       },
       "id": 545879,
       "utcDate": "2026-01-30T20:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 37,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Éstadio Dom Afonso Henriques",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-30T22:26:48Z",
+      "lastUpdated": "2026-01-30T22:42:28Z",
       "homeTeam": {
         "id": 5543,
         "name": "Vitória SC",
@@ -79349,13 +79349,38 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 42,
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "player": {
+            "id": 213097,
+            "name": "Gilberto Batista"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 43,
+          "team": {
+            "id": 5543,
+            "name": "Vitória SC"
+          },
+          "player": {
+            "id": 171351,
+            "name": "Miguel Magalhães"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
