@@ -79941,15 +79941,15 @@
       },
       "id": 540582,
       "utcDate": "2026-01-30T19:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 64,
       "injuryTime": null,
       "attendance": 50000,
       "venue": "RheinEnergieStadion",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-30T21:33:34Z",
+      "lastUpdated": "2026-01-30T21:51:10Z",
       "homeTeam": {
         "id": 1,
         "name": "1. FC Köln",
@@ -80262,7 +80262,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 58,
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "player": {
+            "id": 7772,
+            "name": "Ragnar Ache"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
