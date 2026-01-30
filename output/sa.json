@@ -108829,14 +108829,14 @@
       "id": 537039,
       "utcDate": "2026-01-30T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 66,
+      "minute": 82,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Olimpico, Rome",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-30T22:10:33Z",
+      "lastUpdated": "2026-01-30T22:26:33Z",
       "homeTeam": {
         "id": 110,
         "name": "SS Lazio",
@@ -109180,11 +109180,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -109230,6 +109230,42 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 67,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 107,
+            "name": "Genoa CFC"
+          },
+          "scorer": {
+            "id": 179561,
+            "name": "Ruslan Malinovskiy"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        {
+          "minute": 75,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 107,
+            "name": "Genoa CFC"
+          },
+          "scorer": {
+            "id": 178736,
+            "name": "Vitinha"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -109241,6 +109277,17 @@
           "team": {
             "id": 110,
             "name": "SS Lazio"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 179561,
+            "name": "Ruslan Malinovskiy"
+          },
+          "team": {
+            "id": 107,
+            "name": "Genoa CFC"
           },
           "scored": true
         }
@@ -109255,6 +109302,42 @@
           "player": {
             "id": 179561,
             "name": "Ruslan Malinovskiy"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 67,
+          "team": {
+            "id": 110,
+            "name": "SS Lazio"
+          },
+          "player": {
+            "id": 2475,
+            "name": "Ivan Provedel"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 72,
+          "team": {
+            "id": 107,
+            "name": "Genoa CFC"
+          },
+          "player": {
+            "id": 44032,
+            "name": "Leo Østigård"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 74,
+          "team": {
+            "id": 110,
+            "name": "SS Lazio"
+          },
+          "player": {
+            "id": 1803,
+            "name": "Luca Pellegrini"
           },
           "card": "YELLOW"
         }
