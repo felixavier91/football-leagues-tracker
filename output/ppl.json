@@ -79057,14 +79057,14 @@
       "id": 545879,
       "utcDate": "2026-01-30T20:45:00Z",
       "status": "IN_PLAY",
-      "minute": 48,
+      "minute": 76,
       "injuryTime": null,
       "attendance": null,
       "venue": "Éstadio Dom Afonso Henriques",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-30T22:56:18Z",
+      "lastUpdated": "2026-01-30T23:24:47Z",
       "homeTeam": {
         "id": 5543,
         "name": "Vitória SC",
@@ -79342,10 +79342,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -79353,8 +79353,39 @@
           "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 66,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 5543,
+            "name": "Vitória SC"
+          },
+          "scorer": {
+            "id": 45514,
+            "name": "Samu"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 45514,
+            "name": "Samu"
+          },
+          "team": {
+            "id": 5543,
+            "name": "Vitória SC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 42,
@@ -79377,6 +79408,30 @@
           "player": {
             "id": 171351,
             "name": "Miguel Magalhães"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 56,
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "player": {
+            "id": 188084,
+            "name": "Dinis Pinto"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 65,
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "player": {
+            "id": 191985,
+            "name": "Mateja Stjepanovic"
           },
           "card": "YELLOW"
         }
