@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 181
+    "played": 182
   },
   "competition": {
     "id": 2003,
@@ -88822,15 +88822,15 @@
       },
       "id": 537629,
       "utcDate": "2026-01-31T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Het Kasteel",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T22:50:42Z",
+      "lastUpdated": "2026-01-31T22:58:53Z",
       "homeTeam": {
         "id": 6806,
         "name": "Sparta Rotterdam",
@@ -89147,7 +89147,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -89174,6 +89174,27 @@
           },
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "scorer": {
+            "id": 161068,
+            "name": "Shunsuke Mito"
+          },
+          "assist": {
+            "id": 178159,
+            "name": "Mike Kleijn"
+          },
+          "score": {
+            "home": 2,
             "away": 0
           }
         }
@@ -89225,6 +89246,30 @@
           "player": {
             "id": 45647,
             "name": "Marco Rente"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "player": {
+            "id": 186400,
+            "name": "Younes Taha"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "player": {
+            "id": 282874,
+            "name": "Mark Hoekstra"
           },
           "card": "YELLOW"
         }

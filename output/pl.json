@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 234
+    "played": 235
   },
   "competition": {
     "id": 2021,
@@ -107361,15 +107361,15 @@
       },
       "id": 538019,
       "utcDate": "2026-01-31T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 89,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Anfield",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T22:49:38Z",
+      "lastUpdated": "2026-01-31T22:58:53Z",
       "homeTeam": {
         "id": 64,
         "name": "Liverpool FC",
@@ -107650,7 +107650,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 1
         },
         "halfTime": {
@@ -107737,6 +107737,24 @@
           },
           "score": {
             "home": 3,
+            "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 9542,
+            "name": "Ibrahima Konaté"
+          },
+          "assist": null,
+          "score": {
+            "home": 4,
             "away": 1
           }
         }
