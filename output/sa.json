@@ -109989,14 +109989,14 @@
       "id": 537042,
       "utcDate": "2026-01-31T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 32,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Diego Armando Maradona",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T18:32:24Z",
+      "lastUpdated": "2026-01-31T18:48:53Z",
       "homeTeam": {
         "id": 113,
         "name": "SSC Napoli",
@@ -110315,7 +110315,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 44,
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "player": {
+            "id": 171123,
+            "name": "Giovanni Fabbian"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -110427,7 +110440,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 188502,
+          "name": "Kevin Bonacina",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 128730,
+          "name": "Giuseppe Perrotti",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 286259,
+          "name": "Andrea Zezza",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {
