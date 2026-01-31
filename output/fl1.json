@@ -80220,14 +80220,14 @@
       "id": 542578,
       "utcDate": "2026-01-31T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 80,
+      "minute": 90,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade du Moustoir",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T20:37:38Z",
+      "lastUpdated": "2026-01-31T20:48:08Z",
       "homeTeam": {
         "id": 525,
         "name": "FC Lorient",
@@ -80505,10 +80505,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -80556,6 +80556,24 @@
           },
           "score": {
             "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 89,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "scorer": {
+            "id": 244087,
+            "name": "Kan Guy Arsène Kouassi"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
             "away": 1
           }
         }
@@ -80607,6 +80625,42 @@
           "player": {
             "id": 724,
             "name": "Fabien Centonze"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 84,
+          "team": {
+            "id": 543,
+            "name": "FC Nantes"
+          },
+          "player": {
+            "id": 3240,
+            "name": "Anthony Lopes"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 85,
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "player": {
+            "id": 566,
+            "name": "Laurent Abergel"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 88,
+          "team": {
+            "id": 543,
+            "name": "FC Nantes"
+          },
+          "player": {
+            "id": 245998,
+            "name": "Ali Yousef"
           },
           "card": "YELLOW"
         }
