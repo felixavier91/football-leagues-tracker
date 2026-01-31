@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 233
+    "played": 234
   },
   "competition": {
     "id": 2021,
@@ -106834,15 +106834,15 @@
       },
       "id": 538018,
       "utcDate": "2026-01-31T17:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 1,
+      "injuryTime": 11,
       "attendance": null,
       "venue": "Stamford Bridge",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T20:22:34Z",
+      "lastUpdated": "2026-01-31T20:35:48Z",
       "homeTeam": {
         "id": 61,
         "name": "Chelsea FC",
@@ -107120,10 +107120,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 2
         },
         "halfTime": {
@@ -107212,6 +107212,27 @@
             "home": 2,
             "away": 2
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "scorer": {
+            "id": 102603,
+            "name": "Enzo Fernández"
+          },
+          "assist": {
+            "id": 103125,
+            "name": "João Pedro"
+          },
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -107227,6 +107248,66 @@
             "name": "Moisés Caicedo"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "player": {
+            "id": 102603,
+            "name": "Enzo Fernández"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 563,
+            "name": "West Ham United FC"
+          },
+          "player": {
+            "id": 188900,
+            "name": "Oliver Scarles"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 563,
+            "name": "West Ham United FC"
+          },
+          "player": {
+            "id": 4221,
+            "name": "Adama Traoré"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "player": {
+            "id": 103125,
+            "name": "João Pedro"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 563,
+            "name": "West Ham United FC"
+          },
+          "player": {
+            "id": 79903,
+            "name": "Jean-Clair Todibo"
+          },
+          "card": "RED"
         }
       ],
       "substitutions": [],
