@@ -80151,15 +80151,15 @@
       },
       "id": 545872,
       "utcDate": "2026-01-31T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio do Rio Ave F.C.",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T19:33:58Z",
+      "lastUpdated": "2026-01-31T19:53:04Z",
       "homeTeam": {
         "id": 496,
         "name": "Rio Ave FC",
@@ -80437,18 +80437,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 44,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "scorer": {
+            "id": 53121,
+            "name": "Tiago Esgaio"
+          },
+          "assist": {
+            "id": 140169,
+            "name": "José Fontán"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {

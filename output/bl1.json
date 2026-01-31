@@ -82710,15 +82710,15 @@
       },
       "id": 540577,
       "utcDate": "2026-01-31T17:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 59,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volksparkstadion",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T19:33:28Z",
+      "lastUpdated": "2026-01-31T19:52:28Z",
       "homeTeam": {
         "id": 7,
         "name": "Hamburger SV",
@@ -82824,6 +82824,12 @@
             "name": "Omar Megeed",
             "position": "Midfield",
             "shirtNumber": 39
+          },
+          {
+            "id": 289178,
+            "name": "Louis Lemke",
+            "position": null,
+            "shirtNumber": 37
           },
           {
             "id": 135467,
@@ -82993,8 +82999,8 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 1
+          "home": 2,
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -83040,6 +83046,48 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 46,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 22396,
+            "name": "Luis Díaz"
+          },
+          "assist": {
+            "id": 113765,
+            "name": "Michael Olise"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 53,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "scorer": {
+            "id": 216835,
+            "name": "Luka Vušković"
+          },
+          "assist": {
+            "id": 160442,
+            "name": "William Mikelbrencis"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -83065,6 +83113,30 @@
           "player": {
             "id": 149995,
             "name": "Nicolai Remberg"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 55,
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "player": {
+            "id": 50215,
+            "name": "Miro Muheim"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 57,
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "player": {
+            "id": 168299,
+            "name": "Min-Jae Kim"
           },
           "card": "YELLOW"
         }
