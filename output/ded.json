@@ -87860,14 +87860,14 @@
       "id": 537621,
       "utcDate": "2026-01-31T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 10,
+      "minute": 25,
       "injuryTime": null,
       "attendance": null,
       "venue": "AFAS Stadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T16:41:35Z",
+      "lastUpdated": "2026-01-31T16:56:40Z",
       "homeTeam": {
         "id": 682,
         "name": "AZ",
@@ -88175,18 +88175,61 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 10,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "scorer": {
+            "id": 21733,
+            "name": "Tjaronn Chery"
+          },
+          "assist": {
+            "id": 182241,
+            "name": "Noe Lebreton"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 12,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "scorer": {
+            "id": 178127,
+            "name": "Basar Onal"
+          },
+          "assist": {
+            "id": 217935,
+            "name": "Kodai Sano"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -88313,7 +88356,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 81350,
+          "name": "Alex Bos",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 91953,
+          "name": "Franca Overtoom",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 17140,
+          "name": "Martijn Beijer",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {

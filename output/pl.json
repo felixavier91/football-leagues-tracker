@@ -105481,15 +105481,15 @@
       },
       "id": 538017,
       "utcDate": "2026-01-31T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 40,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Amex Stadium",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T16:40:22Z",
+      "lastUpdated": "2026-01-31T16:55:47Z",
       "homeTeam": {
         "id": 397,
         "name": "Brighton & Hove Albion FC",
@@ -105774,8 +105774,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -105832,15 +105832,15 @@
       },
       "id": 538020,
       "utcDate": "2026-01-31T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 40,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Elland Road",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T16:40:22Z",
+      "lastUpdated": "2026-01-31T16:55:47Z",
       "homeTeam": {
         "id": 341,
         "name": "Leeds United FC",
@@ -106125,8 +106125,8 @@
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "goals": [
@@ -106236,15 +106236,15 @@
       },
       "id": 538024,
       "utcDate": "2026-01-31T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 40,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Molineux Stadium",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T16:40:23Z",
+      "lastUpdated": "2026-01-31T16:55:47Z",
       "homeTeam": {
         "id": 76,
         "name": "Wolverhampton Wanderers FC",
@@ -106529,8 +106529,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -106557,7 +106557,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "player": {
+            "id": 145538,
+            "name": "André"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
