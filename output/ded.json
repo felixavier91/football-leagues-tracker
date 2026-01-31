@@ -88823,14 +88823,14 @@
       "id": 537629,
       "utcDate": "2026-01-31T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 23,
+      "minute": 41,
       "injuryTime": null,
       "attendance": null,
       "venue": "Het Kasteel",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T21:24:53Z",
+      "lastUpdated": "2026-01-31T21:41:48Z",
       "homeTeam": {
         "id": 6806,
         "name": "Sparta Rotterdam",
@@ -89144,20 +89144,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 40,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "scorer": {
+            "id": 188914,
+            "name": "Thom van Bergen"
+          },
+          "assist": {
+            "id": 186400,
+            "name": "Younes Taha"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 27,
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "player": {
+            "id": 7949,
+            "name": "Bruno Martins Indi"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

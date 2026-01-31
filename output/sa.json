@@ -110431,15 +110431,15 @@
       },
       "id": 537035,
       "utcDate": "2026-01-31T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 38,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Unipol Domus",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T21:24:29Z",
+      "lastUpdated": "2026-01-31T21:41:23Z",
       "homeTeam": {
         "id": 104,
         "name": "Cagliari Calcio",
@@ -110762,12 +110762,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "goals": [
@@ -110789,6 +110789,27 @@
           },
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 104,
+            "name": "Cagliari Calcio"
+          },
+          "scorer": {
+            "id": 191289,
+            "name": "Semih Kilicsoy"
+          },
+          "assist": {
+            "id": 114054,
+            "name": "Sebastiano Esposito"
+          },
+          "score": {
+            "home": 2,
             "away": 0
           }
         }

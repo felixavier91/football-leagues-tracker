@@ -107362,14 +107362,14 @@
       "id": 538019,
       "utcDate": "2026-01-31T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 24,
+      "minute": 40,
       "injuryTime": null,
       "attendance": null,
       "venue": "Anfield",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T21:23:54Z",
+      "lastUpdated": "2026-01-31T21:40:48Z",
       "homeTeam": {
         "id": 64,
         "name": "Liverpool FC",
@@ -107647,18 +107647,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 36,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "scorer": {
+            "id": 7848,
+            "name": "Anthony Gordon"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 41,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 152454,
+            "name": "Hugo Ekitike"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {

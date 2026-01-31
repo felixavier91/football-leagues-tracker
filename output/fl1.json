@@ -80741,14 +80741,14 @@
       "id": 542577,
       "utcDate": "2026-01-31T20:05:00Z",
       "status": "IN_PLAY",
-      "minute": 19,
+      "minute": 35,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Louis II",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T21:24:38Z",
+      "lastUpdated": "2026-01-31T21:41:28Z",
       "homeTeam": {
         "id": 548,
         "name": "AS Monaco FC",
@@ -81026,10 +81026,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -81037,7 +81037,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 33,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "scorer": {
+            "id": 128040,
+            "name": "Ansu Fati"
+          },
+          "assist": {
+            "id": 131040,
+            "name": "Folarin Balogun"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -81049,6 +81071,30 @@
           "player": {
             "id": 3483,
             "name": "Breel Embolo"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 22,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "player": {
+            "id": 67965,
+            "name": "Jordan Teze"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 29,
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "player": {
+            "id": 123200,
+            "name": "Lilian Brassier"
           },
           "card": "YELLOW"
         }

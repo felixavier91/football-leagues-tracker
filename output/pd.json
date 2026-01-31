@@ -103916,14 +103916,14 @@
       "id": 544427,
       "utcDate": "2026-01-31T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 22,
+      "minute": 39,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Martinez Valero",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T21:23:58Z",
+      "lastUpdated": "2026-01-31T21:41:03Z",
       "homeTeam": {
         "id": 285,
         "name": "Elche CF",
@@ -104225,10 +104225,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -104257,10 +104257,44 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 29,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "scorer": {
+            "id": 189369,
+            "name": "Alvaro Rodriguez"
+          },
+          "assist": {
+            "id": 137485,
+            "name": "Germán Valera"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 38,
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "player": {
+            "id": 172388,
+            "name": "John Chetauya"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
