@@ -82711,14 +82711,14 @@
       "id": 540577,
       "utcDate": "2026-01-31T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 28,
+      "minute": 43,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volksparkstadion",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T18:58:39Z",
+      "lastUpdated": "2026-01-31T19:14:14Z",
       "homeTeam": {
         "id": 7,
         "name": "Hamburger SV",
@@ -82993,16 +82993,68 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 34,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "scorer": {
+            "id": 112948,
+            "name": "Fabio Vieira"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 8004,
+            "name": "Harry Kane"
+          },
+          "assist": {
+            "id": 359,
+            "name": "Joshua Kimmich"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 112948,
+            "name": "Fabio Vieira"
+          },
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 23,

@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 172
+    "played": 173
   },
   "competition": {
     "id": 2015,
@@ -79705,15 +79705,15 @@
       },
       "id": 542579,
       "utcDate": "2026-01-31T16:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 9,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Stade Jean Bouin",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T18:58:58Z",
+      "lastUpdated": "2026-01-31T19:00:03Z",
       "homeTeam": {
         "id": 1045,
         "name": "Paris FC",
@@ -80219,15 +80219,15 @@
       },
       "id": 542578,
       "utcDate": "2026-01-31T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 14,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade du Moustoir",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T18:17:47Z",
+      "lastUpdated": "2026-01-31T19:14:29Z",
       "homeTeam": {
         "id": 525,
         "name": "FC Lorient",
@@ -80505,11 +80505,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -80630,7 +80630,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43886,
+          "name": "Ruddy Buquet",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 57053,
+          "name": "Aurélien Drouet",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 64774,
+          "name": "Julien Garrigues",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {

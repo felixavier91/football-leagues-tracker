@@ -80151,15 +80151,15 @@
       },
       "id": 545872,
       "utcDate": "2026-01-31T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 14,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio do Rio Ave F.C.",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T18:05:23Z",
+      "lastUpdated": "2026-01-31T19:14:40Z",
       "homeTeam": {
         "id": 496,
         "name": "Rio Ave FC",
@@ -80437,11 +80437,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -80450,7 +80450,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 14,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 214415,
+            "name": "Espen van Ee"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
