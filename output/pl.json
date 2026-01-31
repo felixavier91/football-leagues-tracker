@@ -107361,15 +107361,15 @@
       },
       "id": 538019,
       "utcDate": "2026-01-31T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 40,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Anfield",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T21:40:48Z",
+      "lastUpdated": "2026-01-31T21:56:28Z",
       "homeTeam": {
         "id": 64,
         "name": "Liverpool FC",
@@ -107647,15 +107647,15 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         }
       },
       "goals": [
@@ -107689,9 +107689,33 @@
             "id": 152454,
             "name": "Hugo Ekitike"
           },
-          "assist": null,
+          "assist": {
+            "id": 19334,
+            "name": "Florian Wirtz"
+          },
           "score": {
             "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 43,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 152454,
+            "name": "Hugo Ekitike"
+          },
+          "assist": {
+            "id": 171141,
+            "name": "Milos Kerkez"
+          },
+          "score": {
+            "home": 2,
             "away": 1
           }
         }
@@ -107707,6 +107731,18 @@
           "player": {
             "id": 7848,
             "name": "Anthony Gordon"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "player": {
+            "id": 111437,
+            "name": "Jacob Ramsey"
           },
           "card": "YELLOW"
         }

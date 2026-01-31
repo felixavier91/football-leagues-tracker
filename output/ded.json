@@ -88822,15 +88822,15 @@
       },
       "id": 537629,
       "utcDate": "2026-01-31T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Het Kasteel",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T21:41:48Z",
+      "lastUpdated": "2026-01-31T21:57:13Z",
       "homeTeam": {
         "id": 6806,
         "name": "Sparta Rotterdam",
@@ -89144,40 +89144,18 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
-      "goals": [
-        {
-          "minute": 40,
-          "injuryTime": null,
-          "type": "REGULAR",
-          "team": {
-            "id": 677,
-            "name": "FC Groningen"
-          },
-          "scorer": {
-            "id": 188914,
-            "name": "Thom van Bergen"
-          },
-          "assist": {
-            "id": 186400,
-            "name": "Younes Taha"
-          },
-          "score": {
-            "home": 0,
-            "away": 1
-          }
-        }
-      ],
+      "goals": [],
       "penalties": [],
       "bookings": [
         {
@@ -89189,6 +89167,42 @@
           "player": {
             "id": 7949,
             "name": "Bruno Martins Indi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 43,
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "player": {
+            "id": 217464,
+            "name": "Dies Janse"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "player": {
+            "id": 71983,
+            "name": "Marvin Peersman"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "player": {
+            "id": 45647,
+            "name": "Marco Rente"
           },
           "card": "YELLOW"
         }
