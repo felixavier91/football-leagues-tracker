@@ -87859,15 +87859,15 @@
       },
       "id": 537621,
       "utcDate": "2026-01-31T15:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 25,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "AFAS Stadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T16:56:40Z",
+      "lastUpdated": "2026-01-31T17:26:38Z",
       "homeTeam": {
         "id": 682,
         "name": "AZ",
@@ -88178,12 +88178,12 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         }
       },
       "goals": [
@@ -88226,6 +88226,27 @@
           },
           "score": {
             "home": 0,
+            "away": 2
+          }
+        },
+        {
+          "minute": 40,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "scorer": {
+            "id": 131041,
+            "name": "Troy Parrott"
+          },
+          "assist": {
+            "id": 153974,
+            "name": "Isak Jensen"
+          },
+          "score": {
+            "home": 1,
             "away": 2
           }
         }

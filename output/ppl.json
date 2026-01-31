@@ -79523,15 +79523,15 @@
       },
       "id": 545878,
       "utcDate": "2026-01-31T15:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 24,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio de São Miguel",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T16:56:26Z",
+      "lastUpdated": "2026-01-31T17:26:21Z",
       "homeTeam": {
         "id": 5530,
         "name": "CD Santa Clara",
@@ -79809,20 +79809,133 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 33,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 582,
+            "name": "GD Estoril Praia"
+          },
+          "scorer": {
+            "id": 553,
+            "name": "Yanis Begraoui"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 40,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 582,
+            "name": "GD Estoril Praia"
+          },
+          "scorer": {
+            "id": 141357,
+            "name": "Alejandro Marqués"
+          },
+          "assist": {
+            "id": 16754,
+            "name": "Pizzi"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 553,
+            "name": "Yanis Begraoui"
+          },
+          "team": {
+            "id": 582,
+            "name": "GD Estoril Praia"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 31,
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "player": {
+            "id": 178743,
+            "name": "Diogo Calila"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 36,
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "player": {
+            "id": 11524,
+            "name": "Frederico Venâncio"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 39,
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "player": {
+            "id": 80878,
+            "name": "Pedro Ferreira"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 582,
+            "name": "GD Estoril Praia"
+          },
+          "player": {
+            "id": 37555,
+            "name": "Pedro Amaral"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "player": {
+            "id": 181456,
+            "name": "Brenner"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -79934,7 +80047,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57283,
+          "name": "Sérgio Guelho",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 37343,
+          "name": "Carlos Campos",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 37632,
+          "name": "Nelson Cunha",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
