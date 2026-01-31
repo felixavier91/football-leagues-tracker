@@ -102540,14 +102540,14 @@
       "id": 544429,
       "utcDate": "2026-01-31T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 61,
+      "minute": 90,
       "injuryTime": null,
       "attendance": 25085,
       "venue": "Nuevo Carlos Tartiere",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T15:19:17Z",
+      "lastUpdated": "2026-01-31T15:50:18Z",
       "homeTeam": {
         "id": 1048,
         "name": "Real Oviedo",
@@ -102861,10 +102861,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -102872,7 +102872,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 74,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "scorer": {
+            "id": 146126,
+            "name": "Ilyas Chaira"
+          },
+          "assist": {
+            "id": 193621,
+            "name": "Thiago Fernandez"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -102884,6 +102906,18 @@
           "player": {
             "id": 80869,
             "name": "David Carmo"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 80,
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "player": {
+            "id": 16173,
+            "name": "Viktor Tsyhankov"
           },
           "card": "YELLOW"
         }

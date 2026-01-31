@@ -109434,15 +109434,15 @@
       },
       "id": 537041,
       "utcDate": "2026-01-31T14:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 19,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Romeo Anconetani",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T15:19:41Z",
+      "lastUpdated": "2026-01-31T15:50:48Z",
       "homeTeam": {
         "id": 487,
         "name": "AC Pisa 1909",
@@ -109768,20 +109768,85 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 25,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio"
+          },
+          "scorer": {
+            "id": 2202,
+            "name": "Domenico Berardi"
+          },
+          "assist": {
+            "id": 44033,
+            "name": "Kristian Thorstvedt"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 1,
+          "type": "OWN",
+          "team": {
+            "id": 487,
+            "name": "AC Pisa 1909"
+          },
+          "scorer": {
+            "id": 2148,
+            "name": "Antonio Caracciolo"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 25,
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio"
+          },
+          "player": {
+            "id": 44033,
+            "name": "Kristian Thorstvedt"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 42,
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio"
+          },
+          "player": {
+            "id": 172183,
+            "name": "Ismael Kone"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
