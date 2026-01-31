@@ -80220,14 +80220,14 @@
       "id": 542578,
       "utcDate": "2026-01-31T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 14,
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade du Moustoir",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T19:14:29Z",
+      "lastUpdated": "2026-01-31T19:33:49Z",
       "homeTeam": {
         "id": 525,
         "name": "FC Lorient",
@@ -80505,10 +80505,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -80516,9 +80516,56 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 32,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "scorer": {
+            "id": 166640,
+            "name": "Ahmadou Bamba Dieng"
+          },
+          "assist": {
+            "id": 172520,
+            "name": "Theo Le Bris"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 16,
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "player": {
+            "id": 179596,
+            "name": "Bamo Meité"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 30,
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "player": {
+            "id": 166640,
+            "name": "Ahmadou Bamba Dieng"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

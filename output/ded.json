@@ -88360,14 +88360,14 @@
       "id": 537626,
       "utcDate": "2026-01-31T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 29,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "MAC³PARK stadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T19:14:54Z",
+      "lastUpdated": "2026-01-31T19:34:18Z",
       "homeTeam": {
         "id": 684,
         "name": "PEC Zwolle",
@@ -88657,10 +88657,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -88668,7 +88668,26 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 684,
+            "name": "PEC Zwolle"
+          },
+          "scorer": {
+            "id": 160846,
+            "name": "Shola Shoretire"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
