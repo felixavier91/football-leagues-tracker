@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 174
+    "played": 175
   },
   "competition": {
     "id": 2017,
@@ -80600,15 +80600,15 @@
       },
       "id": 545877,
       "utcDate": "2026-01-31T20:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 77,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Centro de Formação do FC Alverca",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T23:10:53Z",
+      "lastUpdated": "2026-01-31T23:34:08Z",
       "homeTeam": {
         "id": 7822,
         "name": "FC Alverca",
@@ -80871,16 +80871,68 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 81,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "scorer": {
+            "id": 80336,
+            "name": "Sydney van Hooijdonk"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 87,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7822,
+            "name": "FC Alverca"
+          },
+          "scorer": {
+            "id": 248958,
+            "name": "Fabrício Garcia"
+          },
+          "assist": {
+            "id": 30052,
+            "name": "Lincoln"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 80336,
+            "name": "Sydney van Hooijdonk"
+          },
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 10,
