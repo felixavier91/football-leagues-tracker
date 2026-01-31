@@ -102974,14 +102974,14 @@
       "id": 544424,
       "utcDate": "2026-01-31T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 67,
+      "minute": 81,
       "injuryTime": null,
       "attendance": 20455,
       "venue": "Estadio El Sadar",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T17:44:30Z",
+      "lastUpdated": "2026-01-31T17:58:47Z",
       "homeTeam": {
         "id": 79,
         "name": "CA Osasuna",
@@ -103277,11 +103277,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 2,
@@ -103348,6 +103348,27 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 70,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "scorer": {
+            "id": 32719,
+            "name": "Gerard Moreno"
+          },
+          "assist": {
+            "id": 8412,
+            "name": "Nicolas Pépé"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -103385,6 +103406,30 @@
           "player": {
             "id": 50890,
             "name": "Catena"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 72,
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "player": {
+            "id": 32002,
+            "name": "Lucas Torró"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 75,
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "player": {
+            "id": 176612,
+            "name": "Alessio Lisci"
           },
           "card": "YELLOW"
         }

@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 230
+    "played": 232
   },
   "competition": {
     "id": 2021,
@@ -105482,14 +105482,14 @@
       "id": 538017,
       "utcDate": "2026-01-31T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 87,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 11,
       "attendance": null,
       "venue": "Amex Stadium",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T17:44:19Z",
+      "lastUpdated": "2026-01-31T17:58:41Z",
       "homeTeam": {
         "id": 397,
         "name": "Brighton & Hove Albion FC",
@@ -105767,11 +105767,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -105799,6 +105799,24 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 7,
+          "type": "REGULAR",
+          "team": {
+            "id": 62,
+            "name": "Everton FC"
+          },
+          "scorer": {
+            "id": 125044,
+            "name": "Beto"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -105824,6 +105842,18 @@
           "player": {
             "id": 114120,
             "name": "Jarrad Branthwaite"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 62,
+            "name": "Everton FC"
+          },
+          "player": {
+            "id": 169326,
+            "name": "Tim Iroegbunam"
           },
           "card": "YELLOW"
         }
@@ -105879,15 +105909,15 @@
       },
       "id": 538020,
       "utcDate": "2026-01-31T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 86,
-      "injuryTime": null,
-      "attendance": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
+      "attendance": 36858,
       "venue": "Elland Road",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T17:44:19Z",
+      "lastUpdated": "2026-01-31T17:54:39Z",
       "homeTeam": {
         "id": 341,
         "name": "Leeds United FC",
@@ -106169,7 +106199,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 3
+          "away": 4
         },
         "halfTime": {
           "home": 0,
@@ -106235,6 +106265,27 @@
           "score": {
             "home": 0,
             "away": 3
+          }
+        },
+        {
+          "minute": 86,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 57,
+            "name": "Arsenal FC"
+          },
+          "scorer": {
+            "id": 3236,
+            "name": "Gabriel Jesus"
+          },
+          "assist": {
+            "id": 7427,
+            "name": "Martin Ødegaard"
+          },
+          "score": {
+            "home": 0,
+            "away": 4
           }
         }
       ],
@@ -106316,15 +106367,15 @@
       },
       "id": 538024,
       "utcDate": "2026-01-31T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 89,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Molineux Stadium",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T17:44:19Z",
+      "lastUpdated": "2026-01-31T17:55:24Z",
       "homeTeam": {
         "id": 76,
         "name": "Wolverhampton Wanderers FC",
@@ -106606,7 +106657,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -106633,6 +106684,27 @@
           "score": {
             "home": 0,
             "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 1044,
+            "name": "AFC Bournemouth"
+          },
+          "scorer": {
+            "id": 161088,
+            "name": "Alex Scott"
+          },
+          "assist": {
+            "id": 203356,
+            "name": "Rayan"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
           }
         }
       ],
