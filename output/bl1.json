@@ -80375,15 +80375,15 @@
       },
       "id": 540578,
       "utcDate": "2026-01-31T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 38,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Deutsche Bank Park",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T16:07:50Z",
+      "lastUpdated": "2026-01-31T16:22:05Z",
       "homeTeam": {
         "id": 19,
         "name": "Eintracht Frankfurt",
@@ -80668,8 +80668,8 @@
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "goals": [
@@ -80770,14 +80770,14 @@
       "id": 540580,
       "utcDate": "2026-01-31T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 37,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Red Bull Arena Leipzig",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T16:07:51Z",
+      "lastUpdated": "2026-01-31T16:22:06Z",
       "homeTeam": {
         "id": 721,
         "name": "RB Leipzig",
@@ -81058,17 +81058,94 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 40,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "scorer": {
+            "id": 206744,
+            "name": "Conrad Harder"
+          },
+          "assist": {
+            "id": 169295,
+            "name": "Antonio Nusa"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 6,
+          "type": "PENALTY",
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "scorer": {
+            "id": 320,
+            "name": "Nadiem Amiri"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 320,
+            "name": "Nadiem Amiri"
+          },
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 38,
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "player": {
+            "id": 6620,
+            "name": "Stefan Bell"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "player": {
+            "id": 395,
+            "name": "Stefan Posch"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -81120,15 +81197,15 @@
       },
       "id": 540581,
       "utcDate": "2026-01-31T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 38,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Wohninvest Weserstadion",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T16:07:51Z",
+      "lastUpdated": "2026-01-31T16:22:06Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -81413,13 +81490,26 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 44,
+          "team": {
+            "id": 18,
+            "name": "Borussia Mönchengladbach"
+          },
+          "player": {
+            "id": 150517,
+            "name": "Rocco Reitz"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -81471,15 +81561,15 @@
       },
       "id": 540583,
       "utcDate": "2026-01-31T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 38,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "PreZero Arena",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T16:07:51Z",
+      "lastUpdated": "2026-01-31T16:22:06Z",
       "homeTeam": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
@@ -81757,19 +81847,71 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "scorer": {
+            "id": 318,
+            "name": "Andrej Kramarić"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "scorer": {
+            "id": 318,
+            "name": "Andrej Kramarić"
+          },
+          "assist": {
+            "id": 249312,
+            "name": "Bazoumana Touré"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 318,
+            "name": "Andrej Kramarić"
+          },
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 8,
@@ -81847,15 +81989,15 @@
       },
       "id": 540584,
       "utcDate": "2026-01-31T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 38,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "WWK ARENA",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T16:07:52Z",
+      "lastUpdated": "2026-01-31T16:22:07Z",
       "homeTeam": {
         "id": 16,
         "name": "FC Augsburg",
@@ -82133,15 +82275,15 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -82160,6 +82302,27 @@
           "assist": null,
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 41,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "scorer": {
+            "id": 6661,
+            "name": "Michael Gregoritsch"
+          },
+          "assist": {
+            "id": 608,
+            "name": "Alexis Claude Maurice"
+          },
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
@@ -82199,6 +82362,18 @@
           "player": {
             "id": 10242,
             "name": "Manuel Baum"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 44,
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "player": {
+            "id": 65692,
+            "name": "Robin Fellhauer"
           },
           "card": "YELLOW"
         }
