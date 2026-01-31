@@ -102539,15 +102539,15 @@
       },
       "id": 544429,
       "utcDate": "2026-01-31T13:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 27,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Nuevo Carlos Tartiere",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T14:27:54Z",
+      "lastUpdated": "2026-01-31T14:48:43Z",
       "homeTeam": {
         "id": 1048,
         "name": "Real Oviedo",
@@ -102868,13 +102868,26 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 39,
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "player": {
+            "id": 80869,
+            "name": "David Carmo"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
