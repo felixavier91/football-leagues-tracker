@@ -106835,14 +106835,14 @@
       "id": 538018,
       "utcDate": "2026-01-31T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 77,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Stamford Bridge",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T20:08:08Z",
+      "lastUpdated": "2026-01-31T20:22:34Z",
       "homeTeam": {
         "id": 61,
         "name": "Chelsea FC",
@@ -107215,7 +107215,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 85,
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "player": {
+            "id": 121103,
+            "name": "Moisés Caicedo"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
