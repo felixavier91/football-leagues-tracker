@@ -107361,15 +107361,15 @@
       },
       "id": 538019,
       "utcDate": "2026-01-31T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 24,
       "injuryTime": null,
       "attendance": null,
       "venue": "Anfield",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T19:57:51Z",
+      "lastUpdated": "2026-01-31T21:23:54Z",
       "homeTeam": {
         "id": 64,
         "name": "Liverpool FC",
@@ -107647,11 +107647,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -107660,7 +107660,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 11,
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "player": {
+            "id": 7848,
+            "name": "Anthony Gordon"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

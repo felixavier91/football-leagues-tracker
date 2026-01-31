@@ -103915,15 +103915,15 @@
       },
       "id": 544427,
       "utcDate": "2026-01-31T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 22,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Martinez Valero",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T19:47:31Z",
+      "lastUpdated": "2026-01-31T21:23:58Z",
       "homeTeam": {
         "id": 285,
         "name": "Elche CF",
@@ -103936,7 +103936,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 12,
-        "formation": "4-4-2",
+        "formation": "3-4-1-2",
         "lineup": [
           {
             "id": 180898,
@@ -104225,18 +104225,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 6,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 202283,
+            "name": "Lamine Yamal"
+          },
+          "assist": {
+            "id": 23132,
+            "name": "Dani Olmo"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

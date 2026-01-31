@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 173
+    "played": 174
   },
   "competition": {
     "id": 2015,
@@ -80219,15 +80219,15 @@
       },
       "id": 542578,
       "utcDate": "2026-01-31T18:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 8,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Stade du Moustoir",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T20:56:13Z",
+      "lastUpdated": "2026-01-31T20:56:18Z",
       "homeTeam": {
         "id": 525,
         "name": "FC Lorient",
@@ -80740,15 +80740,15 @@
       },
       "id": 542577,
       "utcDate": "2026-01-31T20:05:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Louis II",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T20:55:43Z",
+      "lastUpdated": "2026-01-31T21:24:38Z",
       "homeTeam": {
         "id": 548,
         "name": "AS Monaco FC",
@@ -80761,7 +80761,7 @@
           "nationality": "Belgium"
         },
         "leagueRank": 10,
-        "formation": "4-2-3-1",
+        "formation": "3-4-2-1",
         "lineup": [
           {
             "id": 9535,
@@ -81026,11 +81026,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -81039,7 +81039,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 12,
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "player": {
+            "id": 3483,
+            "name": "Breel Embolo"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
