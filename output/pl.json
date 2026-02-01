@@ -107862,14 +107862,14 @@
       "id": 538016,
       "utcDate": "2026-02-01T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 73,
+      "minute": 87,
       "injuryTime": null,
       "attendance": 41415,
       "venue": "Villa Park",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T16:36:23Z",
+      "lastUpdated": "2026-02-01T16:49:44Z",
       "homeTeam": {
         "id": 58,
         "name": "Aston Villa FC",
@@ -108269,14 +108269,14 @@
       "id": 538021,
       "utcDate": "2026-02-01T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 77,
+      "minute": 90,
       "injuryTime": null,
       "attendance": null,
       "venue": "Old Trafford",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T16:36:23Z",
+      "lastUpdated": "2026-02-01T16:49:45Z",
       "homeTeam": {
         "id": 66,
         "name": "Manchester United FC",
@@ -108558,7 +108558,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -108607,9 +108607,39 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 85,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 63,
+            "name": "Fulham FC"
+          },
+          "scorer": {
+            "id": 3305,
+            "name": "Raúl Jiménez"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 3305,
+            "name": "Raúl Jiménez"
+          },
+          "team": {
+            "id": 63,
+            "name": "Fulham FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 20,
@@ -108644,6 +108674,18 @@
           "player": {
             "id": 3231,
             "name": "Casemiro"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 83,
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "player": {
+            "id": 3326,
+            "name": "Harry Maguire"
           },
           "card": "YELLOW"
         }
@@ -108700,14 +108742,14 @@
       "id": 538022,
       "utcDate": "2026-02-01T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 74,
+      "minute": 88,
       "injuryTime": null,
       "attendance": 30334,
       "venue": "City Ground, Nottingham",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T16:36:23Z",
+      "lastUpdated": "2026-02-01T16:49:45Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -109081,6 +109123,18 @@
           "player": {
             "id": 180081,
             "name": "Yeremy"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 75,
+          "team": {
+            "id": 351,
+            "name": "Nottingham Forest FC"
+          },
+          "player": {
+            "id": 1775,
+            "name": "Nikola Milenković"
           },
           "card": "YELLOW"
         }

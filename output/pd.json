@@ -105003,14 +105003,14 @@
       "id": 544422,
       "utcDate": "2026-02-01T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 16,
+      "minute": 30,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio de La Cartuja",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T16:36:24Z",
+      "lastUpdated": "2026-02-01T16:50:14Z",
       "homeTeam": {
         "id": 90,
         "name": "Real Betis Balompié",
@@ -105297,15 +105297,55 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 20,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scorer": {
+            "id": 50907,
+            "name": "Luis Rioja"
+          },
+          "assist": {
+            "id": 98572,
+            "name": "Lucas Beltrán"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 23,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié"
+          },
+          "scorer": {
+            "id": 213268,
+            "name": "Ezequiel Ávila"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [
         {
           "player": {
@@ -105317,6 +105357,17 @@
             "name": "Valencia CF"
           },
           "scored": false
+        },
+        {
+          "player": {
+            "id": 213268,
+            "name": "Ezequiel Ávila"
+          },
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié"
+          },
+          "scored": true
         }
       ],
       "bookings": [],
