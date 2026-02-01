@@ -104422,14 +104422,14 @@
       "id": 544430,
       "utcDate": "2026-02-01T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 47,
+      "minute": 68,
       "injuryTime": null,
       "attendance": 71051,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T15:10:33Z",
+      "lastUpdated": "2026-02-01T15:32:20Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -104731,11 +104731,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -104763,10 +104763,68 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 49,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid"
+          },
+          "scorer": {
+            "id": 133276,
+            "name": "Jorge de Frutos"
+          },
+          "assist": {
+            "id": 32312,
+            "name": "Álvaro García"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 53,
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid"
+          },
+          "player": {
+            "id": 33711,
+            "name": "Gerard Gumbau"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 57,
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid"
+          },
+          "player": {
+            "id": 151251,
+            "name": "Pep Chavarría"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 65,
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid"
+          },
+          "player": {
+            "id": 33496,
+            "name": "Isi Palazón"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -104826,7 +104884,7 @@
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-01-31T01:32:01Z",
+      "lastUpdated": "2026-02-01T15:29:17Z",
       "homeTeam": {
         "id": 90,
         "name": "Real Betis Balompié",
@@ -104839,9 +104897,125 @@
           "nationality": "Chile"
         },
         "leagueRank": 6,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-2-3-1",
+        "lineup": [
+          {
+            "id": 100130,
+            "name": "Álvaro Vallés Rosa",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 175941,
+            "name": "Abdessamad Ezzalzouli",
+            "position": "Offence",
+            "shirtNumber": 10
+          },
+          {
+            "id": 213268,
+            "name": "Ezequiel Ávila",
+            "position": "Offence",
+            "shirtNumber": 9
+          },
+          {
+            "id": 97085,
+            "name": "Antony",
+            "position": "Right Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 179141,
+            "name": "Nelson Deossa",
+            "position": "Central Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 212861,
+            "name": "Sergi Altimira",
+            "position": "Central Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 32710,
+            "name": "Marc Roca",
+            "position": "Defensive Midfield",
+            "shirtNumber": 21
+          },
+          {
+            "id": 33045,
+            "name": "Aitor Ruibal",
+            "position": "Right-Back",
+            "shirtNumber": 24
+          },
+          {
+            "id": 33038,
+            "name": "Bartra",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 9,
+            "name": "Diego Llorente",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 1745,
+            "name": "Ricardo Rodriguez",
+            "position": "Left-Back",
+            "shirtNumber": 12
+          }
+        ],
+        "bench": [
+          {
+            "id": 32695,
+            "name": "Pau López",
+            "position": "Goalkeeper",
+            "shirtNumber": 25
+          },
+          {
+            "id": 8197,
+            "name": "Adrián",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 179155,
+            "name": "Valentín Gómez",
+            "position": "Defence",
+            "shirtNumber": 16
+          },
+          {
+            "id": 272694,
+            "name": "Ángel Ortiz",
+            "position": "Defence",
+            "shirtNumber": 40
+          },
+          {
+            "id": 285050,
+            "name": "Iván Corralejo",
+            "position": "Midfield",
+            "shirtNumber": 50
+          },
+          {
+            "id": 274546,
+            "name": "Pablo García",
+            "position": "Offence",
+            "shirtNumber": 52
+          },
+          {
+            "id": 33117,
+            "name": "Pablo Fornals",
+            "position": "Attacking Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 21583,
+            "name": "Cédric Bakambu",
+            "position": "Centre-Forward",
+            "shirtNumber": 11
+          }
+        ]
       },
       "awayTeam": {
         "id": 95,
@@ -104855,9 +105029,143 @@
           "nationality": "Spain"
         },
         "leagueRank": 15,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-4-2",
+        "lineup": [
+          {
+            "id": 33781,
+            "name": "Stole Dimitrievski",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 30802,
+            "name": "Filip Ugrinic",
+            "position": "Midfield",
+            "shirtNumber": 23
+          },
+          {
+            "id": 32762,
+            "name": "Hugo Duro",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 98572,
+            "name": "Lucas Beltrán",
+            "position": "Attacking Midfield",
+            "shirtNumber": 15
+          },
+          {
+            "id": 50907,
+            "name": "Luis Rioja",
+            "position": "Left Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 33270,
+            "name": "Pepelu",
+            "position": "Defensive Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 9870,
+            "name": "Arnaut Danjuma",
+            "position": "Left Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 8780,
+            "name": "Dimitri Foulquier",
+            "position": "Right-Back",
+            "shirtNumber": 20
+          },
+          {
+            "id": 30823,
+            "name": "Eray Cömert",
+            "position": "Centre-Back",
+            "shirtNumber": 24
+          },
+          {
+            "id": 172108,
+            "name": "Copete",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 33146,
+            "name": "Gaya",
+            "position": "Left-Back",
+            "shirtNumber": 14
+          }
+        ],
+        "bench": [
+          {
+            "id": 251106,
+            "name": "Vicent Abril",
+            "position": "Goalkeeper",
+            "shirtNumber": 28
+          },
+          {
+            "id": 157190,
+            "name": "Jesus Vazquez Alcalde",
+            "position": "Left-Back",
+            "shirtNumber": 21
+          },
+          {
+            "id": 176041,
+            "name": "Cesar Tarrega",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 8646,
+            "name": "Baptiste Santamaria",
+            "position": "Defensive Midfield",
+            "shirtNumber": 22
+          },
+          {
+            "id": 7672,
+            "name": "Umar Sadiq",
+            "position": "Centre-Forward",
+            "shirtNumber": 6
+          },
+          {
+            "id": 37539,
+            "name": "André Almeida",
+            "position": "Attacking Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 136349,
+            "name": "Largie Ramazani",
+            "position": "Left Winger",
+            "shirtNumber": 17
+          },
+          {
+            "id": 32584,
+            "name": "Unai Núñez",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 180061,
+            "name": "Diego López",
+            "position": "Right Winger",
+            "shirtNumber": 16
+          },
+          {
+            "id": 176602,
+            "name": "Ruben Iranzo",
+            "position": "Centre-Back",
+            "shirtNumber": 26
+          },
+          {
+            "id": 177180,
+            "name": "Javier Guerra",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          }
+        ]
       },
       "score": {
         "winner": null,

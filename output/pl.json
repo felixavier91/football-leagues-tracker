@@ -107862,14 +107862,14 @@
       "id": 538016,
       "utcDate": "2026-02-01T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 9,
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Villa Park",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T15:10:17Z",
+      "lastUpdated": "2026-02-01T15:32:16Z",
       "homeTeam": {
         "id": 58,
         "name": "Aston Villa FC",
@@ -108213,14 +108213,14 @@
       "id": 538021,
       "utcDate": "2026-02-01T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 10,
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "Old Trafford",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T15:10:17Z",
+      "lastUpdated": "2026-02-01T15:32:16Z",
       "homeTeam": {
         "id": 66,
         "name": "Manchester United FC",
@@ -108498,10 +108498,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -108509,9 +108509,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 19,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "scorer": {
+            "id": 3231,
+            "name": "Casemiro"
+          },
+          "assist": {
+            "id": 3257,
+            "name": "Bruno Fernandes"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 20,
+          "team": {
+            "id": 63,
+            "name": "Fulham FC"
+          },
+          "player": {
+            "id": 11579,
+            "name": "Marco Silva"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -108564,14 +108599,14 @@
       "id": 538022,
       "utcDate": "2026-02-01T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 10,
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "City Ground, Nottingham",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T15:10:17Z",
+      "lastUpdated": "2026-02-01T15:32:17Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -108869,7 +108904,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 31,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 99856,
+            "name": "Chris Richards"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -108981,7 +109029,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11446,
+          "name": "Robert Jones",
+          "type": "REFEREE",
+          "nationality": "England"
+        },
+        {
+          "id": 11424,
+          "name": "Neil Davies",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "England"
+        },
+        {
+          "id": 214208,
+          "name": "Nicholas Greenhalgh",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "England"
+        }
+      ]
     },
     {
       "area": {
