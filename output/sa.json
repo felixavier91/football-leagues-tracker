@@ -111873,15 +111873,15 @@
       },
       "id": 537044,
       "utcDate": "2026-02-01T17:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 57,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Giovanni Zini",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T19:00:14Z",
+      "lastUpdated": "2026-02-01T19:15:38Z",
       "homeTeam": {
         "id": 457,
         "name": "US Cremonese",
@@ -112221,7 +112221,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 54,
+          "team": {
+            "id": 457,
+            "name": "US Cremonese"
+          },
+          "player": {
+            "id": 2213,
+            "name": "Federico Ceccherini"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
