@@ -81957,14 +81957,14 @@
       "id": 545874,
       "utcDate": "2026-02-01T20:30:00Z",
       "status": "IN_PLAY",
-      "minute": 30,
+      "minute": 54,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio João Cardoso",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T22:00:58Z",
+      "lastUpdated": "2026-02-01T22:48:28Z",
       "homeTeam": {
         "id": 1049,
         "name": "CD Tondela",
@@ -82249,13 +82249,38 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 36,
+          "team": {
+            "id": 1049,
+            "name": "CD Tondela"
+          },
+          "player": {
+            "id": 133788,
+            "name": "Sphephelo Sithole"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 42,
+          "team": {
+            "id": 1049,
+            "name": "CD Tondela"
+          },
+          "player": {
+            "id": 166113,
+            "name": "Emmanuel Maviram"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

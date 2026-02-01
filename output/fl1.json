@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 179
+    "played": 180
   },
   "competition": {
     "id": 2015,
@@ -83020,15 +83020,15 @@
       },
       "id": 542583,
       "utcDate": "2026-02-01T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 54,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Stade de la Meinau",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T22:00:48Z",
+      "lastUpdated": "2026-02-01T22:45:33Z",
       "homeTeam": {
         "id": 576,
         "name": "RC Strasbourg Alsace",
@@ -83306,11 +83306,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -83359,6 +83359,27 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 81,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 144570,
+            "name": "Nuno Mendes"
+          },
+          "assist": {
+            "id": 186089,
+            "name": "Warren Zaïre-Emery"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -83372,9 +83393,45 @@
             "name": "RC Strasbourg Alsace"
           },
           "scored": false
+        },
+        {
+          "player": {
+            "id": 203561,
+            "name": "Joaquín Panichelli"
+          },
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "scored": false
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 75,
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "player": {
+            "id": 53,
+            "name": "Achraf Hakimi"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "player": {
+            "id": 182192,
+            "name": "Diego Moreira"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
