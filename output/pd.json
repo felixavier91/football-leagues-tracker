@@ -105913,14 +105913,14 @@
       "id": 544421,
       "utcDate": "2026-02-01T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 30,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "San Mames Barria",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T21:32:38Z",
+      "lastUpdated": "2026-02-01T21:49:08Z",
       "homeTeam": {
         "id": 77,
         "name": "Athletic Club",
@@ -106228,18 +106228,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 37,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol"
+          },
+          "scorer": {
+            "id": 3259,
+            "name": "Gonçalo Guedes"
+          },
+          "assist": {
+            "id": 164,
+            "name": "Sergio Gómez"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
