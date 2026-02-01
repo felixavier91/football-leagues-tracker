@@ -105003,14 +105003,14 @@
       "id": 544422,
       "utcDate": "2026-02-01T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 77,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": 57523,
       "venue": "Estadio de La Cartuja",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T17:56:00Z",
+      "lastUpdated": "2026-02-01T18:10:18Z",
       "homeTeam": {
         "id": 90,
         "name": "Real Betis Balompié",
@@ -105300,10 +105300,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -105350,6 +105350,24 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié"
+          },
+          "scorer": {
+            "id": 33117,
+            "name": "Pablo Fornals"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [
@@ -105374,6 +105392,17 @@
             "name": "Real Betis Balompié"
           },
           "scored": true
+        },
+        {
+          "player": {
+            "id": 33270,
+            "name": "Pepelu"
+          },
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scored": false
         }
       ],
       "bookings": [
@@ -105398,6 +105427,18 @@
           "player": {
             "id": 33270,
             "name": "Pepelu"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 85,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "player": {
+            "id": 8780,
+            "name": "Dimitri Foulquier"
           },
           "card": "YELLOW"
         }
