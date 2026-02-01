@@ -81648,14 +81648,14 @@
       "id": 542580,
       "utcDate": "2026-02-01T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 62,
+      "minute": 78,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadium de Toulouse",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T18:32:48Z",
+      "lastUpdated": "2026-02-01T18:49:38Z",
       "homeTeam": {
         "id": 511,
         "name": "Toulouse FC",
@@ -81958,6 +81958,18 @@
             "name": "Daniel Namaso"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 74,
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "player": {
+            "id": 81229,
+            "name": "Cristian Cásseres Jr."
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -82012,14 +82024,14 @@
       "id": 542581,
       "utcDate": "2026-02-01T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 57,
+      "minute": 73,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Riviera",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T18:32:48Z",
+      "lastUpdated": "2026-02-01T18:49:38Z",
       "homeTeam": {
         "id": 522,
         "name": "OGC Nice",
@@ -82125,6 +82137,12 @@
             "name": "Gabin Bernardeau",
             "position": "Offence",
             "shirtNumber": 23
+          },
+          {
+            "id": 180180,
+            "name": "Kevin Carlos",
+            "position": "Offence",
+            "shirtNumber": 90
           },
           {
             "id": 8469,
@@ -82297,10 +82315,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 2
         },
         "halfTime": {
@@ -82345,6 +82363,45 @@
           },
           "score": {
             "home": 0,
+            "away": 2
+          }
+        },
+        {
+          "minute": 63,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "scorer": {
+            "id": 99394,
+            "name": "Ali El Abdi"
+          },
+          "assist": {
+            "id": 1023,
+            "name": "Jonathan Clauss"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 71,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "scorer": {
+            "id": 156808,
+            "name": "Sepe Elye Wahi"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
             "away": 2
           }
         }
@@ -82410,6 +82467,42 @@
             "name": "Rémy Labeau Lascary"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 57,
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "player": {
+            "id": 202896,
+            "name": "Kojo Peprah Oppong"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 65,
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "player": {
+            "id": 170075,
+            "name": "Soumaïla Coulibaly"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 68,
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "player": {
+            "id": 16990,
+            "name": "Charles Vanhoutte"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -82464,14 +82557,14 @@
       "id": 542585,
       "utcDate": "2026-02-01T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 58,
+      "minute": 74,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Raymond Kopa",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T18:32:48Z",
+      "lastUpdated": "2026-02-01T18:49:38Z",
       "homeTeam": {
         "id": 532,
         "name": "Angers SCO",
@@ -82820,6 +82913,18 @@
             "name": "Branco van den Boomen"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 67,
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "player": {
+            "id": 192893,
+            "name": "Terry Yegbe"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -82939,7 +83044,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57092,
+          "name": "Eric Wattellier",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 206183,
+          "name": "Husseyin Ocak",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 213837,
+          "name": "Nicolas Durand",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {

@@ -83722,15 +83722,15 @@
       },
       "id": 540585,
       "utcDate": "2026-02-01T16:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 59,
       "injuryTime": null,
       "attendance": null,
       "venue": "Signal Iduna Park",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T18:32:30Z",
+      "lastUpdated": "2026-02-01T18:49:23Z",
       "homeTeam": {
         "id": 4,
         "name": "Borussia Dortmund",
@@ -84008,11 +84008,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -84055,6 +84055,27 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 48,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 44,
+            "name": "1. FC Heidenheim 1846"
+          },
+          "scorer": {
+            "id": 150698,
+            "name": "Julian Niehues"
+          },
+          "assist": {
+            "id": 150733,
+            "name": "Eren Dinkci"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -84068,6 +84089,18 @@
           "player": {
             "id": 10825,
             "name": "Mathias Honsak"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 50,
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "player": {
+            "id": 379,
+            "name": "Waldemar Anton"
           },
           "card": "YELLOW"
         }
