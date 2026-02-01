@@ -81563,7 +81563,7 @@
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T16:04:09Z",
+      "lastUpdated": "2026-02-01T20:04:08Z",
       "homeTeam": {
         "id": 1919,
         "name": "FC Volendam",
@@ -91223,15 +91223,15 @@
       },
       "id": 537623,
       "utcDate": "2026-02-01T19:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 10,
       "injuryTime": null,
       "attendance": null,
       "venue": "Kras Stadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T18:48:50Z",
+      "lastUpdated": "2026-02-01T20:12:23Z",
       "homeTeam": {
         "id": 1919,
         "name": "FC Volendam",
@@ -91527,18 +91527,37 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 10,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 718,
+            "name": "Go Ahead Eagles"
+          },
+          "scorer": {
+            "id": 144445,
+            "name": "Victor Edvardsen"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
