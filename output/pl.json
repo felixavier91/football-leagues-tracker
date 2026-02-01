@@ -107862,14 +107862,14 @@
       "id": 538016,
       "utcDate": "2026-02-01T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 31,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Villa Park",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T15:32:16Z",
+      "lastUpdated": "2026-02-01T15:49:55Z",
       "homeTeam": {
         "id": 58,
         "name": "Aston Villa FC",
@@ -108147,20 +108147,64 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 402,
+            "name": "Brentford FC"
+          },
+          "scorer": {
+            "id": 177305,
+            "name": "Dango Ouattara"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 35,
+          "team": {
+            "id": 402,
+            "name": "Brentford FC"
+          },
+          "player": {
+            "id": 16068,
+            "name": "Kristoffer Ajer"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 42,
+          "team": {
+            "id": 402,
+            "name": "Brentford FC"
+          },
+          "player": {
+            "id": 123286,
+            "name": "Kevin Schade"
+          },
+          "card": "RED"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -108212,15 +108256,15 @@
       },
       "id": 538021,
       "utcDate": "2026-02-01T14:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 32,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Old Trafford",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T15:32:16Z",
+      "lastUpdated": "2026-02-01T15:49:56Z",
       "homeTeam": {
         "id": 66,
         "name": "Manchester United FC",
@@ -108505,8 +108549,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -108543,6 +108587,18 @@
           "player": {
             "id": 11579,
             "name": "Marco Silva"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 42,
+          "team": {
+            "id": 63,
+            "name": "Fulham FC"
+          },
+          "player": {
+            "id": 2253,
+            "name": "Joachim Andersen"
           },
           "card": "YELLOW"
         }
@@ -108599,14 +108655,14 @@
       "id": 538022,
       "utcDate": "2026-02-01T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 32,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "City Ground, Nottingham",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T15:32:17Z",
+      "lastUpdated": "2026-02-01T15:49:56Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -108872,11 +108928,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
@@ -108901,9 +108957,39 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 2,
+          "type": "PENALTY",
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "scorer": {
+            "id": 3638,
+            "name": "Ismaïla Sarr"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 3638,
+            "name": "Ismaïla Sarr"
+          },
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 31,
@@ -108916,6 +109002,30 @@
             "name": "Chris Richards"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 32,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 150948,
+            "name": "Chadi Riad"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 351,
+            "name": "Nottingham Forest FC"
+          },
+          "player": {
+            "id": 133765,
+            "name": "Neco Williams"
+          },
+          "card": "RED"
         }
       ],
       "substitutions": [],

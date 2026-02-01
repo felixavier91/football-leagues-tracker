@@ -81213,15 +81213,15 @@
       },
       "id": 542582,
       "utcDate": "2026-02-01T14:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 32,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Groupama Stadium",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T15:32:49Z",
+      "lastUpdated": "2026-02-01T15:50:44Z",
       "homeTeam": {
         "id": 523,
         "name": "Olympique Lyonnais",
@@ -81372,7 +81372,7 @@
           "nationality": "France"
         },
         "leagueRank": 5,
-        "formation": "4-4-2",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 29890,
@@ -81499,20 +81499,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 37,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "scorer": {
+            "id": 215864,
+            "name": "Noah Nartey"
+          },
+          "assist": {
+            "id": 137655,
+            "name": "Ruben Kluivert"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 42,
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "player": {
+            "id": 19,
+            "name": "Aïssa Mandi"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
