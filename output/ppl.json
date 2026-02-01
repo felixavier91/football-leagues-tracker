@@ -81511,14 +81511,14 @@
       "id": 545871,
       "utcDate": "2026-02-01T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 13,
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Alvalade",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T19:15:54Z",
+      "lastUpdated": "2026-02-01T19:34:33Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -81809,7 +81809,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 28,
+          "team": {
+            "id": 5529,
+            "name": "CD Nacional"
+          },
+          "player": {
+            "id": 1437,
+            "name": "Léo Santos"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -81921,7 +81934,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 37629,
+          "name": "Luís Godinho",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 15715,
+          "name": "Rui Teixeira",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 37611,
+          "name": "Pedro Mota",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
