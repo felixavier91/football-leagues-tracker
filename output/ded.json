@@ -90774,15 +90774,15 @@
       },
       "id": 537628,
       "utcDate": "2026-02-01T15:45:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 51,
       "injuryTime": null,
       "attendance": null,
       "venue": "Abe Lenstra Stadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T17:41:03Z",
+      "lastUpdated": "2026-02-01T17:56:48Z",
       "homeTeam": {
         "id": 673,
         "name": "SC Heerenveen",
@@ -90912,6 +90912,12 @@
             "name": "Eser Gürbüz",
             "position": "Offence",
             "shirtNumber": 50
+          },
+          {
+            "id": 292039,
+            "name": "Ingmar Mulder",
+            "position": null,
+            "shirtNumber": 38
           },
           {
             "id": 168705,
@@ -91107,7 +91113,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 47,
+          "team": {
+            "id": 673,
+            "name": "SC Heerenveen"
+          },
+          "player": {
+            "id": 171410,
+            "name": "Maas Willemsen"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

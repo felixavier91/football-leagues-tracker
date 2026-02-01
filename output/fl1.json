@@ -81648,14 +81648,14 @@
       "id": 542580,
       "utcDate": "2026-02-01T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 26,
+      "minute": 42,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadium de Toulouse",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T17:40:44Z",
+      "lastUpdated": "2026-02-01T17:56:33Z",
       "homeTeam": {
         "id": 511,
         "name": "Toulouse FC",
@@ -81946,7 +81946,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 34,
+          "team": {
+            "id": 519,
+            "name": "AJ Auxerre"
+          },
+          "player": {
+            "id": 4289,
+            "name": "Daniel Namaso"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -81999,14 +82012,14 @@
       "id": 542581,
       "utcDate": "2026-02-01T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 25,
+      "minute": 41,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Riviera",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T17:40:44Z",
+      "lastUpdated": "2026-02-01T17:56:34Z",
       "homeTeam": {
         "id": 522,
         "name": "OGC Nice",
@@ -82361,6 +82374,18 @@
             "name": "Salis Abdul Samed"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 33,
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "player": {
+            "id": 156808,
+            "name": "Sepe Elye Wahi"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -82415,14 +82440,14 @@
       "id": 542585,
       "utcDate": "2026-02-01T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 25,
+      "minute": 41,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Raymond Kopa",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T17:40:44Z",
+      "lastUpdated": "2026-02-01T17:56:34Z",
       "homeTeam": {
         "id": 532,
         "name": "Angers SCO",
@@ -82724,7 +82749,10 @@
             "id": 177021,
             "name": "Louis Mouton"
           },
-          "assist": null,
+          "assist": {
+            "id": 532,
+            "name": "Carlens Arcus"
+          },
           "score": {
             "home": 1,
             "away": 0
@@ -82744,6 +82772,30 @@
             "name": "Jean-Philippe Gbamin"
           },
           "card": "RED"
+        },
+        {
+          "minute": 27,
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "player": {
+            "id": 8403,
+            "name": "Fodé Ballo-Touré"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 31,
+          "team": {
+            "id": 532,
+            "name": "Angers SCO"
+          },
+          "player": {
+            "id": 53397,
+            "name": "Branco van den Boomen"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
