@@ -112311,14 +112311,14 @@
       "id": 537040,
       "utcDate": "2026-02-01T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 10,
+      "minute": 24,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Ennio Tardini",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T20:56:38Z",
+      "lastUpdated": "2026-02-01T21:11:09Z",
       "homeTeam": {
         "id": 112,
         "name": "Parma Calcio 1913",
@@ -112632,20 +112632,67 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 15,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "scorer": {
+            "id": 1106,
+            "name": "Bremer"
+          },
+          "assist": {
+            "id": 150791,
+            "name": "Francisco Conceição"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 17,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "player": {
+            "id": 150791,
+            "name": "Francisco Conceição"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 24,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "player": {
+            "id": 1106,
+            "name": "Bremer"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

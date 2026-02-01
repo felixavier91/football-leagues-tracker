@@ -83021,14 +83021,14 @@
       "id": 542583,
       "utcDate": "2026-02-01T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 11,
+      "minute": 25,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de la Meinau",
       "matchday": 20,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T20:56:43Z",
+      "lastUpdated": "2026-02-01T21:11:18Z",
       "homeTeam": {
         "id": 576,
         "name": "RC Strasbourg Alsace",
@@ -83306,19 +83306,53 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 246066,
+            "name": "Senny Mayulu"
+          },
+          "assist": {
+            "id": 172762,
+            "name": "Bradley Barcola"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 203561,
+            "name": "Joaquín Panichelli"
+          },
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "scored": false
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {
