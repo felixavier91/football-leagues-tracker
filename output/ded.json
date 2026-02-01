@@ -89792,15 +89792,15 @@
       },
       "id": 537624,
       "utcDate": "2026-02-01T13:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 37,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 11424,
       "venue": "Erve Asito",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T13:44:40Z",
+      "lastUpdated": "2026-02-01T15:11:19Z",
       "homeTeam": {
         "id": 671,
         "name": "Heracles Almelo",
@@ -90096,20 +90096,55 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 26,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 671,
+            "name": "Heracles Almelo"
+          },
+          "scorer": {
+            "id": 7528,
+            "name": "Ajdin Hrustic"
+          },
+          "assist": {
+            "id": 100089,
+            "name": "Djevencio van der Kust"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 33,
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "player": {
+            "id": 244801,
+            "name": "Justin Hubner"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -90161,15 +90196,15 @@
       },
       "id": 537627,
       "utcDate": "2026-02-01T13:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 40,
       "injuryTime": null,
       "attendance": null,
       "venue": "Philips Stadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T13:35:30Z",
+      "lastUpdated": "2026-02-01T15:11:19Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -90182,7 +90217,7 @@
           "nationality": "Netherlands"
         },
         "leagueRank": 1,
-        "formation": "4-2-3-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 136350,
@@ -90326,7 +90361,7 @@
           "nationality": "Netherlands"
         },
         "leagueRank": 2,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 7375,
@@ -90465,20 +90500,94 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 10,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 7443,
+            "name": "Armando Obispo"
+          },
+          "assist": {
+            "id": 53426,
+            "name": "Joey Veerman"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 13,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 7688,
+            "name": "Guus Til"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 17,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 130173,
+            "name": "Ismael Saibari"
+          },
+          "assist": {
+            "id": 176932,
+            "name": "Paul Wanner"
+          },
+          "score": {
+            "home": 3,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 9,
+          "team": {
+            "id": 675,
+            "name": "Feyenoord Rotterdam"
+          },
+          "player": {
+            "id": 25615,
+            "name": "Anel Ahmedhodzic"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -90590,7 +90699,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 80087,
+          "name": "Jannick van der Laan",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 91979,
+          "name": "Joris Westhof",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 17133,
+          "name": "Michael Osseweijer",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {

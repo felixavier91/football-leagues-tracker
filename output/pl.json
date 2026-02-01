@@ -107861,15 +107861,15 @@
       },
       "id": 538016,
       "utcDate": "2026-02-01T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 9,
       "injuryTime": null,
       "attendance": null,
       "venue": "Villa Park",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T13:58:11Z",
+      "lastUpdated": "2026-02-01T15:10:17Z",
       "homeTeam": {
         "id": 58,
         "name": "Aston Villa FC",
@@ -108147,11 +108147,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -108212,15 +108212,15 @@
       },
       "id": 538021,
       "utcDate": "2026-02-01T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 10,
       "injuryTime": null,
       "attendance": null,
       "venue": "Old Trafford",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T13:58:12Z",
+      "lastUpdated": "2026-02-01T15:10:17Z",
       "homeTeam": {
         "id": 66,
         "name": "Manchester United FC",
@@ -108498,11 +108498,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -108563,15 +108563,15 @@
       },
       "id": 538022,
       "utcDate": "2026-02-01T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 10,
       "injuryTime": null,
       "attendance": null,
       "venue": "City Ground, Nottingham",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T13:58:21Z",
+      "lastUpdated": "2026-02-01T15:10:17Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -108837,18 +108837,37 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 5,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 351,
+            "name": "Nottingham Forest FC"
+          },
+          "scorer": {
+            "id": 4091,
+            "name": "Morgan Gibbs-White"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

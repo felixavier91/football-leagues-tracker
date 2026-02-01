@@ -110939,7 +110939,7 @@
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T14:49:08Z",
+      "lastUpdated": "2026-02-01T15:04:08Z",
       "homeTeam": {
         "id": 586,
         "name": "Torino FC",
@@ -111003,6 +111003,12 @@
             "shirtNumber": 20
           },
           {
+            "id": 214546,
+            "name": "Luca Marianucci",
+            "position": "Centre-Back",
+            "shirtNumber": 35
+          },
+          {
             "id": 280,
             "name": "Guillermo Maripán",
             "position": "Centre-Back",
@@ -111051,6 +111057,12 @@
             "name": "Adrien Tameze",
             "position": "Defensive Midfield",
             "shirtNumber": 61
+          },
+          {
+            "id": 166329,
+            "name": "Matteo Prati",
+            "position": "Defensive Midfield",
+            "shirtNumber": 4
           },
           {
             "id": 246508,
@@ -111306,6 +111318,18 @@
             "name": "Ylber Ramadani"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "player": {
+            "id": 166329,
+            "name": "Matteo Prati"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -111359,15 +111383,15 @@
       },
       "id": 537036,
       "utcDate": "2026-02-01T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 10,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Giuseppe Sinigaglia",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T14:17:45Z",
+      "lastUpdated": "2026-02-01T15:10:47Z",
       "homeTeam": {
         "id": 7397,
         "name": "Como 1907",
@@ -111681,11 +111705,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -111694,7 +111718,32 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 8,
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "player": {
+            "id": 263661,
+            "name": "Honest Ahanor"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 8,
+          "team": {
+            "id": 7397,
+            "name": "Como 1907"
+          },
+          "player": {
+            "id": 179159,
+            "name": "Maximo Perrone"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
