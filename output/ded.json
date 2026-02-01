@@ -89326,14 +89326,14 @@
       "id": 537622,
       "utcDate": "2026-02-01T11:15:00Z",
       "status": "IN_PLAY",
-      "minute": 65,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Van Donge & De Roo Stadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T13:35:33Z",
+      "lastUpdated": "2026-02-01T14:03:13Z",
       "homeTeam": {
         "id": 670,
         "name": "SBV Excelsior",
@@ -89623,10 +89623,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 2
         },
         "halfTime": {
@@ -89676,10 +89676,65 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 74,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 670,
+            "name": "SBV Excelsior"
+          },
+          "scorer": {
+            "id": 189609,
+            "name": "Miliano Jonathans"
+          },
+          "assist": {
+            "id": 176693,
+            "name": "Gyan de Regt"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 79,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 670,
+            "name": "SBV Excelsior"
+          },
+          "scorer": {
+            "id": 117956,
+            "name": "Arthur Zagre"
+          },
+          "assist": {
+            "id": 176693,
+            "name": "Gyan de Regt"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 70,
+          "team": {
+            "id": 670,
+            "name": "SBV Excelsior"
+          },
+          "player": {
+            "id": 177064,
+            "name": "Lewis Schouten"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -89745,7 +89800,7 @@
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T13:32:05Z",
+      "lastUpdated": "2026-02-01T13:44:40Z",
       "homeTeam": {
         "id": 671,
         "name": "Heracles Almelo",
@@ -89758,7 +89813,7 @@
           "nationality": "Netherlands"
         },
         "leagueRank": 18,
-        "formation": "4-4-2",
+        "formation": "3-4-2-1",
         "lineup": [
           {
             "id": 7578,
