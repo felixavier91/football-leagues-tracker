@@ -113350,14 +113350,14 @@
       "id": 537037,
       "utcDate": "2026-02-03T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 4,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Stadio Renato Dall'Ara",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-03T20:50:48Z",
+      "lastUpdated": "2026-02-03T21:34:29Z",
       "homeTeam": {
         "id": 103,
         "name": "Bologna FC 1909",
@@ -113544,7 +113544,7 @@
           "nationality": "Italy"
         },
         "leagueRank": 2,
-        "formation": "3-5-1-1",
+        "formation": "3-5-2",
         "lineup": [
           {
             "id": 8390,
@@ -113671,19 +113671,71 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 20,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "scorer": {
+            "id": 8159,
+            "name": "Ruben Loftus-Cheek"
+          },
+          "assist": {
+            "id": 3368,
+            "name": "Adrien Rabiot"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 39,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "scorer": {
+            "id": 8484,
+            "name": "Christopher Nkunku"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 8484,
+            "name": "Christopher Nkunku"
+          },
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {
