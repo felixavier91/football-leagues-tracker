@@ -113350,14 +113350,14 @@
       "id": 537037,
       "utcDate": "2026-02-03T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 45,
-      "injuryTime": 3,
+      "minute": 52,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Renato Dall'Ara",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-03T21:34:29Z",
+      "lastUpdated": "2026-02-03T21:56:29Z",
       "homeTeam": {
         "id": 103,
         "name": "Bologna FC 1909",
@@ -113675,11 +113675,11 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "goals": [
@@ -113721,6 +113721,24 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 48,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "scorer": {
+            "id": 3368,
+            "name": "Adrien Rabiot"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 3
+          }
         }
       ],
       "penalties": [
@@ -113736,7 +113754,20 @@
           "scored": true
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 51,
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "player": {
+            "id": 1862,
+            "name": "Federico Ravaglia"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
