@@ -83483,15 +83483,15 @@
       },
       "id": 542588,
       "utcDate": "2026-02-06T19:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 9,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-06T20:03:59Z",
+      "lastUpdated": "2026-02-06T20:54:45Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -83769,11 +83769,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -83782,7 +83782,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 7,
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "player": {
+            "id": 213511,
+            "name": "Matias Fernandez-Pardo"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
