@@ -84253,15 +84253,15 @@
       },
       "id": 540587,
       "utcDate": "2026-02-06T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 24,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "An der Alten Försterei",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-06T20:54:25Z",
+      "lastUpdated": "2026-02-06T21:33:45Z",
       "homeTeam": {
         "id": 28,
         "name": "1. FC Union Berlin",
@@ -84546,13 +84546,38 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 25,
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "player": {
+            "id": 130668,
+            "name": "Arnaud Kalimuendo"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 36,
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "player": {
+            "id": 205537,
+            "name": "Oscar Højlund"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
