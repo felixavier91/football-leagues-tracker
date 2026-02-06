@@ -81563,7 +81563,7 @@
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-06T16:17:04Z",
+      "lastUpdated": "2026-02-06T20:02:04Z",
       "homeTeam": {
         "id": 1919,
         "name": "FC Volendam",
@@ -91753,15 +91753,15 @@
       },
       "id": 537635,
       "utcDate": "2026-02-06T19:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 17,
       "injuryTime": null,
       "attendance": null,
       "venue": "Rat Verlegh",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-06T19:17:24Z",
+      "lastUpdated": "2026-02-06T20:19:54Z",
       "homeTeam": {
         "id": 681,
         "name": "NAC Breda",
@@ -92063,20 +92063,52 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 18,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 670,
+            "name": "SBV Excelsior"
+          },
+          "scorer": {
+            "id": 7473,
+            "name": "Emil Hansson"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 12,
+          "team": {
+            "id": 681,
+            "name": "NAC Breda"
+          },
+          "player": {
+            "id": 150439,
+            "name": "Rio Hillen"
+          },
+          "card": "RED"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
