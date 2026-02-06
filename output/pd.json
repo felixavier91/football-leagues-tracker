@@ -106946,14 +106946,14 @@
       "id": 544435,
       "utcDate": "2026-02-06T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 52,
+      "minute": 74,
       "injuryTime": null,
       "attendance": 18705,
       "venue": "Estadio Abanca-Balaídos",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-06T22:11:40Z",
+      "lastUpdated": "2026-02-06T22:33:11Z",
       "homeTeam": {
         "id": 558,
         "name": "RC Celta de Vigo",
@@ -107249,10 +107249,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -107281,9 +107281,39 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 53,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "scorer": {
+            "id": 32056,
+            "name": "Borja Iglesias"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 32056,
+            "name": "Borja Iglesias"
+          },
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 45,
@@ -107294,6 +107324,18 @@
           "player": {
             "id": 32212,
             "name": "Rubén García"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 56,
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "player": {
+            "id": 253001,
+            "name": "Javi Rueda"
           },
           "card": "YELLOW"
         }

@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 179
+    "played": 180
   },
   "competition": {
     "id": 2002,
@@ -84253,15 +84253,15 @@
       },
       "id": 540587,
       "utcDate": "2026-02-06T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 79,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "An der Alten Försterei",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-06T22:11:51Z",
+      "lastUpdated": "2026-02-06T22:32:29Z",
       "homeTeam": {
         "id": 28,
         "name": "1. FC Union Berlin",
@@ -84542,16 +84542,68 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 84,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "scorer": {
+            "id": 184533,
+            "name": "Nathaniel Brown"
+          },
+          "assist": {
+            "id": 158,
+            "name": "Mahmoud Dahoud"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 87,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "scorer": {
+            "id": 152811,
+            "name": "Leopold Querfeld"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 152811,
+            "name": "Leopold Querfeld"
+          },
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 25,
@@ -84610,6 +84662,30 @@
           "player": {
             "id": 64934,
             "name": "Derrick Köhn"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 86,
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "player": {
+            "id": 205537,
+            "name": "Oscar Højlund"
+          },
+          "card": "YELLOW_RED"
+        },
+        {
+          "minute": 89,
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "player": {
+            "id": 9489,
+            "name": "Janik Haberer"
           },
           "card": "YELLOW"
         }
