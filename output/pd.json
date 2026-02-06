@@ -106946,14 +106946,14 @@
       "id": 544435,
       "utcDate": "2026-02-06T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 74,
+      "minute": 90,
       "injuryTime": null,
       "attendance": 18705,
       "venue": "Estadio Abanca-Balaídos",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-06T22:33:11Z",
+      "lastUpdated": "2026-02-06T22:50:29Z",
       "homeTeam": {
         "id": 558,
         "name": "RC Celta de Vigo",
@@ -107249,11 +107249,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -107299,6 +107299,27 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 79,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "scorer": {
+            "id": 130324,
+            "name": "Raúl"
+          },
+          "assist": {
+            "id": 50890,
+            "name": "Catena"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -107336,6 +107357,18 @@
           "player": {
             "id": 253001,
             "name": "Javi Rueda"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 78,
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "player": {
+            "id": 133570,
+            "name": "Sergio Carreira"
           },
           "card": "YELLOW"
         }
