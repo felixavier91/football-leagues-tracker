@@ -106945,15 +106945,15 @@
       },
       "id": 544435,
       "utcDate": "2026-02-06T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 32,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Abanca-Balaídos",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-06T21:33:40Z",
+      "lastUpdated": "2026-02-06T21:53:18Z",
       "homeTeam": {
         "id": 558,
         "name": "RC Celta de Vigo",
@@ -107249,20 +107249,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 35,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "scorer": {
+            "id": 2237,
+            "name": "Ante Budimir"
+          },
+          "assist": {
+            "id": 146128,
+            "name": "Raúl Moro"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "player": {
+            "id": 32212,
+            "name": "Rubén García"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
