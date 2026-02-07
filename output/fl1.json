@@ -83859,7 +83859,7 @@
       },
       "id": 542592,
       "utcDate": "2026-02-07T16:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "minute": null,
       "injuryTime": null,
       "attendance": null,
@@ -83867,7 +83867,7 @@
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T16:16:16Z",
+      "lastUpdated": "2026-02-07T17:01:00Z",
       "homeTeam": {
         "id": 546,
         "name": "Racing Club de Lens",
@@ -84139,11 +84139,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -84264,7 +84264,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 64829,
+          "name": "Gaël Angoula",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 64774,
+          "name": "Julien Garrigues",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 206183,
+          "name": "Husseyin Ocak",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
