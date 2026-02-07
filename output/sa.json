@@ -114851,14 +114851,14 @@
       "id": 537045,
       "utcDate": "2026-02-07T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 25,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Artemio Franchi, Firenze",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T21:11:19Z",
+      "lastUpdated": "2026-02-07T21:32:59Z",
       "homeTeam": {
         "id": 99,
         "name": "ACF Fiorentina",
@@ -115178,20 +115178,67 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 26,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "scorer": {
+            "id": 179558,
+            "name": "Cesare Casadei"
+          },
+          "assist": {
+            "id": 172940,
+            "name": "Emirhan Ilkhan"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 31,
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "player": {
+            "id": 6563,
+            "name": "Valentino Lazaro"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 40,
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "player": {
+            "id": 16474,
+            "name": "Dodô"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
