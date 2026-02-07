@@ -111154,15 +111154,15 @@
       },
       "id": 538025,
       "utcDate": "2026-02-07T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 36,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Vitality Stadium",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T16:36:12Z",
+      "lastUpdated": "2026-02-07T16:49:08Z",
       "homeTeam": {
         "id": 1044,
         "name": "AFC Bournemouth",
@@ -111447,8 +111447,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -111553,14 +111553,14 @@
       "id": 538027,
       "utcDate": "2026-02-07T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 36,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Emirates Stadium",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T16:36:14Z",
+      "lastUpdated": "2026-02-07T16:49:08Z",
       "homeTeam": {
         "id": 57,
         "name": "Arsenal FC",
@@ -111838,10 +111838,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -111849,7 +111849,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 57,
+            "name": "Arsenal FC"
+          },
+          "scorer": {
+            "id": 115035,
+            "name": "Martín Zubimendi"
+          },
+          "assist": {
+            "id": 8984,
+            "name": "Leandro Trossard"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -111861,6 +111883,30 @@
           "player": {
             "id": 80171,
             "name": "William Saliba"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 39,
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "player": {
+            "id": 171876,
+            "name": "Habib Diarra"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 40,
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "player": {
+            "id": 97535,
+            "name": "Brian Brobbey"
           },
           "card": "YELLOW"
         }
@@ -111917,14 +111963,14 @@
       "id": 538028,
       "utcDate": "2026-02-07T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 36,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Turf Moor",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T16:36:14Z",
+      "lastUpdated": "2026-02-07T16:49:09Z",
       "homeTeam": {
         "id": 328,
         "name": "Burnley FC",
@@ -112270,6 +112316,18 @@
             "name": "Florentino"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 40,
+          "team": {
+            "id": 563,
+            "name": "West Ham United FC"
+          },
+          "player": {
+            "id": 205441,
+            "name": "El Hadji Diouf"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -112323,15 +112381,15 @@
       },
       "id": 538029,
       "utcDate": "2026-02-07T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 36,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Craven Cottage",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T16:36:14Z",
+      "lastUpdated": "2026-02-07T16:49:09Z",
       "homeTeam": {
         "id": 63,
         "name": "Fulham FC",
@@ -112616,8 +112674,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -112707,14 +112765,14 @@
       "id": 538034,
       "utcDate": "2026-02-07T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 36,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Molineux Stadium",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T16:36:15Z",
+      "lastUpdated": "2026-02-07T16:49:10Z",
       "homeTeam": {
         "id": 76,
         "name": "Wolverhampton Wanderers FC",
@@ -112996,7 +113054,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": null,
@@ -113038,6 +113096,27 @@
           "score": {
             "home": 0,
             "away": 2
+          }
+        },
+        {
+          "minute": 38,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "scorer": {
+            "id": 144892,
+            "name": "Cole Palmer"
+          },
+          "assist": {
+            "id": 15863,
+            "name": "Cucurella"
+          },
+          "score": {
+            "home": 0,
+            "away": 3
           }
         }
       ],

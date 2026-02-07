@@ -107632,14 +107632,14 @@
       "id": 544434,
       "utcDate": "2026-02-07T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 18,
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Camp Nou",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T16:36:20Z",
+      "lastUpdated": "2026-02-07T16:49:20Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -107941,10 +107941,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -107952,7 +107952,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 29,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 371,
+            "name": "Robert Lewandowski"
+          },
+          "assist": {
+            "id": 23132,
+            "name": "Dani Olmo"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
