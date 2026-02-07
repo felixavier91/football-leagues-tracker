@@ -86914,14 +86914,14 @@
       "id": 540586,
       "utcDate": "2026-02-07T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 3,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Borussia-Park",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T18:32:55Z",
+      "lastUpdated": "2026-02-07T18:49:44Z",
       "homeTeam": {
         "id": 18,
         "name": "Borussia Mönchengladbach",
@@ -87199,10 +87199,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -87210,7 +87210,26 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 10,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 18,
+            "name": "Borussia Mönchengladbach"
+          },
+          "scorer": {
+            "id": 123277,
+            "name": "Yannik Engelhardt"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
