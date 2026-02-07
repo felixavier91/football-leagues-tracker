@@ -114851,14 +114851,14 @@
       "id": 537045,
       "utcDate": "2026-02-07T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 57,
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Artemio Franchi, Firenze",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T22:02:29Z",
+      "lastUpdated": "2026-02-07T22:20:24Z",
       "homeTeam": {
         "id": 99,
         "name": "ACF Fiorentina",
@@ -115178,10 +115178,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -115231,6 +115231,27 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 57,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "scorer": {
+            "id": 2171,
+            "name": "Moise Kean"
+          },
+          "assist": {
+            "id": 4220,
+            "name": "Jack Harrison"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -115256,6 +115277,30 @@
           "player": {
             "id": 16474,
             "name": "Dodô"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 64,
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "player": {
+            "id": 280,
+            "name": "Guillermo Maripán"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 66,
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "player": {
+            "id": 214546,
+            "name": "Luca Marianucci"
           },
           "card": "YELLOW"
         }
