@@ -84680,14 +84680,14 @@
       "id": 545886,
       "utcDate": "2026-02-07T20:30:00Z",
       "status": "IN_PLAY",
-      "minute": 17,
+      "minute": 29,
       "injuryTime": null,
       "attendance": null,
       "venue": "Municipal de Arouca",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T21:50:49Z",
+      "lastUpdated": "2026-02-07T22:02:40Z",
       "homeTeam": {
         "id": 712,
         "name": "FC Arouca",
@@ -84951,6 +84951,12 @@
             "shirtNumber": 11
           },
           {
+            "id": 292315,
+            "name": "Zeega",
+            "position": null,
+            "shirtNumber": 50
+          },
+          {
             "id": 145346,
             "name": "Telmo Arcanjo",
             "position": "Attacking Midfield",
@@ -84959,20 +84965,52 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 26,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5543,
+            "name": "Vitória SC"
+          },
+          "scorer": {
+            "id": 281959,
+            "name": "Noah Saviolo"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 22,
+          "team": {
+            "id": 5543,
+            "name": "Vitória SC"
+          },
+          "player": {
+            "id": 45514,
+            "name": "Samu"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

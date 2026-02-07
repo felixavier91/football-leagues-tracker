@@ -108070,15 +108070,15 @@
       },
       "id": 544436,
       "utcDate": "2026-02-07T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
-      "injuryTime": 2,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Reale Arena",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T21:49:54Z",
+      "lastUpdated": "2026-02-07T22:02:00Z",
       "homeTeam": {
         "id": 92,
         "name": "Real Sociedad de Fútbol",
@@ -108399,8 +108399,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         }
       },
       "goals": [
@@ -108473,6 +108473,30 @@
           "player": {
             "id": 123212,
             "name": "David Affengruber"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol"
+          },
+          "player": {
+            "id": 10232,
+            "name": "Pellegrino Matarazzo"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "player": {
+            "id": 32052,
+            "name": "Aleix Febas"
           },
           "card": "YELLOW"
         }

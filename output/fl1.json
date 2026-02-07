@@ -84775,7 +84775,7 @@
       },
       "id": 542589,
       "utcDate": "2026-02-07T20:05:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
       "injuryTime": null,
       "attendance": null,
@@ -84783,7 +84783,7 @@
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T21:50:44Z",
+      "lastUpdated": "2026-02-07T22:02:34Z",
       "homeTeam": {
         "id": 543,
         "name": "FC Nantes",
@@ -85068,8 +85068,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -85106,6 +85106,18 @@
           "player": {
             "id": 188487,
             "name": "Endrick"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 37,
+          "team": {
+            "id": 543,
+            "name": "FC Nantes"
+          },
+          "player": {
+            "id": 8295,
+            "name": "Kelvin Amian Adou"
           },
           "card": "YELLOW"
         }
