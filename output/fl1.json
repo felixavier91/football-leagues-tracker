@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 182
+    "played": 183
   },
   "competition": {
     "id": 2015,
@@ -84368,15 +84368,15 @@
       },
       "id": 542594,
       "utcDate": "2026-02-07T18:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 7,
+      "injuryTime": 8,
       "attendance": null,
       "venue": "Stade Francis-Le Blé",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T20:57:33Z",
+      "lastUpdated": "2026-02-07T21:00:44Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -84775,15 +84775,15 @@
       },
       "id": 542589,
       "utcDate": "2026-02-07T20:05:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 6,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de la Beaujoire",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T20:13:30Z",
+      "lastUpdated": "2026-02-07T21:11:30Z",
       "homeTeam": {
         "id": 543,
         "name": "FC Nantes",
@@ -85061,11 +85061,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -85074,7 +85074,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 2,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "player": {
+            "id": 188487,
+            "name": "Endrick"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
