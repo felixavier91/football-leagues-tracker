@@ -113429,14 +113429,14 @@
       "id": 538033,
       "utcDate": "2026-02-07T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 67,
+      "minute": 82,
       "injuryTime": null,
       "attendance": 52032,
       "venue": "St James' Park",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T19:57:59Z",
+      "lastUpdated": "2026-02-07T20:12:59Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -113714,10 +113714,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 2
         },
         "halfTime": {
@@ -113785,6 +113785,24 @@
             "home": 1,
             "away": 2
           }
+        },
+        {
+          "minute": 79,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "scorer": {
+            "id": 1684,
+            "name": "Bruno Guimarães"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -113796,6 +113814,17 @@
           "team": {
             "id": 402,
             "name": "Brentford FC"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 1684,
+            "name": "Bruno Guimarães"
+          },
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
           },
           "scored": true
         }
@@ -113810,6 +113839,18 @@
           "player": {
             "id": 7934,
             "name": "Jacob Murphy"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 69,
+          "team": {
+            "id": 402,
+            "name": "Brentford FC"
+          },
+          "player": {
+            "id": 175994,
+            "name": "Thiago Rodrigues"
           },
           "card": "YELLOW"
         }
