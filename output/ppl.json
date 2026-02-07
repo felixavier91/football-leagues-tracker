@@ -83303,14 +83303,14 @@
       "id": 545883,
       "utcDate": "2026-02-07T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 29,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Estadio Comendador Joaquim de Almeida Freitas",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T17:01:00Z",
+      "lastUpdated": "2026-02-07T17:20:31Z",
       "homeTeam": {
         "id": 583,
         "name": "Moreirense FC",
@@ -83588,20 +83588,100 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 43,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "scorer": {
+            "id": 37160,
+            "name": "Murilo"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 37160,
+            "name": "Murilo"
+          },
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 37,
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "player": {
+            "id": 37432,
+            "name": "Ghislain Konan"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 39,
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "player": {
+            "id": 13839,
+            "name": "Maracás"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 40,
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "player": {
+            "id": 271514,
+            "name": "Álvaro Martínez"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 42,
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "player": {
+            "id": 243663,
+            "name": "Vasco Botelho Da Costa"
+          },
+          "card": "RED"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -83653,15 +83733,15 @@
       },
       "id": 545884,
       "utcDate": "2026-02-07T15:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 30,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Gomes",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T17:01:00Z",
+      "lastUpdated": "2026-02-07T17:20:31Z",
       "homeTeam": {
         "id": 9136,
         "name": "CF Estrela da Amadora",
@@ -83946,8 +84026,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],

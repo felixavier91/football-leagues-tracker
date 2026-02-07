@@ -84742,14 +84742,14 @@
       "id": 540588,
       "utcDate": "2026-02-07T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 72,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": 28917,
       "venue": "Volkswagen Arena",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T17:00:24Z",
+      "lastUpdated": "2026-02-07T17:20:20Z",
       "homeTeam": {
         "id": 11,
         "name": "VfL Wolfsburg",
@@ -85021,11 +85021,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -85073,6 +85073,27 @@
           "score": {
             "home": 1,
             "away": 1
+          }
+        },
+        {
+          "minute": 87,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "scorer": {
+            "id": 211,
+            "name": "Sehrou Guirassy"
+          },
+          "assist": {
+            "id": 125151,
+            "name": "Fábio Silva"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
           }
         }
       ],
@@ -85155,14 +85176,14 @@
       "id": 540590,
       "utcDate": "2026-02-07T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 72,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": 34700,
       "venue": "Europa-Park Stadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T17:00:24Z",
+      "lastUpdated": "2026-02-07T17:20:20Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -85487,6 +85508,18 @@
             "name": "Johan Manzambi"
           },
           "card": "RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen"
+          },
+          "player": {
+            "id": 9447,
+            "name": "Marco Friedl"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -85541,14 +85574,14 @@
       "id": 540591,
       "utcDate": "2026-02-07T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 72,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": 29546,
       "venue": "Millerntor-Stadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T17:00:25Z",
+      "lastUpdated": "2026-02-07T17:20:20Z",
       "homeTeam": {
         "id": 20,
         "name": "FC St. Pauli 1910",
@@ -85830,7 +85863,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -85876,6 +85909,27 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "scorer": {
+            "id": 123333,
+            "name": "Jamie Leweling"
+          },
+          "assist": {
+            "id": 215510,
+            "name": "Jeremy"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [
@@ -85901,6 +85955,18 @@
           "player": {
             "id": 6928,
             "name": "Deniz Undav"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 72,
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "player": {
+            "id": 33242,
+            "name": "Ermedin Demirovic"
           },
           "card": "YELLOW"
         }
@@ -85957,14 +86023,14 @@
       "id": 540592,
       "utcDate": "2026-02-07T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 71,
+      "minute": 90,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 31111,
       "venue": "MEWA ARENA",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T17:00:25Z",
+      "lastUpdated": "2026-02-07T17:20:21Z",
       "homeTeam": {
         "id": 15,
         "name": "1. FSV Mainz 05",
@@ -86245,7 +86311,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -86271,9 +86337,38 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 80,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "scorer": {
+            "id": 320,
+            "name": "Nadiem Amiri"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
       "penalties": [
+        {
+          "player": {
+            "id": 320,
+            "name": "Nadiem Amiri"
+          },
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "scored": true
+        },
         {
           "player": {
             "id": 320,
@@ -86296,6 +86391,30 @@
           "player": {
             "id": 608,
             "name": "Alexis Claude Maurice"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 78,
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "player": {
+            "id": 175963,
+            "name": "Anton Kade"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 81,
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "player": {
+            "id": 320,
+            "name": "Nadiem Amiri"
           },
           "card": "YELLOW"
         }
@@ -86352,14 +86471,14 @@
       "id": 540594,
       "utcDate": "2026-02-07T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 68,
+      "minute": 88,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 15000,
       "venue": "Voith-Arena",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T17:00:25Z",
+      "lastUpdated": "2026-02-07T17:20:21Z",
       "homeTeam": {
         "id": 44,
         "name": "1. FC Heidenheim 1846",
@@ -86641,7 +86760,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -86668,6 +86787,27 @@
           "score": {
             "home": 0,
             "away": 1
+          }
+        },
+        {
+          "minute": 78,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "scorer": {
+            "id": 125686,
+            "name": "Rayan Philippe"
+          },
+          "assist": {
+            "id": 112948,
+            "name": "Fabio Vieira"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
           }
         }
       ],
@@ -86745,7 +86885,7 @@
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T16:30:17Z",
+      "lastUpdated": "2026-02-07T17:19:53Z",
       "homeTeam": {
         "id": 18,
         "name": "Borussia Mönchengladbach",
@@ -86759,8 +86899,130 @@
         },
         "leagueRank": 12,
         "formation": "5-4-1",
-        "lineup": [],
-        "bench": []
+        "lineup": [
+          {
+            "id": 6668,
+            "name": "Moritz Nicolas",
+            "position": "Goalkeeper",
+            "shirtNumber": 33
+          },
+          {
+            "id": 7464,
+            "name": "Kevin Diks",
+            "position": "Defence",
+            "shirtNumber": 4
+          },
+          {
+            "id": 63218,
+            "name": "Haris Tabaković",
+            "position": "Offence",
+            "shirtNumber": 15
+          },
+          {
+            "id": 3475,
+            "name": "Nico Elvedi",
+            "position": "Centre-Back",
+            "shirtNumber": 30
+          },
+          {
+            "id": 150517,
+            "name": "Rocco Reitz",
+            "position": "Central Midfield",
+            "shirtNumber": 27
+          },
+          {
+            "id": 187273,
+            "name": "Lukas Ullrich",
+            "position": "Left-Back",
+            "shirtNumber": 26
+          },
+          {
+            "id": 151888,
+            "name": "Jens Castrop",
+            "position": "Central Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 72392,
+            "name": "Philipp Sander",
+            "position": "Central Midfield",
+            "shirtNumber": 16
+          },
+          {
+            "id": 727,
+            "name": "Franck Honorat",
+            "position": "Right Winger",
+            "shirtNumber": 9
+          },
+          {
+            "id": 9999,
+            "name": "Kevin Stöger",
+            "position": "Attacking Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 123277,
+            "name": "Yannik Engelhardt",
+            "position": "Defensive Midfield",
+            "shirtNumber": 6
+          }
+        ],
+        "bench": [
+          {
+            "id": 97458,
+            "name": "Jan Jakob Olschowsky",
+            "position": "Goalkeeper",
+            "shirtNumber": 23
+          },
+          {
+            "id": 181193,
+            "name": "Kota Takai",
+            "position": "Defence",
+            "shirtNumber": 14
+          },
+          {
+            "id": 282450,
+            "name": "Wael Mohya",
+            "position": "Midfield",
+            "shirtNumber": 36
+          },
+          {
+            "id": 188201,
+            "name": "Hugo Bolin",
+            "position": "Midfield",
+            "shirtNumber": 38
+          },
+          {
+            "id": 250453,
+            "name": "Alejo Sarco",
+            "position": "Offence",
+            "shirtNumber": 8
+          },
+          {
+            "id": 48988,
+            "name": "Shuto Machino",
+            "position": "Offence",
+            "shirtNumber": 18
+          },
+          {
+            "id": 82442,
+            "name": "Joseph Scally",
+            "position": "Right-Back",
+            "shirtNumber": 29
+          },
+          {
+            "id": 9522,
+            "name": "Florian Neuhaus",
+            "position": "Central Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 176307,
+            "name": "Fabio Chiarodia",
+            "position": "Centre-Back",
+            "shirtNumber": 2
+          }
+        ]
       },
       "awayTeam": {
         "id": 3,
@@ -86775,8 +87037,94 @@
         },
         "leagueRank": 6,
         "formation": "3-4-2-1",
-        "lineup": [],
-        "bench": []
+        "lineup": [
+          {
+            "id": 6931,
+            "name": "Janis Blaswich",
+            "position": "Goalkeeper",
+            "shirtNumber": 28
+          },
+          {
+            "id": 154228,
+            "name": "Nicolás Ezequiel Fernández",
+            "position": "Defence",
+            "shirtNumber": 6
+          },
+          {
+            "id": 33524,
+            "name": "Aleix García",
+            "position": "Central Midfield",
+            "shirtNumber": 24
+          },
+          {
+            "id": 16739,
+            "name": "Alejandro Grimaldo",
+            "position": "Left-Back",
+            "shirtNumber": 20
+          },
+          {
+            "id": 1826,
+            "name": "Patrik Schick",
+            "position": "Centre-Forward",
+            "shirtNumber": 14
+          },
+          {
+            "id": 178860,
+            "name": "Arthur Augusto",
+            "position": "Right-Back",
+            "shirtNumber": 13
+          },
+          {
+            "id": 64713,
+            "name": "Edmond Tapsoba",
+            "position": "Centre-Back",
+            "shirtNumber": 12
+          },
+          {
+            "id": 144470,
+            "name": "Malik Tillman",
+            "position": "Attacking Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 6681,
+            "name": "Jonas Hofmann",
+            "position": "Attacking Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 136039,
+            "name": "Loïc Bade",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 176718,
+            "name": "Jarell Quansah",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          }
+        ],
+        "bench": [
+          {
+            "id": 30774,
+            "name": "Jonas Omlin",
+            "position": "Goalkeeper",
+            "shirtNumber": 18
+          },
+          {
+            "id": 165,
+            "name": "Niklas Lomb",
+            "position": "Goalkeeper",
+            "shirtNumber": 36
+          },
+          {
+            "id": 45611,
+            "name": "Robert Andrich",
+            "position": "Defensive Midfield",
+            "shirtNumber": 8
+          }
+        ]
       },
       "score": {
         "winner": null,
