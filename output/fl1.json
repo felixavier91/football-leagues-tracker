@@ -83859,15 +83859,15 @@
       },
       "id": 542592,
       "utcDate": "2026-02-07T16:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 39,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Bollaert-Delelis",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T17:39:37Z",
+      "lastUpdated": "2026-02-07T17:56:35Z",
       "homeTeam": {
         "id": 546,
         "name": "Racing Club de Lens",
@@ -84145,15 +84145,15 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -84175,6 +84175,27 @@
           },
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 41,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 546,
+            "name": "Racing Club de Lens"
+          },
+          "scorer": {
+            "id": 16077,
+            "name": "Odsonne Edouard"
+          },
+          "assist": {
+            "id": 8372,
+            "name": "Ruben Aguilar"
+          },
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
@@ -84202,6 +84223,30 @@
           "player": {
             "id": 8706,
             "name": "Adrien Thomasson"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "player": {
+            "id": 3483,
+            "name": "Breel Embolo"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 546,
+            "name": "Racing Club de Lens"
+          },
+          "player": {
+            "id": 150964,
+            "name": "Mamadou Sangare"
           },
           "card": "YELLOW"
         }
