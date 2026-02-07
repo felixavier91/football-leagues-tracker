@@ -113429,14 +113429,14 @@
       "id": 538033,
       "utcDate": "2026-02-07T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 82,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 11,
       "attendance": 52032,
       "venue": "St James' Park",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T20:12:59Z",
+      "lastUpdated": "2026-02-07T20:32:04Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -113714,11 +113714,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": 1,
@@ -113803,6 +113803,27 @@
             "home": 2,
             "away": 2
           }
+        },
+        {
+          "minute": 85,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 402,
+            "name": "Brentford FC"
+          },
+          "scorer": {
+            "id": 177305,
+            "name": "Dango Ouattara"
+          },
+          "assist": {
+            "id": 10194,
+            "name": "Mathias Jensen"
+          },
+          "score": {
+            "home": 2,
+            "away": 3
+          }
         }
       ],
       "penalties": [
@@ -113851,6 +113872,30 @@
           "player": {
             "id": 175994,
             "name": "Thiago Rodrigues"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 402,
+            "name": "Brentford FC"
+          },
+          "player": {
+            "id": 10000,
+            "name": "Vitaly Janelt"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "player": {
+            "id": 176852,
+            "name": "Lewis Hall"
           },
           "card": "YELLOW"
         }

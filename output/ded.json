@@ -92751,14 +92751,14 @@
       "id": 537637,
       "utcDate": "2026-02-07T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 71,
+      "minute": 90,
       "injuryTime": null,
       "attendance": null,
       "venue": "MAC³PARK stadion",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T20:13:54Z",
+      "lastUpdated": "2026-02-07T20:33:13Z",
       "homeTeam": {
         "id": 684,
         "name": "PEC Zwolle",
@@ -93134,6 +93134,18 @@
             "name": "Jadiel Pereira da Gama"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 76,
+          "team": {
+            "id": 684,
+            "name": "PEC Zwolle"
+          },
+          "player": {
+            "id": 214428,
+            "name": "Nick Fichtinger"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -93188,14 +93200,14 @@
       "id": 537638,
       "utcDate": "2026-02-07T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 12,
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Grolsch Veste",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T20:13:54Z",
+      "lastUpdated": "2026-02-07T20:33:14Z",
       "homeTeam": {
         "id": 666,
         "name": "FC Twente '65",
@@ -93503,10 +93515,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -93514,7 +93526,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 19,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 666,
+            "name": "FC Twente '65"
+          },
+          "scorer": {
+            "id": 124715,
+            "name": "Ramiz Zerrouki"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 666,
+            "name": "FC Twente '65"
+          },
+          "scorer": {
+            "id": 192148,
+            "name": "Mats Rots"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
