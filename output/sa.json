@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-23",
     "last": "2026-05-24",
-    "played": 232
+    "played": 233
   },
   "competition": {
     "id": 2019,
@@ -114850,15 +114850,15 @@
       },
       "id": 537045,
       "utcDate": "2026-02-07T19:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 1,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Artemio Franchi, Firenze",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T22:37:28Z",
+      "lastUpdated": "2026-02-07T22:45:54Z",
       "homeTeam": {
         "id": 99,
         "name": "ACF Fiorentina",
@@ -115178,11 +115178,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -115252,6 +115252,27 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "REGULAR",
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "scorer": {
+            "id": 280,
+            "name": "Guillermo Maripán"
+          },
+          "assist": {
+            "id": 190831,
+            "name": "Gvidas Gineitis"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -115313,6 +115334,54 @@
           "player": {
             "id": 190831,
             "name": "Gvidas Gineitis"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "player": {
+            "id": 11020,
+            "name": "Marco Baroni"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "player": {
+            "id": 178133,
+            "name": "Paolo Vanoli"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "player": {
+            "id": 217391,
+            "name": "Pietro Comuzzo"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "player": {
+            "id": 81085,
+            "name": "Zakaria Aboukhlal"
           },
           "card": "YELLOW"
         }

@@ -93748,14 +93748,14 @@
       "id": 537633,
       "utcDate": "2026-02-07T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 78,
+      "minute": 90,
       "injuryTime": null,
       "attendance": null,
       "venue": "Fortuna Sittard Stadion",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T22:37:54Z",
+      "lastUpdated": "2026-02-07T22:51:33Z",
       "homeTeam": {
         "id": 1920,
         "name": "Fortuna Sittard",
@@ -94101,10 +94101,65 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "scorer": {
+            "id": 137048,
+            "name": "Yassin Oukili"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 83,
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "player": {
+            "id": 244801,
+            "name": "Justin Hubner"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 85,
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "player": {
+            "id": 102339,
+            "name": "Mohammed Ihattaren"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 87,
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "player": {
+            "id": 133204,
+            "name": "Casper Terho"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
