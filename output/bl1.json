@@ -84742,14 +84742,14 @@
       "id": 540588,
       "utcDate": "2026-02-07T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 2,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volkswagen Arena",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T15:32:35Z",
+      "lastUpdated": "2026-02-07T15:50:26Z",
       "homeTeam": {
         "id": 11,
         "name": "VfL Wolfsburg",
@@ -85087,14 +85087,14 @@
       "id": 540590,
       "utcDate": "2026-02-07T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 3,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Europa-Park Stadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T15:32:36Z",
+      "lastUpdated": "2026-02-07T15:50:26Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -85372,10 +85372,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -85383,7 +85383,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 13,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 17,
+            "name": "SC Freiburg"
+          },
+          "scorer": {
+            "id": 6484,
+            "name": "Jan-Niklas Beste"
+          },
+          "assist": {
+            "id": 156629,
+            "name": "Igor Matanovic"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -85438,14 +85460,14 @@
       "id": 540591,
       "utcDate": "2026-02-07T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 3,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Millerntor-Stadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T15:32:36Z",
+      "lastUpdated": "2026-02-07T15:50:26Z",
       "homeTeam": {
         "id": 20,
         "name": "FC St. Pauli 1910",
@@ -85789,14 +85811,14 @@
       "id": 540592,
       "utcDate": "2026-02-07T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 3,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "MEWA ARENA",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T15:32:36Z",
+      "lastUpdated": "2026-02-07T15:50:27Z",
       "homeTeam": {
         "id": 15,
         "name": "1. FSV Mainz 05",
@@ -86074,10 +86096,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -86085,8 +86107,39 @@
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 8,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "scorer": {
+            "id": 320,
+            "name": "Nadiem Amiri"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 320,
+            "name": "Nadiem Amiri"
+          },
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {
@@ -86140,14 +86193,14 @@
       "id": 540594,
       "utcDate": "2026-02-07T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 2,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Voith-Arena",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T15:32:17Z",
+      "lastUpdated": "2026-02-07T15:50:27Z",
       "homeTeam": {
         "id": 44,
         "name": "1. FC Heidenheim 1846",
@@ -86438,7 +86491,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 7,
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "player": {
+            "id": 183356,
+            "name": "Daniel Elfadli"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
