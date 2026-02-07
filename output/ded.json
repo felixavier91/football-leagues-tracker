@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 189
+    "played": 190
   },
   "competition": {
     "id": 2003,
@@ -92750,15 +92750,15 @@
       },
       "id": 537637,
       "utcDate": "2026-02-07T17:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "MAC³PARK stadion",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T20:33:13Z",
+      "lastUpdated": "2026-02-07T20:41:24Z",
       "homeTeam": {
         "id": 684,
         "name": "PEC Zwolle",
@@ -93054,11 +93054,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -93106,6 +93106,27 @@
           "score": {
             "home": 1,
             "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 1919,
+            "name": "FC Volendam"
+          },
+          "scorer": {
+            "id": 190770,
+            "name": "Brandley Kuwas"
+          },
+          "assist": {
+            "id": 188075,
+            "name": "Dave Kwakman"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
           }
         }
       ],
@@ -93200,14 +93221,14 @@
       "id": 537638,
       "utcDate": "2026-02-07T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 32,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "De Grolsch Veste",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T20:33:14Z",
+      "lastUpdated": "2026-02-07T20:48:19Z",
       "homeTeam": {
         "id": 666,
         "name": "FC Twente '65",
@@ -93565,7 +93586,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 44,
+          "team": {
+            "id": 666,
+            "name": "FC Twente '65"
+          },
+          "player": {
+            "id": 153600,
+            "name": "Daan Rots"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
