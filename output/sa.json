@@ -114291,15 +114291,15 @@
       },
       "id": 537049,
       "utcDate": "2026-02-07T17:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Luigi Ferraris",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T17:22:07Z",
+      "lastUpdated": "2026-02-07T18:33:14Z",
       "homeTeam": {
         "id": 107,
         "name": "Genoa CFC",
@@ -114595,20 +114595,103 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 3,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 107,
+            "name": "Genoa CFC"
+          },
+          "scorer": {
+            "id": 179561,
+            "name": "Ruslan Malinovskiy"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 20,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "scorer": {
+            "id": 152770,
+            "name": "Rasmus Højlund"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 21,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "scorer": {
+            "id": 7905,
+            "name": "Scott McTominay"
+          },
+          "assist": {
+            "id": 23127,
+            "name": "Amir Rrahmani"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 179561,
+            "name": "Ruslan Malinovskiy"
+          },
+          "team": {
+            "id": 107,
+            "name": "Genoa CFC"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 2,
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "player": {
+            "id": 2344,
+            "name": "Alex Meret"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

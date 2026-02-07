@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 188
+    "played": 189
   },
   "competition": {
     "id": 2003,
@@ -92235,15 +92235,15 @@
       },
       "id": 537636,
       "utcDate": "2026-02-07T15:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 68,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Stadion De Goffert",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T17:56:58Z",
+      "lastUpdated": "2026-02-07T18:24:37Z",
       "homeTeam": {
         "id": 1915,
         "name": "NEC",
@@ -92548,7 +92548,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 1
         },
         "halfTime": {
@@ -92639,21 +92639,24 @@
           }
         },
         {
-          "minute": 68,
+          "minute": 90,
           "injuryTime": null,
           "type": "REGULAR",
           "team": {
-            "id": 671,
-            "name": "Heracles Almelo"
+            "id": 1915,
+            "name": "NEC"
           },
           "scorer": {
-            "id": 9714,
-            "name": "Damon Mirani"
+            "id": 182241,
+            "name": "Noe Lebreton"
           },
-          "assist": null,
+          "assist": {
+            "id": 97017,
+            "name": "Youssef El Kachati"
+          },
           "score": {
-            "home": 3,
-            "away": 2
+            "home": 4,
+            "away": 1
           }
         }
       ],
@@ -92670,7 +92673,32 @@
           "scored": true
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 90,
+          "team": {
+            "id": 671,
+            "name": "Heracles Almelo"
+          },
+          "player": {
+            "id": 167699,
+            "name": "Lequincio Zeefuik"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 671,
+            "name": "Heracles Almelo"
+          },
+          "player": {
+            "id": 117473,
+            "name": "Ivan Mesík"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -93151,7 +93179,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56912,
+          "name": "Jeroen Manschot",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 56928,
+          "name": "Sjoerd Nanninga",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 81024,
+          "name": "Roan van Marrewijk",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
