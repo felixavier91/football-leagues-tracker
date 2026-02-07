@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 191
+    "played": 192
   },
   "competition": {
     "id": 2003,
@@ -93747,15 +93747,15 @@
       },
       "id": 537633,
       "utcDate": "2026-02-07T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Fortuna Sittard Stadion",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T22:51:33Z",
+      "lastUpdated": "2026-02-07T22:59:49Z",
       "homeTeam": {
         "id": 1920,
         "name": "Fortuna Sittard",
@@ -94054,8 +94054,8 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 1
+          "home": 2,
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -94114,10 +94114,34 @@
             "id": 137048,
             "name": "Yassin Oukili"
           },
-          "assist": null,
+          "assist": {
+            "id": 127235,
+            "name": "Neraysho Kasanwirjo"
+          },
           "score": {
             "home": 2,
             "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 6,
+          "type": "REGULAR",
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "scorer": {
+            "id": 133204,
+            "name": "Casper Terho"
+          },
+          "assist": {
+            "id": 161068,
+            "name": "Shunsuke Mito"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
           }
         }
       ],
@@ -94156,6 +94180,18 @@
           "player": {
             "id": 133204,
             "name": "Casper Terho"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "player": {
+            "id": 137048,
+            "name": "Yassin Oukili"
           },
           "card": "YELLOW"
         }
