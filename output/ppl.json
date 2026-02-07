@@ -84231,14 +84231,14 @@
       "id": 545885,
       "utcDate": "2026-02-07T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Antonio Coimbra da Mota",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T19:01:35Z",
+      "lastUpdated": "2026-02-07T19:20:54Z",
       "homeTeam": {
         "id": 582,
         "name": "GD Estoril Praia",
@@ -84516,18 +84516,61 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 12,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1049,
+            "name": "CD Tondela"
+          },
+          "scorer": {
+            "id": 242516,
+            "name": "Pedro Maranhão"
+          },
+          "assist": {
+            "id": 255930,
+            "name": "Makan Aïko"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 16,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1049,
+            "name": "CD Tondela"
+          },
+          "scorer": {
+            "id": 242516,
+            "name": "Pedro Maranhão"
+          },
+          "assist": {
+            "id": 243612,
+            "name": "Cícero"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
