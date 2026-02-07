@@ -84368,15 +84368,15 @@
       },
       "id": 542594,
       "utcDate": "2026-02-07T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 19,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Francis-Le Blé",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T19:20:47Z",
+      "lastUpdated": "2026-02-07T19:58:29Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -84655,13 +84655,26 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 33,
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "player": {
+            "id": 76145,
+            "name": "Hugo Magnetti"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

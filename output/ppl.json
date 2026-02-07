@@ -84230,15 +84230,15 @@
       },
       "id": 545885,
       "utcDate": "2026-02-07T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 20,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Antonio Coimbra da Mota",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T19:20:54Z",
+      "lastUpdated": "2026-02-07T19:58:34Z",
       "homeTeam": {
         "id": 582,
         "name": "GD Estoril Praia",
@@ -84516,15 +84516,15 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         }
       },
       "goals": [
@@ -84567,6 +84567,48 @@
           },
           "score": {
             "home": 0,
+            "away": 2
+          }
+        },
+        {
+          "minute": 26,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 582,
+            "name": "GD Estoril Praia"
+          },
+          "scorer": {
+            "id": 16752,
+            "name": "João Carvalho"
+          },
+          "assist": {
+            "id": 16754,
+            "name": "Pizzi"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 29,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 582,
+            "name": "GD Estoril Praia"
+          },
+          "scorer": {
+            "id": 37554,
+            "name": "Ferro"
+          },
+          "assist": {
+            "id": 16754,
+            "name": "Pizzi"
+          },
+          "score": {
+            "home": 2,
             "away": 2
           }
         }
@@ -84684,7 +84726,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 242513,
+          "name": "Miguel Fonseca",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 37550,
+          "name": "André Dias",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 231220,
+          "name": "João Martins",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {

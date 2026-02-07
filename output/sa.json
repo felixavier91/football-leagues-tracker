@@ -114292,14 +114292,14 @@
       "id": 537049,
       "utcDate": "2026-02-07T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 61,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 8,
       "attendance": null,
       "venue": "Stadio Luigi Ferraris",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T19:20:34Z",
+      "lastUpdated": "2026-02-07T19:58:23Z",
       "homeTeam": {
         "id": 107,
         "name": "Genoa CFC",
@@ -114595,11 +114595,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": 1,
@@ -114681,6 +114681,24 @@
             "home": 2,
             "away": 2
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 5,
+          "type": "PENALTY",
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "scorer": {
+            "id": 152770,
+            "name": "Rasmus Højlund"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 3
+          }
         }
       ],
       "penalties": [
@@ -114692,6 +114710,17 @@
           "team": {
             "id": 107,
             "name": "Genoa CFC"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 152770,
+            "name": "Rasmus Højlund"
+          },
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
           },
           "scored": true
         }
@@ -114730,6 +114759,42 @@
           "player": {
             "id": 161310,
             "name": "Juan Jesus"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 76,
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "player": {
+            "id": 161310,
+            "name": "Juan Jesus"
+          },
+          "card": "YELLOW_RED"
+        },
+        {
+          "minute": 82,
+          "team": {
+            "id": 107,
+            "name": "Genoa CFC"
+          },
+          "player": {
+            "id": 188644,
+            "name": "Alessandro Marcandalli"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "player": {
+            "id": 1842,
+            "name": "Leonardo Spinazzola"
           },
           "card": "YELLOW"
         }
