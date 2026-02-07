@@ -93221,14 +93221,14 @@
       "id": 537638,
       "utcDate": "2026-02-07T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 75,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "De Grolsch Veste",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T21:33:24Z",
+      "lastUpdated": "2026-02-07T21:50:53Z",
       "homeTeam": {
         "id": 666,
         "name": "FC Twente '65",
@@ -93539,7 +93539,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 4,
+          "home": 5,
           "away": 0
         },
         "halfTime": {
@@ -93622,6 +93622,27 @@
             "home": 4,
             "away": 0
           }
+        },
+        {
+          "minute": 84,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 666,
+            "name": "FC Twente '65"
+          },
+          "scorer": {
+            "id": 7455,
+            "name": "Sam Lammers"
+          },
+          "assist": {
+            "id": 7658,
+            "name": "Arno Verschueren"
+          },
+          "score": {
+            "home": 5,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
@@ -93647,6 +93668,30 @@
           "player": {
             "id": 246586,
             "name": "Marcus Linday"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 75,
+          "team": {
+            "id": 673,
+            "name": "SC Heerenveen"
+          },
+          "player": {
+            "id": 214414,
+            "name": "Oliver Braude"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 86,
+          "team": {
+            "id": 673,
+            "name": "SC Heerenveen"
+          },
+          "player": {
+            "id": 137564,
+            "name": "Maxence Rivera"
           },
           "card": "YELLOW"
         }
@@ -93702,15 +93747,15 @@
       },
       "id": 537633,
       "utcDate": "2026-02-07T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 32,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Fortuna Sittard Stadion",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T21:33:28Z",
+      "lastUpdated": "2026-02-07T21:50:54Z",
       "homeTeam": {
         "id": 1920,
         "name": "Fortuna Sittard",
@@ -94006,18 +94051,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 44,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "scorer": {
+            "id": 81053,
+            "name": "Lance Duijvestijn"
+          },
+          "assist": {
+            "id": 3983,
+            "name": "Ivo Pinto"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
