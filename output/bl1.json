@@ -84741,15 +84741,15 @@
       },
       "id": 540588,
       "utcDate": "2026-02-07T14:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 48,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volkswagen Arena",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T16:19:45Z",
+      "lastUpdated": "2026-02-07T16:36:29Z",
       "homeTeam": {
         "id": 11,
         "name": "VfL Wolfsburg",
@@ -85056,7 +85056,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 47,
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "player": {
+            "id": 182004,
+            "name": "Adam Daghim"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -85108,15 +85121,15 @@
       },
       "id": 540590,
       "utcDate": "2026-02-07T14:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 48,
       "injuryTime": null,
       "attendance": null,
       "venue": "Europa-Park Stadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T16:19:45Z",
+      "lastUpdated": "2026-02-07T16:36:29Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -85481,15 +85494,15 @@
       },
       "id": 540591,
       "utcDate": "2026-02-07T14:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 48,
       "injuryTime": null,
       "attendance": 29546,
       "venue": "Millerntor-Stadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T16:19:45Z",
+      "lastUpdated": "2026-02-07T16:36:30Z",
       "homeTeam": {
         "id": 20,
         "name": "FC St. Pauli 1910",
@@ -85854,15 +85867,15 @@
       },
       "id": 540592,
       "utcDate": "2026-02-07T14:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 47,
       "injuryTime": null,
       "attendance": null,
       "venue": "MEWA ARENA",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T16:19:45Z",
+      "lastUpdated": "2026-02-07T16:36:30Z",
       "homeTeam": {
         "id": 15,
         "name": "1. FSV Mainz 05",
@@ -86236,15 +86249,15 @@
       },
       "id": 540594,
       "utcDate": "2026-02-07T14:30:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
-      "injuryTime": 4,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Voith-Arena",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-07T16:19:46Z",
+      "lastUpdated": "2026-02-07T16:36:30Z",
       "homeTeam": {
         "id": 44,
         "name": "1. FC Heidenheim 1846",
@@ -86529,8 +86542,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -86630,7 +86643,7 @@
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-01T01:32:02Z",
+      "lastUpdated": "2026-02-07T16:30:17Z",
       "homeTeam": {
         "id": 18,
         "name": "Borussia Mönchengladbach",
@@ -86643,7 +86656,7 @@
           "nationality": "Poland"
         },
         "leagueRank": 12,
-        "formation": null,
+        "formation": "5-4-1",
         "lineup": [],
         "bench": []
       },
@@ -86659,7 +86672,7 @@
           "nationality": "Denmark"
         },
         "leagueRank": 6,
-        "formation": null,
+        "formation": "3-4-2-1",
         "lineup": [],
         "bench": []
       },
@@ -86682,7 +86695,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57526,
+          "name": "Christian Dingert",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        },
+        {
+          "id": 340,
+          "name": "Benedikt Kempkes",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Germany"
+        },
+        {
+          "id": 58493,
+          "name": "Nikolai Kimmeyer",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Germany"
+        }
+      ]
     },
     {
       "area": {
