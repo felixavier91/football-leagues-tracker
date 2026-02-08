@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-23",
     "last": "2026-05-24",
-    "played": 233
+    "played": 234
   },
   "competition": {
     "id": 2019,
@@ -115437,15 +115437,15 @@
       },
       "id": 537050,
       "utcDate": "2026-02-08T11:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 7,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Renato Dall'Ara",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T14:29:58Z",
+      "lastUpdated": "2026-02-08T14:32:14Z",
       "homeTeam": {
         "id": 103,
         "name": "Bologna FC 1909",
@@ -115913,15 +115913,15 @@
       },
       "id": 537054,
       "utcDate": "2026-02-08T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 30,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Via del Mare",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T14:23:43Z",
+      "lastUpdated": "2026-02-08T15:32:53Z",
       "homeTeam": {
         "id": 5890,
         "name": "US Lecce",
@@ -116229,19 +116229,68 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 5,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5890,
+            "name": "US Lecce"
+          },
+          "scorer": {
+            "id": 125069,
+            "name": "Omri Gandelman"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 26,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "scorer": {
+            "id": 8462,
+            "name": "Oumar Solet"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 8462,
+            "name": "Oumar Solet"
+          },
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {

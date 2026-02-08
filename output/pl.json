@@ -113951,15 +113951,15 @@
       },
       "id": 538026,
       "utcDate": "2026-02-08T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "Amex Stadium",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T13:59:57Z",
+      "lastUpdated": "2026-02-08T15:32:20Z",
       "homeTeam": {
         "id": 397,
         "name": "Brighton & Hove Albion FC",
@@ -113972,7 +113972,7 @@
           "nationality": "Germany"
         },
         "leagueRank": 13,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 126870,
@@ -114231,11 +114231,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -114244,7 +114244,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 17,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 8124,
+            "name": "Will Hughes"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -114356,7 +114369,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11585,
+          "name": "Craig Pawson",
+          "type": "REFEREE",
+          "nationality": "England"
+        },
+        {
+          "id": 11461,
+          "name": "Tim Wood",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "England"
+        },
+        {
+          "id": 193196,
+          "name": "Matt Wilkes",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "England"
+        }
+      ]
     },
     {
       "area": {

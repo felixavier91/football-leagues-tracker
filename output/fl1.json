@@ -85233,15 +85233,15 @@
       },
       "id": 542590,
       "utcDate": "2026-02-08T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Riviera",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T14:19:03Z",
+      "lastUpdated": "2026-02-08T15:33:04Z",
       "homeTeam": {
         "id": 522,
         "name": "OGC Nice",
@@ -85392,7 +85392,7 @@
           "nationality": "Belgium"
         },
         "leagueRank": 10,
-        "formation": "4-2-3-1",
+        "formation": "3-4-2-1",
         "lineup": [
           {
             "id": 9535,
@@ -85519,11 +85519,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -85532,7 +85532,32 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 13,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "player": {
+            "id": 131040,
+            "name": "Folarin Balogun"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 18,
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "player": {
+            "id": 76723,
+            "name": "Sofiane Diop"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -85644,7 +85669,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57501,
+          "name": "Abdelatif Kherradji",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 76759,
+          "name": "Ludovic Reyes",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 57107,
+          "name": "Gwenaël Pasqualotti",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -85732,7 +85776,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43918,
+          "name": "François Letexier",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 57080,
+          "name": "Cyril Mugnier",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 57049,
+          "name": "Mehdi Rahmouni",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -85820,7 +85883,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 9374,
+          "name": "Clément Turpin",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 123105,
+          "name": "Alexis Auger",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 57041,
+          "name": "Mikael Berchebru",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
