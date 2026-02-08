@@ -87875,14 +87875,14 @@
       "id": 540593,
       "utcDate": "2026-02-08T16:30:00Z",
       "status": "IN_PLAY",
-      "minute": 3,
+      "minute": 22,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Arena",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T17:33:27Z",
+      "lastUpdated": "2026-02-08T17:52:55Z",
       "homeTeam": {
         "id": 5,
         "name": "FC Bayern München",
@@ -88154,10 +88154,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -88165,9 +88165,77 @@
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 20,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 8004,
+            "name": "Harry Kane"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 8004,
+            "name": "Harry Kane"
+          },
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 6,
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "player": {
+            "id": 113457,
+            "name": "Alexander Prass"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 13,
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "player": {
+            "id": 113765,
+            "name": "Michael Olise"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 17,
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "player": {
+            "id": 315,
+            "name": "Kevin Akpoguma"
+          },
+          "card": "RED"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

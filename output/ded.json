@@ -95585,15 +95585,15 @@
       },
       "id": 537631,
       "utcDate": "2026-02-08T15:45:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 50,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 22525,
       "venue": "Euroborg",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T17:33:48Z",
+      "lastUpdated": "2026-02-08T17:53:30Z",
       "homeTeam": {
         "id": 677,
         "name": "FC Groningen",
@@ -95915,7 +95915,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 47,
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "player": {
+            "id": 190468,
+            "name": "Tygo Land"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
