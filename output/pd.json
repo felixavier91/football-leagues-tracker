@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 223
+    "played": 225
   },
   "competition": {
     "id": 2014,
@@ -109015,15 +109015,15 @@
       },
       "id": 544432,
       "utcDate": "2026-02-08T15:15:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 3,
+      "injuryTime": 10,
       "attendance": 46487,
       "venue": "San Mames Barria",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T18:10:24Z",
+      "lastUpdated": "2026-02-08T18:32:04Z",
       "homeTeam": {
         "id": 77,
         "name": "Athletic Club",
@@ -109334,8 +109334,8 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
-          "away": 1
+          "home": 4,
+          "away": 2
         },
         "halfTime": {
           "home": 2,
@@ -109422,6 +109422,45 @@
           "score": {
             "home": 3,
             "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "REGULAR",
+          "team": {
+            "id": 88,
+            "name": "Levante UD"
+          },
+          "scorer": {
+            "id": 161293,
+            "name": "Jon Olasagasti"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 2
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 9,
+          "type": "REGULAR",
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "scorer": {
+            "id": 101870,
+            "name": "Roberto Navarro"
+          },
+          "assist": {
+            "id": 32629,
+            "name": "Iñaki Williams"
+          },
+          "score": {
+            "home": 4,
+            "away": 2
           }
         }
       ],
@@ -109539,15 +109578,15 @@
       },
       "id": 544438,
       "utcDate": "2026-02-08T15:15:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 6,
+      "injuryTime": 8,
       "attendance": 30384,
       "venue": "Estadio R. Sanchez Pizjuan",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T18:10:24Z",
+      "lastUpdated": "2026-02-08T18:13:25Z",
       "homeTeam": {
         "id": 559,
         "name": "Sevilla FC",
@@ -109901,7 +109940,19 @@
           }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 3171,
+            "name": "Cristhian Stuani"
+          },
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scored": false
+        }
+      ],
       "bookings": [
         {
           "minute": 21,
@@ -110027,7 +110078,7 @@
       },
       "id": 544433,
       "utcDate": "2026-02-08T17:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "minute": null,
       "injuryTime": null,
       "attendance": null,
@@ -110035,7 +110086,7 @@
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T17:33:04Z",
+      "lastUpdated": "2026-02-08T18:32:17Z",
       "homeTeam": {
         "id": 78,
         "name": "Club Atlético de Madrid",
@@ -110061,6 +110112,12 @@
             "name": "Marc Pubill",
             "position": "Defence",
             "shirtNumber": 18
+          },
+          {
+            "id": 213277,
+            "name": "José Giménez",
+            "position": "Defence",
+            "shirtNumber": 2
           },
           {
             "id": 189617,
@@ -110267,14 +110324,81 @@
             "shirtNumber": 12
           }
         ],
-        "bench": []
+        "bench": [
+          {
+            "id": 32695,
+            "name": "Pau López",
+            "position": "Goalkeeper",
+            "shirtNumber": 25
+          },
+          {
+            "id": 8197,
+            "name": "Adrián",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 179155,
+            "name": "Valentín Gómez",
+            "position": "Defence",
+            "shirtNumber": 16
+          },
+          {
+            "id": 272694,
+            "name": "Ángel Ortiz",
+            "position": "Defence",
+            "shirtNumber": 40
+          },
+          {
+            "id": 274546,
+            "name": "Pablo García",
+            "position": "Offence",
+            "shirtNumber": 52
+          },
+          {
+            "id": 291029,
+            "name": "Rodrigo Marina",
+            "position": "Offence",
+            "shirtNumber": 29
+          },
+          {
+            "id": 128731,
+            "name": "Rodrigo Riquelme",
+            "position": "Left Winger",
+            "shirtNumber": 17
+          },
+          {
+            "id": 33037,
+            "name": "Júnior Firpo",
+            "position": "Left-Back",
+            "shirtNumber": 23
+          },
+          {
+            "id": 179141,
+            "name": "Nelson Deossa",
+            "position": "Central Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 33038,
+            "name": "Bartra",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 212861,
+            "name": "Sergi Altimira",
+            "position": "Central Midfield",
+            "shirtNumber": 6
+          }
+        ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,

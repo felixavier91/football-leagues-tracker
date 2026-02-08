@@ -114373,15 +114373,15 @@
       },
       "id": 538030,
       "utcDate": "2026-02-08T16:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 40,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Anfield",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T18:10:12Z",
+      "lastUpdated": "2026-02-08T18:32:14Z",
       "homeTeam": {
         "id": 64,
         "name": "Liverpool FC",
@@ -114666,13 +114666,26 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 42,
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "player": {
+            "id": 66896,
+            "name": "Omar Marmoush"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

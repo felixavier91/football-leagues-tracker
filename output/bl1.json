@@ -87874,15 +87874,15 @@
       },
       "id": 540593,
       "utcDate": "2026-02-08T16:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 40,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Arena",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T18:10:35Z",
+      "lastUpdated": "2026-02-08T18:32:32Z",
       "homeTeam": {
         "id": 5,
         "name": "FC Bayern München",
@@ -88154,15 +88154,15 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 3,
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         }
       },
       "goals": [
@@ -88204,9 +88204,59 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 8004,
+            "name": "Harry Kane"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 22396,
+            "name": "Luis Díaz"
+          },
+          "assist": {
+            "id": 8004,
+            "name": "Harry Kane"
+          },
+          "score": {
+            "home": 3,
+            "away": 1
+          }
         }
       ],
       "penalties": [
+        {
+          "player": {
+            "id": 8004,
+            "name": "Harry Kane"
+          },
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scored": true
+        },
         {
           "player": {
             "id": 8004,
@@ -88255,6 +88305,18 @@
             "name": "Kevin Akpoguma"
           },
           "card": "RED"
+        },
+        {
+          "minute": 44,
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "player": {
+            "id": 206319,
+            "name": "Leon Avdullahu"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],

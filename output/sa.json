@@ -116411,14 +116411,14 @@
       "id": 537053,
       "utcDate": "2026-02-08T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 9,
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Mapei - Citta del Tricolore",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T18:10:38Z",
+      "lastUpdated": "2026-02-08T18:32:32Z",
       "homeTeam": {
         "id": 471,
         "name": "US Sassuolo Calcio",
@@ -116750,18 +116750,61 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 11,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 193,
+            "name": "Yann Aurel Bisseck"
+          },
+          "assist": {
+            "id": 30821,
+            "name": "Federico Dimarco"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 28,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 8685,
+            "name": "Marcus Thuram-Ulien"
+          },
+          "assist": {
+            "id": 30821,
+            "name": "Federico Dimarco"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
