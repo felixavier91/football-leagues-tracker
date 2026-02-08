@@ -86941,14 +86941,14 @@
       "id": 542591,
       "utcDate": "2026-02-08T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 58,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Parc des Princes",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T22:02:34Z",
+      "lastUpdated": "2026-02-08T22:37:58Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -87229,7 +87229,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 5,
           "away": 0
         },
         "halfTime": {
@@ -87279,6 +87279,66 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 64,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "scorer": {
+            "id": 46125,
+            "name": "Facundo Medina"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 0
+          }
+        },
+        {
+          "minute": 66,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 113285,
+            "name": "Khvicha Kvaratskhelia"
+          },
+          "assist": {
+            "id": 3373,
+            "name": "Ousmane Dembélé"
+          },
+          "score": {
+            "home": 4,
+            "away": 0
+          }
+        },
+        {
+          "minute": 74,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 213217,
+            "name": "Kang-in Lee"
+          },
+          "assist": {
+            "id": 246066,
+            "name": "Senny Mayulu"
+          },
+          "score": {
+            "home": 5,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
@@ -87292,6 +87352,42 @@
           "player": {
             "id": 178722,
             "name": "Vitinha"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 59,
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "player": {
+            "id": 186089,
+            "name": "Warren Zaïre-Emery"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 82,
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "player": {
+            "id": 7809,
+            "name": "Emerson"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "player": {
+            "id": 82020,
+            "name": "Leonardo Balerdi"
           },
           "card": "YELLOW"
         }

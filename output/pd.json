@@ -110518,15 +110518,15 @@
       },
       "id": 544439,
       "utcDate": "2026-02-08T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 80,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 47515,
       "venue": "Estadio de Mestalla",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T22:01:59Z",
+      "lastUpdated": "2026-02-08T22:37:29Z",
       "homeTeam": {
         "id": 95,
         "name": "Valencia CF",
@@ -110834,20 +110834,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 65,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 182020,
+            "name": "Álvaro Carreras"
+          },
+          "assist": {
+            "id": 191727,
+            "name": "Dean Huijsen"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 69,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "player": {
+            "id": 182020,
+            "name": "Álvaro Carreras"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

@@ -86043,15 +86043,15 @@
       },
       "id": 545882,
       "utcDate": "2026-02-08T20:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 31,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio da Luz",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T22:02:44Z",
+      "lastUpdated": "2026-02-08T22:38:09Z",
       "homeTeam": {
         "id": 1903,
         "name": "Sport Lisboa e Benfica",
@@ -86336,8 +86336,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -86371,7 +86371,10 @@
             "id": 169646,
             "name": "Lucas Figueiredo"
           },
-          "assist": null,
+          "assist": {
+            "id": 172231,
+            "name": "Marko Milovanovic"
+          },
           "score": {
             "home": 1,
             "away": 1
@@ -86401,6 +86404,18 @@
           "player": {
             "id": 209178,
             "name": "Sidny Lopes Cabral"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 39,
+          "team": {
+            "id": 7822,
+            "name": "FC Alverca"
+          },
+          "player": {
+            "id": 146351,
+            "name": "Matheus Mendes"
           },
           "card": "YELLOW"
         }

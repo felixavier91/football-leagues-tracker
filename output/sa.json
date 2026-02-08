@@ -116953,14 +116953,14 @@
       "id": 537052,
       "utcDate": "2026-02-08T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 57,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Allianz Stadium",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T22:02:24Z",
+      "lastUpdated": "2026-02-08T22:37:49Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -117301,7 +117301,7 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 2
         },
         "halfTime": {
@@ -117351,6 +117351,27 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 59,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "scorer": {
+            "id": 6507,
+            "name": "Weston McKennie"
+          },
+          "assist": {
+            "id": 124865,
+            "name": "Andrea Cambiaso"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -117364,6 +117385,18 @@
           "player": {
             "id": 97537,
             "name": "Kenneth Taylor"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 81,
+          "team": {
+            "id": 110,
+            "name": "SS Lazio"
+          },
+          "player": {
+            "id": 1740,
+            "name": "Alessio Romagnoli"
           },
           "card": "YELLOW"
         }
