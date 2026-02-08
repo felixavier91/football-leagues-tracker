@@ -110079,14 +110079,14 @@
       "id": 544433,
       "utcDate": "2026-02-08T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 18,
+      "minute": 28,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Cívitas Metropolitano",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T18:50:16Z",
+      "lastUpdated": "2026-02-08T19:01:05Z",
       "homeTeam": {
         "id": 78,
         "name": "Club Atlético de Madrid",
@@ -110405,9 +110405,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 28,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié"
+          },
+          "scorer": {
+            "id": 97085,
+            "name": "Antony"
+          },
+          "assist": {
+            "id": 175941,
+            "name": "Abdessamad Ezzalzouli"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 25,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "player": {
+            "id": 151241,
+            "name": "Matteo Ruggeri"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -110519,7 +110554,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 80747,
+          "name": "Javier Alberola Rojas",
+          "type": "REFEREE",
+          "nationality": null
+        },
+        {
+          "id": 206207,
+          "name": "Alfredo Rodríguez Moreno",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 207062,
+          "name": "Jorge Bueno Mateo",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {

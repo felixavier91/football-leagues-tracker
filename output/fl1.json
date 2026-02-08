@@ -85634,14 +85634,14 @@
       "id": 542586,
       "utcDate": "2026-02-08T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 74,
+      "minute": 85,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Océane",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T18:50:39Z",
+      "lastUpdated": "2026-02-08T19:01:38Z",
       "homeTeam": {
         "id": 533,
         "name": "Le Havre AC",
@@ -86017,6 +86017,18 @@
             "name": "Ben Chilwell"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 74,
+          "team": {
+            "id": 533,
+            "name": "Le Havre AC"
+          },
+          "player": {
+            "id": 179603,
+            "name": "Lucas Gourna-Douath"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -86071,14 +86083,14 @@
       "id": 542587,
       "utcDate": "2026-02-08T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 81,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Stade de l'Abbé-Deschamps",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T18:50:40Z",
+      "lastUpdated": "2026-02-08T19:01:39Z",
       "homeTeam": {
         "id": 519,
         "name": "AJ Auxerre",
@@ -86471,14 +86483,14 @@
       "id": 542593,
       "utcDate": "2026-02-08T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 81,
+      "minute": 90,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Raymond Kopa",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T18:50:40Z",
+      "lastUpdated": "2026-02-08T19:01:39Z",
       "homeTeam": {
         "id": 532,
         "name": "Angers SCO",
@@ -86756,10 +86768,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -86767,7 +86779,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 89,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 532,
+            "name": "Angers SCO"
+          },
+          "scorer": {
+            "id": 191002,
+            "name": "Lilian Rao-Lisoa"
+          },
+          "assist": {
+            "id": 53397,
+            "name": "Branco van den Boomen"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -86791,6 +86825,30 @@
           "player": {
             "id": 192686,
             "name": "Pape Diop"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 80,
+          "team": {
+            "id": 532,
+            "name": "Angers SCO"
+          },
+          "player": {
+            "id": 532,
+            "name": "Carlens Arcus"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 87,
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "player": {
+            "id": 77803,
+            "name": "Mark McKenzie"
           },
           "card": "YELLOW"
         }
