@@ -86941,14 +86941,14 @@
       "id": 542591,
       "utcDate": "2026-02-08T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 3,
+      "minute": 13,
       "injuryTime": null,
       "attendance": null,
       "venue": "Parc des Princes",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T20:48:39Z",
+      "lastUpdated": "2026-02-08T20:58:19Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -87099,7 +87099,7 @@
           "nationality": "Italy"
         },
         "leagueRank": 4,
-        "formation": "3-4-2-1",
+        "formation": "5-4-1",
         "lineup": [
           {
             "id": 67880,
@@ -87226,10 +87226,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -87237,9 +87237,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 12,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 3373,
+            "name": "Ousmane Dembélé"
+          },
+          "assist": {
+            "id": 144570,
+            "name": "Nuno Mendes"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 9,
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "player": {
+            "id": 178722,
+            "name": "Vitinha"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
