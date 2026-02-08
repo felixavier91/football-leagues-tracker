@@ -86044,14 +86044,14 @@
       "id": 545882,
       "utcDate": "2026-02-08T20:30:00Z",
       "status": "IN_PLAY",
-      "minute": 1,
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio da Luz",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T21:33:34Z",
+      "lastUpdated": "2026-02-08T21:50:54Z",
       "homeTeam": {
         "id": 1903,
         "name": "Sport Lisboa e Benfica",
@@ -86329,10 +86329,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -86340,9 +86340,41 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 16,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "scorer": {
+            "id": 157796,
+            "name": "Andreas Schjelderup"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 8,
+          "team": {
+            "id": 7822,
+            "name": "FC Alverca"
+          },
+          "player": {
+            "id": 30052,
+            "name": "Lincoln"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

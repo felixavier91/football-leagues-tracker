@@ -116952,15 +116952,15 @@
       },
       "id": 537052,
       "utcDate": "2026-02-08T19:45:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
-      "injuryTime": 2,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Stadium",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T21:33:24Z",
+      "lastUpdated": "2026-02-08T21:50:34Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -117305,8 +117305,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -117322,7 +117322,10 @@
             "id": 7818,
             "name": "Pedro"
           },
-          "assist": null,
+          "assist": {
+            "id": 136113,
+            "name": "Daniel Maldini"
+          },
           "score": {
             "home": 0,
             "away": 1
