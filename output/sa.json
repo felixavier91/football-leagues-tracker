@@ -115914,14 +115914,14 @@
       "id": 537054,
       "utcDate": "2026-02-08T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 81,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Stadio Via del Mare",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T16:41:55Z",
+      "lastUpdated": "2026-02-08T16:57:21Z",
       "homeTeam": {
         "id": 5890,
         "name": "US Lecce",
@@ -116241,10 +116241,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -116288,6 +116288,24 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5890,
+            "name": "US Lecce"
+          },
+          "scorer": {
+            "id": 121808,
+            "name": "Lameck Banda"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [
@@ -116313,6 +116331,30 @@
           "player": {
             "id": 172425,
             "name": "Nicolo Bertola"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 83,
+          "team": {
+            "id": 5890,
+            "name": "US Lecce"
+          },
+          "player": {
+            "id": 121808,
+            "name": "Lameck Banda"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 89,
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "player": {
+            "id": 274050,
+            "name": "Idrissa Guèye"
           },
           "card": "YELLOW"
         }

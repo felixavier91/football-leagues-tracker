@@ -87387,14 +87387,14 @@
       "id": 540589,
       "utcDate": "2026-02-08T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 55,
+      "minute": 70,
       "injuryTime": null,
       "attendance": null,
       "venue": "RheinEnergieStadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T16:41:46Z",
+      "lastUpdated": "2026-02-08T16:57:14Z",
       "homeTeam": {
         "id": 1,
         "name": "1. FC Köln",
@@ -87672,11 +87672,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -87725,10 +87725,56 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 56,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "scorer": {
+            "id": 56829,
+            "name": "Christoph Baumgartner"
+          },
+          "assist": {
+            "id": 16344,
+            "name": "Xaver Schlager"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 52,
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "player": {
+            "id": 75460,
+            "name": "Ole Werner"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 58,
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "player": {
+            "id": 137031,
+            "name": "Jan Thielmann"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -88026,6 +88072,12 @@
             "name": "Luka Đurić",
             "position": "Midfield",
             "shirtNumber": 48
+          },
+          {
+            "id": 212107,
+            "name": "Valentin Lässig",
+            "position": "Midfield",
+            "shirtNumber": 49
           },
           {
             "id": 248657,
