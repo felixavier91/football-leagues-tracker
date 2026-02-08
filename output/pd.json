@@ -110519,14 +110519,14 @@
       "id": 544439,
       "utcDate": "2026-02-08T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 80,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 3,
       "attendance": 47515,
       "venue": "Estadio de Mestalla",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T22:37:29Z",
+      "lastUpdated": "2026-02-08T22:51:39Z",
       "homeTeam": {
         "id": 95,
         "name": "Valencia CF",
@@ -110838,7 +110838,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -110866,6 +110866,27 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 3374,
+            "name": "Kylian Mbappé"
+          },
+          "assist": {
+            "id": 7887,
+            "name": "Brahim Diaz"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -110879,6 +110900,18 @@
           "player": {
             "id": 182020,
             "name": "Álvaro Carreras"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 88,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "player": {
+            "id": 172108,
+            "name": "Copete"
           },
           "card": "YELLOW"
         }
