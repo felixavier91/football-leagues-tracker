@@ -115438,14 +115438,14 @@
       "id": 537050,
       "utcDate": "2026-02-08T11:30:00Z",
       "status": "IN_PLAY",
-      "minute": 71,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Stadio Renato Dall'Ara",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T14:02:49Z",
+      "lastUpdated": "2026-02-08T14:29:58Z",
       "homeTeam": {
         "id": 103,
         "name": "Bologna FC 1909",
@@ -115778,18 +115778,21 @@
       },
       "goals": [
         {
-          "minute": 69,
-          "injuryTime": null,
-          "type": "OWN",
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "REGULAR",
           "team": {
-            "id": 103,
-            "name": "Bologna FC 1909"
+            "id": 112,
+            "name": "Parma Calcio 1913"
           },
           "scorer": {
-            "id": 170891,
-            "name": "Santiago Castro"
+            "id": 191285,
+            "name": "Christian Ordonez"
           },
-          "assist": null,
+          "assist": {
+            "id": 97894,
+            "name": "Hans Nicolussi Caviglia"
+          },
           "score": {
             "home": 0,
             "away": 1
@@ -115833,6 +115836,30 @@
             "name": "Mariano Troilo"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 76,
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "player": {
+            "id": 22113,
+            "name": "Jhon Lucumí"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 79,
+          "team": {
+            "id": 112,
+            "name": "Parma Calcio 1913"
+          },
+          "player": {
+            "id": 212729,
+            "name": "Mariano Troilo"
+          },
+          "card": "YELLOW_RED"
         }
       ],
       "substitutions": [],
@@ -115894,7 +115921,7 @@
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T01:32:00Z",
+      "lastUpdated": "2026-02-08T14:23:43Z",
       "homeTeam": {
         "id": 5890,
         "name": "US Lecce",
@@ -115907,9 +115934,155 @@
           "nationality": "Italy"
         },
         "leagueRank": 18,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-2-3-1",
+        "lineup": [
+          {
+            "id": 56649,
+            "name": "Wladimiro Falcone",
+            "position": "Goalkeeper",
+            "shirtNumber": 30
+          },
+          {
+            "id": 125069,
+            "name": "Omri Gandelman",
+            "position": "Midfield",
+            "shirtNumber": 16
+          },
+          {
+            "id": 129808,
+            "name": "Walid Cheddira",
+            "position": "Centre-Forward",
+            "shirtNumber": 99
+          },
+          {
+            "id": 8658,
+            "name": "Lassana Coulibaly",
+            "position": "Central Midfield",
+            "shirtNumber": 29
+          },
+          {
+            "id": 246341,
+            "name": "Tiago Gabriel",
+            "position": "Centre-Back",
+            "shirtNumber": 44
+          },
+          {
+            "id": 116223,
+            "name": "Santiago Pierotti",
+            "position": "Right Winger",
+            "shirtNumber": 50
+          },
+          {
+            "id": 1792,
+            "name": "Riccardo Sottil",
+            "position": "Left Winger",
+            "shirtNumber": 23
+          },
+          {
+            "id": 77469,
+            "name": "Antonino Gallo",
+            "position": "Left-Back",
+            "shirtNumber": 25
+          },
+          {
+            "id": 213073,
+            "name": "Kialonda Gaspar",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 185129,
+            "name": "Danilo Veiga",
+            "position": "Right-Back",
+            "shirtNumber": 17
+          },
+          {
+            "id": 70286,
+            "name": "Ylber Ramadani",
+            "position": "Defensive Midfield",
+            "shirtNumber": 20
+          }
+        ],
+        "bench": [
+          {
+            "id": 344,
+            "name": "Christian Früchtl",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 133202,
+            "name": "Jasper Samooja",
+            "position": "Goalkeeper",
+            "shirtNumber": 32
+          },
+          {
+            "id": 176003,
+            "name": "Alex Sala",
+            "position": "Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 221315,
+            "name": "Nikola Štulić",
+            "position": "Offence",
+            "shirtNumber": 9
+          },
+          {
+            "id": 150530,
+            "name": "Jamil Siebert",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 177262,
+            "name": "Oumar Ngom",
+            "position": "Central Midfield",
+            "shirtNumber": 79
+          },
+          {
+            "id": 117369,
+            "name": "Corrie Ndaba",
+            "position": "Left-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 105294,
+            "name": "Filip Marchwiński",
+            "position": "Attacking Midfield",
+            "shirtNumber": 36
+          },
+          {
+            "id": 167394,
+            "name": "Konan N'Dri",
+            "position": "Right Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 113590,
+            "name": "Gaby Jean",
+            "position": "Centre-Back",
+            "shirtNumber": 18
+          },
+          {
+            "id": 16794,
+            "name": "Þórir Jóhann Helgason",
+            "position": "Central Midfield",
+            "shirtNumber": 14
+          },
+          {
+            "id": 176076,
+            "name": "Sadik Fofana",
+            "position": "Centre-Back",
+            "shirtNumber": 8
+          },
+          {
+            "id": 121808,
+            "name": "Lameck Banda",
+            "position": "Left Winger",
+            "shirtNumber": 19
+          }
+        ]
       },
       "awayTeam": {
         "id": 115,
@@ -115923,9 +116096,137 @@
           "nationality": "Germany"
         },
         "leagueRank": 9,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "3-4-2-1",
+        "lineup": [
+          {
+            "id": 65480,
+            "name": "Maduka Okoye",
+            "position": "Goalkeeper",
+            "shirtNumber": 40
+          },
+          {
+            "id": 172425,
+            "name": "Nicolo Bertola",
+            "position": "Defence",
+            "shirtNumber": 13
+          },
+          {
+            "id": 187404,
+            "name": "Lennon Miller",
+            "position": "Midfield",
+            "shirtNumber": 38
+          },
+          {
+            "id": 7567,
+            "name": "Jurgen Ekkelenkamp",
+            "position": "Attacking Midfield",
+            "shirtNumber": 32
+          },
+          {
+            "id": 99311,
+            "name": "Jordan Zemura",
+            "position": "Left-Back",
+            "shirtNumber": 33
+          },
+          {
+            "id": 84493,
+            "name": "Vakoun Issouf Bayo",
+            "position": "Centre-Forward",
+            "shirtNumber": 15
+          },
+          {
+            "id": 7710,
+            "name": "Kingsley Ehizibue",
+            "position": "Right-Back",
+            "shirtNumber": 19
+          },
+          {
+            "id": 8462,
+            "name": "Oumar Solet",
+            "position": "Centre-Back",
+            "shirtNumber": 28
+          },
+          {
+            "id": 151299,
+            "name": "Thomas Kristensen",
+            "position": "Centre-Back",
+            "shirtNumber": 31
+          },
+          {
+            "id": 31065,
+            "name": "Jesper Karlström",
+            "position": "Defensive Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 190552,
+            "name": "Arthur Atta",
+            "position": "Defensive Midfield",
+            "shirtNumber": 14
+          }
+        ],
+        "bench": [
+          {
+            "id": 206347,
+            "name": "Alessandro Nunziante",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 1993,
+            "name": "Daniele Padelli",
+            "position": "Goalkeeper",
+            "shirtNumber": 93
+          },
+          {
+            "id": 284663,
+            "name": "Branimir Mlacic",
+            "position": "Defence",
+            "shirtNumber": 22
+          },
+          {
+            "id": 202427,
+            "name": "Juan Arizala",
+            "position": "Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 64087,
+            "name": "Adam Buksa",
+            "position": "Offence",
+            "shirtNumber": 18
+          },
+          {
+            "id": 274050,
+            "name": "Idrissa Guèye",
+            "position": "Offence",
+            "shirtNumber": 7
+          },
+          {
+            "id": 150522,
+            "name": "Oier Zarraga",
+            "position": "Central Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 2013,
+            "name": "Nicolò Zaniolo",
+            "position": "Attacking Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 822,
+            "name": "Hassane Kamara",
+            "position": "Left-Back",
+            "shirtNumber": 11
+          },
+          {
+            "id": 8111,
+            "name": "Christian Kabasele",
+            "position": "Centre-Back",
+            "shirtNumber": 27
+          }
+        ]
       },
       "score": {
         "winner": null,
