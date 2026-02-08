@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 186
+    "played": 187
   },
   "competition": {
     "id": 2002,
@@ -87386,15 +87386,15 @@
       },
       "id": 540589,
       "utcDate": "2026-02-08T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 86,
-      "injuryTime": null,
-      "attendance": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 10,
+      "attendance": 49000,
       "venue": "RheinEnergieStadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T17:13:14Z",
+      "lastUpdated": "2026-02-08T17:28:29Z",
       "homeTeam": {
         "id": 1,
         "name": "1. FC Köln",
@@ -87797,6 +87797,30 @@
             "name": "David Raum"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "player": {
+            "id": 175951,
+            "name": "Ezechiel Banzuzi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "player": {
+            "id": 9533,
+            "name": "Péter Gulácsi"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -87850,15 +87874,15 @@
       },
       "id": 540593,
       "utcDate": "2026-02-08T16:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 3,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Arena",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T16:28:00Z",
+      "lastUpdated": "2026-02-08T17:33:27Z",
       "homeTeam": {
         "id": 5,
         "name": "FC Bayern München",
@@ -88130,11 +88154,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
