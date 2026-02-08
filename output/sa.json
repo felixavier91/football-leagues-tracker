@@ -116410,15 +116410,15 @@
       },
       "id": 537053,
       "utcDate": "2026-02-08T17:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 61,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Mapei - Citta del Tricolore",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T19:01:30Z",
+      "lastUpdated": "2026-02-08T19:20:50Z",
       "homeTeam": {
         "id": 471,
         "name": "US Sassuolo Calcio",
@@ -116754,7 +116754,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 2
+          "away": 4
         },
         "halfTime": {
           "home": 0,
@@ -116803,10 +116803,74 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 50,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 3220,
+            "name": "Lautaro Martínez"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 3
+          }
+        },
+        {
+          "minute": 53,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 143,
+            "name": "Manuel Akanji"
+          },
+          "assist": {
+            "id": 30821,
+            "name": "Federico Dimarco"
+          },
+          "score": {
+            "home": 0,
+            "away": 4
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 55,
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio"
+          },
+          "player": {
+            "id": 3438,
+            "name": "Nemanja Matić"
+          },
+          "card": "YELLOW_RED"
+        },
+        {
+          "minute": 55,
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio"
+          },
+          "player": {
+            "id": 3438,
+            "name": "Nemanja Matić"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
