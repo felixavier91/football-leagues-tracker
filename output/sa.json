@@ -115437,15 +115437,15 @@
       },
       "id": 537050,
       "utcDate": "2026-02-08T11:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 71,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Renato Dall'Ara",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T13:34:59Z",
+      "lastUpdated": "2026-02-08T14:02:49Z",
       "homeTeam": {
         "id": 103,
         "name": "Bologna FC 1909",
@@ -115458,7 +115458,7 @@
           "nationality": "Italy"
         },
         "leagueRank": 10,
-        "formation": "4-2-3-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 1797,
@@ -115765,18 +115765,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 69,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "scorer": {
+            "id": 170891,
+            "name": "Santiago Castro"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -115790,6 +115809,30 @@
             "name": "Tommaso Pobega"
           },
           "card": "RED"
+        },
+        {
+          "minute": 49,
+          "team": {
+            "id": 112,
+            "name": "Parma Calcio 1913"
+          },
+          "player": {
+            "id": 272754,
+            "name": "Sascha Britschgi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 61,
+          "team": {
+            "id": 112,
+            "name": "Parma Calcio 1913"
+          },
+          "player": {
+            "id": 212729,
+            "name": "Mariano Troilo"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
