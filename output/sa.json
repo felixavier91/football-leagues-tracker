@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-23",
     "last": "2026-05-24",
-    "played": 235
+    "played": 236
   },
   "competition": {
     "id": 2019,
@@ -116410,15 +116410,15 @@
       },
       "id": 537053,
       "utcDate": "2026-02-08T17:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 89,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Stadio Mapei - Citta del Tricolore",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T19:47:54Z",
+      "lastUpdated": "2026-02-08T19:54:20Z",
       "homeTeam": {
         "id": 471,
         "name": "US Sassuolo Calcio",
@@ -116754,7 +116754,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 4
+          "away": 5
         },
         "halfTime": {
           "home": 0,
@@ -116841,6 +116841,24 @@
           "score": {
             "home": 0,
             "away": 4
+          }
+        },
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 115074,
+            "name": "Luis Henrique"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 5
           }
         }
       ],
@@ -116942,7 +116960,7 @@
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-02T01:32:03Z",
+      "lastUpdated": "2026-02-08T19:51:17Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -116955,7 +116973,7 @@
           "nationality": "Italy"
         },
         "leagueRank": 4,
-        "formation": null,
+        "formation": "3-4-2-1",
         "lineup": [
           {
             "id": 41381,
@@ -117038,6 +117056,18 @@
             "shirtNumber": 23
           },
           {
+            "id": 111777,
+            "name": "Emil Holm",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 4121,
+            "name": "Jérémie Boga",
+            "position": "Left Winger",
+            "shirtNumber": 13
+          },
+          {
             "id": 8990,
             "name": "Edon Zhegrova",
             "position": "Right Winger",
@@ -117111,9 +117141,155 @@
           "nationality": "Italy"
         },
         "leagueRank": 8,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 2475,
+            "name": "Ivan Provedel",
+            "position": "Goalkeeper",
+            "shirtNumber": 94
+          },
+          {
+            "id": 128007,
+            "name": "Gustav Isaksen",
+            "position": "Right Winger",
+            "shirtNumber": 18
+          },
+          {
+            "id": 7818,
+            "name": "Pedro",
+            "position": "Right Winger",
+            "shirtNumber": 9
+          },
+          {
+            "id": 136113,
+            "name": "Daniel Maldini",
+            "position": "Attacking Midfield",
+            "shirtNumber": 27
+          },
+          {
+            "id": 23703,
+            "name": "Toma Bašić",
+            "position": "Central Midfield",
+            "shirtNumber": 26
+          },
+          {
+            "id": 2329,
+            "name": "Danilo Cataldi",
+            "position": "Defensive Midfield",
+            "shirtNumber": 32
+          },
+          {
+            "id": 97537,
+            "name": "Kenneth Taylor",
+            "position": "Central Midfield",
+            "shirtNumber": 24
+          },
+          {
+            "id": 2069,
+            "name": "Adam Marušić",
+            "position": "Right-Back",
+            "shirtNumber": 77
+          },
+          {
+            "id": 180139,
+            "name": "Gila",
+            "position": "Centre-Back",
+            "shirtNumber": 34
+          },
+          {
+            "id": 212456,
+            "name": "Oliver Nielsen",
+            "position": "Centre-Back",
+            "shirtNumber": 25
+          },
+          {
+            "id": 80459,
+            "name": "Nuno Tavares",
+            "position": "Left-Back",
+            "shirtNumber": 17
+          }
+        ],
+        "bench": [
+          {
+            "id": 118438,
+            "name": "Alessio Furlanetto",
+            "position": "Goalkeeper",
+            "shirtNumber": 55
+          },
+          {
+            "id": 219746,
+            "name": "Edoardo Motta",
+            "position": "Goalkeeper",
+            "shirtNumber": 40
+          },
+          {
+            "id": 216566,
+            "name": "Adrian Przyborek",
+            "position": "Midfield",
+            "shirtNumber": 99
+          },
+          {
+            "id": 212769,
+            "name": "Petar Ratkov",
+            "position": "Offence",
+            "shirtNumber": 20
+          },
+          {
+            "id": 111220,
+            "name": "Nicolò Rovella",
+            "position": "Defensive Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 1740,
+            "name": "Alessio Romagnoli",
+            "position": "Centre-Back",
+            "shirtNumber": 13
+          },
+          {
+            "id": 171448,
+            "name": "Tijjani Noslin",
+            "position": "Right Winger",
+            "shirtNumber": 14
+          },
+          {
+            "id": 2088,
+            "name": "Elseid Hysaj",
+            "position": "Right-Back",
+            "shirtNumber": 23
+          },
+          {
+            "id": 2065,
+            "name": "Patric",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 98299,
+            "name": "Boulaye Dia",
+            "position": "Centre-Forward",
+            "shirtNumber": 19
+          },
+          {
+            "id": 147781,
+            "name": "Fisayo Dele-Bashiru",
+            "position": "Attacking Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 152787,
+            "name": "Matteo Cancellieri",
+            "position": "Right Winger",
+            "shirtNumber": 22
+          },
+          {
+            "id": 187476,
+            "name": "Reda Belahyane",
+            "position": "Defensive Midfield",
+            "shirtNumber": 21
+          }
+        ]
       },
       "score": {
         "winner": null,
