@@ -116953,14 +116953,14 @@
       "id": 537052,
       "utcDate": "2026-02-08T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 26,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Allianz Stadium",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T21:11:51Z",
+      "lastUpdated": "2026-02-08T21:33:24Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -117298,11 +117298,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
@@ -117311,26 +117311,39 @@
       },
       "goals": [
         {
-          "minute": 26,
-          "injuryTime": null,
+          "minute": 45,
+          "injuryTime": 2,
           "type": "REGULAR",
           "team": {
-            "id": 109,
-            "name": "Juventus FC"
+            "id": 110,
+            "name": "SS Lazio"
           },
           "scorer": {
-            "id": 7693,
-            "name": "Teun Koopmeiners"
+            "id": 7818,
+            "name": "Pedro"
           },
           "assist": null,
           "score": {
-            "home": 1,
-            "away": 0
+            "home": 0,
+            "away": 1
           }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 33,
+          "team": {
+            "id": 110,
+            "name": "SS Lazio"
+          },
+          "player": {
+            "id": 97537,
+            "name": "Kenneth Taylor"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
