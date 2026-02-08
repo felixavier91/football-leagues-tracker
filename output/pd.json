@@ -109015,15 +109015,15 @@
       },
       "id": 544432,
       "utcDate": "2026-02-08T15:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 24,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "San Mames Barria",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T16:41:35Z",
+      "lastUpdated": "2026-02-08T17:12:59Z",
       "homeTeam": {
         "id": 77,
         "name": "Athletic Club",
@@ -109331,18 +109331,61 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 29,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "scorer": {
+            "id": 81565,
+            "name": "Gorka Guruzeta"
+          },
+          "assist": {
+            "id": 32481,
+            "name": "Ruiz de Galarreta"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 34,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "scorer": {
+            "id": 81565,
+            "name": "Gorka Guruzeta"
+          },
+          "assist": {
+            "id": 32629,
+            "name": "Iñaki Williams"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -109356,6 +109399,18 @@
             "name": "Alan Matturro"
           },
           "card": "RED"
+        },
+        {
+          "minute": 42,
+          "team": {
+            "id": 88,
+            "name": "Levante UD"
+          },
+          "player": {
+            "id": 128034,
+            "name": "Luís Castro"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -109409,15 +109464,15 @@
       },
       "id": 544438,
       "utcDate": "2026-02-08T15:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 26,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 30384,
       "venue": "Estadio R. Sanchez Pizjuan",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T16:41:35Z",
+      "lastUpdated": "2026-02-08T17:12:59Z",
       "homeTeam": {
         "id": 559,
         "name": "Sevilla FC",
@@ -109726,8 +109781,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
