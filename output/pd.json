@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 222
+    "played": 223
   },
   "competition": {
     "id": 2014,
@@ -108509,15 +108509,15 @@
       },
       "id": 544431,
       "utcDate": "2026-02-08T13:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 1,
+      "injuryTime": 5,
       "attendance": 15960,
       "venue": "Estadio Mendizorroza",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T15:50:44Z",
+      "lastUpdated": "2026-02-08T15:55:54Z",
       "homeTeam": {
         "id": 263,
         "name": "Deportivo Alavés",
@@ -109015,15 +109015,15 @@
       },
       "id": 544432,
       "utcDate": "2026-02-08T15:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 8,
       "injuryTime": null,
       "attendance": null,
       "venue": "San Mames Barria",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T15:09:03Z",
+      "lastUpdated": "2026-02-08T16:25:11Z",
       "homeTeam": {
         "id": 77,
         "name": "Athletic Club",
@@ -109331,11 +109331,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -109396,15 +109396,15 @@
       },
       "id": 544438,
       "utcDate": "2026-02-08T15:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 9,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio R. Sanchez Pizjuan",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T15:16:48Z",
+      "lastUpdated": "2026-02-08T16:25:11Z",
       "homeTeam": {
         "id": 559,
         "name": "Sevilla FC",
@@ -109706,18 +109706,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 2,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scorer": {
+            "id": 3369,
+            "name": "Thomas Lemar"
+          },
+          "assist": {
+            "id": 229042,
+            "name": "Hugo Rincón"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

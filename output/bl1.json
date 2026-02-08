@@ -87386,15 +87386,15 @@
       },
       "id": 540589,
       "utcDate": "2026-02-08T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 21,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "RheinEnergieStadion",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T15:50:46Z",
+      "lastUpdated": "2026-02-08T16:25:19Z",
       "homeTeam": {
         "id": 1,
         "name": "1. FC Köln",
@@ -87672,18 +87672,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 29,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "scorer": {
+            "id": 56829,
+            "name": "Christoph Baumgartner"
+          },
+          "assist": {
+            "id": 9905,
+            "name": "David Raum"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
