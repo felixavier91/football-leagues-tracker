@@ -85604,14 +85604,14 @@
       "id": 545888,
       "utcDate": "2026-02-08T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 18,
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Municipal de Braga",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T19:21:22Z",
+      "lastUpdated": "2026-02-08T19:48:14Z",
       "homeTeam": {
         "id": 5613,
         "name": "Sporting Clube de Braga",
@@ -85924,7 +85924,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 496,
+            "name": "Rio Ave FC"
+          },
+          "player": {
+            "id": 276192,
+            "name": "Gustavo"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -86036,7 +86049,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 220513,
+          "name": "Bruno Costa",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 37682,
+          "name": "Jorge Fernandes",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 242474,
+          "name": "João Morte",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {

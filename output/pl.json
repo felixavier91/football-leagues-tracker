@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 249
+    "played": 250
   },
   "competition": {
     "id": 2021,
@@ -114373,15 +114373,15 @@
       },
       "id": 538030,
       "utcDate": "2026-02-08T16:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 2,
+      "injuryTime": 15,
       "attendance": null,
       "venue": "Anfield",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-08T19:20:24Z",
+      "lastUpdated": "2026-02-08T19:35:43Z",
       "homeTeam": {
         "id": 64,
         "name": "Liverpool FC",
@@ -114659,11 +114659,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -114709,9 +114709,39 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 3,
+          "type": "PENALTY",
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "scorer": {
+            "id": 38101,
+            "name": "Erling Haaland"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 38101,
+            "name": "Erling Haaland"
+          },
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 42,
@@ -114760,6 +114790,42 @@
             "name": "Alisson"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "player": {
+            "id": 38101,
+            "name": "Erling Haaland"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "player": {
+            "id": 3254,
+            "name": "Bernardo Silva"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "player": {
+            "id": 16347,
+            "name": "Dominik Szoboszlai"
+          },
+          "card": "RED"
         }
       ],
       "substitutions": [],
