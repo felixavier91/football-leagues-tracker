@@ -110968,14 +110968,14 @@
       "id": 544437,
       "utcDate": "2026-02-09T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 48,
+      "minute": 67,
       "injuryTime": null,
       "attendance": 16825,
       "venue": "Estadio de la Cerámica",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-09T22:06:54Z",
+      "lastUpdated": "2026-02-09T22:25:39Z",
       "homeTeam": {
         "id": 94,
         "name": "Villarreal CF",
@@ -110983,9 +110983,9 @@
         "tla": "VIL",
         "crest": "https://crests.football-data.org/94.png",
         "coach": {
-          "id": 33156,
-          "name": "Marcelino",
-          "nationality": "Spain"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 4,
         "formation": "4-4-2",
@@ -111001,12 +111001,6 @@
             "name": "Tajon Buchanan",
             "position": "Right Midfield",
             "shirtNumber": 17
-          },
-          {
-            "id": 32719,
-            "name": "Gerard Moreno",
-            "position": "Centre-Forward",
-            "shirtNumber": 7
           },
           {
             "id": 136646,
@@ -111095,12 +111089,6 @@
             "shirtNumber": 21
           },
           {
-            "id": 32719,
-            "name": "Gerard Moreno",
-            "position": "Centre-Forward",
-            "shirtNumber": 7
-          },
-          {
             "id": 7936,
             "name": "Ayoze Pérez",
             "position": "Centre-Forward",
@@ -111111,12 +111099,6 @@
             "name": "Rafa Marin",
             "position": "Centre-Back",
             "shirtNumber": 4
-          },
-          {
-            "id": 113175,
-            "name": "Tajon Buchanan",
-            "position": "Right Midfield",
-            "shirtNumber": 17
           }
         ]
       },
@@ -111127,9 +111109,9 @@
         "tla": "ESP",
         "crest": "https://crests.football-data.org/80.png",
         "coach": {
-          "id": 83316,
-          "name": "Manolo González",
-          "nationality": "Spain"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 6,
         "formation": "4-2-3-1",
@@ -111268,7 +111250,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 4,
           "away": 0
         },
         "halfTime": {
@@ -111315,6 +111297,48 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 50,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "scorer": {
+            "id": 8412,
+            "name": "Nicolas Pépé"
+          },
+          "assist": {
+            "id": 150533,
+            "name": "Alberto Moleiro"
+          },
+          "score": {
+            "home": 3,
+            "away": 0
+          }
+        },
+        {
+          "minute": 55,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "scorer": {
+            "id": 150533,
+            "name": "Alberto Moleiro"
+          },
+          "assist": {
+            "id": 136646,
+            "name": "Georges Mikautadze"
+          },
+          "score": {
+            "home": 4,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
@@ -111340,6 +111364,30 @@
           "player": {
             "id": 113175,
             "name": "Tajon Buchanan"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 53,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 33652,
+            "name": "Edu Expósito"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 57,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 170833,
+            "name": "Clemens Riedel"
           },
           "card": "YELLOW"
         }
@@ -111368,14 +111416,14 @@
           "nationality": "Spain"
         },
         {
-          "id": 215396,
-          "name": "Judit Romano García",
+          "id": 207062,
+          "name": "Jorge Bueno Mateo",
           "type": "ASSISTANT_REFEREE_N2",
           "nationality": "Spain"
         },
         {
-          "id": 207062,
-          "name": "Jorge Bueno Mateo",
+          "id": 215396,
+          "name": "Judit Romano García",
           "type": "ASSISTANT_REFEREE_N2",
           "nationality": "Spain"
         }
