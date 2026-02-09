@@ -110968,14 +110968,14 @@
       "id": 544437,
       "utcDate": "2026-02-09T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 22,
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio de la Cerámica",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-09T21:24:39Z",
+      "lastUpdated": "2026-02-09T21:47:50Z",
       "homeTeam": {
         "id": 94,
         "name": "Villarreal CF",
@@ -111265,10 +111265,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -111276,7 +111276,47 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 35,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "scorer": {
+            "id": 136646,
+            "name": "Georges Mikautadze"
+          },
+          "assist": {
+            "id": 113175,
+            "name": "Tajon Buchanan"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 41,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "scorer": {
+            "id": 151257,
+            "name": "José Salinas"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
