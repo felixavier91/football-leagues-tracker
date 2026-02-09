@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 188
+    "played": 189
   },
   "competition": {
     "id": 2017,
@@ -87025,15 +87025,15 @@
       },
       "id": 545887,
       "utcDate": "2026-02-09T20:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 7,
+      "injuryTime": 10,
       "attendance": null,
       "venue": "Estadio do Dragao",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-09T23:48:08Z",
+      "lastUpdated": "2026-02-09T23:52:29Z",
       "homeTeam": {
         "id": 503,
         "name": "FC Porto",
@@ -87311,11 +87311,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -87340,9 +87340,50 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 10,
+          "type": "PENALTY",
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scorer": {
+            "id": 32386,
+            "name": "Luis Suárez"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 32386,
+            "name": "Luis Suárez"
+          },
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 32386,
+            "name": "Luis Suárez"
+          },
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scored": false
+        }
+      ],
       "bookings": [
         {
           "minute": 45,
