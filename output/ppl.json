@@ -87025,15 +87025,15 @@
       },
       "id": 545887,
       "utcDate": "2026-02-09T20:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 21,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio do Dragao",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-09T22:07:29Z",
+      "lastUpdated": "2026-02-09T22:48:34Z",
       "homeTeam": {
         "id": 503,
         "name": "FC Porto",
@@ -87318,13 +87318,38 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "player": {
+            "id": 221262,
+            "name": "Victor Froholdt"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 191760,
+            "name": "Ousmane Diomande"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
