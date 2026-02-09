@@ -87026,14 +87026,14 @@
       "id": 545887,
       "utcDate": "2026-02-09T20:45:00Z",
       "status": "IN_PLAY",
-      "minute": 73,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Estadio do Dragao",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-09T23:23:23Z",
+      "lastUpdated": "2026-02-09T23:48:08Z",
       "homeTeam": {
         "id": 503,
         "name": "FC Porto",
@@ -87311,10 +87311,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -87322,7 +87322,26 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 76,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "scorer": {
+            "id": 2126,
+            "name": "Seko Fofana"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -87346,6 +87365,78 @@
           "player": {
             "id": 191760,
             "name": "Ousmane Diomande"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 74,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 49092,
+            "name": "Hidemasa Morita"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 79,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 73998,
+            "name": "Morten Hjulmand"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 84,
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "player": {
+            "id": 98611,
+            "name": "Moura"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 86,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 32386,
+            "name": "Luis Suárez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 28770,
+            "name": "Maximiliano Araújo"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "player": {
+            "id": 188466,
+            "name": "Deniz Gul"
           },
           "card": "YELLOW"
         }
