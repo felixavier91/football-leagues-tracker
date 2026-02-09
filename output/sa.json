@@ -117473,15 +117473,15 @@
       },
       "id": 537048,
       "utcDate": "2026-02-09T17:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 1,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Gewiss Stadium",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-09T18:31:04Z",
+      "lastUpdated": "2026-02-09T19:28:39Z",
       "homeTeam": {
         "id": 102,
         "name": "Atalanta BC",
@@ -117745,6 +117745,12 @@
             "shirtNumber": 55
           },
           {
+            "id": 278424,
+            "name": "Davide Pavesi",
+            "position": "Midfield",
+            "shirtNumber": 25
+          },
+          {
             "id": 4409,
             "name": "Milan Đurić",
             "position": "Centre-Forward",
@@ -117783,18 +117789,61 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 13,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "scorer": {
+            "id": 120679,
+            "name": "Nikola Krstović"
+          },
+          "assist": {
+            "id": 114117,
+            "name": "Giacomo Raspadori"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 25,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "scorer": {
+            "id": 7807,
+            "name": "Davide Zappacosta"
+          },
+          "assist": {
+            "id": 3553,
+            "name": "Mario Pašalić"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -117908,7 +117957,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57868,
+          "name": "Matteo Marcenaro",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11051,
+          "name": "Matteo Passeri",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 152433,
+          "name": "Marco Trinchieri",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {
