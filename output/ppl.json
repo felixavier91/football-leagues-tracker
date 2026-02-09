@@ -86528,15 +86528,15 @@
       },
       "id": 545880,
       "utcDate": "2026-02-09T18:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Municipal 22 de Junho",
       "matchday": 21,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-09T19:20:55Z",
+      "lastUpdated": "2026-02-09T20:33:54Z",
       "homeTeam": {
         "id": 5531,
         "name": "FC Famalicão",
@@ -86654,6 +86654,12 @@
             "name": "Marcos Peña",
             "position": "Midfield",
             "shirtNumber": 8
+          },
+          {
+            "id": 292393,
+            "name": "Rudi Almeida",
+            "position": null,
+            "shirtNumber": 91
           },
           {
             "id": 191017,
@@ -86808,20 +86814,57 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 4,
+          "team": {
+            "id": 5531,
+            "name": "FC Famalicão"
+          },
+          "player": {
+            "id": 169260,
+            "name": "Gustavo Garcia"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 25,
+          "team": {
+            "id": 5531,
+            "name": "FC Famalicão"
+          },
+          "player": {
+            "id": 97367,
+            "name": "Justin de Haas"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 5531,
+            "name": "FC Famalicão"
+          },
+          "player": {
+            "id": 213107,
+            "name": "Pedro"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -86933,7 +86976,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 37629,
+          "name": "Luís Godinho",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 15715,
+          "name": "Rui Teixeira",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 37611,
+          "name": "Pedro Mota",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
