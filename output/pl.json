@@ -114879,15 +114879,15 @@
       },
       "id": 538039,
       "utcDate": "2026-02-10T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 35,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stamford Bridge",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-10T21:06:34Z",
+      "lastUpdated": "2026-02-10T21:27:04Z",
       "homeTeam": {
         "id": 61,
         "name": "Chelsea FC",
@@ -115172,8 +115172,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -115248,6 +115248,18 @@
             "name": "Sebastiaan Bornauw"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 341,
+            "name": "Leeds United FC"
+          },
+          "player": {
+            "id": 5613,
+            "name": "James Justin"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -115301,15 +115313,15 @@
       },
       "id": 538040,
       "utcDate": "2026-02-10T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 36,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Everton Stadium",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-10T21:06:34Z",
+      "lastUpdated": "2026-02-10T21:27:04Z",
       "homeTeam": {
         "id": 62,
         "name": "Everton FC",
@@ -115587,19 +115599,50 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 62,
+            "name": "Everton FC"
+          },
+          "scorer": {
+            "id": 94091,
+            "name": "Iliman Ndiaye"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 94091,
+            "name": "Iliman Ndiaye"
+          },
+          "team": {
+            "id": 62,
+            "name": "Everton FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {
@@ -115652,15 +115695,15 @@
       },
       "id": 538043,
       "utcDate": "2026-02-10T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 36,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Tottenham Hotspur Stadium",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-10T21:06:34Z",
+      "lastUpdated": "2026-02-10T21:27:04Z",
       "homeTeam": {
         "id": 73,
         "name": "Tottenham Hotspur FC",
@@ -115938,20 +115981,52 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": 5,
+          "type": "REGULAR",
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "scorer": {
+            "id": 142732,
+            "name": "Malick Thiaw"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 41,
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "player": {
+            "id": 170391,
+            "name": "Pape Sarr"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -116003,15 +116078,15 @@
       },
       "id": 538044,
       "utcDate": "2026-02-10T20:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 11,
       "injuryTime": null,
       "attendance": null,
       "venue": "London Stadium",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-10T20:12:59Z",
+      "lastUpdated": "2026-02-10T21:27:01Z",
       "homeTeam": {
         "id": 563,
         "name": "West Ham United FC",
@@ -116289,11 +116364,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
