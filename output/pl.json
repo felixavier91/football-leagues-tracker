@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 251
+    "played": 254
   },
   "competition": {
     "id": 2021,
@@ -114879,15 +114879,15 @@
       },
       "id": 538039,
       "utcDate": "2026-02-10T19:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 37,
+      "injuryTime": 8,
       "attendance": null,
       "venue": "Stamford Bridge",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-10T22:58:19Z",
+      "lastUpdated": "2026-02-10T22:59:20Z",
       "homeTeam": {
         "id": 61,
         "name": "Chelsea FC",
@@ -115362,6 +115362,18 @@
           "player": {
             "id": 4955,
             "name": "Sean Longstaff"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "player": {
+            "id": 121103,
+            "name": "Moisés Caicedo"
           },
           "card": "YELLOW"
         }
@@ -115914,15 +115926,15 @@
       },
       "id": 538043,
       "utcDate": "2026-02-10T19:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 34,
-      "attendance": null,
+      "injuryTime": 7,
+      "attendance": 59773,
       "venue": "Tottenham Hotspur Stadium",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-10T22:58:19Z",
+      "lastUpdated": "2026-02-10T23:03:20Z",
       "homeTeam": {
         "id": 73,
         "name": "Tottenham Hotspur FC",
@@ -116322,6 +116334,18 @@
             "name": "Xavi Simons"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 89,
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "player": {
+            "id": 1684,
+            "name": "Bruno Guimarães"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -116375,15 +116399,15 @@
       },
       "id": 538044,
       "utcDate": "2026-02-10T20:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 88,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 8,
       "attendance": null,
       "venue": "London Stadium",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-10T22:58:19Z",
+      "lastUpdated": "2026-02-10T23:10:41Z",
       "homeTeam": {
         "id": 563,
         "name": "West Ham United FC",
@@ -116661,11 +116685,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -116692,6 +116716,27 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 6,
+          "type": "REGULAR",
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "scorer": {
+            "id": 124244,
+            "name": "Benjamin Šeško"
+          },
+          "assist": {
+            "id": 8626,
+            "name": "Bryan Mbeumo"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
           }
         }
       ],
