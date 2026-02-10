@@ -114880,14 +114880,14 @@
       "id": 538039,
       "utcDate": "2026-02-10T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 81,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 14,
       "attendance": null,
       "venue": "Stamford Bridge",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-10T22:10:42Z",
+      "lastUpdated": "2026-02-10T22:35:04Z",
       "homeTeam": {
         "id": 61,
         "name": "Chelsea FC",
@@ -115352,6 +115352,18 @@
             "name": "Cole Palmer"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 341,
+            "name": "Leeds United FC"
+          },
+          "player": {
+            "id": 4955,
+            "name": "Sean Longstaff"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -115406,14 +115418,14 @@
       "id": 538040,
       "utcDate": "2026-02-10T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 81,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 14,
       "attendance": null,
       "venue": "Everton Stadium",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-10T22:10:42Z",
+      "lastUpdated": "2026-02-10T22:35:04Z",
       "homeTeam": {
         "id": 62,
         "name": "Everton FC",
@@ -115813,6 +115825,30 @@
             "name": "Jake O'Brien"
           },
           "card": "RED"
+        },
+        {
+          "minute": 81,
+          "team": {
+            "id": 1044,
+            "name": "AFC Bournemouth"
+          },
+          "player": {
+            "id": 4321,
+            "name": "David Brooks"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 89,
+          "team": {
+            "id": 1044,
+            "name": "AFC Bournemouth"
+          },
+          "player": {
+            "id": 79707,
+            "name": "Iraola"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -115867,14 +115903,14 @@
       "id": 538043,
       "utcDate": "2026-02-10T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 78,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 11,
       "attendance": null,
       "venue": "Tottenham Hotspur Stadium",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-10T22:10:43Z",
+      "lastUpdated": "2026-02-10T22:35:04Z",
       "homeTeam": {
         "id": 73,
         "name": "Tottenham Hotspur FC",
@@ -116328,14 +116364,14 @@
       "id": 538044,
       "utcDate": "2026-02-10T20:15:00Z",
       "status": "IN_PLAY",
-      "minute": 45,
-      "injuryTime": 10,
+      "minute": 64,
+      "injuryTime": null,
       "attendance": null,
       "venue": "London Stadium",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-10T22:10:48Z",
+      "lastUpdated": "2026-02-10T22:35:00Z",
       "homeTeam": {
         "id": 563,
         "name": "West Ham United FC",
@@ -116348,7 +116384,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 18,
-        "formation": "4-4-1-1",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 97144,
@@ -116613,20 +116649,73 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 50,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 563,
+            "name": "West Ham United FC"
+          },
+          "scorer": {
+            "id": 15742,
+            "name": "Tomáš Souček"
+          },
+          "assist": {
+            "id": 11414,
+            "name": "Jarrod Bowen"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 63,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "scorer": {
+            "id": 3231,
+            "name": "Casemiro"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 57,
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "player": {
+            "id": 15905,
+            "name": "Diogo Dalot"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
