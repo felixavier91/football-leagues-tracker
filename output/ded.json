@@ -96513,15 +96513,15 @@
       },
       "id": 537597,
       "utcDate": "2026-02-11T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 83,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 12650,
       "venue": "Stadion De Goffert",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-11T21:58:40Z",
+      "lastUpdated": "2026-02-11T22:42:54Z",
       "homeTeam": {
         "id": 1915,
         "name": "NEC",
@@ -96832,8 +96832,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 2
+          "home": 1,
+          "away": 3
         },
         "halfTime": {
           "home": 0,
@@ -96882,6 +96882,45 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 49,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 676,
+            "name": "FC Utrecht"
+          },
+          "scorer": {
+            "id": 148291,
+            "name": "Yoann Cathline"
+          },
+          "assist": {
+            "id": 125524,
+            "name": "Souffian El Karouani"
+          },
+          "score": {
+            "home": 0,
+            "away": 3
+          }
+        },
+        {
+          "minute": 59,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "scorer": {
+            "id": 97164,
+            "name": "Darko Nejašmić"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 3
+          }
         }
       ],
       "penalties": [],
@@ -96919,6 +96958,18 @@
           "player": {
             "id": 7726,
             "name": "Philippe Sandler"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 62,
+          "team": {
+            "id": 676,
+            "name": "FC Utrecht"
+          },
+          "player": {
+            "id": 31243,
+            "name": "Jesper Karlsson"
           },
           "card": "YELLOW"
         }
