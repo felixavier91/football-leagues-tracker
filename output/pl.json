@@ -116819,14 +116819,14 @@
       "id": 538036,
       "utcDate": "2026-02-11T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 3,
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "Villa Park",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-11T20:34:04Z",
+      "lastUpdated": "2026-02-11T20:58:10Z",
       "homeTeam": {
         "id": 58,
         "name": "Aston Villa FC",
@@ -117129,6 +117129,18 @@
             "name": "Carlos Baleba"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 23,
+          "team": {
+            "id": 397,
+            "name": "Brighton & Hove Albion FC"
+          },
+          "player": {
+            "id": 7547,
+            "name": "Joël Veltman"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -117183,14 +117195,14 @@
       "id": 538041,
       "utcDate": "2026-02-11T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 3,
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "Etihad Stadium",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-11T20:34:04Z",
+      "lastUpdated": "2026-02-11T20:58:10Z",
       "homeTeam": {
         "id": 65,
         "name": "Manchester City FC",
@@ -117468,10 +117480,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -117479,7 +117491,26 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 24,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "scorer": {
+            "id": 4417,
+            "name": "Antoine Semenyo"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -117534,14 +117565,14 @@
       "id": 538042,
       "utcDate": "2026-02-11T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 4,
+      "minute": 28,
       "injuryTime": null,
       "attendance": null,
       "venue": "City Ground, Nottingham",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-11T20:34:04Z",
+      "lastUpdated": "2026-02-11T20:58:10Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -117884,15 +117915,15 @@
       },
       "id": 538037,
       "utcDate": "2026-02-11T19:40:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Selhurst Park",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-11T19:47:45Z",
+      "lastUpdated": "2026-02-11T20:58:10Z",
       "homeTeam": {
         "id": 354,
         "name": "Crystal Palace FC",
@@ -118170,18 +118201,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 17,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "scorer": {
+            "id": 213269,
+            "name": "Jørgen Strand Larsen"
+          },
+          "assist": {
+            "id": 180389,
+            "name": "Adam Wharton"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
