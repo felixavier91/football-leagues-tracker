@@ -116819,14 +116819,14 @@
       "id": 538036,
       "utcDate": "2026-02-11T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 27,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Villa Park",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-11T20:58:10Z",
+      "lastUpdated": "2026-02-11T21:18:38Z",
       "homeTeam": {
         "id": 58,
         "name": "Aston Villa FC",
@@ -117141,6 +117141,30 @@
             "name": "Joël Veltman"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 41,
+          "team": {
+            "id": 397,
+            "name": "Brighton & Hove Albion FC"
+          },
+          "player": {
+            "id": 98566,
+            "name": "Jan Paul van Hecke"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 41,
+          "team": {
+            "id": 58,
+            "name": "Aston Villa FC"
+          },
+          "player": {
+            "id": 3141,
+            "name": "Emiliano Martínez"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -117194,15 +117218,15 @@
       },
       "id": 538041,
       "utcDate": "2026-02-11T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 27,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Etihad Stadium",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-11T20:58:10Z",
+      "lastUpdated": "2026-02-11T21:18:38Z",
       "homeTeam": {
         "id": 65,
         "name": "Manchester City FC",
@@ -117483,12 +117507,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         }
       },
       "goals": [
@@ -117509,10 +117533,77 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "scorer": {
+            "id": 206743,
+            "name": "Nico O'Reilly"
+          },
+          "assist": {
+            "id": 4417,
+            "name": "Antoine Semenyo"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 39,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "scorer": {
+            "id": 38101,
+            "name": "Erling Haaland"
+          },
+          "assist": {
+            "id": 7888,
+            "name": "Phil Foden"
+          },
+          "score": {
+            "home": 3,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 31,
+          "team": {
+            "id": 63,
+            "name": "Fulham FC"
+          },
+          "player": {
+            "id": 2253,
+            "name": "Joachim Andersen"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 41,
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "player": {
+            "id": 3254,
+            "name": "Bernardo Silva"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -117564,15 +117655,15 @@
       },
       "id": 538042,
       "utcDate": "2026-02-11T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 28,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "City Ground, Nottingham",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-11T20:58:10Z",
+      "lastUpdated": "2026-02-11T21:18:39Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -117857,8 +117948,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -117916,14 +118007,14 @@
       "id": 538037,
       "utcDate": "2026-02-11T19:40:00Z",
       "status": "IN_PLAY",
-      "minute": 18,
+      "minute": 38,
       "injuryTime": null,
       "attendance": null,
       "venue": "Selhurst Park",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-11T20:58:10Z",
+      "lastUpdated": "2026-02-11T21:18:39Z",
       "homeTeam": {
         "id": 354,
         "name": "Crystal Palace FC",
@@ -118204,7 +118295,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -118233,10 +118324,56 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 33,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "scorer": {
+            "id": 213269,
+            "name": "Jørgen Strand Larsen"
+          },
+          "assist": {
+            "id": 3737,
+            "name": "Jefferson Lerma"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 35,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 99856,
+            "name": "Chris Richards"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 36,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 3737,
+            "name": "Jefferson Lerma"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -118288,15 +118425,15 @@
       },
       "id": 538035,
       "utcDate": "2026-02-11T20:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 2,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadium of Light",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-11T20:11:21Z",
+      "lastUpdated": "2026-02-11T21:18:31Z",
       "homeTeam": {
         "id": 71,
         "name": "Sunderland AFC",
@@ -118574,11 +118711,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,

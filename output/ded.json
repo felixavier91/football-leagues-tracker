@@ -96513,15 +96513,15 @@
       },
       "id": 537597,
       "utcDate": "2026-02-11T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadion De Goffert",
       "matchday": 18,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-11T19:47:47Z",
+      "lastUpdated": "2026-02-11T21:19:41Z",
       "homeTeam": {
         "id": 1915,
         "name": "NEC",
@@ -96829,18 +96829,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 5,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 676,
+            "name": "FC Utrecht"
+          },
+          "scorer": {
+            "id": 191058,
+            "name": "Angel Alarcon"
+          },
+          "assist": {
+            "id": 215554,
+            "name": "Gjivai Zechiël"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
