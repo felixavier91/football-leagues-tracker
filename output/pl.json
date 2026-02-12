@@ -118978,15 +118978,15 @@
       },
       "id": 538038,
       "utcDate": "2026-02-12T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 34,
       "injuryTime": null,
       "attendance": null,
       "venue": "Brentford Community Stadium",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-12T19:57:54Z",
+      "lastUpdated": "2026-02-12T21:33:56Z",
       "homeTeam": {
         "id": 402,
         "name": "Brentford FC",
@@ -119137,7 +119137,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 1,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 4832,
@@ -119264,11 +119264,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -119277,7 +119277,56 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 4,
+          "team": {
+            "id": 402,
+            "name": "Brentford FC"
+          },
+          "player": {
+            "id": 10000,
+            "name": "Vitaly Janelt"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 18,
+          "team": {
+            "id": 402,
+            "name": "Brentford FC"
+          },
+          "player": {
+            "id": 193328,
+            "name": "Keith Andrews"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 20,
+          "team": {
+            "id": 57,
+            "name": "Arsenal FC"
+          },
+          "player": {
+            "id": 23128,
+            "name": "Gabriel"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 30,
+          "team": {
+            "id": 57,
+            "name": "Arsenal FC"
+          },
+          "player": {
+            "id": 8279,
+            "name": "Viktor Gyökeres"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
