@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 188
+    "played": 189
   },
   "competition": {
     "id": 2002,
@@ -88424,15 +88424,15 @@
       },
       "id": 540597,
       "utcDate": "2026-02-13T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 66,
-      "injuryTime": null,
-      "attendance": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 3,
+      "attendance": 81365,
       "venue": "Signal Iduna Park",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-13T21:56:24Z",
+      "lastUpdated": "2026-02-13T22:24:34Z",
       "homeTeam": {
         "id": 4,
         "name": "Borussia Dortmund",
@@ -88713,7 +88713,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 0
         },
         "halfTime": {
@@ -88784,6 +88784,27 @@
             "home": 3,
             "away": 0
           }
+        },
+        {
+          "minute": 84,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "scorer": {
+            "id": 8805,
+            "name": "Ramy Bensebaini"
+          },
+          "assist": {
+            "id": 44030,
+            "name": "Julian Ryerson"
+          },
+          "score": {
+            "home": 4,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
@@ -88821,6 +88842,30 @@
           "player": {
             "id": 395,
             "name": "Stefan Posch"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 86,
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "player": {
+            "id": 167570,
+            "name": "Carney Chukwuemeka"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "player": {
+            "id": 125151,
+            "name": "Fábio Silva"
           },
           "card": "YELLOW"
         }

@@ -118417,14 +118417,14 @@
       "id": 537061,
       "utcDate": "2026-02-13T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 52,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Stadio Romeo Anconetani",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-13T21:56:29Z",
+      "lastUpdated": "2026-02-13T22:36:59Z",
       "homeTeam": {
         "id": 487,
         "name": "AC Pisa 1909",
@@ -118741,8 +118741,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 1
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -118770,9 +118770,60 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 71,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 487,
+            "name": "AC Pisa 1909"
+          },
+          "scorer": {
+            "id": 191977,
+            "name": "Felipe Loyola"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 85,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "scorer": {
+            "id": 43,
+            "name": "Luka Modrić"
+          },
+          "assist": {
+            "id": 115245,
+            "name": "Samuele Ricci"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 304,
+            "name": "Niclas Füllkrug"
+          },
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "scored": false
+        }
+      ],
       "bookings": [
         {
           "minute": 16,
@@ -118785,6 +118836,42 @@
             "name": "Idrissa Touré"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 88,
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "player": {
+            "id": 215616,
+            "name": "Davide Bartesaghi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "player": {
+            "id": 3368,
+            "name": "Adrien Rabiot"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "player": {
+            "id": 3368,
+            "name": "Adrien Rabiot"
+          },
+          "card": "YELLOW_RED"
         }
       ],
       "substitutions": [],
