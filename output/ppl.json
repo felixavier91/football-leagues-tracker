@@ -87534,14 +87534,14 @@
       "id": 545895,
       "utcDate": "2026-02-13T18:30:00Z",
       "status": "IN_PLAY",
-      "minute": 42,
+      "minute": 47,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio de São Miguel",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-13T20:12:56Z",
+      "lastUpdated": "2026-02-13T20:35:49Z",
       "homeTeam": {
         "id": 5530,
         "name": "CD Santa Clara",
@@ -87826,8 +87826,8 @@
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "goals": [
@@ -87872,7 +87872,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "player": {
+            "id": 118015,
+            "name": "Vinícius"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
