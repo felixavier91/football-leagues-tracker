@@ -87443,15 +87443,15 @@
       },
       "id": 542603,
       "utcDate": "2026-02-13T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 22,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Roazhon Park",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-13T19:22:34Z",
+      "lastUpdated": "2026-02-13T19:49:19Z",
       "homeTeam": {
         "id": 529,
         "name": "Stade Rennais FC 1901",
@@ -87563,6 +87563,12 @@
             "name": "Henrick Do Marcolino",
             "position": "Offence",
             "shirtNumber": 69
+          },
+          {
+            "id": 292471,
+            "name": "Junior Aké",
+            "position": null,
+            "shirtNumber": 75
           },
           {
             "id": 147893,
@@ -87729,18 +87735,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 34,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "scorer": {
+            "id": 98763,
+            "name": "Musa Al Taamari"
+          },
+          "assist": {
+            "id": 227004,
+            "name": "Mahamadou Nagida"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
