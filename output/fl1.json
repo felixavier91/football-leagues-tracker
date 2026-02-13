@@ -87443,15 +87443,15 @@
       },
       "id": 542603,
       "utcDate": "2026-02-13T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 22,
       "injuryTime": null,
       "attendance": null,
       "venue": "Roazhon Park",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-13T18:19:40Z",
+      "lastUpdated": "2026-02-13T19:22:34Z",
       "homeTeam": {
         "id": 529,
         "name": "Stade Rennais FC 1901",
@@ -87557,6 +87557,12 @@
             "name": "Nordan Mukiele",
             "position": "Offence",
             "shirtNumber": 65
+          },
+          {
+            "id": 274257,
+            "name": "Henrick Do Marcolino",
+            "position": "Offence",
+            "shirtNumber": 69
           },
           {
             "id": 147893,
@@ -87723,11 +87729,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -87848,7 +87854,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57092,
+          "name": "Eric Wattellier",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 101644,
+          "name": "Valentin Evrard",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 57056,
+          "name": "Christophe Mouysset",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
