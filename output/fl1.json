@@ -87882,15 +87882,15 @@
       },
       "id": 542596,
       "utcDate": "2026-02-13T20:05:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 29,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Louis II",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-13T20:15:11Z",
+      "lastUpdated": "2026-02-13T21:34:50Z",
       "homeTeam": {
         "id": 548,
         "name": "AS Monaco FC",
@@ -88168,18 +88168,76 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 25,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "scorer": {
+            "id": 166249,
+            "name": "Simon Adingra"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 28,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "scorer": {
+            "id": 166249,
+            "name": "Simon Adingra"
+          },
+          "assist": {
+            "id": 3683,
+            "name": "Aleksandr Golovin"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "scorer": {
+            "id": 6687,
+            "name": "Denis Zakaria"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

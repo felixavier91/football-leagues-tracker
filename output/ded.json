@@ -97037,15 +97037,15 @@
       },
       "id": 537642,
       "utcDate": "2026-02-13T19:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 78,
       "injuryTime": null,
       "attendance": null,
       "venue": "Kras Stadion",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-13T20:56:14Z",
+      "lastUpdated": "2026-02-13T21:35:08Z",
       "homeTeam": {
         "id": 1919,
         "name": "FC Volendam",
@@ -97317,10 +97317,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -97328,9 +97328,41 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 67,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1919,
+            "name": "FC Volendam"
+          },
+          "scorer": {
+            "id": 282705,
+            "name": "Robin van Cruijsen"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 62,
+          "team": {
+            "id": 1919,
+            "name": "FC Volendam"
+          },
+          "player": {
+            "id": 221767,
+            "name": "Nick Verschuren"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

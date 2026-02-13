@@ -118416,15 +118416,15 @@
       },
       "id": 537061,
       "utcDate": "2026-02-13T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 10,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Romeo Anconetani",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-13T20:55:48Z",
+      "lastUpdated": "2026-02-13T21:34:38Z",
       "homeTeam": {
         "id": 487,
         "name": "AC Pisa 1909",
@@ -118560,6 +118560,12 @@
             "name": "Lorran",
             "position": "Offence",
             "shirtNumber": 99
+          },
+          {
+            "id": 292472,
+            "name": "Matteo Luppichini",
+            "position": null,
+            "shirtNumber": 31
           },
           {
             "id": 213819,
@@ -118732,20 +118738,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 39,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "scorer": {
+            "id": 8159,
+            "name": "Ruben Loftus-Cheek"
+          },
+          "assist": {
+            "id": 256424,
+            "name": "Zachary Athekame"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 16,
+          "team": {
+            "id": 487,
+            "name": "AC Pisa 1909"
+          },
+          "player": {
+            "id": 56853,
+            "name": "Idrissa Touré"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
