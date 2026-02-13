@@ -88042,15 +88042,15 @@
       },
       "id": 545890,
       "utcDate": "2026-02-13T20:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 11,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio João Cardoso",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-13T20:53:37Z",
+      "lastUpdated": "2026-02-13T21:56:49Z",
       "homeTeam": {
         "id": 1049,
         "name": "CD Tondela",
@@ -88328,18 +88328,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 4,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7822,
+            "name": "FC Alverca"
+          },
+          "scorer": {
+            "id": 172231,
+            "name": "Marko Milovanovic"
+          },
+          "assist": {
+            "id": 203421,
+            "name": "Nabil"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

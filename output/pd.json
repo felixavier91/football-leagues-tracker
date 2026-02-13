@@ -111393,15 +111393,15 @@
       },
       "id": 544441,
       "utcDate": "2026-02-13T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 32,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Martinez Valero",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-13T21:34:20Z",
+      "lastUpdated": "2026-02-13T21:56:16Z",
       "homeTeam": {
         "id": 285,
         "name": "Elche CF",
@@ -111710,13 +111710,38 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 37,
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "player": {
+            "id": 2237,
+            "name": "Ante Budimir"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 37,
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "player": {
+            "id": 159647,
+            "name": "Marc Aguado"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

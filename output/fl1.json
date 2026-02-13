@@ -87882,15 +87882,15 @@
       },
       "id": 542596,
       "utcDate": "2026-02-13T20:05:00Z",
-      "status": "IN_PLAY",
-      "minute": 29,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Louis II",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-13T21:34:50Z",
+      "lastUpdated": "2026-02-13T21:56:40Z",
       "homeTeam": {
         "id": 548,
         "name": "AS Monaco FC",
@@ -88171,12 +88171,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
-          "away": 0
+          "home": 3,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         }
       },
       "goals": [
@@ -88231,15 +88231,64 @@
             "id": 6687,
             "name": "Denis Zakaria"
           },
-          "assist": null,
+          "assist": {
+            "id": 3683,
+            "name": "Aleksandr Golovin"
+          },
           "score": {
             "home": 3,
             "away": 0
           }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 543,
+            "name": "FC Nantes"
+          },
+          "scorer": {
+            "id": 724,
+            "name": "Fabien Centonze"
+          },
+          "assist": {
+            "id": 8913,
+            "name": "Deiver Machado"
+          },
+          "score": {
+            "home": 3,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "player": {
+            "id": 204269,
+            "name": "Lamine Camara"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "player": {
+            "id": 244898,
+            "name": "Mamadou Coulibaly"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
