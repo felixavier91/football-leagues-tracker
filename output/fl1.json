@@ -88916,14 +88916,14 @@
       "id": 542602,
       "utcDate": "2026-02-14T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 55,
+      "minute": 76,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Pierre-Mauroy",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T20:11:14Z",
+      "lastUpdated": "2026-02-14T20:32:19Z",
       "homeTeam": {
         "id": 521,
         "name": "Lille OSC",
@@ -89198,15 +89198,58 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 58,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "scorer": {
+            "id": 204240,
+            "name": "Rémy Labeau Lascary"
+          },
+          "assist": {
+            "id": 723,
+            "name": "Ludovic Ajorque"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 71,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "scorer": {
+            "id": 914,
+            "name": "Gaëtan Perrin"
+          },
+          "assist": {
+            "id": 127657,
+            "name": "Félix Correia"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -89218,6 +89261,18 @@
           "player": {
             "id": 190990,
             "name": "Eric Roy"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 64,
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "player": {
+            "id": 723,
+            "name": "Ludovic Ajorque"
           },
           "card": "YELLOW"
         }

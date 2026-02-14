@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 194
+    "played": 195
   },
   "competition": {
     "id": 2002,
@@ -91283,15 +91283,15 @@
       },
       "id": 540603,
       "utcDate": "2026-02-14T17:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 82,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "MHPArena",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T20:10:49Z",
+      "lastUpdated": "2026-02-14T20:25:19Z",
       "homeTeam": {
         "id": 10,
         "name": "VfB Stuttgart",
@@ -91569,10 +91569,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 3,
           "away": 1
         },
         "halfTime": {
@@ -91620,6 +91620,48 @@
           },
           "score": {
             "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 84,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "scorer": {
+            "id": 33242,
+            "name": "Ermedin Demirovic"
+          },
+          "assist": {
+            "id": 157263,
+            "name": "Ramon Hendriks"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "scorer": {
+            "id": 6928,
+            "name": "Deniz Undav"
+          },
+          "assist": {
+            "id": 128565,
+            "name": "Angelo Stiller"
+          },
+          "score": {
+            "home": 3,
             "away": 1
           }
         }
@@ -91671,6 +91713,18 @@
           "player": {
             "id": 189873,
             "name": "Bilal El Khannouss"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "player": {
+            "id": 127401,
+            "name": "Jakub Kamiński"
           },
           "card": "YELLOW"
         }

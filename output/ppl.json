@@ -89093,15 +89093,15 @@
       },
       "id": 545889,
       "utcDate": "2026-02-14T18:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 66,
       "injuryTime": null,
       "attendance": null,
       "venue": "Éstadio Dom Afonso Henriques",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T20:11:22Z",
+      "lastUpdated": "2026-02-14T20:32:24Z",
       "homeTeam": {
         "id": 5543,
         "name": "Vitória SC",
@@ -89379,10 +89379,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -89411,6 +89411,24 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 64,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5543,
+            "name": "Vitória SC"
+          },
+          "scorer": {
+            "id": 274548,
+            "name": "Thiago Balieiro"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -89436,6 +89454,18 @@
           "player": {
             "id": 277674,
             "name": "Otávio"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 56,
+          "team": {
+            "id": 5543,
+            "name": "Vitória SC"
+          },
+          "player": {
+            "id": 262857,
+            "name": "Luís Pinto"
           },
           "card": "YELLOW"
         }
