@@ -97469,14 +97469,14 @@
       "id": 537644,
       "utcDate": "2026-02-14T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 78,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 2,
       "attendance": 11789,
       "venue": "Erve Asito",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T18:11:09Z",
+      "lastUpdated": "2026-02-14T18:26:58Z",
       "homeTeam": {
         "id": 671,
         "name": "Heracles Almelo",
@@ -97772,19 +97772,50 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 80,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 681,
+            "name": "NAC Breda"
+          },
+          "scorer": {
+            "id": 7291,
+            "name": "Clint Leemans"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 7291,
+            "name": "Clint Leemans"
+          },
+          "team": {
+            "id": 681,
+            "name": "NAC Breda"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 56,
