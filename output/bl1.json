@@ -88921,15 +88921,15 @@
       },
       "id": 540595,
       "utcDate": "2026-02-14T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 19,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Wohninvest Weserstadion",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T15:50:34Z",
+      "lastUpdated": "2026-02-14T16:24:33Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -89207,20 +89207,97 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 8004,
+            "name": "Harry Kane"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 25,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 8004,
+            "name": "Harry Kane"
+          },
+          "assist": {
+            "id": 22396,
+            "name": "Luis Díaz"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 8004,
+            "name": "Harry Kane"
+          },
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 28,
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen"
+          },
+          "player": {
+            "id": 9765,
+            "name": "Senne Lynen"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 37,
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen"
+          },
+          "player": {
+            "id": 6557,
+            "name": "Niklas Stark"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -89272,15 +89349,15 @@
       },
       "id": 540596,
       "utcDate": "2026-02-14T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 21,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "PreZero Arena",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T15:50:34Z",
+      "lastUpdated": "2026-02-14T16:24:33Z",
       "homeTeam": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
@@ -89565,8 +89642,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -89581,6 +89658,18 @@
           "player": {
             "id": 249312,
             "name": "Bazoumana Touré"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 24,
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "player": {
+            "id": 6836,
+            "name": "Grischa Prömel"
           },
           "card": "YELLOW"
         }
@@ -89636,15 +89725,15 @@
       },
       "id": 540598,
       "utcDate": "2026-02-14T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 21,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Deutsche Bank Park",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T15:50:34Z",
+      "lastUpdated": "2026-02-14T16:24:33Z",
       "homeTeam": {
         "id": 19,
         "name": "Eintracht Frankfurt",
@@ -89922,18 +90011,61 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 24,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "scorer": {
+            "id": 184533,
+            "name": "Nathaniel Brown"
+          },
+          "assist": {
+            "id": 185882,
+            "name": "Jean Bahoya"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 34,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "scorer": {
+            "id": 261438,
+            "name": "Ayoube Amaimouni-Echghouyab"
+          },
+          "assist": {
+            "id": 185882,
+            "name": "Jean Bahoya"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -89987,15 +90119,15 @@
       },
       "id": 540600,
       "utcDate": "2026-02-14T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 19,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volksparkstadion",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T15:50:35Z",
+      "lastUpdated": "2026-02-14T16:24:33Z",
       "homeTeam": {
         "id": 7,
         "name": "Hamburger SV",
@@ -90273,19 +90405,92 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 28,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "scorer": {
+            "id": 152811,
+            "name": "Leopold Querfeld"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 35,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "scorer": {
+            "id": 137302,
+            "name": "Ransford Königsdörffer"
+          },
+          "assist": {
+            "id": 7034,
+            "name": "Robert Glatzel"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "scorer": {
+            "id": 102974,
+            "name": "Nicolás Capaldo"
+          },
+          "assist": {
+            "id": 6539,
+            "name": "Bakery Jatta"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 152811,
+            "name": "Leopold Querfeld"
+          },
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {
@@ -90338,15 +90543,15 @@
       },
       "id": 540601,
       "utcDate": "2026-02-14T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 21,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T15:50:35Z",
+      "lastUpdated": "2026-02-14T16:24:34Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -90631,8 +90836,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "goals": [

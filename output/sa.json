@@ -118936,15 +118936,15 @@
       },
       "id": 537056,
       "utcDate": "2026-02-14T14:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 68,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Giuseppe Sinigaglia",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T15:50:53Z",
+      "lastUpdated": "2026-02-14T16:24:53Z",
       "homeTeam": {
         "id": 7397,
         "name": "Como 1907",
@@ -119262,7 +119262,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -119287,10 +119287,53 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 54,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "scorer": {
+            "id": 2171,
+            "name": "Moise Kean"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 2171,
+            "name": "Moise Kean"
+          },
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 49,
+          "team": {
+            "id": 7397,
+            "name": "Como 1907"
+          },
+          "player": {
+            "id": 9471,
+            "name": "Marc-Oliver Kempf"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -119402,7 +119445,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 206189,
+          "name": "Juan Luca Sacchi",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 128730,
+          "name": "Giuseppe Perrotti",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 217609,
+          "name": "Paolo Laudato",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {

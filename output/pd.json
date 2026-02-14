@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 229
+    "played": 230
   },
   "competition": {
     "id": 2014,
@@ -111841,15 +111841,15 @@
       },
       "id": 544450,
       "utcDate": "2026-02-14T13:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 9,
       "attendance": 27368,
       "venue": "Stage Front Stadium",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T15:50:30Z",
+      "lastUpdated": "2026-02-14T16:02:02Z",
       "homeTeam": {
         "id": 80,
         "name": "RCD Espanyol de Barcelona",
@@ -112157,11 +112157,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -112228,10 +112228,44 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "scorer": {
+            "id": 32056,
+            "name": "Borja Iglesias"
+          },
+          "assist": {
+            "id": 188859,
+            "name": "Pablo Duran"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 90,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 11040,
+            "name": "Leandro Cabrera"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -112283,15 +112317,15 @@
       },
       "id": 544442,
       "utcDate": "2026-02-14T15:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 7,
       "injuryTime": null,
       "attendance": null,
       "venue": "Coliseum Alfonso Perez",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T15:24:32Z",
+      "lastUpdated": "2026-02-14T16:24:29Z",
       "homeTeam": {
         "id": 82,
         "name": "Getafe CF",
@@ -112581,11 +112615,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
