@@ -119976,14 +119976,14 @@
       "id": 537058,
       "utcDate": "2026-02-14T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 22,
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T21:10:44Z",
+      "lastUpdated": "2026-02-14T21:32:49Z",
       "homeTeam": {
         "id": 108,
         "name": "FC Internazionale Milano",
@@ -120297,11 +120297,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
@@ -120326,6 +120326,27 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 26,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "scorer": {
+            "id": 124865,
+            "name": "Andrea Cambiaso"
+          },
+          "assist": {
+            "id": 6507,
+            "name": "Weston McKennie"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -120341,6 +120362,30 @@
             "name": "Alessandro Bastoni"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 32,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "player": {
+            "id": 141295,
+            "name": "Pierre Kalulu"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 42,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "player": {
+            "id": 141295,
+            "name": "Pierre Kalulu"
+          },
+          "card": "YELLOW_RED"
         }
       ],
       "substitutions": [],

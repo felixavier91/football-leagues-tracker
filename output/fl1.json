@@ -89329,14 +89329,14 @@
       "id": 542599,
       "utcDate": "2026-02-14T20:05:00Z",
       "status": "IN_PLAY",
-      "minute": 6,
+      "minute": 28,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Jean Bouin",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T21:10:54Z",
+      "lastUpdated": "2026-02-14T21:32:55Z",
       "homeTeam": {
         "id": 1045,
         "name": "Paris FC",
@@ -89614,18 +89614,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 24,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 546,
+            "name": "Racing Club de Lens"
+          },
+          "scorer": {
+            "id": 8575,
+            "name": "Wesley Saïd"
+          },
+          "assist": {
+            "id": 16077,
+            "name": "Odsonne Edouard"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
