@@ -89328,15 +89328,15 @@
       },
       "id": 542599,
       "utcDate": "2026-02-14T20:05:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 66,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Jean Bouin",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T22:01:10Z",
+      "lastUpdated": "2026-02-14T22:32:44Z",
       "homeTeam": {
         "id": 1045,
         "name": "Paris FC",
@@ -89349,7 +89349,7 @@
           "nationality": "France"
         },
         "leagueRank": 15,
-        "formation": "5-4-1",
+        "formation": "3-4-2-1",
         "lineup": [
           {
             "id": 3175,
@@ -89618,7 +89618,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": 0,
@@ -89667,9 +89667,39 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 58,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 546,
+            "name": "Racing Club de Lens"
+          },
+          "scorer": {
+            "id": 3370,
+            "name": "Florian Thauvin"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 3
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 3370,
+            "name": "Florian Thauvin"
+          },
+          "team": {
+            "id": 546,
+            "name": "Racing Club de Lens"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 45,

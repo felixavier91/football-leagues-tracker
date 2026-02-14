@@ -113299,15 +113299,15 @@
       },
       "id": 544444,
       "utcDate": "2026-02-14T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 70,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 74176,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T22:00:39Z",
+      "lastUpdated": "2026-02-14T22:32:14Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -113476,7 +113476,7 @@
           "nationality": "USA"
         },
         "leagueRank": 8,
-        "formation": "4-4-1-1",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 32413,
@@ -113624,7 +113624,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 1
         },
         "halfTime": {
@@ -113710,6 +113710,24 @@
             "home": 3,
             "away": 1
           }
+        },
+        {
+          "minute": 48,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 1556,
+            "name": "Vinicius Junior"
+          },
+          "assist": null,
+          "score": {
+            "home": 4,
+            "away": 1
+          }
         }
       ],
       "penalties": [
@@ -113721,6 +113739,17 @@
           "team": {
             "id": 92,
             "name": "Real Sociedad de Fútbol"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 1556,
+            "name": "Vinicius Junior"
+          },
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
           },
           "scored": true
         },
