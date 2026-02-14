@@ -88546,14 +88546,14 @@
       "id": 545891,
       "utcDate": "2026-02-14T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 26,
+      "minute": 41,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Municipal de Rio Maior",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T16:57:33Z",
+      "lastUpdated": "2026-02-14T17:12:57Z",
       "homeTeam": {
         "id": 6618,
         "name": "Casa Pia AC",
@@ -88831,11 +88831,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": null,
@@ -88905,6 +88905,24 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 37,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 6618,
+            "name": "Casa Pia AC"
+          },
+          "scorer": {
+            "id": 37728,
+            "name": "Abdu Conté"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -88930,6 +88948,18 @@
           "player": {
             "id": 138218,
             "name": "David Sousa"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 37,
+          "team": {
+            "id": 6618,
+            "name": "Casa Pia AC"
+          },
+          "player": {
+            "id": 126877,
+            "name": "Larra"
           },
           "card": "YELLOW"
         }
@@ -89045,7 +89075,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 40454,
+          "name": "Carlos Macedo",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 128776,
+          "name": "Luís Costa",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 242474,
+          "name": "João Morte",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {

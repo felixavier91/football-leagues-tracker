@@ -112317,15 +112317,15 @@
       },
       "id": 544442,
       "utcDate": "2026-02-14T15:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Coliseum Alfonso Perez",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T16:57:11Z",
+      "lastUpdated": "2026-02-14T17:12:16Z",
       "homeTeam": {
         "id": 82,
         "name": "Getafe CF",
@@ -112615,19 +112615,50 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 41,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "scorer": {
+            "id": 32758,
+            "name": "Mauro Arambarri"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 32758,
+            "name": "Mauro Arambarri"
+          },
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 35,
@@ -112638,6 +112669,18 @@
           "player": {
             "id": 191367,
             "name": "Zaid Romero"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 38,
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "player": {
+            "id": 277,
+            "name": "Diego Rico"
           },
           "card": "YELLOW"
         },
