@@ -89093,15 +89093,15 @@
       },
       "id": 545889,
       "utcDate": "2026-02-14T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 12,
       "injuryTime": null,
       "attendance": null,
       "venue": "Éstadio Dom Afonso Henriques",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T18:18:41Z",
+      "lastUpdated": "2026-02-14T19:14:55Z",
       "homeTeam": {
         "id": 5543,
         "name": "Vitória SC",
@@ -89379,18 +89379,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 10,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "scorer": {
+            "id": 154435,
+            "name": "Paulo Moreira"
+          },
+          "assist": {
+            "id": 151113,
+            "name": "Abraham Marcus"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

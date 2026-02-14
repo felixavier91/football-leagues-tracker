@@ -112812,14 +112812,14 @@
       "id": 544445,
       "utcDate": "2026-02-14T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 25,
+      "minute": 42,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio R. Sanchez Pizjuan",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T18:56:37Z",
+      "lastUpdated": "2026-02-14T19:14:22Z",
       "homeTeam": {
         "id": 559,
         "name": "Sevilla FC",
@@ -113109,10 +113109,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -113120,7 +113120,26 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC"
+          },
+          "scorer": {
+            "id": 16275,
+            "name": "Djibril Sow"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -113259,7 +113278,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 214213,
+          "name": "Francisco Hernández Maeso",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {

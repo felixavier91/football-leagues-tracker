@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 191
+    "played": 192
   },
   "competition": {
     "id": 2015,
@@ -88400,15 +88400,15 @@
       },
       "id": 542601,
       "utcDate": "2026-02-14T16:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 7,
+      "injuryTime": 10,
       "attendance": null,
       "venue": "Orange Vélodrome",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T18:57:03Z",
+      "lastUpdated": "2026-02-14T19:01:49Z",
       "homeTeam": {
         "id": 516,
         "name": "Olympique de Marseille",
@@ -88838,6 +88838,30 @@
             "name": "Joaquín Panichelli"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "player": {
+            "id": 170261,
+            "name": "Valentin Barco"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "player": {
+            "id": 8492,
+            "name": "Tim Weah"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -88891,15 +88915,15 @@
       },
       "id": 542602,
       "utcDate": "2026-02-14T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 13,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Pierre-Mauroy",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T18:12:13Z",
+      "lastUpdated": "2026-02-14T19:14:50Z",
       "homeTeam": {
         "id": 521,
         "name": "Lille OSC",
@@ -89171,11 +89195,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -89184,7 +89208,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 12,
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "player": {
+            "id": 190990,
+            "name": "Eric Roy"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -89296,7 +89333,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57088,
+          "name": "Bastien Dechepy",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 64786,
+          "name": "Julien Haulbert",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 76759,
+          "name": "Ludovic Reyes",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
