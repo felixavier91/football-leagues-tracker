@@ -88545,15 +88545,15 @@
       },
       "id": 545891,
       "utcDate": "2026-02-14T15:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 11,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Municipal de Rio Maior",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T15:34:29Z",
+      "lastUpdated": "2026-02-14T16:42:24Z",
       "homeTeam": {
         "id": 6618,
         "name": "Casa Pia AC",
@@ -88831,20 +88831,64 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 11,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "scorer": {
+            "id": 81391,
+            "name": "Barbero"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 6,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 80899,
+            "name": "Javi Sánchez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 10,
+          "team": {
+            "id": 6618,
+            "name": "Casa Pia AC"
+          },
+          "player": {
+            "id": 138218,
+            "name": "David Sousa"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
