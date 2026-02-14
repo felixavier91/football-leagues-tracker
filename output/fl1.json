@@ -89329,14 +89329,14 @@
       "id": 542599,
       "utcDate": "2026-02-14T20:05:00Z",
       "status": "IN_PLAY",
-      "minute": 82,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Stade Jean Bouin",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T22:48:49Z",
+      "lastUpdated": "2026-02-14T22:58:53Z",
       "homeTeam": {
         "id": 1045,
         "name": "Paris FC",
@@ -89618,7 +89618,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 3
+          "away": 4
         },
         "halfTime": {
           "home": 0,
@@ -89685,6 +89685,27 @@
             "home": 0,
             "away": 3
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 546,
+            "name": "Racing Club de Lens"
+          },
+          "scorer": {
+            "id": 276430,
+            "name": "Rayan Fofana"
+          },
+          "assist": {
+            "id": 8446,
+            "name": "Allan Saint-Maximin"
+          },
+          "score": {
+            "home": 0,
+            "away": 4
+          }
         }
       ],
       "penalties": [
@@ -89710,6 +89731,30 @@
           "player": {
             "id": 8575,
             "name": "Wesley Saïd"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 83,
+          "team": {
+            "id": 1045,
+            "name": "Paris FC"
+          },
+          "player": {
+            "id": 8439,
+            "name": "Pierre Lees Melou"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 84,
+          "team": {
+            "id": 1045,
+            "name": "Paris FC"
+          },
+          "player": {
+            "id": 277673,
+            "name": "Rudy Matondo"
           },
           "card": "YELLOW"
         }
