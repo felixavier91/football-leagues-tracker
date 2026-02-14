@@ -119976,14 +119976,14 @@
       "id": 537058,
       "utcDate": "2026-02-14T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 9,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T20:47:16Z",
+      "lastUpdated": "2026-02-14T20:56:44Z",
       "homeTeam": {
         "id": 108,
         "name": "FC Internazionale Milano",
@@ -120310,7 +120310,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 9,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "player": {
+            "id": 1834,
+            "name": "Alessandro Bastoni"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
