@@ -97881,15 +97881,15 @@
       },
       "id": 537640,
       "utcDate": "2026-02-14T17:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 30,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Van Donge & De Roo Stadion",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T19:15:10Z",
+      "lastUpdated": "2026-02-14T19:34:11Z",
       "homeTeam": {
         "id": 670,
         "name": "SBV Excelsior",
@@ -98191,18 +98191,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 670,
+            "name": "SBV Excelsior"
+          },
+          "scorer": {
+            "id": 55224,
+            "name": "Ilias Bronkhorst"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
