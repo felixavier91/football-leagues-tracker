@@ -98354,15 +98354,15 @@
       },
       "id": 537639,
       "utcDate": "2026-02-14T19:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 51,
       "injuryTime": null,
       "attendance": null,
       "venue": "Johan Cruijff ArenA",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T20:57:15Z",
+      "lastUpdated": "2026-02-14T21:11:03Z",
       "homeTeam": {
         "id": 678,
         "name": "AFC Ajax",
@@ -98811,15 +98811,15 @@
       },
       "id": 537641,
       "utcDate": "2026-02-14T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 10,
       "injuryTime": null,
       "attendance": null,
       "venue": "Euroborg",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T19:59:10Z",
+      "lastUpdated": "2026-02-14T21:11:04Z",
       "homeTeam": {
         "id": 677,
         "name": "FC Groningen",
@@ -99121,11 +99121,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -99134,7 +99134,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 9,
+          "team": {
+            "id": 676,
+            "name": "FC Utrecht"
+          },
+          "player": {
+            "id": 215554,
+            "name": "Gjivai Zechiël"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
