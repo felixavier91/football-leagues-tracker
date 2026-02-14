@@ -88922,14 +88922,14 @@
       "id": 540595,
       "utcDate": "2026-02-14T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 1,
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Wohninvest Weserstadion",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T15:32:21Z",
+      "lastUpdated": "2026-02-14T15:50:34Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -89273,14 +89273,14 @@
       "id": 540596,
       "utcDate": "2026-02-14T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 2,
+      "minute": 21,
       "injuryTime": null,
       "attendance": null,
       "venue": "PreZero Arena",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T15:32:21Z",
+      "lastUpdated": "2026-02-14T15:50:34Z",
       "homeTeam": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
@@ -89571,7 +89571,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 9,
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "player": {
+            "id": 249312,
+            "name": "Bazoumana Touré"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -89624,14 +89637,14 @@
       "id": 540598,
       "utcDate": "2026-02-14T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 2,
+      "minute": 21,
       "injuryTime": null,
       "attendance": null,
       "venue": "Deutsche Bank Park",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T15:32:21Z",
+      "lastUpdated": "2026-02-14T15:50:34Z",
       "homeTeam": {
         "id": 19,
         "name": "Eintracht Frankfurt",
@@ -89975,14 +89988,14 @@
       "id": 540600,
       "utcDate": "2026-02-14T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 1,
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volksparkstadion",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T15:32:21Z",
+      "lastUpdated": "2026-02-14T15:50:35Z",
       "homeTeam": {
         "id": 7,
         "name": "Hamburger SV",
@@ -90326,14 +90339,14 @@
       "id": 540601,
       "utcDate": "2026-02-14T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 2,
+      "minute": 21,
       "injuryTime": null,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T15:32:21Z",
+      "lastUpdated": "2026-02-14T15:50:35Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -90611,10 +90624,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -90622,7 +90635,50 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 13,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "scorer": {
+            "id": 176718,
+            "name": "Jarell Quansah"
+          },
+          "assist": {
+            "id": 167793,
+            "name": "Ernest Poku"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 14,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "scorer": {
+            "id": 1826,
+            "name": "Patrik Schick"
+          },
+          "assist": {
+            "id": 45,
+            "name": "Lucas Vázquez"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
