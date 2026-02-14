@@ -112811,15 +112811,15 @@
       },
       "id": 544445,
       "utcDate": "2026-02-14T17:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 11,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio R. Sanchez Pizjuan",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T17:31:15Z",
+      "lastUpdated": "2026-02-14T18:42:20Z",
       "homeTeam": {
         "id": 559,
         "name": "Sevilla FC",
@@ -113109,11 +113109,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -113122,7 +113122,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 2,
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC"
+          },
+          "player": {
+            "id": 180038,
+            "name": "Juanlu"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
