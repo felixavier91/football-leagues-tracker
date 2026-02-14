@@ -88401,14 +88401,14 @@
       "id": 542601,
       "utcDate": "2026-02-14T16:00:00Z",
       "status": "IN_PLAY",
-      "minute": 12,
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Orange Vélodrome",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T17:12:31Z",
+      "lastUpdated": "2026-02-14T17:33:26Z",
       "homeTeam": {
         "id": 516,
         "name": "Olympique de Marseille",
@@ -88686,10 +88686,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -88697,9 +88697,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 14,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "scorer": {
+            "id": 101075,
+            "name": "Mason Greenwood"
+          },
+          "assist": {
+            "id": 8476,
+            "name": "Amine Gouiri"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 26,
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "player": {
+            "id": 3364,
+            "name": "Benjamin Pavard"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

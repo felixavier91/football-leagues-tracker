@@ -112317,15 +112317,15 @@
       },
       "id": 544442,
       "utcDate": "2026-02-14T15:15:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 58,
       "injuryTime": null,
       "attendance": null,
       "venue": "Coliseum Alfonso Perez",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T17:12:16Z",
+      "lastUpdated": "2026-02-14T17:33:08Z",
       "homeTeam": {
         "id": 82,
         "name": "Getafe CF",
@@ -112618,7 +112618,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -112642,6 +112642,27 @@
           "assist": null,
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 53,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "scorer": {
+            "id": 152458,
+            "name": "Martin Satriano"
+          },
+          "assist": {
+            "id": 83351,
+            "name": "Juan Iglesias"
+          },
+          "score": {
+            "home": 2,
             "away": 0
           }
         }
@@ -112693,6 +112714,18 @@
           "player": {
             "id": 178769,
             "name": "Renato Veiga"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 49,
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "player": {
+            "id": 212858,
+            "name": "Santiago Mouriño"
           },
           "card": "YELLOW"
         }
@@ -112756,7 +112789,7 @@
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T01:32:00Z",
+      "lastUpdated": "2026-02-14T17:31:15Z",
       "homeTeam": {
         "id": 559,
         "name": "Sevilla FC",
@@ -112769,9 +112802,149 @@
           "nationality": "Argentina"
         },
         "leagueRank": 14,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "3-5-2",
+        "lineup": [
+          {
+            "id": 42871,
+            "name": "Odisseas Vlachodimos",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 82132,
+            "name": "Akor Adams",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 4443,
+            "name": "Neal Maupay",
+            "position": "Centre-Forward",
+            "shirtNumber": 17
+          },
+          {
+            "id": 3191,
+            "name": "Azpilicueta",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 180038,
+            "name": "Juanlu",
+            "position": "Right-Back",
+            "shirtNumber": 16
+          },
+          {
+            "id": 98223,
+            "name": "Lucien Agoume",
+            "position": "Defensive Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 16275,
+            "name": "Djibril Sow",
+            "position": "Central Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 21385,
+            "name": "Gabriel Suazo",
+            "position": "Left-Back",
+            "shirtNumber": 12
+          },
+          {
+            "id": 127127,
+            "name": "Nianzou Kouassi",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 21410,
+            "name": "Nemanja Gudelj",
+            "position": "Defensive Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 178107,
+            "name": "Kike Salas",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          }
+        ],
+        "bench": [
+          {
+            "id": 6843,
+            "name": "Ørjan Nyland",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 213279,
+            "name": "Manuel Bueno",
+            "position": "Midfield",
+            "shirtNumber": 28
+          },
+          {
+            "id": 213257,
+            "name": "Joan Jordán",
+            "position": "Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 226950,
+            "name": "Miguel Ángel Sierra",
+            "position": "Midfield",
+            "shirtNumber": 29
+          },
+          {
+            "id": 185105,
+            "name": "Peque",
+            "position": "Offence",
+            "shirtNumber": 14
+          },
+          {
+            "id": 7911,
+            "name": "Alexis Sánchez",
+            "position": "Centre-Forward",
+            "shirtNumber": 10
+          },
+          {
+            "id": 213043,
+            "name": "Isaac",
+            "position": "Centre-Forward",
+            "shirtNumber": 7
+          },
+          {
+            "id": 34909,
+            "name": "Fábio Cardoso",
+            "position": "Centre-Back",
+            "shirtNumber": 15
+          },
+          {
+            "id": 140251,
+            "name": "Batista Mendy",
+            "position": "Defensive Midfield",
+            "shirtNumber": 19
+          },
+          {
+            "id": 80890,
+            "name": "Federico Gattoni",
+            "position": "Centre-Back",
+            "shirtNumber": 22
+          },
+          {
+            "id": 38625,
+            "name": "Chidera Ejuke",
+            "position": "Left Winger",
+            "shirtNumber": 21
+          },
+          {
+            "id": 171984,
+            "name": "Jose Angel Carmona",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          }
+        ]
       },
       "awayTeam": {
         "id": 263,
@@ -112785,9 +112958,125 @@
           "nationality": "Argentina"
         },
         "leagueRank": 15,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-4-2",
+        "lineup": [
+          {
+            "id": 283,
+            "name": "Sivera",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 273343,
+            "name": "Yusi",
+            "position": "Defence",
+            "shirtNumber": 3
+          },
+          {
+            "id": 213262,
+            "name": "Carles Aleñá",
+            "position": "Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 146350,
+            "name": "Calebe",
+            "position": "Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 11113,
+            "name": "Lucas Boyé",
+            "position": "Offence",
+            "shirtNumber": 15
+          },
+          {
+            "id": 11733,
+            "name": "Toni Martínez",
+            "position": "Centre-Forward",
+            "shirtNumber": 11
+          },
+          {
+            "id": 157626,
+            "name": "Antonio Blanco",
+            "position": "Defensive Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 15868,
+            "name": "Denís Suárez",
+            "position": "Attacking Midfield",
+            "shirtNumber": 4
+          },
+          {
+            "id": 46123,
+            "name": "Nahuel Tenaglia",
+            "position": "Right-Back",
+            "shirtNumber": 14
+          },
+          {
+            "id": 144615,
+            "name": "Jon Pacheco",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 45831,
+            "name": "Facundo Garcés",
+            "position": "Centre-Back",
+            "shirtNumber": 2
+          }
+        ],
+        "bench": [
+          {
+            "id": 32911,
+            "name": "Raúl Fernández",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 226202,
+            "name": "Ángel Pérez",
+            "position": "Defence",
+            "shirtNumber": 7
+          },
+          {
+            "id": 246154,
+            "name": "Aitor Mañas",
+            "position": "Offence",
+            "shirtNumber": 34
+          },
+          {
+            "id": 184988,
+            "name": "Abde Rebbach",
+            "position": "Left Winger",
+            "shirtNumber": 21
+          },
+          {
+            "id": 119282,
+            "name": "Victor Parada",
+            "position": "Left-Back",
+            "shirtNumber": 24
+          },
+          {
+            "id": 173617,
+            "name": "Pablo Ibáñez Tébar",
+            "position": "Central Midfield",
+            "shirtNumber": 19
+          },
+          {
+            "id": 33092,
+            "name": "Jon Guridi",
+            "position": "Central Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 33093,
+            "name": "Ander Guevara",
+            "position": "Central Midfield",
+            "shirtNumber": 6
+          }
+        ]
       },
       "score": {
         "winner": null,

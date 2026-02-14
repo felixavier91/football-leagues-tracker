@@ -88545,15 +88545,15 @@
       },
       "id": 545891,
       "utcDate": "2026-02-14T15:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Municipal de Rio Maior",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T17:12:57Z",
+      "lastUpdated": "2026-02-14T17:33:47Z",
       "homeTeam": {
         "id": 6618,
         "name": "Casa Pia AC",
@@ -88831,15 +88831,15 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 2
         }
       },
       "goals": [
@@ -88923,9 +88923,39 @@
             "home": 2,
             "away": 2
           }
+        },
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 6618,
+            "name": "Casa Pia AC"
+          },
+          "scorer": {
+            "id": 14003,
+            "name": "Cassiano"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 14003,
+            "name": "Cassiano"
+          },
+          "team": {
+            "id": 6618,
+            "name": "Casa Pia AC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 6,
