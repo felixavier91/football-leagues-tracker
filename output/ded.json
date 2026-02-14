@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 200
+    "played": 201
   },
   "competition": {
     "id": 2003,
@@ -97881,15 +97881,15 @@
       },
       "id": 537640,
       "utcDate": "2026-02-14T17:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Van Donge & De Roo Stadion",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T20:32:28Z",
+      "lastUpdated": "2026-02-14T20:41:44Z",
       "homeTeam": {
         "id": 670,
         "name": "SBV Excelsior",
@@ -98191,11 +98191,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -98219,6 +98219,48 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "scorer": {
+            "id": 131041,
+            "name": "Troy Parrott"
+          },
+          "assist": {
+            "id": 67899,
+            "name": "Mees De Wit"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 6,
+          "type": "REGULAR",
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "scorer": {
+            "id": 166900,
+            "name": "Alexandre Penetra"
+          },
+          "assist": {
+            "id": 246558,
+            "name": "Kasper Boogaard"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
           }
         }
       ],
@@ -98313,14 +98355,14 @@
       "id": 537639,
       "utcDate": "2026-02-14T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 31,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Johan Cruijff ArenA",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T20:32:29Z",
+      "lastUpdated": "2026-02-14T20:47:39Z",
       "homeTeam": {
         "id": 678,
         "name": "AFC Ajax",
@@ -98626,7 +98668,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 3,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
@@ -98695,6 +98737,24 @@
           "score": {
             "home": 3,
             "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "scorer": {
+            "id": 134835,
+            "name": "Josip Šutalo"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 1
           }
         }
       ],
