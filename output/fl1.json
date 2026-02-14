@@ -89328,15 +89328,15 @@
       },
       "id": 542599,
       "utcDate": "2026-02-14T20:05:00Z",
-      "status": "IN_PLAY",
-      "minute": 44,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Jean Bouin",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T21:49:40Z",
+      "lastUpdated": "2026-02-14T22:01:10Z",
       "homeTeam": {
         "id": 1045,
         "name": "Paris FC",
@@ -89621,8 +89621,8 @@
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "goals": [
@@ -89670,7 +89670,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 546,
+            "name": "Racing Club de Lens"
+          },
+          "player": {
+            "id": 8575,
+            "name": "Wesley Saïd"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
