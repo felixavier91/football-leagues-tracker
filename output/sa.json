@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-23",
     "last": "2026-05-24",
-    "played": 242
+    "played": 243
   },
   "competition": {
     "id": 2019,
@@ -119975,15 +119975,15 @@
       },
       "id": 537058,
       "utcDate": "2026-02-14T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 85,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T22:32:33Z",
+      "lastUpdated": "2026-02-14T22:44:34Z",
       "homeTeam": {
         "id": 108,
         "name": "FC Internazionale Milano",
@@ -120297,10 +120297,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 2
         },
         "halfTime": {
@@ -120389,6 +120389,27 @@
             "home": 2,
             "away": 2
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 2097,
+            "name": "Piotr Zieliński"
+          },
+          "assist": {
+            "id": 193,
+            "name": "Yann Aurel Bisseck"
+          },
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -120462,6 +120483,18 @@
           "player": {
             "id": 194383,
             "name": "Cristian Chivu"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "player": {
+            "id": 2097,
+            "name": "Piotr Zieliński"
           },
           "card": "YELLOW"
         }
