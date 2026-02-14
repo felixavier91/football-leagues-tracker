@@ -91284,14 +91284,14 @@
       "id": 540603,
       "utcDate": "2026-02-14T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 12,
+      "minute": 26,
       "injuryTime": null,
       "attendance": null,
       "venue": "MHPArena",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T18:42:30Z",
+      "lastUpdated": "2026-02-14T18:56:45Z",
       "homeTeam": {
         "id": 10,
         "name": "VfB Stuttgart",
@@ -91569,10 +91569,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -91580,7 +91580,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 15,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "scorer": {
+            "id": 33242,
+            "name": "Ermedin Demirovic"
+          },
+          "assist": {
+            "id": 123333,
+            "name": "Jamie Leweling"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

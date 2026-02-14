@@ -88401,14 +88401,14 @@
       "id": 542601,
       "utcDate": "2026-02-14T16:00:00Z",
       "status": "IN_PLAY",
-      "minute": 84,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Orange Vélodrome",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-14T18:42:48Z",
+      "lastUpdated": "2026-02-14T18:57:03Z",
       "homeTeam": {
         "id": 516,
         "name": "Olympique de Marseille",
@@ -88686,11 +88686,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -88757,9 +88757,39 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 7,
+          "type": "PENALTY",
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "scorer": {
+            "id": 203561,
+            "name": "Joaquín Panichelli"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 203561,
+            "name": "Joaquín Panichelli"
+          },
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 26,
