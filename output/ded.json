@@ -99767,14 +99767,14 @@
       "id": 537645,
       "utcDate": "2026-02-15T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Abe Lenstra Stadion",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T14:31:15Z",
+      "lastUpdated": "2026-02-15T14:52:57Z",
       "homeTeam": {
         "id": 673,
         "name": "SC Heerenveen",
@@ -99925,7 +99925,7 @@
           "nationality": "Netherlands"
         },
         "leagueRank": 12,
-        "formation": "4-3-3",
+        "formation": "4-1-4-1",
         "lineup": [
           {
             "id": 175970,
@@ -100070,18 +100070,61 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 13,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 684,
+            "name": "PEC Zwolle"
+          },
+          "scorer": {
+            "id": 7729,
+            "name": "Younes Namli"
+          },
+          "assist": {
+            "id": 9701,
+            "name": "Koen Kostons"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 16,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 684,
+            "name": "PEC Zwolle"
+          },
+          "scorer": {
+            "id": 177978,
+            "name": "Tristan Gooijer"
+          },
+          "assist": {
+            "id": 7729,
+            "name": "Younes Namli"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -100142,14 +100185,14 @@
       "id": 537647,
       "utcDate": "2026-02-15T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 21,
       "injuryTime": null,
       "attendance": null,
       "venue": "BUKO Stadion",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T14:31:15Z",
+      "lastUpdated": "2026-02-15T14:52:57Z",
       "homeTeam": {
         "id": 1912,
         "name": "Telstar 1963",
@@ -100439,10 +100482,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -100450,7 +100493,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 17,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1912,
+            "name": "Telstar 1963"
+          },
+          "scorer": {
+            "id": 244046,
+            "name": "Sem van Duijn"
+          },
+          "assist": {
+            "id": 117796,
+            "name": "Nökkvi Þórisson"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -100564,7 +100629,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 80087,
+          "name": "Jannick van der Laan",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 17133,
+          "name": "Michael Osseweijer",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 43847,
+          "name": "Charles Schaap",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {

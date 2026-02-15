@@ -113842,15 +113842,15 @@
       },
       "id": 544446,
       "utcDate": "2026-02-15T13:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 30,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Nuevo Carlos Tartiere",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T14:30:34Z",
+      "lastUpdated": "2026-02-15T14:51:53Z",
       "homeTeam": {
         "id": 1048,
         "name": "Real Oviedo",
@@ -114158,15 +114158,15 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -114182,7 +114182,10 @@
             "id": 146126,
             "name": "Ilyas Chaira"
           },
-          "assist": null,
+          "assist": {
+            "id": 112678,
+            "name": "Federico Viñas"
+          },
           "score": {
             "home": 1,
             "away": 0
@@ -114200,6 +114203,18 @@
           "player": {
             "id": 32481,
             "name": "Ruiz de Galarreta"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 39,
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "player": {
+            "id": 2598,
+            "name": "Santiago Colombatto"
           },
           "card": "YELLOW"
         }
