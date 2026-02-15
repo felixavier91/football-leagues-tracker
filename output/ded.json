@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 204
+    "played": 205
   },
   "competition": {
     "id": 2003,
@@ -81563,7 +81563,7 @@
       "matchday": 19,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T12:17:04Z",
+      "lastUpdated": "2026-02-15T16:17:04Z",
       "homeTeam": {
         "id": 1919,
         "name": "FC Volendam",
@@ -99767,14 +99767,14 @@
       "id": 537645,
       "utcDate": "2026-02-15T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 80,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": 22510,
       "venue": "Abe Lenstra Stadion",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T16:10:34Z",
+      "lastUpdated": "2026-02-15T16:26:09Z",
       "homeTeam": {
         "id": 673,
         "name": "SC Heerenveen",
@@ -100073,7 +100073,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 2
         },
         "halfTime": {
@@ -100186,6 +100186,27 @@
             "home": 3,
             "away": 2
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 673,
+            "name": "SC Heerenveen"
+          },
+          "scorer": {
+            "id": 272219,
+            "name": "Eser Gürbüz"
+          },
+          "assist": {
+            "id": 214149,
+            "name": "Mats Egbring"
+          },
+          "score": {
+            "home": 4,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -100260,15 +100281,15 @@
       },
       "id": 537647,
       "utcDate": "2026-02-15T13:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 83,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "BUKO Stadion",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T16:10:35Z",
+      "lastUpdated": "2026-02-15T16:24:35Z",
       "homeTeam": {
         "id": 1912,
         "name": "Telstar 1963",
@@ -100558,11 +100579,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -100590,6 +100611,27 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 83,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 666,
+            "name": "FC Twente '65"
+          },
+          "scorer": {
+            "id": 3558,
+            "name": "Marko Pjaca"
+          },
+          "assist": {
+            "id": 7455,
+            "name": "Sam Lammers"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -100603,6 +100645,18 @@
           "player": {
             "id": 79901,
             "name": "Thomas van den Belt"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1912,
+            "name": "Telstar 1963"
+          },
+          "player": {
+            "id": 211708,
+            "name": "Jochem Ritmeester van de Kamp"
           },
           "card": "YELLOW"
         }
