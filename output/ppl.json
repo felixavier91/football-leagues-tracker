@@ -90910,15 +90910,15 @@
       },
       "id": 545892,
       "utcDate": "2026-02-15T20:30:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
-      "injuryTime": 2,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Alvalade",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T22:19:49Z",
+      "lastUpdated": "2026-02-15T22:36:44Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -91203,13 +91203,26 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 92050,
+            "name": "Pedro Gonçalves"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
