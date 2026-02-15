@@ -122496,14 +122496,14 @@
       "id": 537062,
       "utcDate": "2026-02-15T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 57,
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Diego Armando Maradona",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T22:01:34Z",
+      "lastUpdated": "2026-02-15T22:19:34Z",
       "homeTeam": {
         "id": 113,
         "name": "SSC Napoli",
@@ -122787,11 +122787,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -122840,9 +122840,39 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 71,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "scorer": {
+            "id": 7457,
+            "name": "Donyell Malen"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 7457,
+            "name": "Donyell Malen"
+          },
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 26,
@@ -122853,6 +122883,18 @@
           "player": {
             "id": 1837,
             "name": "Gianluca Mancini"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 68,
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "player": {
+            "id": 23127,
+            "name": "Amir Rrahmani"
           },
           "card": "YELLOW"
         }
