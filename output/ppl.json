@@ -90454,13 +90454,13 @@
       "utcDate": "2026-02-15T18:00:00Z",
       "status": "IN_PLAY",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 9,
       "attendance": null,
       "venue": "Estádio do CD Aves",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T20:48:18Z",
+      "lastUpdated": "2026-02-15T20:58:23Z",
       "homeTeam": {
         "id": 10340,
         "name": "AVS",
@@ -90741,7 +90741,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -90785,6 +90785,27 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 6,
+          "type": "REGULAR",
+          "team": {
+            "id": 10340,
+            "name": "AVS"
+          },
+          "scorer": {
+            "id": 99922,
+            "name": "Ángel Algobia"
+          },
+          "assist": {
+            "id": 2470,
+            "name": "Nenê"
+          },
+          "score": {
+            "home": 3,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
@@ -90822,6 +90843,18 @@
           "player": {
             "id": 636,
             "name": "Rafik Guitane"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 582,
+            "name": "GD Estoril Praia"
+          },
+          "player": {
+            "id": 37554,
+            "name": "Ferro"
           },
           "card": "YELLOW"
         }

@@ -122496,14 +122496,14 @@
       "id": 537062,
       "utcDate": "2026-02-15T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 2,
+      "minute": 12,
       "injuryTime": null,
       "attendance": null,
       "venue": "Diego Armando Maradona",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T20:47:59Z",
+      "lastUpdated": "2026-02-15T20:57:59Z",
       "homeTeam": {
         "id": 113,
         "name": "SSC Napoli",
@@ -122787,18 +122787,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 7,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "scorer": {
+            "id": 7457,
+            "name": "Donyell Malen"
+          },
+          "assist": {
+            "id": 180104,
+            "name": "Bryan Zaragoza"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
