@@ -90911,14 +90911,14 @@
       "id": 545892,
       "utcDate": "2026-02-15T20:30:00Z",
       "status": "IN_PLAY",
-      "minute": 53,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Estadio Jose Alvalade",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T22:50:14Z",
+      "lastUpdated": "2026-02-15T23:32:48Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -91196,10 +91196,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -91207,7 +91207,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 82,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scorer": {
+            "id": 102336,
+            "name": "Daniel Bragança"
+          },
+          "assist": {
+            "id": 37332,
+            "name": "Trincão"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -91231,6 +91253,42 @@
           "player": {
             "id": 262588,
             "name": "Pedro Santos"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 5531,
+            "name": "FC Famalicão"
+          },
+          "player": {
+            "id": 272442,
+            "name": "Gonzalo Pastor"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 28770,
+            "name": "Maximiliano Araújo"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 137045,
+            "name": "Georgios Vagiannidis"
           },
           "card": "YELLOW"
         }
