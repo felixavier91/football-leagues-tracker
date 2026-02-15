@@ -90317,14 +90317,14 @@
       "id": 542597,
       "utcDate": "2026-02-15T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 69,
+      "minute": 84,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade du Moustoir",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T18:42:39Z",
+      "lastUpdated": "2026-02-15T18:57:48Z",
       "homeTeam": {
         "id": 525,
         "name": "FC Lorient",
@@ -90708,14 +90708,14 @@
       "id": 542598,
       "utcDate": "2026-02-15T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 71,
+      "minute": 86,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T18:42:39Z",
+      "lastUpdated": "2026-02-15T18:57:48Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -90997,7 +90997,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -91021,6 +91021,27 @@
           "score": {
             "home": 0,
             "away": 1
+          }
+        },
+        {
+          "minute": 76,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 519,
+            "name": "AJ Auxerre"
+          },
+          "scorer": {
+            "id": 552,
+            "name": "Lassine Sinayoko"
+          },
+          "assist": {
+            "id": 131752,
+            "name": "Naouirou Ahamada"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
           }
         }
       ],
@@ -91047,6 +91068,30 @@
           "player": {
             "id": 246674,
             "name": "Lucas Michal"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 78,
+          "team": {
+            "id": 519,
+            "name": "AJ Auxerre"
+          },
+          "player": {
+            "id": 152737,
+            "name": "Josué Casimir"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 85,
+          "team": {
+            "id": 519,
+            "name": "AJ Auxerre"
+          },
+          "player": {
+            "id": 3631,
+            "name": "Assane Dioussé"
           },
           "card": "YELLOW"
         }
@@ -91162,7 +91207,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57039,
+          "name": "Thomas Léonard",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 57035,
+          "name": "Benjamin Pages",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 57053,
+          "name": "Aurélien Drouet",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
