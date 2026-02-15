@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 195
+    "played": 196
   },
   "competition": {
     "id": 2002,
@@ -91780,15 +91780,15 @@
       },
       "id": 540602,
       "utcDate": "2026-02-15T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 85,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": 30107,
       "venue": "WWK ARENA",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T17:12:01Z",
+      "lastUpdated": "2026-02-15T17:23:20Z",
       "homeTeam": {
         "id": 16,
         "name": "FC Augsburg",
@@ -92122,6 +92122,30 @@
             "name": "Benedikt Gimber"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "player": {
+            "id": 6617,
+            "name": "Finn Dahmen"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 44,
+            "name": "1. FC Heidenheim 1846"
+          },
+          "player": {
+            "id": 84525,
+            "name": "Budu Zivzivadze"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -92175,15 +92199,15 @@
       },
       "id": 540599,
       "utcDate": "2026-02-15T16:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 3,
       "injuryTime": null,
       "attendance": null,
       "venue": "Red Bull Arena Leipzig",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T16:19:08Z",
+      "lastUpdated": "2026-02-15T17:33:21Z",
       "homeTeam": {
         "id": 721,
         "name": "RB Leipzig",
@@ -92461,11 +92485,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,

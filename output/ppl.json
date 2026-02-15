@@ -90030,15 +90030,15 @@
       },
       "id": 545897,
       "utcDate": "2026-02-15T15:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 40,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio da Madeira",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T17:12:36Z",
+      "lastUpdated": "2026-02-15T17:33:59Z",
       "homeTeam": {
         "id": 5529,
         "name": "CD Nacional",
@@ -90323,13 +90323,26 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 5529,
+            "name": "CD Nacional"
+          },
+          "player": {
+            "id": 231219,
+            "name": "Francisco Gonçalves"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

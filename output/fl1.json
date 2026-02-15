@@ -90316,15 +90316,15 @@
       },
       "id": 542597,
       "utcDate": "2026-02-15T16:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade du Moustoir",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T16:35:08Z",
+      "lastUpdated": "2026-02-15T17:33:50Z",
       "homeTeam": {
         "id": 525,
         "name": "FC Lorient",
@@ -90602,18 +90602,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 9,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "scorer": {
+            "id": 177248,
+            "name": "Pablo Pagis"
+          },
+          "assist": {
+            "id": 244087,
+            "name": "Kan Guy Arsène Kouassi"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -90667,15 +90689,15 @@
       },
       "id": 542598,
       "utcDate": "2026-02-15T16:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T16:30:33Z",
+      "lastUpdated": "2026-02-15T17:33:50Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -90725,6 +90747,12 @@
             "name": "Habib Diallo",
             "position": "Midfield",
             "shirtNumber": 30
+          },
+          {
+            "id": 288541,
+            "name": "Believe Munongo",
+            "position": "Midfield",
+            "shirtNumber": 33
           },
           {
             "id": 8333,
@@ -90826,7 +90854,7 @@
           "nationality": "France"
         },
         "leagueRank": 16,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 437,
@@ -90953,20 +90981,52 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 4,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "scorer": {
+            "id": 212866,
+            "name": "Sadibou Sané"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 6,
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "player": {
+            "id": 45199,
+            "name": "Koffi Franck Kouao"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
