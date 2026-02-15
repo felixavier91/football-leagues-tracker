@@ -115346,14 +115346,14 @@
       "id": 544449,
       "utcDate": "2026-02-15T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 9,
+      "minute": 30,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadi Mallorca Son Moix",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T21:11:35Z",
+      "lastUpdated": "2026-02-15T21:32:50Z",
       "homeTeam": {
         "id": 89,
         "name": "RCD Mallorca",
@@ -115661,20 +115661,64 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 18,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié"
+          },
+          "scorer": {
+            "id": 175941,
+            "name": "Abdessamad Ezzalzouli"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 16,
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié"
+          },
+          "player": {
+            "id": 9,
+            "name": "Diego Llorente"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 21,
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "player": {
+            "id": 140814,
+            "name": "Samuel Almeida Costa"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
