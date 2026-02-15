@@ -89832,14 +89832,14 @@
       "id": 542595,
       "utcDate": "2026-02-15T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 32,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Stade Océane",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T15:33:02Z",
+      "lastUpdated": "2026-02-15T15:50:58Z",
       "homeTeam": {
         "id": 533,
         "name": "Le Havre AC",
@@ -90120,15 +90120,52 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 43,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 533,
+            "name": "Le Havre AC"
+          },
+          "scorer": {
+            "id": 133190,
+            "name": "Issa Soumaré"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "scorer": {
+            "id": 3362,
+            "name": "Djibril Sidibé"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {

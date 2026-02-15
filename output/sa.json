@@ -121080,15 +121080,15 @@
       },
       "id": 537060,
       "utcDate": "2026-02-15T14:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Ennio Tardini",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T15:32:51Z",
+      "lastUpdated": "2026-02-15T15:50:49Z",
       "homeTeam": {
         "id": 112,
         "name": "Parma Calcio 1913",
@@ -121396,15 +121396,15 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -121428,9 +121428,39 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 43,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 450,
+            "name": "Hellas Verona FC"
+          },
+          "scorer": {
+            "id": 7763,
+            "name": "Abdou Harroui"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 7763,
+            "name": "Abdou Harroui"
+          },
+          "team": {
+            "id": 450,
+            "name": "Hellas Verona FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 11,
@@ -121443,6 +121473,30 @@
             "name": "Gift Orban"
           },
           "card": "RED"
+        },
+        {
+          "minute": 41,
+          "team": {
+            "id": 112,
+            "name": "Parma Calcio 1913"
+          },
+          "player": {
+            "id": 176730,
+            "name": "Alessandro Circati"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 112,
+            "name": "Parma Calcio 1913"
+          },
+          "player": {
+            "id": 97151,
+            "name": "Lautaro Valenti"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -121496,15 +121550,15 @@
       },
       "id": 537064,
       "utcDate": "2026-02-15T14:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 32,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Giovanni Zini",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T15:32:51Z",
+      "lastUpdated": "2026-02-15T15:50:49Z",
       "homeTeam": {
         "id": 457,
         "name": "US Cremonese",
@@ -121831,8 +121885,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
