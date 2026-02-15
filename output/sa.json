@@ -120551,14 +120551,14 @@
       "id": 537063,
       "utcDate": "2026-02-15T11:30:00Z",
       "status": "IN_PLAY",
-      "minute": 47,
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Friuli",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T13:35:04Z",
+      "lastUpdated": "2026-02-15T14:02:50Z",
       "homeTeam": {
         "id": 115,
         "name": "Udinese Calcio",
@@ -120878,11 +120878,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -120910,6 +120910,48 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 56,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio"
+          },
+          "scorer": {
+            "id": 8822,
+            "name": "Armand Lauriente"
+          },
+          "assist": {
+            "id": 2016,
+            "name": "Andrea Pinamonti"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 58,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio"
+          },
+          "scorer": {
+            "id": 2016,
+            "name": "Andrea Pinamonti"
+          },
+          "assist": {
+            "id": 238,
+            "name": "Ulisses Garcia"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -120935,6 +120977,18 @@
           "player": {
             "id": 190552,
             "name": "Arthur Atta"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 63,
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "player": {
+            "id": 99311,
+            "name": "Jordan Zemura"
           },
           "card": "YELLOW"
         }
