@@ -90031,14 +90031,14 @@
       "id": 545897,
       "utcDate": "2026-02-15T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 58,
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio da Madeira",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T17:52:34Z",
+      "lastUpdated": "2026-02-15T18:10:07Z",
       "homeTeam": {
         "id": 5529,
         "name": "CD Nacional",
@@ -90316,18 +90316,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 60,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "scorer": {
+            "id": 8086,
+            "name": "Jan Bednarek"
+          },
+          "assist": {
+            "id": 150519,
+            "name": "Gabriel Veiga"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -90402,7 +90424,7 @@
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T01:32:00Z",
+      "lastUpdated": "2026-02-15T18:02:18Z",
       "homeTeam": {
         "id": 10340,
         "name": "AVS",
@@ -90415,9 +90437,131 @@
           "nationality": "Portugal"
         },
         "leagueRank": 18,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-1-4-1",
+        "lineup": [
+          {
+            "id": 168959,
+            "name": "Adriel Ramos",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 178824,
+            "name": "Leonardo Rivas",
+            "position": "Defence",
+            "shirtNumber": 12
+          },
+          {
+            "id": 243610,
+            "name": "Paulo Vitor",
+            "position": "Defence",
+            "shirtNumber": 3
+          },
+          {
+            "id": 178441,
+            "name": "Cristian Castro",
+            "position": "Defence",
+            "shirtNumber": 42
+          },
+          {
+            "id": 61232,
+            "name": "Mateus Pivô",
+            "position": "Defence",
+            "shirtNumber": 97
+          },
+          {
+            "id": 169554,
+            "name": "Roni",
+            "position": "Midfield",
+            "shirtNumber": 70
+          },
+          {
+            "id": 192912,
+            "name": "Pedro Lima",
+            "position": "Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 243619,
+            "name": "Gustavo Mendonça",
+            "position": "Midfield",
+            "shirtNumber": 23
+          },
+          {
+            "id": 179222,
+            "name": "Diego Duarte",
+            "position": "Offence",
+            "shirtNumber": 20
+          },
+          {
+            "id": 45243,
+            "name": "Tómané",
+            "position": "Offence",
+            "shirtNumber": 7
+          },
+          {
+            "id": 203426,
+            "name": "Babatunde Akinsola",
+            "position": "Left Winger",
+            "shirtNumber": 11
+          }
+        ],
+        "bench": [
+          {
+            "id": 169628,
+            "name": "Simão Bertelli",
+            "position": "Goalkeeper",
+            "shirtNumber": 93
+          },
+          {
+            "id": 273739,
+            "name": "Guillem Molina",
+            "position": "Defence",
+            "shirtNumber": 5
+          },
+          {
+            "id": 45278,
+            "name": "Kiki",
+            "position": "Defence",
+            "shirtNumber": 24
+          },
+          {
+            "id": 194165,
+            "name": "Aderlan",
+            "position": "Defence",
+            "shirtNumber": 33
+          },
+          {
+            "id": 99922,
+            "name": "Ángel Algobia",
+            "position": "Midfield",
+            "shirtNumber": 27
+          },
+          {
+            "id": 260034,
+            "name": "Tiago Galletto",
+            "position": "Midfield",
+            "shirtNumber": 19
+          },
+          {
+            "id": 280041,
+            "name": "Guilherme Neiva",
+            "position": "Offence",
+            "shirtNumber": 21
+          },
+          {
+            "id": 2470,
+            "name": "Nenê",
+            "position": "Offence",
+            "shirtNumber": 18
+          },
+          {
+            "id": 182441,
+            "name": "Oscar Perea",
+            "position": "Left Winger",
+            "shirtNumber": 14
+          }
+        ]
       },
       "awayTeam": {
         "id": 582,
@@ -90431,9 +90575,119 @@
           "nationality": "Scotland"
         },
         "leagueRank": 8,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 7821,
+            "name": "Joel Robles",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 37555,
+            "name": "Pedro Amaral",
+            "position": "Defence",
+            "shirtNumber": 24
+          },
+          {
+            "id": 75196,
+            "name": "Felix Bacher",
+            "position": "Defence",
+            "shirtNumber": 25
+          },
+          {
+            "id": 37554,
+            "name": "Ferro",
+            "position": "Defence",
+            "shirtNumber": 4
+          },
+          {
+            "id": 141472,
+            "name": "Ricard Sánchez",
+            "position": "Defence",
+            "shirtNumber": 2
+          },
+          {
+            "id": 16752,
+            "name": "João Carvalho",
+            "position": "Midfield",
+            "shirtNumber": 12
+          },
+          {
+            "id": 146983,
+            "name": "Jandro Orellana",
+            "position": "Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 553,
+            "name": "Yanis Begraoui",
+            "position": "Centre-Forward",
+            "shirtNumber": 14
+          },
+          {
+            "id": 636,
+            "name": "Rafik Guitane",
+            "position": "Right Winger",
+            "shirtNumber": 99
+          },
+          {
+            "id": 141357,
+            "name": "Alejandro Marqués",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 135650,
+            "name": "Jordan Holsgrove",
+            "position": "Defensive Midfield",
+            "shirtNumber": 10
+          }
+        ],
+        "bench": [
+          {
+            "id": 153884,
+            "name": "Martin Turk",
+            "position": "Goalkeeper",
+            "shirtNumber": 16
+          },
+          {
+            "id": 281951,
+            "name": "Longin Bimai",
+            "position": "Defence",
+            "shirtNumber": 57
+          },
+          {
+            "id": 185120,
+            "name": "Gonçalo Costa",
+            "position": "Defence",
+            "shirtNumber": 20
+          },
+          {
+            "id": 213075,
+            "name": "Peixinho",
+            "position": "Midfield",
+            "shirtNumber": 70
+          },
+          {
+            "id": 243570,
+            "name": "Pedro Carvalho",
+            "position": "Midfield",
+            "shirtNumber": 22
+          },
+          {
+            "id": 189251,
+            "name": "Khayon Edwards",
+            "position": "Offence",
+            "shirtNumber": 11
+          },
+          {
+            "id": 16754,
+            "name": "Pizzi",
+            "position": "Attacking Midfield",
+            "shirtNumber": 21
+          }
+        ]
       },
       "score": {
         "winner": null,

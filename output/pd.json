@@ -114358,14 +114358,14 @@
       "id": 544447,
       "utcDate": "2026-02-15T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 76,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 3,
       "attendance": 5335,
       "venue": "Estadio de Vallecas",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T17:51:49Z",
+      "lastUpdated": "2026-02-15T18:09:29Z",
       "homeTeam": {
         "id": 87,
         "name": "Rayo Vallecano de Madrid",
@@ -114682,7 +114682,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -114742,7 +114742,10 @@
             "id": 190558,
             "name": "Nobel Mendy"
           },
-          "assist": null,
+          "assist": {
+            "id": 32312,
+            "name": "Álvaro García"
+          },
           "score": {
             "home": 3,
             "away": 0
@@ -114784,6 +114787,18 @@
           "player": {
             "id": 70,
             "name": "Marcos Llorente"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid"
+          },
+          "player": {
+            "id": 32312,
+            "name": "Álvaro García"
           },
           "card": "YELLOW"
         }
