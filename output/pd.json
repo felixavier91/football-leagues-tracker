@@ -114358,14 +114358,14 @@
       "id": 544447,
       "utcDate": "2026-02-15T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 24,
+      "minute": 41,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio de Vallecas",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T16:40:50Z",
+      "lastUpdated": "2026-02-15T16:56:46Z",
       "homeTeam": {
         "id": 87,
         "name": "Rayo Vallecano de Madrid",
@@ -114679,10 +114679,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -114690,9 +114690,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 40,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid"
+          },
+          "scorer": {
+            "id": 187117,
+            "name": "Fran Perez"
+          },
+          "assist": {
+            "id": 114955,
+            "name": "Andrei Rațiu"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 29,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "player": {
+            "id": 123265,
+            "name": "Johnny"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

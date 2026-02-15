@@ -89832,14 +89832,14 @@
       "id": 542595,
       "utcDate": "2026-02-15T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 76,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Stade Océane",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T16:41:19Z",
+      "lastUpdated": "2026-02-15T16:57:19Z",
       "homeTeam": {
         "id": 533,
         "name": "Le Havre AC",
@@ -90117,11 +90117,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 2
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -90188,24 +90188,6 @@
             "home": 2,
             "away": 1
           }
-        },
-        {
-          "minute": 74,
-          "injuryTime": null,
-          "type": "REGULAR",
-          "team": {
-            "id": 511,
-            "name": "Toulouse FC"
-          },
-          "scorer": {
-            "id": 191371,
-            "name": "Santiago Hidalgo"
-          },
-          "assist": null,
-          "score": {
-            "home": 2,
-            "away": 2
-          }
         }
       ],
       "penalties": [],
@@ -90267,6 +90249,18 @@
           "player": {
             "id": 264401,
             "name": "Dayann Methalie"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 88,
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "player": {
+            "id": 191371,
+            "name": "Santiago Hidalgo"
           },
           "card": "YELLOW"
         }
