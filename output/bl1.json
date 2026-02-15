@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 196
+    "played": 197
   },
   "competition": {
     "id": 2002,
@@ -92199,15 +92199,15 @@
       },
       "id": 540599,
       "utcDate": "2026-02-15T16:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 87,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 8,
       "attendance": 35787,
       "venue": "Red Bull Arena Leipzig",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T19:15:44Z",
+      "lastUpdated": "2026-02-15T19:27:30Z",
       "homeTeam": {
         "id": 721,
         "name": "RB Leipzig",
@@ -92485,10 +92485,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 2
         },
         "halfTime": {
@@ -92557,6 +92557,24 @@
           },
           "score": {
             "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 89,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "scorer": {
+            "id": 191102,
+            "name": "Brajan Gruda"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
             "away": 2
           }
         }
