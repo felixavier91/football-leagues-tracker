@@ -89831,15 +89831,15 @@
       },
       "id": 542595,
       "utcDate": "2026-02-15T14:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
-      "injuryTime": 6,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Stade Océane",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T15:50:58Z",
+      "lastUpdated": "2026-02-15T16:10:00Z",
       "homeTeam": {
         "id": 533,
         "name": "Le Havre AC",
@@ -90124,8 +90124,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -90159,7 +90159,10 @@
             "id": 3362,
             "name": "Djibril Sidibé"
           },
-          "assist": null,
+          "assist": {
+            "id": 150797,
+            "name": "Charlie Cresswell"
+          },
           "score": {
             "home": 1,
             "away": 1
