@@ -115345,15 +115345,15 @@
       },
       "id": 544449,
       "utcDate": "2026-02-15T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 30,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 18658,
       "venue": "Estadi Mallorca Son Moix",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T21:32:50Z",
+      "lastUpdated": "2026-02-15T22:01:15Z",
       "homeTeam": {
         "id": 89,
         "name": "RCD Mallorca",
@@ -115665,11 +115665,11 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "goals": [
@@ -115689,6 +115689,27 @@
           "score": {
             "home": 0,
             "away": 1
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié"
+          },
+          "scorer": {
+            "id": 21583,
+            "name": "Cédric Bakambu"
+          },
+          "assist": {
+            "id": 97085,
+            "name": "Antony"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
           }
         }
       ],
@@ -115715,6 +115736,18 @@
           "player": {
             "id": 140814,
             "name": "Samuel Almeida Costa"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 44,
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié"
+          },
+          "player": {
+            "id": 33045,
+            "name": "Aitor Ruibal"
           },
           "card": "YELLOW"
         }

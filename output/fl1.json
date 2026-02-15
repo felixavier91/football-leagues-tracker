@@ -91202,14 +91202,14 @@
       "id": 542600,
       "utcDate": "2026-02-15T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 43,
+      "minute": 50,
       "injuryTime": null,
       "attendance": null,
       "venue": "Groupama Stadium",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T21:33:24Z",
+      "lastUpdated": "2026-02-15T22:01:48Z",
       "homeTeam": {
         "id": 523,
         "name": "Olympique Lyonnais",
@@ -91487,18 +91487,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "scorer": {
+            "id": 366,
+            "name": "Corentin Tolisso"
+          },
+          "assist": {
+            "id": 121312,
+            "name": "Pavel Šulc"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -91510,6 +91532,18 @@
           "player": {
             "id": 8355,
             "name": "Morgan Sanson"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "player": {
+            "id": 7792,
+            "name": "Ainsley Maitland-Niles"
           },
           "card": "YELLOW"
         }
