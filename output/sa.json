@@ -122001,15 +122001,15 @@
       },
       "id": 537057,
       "utcDate": "2026-02-15T17:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 56,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Olimpico Grande Torino",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T18:57:40Z",
+      "lastUpdated": "2026-02-15T19:15:49Z",
       "homeTeam": {
         "id": 586,
         "name": "Torino FC",
@@ -122323,18 +122323,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 49,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "scorer": {
+            "id": 7843,
+            "name": "Nikola Vlašić"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -122346,6 +122365,18 @@
           "player": {
             "id": 280,
             "name": "Guillermo Maripán"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 51,
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "player": {
+            "id": 190831,
+            "name": "Gvidas Gineitis"
           },
           "card": "YELLOW"
         }

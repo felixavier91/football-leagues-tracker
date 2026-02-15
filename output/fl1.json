@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 195
+    "played": 197
   },
   "competition": {
     "id": 2015,
@@ -90316,15 +90316,15 @@
       },
       "id": 542597,
       "utcDate": "2026-02-15T16:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 84,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Stade du Moustoir",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T18:57:48Z",
+      "lastUpdated": "2026-02-15T19:09:59Z",
       "homeTeam": {
         "id": 525,
         "name": "FC Lorient",
@@ -90707,15 +90707,15 @@
       },
       "id": 542598,
       "utcDate": "2026-02-15T16:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 86,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T18:57:48Z",
+      "lastUpdated": "2026-02-15T19:08:08Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -90996,8 +90996,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 2
+          "home": 1,
+          "away": 3
         },
         "halfTime": {
           "home": 0,
@@ -91042,6 +91042,48 @@
           "score": {
             "home": 0,
             "away": 2
+          }
+        },
+        {
+          "minute": 89,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 519,
+            "name": "AJ Auxerre"
+          },
+          "scorer": {
+            "id": 175724,
+            "name": "Kevin Danois"
+          },
+          "assist": {
+            "id": 552,
+            "name": "Lassine Sinayoko"
+          },
+          "score": {
+            "home": 0,
+            "away": 3
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "REGULAR",
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "scorer": {
+            "id": 290084,
+            "name": "Nathan Mbala"
+          },
+          "assist": {
+            "id": 261552,
+            "name": "Alpha Touré"
+          },
+          "score": {
+            "home": 1,
+            "away": 3
           }
         }
       ],
@@ -91092,6 +91134,18 @@
           "player": {
             "id": 3631,
             "name": "Assane Dioussé"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 519,
+            "name": "AJ Auxerre"
+          },
+          "player": {
+            "id": 552,
+            "name": "Lassine Sinayoko"
           },
           "card": "YELLOW"
         }

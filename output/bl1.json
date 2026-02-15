@@ -92200,14 +92200,14 @@
       "id": 540599,
       "utcDate": "2026-02-15T16:30:00Z",
       "status": "IN_PLAY",
-      "minute": 69,
+      "minute": 87,
       "injuryTime": null,
       "attendance": 35787,
       "venue": "Red Bull Arena Leipzig",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T18:57:34Z",
+      "lastUpdated": "2026-02-15T19:15:44Z",
       "homeTeam": {
         "id": 721,
         "name": "RB Leipzig",
@@ -92488,8 +92488,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 1
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -92517,6 +92517,48 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 70,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "scorer": {
+            "id": 277484,
+            "name": "Yan Diomandé"
+          },
+          "assist": {
+            "id": 191102,
+            "name": "Brajan Gruda"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 78,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "scorer": {
+            "id": 15354,
+            "name": "Mattias Svanberg"
+          },
+          "assist": {
+            "id": 177037,
+            "name": "Jeanuel Belocian"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -92542,6 +92584,18 @@
           "player": {
             "id": 16344,
             "name": "Xaver Schlager"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 77,
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "player": {
+            "id": 6573,
+            "name": "Marius Müller"
           },
           "card": "YELLOW"
         }
