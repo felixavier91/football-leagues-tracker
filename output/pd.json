@@ -114357,15 +114357,15 @@
       },
       "id": 544447,
       "utcDate": "2026-02-15T15:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio de Vallecas",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T16:56:46Z",
+      "lastUpdated": "2026-02-15T17:11:50Z",
       "homeTeam": {
         "id": 87,
         "name": "Rayo Vallecano de Madrid",
@@ -114682,12 +114682,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "goals": [
@@ -114709,6 +114709,24 @@
           },
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid"
+          },
+          "scorer": {
+            "id": 32109,
+            "name": "Óscar Valentín"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
             "away": 0
           }
         }

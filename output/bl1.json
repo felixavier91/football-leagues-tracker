@@ -91781,14 +91781,14 @@
       "id": 540602,
       "utcDate": "2026-02-15T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 70,
+      "minute": 85,
       "injuryTime": null,
       "attendance": 30107,
       "venue": "WWK ARENA",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T16:57:02Z",
+      "lastUpdated": "2026-02-15T17:12:01Z",
       "homeTeam": {
         "id": 16,
         "name": "FC Augsburg",
@@ -92066,10 +92066,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -92077,9 +92077,53 @@
           "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 80,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "scorer": {
+            "id": 608,
+            "name": "Alexis Claude Maurice"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 608,
+            "name": "Alexis Claude Maurice"
+          },
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 79,
+          "team": {
+            "id": 44,
+            "name": "1. FC Heidenheim 1846"
+          },
+          "player": {
+            "id": 10028,
+            "name": "Benedikt Gimber"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
