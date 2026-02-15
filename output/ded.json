@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 203
+    "played": 204
   },
   "competition": {
     "id": 2003,
@@ -99281,15 +99281,15 @@
       },
       "id": 537643,
       "utcDate": "2026-02-15T11:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 86,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "De Kuip",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T14:03:13Z",
+      "lastUpdated": "2026-02-15T14:14:34Z",
       "homeTeam": {
         "id": 675,
         "name": "Feyenoord Rotterdam",
@@ -99597,10 +99597,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -99608,8 +99608,39 @@
           "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 90,
+          "injuryTime": 2,
+          "type": "PENALTY",
+          "team": {
+            "id": 675,
+            "name": "Feyenoord Rotterdam"
+          },
+          "scorer": {
+            "id": 129381,
+            "name": "Casper Tengstedt"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 129381,
+            "name": "Casper Tengstedt"
+          },
+          "team": {
+            "id": 675,
+            "name": "Feyenoord Rotterdam"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 15,
@@ -99670,6 +99701,18 @@
             "name": "Aske Adelgaard"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 675,
+            "name": "Feyenoord Rotterdam"
+          },
+          "player": {
+            "id": 170561,
+            "name": "In-beom Hwang"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -99723,7 +99766,7 @@
       },
       "id": 537645,
       "utcDate": "2026-02-15T13:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "minute": null,
       "injuryTime": null,
       "attendance": null,
@@ -99731,7 +99774,7 @@
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T13:34:08Z",
+      "lastUpdated": "2026-02-15T14:31:15Z",
       "homeTeam": {
         "id": 673,
         "name": "SC Heerenveen",
@@ -100027,11 +100070,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -100098,7 +100141,7 @@
       },
       "id": 537647,
       "utcDate": "2026-02-15T13:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "minute": null,
       "injuryTime": null,
       "attendance": null,
@@ -100106,7 +100149,7 @@
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T13:25:29Z",
+      "lastUpdated": "2026-02-15T14:31:15Z",
       "homeTeam": {
         "id": 1912,
         "name": "Telstar 1963",
@@ -100218,6 +100261,12 @@
             "name": "Tyrese Noslin",
             "position": "Defence",
             "shirtNumber": 11
+          },
+          {
+            "id": 184643,
+            "name": "Patrick Brouwer",
+            "position": "Midfield",
+            "shirtNumber": 27
           },
           {
             "id": 244492,
@@ -100390,11 +100439,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
