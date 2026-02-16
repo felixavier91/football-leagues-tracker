@@ -115872,15 +115872,15 @@
       },
       "id": 544448,
       "utcDate": "2026-02-16T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 75,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 14043,
       "venue": "Estadi Municipal de Montilivi",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-16T21:51:44Z",
+      "lastUpdated": "2026-02-16T22:32:42Z",
       "homeTeam": {
         "id": 298,
         "name": "Girona FC",
@@ -116173,15 +116173,58 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 59,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 217540,
+            "name": "Pau Cubarsí"
+          },
+          "assist": {
+            "id": 8499,
+            "name": "Jules Koundé"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 61,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scorer": {
+            "id": 3369,
+            "name": "Thomas Lemar"
+          },
+          "assist": {
+            "id": 160819,
+            "name": "Vladyslav Vanat"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [
         {
           "player": {

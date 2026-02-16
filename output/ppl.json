@@ -91345,14 +91345,14 @@
       "id": 545893,
       "utcDate": "2026-02-16T20:15:00Z",
       "status": "IN_PLAY",
-      "minute": 36,
+      "minute": 60,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio do Rio Ave F.C.",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-16T21:52:21Z",
+      "lastUpdated": "2026-02-16T22:33:12Z",
       "homeTeam": {
         "id": 496,
         "name": "Rio Ave FC",
@@ -91633,12 +91633,12 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 1
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -91662,6 +91662,48 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 496,
+            "name": "Rio Ave FC"
+          },
+          "scorer": {
+            "id": 247235,
+            "name": "Jalen Blesa"
+          },
+          "assist": {
+            "id": 209594,
+            "name": "Andreas Ndoj"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 57,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "scorer": {
+            "id": 191985,
+            "name": "Mateja Stjepanovic"
+          },
+          "assist": {
+            "id": 245259,
+            "name": "Diogo Travassos"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -91675,6 +91717,30 @@
           "player": {
             "id": 243745,
             "name": "Tamble Monteiro"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 41,
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "player": {
+            "id": 262652,
+            "name": "Kiko"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 58,
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "player": {
+            "id": 191408,
+            "name": "Rodri Alonso"
           },
           "card": "YELLOW"
         }
