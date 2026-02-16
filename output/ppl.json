@@ -91344,15 +91344,15 @@
       },
       "id": 545893,
       "utcDate": "2026-02-16T20:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio do Rio Ave F.C.",
       "matchday": 22,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-16T20:25:59Z",
+      "lastUpdated": "2026-02-16T21:33:59Z",
       "homeTeam": {
         "id": 496,
         "name": "Rio Ave FC",
@@ -91365,7 +91365,7 @@
           "nationality": "Greece"
         },
         "leagueRank": 15,
-        "formation": "3-4-2-1",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 135116,
@@ -91630,20 +91630,55 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 17,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "scorer": {
+            "id": 191408,
+            "name": "Rodri Alonso"
+          },
+          "assist": {
+            "id": 105208,
+            "name": "Kiko Bondoso"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 5,
+          "team": {
+            "id": 496,
+            "name": "Rio Ave FC"
+          },
+          "player": {
+            "id": 243745,
+            "name": "Tamble Monteiro"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
