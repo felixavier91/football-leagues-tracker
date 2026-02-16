@@ -115872,15 +115872,15 @@
       },
       "id": 544448,
       "utcDate": "2026-02-16T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadi Municipal de Montilivi",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-16T21:33:25Z",
+      "lastUpdated": "2026-02-16T21:51:44Z",
       "homeTeam": {
         "id": 298,
         "name": "Girona FC",
@@ -116177,13 +116177,38 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 202283,
+            "name": "Lamine Yamal"
+          },
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scored": false
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 41,
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "player": {
+            "id": 101345,
+            "name": "Eric García"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
