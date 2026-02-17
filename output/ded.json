@@ -100712,15 +100712,15 @@
       },
       "id": 537646,
       "utcDate": "2026-02-17T19:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 84,
       "injuryTime": null,
       "attendance": null,
       "venue": "Het Kasteel",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-17T20:55:12Z",
+      "lastUpdated": "2026-02-17T21:34:57Z",
       "homeTeam": {
         "id": 6806,
         "name": "Sparta Rotterdam",
@@ -101043,15 +101043,58 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 64,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "scorer": {
+            "id": 7949,
+            "name": "Bruno Martins Indi"
+          },
+          "assist": {
+            "id": 254333,
+            "name": "Marvin Young"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 73,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "scorer": {
+            "id": 48659,
+            "name": "Koki Ogawa"
+          },
+          "assist": {
+            "id": 217935,
+            "name": "Kodai Sano"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -101063,6 +101106,54 @@
           "player": {
             "id": 289506,
             "name": "Lushendry Martes"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 65,
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "player": {
+            "id": 184259,
+            "name": "Willum Thór Willumsson"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 66,
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "player": {
+            "id": 177433,
+            "name": "Deveron Fonville"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 73,
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "player": {
+            "id": 38122,
+            "name": "Joshua Kitolano"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 73,
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "player": {
+            "id": 4286,
+            "name": "Pelle Clement"
           },
           "card": "YELLOW"
         }
