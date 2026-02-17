@@ -71481,14 +71481,14 @@
       "id": 552055,
       "utcDate": "2026-02-17T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 16,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Nef Stadyumu",
       "matchday": 1,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-17T19:01:57Z",
+      "lastUpdated": "2026-02-17T19:32:12Z",
       "homeTeam": {
         "id": 610,
         "name": "Galatasaray SK",
@@ -71784,11 +71784,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": null,
@@ -71831,10 +71831,68 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 32,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "scorer": {
+            "id": 7693,
+            "name": "Teun Koopmeiners"
+          },
+          "assist": {
+            "id": 6507,
+            "name": "Weston McKennie"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 18,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "player": {
+            "id": 124865,
+            "name": "Andrea Cambiaso"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 37,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "player": {
+            "id": 10997,
+            "name": "Luciano Spalletti"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 43,
+          "team": {
+            "id": 610,
+            "name": "Galatasaray SK"
+          },
+          "player": {
+            "id": 168955,
+            "name": "Gabriel Sara"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
