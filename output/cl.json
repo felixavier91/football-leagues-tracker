@@ -72051,15 +72051,15 @@
       },
       "id": 552052,
       "utcDate": "2026-02-17T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 59,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio da Luz",
       "matchday": 1,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-17T21:57:14Z",
+      "lastUpdated": "2026-02-17T22:17:33Z",
       "homeTeam": {
         "id": 1903,
         "name": "Sport Lisboa e Benfica",
@@ -72373,20 +72373,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 50,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 1556,
+            "name": "Vinicius Junior"
+          },
+          "assist": {
+            "id": 3374,
+            "name": "Kylian Mbappé"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 50,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "player": {
+            "id": 1556,
+            "name": "Vinicius Junior"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -72443,15 +72478,15 @@
       },
       "id": 552053,
       "utcDate": "2026-02-17T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 58,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Louis II",
       "matchday": 1,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-17T21:57:14Z",
+      "lastUpdated": "2026-02-17T22:17:33Z",
       "homeTeam": {
         "id": 548,
         "name": "AS Monaco FC",
@@ -72866,6 +72901,18 @@
             "name": "Denis Zakaria"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 48,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "player": {
+            "id": 3683,
+            "name": "Aleksandr Golovin"
+          },
+          "card": "RED"
         }
       ],
       "substitutions": [],
@@ -72924,15 +72971,15 @@
       },
       "id": 552057,
       "utcDate": "2026-02-17T20:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Signal Iduna Park",
       "matchday": 1,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-17T21:57:14Z",
+      "lastUpdated": "2026-02-17T22:17:34Z",
       "homeTeam": {
         "id": 4,
         "name": "Borussia Dortmund",
@@ -73249,12 +73296,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "goals": [
@@ -73276,6 +73323,27 @@
           },
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "scorer": {
+            "id": 133903,
+            "name": "Maximilian Beier"
+          },
+          "assist": {
+            "id": 211,
+            "name": "Sehrou Guirassy"
+          },
+          "score": {
+            "home": 2,
             "away": 0
           }
         }
@@ -73315,6 +73383,18 @@
           "player": {
             "id": 170381,
             "name": "Berat Djimsiti"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "player": {
+            "id": 2681,
+            "name": "Gianluca Scamacca"
           },
           "card": "YELLOW"
         }
