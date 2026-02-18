@@ -74103,15 +74103,15 @@
       },
       "id": 552056,
       "utcDate": "2026-02-18T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 23,
       "injuryTime": null,
       "attendance": null,
       "venue": "Jan Breydel Stadion",
       "matchday": 1,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-18T19:51:38Z",
+      "lastUpdated": "2026-02-18T21:23:57Z",
       "homeTeam": {
         "id": 851,
         "name": "Club Brugge KV",
@@ -74413,20 +74413,64 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 8,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "scorer": {
+            "id": 98571,
+            "name": "Julián Álvarez"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 98571,
+            "name": "Julián Álvarez"
+          },
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 22,
+          "team": {
+            "id": 851,
+            "name": "Club Brugge KV"
+          },
+          "player": {
+            "id": 11862,
+            "name": "Ivan Leko"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -74483,15 +74527,15 @@
       },
       "id": 552058,
       "utcDate": "2026-02-18T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 23,
       "injuryTime": null,
       "attendance": null,
       "venue": "Georgios Karaiskakis",
       "matchday": 1,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-18T19:51:14Z",
+      "lastUpdated": "2026-02-18T21:23:57Z",
       "homeTeam": {
         "id": 654,
         "name": "PAE Olympiakos SFP",
@@ -74805,11 +74849,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -74818,7 +74862,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 13,
+          "team": {
+            "id": 654,
+            "name": "PAE Olympiakos SFP"
+          },
+          "player": {
+            "id": 172417,
+            "name": "Ayoub El Kaabi"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -74875,15 +74932,15 @@
       },
       "id": 552059,
       "utcDate": "2026-02-18T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 23,
       "injuryTime": null,
       "attendance": null,
       "venue": "Aspmyra Stadion",
       "matchday": 1,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-18T19:52:39Z",
+      "lastUpdated": "2026-02-18T21:23:57Z",
       "homeTeam": {
         "id": 5721,
         "name": "FK Bodø/Glimt",
@@ -75191,18 +75248,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 20,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5721,
+            "name": "FK Bodø/Glimt"
+          },
+          "scorer": {
+            "id": 44413,
+            "name": "Sondre Fet"
+          },
+          "assist": {
+            "id": 184735,
+            "name": "Kasper Högh"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

@@ -116360,15 +116360,15 @@
       },
       "id": 544364,
       "utcDate": "2026-02-18T19:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 65,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Ciudad de Valencia",
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-18T20:58:02Z",
+      "lastUpdated": "2026-02-18T21:23:12Z",
       "homeTeam": {
         "id": 88,
         "name": "Levante UD",
@@ -116664,18 +116664,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 57,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "scorer": {
+            "id": 136646,
+            "name": "Georges Mikautadze"
+          },
+          "assist": {
+            "id": 8412,
+            "name": "Nicolas Pépé"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -116699,6 +116721,18 @@
           "player": {
             "id": 126913,
             "name": "Iker Losada"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 60,
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "player": {
+            "id": 7936,
+            "name": "Ayoze Pérez"
           },
           "card": "YELLOW"
         }
