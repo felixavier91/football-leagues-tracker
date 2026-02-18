@@ -73549,14 +73549,14 @@
       "id": 552054,
       "utcDate": "2026-02-18T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 14,
+      "minute": 41,
       "injuryTime": null,
       "attendance": null,
       "venue": "Tofig Bakhramov",
       "matchday": 1,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-18T18:59:47Z",
+      "lastUpdated": "2026-02-18T19:27:07Z",
       "homeTeam": {
         "id": 611,
         "name": "Qarabağ Ağdam FK",
@@ -73862,7 +73862,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 2
+          "away": 4
         },
         "halfTime": {
           "home": null,
@@ -73911,9 +73911,57 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 32,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "scorer": {
+            "id": 7848,
+            "name": "Anthony Gordon"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 3
+          }
+        },
+        {
+          "minute": 33,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "scorer": {
+            "id": 7848,
+            "name": "Anthony Gordon"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 4
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 7848,
+            "name": "Anthony Gordon"
+          },
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {
@@ -74031,7 +74079,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 30960,
+          "name": "Glenn Nyberg",
+          "type": "REFEREE",
+          "nationality": "Sweden"
+        },
+        {
+          "id": 30962,
+          "name": "Mahbod Beigi",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Sweden"
+        },
+        {
+          "id": 217396,
+          "name": "Andreas Söderqvist",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Sweden"
+        }
+      ]
     },
     {
       "area": {
@@ -74124,7 +74191,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 38806,
+          "name": "João Pinheiro",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 37731,
+          "name": "Bruno Jesus",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 37591,
+          "name": "Luciano Maia",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
@@ -74217,7 +74303,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 15408,
+          "name": "Daniel Siebert",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        },
+        {
+          "id": 15409,
+          "name": "Jan Seidel",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Germany"
+        },
+        {
+          "id": 43880,
+          "name": "Rafael Foltyn",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Germany"
+        }
+      ]
     },
     {
       "area": {
