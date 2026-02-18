@@ -74104,14 +74104,14 @@
       "id": 552056,
       "utcDate": "2026-02-18T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 65,
+      "minute": 87,
       "injuryTime": null,
       "attendance": null,
       "venue": "Jan Breydel Stadion",
       "matchday": 1,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-18T22:24:47Z",
+      "lastUpdated": "2026-02-18T22:47:12Z",
       "homeTeam": {
         "id": 851,
         "name": "Club Brugge KV",
@@ -74413,11 +74413,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": 0,
@@ -74502,6 +74502,24 @@
             "home": 2,
             "away": 2
           }
+        },
+        {
+          "minute": 79,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 851,
+            "name": "Club Brugge KV"
+          },
+          "scorer": {
+            "id": 178928,
+            "name": "Joel Ordoñez"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 3
+          }
         }
       ],
       "penalties": [
@@ -74539,6 +74557,18 @@
           "player": {
             "id": 176745,
             "name": "Marc Pubill"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 76,
+          "team": {
+            "id": 851,
+            "name": "Club Brugge KV"
+          },
+          "player": {
+            "id": 170776,
+            "name": "Raphael Onyedika"
           },
           "card": "YELLOW"
         }
@@ -74600,14 +74630,14 @@
       "id": 552058,
       "utcDate": "2026-02-18T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 59,
+      "minute": 81,
       "injuryTime": null,
       "attendance": null,
       "venue": "Georgios Karaiskakis",
       "matchday": 1,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-18T22:24:47Z",
+      "lastUpdated": "2026-02-18T22:47:12Z",
       "homeTeam": {
         "id": 654,
         "name": "PAE Olympiakos SFP",
@@ -74921,18 +74951,61 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 60,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "scorer": {
+            "id": 1826,
+            "name": "Patrik Schick"
+          },
+          "assist": {
+            "id": 167793,
+            "name": "Ernest Poku"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 63,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "scorer": {
+            "id": 1826,
+            "name": "Patrik Schick"
+          },
+          "assist": {
+            "id": 16739,
+            "name": "Alejandro Grimaldo"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -75017,14 +75090,14 @@
       "id": 552059,
       "utcDate": "2026-02-18T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 67,
+      "minute": 90,
       "injuryTime": null,
       "attendance": null,
       "venue": "Aspmyra Stadion",
       "matchday": 1,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-18T22:24:47Z",
+      "lastUpdated": "2026-02-18T22:47:07Z",
       "homeTeam": {
         "id": 5721,
         "name": "FK Bodø/Glimt",
@@ -75440,6 +75513,18 @@
           "player": {
             "id": 215433,
             "name": "Francesco Esposito"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 77,
+          "team": {
+            "id": 5721,
+            "name": "FK Bodø/Glimt"
+          },
+          "player": {
+            "id": 167108,
+            "name": "Ole Blomberg"
           },
           "card": "YELLOW"
         }
