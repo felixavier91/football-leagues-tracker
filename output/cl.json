@@ -73548,15 +73548,15 @@
       },
       "id": 552054,
       "utcDate": "2026-02-18T17:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 14,
       "injuryTime": null,
       "attendance": null,
       "venue": "Tofig Bakhramov",
       "matchday": 1,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-18T17:39:12Z",
+      "lastUpdated": "2026-02-18T18:59:47Z",
       "homeTeam": {
         "id": 611,
         "name": "Qarabağ Ağdam FK",
@@ -73858,18 +73858,61 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 3,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "scorer": {
+            "id": 7848,
+            "name": "Anthony Gordon"
+          },
+          "assist": {
+            "id": 4870,
+            "name": "Dan Burn"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 8,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "scorer": {
+            "id": 142732,
+            "name": "Malick Thiaw"
+          },
+          "assist": {
+            "id": 3312,
+            "name": "Kieran Trippier"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
