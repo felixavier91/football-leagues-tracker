@@ -123408,14 +123408,14 @@
       "id": 537046,
       "utcDate": "2026-02-18T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 57,
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-18T22:06:22Z",
+      "lastUpdated": "2026-02-18T22:24:17Z",
       "homeTeam": {
         "id": 98,
         "name": "AC Milan",
@@ -123717,10 +123717,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -123746,6 +123746,27 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 64,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "scorer": {
+            "id": 15892,
+            "name": "Rafael Leão"
+          },
+          "assist": {
+            "id": 144909,
+            "name": "Ardon Jasari"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -123759,6 +123780,42 @@
           "player": {
             "id": 203511,
             "name": "Nico Paz"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 63,
+          "team": {
+            "id": 7397,
+            "name": "Como 1907"
+          },
+          "player": {
+            "id": 9186,
+            "name": "Jean Butez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 68,
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "player": {
+            "id": 15892,
+            "name": "Rafael Leão"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 68,
+          "team": {
+            "id": 7397,
+            "name": "Como 1907"
+          },
+          "player": {
+            "id": 247056,
+            "name": "Jacobo Ramón"
           },
           "card": "YELLOW"
         }
