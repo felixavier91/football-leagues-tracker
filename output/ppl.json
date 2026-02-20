@@ -91808,15 +91808,15 @@
       },
       "id": 545901,
       "utcDate": "2026-02-20T20:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 34,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Gomes",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-20T22:23:48Z",
+      "lastUpdated": "2026-02-20T22:41:52Z",
       "homeTeam": {
         "id": 9136,
         "name": "CF Estrela da Amadora",
@@ -92101,8 +92101,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -92138,7 +92138,20 @@
           "scored": true
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 41,
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "player": {
+            "id": 291311,
+            "name": "Eddy Doué"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

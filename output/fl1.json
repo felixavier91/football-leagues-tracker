@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 198
+    "played": 199
   },
   "competition": {
     "id": 2015,
@@ -91641,15 +91641,15 @@
       },
       "id": 542612,
       "utcDate": "2026-02-20T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 82,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Stade Francis-Le Blé",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-20T22:23:38Z",
+      "lastUpdated": "2026-02-20T22:39:28Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -91979,7 +91979,19 @@
           }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 101075,
+            "name": "Mason Greenwood"
+          },
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "scored": false
+        }
+      ],
       "bookings": [
         {
           "minute": 67,
@@ -92014,6 +92026,30 @@
           "player": {
             "id": 97536,
             "name": "Quinten Timber"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 89,
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "player": {
+            "id": 188476,
+            "name": "Ethan Nwaneri"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "player": {
+            "id": 170409,
+            "name": "Bilal Nadir"
           },
           "card": "YELLOW"
         }

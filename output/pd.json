@@ -116361,14 +116361,14 @@
       "id": 544452,
       "utcDate": "2026-02-20T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 64,
+      "minute": 82,
       "injuryTime": null,
       "attendance": 46654,
       "venue": "San Mames Barria",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-20T22:23:08Z",
+      "lastUpdated": "2026-02-20T22:41:17Z",
       "homeTeam": {
         "id": 77,
         "name": "Athletic Club",
@@ -116685,16 +116685,68 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 64,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "scorer": {
+            "id": 81565,
+            "name": "Gorka Guruzeta"
+          },
+          "assist": {
+            "id": 8479,
+            "name": "Yuri Berchiche"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 69,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "scorer": {
+            "id": 1760,
+            "name": "André Silva"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 1760,
+            "name": "André Silva"
+          },
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 11,
@@ -116729,6 +116781,18 @@
           "player": {
             "id": 202335,
             "name": "Unai Gomez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 67,
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "player": {
+            "id": 32581,
+            "name": "Iñigo Lekue"
           },
           "card": "YELLOW"
         }
