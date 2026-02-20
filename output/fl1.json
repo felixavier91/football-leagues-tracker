@@ -91642,14 +91642,14 @@
       "id": 542612,
       "utcDate": "2026-02-20T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 67,
+      "minute": 82,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Francis-Le Blé",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-20T22:08:53Z",
+      "lastUpdated": "2026-02-20T22:23:38Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -91980,7 +91980,44 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 67,
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "player": {
+            "id": 8093,
+            "name": "Pierre Emile Højbjerg"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 71,
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "player": {
+            "id": 723,
+            "name": "Ludovic Ajorque"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 78,
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "player": {
+            "id": 97536,
+            "name": "Quinten Timber"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
