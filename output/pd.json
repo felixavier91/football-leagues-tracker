@@ -116361,14 +116361,14 @@
       "id": 544452,
       "utcDate": "2026-02-20T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 82,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": 46654,
       "venue": "San Mames Barria",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-20T22:41:17Z",
+      "lastUpdated": "2026-02-20T22:56:22Z",
       "homeTeam": {
         "id": 77,
         "name": "Athletic Club",
@@ -116682,10 +116682,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -116732,6 +116732,24 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 89,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "scorer": {
+            "id": 81565,
+            "name": "Gorka Guruzeta"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [
@@ -116743,6 +116761,17 @@
           "team": {
             "id": 285,
             "name": "Elche CF"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 81565,
+            "name": "Gorka Guruzeta"
+          },
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
           },
           "scored": true
         }
@@ -116793,6 +116822,30 @@
           "player": {
             "id": 32581,
             "name": "Iñigo Lekue"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 88,
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "player": {
+            "id": 33318,
+            "name": "Pedro Bigas"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "player": {
+            "id": 289717,
+            "name": "Éder García"
           },
           "card": "YELLOW"
         }
