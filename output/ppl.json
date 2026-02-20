@@ -91809,14 +91809,14 @@
       "id": 545901,
       "utcDate": "2026-02-20T20:45:00Z",
       "status": "IN_PLAY",
-      "minute": 2,
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Gomes",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-20T21:51:34Z",
+      "lastUpdated": "2026-02-20T22:09:03Z",
       "homeTeam": {
         "id": 9136,
         "name": "CF Estrela da Amadora",
@@ -92094,19 +92094,50 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 4,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 1049,
+            "name": "CD Tondela"
+          },
+          "scorer": {
+            "id": 45331,
+            "name": "Bebeto"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 45331,
+            "name": "Bebeto"
+          },
+          "team": {
+            "id": 1049,
+            "name": "CD Tondela"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {
