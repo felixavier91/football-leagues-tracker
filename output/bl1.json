@@ -92669,15 +92669,15 @@
       },
       "id": 540612,
       "utcDate": "2026-02-20T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 34,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "MEWA ARENA",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-20T21:14:27Z",
+      "lastUpdated": "2026-02-20T21:33:34Z",
       "homeTeam": {
         "id": 15,
         "name": "1. FSV Mainz 05",
@@ -92955,18 +92955,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "scorer": {
+            "id": 320,
+            "name": "Nadiem Amiri"
+          },
+          "assist": {
+            "id": 6707,
+            "name": "Danny da Costa"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -93014,6 +93036,18 @@
           "player": {
             "id": 50215,
             "name": "Miro Muheim"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "player": {
+            "id": 152,
+            "name": "Dominik Kohr"
           },
           "card": "YELLOW"
         }

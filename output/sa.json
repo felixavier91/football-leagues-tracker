@@ -123895,15 +123895,15 @@
       },
       "id": 537073,
       "utcDate": "2026-02-20T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 29,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Mapei - Citta del Tricolore",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-20T21:14:29Z",
+      "lastUpdated": "2026-02-20T21:33:44Z",
       "homeTeam": {
         "id": 471,
         "name": "US Sassuolo Calcio",
@@ -124229,19 +124229,71 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 40,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio"
+          },
+          "scorer": {
+            "id": 2016,
+            "name": "Andrea Pinamonti"
+          },
+          "assist": {
+            "id": 8822,
+            "name": "Armand Lauriente"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 44,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio"
+          },
+          "scorer": {
+            "id": 2202,
+            "name": "Domenico Berardi"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 2202,
+            "name": "Domenico Berardi"
+          },
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio"
+          },
+          "scored": false
+        }
+      ],
       "bookings": [
         {
           "minute": 17,
@@ -124252,6 +124304,18 @@
           "player": {
             "id": 123103,
             "name": "Woyo Coulibaly"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 39,
+          "team": {
+            "id": 450,
+            "name": "Hellas Verona FC"
+          },
+          "player": {
+            "id": 192506,
+            "name": "Andrias Edmundsson"
           },
           "card": "YELLOW"
         }

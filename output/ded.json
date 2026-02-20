@@ -101267,14 +101267,14 @@
       "id": 537652,
       "utcDate": "2026-02-20T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 53,
+      "minute": 73,
       "injuryTime": null,
       "attendance": null,
       "venue": "Fortuna Sittard Stadion",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-20T21:15:02Z",
+      "lastUpdated": "2026-02-20T21:34:07Z",
       "homeTeam": {
         "id": 1920,
         "name": "Fortuna Sittard",
@@ -101443,7 +101443,7 @@
           "nationality": "Netherlands"
         },
         "leagueRank": 12,
-        "formation": "4-3-3",
+        "formation": "5-4-1",
         "lineup": [
           {
             "id": 53496,
@@ -101567,7 +101567,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -101593,6 +101593,27 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 58,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "scorer": {
+            "id": 7574,
+            "name": "Kaj Sierhuis"
+          },
+          "assist": {
+            "id": 81053,
+            "name": "Lance Duijvestijn"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
       "penalties": [
@@ -101608,7 +101629,32 @@
           "scored": true
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 53,
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "player": {
+            "id": 171440,
+            "name": "Philip Brittijn"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 62,
+          "team": {
+            "id": 670,
+            "name": "SBV Excelsior"
+          },
+          "player": {
+            "id": 149181,
+            "name": "Rick Meissen"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
