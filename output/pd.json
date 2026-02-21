@@ -118474,14 +118474,14 @@
       "id": 544453,
       "utcDate": "2026-02-21T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 70,
+      "minute": 86,
       "injuryTime": null,
       "attendance": 56412,
       "venue": "Estadio Cívitas Metropolitano",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T22:31:48Z",
+      "lastUpdated": "2026-02-21T22:47:37Z",
       "homeTeam": {
         "id": 78,
         "name": "Club Atlético de Madrid",
@@ -118786,8 +118786,8 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
-          "away": 1
+          "home": 4,
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -118875,10 +118875,62 @@
             "home": 3,
             "away": 1
           }
+        },
+        {
+          "minute": 72,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "scorer": {
+            "id": 8167,
+            "name": "Alexander Sørloth"
+          },
+          "assist": {
+            "id": 151241,
+            "name": "Matteo Ruggeri"
+          },
+          "score": {
+            "home": 4,
+            "away": 1
+          }
+        },
+        {
+          "minute": 80,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "scorer": {
+            "id": 33652,
+            "name": "Edu Expósito"
+          },
+          "assist": null,
+          "score": {
+            "home": 4,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 83,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 99859,
+            "name": "Cyril Ngonge"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
