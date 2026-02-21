@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 199
+    "played": 200
   },
   "competition": {
     "id": 2015,
@@ -92105,15 +92105,15 @@
       },
       "id": 542610,
       "utcDate": "2026-02-21T16:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 5,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Stade Bollaert-Delelis",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T18:57:37Z",
+      "lastUpdated": "2026-02-21T19:00:37Z",
       "homeTeam": {
         "id": 546,
         "name": "Racing Club de Lens",
@@ -92593,15 +92593,15 @@
       },
       "id": 542606,
       "utcDate": "2026-02-21T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 15,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadium de Toulouse",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T18:10:59Z",
+      "lastUpdated": "2026-02-21T19:15:09Z",
       "homeTeam": {
         "id": 511,
         "name": "Toulouse FC",
@@ -92879,11 +92879,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -93004,7 +93004,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57501,
+          "name": "Abdelatif Kherradji",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 76759,
+          "name": "Ludovic Reyes",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 206183,
+          "name": "Husseyin Ocak",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {

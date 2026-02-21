@@ -95134,14 +95134,14 @@
       "id": 540606,
       "utcDate": "2026-02-21T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 27,
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Red Bull Arena Leipzig",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T18:57:18Z",
+      "lastUpdated": "2026-02-21T19:14:37Z",
       "homeTeam": {
         "id": 721,
         "name": "RB Leipzig",
@@ -95422,7 +95422,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -95451,10 +95451,56 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 39,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "scorer": {
+            "id": 56829,
+            "name": "Christoph Baumgartner"
+          },
+          "assist": {
+            "id": 9905,
+            "name": "David Raum"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 30,
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "player": {
+            "id": 178783,
+            "name": "Romulo Cruz"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 41,
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "player": {
+            "id": 56829,
+            "name": "Christoph Baumgartner"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

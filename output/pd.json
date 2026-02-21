@@ -117953,14 +117953,14 @@
       "id": 544458,
       "utcDate": "2026-02-21T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 25,
+      "minute": 42,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio El Sadar",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T18:56:59Z",
+      "lastUpdated": "2026-02-21T19:14:28Z",
       "homeTeam": {
         "id": 79,
         "name": "CA Osasuna",
@@ -118262,10 +118262,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -118273,9 +118273,65 @@
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 38,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "scorer": {
+            "id": 2237,
+            "name": "Ante Budimir"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 2237,
+            "name": "Ante Budimir"
+          },
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 32,
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "player": {
+            "id": 119093,
+            "name": "Aimar Oroz"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 37,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "player": {
+            "id": 3641,
+            "name": "Thibaut Courtois"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -118387,7 +118443,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 215569,
+          "name": "Alejandro Muñiz Ruiz",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        },
+        {
+          "id": 215533,
+          "name": "Diego Sánchez Rojo",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 215571,
+          "name": "Fabián Blanco Rodríguez",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
