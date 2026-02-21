@@ -93146,14 +93146,14 @@
       "id": 540604,
       "utcDate": "2026-02-21T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 7,
+      "minute": 22,
       "injuryTime": null,
       "attendance": null,
       "venue": "An der Alten Försterei",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T15:37:25Z",
+      "lastUpdated": "2026-02-21T15:51:38Z",
       "homeTeam": {
         "id": 28,
         "name": "1. FC Union Berlin",
@@ -93456,6 +93456,18 @@
             "name": "Stanley N'Soki"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 10,
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "player": {
+            "id": 9489,
+            "name": "Janik Haberer"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -93510,14 +93522,14 @@
       "id": 540605,
       "utcDate": "2026-02-21T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 5,
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Arena",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T15:37:25Z",
+      "lastUpdated": "2026-02-21T15:51:38Z",
       "homeTeam": {
         "id": 5,
         "name": "FC Bayern München",
@@ -93795,10 +93807,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -93806,7 +93818,26 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 16,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 202665,
+            "name": "Aleksandar Pavlović"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -93861,14 +93892,14 @@
       "id": 540610,
       "utcDate": "2026-02-21T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 7,
+      "minute": 22,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volkswagen Arena",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T15:37:25Z",
+      "lastUpdated": "2026-02-21T15:51:39Z",
       "homeTeam": {
         "id": 11,
         "name": "VfL Wolfsburg",
@@ -94159,7 +94190,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 17,
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "player": {
+            "id": 23214,
+            "name": "Lovro Majer"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -94212,14 +94256,14 @@
       "id": 540611,
       "utcDate": "2026-02-21T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 7,
+      "minute": 22,
       "injuryTime": null,
       "attendance": null,
       "venue": "RheinEnergieStadion",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T15:37:25Z",
+      "lastUpdated": "2026-02-21T15:51:39Z",
       "homeTeam": {
         "id": 1,
         "name": "1. FC Köln",
@@ -94509,10 +94553,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -94520,7 +94564,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 15,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "scorer": {
+            "id": 7772,
+            "name": "Ragnar Ache"
+          },
+          "assist": {
+            "id": 247659,
+            "name": "Said El Mala"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
