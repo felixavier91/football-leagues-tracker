@@ -102225,14 +102225,14 @@
       "id": 537654,
       "utcDate": "2026-02-21T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 73,
+      "minute": 89,
       "injuryTime": null,
       "attendance": null,
       "venue": "Rat Verlegh",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T21:33:07Z",
+      "lastUpdated": "2026-02-21T21:49:32Z",
       "homeTeam": {
         "id": 681,
         "name": "NAC Breda",
@@ -102534,10 +102534,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -102545,7 +102545,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 87,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 681,
+            "name": "NAC Breda"
+          },
+          "scorer": {
+            "id": 282687,
+            "name": "Pepijn Reulen"
+          },
+          "assist": {
+            "id": 193091,
+            "name": "Raul Paula"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -102569,6 +102591,30 @@
           "player": {
             "id": 188075,
             "name": "Dave Kwakman"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 80,
+          "team": {
+            "id": 1919,
+            "name": "FC Volendam"
+          },
+          "player": {
+            "id": 215429,
+            "name": "Nordin Bukala"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 81,
+          "team": {
+            "id": 1919,
+            "name": "FC Volendam"
+          },
+          "player": {
+            "id": 214142,
+            "name": "Joël Ideho"
           },
           "card": "YELLOW"
         }
@@ -102625,14 +102671,14 @@
       "id": 537648,
       "utcDate": "2026-02-21T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 31,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Johan Cruijff ArenA",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T21:33:08Z",
+      "lastUpdated": "2026-02-21T21:49:36Z",
       "homeTeam": {
         "id": 678,
         "name": "AFC Ajax",
@@ -102946,10 +102992,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -102957,7 +103003,26 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 39,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "scorer": {
+            "id": 189574,
+            "name": "Mika Godts"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
