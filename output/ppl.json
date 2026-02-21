@@ -92293,15 +92293,15 @@
       },
       "id": 545902,
       "utcDate": "2026-02-21T15:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 58,
       "injuryTime": null,
       "attendance": null,
       "venue": "Centro de Formação do FC Alverca",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T17:33:33Z",
+      "lastUpdated": "2026-02-21T17:52:16Z",
       "homeTeam": {
         "id": 7822,
         "name": "FC Alverca",
@@ -92700,15 +92700,15 @@
       },
       "id": 545903,
       "utcDate": "2026-02-21T15:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 65,
       "injuryTime": null,
       "attendance": null,
       "venue": "Municipal de Arouca",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T17:33:33Z",
+      "lastUpdated": "2026-02-21T17:52:17Z",
       "homeTeam": {
         "id": 712,
         "name": "FC Arouca",
@@ -92986,10 +92986,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -92997,7 +92997,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 47,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "scorer": {
+            "id": 143641,
+            "name": "Alfonso Trezza"
+          },
+          "assist": {
+            "id": 182405,
+            "name": "Hyun-Ju Lee"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -93021,6 +93043,66 @@
           "player": {
             "id": 270035,
             "name": "Chiheb Labidi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 51,
+          "team": {
+            "id": 5529,
+            "name": "CD Nacional"
+          },
+          "player": {
+            "id": 270035,
+            "name": "Chiheb Labidi"
+          },
+          "card": "YELLOW_RED"
+        },
+        {
+          "minute": 56,
+          "team": {
+            "id": 5529,
+            "name": "CD Nacional"
+          },
+          "player": {
+            "id": 136489,
+            "name": "Tiago Margarido"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 57,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 81391,
+            "name": "Barbero"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 62,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 214415,
+            "name": "Espen van Ee"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 64,
+          "team": {
+            "id": 5529,
+            "name": "CD Nacional"
+          },
+          "player": {
+            "id": 169570,
+            "name": "Zé Vitor"
           },
           "card": "YELLOW"
         }

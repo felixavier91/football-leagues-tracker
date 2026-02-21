@@ -119916,14 +119916,14 @@
       "id": 538046,
       "utcDate": "2026-02-21T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 73,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": 43048,
       "venue": "Villa Park",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T17:33:03Z",
+      "lastUpdated": "2026-02-21T17:51:25Z",
       "homeTeam": {
         "id": 58,
         "name": "Aston Villa FC",
@@ -120201,10 +120201,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -120228,6 +120228,24 @@
           "assist": null,
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 58,
+            "name": "Aston Villa FC"
+          },
+          "scorer": {
+            "id": 7985,
+            "name": "Tammy Abraham"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
@@ -120255,6 +120273,30 @@
           "player": {
             "id": 7913,
             "name": "Karl Darlow"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 73,
+          "team": {
+            "id": 58,
+            "name": "Aston Villa FC"
+          },
+          "player": {
+            "id": 31941,
+            "name": "Emiliano Buendía"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 79,
+          "team": {
+            "id": 341,
+            "name": "Leeds United FC"
+          },
+          "player": {
+            "id": 4184,
+            "name": "Jayden Bogle"
           },
           "card": "YELLOW"
         }
@@ -120311,14 +120353,14 @@
       "id": 538048,
       "utcDate": "2026-02-21T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 69,
+      "minute": 88,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 17163,
       "venue": "Brentford Community Stadium",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T17:33:03Z",
+      "lastUpdated": "2026-02-21T17:51:25Z",
       "homeTeam": {
         "id": 402,
         "name": "Brentford FC",
@@ -120724,14 +120766,14 @@
       "id": 538049,
       "utcDate": "2026-02-21T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 75,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Stamford Bridge",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T17:33:03Z",
+      "lastUpdated": "2026-02-21T17:51:25Z",
       "homeTeam": {
         "id": 61,
         "name": "Chelsea FC",
@@ -121009,11 +121051,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -121040,6 +121082,24 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 328,
+            "name": "Burnley FC"
+          },
+          "scorer": {
+            "id": 67893,
+            "name": "Zian Flemming"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
           }
         }
       ],
@@ -121080,6 +121140,18 @@
             "name": "Wesley Fofana"
           },
           "card": "YELLOW_RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "player": {
+            "id": 135555,
+            "name": "Robert Sánchez"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
