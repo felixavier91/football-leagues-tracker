@@ -101727,15 +101727,15 @@
       },
       "id": 537655,
       "utcDate": "2026-02-21T17:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 29,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 34600,
       "venue": "Philips Stadion",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T19:15:19Z",
+      "lastUpdated": "2026-02-21T19:34:38Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -102031,15 +102031,15 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -102063,10 +102063,44 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 2004,
+            "name": "Ivan Perišić"
+          },
+          "assist": {
+            "id": 53426,
+            "name": "Joey Veerman"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 29,
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "player": {
+            "id": 15781,
+            "name": "Dennis Man"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -102132,7 +102166,7 @@
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T19:03:01Z",
+      "lastUpdated": "2026-02-21T19:18:01Z",
       "homeTeam": {
         "id": 681,
         "name": "NAC Breda",
@@ -102289,7 +102323,7 @@
           "nationality": "Netherlands"
         },
         "leagueRank": 14,
-        "formation": "4-1-4-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 186557,
