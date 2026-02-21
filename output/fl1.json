@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 200
+    "played": 201
   },
   "competition": {
     "id": 2015,
@@ -92593,7 +92593,7 @@
       },
       "id": 542606,
       "utcDate": "2026-02-21T18:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
       "injuryTime": 7,
       "attendance": null,
@@ -92601,7 +92601,7 @@
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T20:57:37Z",
+      "lastUpdated": "2026-02-21T20:59:02Z",
       "homeTeam": {
         "id": 511,
         "name": "Toulouse FC",
@@ -93060,15 +93060,15 @@
       },
       "id": 542608,
       "utcDate": "2026-02-21T20:05:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 5,
       "injuryTime": null,
       "attendance": null,
       "venue": "Parc des Princes",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T20:14:19Z",
+      "lastUpdated": "2026-02-21T21:11:14Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -93346,18 +93346,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 3,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 177522,
+            "name": "Desire Doue"
+          },
+          "assist": {
+            "id": 186089,
+            "name": "Warren Zaïre-Emery"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
