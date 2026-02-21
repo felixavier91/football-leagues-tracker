@@ -1002,7 +1002,7 @@
             
             .standings-table th,
             .standings-table td {
-                padding: 8px 6.5px;
+                padding: 8px 7px;
                 font-size: 13px;
             }
             
@@ -2253,6 +2253,19 @@
         
         function displayMatches(matches) {
             const container = document.getElementById('matchesContainer');
+            
+            // Filter out incorrect data: matches marked FINISHED but with future dates
+            const now = new Date();
+            matches = matches.filter(match => {
+                if (match.status === 'FINISHED') {
+                    const matchDate = new Date(match.utcDate);
+                    if (matchDate > now) {
+                        console.log(`⚠️ Filtering out incorrect match: ${match.homeTeam.name} vs ${match.awayTeam.name} - marked FINISHED but date is in future (${match.utcDate})`);
+                        return false;
+                    }
+                }
+                return true;
+            });
             
             if (matches.length === 0) {
                 container.innerHTML = '<div class="loading">No matches found</div>';
