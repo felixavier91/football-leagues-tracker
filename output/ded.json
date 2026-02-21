@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 208
+    "played": 209
   },
   "competition": {
     "id": 2003,
@@ -101727,15 +101727,15 @@
       },
       "id": 537655,
       "utcDate": "2026-02-21T17:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 68,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 3,
       "attendance": 34600,
       "venue": "Philips Stadion",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T20:11:38Z",
+      "lastUpdated": "2026-02-21T20:39:57Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -102034,7 +102034,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 1
         },
         "halfTime": {
@@ -102105,6 +102105,27 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 87,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 119731,
+            "name": "Ricardo Pepi"
+          },
+          "assist": {
+            "id": 130173,
+            "name": "Ismael Saibari"
+          },
+          "score": {
+            "home": 3,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -102130,6 +102151,18 @@
           "player": {
             "id": 125914,
             "name": "Ringo Meerveld"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 80,
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "player": {
+            "id": 137693,
+            "name": "Anass Salah-Eddine"
           },
           "card": "YELLOW"
         }
@@ -102192,14 +102225,14 @@
       "id": 537654,
       "utcDate": "2026-02-21T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 10,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Rat Verlegh",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T20:11:39Z",
+      "lastUpdated": "2026-02-21T20:47:58Z",
       "homeTeam": {
         "id": 681,
         "name": "NAC Breda",
@@ -102514,7 +102547,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 37,
+          "team": {
+            "id": 681,
+            "name": "NAC Breda"
+          },
+          "player": {
+            "id": 125169,
+            "name": "Charles-Andréas Brym"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 242
+    "played": 243
   },
   "competition": {
     "id": 2014,
@@ -117952,15 +117952,15 @@
       },
       "id": 544458,
       "utcDate": "2026-02-21T17:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 80,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": 22480,
       "venue": "Estadio El Sadar",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T20:10:52Z",
+      "lastUpdated": "2026-02-21T20:28:19Z",
       "homeTeam": {
         "id": 79,
         "name": "CA Osasuna",
@@ -118262,10 +118262,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -118310,6 +118310,27 @@
           },
           "score": {
             "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "scorer": {
+            "id": 130324,
+            "name": "Raúl"
+          },
+          "assist": {
+            "id": 146128,
+            "name": "Raúl Moro"
+          },
+          "score": {
+            "home": 2,
             "away": 1
           }
         }
@@ -118361,6 +118382,42 @@
           "player": {
             "id": 111674,
             "name": "Jon Moncayola"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 84,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "player": {
+            "id": 7867,
+            "name": "Trent Alexander-Arnold"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 88,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "player": {
+            "id": 1556,
+            "name": "Vinicius Junior"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "player": {
+            "id": 349,
+            "name": "David Alaba"
           },
           "card": "YELLOW"
         }
@@ -121087,7 +121144,7 @@
       "matchday": 16,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T16:16:27Z",
+      "lastUpdated": "2026-02-21T20:16:28Z",
       "homeTeam": {
         "id": 88,
         "name": "Levante UD",

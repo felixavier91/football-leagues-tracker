@@ -92594,14 +92594,14 @@
       "id": 542606,
       "utcDate": "2026-02-21T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 52,
+      "minute": 89,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadium de Toulouse",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T20:11:19Z",
+      "lastUpdated": "2026-02-21T20:47:38Z",
       "homeTeam": {
         "id": 511,
         "name": "Toulouse FC",
@@ -92911,6 +92911,24 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "scorer": {
+            "id": 285243,
+            "name": "Julián Vignolo"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -92936,6 +92954,42 @@
           "player": {
             "id": 176720,
             "name": "Diego Coppola"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 54,
+          "team": {
+            "id": 1045,
+            "name": "Paris FC"
+          },
+          "player": {
+            "id": 108520,
+            "name": "Ilan Kebbal"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 68,
+          "team": {
+            "id": 1045,
+            "name": "Paris FC"
+          },
+          "player": {
+            "id": 3175,
+            "name": "Kevin Trapp"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 77,
+          "team": {
+            "id": 1045,
+            "name": "Paris FC"
+          },
+          "player": {
+            "id": 151363,
+            "name": "Otavio Ataide"
           },
           "card": "YELLOW"
         }
@@ -92999,7 +93053,7 @@
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-15T01:32:04Z",
+      "lastUpdated": "2026-02-21T20:14:19Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -93012,7 +93066,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 2,
-        "formation": null,
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 49244,
@@ -93150,9 +93204,131 @@
           "nationality": "France"
         },
         "leagueRank": 18,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "5-4-1",
+        "lineup": [
+          {
+            "id": 246635,
+            "name": "Jonathan Fischer",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 192893,
+            "name": "Terry Yegbe",
+            "position": "Defence",
+            "shirtNumber": 15
+          },
+          {
+            "id": 216372,
+            "name": "Georgiy Tsitaishvili",
+            "position": "Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 456,
+            "name": "Habib Diallo",
+            "position": "Midfield",
+            "shirtNumber": 30
+          },
+          {
+            "id": 246674,
+            "name": "Lucas Michal",
+            "position": "Left Winger",
+            "shirtNumber": 19
+          },
+          {
+            "id": 133553,
+            "name": "Boubacar Traoré",
+            "position": "Defensive Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 261552,
+            "name": "Alpha Touré",
+            "position": "Defensive Midfield",
+            "shirtNumber": 12
+          },
+          {
+            "id": 45199,
+            "name": "Koffi Franck Kouao",
+            "position": "Right-Back",
+            "shirtNumber": 39
+          },
+          {
+            "id": 8403,
+            "name": "Fodé Ballo-Touré",
+            "position": "Left-Back",
+            "shirtNumber": 97
+          },
+          {
+            "id": 6623,
+            "name": "Jean-Philippe Gbamin",
+            "position": "Defensive Midfield",
+            "shirtNumber": 5
+          },
+          {
+            "id": 212866,
+            "name": "Sadibou Sané",
+            "position": "Centre-Back",
+            "shirtNumber": 38
+          }
+        ],
+        "bench": [
+          {
+            "id": 165062,
+            "name": "Ousmane Ba",
+            "position": "Goalkeeper",
+            "shirtNumber": 40
+          },
+          {
+            "id": 215172,
+            "name": "Urie-Michel Mboula",
+            "position": "Defence",
+            "shirtNumber": 4
+          },
+          {
+            "id": 119294,
+            "name": "Giorgi Abuashvili",
+            "position": "Midfield",
+            "shirtNumber": 9
+          },
+          {
+            "id": 288541,
+            "name": "Believe Munongo",
+            "position": "Midfield",
+            "shirtNumber": 33
+          },
+          {
+            "id": 10662,
+            "name": "Giorgi Kvilitaia",
+            "position": "Offence",
+            "shirtNumber": 11
+          },
+          {
+            "id": 290084,
+            "name": "Nathan Mbala",
+            "position": "Offence",
+            "shirtNumber": 34
+          },
+          {
+            "id": 8353,
+            "name": "Bouna Sarr",
+            "position": "Right-Back",
+            "shirtNumber": 70
+          },
+          {
+            "id": 8333,
+            "name": "Jessy Deminguet",
+            "position": "Central Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 4114,
+            "name": "Maxime Colin",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          }
+        ]
       },
       "score": {
         "winner": null,

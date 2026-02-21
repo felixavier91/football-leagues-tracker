@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 202
+    "played": 203
   },
   "competition": {
     "id": 2002,
@@ -95133,15 +95133,15 @@
       },
       "id": 540606,
       "utcDate": "2026-02-21T17:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 82,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 8,
       "attendance": 47800,
       "venue": "Red Bull Arena Leipzig",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T20:11:02Z",
+      "lastUpdated": "2026-02-21T20:28:57Z",
       "homeTeam": {
         "id": 721,
         "name": "RB Leipzig",
@@ -95419,11 +95419,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 2,
@@ -95489,6 +95489,27 @@
           "score": {
             "home": 2,
             "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 5,
+          "type": "REGULAR",
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "scorer": {
+            "id": 125151,
+            "name": "Fábio Silva"
+          },
+          "assist": {
+            "id": 82515,
+            "name": "Karim Adeyemi"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
           }
         }
       ],
