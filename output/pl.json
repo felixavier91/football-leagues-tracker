@@ -119915,15 +119915,15 @@
       },
       "id": 538046,
       "utcDate": "2026-02-21T15:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 22,
       "injuryTime": null,
       "attendance": null,
       "venue": "Villa Park",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T14:57:19Z",
+      "lastUpdated": "2026-02-21T16:23:55Z",
       "homeTeam": {
         "id": 58,
         "name": "Aston Villa FC",
@@ -120201,11 +120201,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -120266,15 +120266,15 @@
       },
       "id": 538048,
       "utcDate": "2026-02-21T15:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 23,
       "injuryTime": null,
       "attendance": null,
       "venue": "Brentford Community Stadium",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T14:58:47Z",
+      "lastUpdated": "2026-02-21T16:23:55Z",
       "homeTeam": {
         "id": 402,
         "name": "Brentford FC",
@@ -120552,11 +120552,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -120565,7 +120565,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 12,
+          "team": {
+            "id": 397,
+            "name": "Brighton & Hove Albion FC"
+          },
+          "player": {
+            "id": 97505,
+            "name": "Mats Wieffer"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -120617,15 +120630,15 @@
       },
       "id": 538049,
       "utcDate": "2026-02-21T15:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 23,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stamford Bridge",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T14:57:20Z",
+      "lastUpdated": "2026-02-21T16:23:55Z",
       "homeTeam": {
         "id": 61,
         "name": "Chelsea FC",
@@ -120903,18 +120916,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 4,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "scorer": {
+            "id": 103125,
+            "name": "João Pedro"
+          },
+          "assist": {
+            "id": 2074,
+            "name": "Pedro Neto"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
