@@ -116902,14 +116902,14 @@
       "id": 544460,
       "utcDate": "2026-02-21T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 61,
+      "minute": 79,
       "injuryTime": null,
       "attendance": 30917,
       "venue": "Reale Arena",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T15:19:40Z",
+      "lastUpdated": "2026-02-21T15:37:13Z",
       "homeTeam": {
         "id": 92,
         "name": "Real Sociedad de Fútbol",
@@ -117220,7 +117220,7 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 2
         },
         "halfTime": {
@@ -117267,6 +117267,27 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 64,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol"
+          },
+          "scorer": {
+            "id": 182319,
+            "name": "Orri Oskarsson"
+          },
+          "assist": {
+            "id": 164,
+            "name": "Sergio Gómez"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -117280,6 +117301,18 @@
           "player": {
             "id": 164,
             "name": "Sergio Gómez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 70,
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "player": {
+            "id": 79960,
+            "name": "Kwasi Sibo"
           },
           "card": "YELLOW"
         }
@@ -117343,7 +117376,7 @@
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-16T01:32:02Z",
+      "lastUpdated": "2026-02-21T15:21:08Z",
       "homeTeam": {
         "id": 90,
         "name": "Real Betis Balompié",
@@ -117356,7 +117389,7 @@
           "nationality": "Chile"
         },
         "leagueRank": 5,
-        "formation": null,
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 100130,
@@ -117512,9 +117545,149 @@
           "nationality": "Spain"
         },
         "leagueRank": 17,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 46245,
+            "name": "Augusto Batalla",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 176202,
+            "name": "Ilias Akhomach",
+            "position": "Right Winger",
+            "shirtNumber": 12
+          },
+          {
+            "id": 133276,
+            "name": "Jorge de Frutos",
+            "position": "Right Winger",
+            "shirtNumber": 19
+          },
+          {
+            "id": 187117,
+            "name": "Fran Perez",
+            "position": "Right Winger",
+            "shirtNumber": 21
+          },
+          {
+            "id": 33496,
+            "name": "Isi Palazón",
+            "position": "Right Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 32109,
+            "name": "Óscar Valentín",
+            "position": "Central Midfield",
+            "shirtNumber": 23
+          },
+          {
+            "id": 33711,
+            "name": "Gerard Gumbau",
+            "position": "Defensive Midfield",
+            "shirtNumber": 15
+          },
+          {
+            "id": 114955,
+            "name": "Andrei Rațiu",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 7925,
+            "name": "Florian Lejeune",
+            "position": "Centre-Back",
+            "shirtNumber": 24
+          },
+          {
+            "id": 190558,
+            "name": "Nobel Mendy",
+            "position": "Centre-Back",
+            "shirtNumber": 32
+          },
+          {
+            "id": 28384,
+            "name": "Alfonso Espino",
+            "position": "Left-Back",
+            "shirtNumber": 22
+          }
+        ],
+        "bench": [
+          {
+            "id": 182191,
+            "name": "Gil Juanpe",
+            "position": "Goalkeeper",
+            "shirtNumber": 30
+          },
+          {
+            "id": 106014,
+            "name": "Alexandre Alemão",
+            "position": "Offence",
+            "shirtNumber": 9
+          },
+          {
+            "id": 32116,
+            "name": "Óscar Trejo",
+            "position": "Attacking Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 2071,
+            "name": "Luiz Felipe",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 98032,
+            "name": "Randy Ntekja",
+            "position": "Attacking Midfield",
+            "shirtNumber": 11
+          },
+          {
+            "id": 175937,
+            "name": "Carlos Martin",
+            "position": "Left Winger",
+            "shirtNumber": 14
+          },
+          {
+            "id": 32124,
+            "name": "Unai López",
+            "position": "Central Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 32312,
+            "name": "Álvaro García",
+            "position": "Left Winger",
+            "shirtNumber": 18
+          },
+          {
+            "id": 32228,
+            "name": "Pedro Díaz",
+            "position": "Central Midfield",
+            "shirtNumber": 4
+          },
+          {
+            "id": 37649,
+            "name": "Pathé Ciss",
+            "position": "Central Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 151251,
+            "name": "Pep Chavarría",
+            "position": "Left-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 8716,
+            "name": "Iván Balliu",
+            "position": "Right-Back",
+            "shirtNumber": 20
+          }
+        ]
       },
       "score": {
         "winner": null,
