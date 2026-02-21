@@ -95134,14 +95134,14 @@
       "id": 540606,
       "utcDate": "2026-02-21T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 11,
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "Red Bull Arena Leipzig",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T18:41:33Z",
+      "lastUpdated": "2026-02-21T18:57:18Z",
       "homeTeam": {
         "id": 721,
         "name": "RB Leipzig",
@@ -95419,10 +95419,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -95430,7 +95430,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 20,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "scorer": {
+            "id": 56829,
+            "name": "Christoph Baumgartner"
+          },
+          "assist": {
+            "id": 277484,
+            "name": "Yan Diomandé"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
