@@ -93146,14 +93146,14 @@
       "id": 540604,
       "utcDate": "2026-02-21T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 51,
+      "minute": 68,
       "injuryTime": null,
       "attendance": null,
       "venue": "An der Alten Försterei",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T16:40:44Z",
+      "lastUpdated": "2026-02-21T16:57:07Z",
       "homeTeam": {
         "id": 28,
         "name": "1. FC Union Berlin",
@@ -93502,6 +93502,18 @@
             "name": "Andrej Ilic"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 60,
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "player": {
+            "id": 152811,
+            "name": "Leopold Querfeld"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -93556,14 +93568,14 @@
       "id": 540605,
       "utcDate": "2026-02-21T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 49,
+      "minute": 66,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 75000,
       "venue": "Allianz Arena",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T16:40:44Z",
+      "lastUpdated": "2026-02-21T16:57:07Z",
       "homeTeam": {
         "id": 5,
         "name": "FC Bayern München",
@@ -93960,14 +93972,14 @@
       "id": 540610,
       "utcDate": "2026-02-21T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 52,
+      "minute": 69,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 19631,
       "venue": "Volkswagen Arena",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T16:40:44Z",
+      "lastUpdated": "2026-02-21T16:57:07Z",
       "homeTeam": {
         "id": 11,
         "name": "VfL Wolfsburg",
@@ -94245,11 +94257,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -94277,6 +94289,27 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 59,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "scorer": {
+            "id": 178772,
+            "name": "Rodrigo Ribeiro"
+          },
+          "assist": {
+            "id": 608,
+            "name": "Alexis Claude Maurice"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -94302,6 +94335,30 @@
           "player": {
             "id": 178772,
             "name": "Rodrigo Ribeiro"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 55,
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "player": {
+            "id": 56858,
+            "name": "Keven Schlotterbeck"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 64,
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "player": {
+            "id": 15354,
+            "name": "Mattias Svanberg"
           },
           "card": "YELLOW"
         }
@@ -94358,14 +94415,14 @@
       "id": 540611,
       "utcDate": "2026-02-21T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 52,
+      "minute": 68,
       "injuryTime": null,
       "attendance": null,
       "venue": "RheinEnergieStadion",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T16:40:44Z",
+      "lastUpdated": "2026-02-21T16:57:08Z",
       "homeTeam": {
         "id": 1,
         "name": "1. FC Köln",
@@ -94646,8 +94703,8 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 1
+          "home": 2,
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -94695,6 +94752,45 @@
           "score": {
             "home": 1,
             "away": 1
+          }
+        },
+        {
+          "minute": 60,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "scorer": {
+            "id": 318,
+            "name": "Andrej Kramarić"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 63,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "scorer": {
+            "id": 247659,
+            "name": "Said El Mala"
+          },
+          "assist": {
+            "id": 127401,
+            "name": "Jakub Kamiński"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
           }
         }
       ],
