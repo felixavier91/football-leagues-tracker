@@ -124429,14 +124429,14 @@
       "id": 537072,
       "utcDate": "2026-02-21T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 61,
+      "minute": 78,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Stadium",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T16:24:29Z",
+      "lastUpdated": "2026-02-21T16:40:55Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -124742,7 +124742,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -124770,10 +124770,44 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 61,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7397,
+            "name": "Como 1907"
+          },
+          "scorer": {
+            "id": 101350,
+            "name": "Maxence Caqueret"
+          },
+          "assist": {
+            "id": 124620,
+            "name": "Lucas Da Cunha"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 73,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "player": {
+            "id": 1751,
+            "name": "Manuel Locatelli"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

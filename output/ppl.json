@@ -92293,15 +92293,15 @@
       },
       "id": 545902,
       "utcDate": "2026-02-21T15:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 10,
       "injuryTime": null,
       "attendance": null,
       "venue": "Centro de Formação do FC Alverca",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T15:46:54Z",
+      "lastUpdated": "2026-02-21T16:41:15Z",
       "homeTeam": {
         "id": 7822,
         "name": "FC Alverca",
@@ -92314,7 +92314,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 10,
-        "formation": "4-3-3",
+        "formation": "3-4-3",
         "lineup": [
           {
             "id": 192010,
@@ -92452,7 +92452,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 17,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 1528,
@@ -92579,19 +92579,50 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 6,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 7822,
+            "name": "FC Alverca"
+          },
+          "scorer": {
+            "id": 172231,
+            "name": "Marko Milovanovic"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 172231,
+            "name": "Marko Milovanovic"
+          },
+          "team": {
+            "id": 7822,
+            "name": "FC Alverca"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {
@@ -92644,15 +92675,15 @@
       },
       "id": 545903,
       "utcDate": "2026-02-21T15:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 11,
       "injuryTime": null,
       "attendance": null,
       "venue": "Municipal de Arouca",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T15:45:28Z",
+      "lastUpdated": "2026-02-21T16:41:16Z",
       "homeTeam": {
         "id": 712,
         "name": "FC Arouca",
@@ -92930,11 +92961,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,

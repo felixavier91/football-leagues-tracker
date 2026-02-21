@@ -119916,14 +119916,14 @@
       "id": 538046,
       "utcDate": "2026-02-21T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 22,
+      "minute": 38,
       "injuryTime": null,
       "attendance": null,
       "venue": "Villa Park",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T16:23:55Z",
+      "lastUpdated": "2026-02-21T16:40:06Z",
       "homeTeam": {
         "id": 58,
         "name": "Aston Villa FC",
@@ -120201,18 +120201,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 31,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 341,
+            "name": "Leeds United FC"
+          },
+          "scorer": {
+            "id": 65843,
+            "name": "Anton Stach"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -120267,14 +120286,14 @@
       "id": 538048,
       "utcDate": "2026-02-21T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 23,
+      "minute": 38,
       "injuryTime": null,
       "attendance": null,
       "venue": "Brentford Community Stadium",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T16:23:55Z",
+      "lastUpdated": "2026-02-21T16:40:06Z",
       "homeTeam": {
         "id": 402,
         "name": "Brentford FC",
@@ -120552,18 +120571,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 397,
+            "name": "Brighton & Hove Albion FC"
+          },
+          "scorer": {
+            "id": 178951,
+            "name": "Diego Gómez"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -120631,14 +120669,14 @@
       "id": 538049,
       "utcDate": "2026-02-21T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 23,
+      "minute": 39,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stamford Bridge",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T16:23:55Z",
+      "lastUpdated": "2026-02-21T16:40:07Z",
       "homeTeam": {
         "id": 61,
         "name": "Chelsea FC",
@@ -120951,7 +120989,32 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 30,
+          "team": {
+            "id": 328,
+            "name": "Burnley FC"
+          },
+          "player": {
+            "id": 169325,
+            "name": "Hannibal Mejbri"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 34,
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "player": {
+            "id": 8545,
+            "name": "Wesley Fofana"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -121063,7 +121126,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 213813,
+          "name": "Sam Barrott",
+          "type": "REFEREE",
+          "nationality": "England"
+        },
+        {
+          "id": 11461,
+          "name": "Tim Wood",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "England"
+        },
+        {
+          "id": 57567,
+          "name": "Wade Smith ",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "England"
+        }
+      ]
     },
     {
       "area": {
