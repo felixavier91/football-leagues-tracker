@@ -102670,15 +102670,15 @@
       },
       "id": 537648,
       "utcDate": "2026-02-21T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 72,
       "injuryTime": null,
       "attendance": null,
       "venue": "Johan Cruijff ArenA",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T21:59:58Z",
+      "lastUpdated": "2026-02-21T22:32:47Z",
       "homeTeam": {
         "id": 678,
         "name": "AFC Ajax",
@@ -102992,11 +102992,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -103021,6 +103021,24 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 57,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "scorer": {
+            "id": 97164,
+            "name": "Darko Nejašmić"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -103034,6 +103052,18 @@
           "player": {
             "id": 273341,
             "name": "Rayane Bounida"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 63,
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "player": {
+            "id": 182241,
+            "name": "Noe Lebreton"
           },
           "card": "YELLOW"
         }
