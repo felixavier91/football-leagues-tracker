@@ -93266,15 +93266,15 @@
       },
       "id": 545898,
       "utcDate": "2026-02-21T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio da Luz",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T19:34:29Z",
+      "lastUpdated": "2026-02-21T19:55:28Z",
       "homeTeam": {
         "id": 1903,
         "name": "Sport Lisboa e Benfica",
@@ -93555,12 +93555,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         }
       },
       "goals": [
@@ -93600,6 +93600,27 @@
           },
           "score": {
             "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 43,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "scorer": {
+            "id": 16748,
+            "name": "Rafa Silva"
+          },
+          "assist": {
+            "id": 209178,
+            "name": "Sidny Lopes Cabral"
+          },
+          "score": {
+            "home": 3,
             "away": 0
           }
         }
@@ -93657,15 +93678,15 @@
       },
       "id": 545905,
       "utcDate": "2026-02-21T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Comendador Joaquim de Almeida Freitas",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T19:34:29Z",
+      "lastUpdated": "2026-02-21T19:55:28Z",
       "homeTeam": {
         "id": 583,
         "name": "Moreirense FC",
@@ -93950,13 +93971,26 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 38,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 191760,
+            "name": "Ousmane Diomande"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

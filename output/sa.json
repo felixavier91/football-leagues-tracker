@@ -124860,14 +124860,14 @@
       "id": 537074,
       "utcDate": "2026-02-21T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 74,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Stadio Via del Mare",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T19:33:57Z",
+      "lastUpdated": "2026-02-21T19:55:07Z",
       "homeTeam": {
         "id": 5890,
         "name": "US Lecce",
@@ -125193,18 +125193,58 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 75,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 7795,
+            "name": "Henrikh Mkhitaryan"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 82,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 143,
+            "name": "Manuel Akanji"
+          },
+          "assist": {
+            "id": 30821,
+            "name": "Federico Dimarco"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -125228,6 +125268,18 @@
           "player": {
             "id": 246341,
             "name": "Tiago Gabriel"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 87,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "player": {
+            "id": 1834,
+            "name": "Alessandro Bastoni"
           },
           "card": "YELLOW"
         }
@@ -125305,8 +125357,142 @@
         },
         "leagueRank": 13,
         "formation": null,
-        "lineup": [],
-        "bench": []
+        "lineup": [
+          {
+            "id": 82004,
+            "name": "Elia Caprile",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 114054,
+            "name": "Sebastiano Esposito",
+            "position": "Offence",
+            "shirtNumber": 94
+          },
+          {
+            "id": 191289,
+            "name": "Semih Kilicsoy",
+            "position": "Offence",
+            "shirtNumber": 9
+          },
+          {
+            "id": 206136,
+            "name": "Marco Palestra",
+            "position": "Right Midfield",
+            "shirtNumber": 2
+          },
+          {
+            "id": 188791,
+            "name": "Ibrahim Sulemana",
+            "position": "Defensive Midfield",
+            "shirtNumber": 25
+          },
+          {
+            "id": 185019,
+            "name": "Michel Adopo",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 2196,
+            "name": "Luca Mazzitelli",
+            "position": "Central Midfield",
+            "shirtNumber": 4
+          },
+          {
+            "id": 170374,
+            "name": "Adam Obert",
+            "position": "Centre-Back",
+            "shirtNumber": 33
+          },
+          {
+            "id": 52950,
+            "name": "Zé Pedro Figueiredo",
+            "position": "Centre-Back",
+            "shirtNumber": 32
+          },
+          {
+            "id": 3728,
+            "name": "Yerry Mina",
+            "position": "Centre-Back",
+            "shirtNumber": 26
+          },
+          {
+            "id": 40265,
+            "name": "Alberto Dossena",
+            "position": "Centre-Back",
+            "shirtNumber": 22
+          }
+        ],
+        "bench": [
+          {
+            "id": 130428,
+            "name": "Giuseppe Ciocci",
+            "position": "Goalkeeper",
+            "shirtNumber": 24
+          },
+          {
+            "id": 148992,
+            "name": "Alen Sherri",
+            "position": "Goalkeeper",
+            "shirtNumber": 12
+          },
+          {
+            "id": 260246,
+            "name": "Juan Martín Rodriguez",
+            "position": "Defence",
+            "shirtNumber": 15
+          },
+          {
+            "id": 286253,
+            "name": "Joseph Liteta",
+            "position": "Midfield",
+            "shirtNumber": 27
+          },
+          {
+            "id": 192169,
+            "name": "Othniel Raterink",
+            "position": "Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 259979,
+            "name": "Agustín Albarracín",
+            "position": "Offence",
+            "shirtNumber": 20
+          },
+          {
+            "id": 261228,
+            "name": "Riyad Idrissi",
+            "position": "Offence",
+            "shirtNumber": 3
+          },
+          {
+            "id": 292394,
+            "name": "Paul Mendy",
+            "position": "Offence",
+            "shirtNumber": 31
+          },
+          {
+            "id": 289719,
+            "name": "Yael Trepy",
+            "position": "Offence",
+            "shirtNumber": 37
+          },
+          {
+            "id": 114052,
+            "name": "Gabriele Zappa",
+            "position": "Right-Back",
+            "shirtNumber": 28
+          },
+          {
+            "id": 1925,
+            "name": "Leonardo Pavoletti",
+            "position": "Centre-Forward",
+            "shirtNumber": 30
+          }
+        ]
       },
       "awayTeam": {
         "id": 110,
