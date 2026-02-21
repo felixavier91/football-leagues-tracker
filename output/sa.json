@@ -124428,15 +124428,15 @@
       },
       "id": 537072,
       "utcDate": "2026-02-21T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Stadium",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T14:17:27Z",
+      "lastUpdated": "2026-02-21T15:20:10Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -124738,18 +124738,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 11,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7397,
+            "name": "Como 1907"
+          },
+          "scorer": {
+            "id": 9204,
+            "name": "Mërgim Vojvoda"
+          },
+          "assist": {
+            "id": 43285,
+            "name": "Anastasios Douvikas"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
