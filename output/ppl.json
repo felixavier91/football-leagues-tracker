@@ -94116,14 +94116,14 @@
       "id": 545906,
       "utcDate": "2026-02-21T20:30:00Z",
       "status": "IN_PLAY",
-      "minute": 11,
+      "minute": 21,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Municipal de Braga",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-21T21:49:29Z",
+      "lastUpdated": "2026-02-21T21:59:48Z",
       "homeTeam": {
         "id": 5613,
         "name": "Sporting Clube de Braga",
@@ -94404,17 +94404,79 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 17,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "scorer": {
+            "id": 121007,
+            "name": "Rodrigo Zalazar"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 19,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "scorer": {
+            "id": 180320,
+            "name": "Adrian Barišić"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 121007,
+            "name": "Rodrigo Zalazar"
+          },
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 14,
+          "team": {
+            "id": 5543,
+            "name": "Vitória SC"
+          },
+          "player": {
+            "id": 274548,
+            "name": "Thiago Balieiro"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
