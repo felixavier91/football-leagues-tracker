@@ -122133,14 +122133,14 @@
       "id": 538045,
       "utcDate": "2026-02-22T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 73,
+      "minute": 86,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadium of Light",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:36:08Z",
+      "lastUpdated": "2026-02-22T16:49:19Z",
       "homeTeam": {
         "id": 71,
         "name": "Sunderland AFC",
@@ -122421,8 +122421,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 2
+          "home": 1,
+          "away": 3
         },
         "halfTime": {
           "home": 0,
@@ -122468,6 +122468,42 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 76,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "scorer": {
+            "id": 99664,
+            "name": "Enzo Le Fée"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 85,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 63,
+            "name": "Fulham FC"
+          },
+          "scorer": {
+            "id": 3392,
+            "name": "Alex Iwobi"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 3
+          }
         }
       ],
       "penalties": [
@@ -122479,6 +122515,17 @@
           "team": {
             "id": 63,
             "name": "Fulham FC"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 99664,
+            "name": "Enzo Le Fée"
+          },
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
           },
           "scored": true
         }
@@ -122561,14 +122608,14 @@
       "id": 538047,
       "utcDate": "2026-02-22T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 77,
+      "minute": 90,
       "injuryTime": null,
       "attendance": null,
       "venue": "Selhurst Park",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:36:08Z",
+      "lastUpdated": "2026-02-22T16:49:19Z",
       "homeTeam": {
         "id": 354,
         "name": "Crystal Palace FC",
@@ -122997,14 +123044,14 @@
       "id": 538052,
       "utcDate": "2026-02-22T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 77,
+      "minute": 90,
       "injuryTime": null,
       "attendance": 30737,
       "venue": "City Ground, Nottingham",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:36:08Z",
+      "lastUpdated": "2026-02-22T16:49:19Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -123293,7 +123340,26 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 89,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 45681,
+            "name": "Alexis Mac Allister"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -123492,6 +123558,12 @@
             "name": "Luca Williams-Barnett",
             "position": "Offence",
             "shirtNumber": 68
+          },
+          {
+            "id": 216418,
+            "name": "James Wilson",
+            "position": "Offence",
+            "shirtNumber": 79
           },
           {
             "id": 8133,
