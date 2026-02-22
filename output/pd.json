@@ -119899,14 +119899,14 @@
       "id": 544454,
       "utcDate": "2026-02-22T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 1,
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Camp Nou",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:19:32Z",
+      "lastUpdated": "2026-02-22T16:36:19Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -119919,7 +119919,7 @@
           "nationality": "Germany"
         },
         "leagueRank": 2,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 152506,
@@ -120075,7 +120075,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 19,
-        "formation": "4-2-3-1",
+        "formation": "5-4-1",
         "lineup": [
           {
             "id": 3403,
@@ -120220,10 +120220,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -120231,7 +120231,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 4,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 264321,
+            "name": "Marc Bernal"
+          },
+          "assist": {
+            "id": 101345,
+            "name": "Eric García"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -120345,7 +120367,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 215507,
+          "name": "José Luis Guzmán Mansilla",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        },
+        {
+          "id": 207029,
+          "name": "José Martínez Serrato",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 215539,
+          "name": "Iván Ríos Vargas",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {

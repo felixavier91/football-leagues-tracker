@@ -122133,14 +122133,14 @@
       "id": 538045,
       "utcDate": "2026-02-22T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 56,
+      "minute": 73,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadium of Light",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:19:25Z",
+      "lastUpdated": "2026-02-22T16:36:08Z",
       "homeTeam": {
         "id": 71,
         "name": "Sunderland AFC",
@@ -122422,7 +122422,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -122450,9 +122450,39 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 61,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 63,
+            "name": "Fulham FC"
+          },
+          "scorer": {
+            "id": 3305,
+            "name": "Raúl Jiménez"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 3305,
+            "name": "Raúl Jiménez"
+          },
+          "team": {
+            "id": 63,
+            "name": "Fulham FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 41,
@@ -122463,6 +122493,18 @@
           "player": {
             "id": 3305,
             "name": "Raúl Jiménez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 60,
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "player": {
+            "id": 97535,
+            "name": "Brian Brobbey"
           },
           "card": "YELLOW"
         }
@@ -122519,14 +122561,14 @@
       "id": 538047,
       "utcDate": "2026-02-22T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 60,
+      "minute": 77,
       "injuryTime": null,
       "attendance": null,
       "venue": "Selhurst Park",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:19:25Z",
+      "lastUpdated": "2026-02-22T16:36:08Z",
       "homeTeam": {
         "id": 354,
         "name": "Crystal Palace FC",
@@ -122877,6 +122919,30 @@
             "name": "Ladislav Krejčí"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 61,
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "player": {
+            "id": 62493,
+            "name": "Ladislav Krejčí"
+          },
+          "card": "YELLOW_RED"
+        },
+        {
+          "minute": 67,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 150948,
+            "name": "Chadi Riad"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -122931,14 +122997,14 @@
       "id": 538052,
       "utcDate": "2026-02-22T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 60,
+      "minute": 77,
       "injuryTime": null,
       "attendance": 30737,
       "venue": "City Ground, Nottingham",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:19:25Z",
+      "lastUpdated": "2026-02-22T16:36:08Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -123241,6 +123307,18 @@
             "name": "Morgan Gibbs-White"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 61,
+          "team": {
+            "id": 351,
+            "name": "Nottingham Forest FC"
+          },
+          "player": {
+            "id": 3386,
+            "name": "Ola Aina"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -123302,7 +123380,7 @@
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-16T01:32:03Z",
+      "lastUpdated": "2026-02-22T16:30:32Z",
       "homeTeam": {
         "id": 73,
         "name": "Tottenham Hotspur FC",
@@ -123315,9 +123393,125 @@
           "nationality": "Croatia"
         },
         "leagueRank": 16,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 3086,
+            "name": "Guglielmo Vicario",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 170391,
+            "name": "Pape Sarr",
+            "position": "Central Midfield",
+            "shirtNumber": 29
+          },
+          {
+            "id": 8708,
+            "name": "Randal Kolo Muani",
+            "position": "Centre-Forward",
+            "shirtNumber": 39
+          },
+          {
+            "id": 148289,
+            "name": "Xavi Simons",
+            "position": "Attacking Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 8410,
+            "name": "Yves Bissouma",
+            "position": "Defensive Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 15884,
+            "name": "João Palhinha",
+            "position": "Defensive Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 119265,
+            "name": "Conor Gallagher",
+            "position": "Central Midfield",
+            "shirtNumber": 22
+          },
+          {
+            "id": 177040,
+            "name": "Archie Gray",
+            "position": "Right-Back",
+            "shirtNumber": 14
+          },
+          {
+            "id": 140432,
+            "name": "Radu Drăgușin",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 131177,
+            "name": "Mickey van de Ven",
+            "position": "Centre-Back",
+            "shirtNumber": 37
+          },
+          {
+            "id": 80775,
+            "name": "Djed Spence",
+            "position": "Right-Back",
+            "shirtNumber": 24
+          }
+        ],
+        "bench": [
+          {
+            "id": 133229,
+            "name": "Brandon Austin",
+            "position": "Goalkeeper",
+            "shirtNumber": 40
+          },
+          {
+            "id": 288618,
+            "name": "James Rowswell",
+            "position": "Defence",
+            "shirtNumber": 76
+          },
+          {
+            "id": 249465,
+            "name": "Souza",
+            "position": "Defence",
+            "shirtNumber": 38
+          },
+          {
+            "id": 272688,
+            "name": "Callum Olusesi",
+            "position": "Midfield",
+            "shirtNumber": 52
+          },
+          {
+            "id": 272687,
+            "name": "Luca Williams-Barnett",
+            "position": "Offence",
+            "shirtNumber": 68
+          },
+          {
+            "id": 8133,
+            "name": "Richarlison",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 171977,
+            "name": "Mathys Tel",
+            "position": "Centre-Forward",
+            "shirtNumber": 11
+          },
+          {
+            "id": 7878,
+            "name": "Dominic Solanke",
+            "position": "Centre-Forward",
+            "shirtNumber": 19
+          }
+        ]
       },
       "awayTeam": {
         "id": 57,
@@ -123331,9 +123525,131 @@
           "nationality": "Spain"
         },
         "leagueRank": 1,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 4832,
+            "name": "David Raya",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 99813,
+            "name": "Bukayo Saka",
+            "position": "Right Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 8279,
+            "name": "Viktor Gyökeres",
+            "position": "Centre-Forward",
+            "shirtNumber": 14
+          },
+          {
+            "id": 8984,
+            "name": "Leandro Trossard",
+            "position": "Left Winger",
+            "shirtNumber": 19
+          },
+          {
+            "id": 4032,
+            "name": "Eberechi Eze",
+            "position": "Attacking Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 115035,
+            "name": "Martín Zubimendi",
+            "position": "Defensive Midfield",
+            "shirtNumber": 36
+          },
+          {
+            "id": 8215,
+            "name": "Declan Rice",
+            "position": "Central Midfield",
+            "shirtNumber": 41
+          },
+          {
+            "id": 98816,
+            "name": "Jurrien Timber",
+            "position": "Right-Back",
+            "shirtNumber": 12
+          },
+          {
+            "id": 80171,
+            "name": "William Saliba",
+            "position": "Centre-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 23128,
+            "name": "Gabriel",
+            "position": "Centre-Back",
+            "shirtNumber": 6
+          },
+          {
+            "id": 125674,
+            "name": "Piero Hincapié",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          }
+        ],
+        "bench": [
+          {
+            "id": 3189,
+            "name": "Kepa Arrizabalaga",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 7427,
+            "name": "Martin Ødegaard",
+            "position": "Attacking Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 3236,
+            "name": "Gabriel Jesus",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 24102,
+            "name": "Christian Nørgaard",
+            "position": "Defensive Midfield",
+            "shirtNumber": 16
+          },
+          {
+            "id": 172839,
+            "name": "Cristhian Mosquera",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 61450,
+            "name": "Martinelli",
+            "position": "Left Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 167720,
+            "name": "Noni Madueke",
+            "position": "Right Winger",
+            "shirtNumber": 20
+          },
+          {
+            "id": 244120,
+            "name": "Myles Lewis-Skelly",
+            "position": "Left-Back",
+            "shirtNumber": 49
+          },
+          {
+            "id": 133512,
+            "name": "Riccardo Calafiori",
+            "position": "Left-Back",
+            "shirtNumber": 33
+          }
+        ]
       },
       "score": {
         "winner": null,
