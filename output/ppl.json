@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 205
+    "played": 206
   },
   "competition": {
     "id": 2017,
@@ -95084,15 +95084,15 @@
       },
       "id": 545904,
       "utcDate": "2026-02-22T20:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 70,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 8,
       "attendance": null,
       "venue": "Estadio do Dragao",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T22:58:52Z",
+      "lastUpdated": "2026-02-22T23:29:58Z",
       "homeTeam": {
         "id": 503,
         "name": "FC Porto",
@@ -95405,7 +95405,80 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 90,
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "player": {
+            "id": 166183,
+            "name": "Francesco Farioli"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "player": {
+            "id": 184496,
+            "name": "Alberto Baio"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 496,
+            "name": "Rio Ave FC"
+          },
+          "player": {
+            "id": 185150,
+            "name": "João Graça"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 496,
+            "name": "Rio Ave FC"
+          },
+          "player": {
+            "id": 4266,
+            "name": "Omar Richards"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 496,
+            "name": "Rio Ave FC"
+          },
+          "player": {
+            "id": 244984,
+            "name": "Karem Zoabi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "player": {
+            "id": 153629,
+            "name": "Alan Varela"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
