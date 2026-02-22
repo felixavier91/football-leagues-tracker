@@ -122132,15 +122132,15 @@
       },
       "id": 538045,
       "utcDate": "2026-02-22T14:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 56,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadium of Light",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:01:02Z",
+      "lastUpdated": "2026-02-22T16:19:25Z",
       "homeTeam": {
         "id": 71,
         "name": "Sunderland AFC",
@@ -122418,18 +122418,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 54,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 63,
+            "name": "Fulham FC"
+          },
+          "scorer": {
+            "id": 3305,
+            "name": "Raúl Jiménez"
+          },
+          "assist": {
+            "id": 3392,
+            "name": "Alex Iwobi"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -122496,15 +122518,15 @@
       },
       "id": 538047,
       "utcDate": "2026-02-22T14:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 60,
       "injuryTime": null,
       "attendance": null,
       "venue": "Selhurst Park",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:01:03Z",
+      "lastUpdated": "2026-02-22T16:19:25Z",
       "homeTeam": {
         "id": 354,
         "name": "Crystal Palace FC",
@@ -122843,6 +122865,18 @@
             "name": "Adam Wharton"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 58,
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "player": {
+            "id": 62493,
+            "name": "Ladislav Krejčí"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -122896,15 +122930,15 @@
       },
       "id": 538052,
       "utcDate": "2026-02-22T14:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 60,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 30737,
       "venue": "City Ground, Nottingham",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:01:03Z",
+      "lastUpdated": "2026-02-22T16:19:25Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -122912,9 +122946,9 @@
         "tla": "NOT",
         "crest": "https://crests.football-data.org/351.png",
         "coach": {
-          "id": 21714,
-          "name": "Vítor Pereira",
-          "nationality": "Portugal"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 17,
         "formation": "4-2-3-1",
@@ -123050,9 +123084,9 @@
         "tla": "LIV",
         "crest": "https://crests.football-data.org/64.png",
         "coach": {
-          "id": 121014,
-          "name": "Arne Slot",
-          "nationality": "Netherlands"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 6,
         "formation": "4-2-3-1",
@@ -123080,12 +123114,6 @@
             "name": "Mohamed Salah",
             "position": "Right Winger",
             "shirtNumber": 11
-          },
-          {
-            "id": 19334,
-            "name": "Florian Wirtz",
-            "position": "Attacking Midfield",
-            "shirtNumber": 7
           },
           {
             "id": 7459,
@@ -123172,12 +123200,6 @@
             "name": "Trey Nyoni",
             "position": "Attacking Midfield",
             "shirtNumber": 42
-          },
-          {
-            "id": 7873,
-            "name": "Curtis Jones",
-            "position": "Central Midfield",
-            "shirtNumber": 17
           },
           {
             "id": 7862,
