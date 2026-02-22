@@ -127161,14 +127161,14 @@
       "id": 537067,
       "utcDate": "2026-02-22T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 56,
+      "minute": 74,
       "injuryTime": null,
       "attendance": 59025,
       "venue": "Stadio Olimpico, Rome",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T22:01:12Z",
+      "lastUpdated": "2026-02-22T22:19:37Z",
       "homeTeam": {
         "id": 100,
         "name": "AS Roma",
@@ -127176,9 +127176,9 @@
         "tla": "ROM",
         "crest": "https://crests.football-data.org/100.png",
         "coach": {
-          "id": 10989,
-          "name": "Gian Piero Gasperini",
-          "nationality": "Italy"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 4,
         "formation": "3-4-2-1",
@@ -127248,12 +127248,6 @@
             "name": "Evan N'Dicka",
             "position": "Centre-Back",
             "shirtNumber": 5
-          },
-          {
-            "id": 32703,
-            "name": "Mario Hermoso",
-            "position": "Centre-Back",
-            "shirtNumber": 22
           }
         ],
         "bench": [
@@ -127294,12 +127288,6 @@
             "shirtNumber": 20
           },
           {
-            "id": 32703,
-            "name": "Mario Hermoso",
-            "position": "Centre-Back",
-            "shirtNumber": 22
-          },
-          {
             "id": 7383,
             "name": "Kostas Tsimikas",
             "position": "Left-Back",
@@ -127316,12 +127304,6 @@
             "name": "Niccolo Pisilli",
             "position": "Central Midfield",
             "shirtNumber": 61
-          },
-          {
-            "id": 191705,
-            "name": "Daniele Ghilardi",
-            "position": "Centre-Back",
-            "shirtNumber": 87
           },
           {
             "id": 7646,
@@ -127344,9 +127326,9 @@
         "tla": "CRE",
         "crest": "https://crests.football-data.org/457.png",
         "coach": {
-          "id": 166846,
-          "name": "Davide Nicola",
-          "nationality": "Italy"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 16,
         "formation": "3-5-2",
@@ -127494,10 +127476,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -127505,7 +127487,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 59,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "scorer": {
+            "id": 1844,
+            "name": "Bryan Cristante"
+          },
+          "assist": {
+            "id": 1819,
+            "name": "Lorenzo Pellegrini"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -127517,6 +127521,18 @@
           "player": {
             "id": 7421,
             "name": "Morten Thorsby"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 66,
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "player": {
+            "id": 170647,
+            "name": "Neil El Aynaoui"
           },
           "card": "YELLOW"
         }

@@ -95456,14 +95456,14 @@
       "id": 542609,
       "utcDate": "2026-02-22T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 54,
+      "minute": 72,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de la Meinau",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T22:01:22Z",
+      "lastUpdated": "2026-02-22T22:19:47Z",
       "homeTeam": {
         "id": 576,
         "name": "RC Strasbourg Alsace",
@@ -95745,7 +95745,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -95794,10 +95794,80 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 59,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "scorer": {
+            "id": 366,
+            "name": "Corentin Tolisso"
+          },
+          "assist": {
+            "id": 8922,
+            "name": "Roman Yaremchuk"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 54,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "player": {
+            "id": 16490,
+            "name": "Paulo Fonseca"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 57,
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "player": {
+            "id": 149920,
+            "name": "Andrew Omobamidele"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 57,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "player": {
+            "id": 137655,
+            "name": "Ruben Kluivert"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 60,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "player": {
+            "id": 188487,
+            "name": "Endrick"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
