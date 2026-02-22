@@ -126721,14 +126721,14 @@
       "id": 537066,
       "utcDate": "2026-02-22T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 37,
+      "minute": 48,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T18:41:39Z",
+      "lastUpdated": "2026-02-22T19:15:38Z",
       "homeTeam": {
         "id": 98,
         "name": "AC Milan",
@@ -126736,9 +126736,9 @@
         "tla": "MIL",
         "crest": "https://crests.football-data.org/98.png",
         "coach": {
-          "id": 10975,
-          "name": "Massimiliano Allegri",
-          "nationality": "Italy"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 2,
         "formation": "3-5-2",
@@ -126804,12 +126804,6 @@
             "shirtNumber": 23
           },
           {
-            "id": 1753,
-            "name": "Matteo Gabbia",
-            "position": "Centre-Back",
-            "shirtNumber": 46
-          },
-          {
             "id": 215616,
             "name": "Davide Bartesaghi",
             "position": "Left-Back",
@@ -126848,12 +126842,6 @@
             "shirtNumber": 30
           },
           {
-            "id": 1753,
-            "name": "Matteo Gabbia",
-            "position": "Centre-Back",
-            "shirtNumber": 46
-          },
-          {
             "id": 115245,
             "name": "Samuele Ricci",
             "position": "Defensive Midfield",
@@ -126884,10 +126872,10 @@
             "shirtNumber": 19
           },
           {
-            "id": 153556,
-            "name": "Koni De Winter",
+            "id": 1753,
+            "name": "Matteo Gabbia",
             "position": "Centre-Back",
-            "shirtNumber": 5
+            "shirtNumber": 46
           }
         ]
       },
@@ -126898,9 +126886,9 @@
         "tla": "PAR",
         "crest": "https://crests.football-data.org/112.png",
         "coach": {
-          "id": 179726,
-          "name": "Carlos Cuesta",
-          "nationality": "Spain"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 13,
         "formation": "3-5-2",
@@ -127004,12 +126992,6 @@
             "shirtNumber": 22
           },
           {
-            "id": 292945,
-            "name": "Marlon Mena",
-            "position": null,
-            "shirtNumber": 63
-          },
-          {
             "id": 171586,
             "name": "Gaetano Oristanio",
             "position": "Attacking Midfield",
@@ -127026,6 +127008,12 @@
             "name": "Hans Nicolussi Caviglia",
             "position": "Central Midfield",
             "shirtNumber": 41
+          },
+          {
+            "id": 292945,
+            "name": "Marlon Mena",
+            "position": null,
+            "shirtNumber": 63
           },
           {
             "id": 60002,
@@ -127055,8 +127043,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -127186,7 +127174,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11060,
+          "name": "Marco Di Bello",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 217619,
+          "name": "Khaled Bahri",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 217545,
+          "name": "Marco Ceolin",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {

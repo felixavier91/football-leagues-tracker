@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 203
+    "played": 205
   },
   "competition": {
     "id": 2015,
@@ -93973,15 +93973,15 @@
       },
       "id": 542605,
       "utcDate": "2026-02-22T16:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 69,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Stade de la Beaujoire",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T18:41:47Z",
+      "lastUpdated": "2026-02-22T19:11:52Z",
       "homeTeam": {
         "id": 543,
         "name": "FC Nantes",
@@ -94369,6 +94369,42 @@
             "name": "Nicolas Cozza"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 78,
+          "team": {
+            "id": 543,
+            "name": "FC Nantes"
+          },
+          "player": {
+            "id": 246193,
+            "name": "Dehmaine Assoumani"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 82,
+          "team": {
+            "id": 533,
+            "name": "Le Havre AC"
+          },
+          "player": {
+            "id": 169172,
+            "name": "Yassine Kechta"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 533,
+            "name": "Le Havre AC"
+          },
+          "player": {
+            "id": 281102,
+            "name": "Enzo Koffi"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -94423,14 +94459,14 @@
       "id": 542607,
       "utcDate": "2026-02-22T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 64,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Allianz Riviera",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T18:41:47Z",
+      "lastUpdated": "2026-02-22T19:15:47Z",
       "homeTeam": {
         "id": 522,
         "name": "OGC Nice",
@@ -94708,11 +94744,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 3,
-          "away": 1
+          "away": 3
         },
         "halfTime": {
           "home": 2,
@@ -94797,9 +94833,60 @@
             "home": 3,
             "away": 1
           }
+        },
+        {
+          "minute": 67,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "scorer": {
+            "id": 166640,
+            "name": "Ahmadou Bamba Dieng"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 2
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 5,
+          "type": "REGULAR",
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "scorer": {
+            "id": 106791,
+            "name": "Noah Cadiou"
+          },
+          "assist": {
+            "id": 8437,
+            "name": "Jean-Victor Makengo"
+          },
+          "score": {
+            "home": 3,
+            "away": 3
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 166640,
+            "name": "Ahmadou Bamba Dieng"
+          },
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 29,
@@ -94810,6 +94897,66 @@
           "player": {
             "id": 76723,
             "name": "Sofiane Diop"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 66,
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "player": {
+            "id": 11625,
+            "name": "Claude Puel"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 84,
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "player": {
+            "id": 188658,
+            "name": "Panos Katseris"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "player": {
+            "id": 136721,
+            "name": "Melvin Bard"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "player": {
+            "id": 177695,
+            "name": "Montassar Talbi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "player": {
+            "id": 131179,
+            "name": "Darlin Yongwa"
           },
           "card": "YELLOW"
         }
@@ -94865,15 +95012,15 @@
       },
       "id": 542611,
       "utcDate": "2026-02-22T16:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 69,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Stade Raymond Kopa",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T18:41:48Z",
+      "lastUpdated": "2026-02-22T19:08:47Z",
       "homeTeam": {
         "id": 532,
         "name": "Angers SCO",
@@ -95231,6 +95378,18 @@
             "name": "Nathan Ngoy"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 532,
+            "name": "Angers SCO"
+          },
+          "player": {
+            "id": 8391,
+            "name": "Hervé Koffi"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -95356,7 +95515,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43886,
+          "name": "Ruddy Buquet",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 101793,
+          "name": "Steven Torregrossa",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 57041,
+          "name": "Mikael Berchebru",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {

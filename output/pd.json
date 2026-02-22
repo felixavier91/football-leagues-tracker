@@ -120387,14 +120387,14 @@
       "id": 544456,
       "utcDate": "2026-02-22T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 10,
+      "minute": 43,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Abanca-Balaídos",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T18:41:17Z",
+      "lastUpdated": "2026-02-22T19:15:04Z",
       "homeTeam": {
         "id": 558,
         "name": "RC Celta de Vigo",
@@ -120721,7 +120721,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 12,
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "player": {
+            "id": 30059,
+            "name": "Vedat Muriqi"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -120833,7 +120846,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 206211,
+          "name": "Jesús Gil Manzano",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        },
+        {
+          "id": 206204,
+          "name": "Ángel Nevado Rodríguez",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 206214,
+          "name": "Javier Martínez Nicolás",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {

@@ -96086,14 +96086,14 @@
       "id": 540607,
       "utcDate": "2026-02-22T16:30:00Z",
       "status": "IN_PLAY",
-      "minute": 52,
+      "minute": 86,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 29546,
       "venue": "Millerntor-Stadion",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T18:41:27Z",
+      "lastUpdated": "2026-02-22T19:15:28Z",
       "homeTeam": {
         "id": 20,
         "name": "FC St. Pauli 1910",
@@ -96365,18 +96365,79 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 55,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 20,
+            "name": "FC St. Pauli 1910"
+          },
+          "scorer": {
+            "id": 6849,
+            "name": "Hauke Finn Wahl"
+          },
+          "assist": {
+            "id": 15243,
+            "name": "Danel Sinani"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 62,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen"
+          },
+          "scorer": {
+            "id": 212853,
+            "name": "Jovan Milošević"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 70,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 20,
+            "name": "FC St. Pauli 1910"
+          },
+          "scorer": {
+            "id": 130135,
+            "name": "Joel Fujita"
+          },
+          "assist": {
+            "id": 102498,
+            "name": "Manolis Saliakas"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -96400,6 +96461,66 @@
           "player": {
             "id": 67895,
             "name": "Martijn Kaars"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 54,
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen"
+          },
+          "player": {
+            "id": 9765,
+            "name": "Senne Lynen"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 75,
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen"
+          },
+          "player": {
+            "id": 9447,
+            "name": "Marco Friedl"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 75,
+          "team": {
+            "id": 20,
+            "name": "FC St. Pauli 1910"
+          },
+          "player": {
+            "id": 102498,
+            "name": "Manolis Saliakas"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 76,
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen"
+          },
+          "player": {
+            "id": 212853,
+            "name": "Jovan Milošević"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 76,
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen"
+          },
+          "player": {
+            "id": 199,
+            "name": "Leonardo Bittencourt"
           },
           "card": "YELLOW"
         }
