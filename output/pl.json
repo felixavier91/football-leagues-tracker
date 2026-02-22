@@ -122133,14 +122133,14 @@
       "id": 538045,
       "utcDate": "2026-02-22T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 31,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Stadium of Light",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T15:32:07Z",
+      "lastUpdated": "2026-02-22T15:49:45Z",
       "homeTeam": {
         "id": 71,
         "name": "Sunderland AFC",
@@ -122431,7 +122431,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 41,
+          "team": {
+            "id": 63,
+            "name": "Fulham FC"
+          },
+          "player": {
+            "id": 3305,
+            "name": "Raúl Jiménez"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -122483,15 +122496,15 @@
       },
       "id": 538047,
       "utcDate": "2026-02-22T14:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 31,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Selhurst Park",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T15:32:07Z",
+      "lastUpdated": "2026-02-22T15:49:45Z",
       "homeTeam": {
         "id": 354,
         "name": "Crystal Palace FC",
@@ -122776,12 +122789,24 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 120981,
+            "name": "Toluwalas Arokodare"
+          },
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "scored": false
+        }
+      ],
       "bookings": [
         {
           "minute": 15,
@@ -122804,6 +122829,18 @@
           "player": {
             "id": 260271,
             "name": "Jaydee Canvot"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 41,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 180389,
+            "name": "Adam Wharton"
           },
           "card": "YELLOW"
         }
@@ -122859,15 +122896,15 @@
       },
       "id": 538052,
       "utcDate": "2026-02-22T14:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 32,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "City Ground, Nottingham",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T15:32:08Z",
+      "lastUpdated": "2026-02-22T15:49:45Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -123164,8 +123201,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
