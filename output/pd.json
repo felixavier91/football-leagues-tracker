@@ -119465,14 +119465,14 @@
       "id": 544457,
       "utcDate": "2026-02-22T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 49,
+      "minute": 71,
       "injuryTime": null,
       "attendance": 8814,
       "venue": "Coliseum Alfonso Perez",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T15:10:37Z",
+      "lastUpdated": "2026-02-22T15:32:18Z",
       "homeTeam": {
         "id": 82,
         "name": "Getafe CF",
@@ -119774,18 +119774,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 64,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC"
+          },
+          "scorer": {
+            "id": 16275,
+            "name": "Djibril Sow"
+          },
+          "assist": {
+            "id": 82132,
+            "name": "Akor Adams"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -119809,6 +119831,18 @@
           "player": {
             "id": 83351,
             "name": "Juan Iglesias"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 53,
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC"
+          },
+          "player": {
+            "id": 127127,
+            "name": "Nianzou Kouassi"
           },
           "card": "YELLOW"
         }
@@ -119872,7 +119906,7 @@
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-16T01:32:03Z",
+      "lastUpdated": "2026-02-22T15:14:01Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -119885,7 +119919,7 @@
           "nationality": "Germany"
         },
         "leagueRank": 2,
-        "formation": null,
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 152506,
@@ -120041,9 +120075,149 @@
           "nationality": "Spain"
         },
         "leagueRank": 19,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-2-3-1",
+        "lineup": [
+          {
+            "id": 3403,
+            "name": "Maty Ryan",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 98741,
+            "name": "Adrián de la Fuente",
+            "position": "Defence",
+            "shirtNumber": 4
+          },
+          {
+            "id": 4159,
+            "name": "Oriol Rey",
+            "position": "Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 156525,
+            "name": "Carlos Álvarez",
+            "position": "Midfield",
+            "shirtNumber": 24
+          },
+          {
+            "id": 290072,
+            "name": "Kareem Tunde",
+            "position": "Offence",
+            "shirtNumber": 26
+          },
+          {
+            "id": 211851,
+            "name": "Víctor García",
+            "position": "Offence",
+            "shirtNumber": 17
+          },
+          {
+            "id": 156746,
+            "name": "Iván Romero",
+            "position": "Offence",
+            "shirtNumber": 9
+          },
+          {
+            "id": 161293,
+            "name": "Jon Olasagasti",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 162,
+            "name": "Jeremy Toljan",
+            "position": "Right-Back",
+            "shirtNumber": 22
+          },
+          {
+            "id": 191042,
+            "name": "Alan Matturro",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 118715,
+            "name": "Manuel Sánchez",
+            "position": "Left-Back",
+            "shirtNumber": 23
+          }
+        ],
+        "bench": [
+          {
+            "id": 165167,
+            "name": "Pablo Cuñat",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 283442,
+            "name": "Nacho Pérez",
+            "position": "Defence",
+            "shirtNumber": 29
+          },
+          {
+            "id": 33633,
+            "name": "Diego Pampín",
+            "position": "Defence",
+            "shirtNumber": 6
+          },
+          {
+            "id": 215417,
+            "name": "Tai Abed",
+            "position": "Midfield",
+            "shirtNumber": 55
+          },
+          {
+            "id": 253109,
+            "name": "Paco Cortés",
+            "position": "Midfield",
+            "shirtNumber": 27
+          },
+          {
+            "id": 141828,
+            "name": "Unai Vencedor Paris",
+            "position": "Midfield",
+            "shirtNumber": 12
+          },
+          {
+            "id": 247061,
+            "name": "Carlos Espí",
+            "position": "Offence",
+            "shirtNumber": 19
+          },
+          {
+            "id": 203439,
+            "name": "Karl Etta Eyong",
+            "position": "Offence",
+            "shirtNumber": 21
+          },
+          {
+            "id": 126913,
+            "name": "Iker Losada",
+            "position": "Offence",
+            "shirtNumber": 18
+          },
+          {
+            "id": 213275,
+            "name": "José Morales",
+            "position": "Offence",
+            "shirtNumber": 11
+          },
+          {
+            "id": 177365,
+            "name": "Ugo Raghouber",
+            "position": "Defensive Midfield",
+            "shirtNumber": 14
+          },
+          {
+            "id": 210811,
+            "name": "Matias Moreno",
+            "position": "Centre-Back",
+            "shirtNumber": 2
+          }
+        ]
       },
       "score": {
         "winner": null,

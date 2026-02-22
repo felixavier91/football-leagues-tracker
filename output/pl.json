@@ -122133,14 +122133,14 @@
       "id": 538045,
       "utcDate": "2026-02-22T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 9,
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadium of Light",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T15:10:23Z",
+      "lastUpdated": "2026-02-22T15:32:07Z",
       "homeTeam": {
         "id": 71,
         "name": "Sunderland AFC",
@@ -122484,14 +122484,14 @@
       "id": 538047,
       "utcDate": "2026-02-22T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 10,
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Selhurst Park",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T15:10:24Z",
+      "lastUpdated": "2026-02-22T15:32:07Z",
       "homeTeam": {
         "id": 354,
         "name": "Crystal Palace FC",
@@ -122782,7 +122782,32 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 15,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 8124,
+            "name": "Will Hughes"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 31,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 260271,
+            "name": "Jaydee Canvot"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -122835,14 +122860,14 @@
       "id": 538052,
       "utcDate": "2026-02-22T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 10,
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "City Ground, Nottingham",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T15:10:24Z",
+      "lastUpdated": "2026-02-22T15:32:08Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -123145,7 +123170,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 20,
+          "team": {
+            "id": 351,
+            "name": "Nottingham Forest FC"
+          },
+          "player": {
+            "id": 4091,
+            "name": "Morgan Gibbs-White"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -123257,7 +123295,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11309,
+          "name": "Peter Bankes",
+          "type": "REFEREE",
+          "nationality": "England"
+        },
+        {
+          "id": 193192,
+          "name": "Edward Smart",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "England"
+        },
+        {
+          "id": 213684,
+          "name": "Blake Antrobus",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "England"
+        }
+      ]
     },
     {
       "area": {

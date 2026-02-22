@@ -93501,14 +93501,14 @@
       "id": 542604,
       "utcDate": "2026-02-22T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 11,
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de l'Abbé-Deschamps",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T15:11:18Z",
+      "lastUpdated": "2026-02-22T15:32:53Z",
       "homeTeam": {
         "id": 519,
         "name": "AJ Auxerre",
@@ -93786,18 +93786,58 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 20,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "scorer": {
+            "id": 8542,
+            "name": "Mahdi Camara"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "scorer": {
+            "id": 149850,
+            "name": "Esteban Lepaul"
+          },
+          "assist": {
+            "id": 10201,
+            "name": "Sebastian Szymański"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -93911,7 +93951,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57073,
+          "name": "Jérémie Pignard",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 57053,
+          "name": "Aurélien Drouet",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 186381,
+          "name": "Thomas Luczynski",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -93999,7 +94058,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 1049,
+          "name": "Jeremy Stinat",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 57056,
+          "name": "Christophe Mouysset",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 57061,
+          "name": "François Boudikian",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -94087,7 +94165,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57054,
+          "name": "Mathieu Vernice",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 213838,
+          "name": "Florian Gonçalves de Araujo",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 64786,
+          "name": "Julien Haulbert",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
