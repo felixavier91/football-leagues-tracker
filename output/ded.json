@@ -104524,14 +104524,14 @@
       "id": 537649,
       "utcDate": "2026-02-22T15:45:00Z",
       "status": "IN_PLAY",
-      "minute": 64,
+      "minute": 80,
       "injuryTime": null,
       "attendance": null,
       "venue": "AFAS Stadion",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T18:10:43Z",
+      "lastUpdated": "2026-02-22T18:26:22Z",
       "homeTeam": {
         "id": 682,
         "name": "AZ",
@@ -104839,10 +104839,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -104850,7 +104850,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 65,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "scorer": {
+            "id": 115116,
+            "name": "Sven Mijnans"
+          },
+          "assist": {
+            "id": 246145,
+            "name": "Mateo Chávez"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -104874,6 +104896,18 @@
           "player": {
             "id": 4286,
             "name": "Pelle Clement"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 79,
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "player": {
+            "id": 254333,
+            "name": "Marvin Young"
           },
           "card": "YELLOW"
         }
