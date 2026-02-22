@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 202
+    "played": 203
   },
   "competition": {
     "id": 2015,
@@ -93500,15 +93500,15 @@
       },
       "id": 542604,
       "utcDate": "2026-02-22T14:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Stade de l'Abbé-Deschamps",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:50:03Z",
+      "lastUpdated": "2026-02-22T16:56:00Z",
       "homeTeam": {
         "id": 519,
         "name": "AJ Auxerre",
@@ -93973,15 +93973,15 @@
       },
       "id": 542605,
       "utcDate": "2026-02-22T16:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de la Beaujoire",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:29:05Z",
+      "lastUpdated": "2026-02-22T17:33:37Z",
       "homeTeam": {
         "id": 543,
         "name": "FC Nantes",
@@ -93994,7 +93994,7 @@
           "nationality": "Morocco"
         },
         "leagueRank": 17,
-        "formation": "3-4-1-2",
+        "formation": "3-5-2",
         "lineup": [
           {
             "id": 3240,
@@ -94132,7 +94132,7 @@
           "nationality": "France"
         },
         "leagueRank": 13,
-        "formation": "3-1-4-2",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 20931,
@@ -94259,20 +94259,52 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 3,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 533,
+            "name": "Le Havre AC"
+          },
+          "scorer": {
+            "id": 260293,
+            "name": "Yanis Zouaoui"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 14,
+          "team": {
+            "id": 543,
+            "name": "FC Nantes"
+          },
+          "player": {
+            "id": 724,
+            "name": "Fabien Centonze"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -94324,15 +94356,15 @@
       },
       "id": 542607,
       "utcDate": "2026-02-22T16:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Riviera",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:44:15Z",
+      "lastUpdated": "2026-02-22T17:33:37Z",
       "homeTeam": {
         "id": 522,
         "name": "OGC Nice",
@@ -94610,18 +94642,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 12,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "scorer": {
+            "id": 204237,
+            "name": "Tom Louchet"
+          },
+          "assist": {
+            "id": 213270,
+            "name": "Mohamed Cho"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -94675,15 +94729,15 @@
       },
       "id": 542611,
       "utcDate": "2026-02-22T16:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Raymond Kopa",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:17:58Z",
+      "lastUpdated": "2026-02-22T17:33:38Z",
       "homeTeam": {
         "id": 532,
         "name": "Angers SCO",
@@ -94961,11 +95015,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -94995,6 +95049,18 @@
         {
           "id": 64786,
           "name": "Julien Haulbert",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        },
+        {
+          "id": 64786,
+          "name": "Julien Haulbert",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 213838,
+          "name": "Florian Gonçalves de Araujo",
           "type": "ASSISTANT_REFEREE_N2",
           "nationality": "France"
         }

@@ -104524,14 +104524,14 @@
       "id": 537649,
       "utcDate": "2026-02-22T15:45:00Z",
       "status": "IN_PLAY",
-      "minute": 5,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "AFAS Stadion",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:50:43Z",
+      "lastUpdated": "2026-02-22T17:33:53Z",
       "homeTeam": {
         "id": 682,
         "name": "AZ",
@@ -104852,7 +104852,32 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 31,
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "player": {
+            "id": 175823,
+            "name": "Wouter Goes"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 34,
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "player": {
+            "id": 4286,
+            "name": "Pelle Clement"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
