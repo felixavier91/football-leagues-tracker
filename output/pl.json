@@ -122133,14 +122133,14 @@
       "id": 538045,
       "utcDate": "2026-02-22T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 86,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Stadium of Light",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:49:19Z",
+      "lastUpdated": "2026-02-22T17:00:01Z",
       "homeTeam": {
         "id": 71,
         "name": "Sunderland AFC",
@@ -122499,7 +122499,10 @@
             "id": 3392,
             "name": "Alex Iwobi"
           },
-          "assist": null,
+          "assist": {
+            "id": 11777,
+            "name": "Harry Wilson"
+          },
           "score": {
             "home": 1,
             "away": 3
@@ -122609,13 +122612,13 @@
       "utcDate": "2026-02-22T14:00:00Z",
       "status": "IN_PLAY",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 10,
       "attendance": null,
       "venue": "Selhurst Park",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:49:19Z",
+      "lastUpdated": "2026-02-22T17:00:01Z",
       "homeTeam": {
         "id": 354,
         "name": "Crystal Palace FC",
@@ -122893,10 +122896,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -122904,8 +122907,41 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "scorer": {
+            "id": 128710,
+            "name": "Evann Guessand"
+          },
+          "assist": {
+            "id": 137068,
+            "name": "Tyrick Mitchell"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [
+        {
+          "player": {
+            "id": 120981,
+            "name": "Toluwalas Arokodare"
+          },
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "scored": false
+        },
         {
           "player": {
             "id": 120981,
@@ -122990,6 +123026,30 @@
             "name": "Chadi Riad"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "player": {
+            "id": 145538,
+            "name": "André"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 3638,
+            "name": "Ismaïla Sarr"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -123045,13 +123105,13 @@
       "utcDate": "2026-02-22T14:00:00Z",
       "status": "IN_PLAY",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 10,
       "attendance": 30737,
       "venue": "City Ground, Nottingham",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T16:49:19Z",
+      "lastUpdated": "2026-02-22T17:00:01Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -123329,11 +123389,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -123342,8 +123402,8 @@
       },
       "goals": [
         {
-          "minute": 89,
-          "injuryTime": null,
+          "minute": 90,
+          "injuryTime": 7,
           "type": "REGULAR",
           "team": {
             "id": 64,
