@@ -126721,14 +126721,14 @@
       "id": 537066,
       "utcDate": "2026-02-22T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 68,
+      "minute": 89,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T19:34:28Z",
+      "lastUpdated": "2026-02-22T19:55:54Z",
       "homeTeam": {
         "id": 98,
         "name": "AC Milan",
@@ -127036,18 +127036,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 80,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 112,
+            "name": "Parma Calcio 1913"
+          },
+          "scorer": {
+            "id": 212729,
+            "name": "Mariano Troilo"
+          },
+          "assist": {
+            "id": 42613,
+            "name": "Emanuele Valeri"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -127176,8 +127198,148 @@
         },
         "leagueRank": 16,
         "formation": null,
-        "lineup": [],
-        "bench": []
+        "lineup": [
+          {
+            "id": 3087,
+            "name": "Emil Audero",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 188533,
+            "name": "Francesco Folino",
+            "position": "Defence",
+            "shirtNumber": 55
+          },
+          {
+            "id": 2373,
+            "name": "Federico Bonazzoli",
+            "position": "Centre-Forward",
+            "shirtNumber": 90
+          },
+          {
+            "id": 14,
+            "name": "Antonio Sanabria",
+            "position": "Centre-Forward",
+            "shirtNumber": 99
+          },
+          {
+            "id": 2107,
+            "name": "Alessio Zerbin",
+            "position": "Left Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 7421,
+            "name": "Morten Thorsby",
+            "position": "Central Midfield",
+            "shirtNumber": 2
+          },
+          {
+            "id": 57805,
+            "name": "Youssef Maleh",
+            "position": "Central Midfield",
+            "shirtNumber": 29
+          },
+          {
+            "id": 45711,
+            "name": "Martín Payero",
+            "position": "Central Midfield",
+            "shirtNumber": 32
+          },
+          {
+            "id": 2120,
+            "name": "Giuseppe Pezzella",
+            "position": "Left-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 144950,
+            "name": "Filippo Terracciano",
+            "position": "Right-Back",
+            "shirtNumber": 24
+          },
+          {
+            "id": 2483,
+            "name": "Sebastiano Luperto",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          }
+        ],
+        "bench": [
+          {
+            "id": 176943,
+            "name": "Lapo Nava",
+            "position": "Goalkeeper",
+            "shirtNumber": 69
+          },
+          {
+            "id": 2143,
+            "name": "Marco Silvestri",
+            "position": "Goalkeeper",
+            "shirtNumber": 16
+          },
+          {
+            "id": 124704,
+            "name": "Tommaso Barbieri",
+            "position": "Defence",
+            "shirtNumber": 4
+          },
+          {
+            "id": 2145,
+            "name": "Matteo Bianchetti",
+            "position": "Defence",
+            "shirtNumber": 15
+          },
+          {
+            "id": 278424,
+            "name": "Davide Pavesi",
+            "position": "Midfield",
+            "shirtNumber": 25
+          },
+          {
+            "id": 41859,
+            "name": "Jari Vandeputte",
+            "position": "Midfield",
+            "shirtNumber": 27
+          },
+          {
+            "id": 4409,
+            "name": "Milan Đurić",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 3330,
+            "name": "Jamie Vardy",
+            "position": "Centre-Forward",
+            "shirtNumber": 10
+          },
+          {
+            "id": 2362,
+            "name": "Alberto Grassi",
+            "position": "Defensive Midfield",
+            "shirtNumber": 33
+          },
+          {
+            "id": 249351,
+            "name": "Mikayil Faye",
+            "position": "Centre-Back",
+            "shirtNumber": 30
+          },
+          {
+            "id": 2213,
+            "name": "Federico Ceccherini",
+            "position": "Centre-Back",
+            "shirtNumber": 23
+          },
+          {
+            "id": 156527,
+            "name": "Warren Bondo",
+            "position": "Central Midfield",
+            "shirtNumber": 38
+          }
+        ]
       },
       "score": {
         "winner": null,
