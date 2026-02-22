@@ -123499,14 +123499,14 @@
       "id": 538053,
       "utcDate": "2026-02-22T16:30:00Z",
       "status": "IN_PLAY",
-      "minute": 76,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": 61439,
       "venue": "Tottenham Hotspur Stadium",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T19:14:53Z",
+      "lastUpdated": "2026-02-22T19:33:37Z",
       "homeTeam": {
         "id": 73,
         "name": "Tottenham Hotspur FC",
@@ -123870,6 +123870,24 @@
             "home": 1,
             "away": 3
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "REGULAR",
+          "team": {
+            "id": 57,
+            "name": "Arsenal FC"
+          },
+          "scorer": {
+            "id": 8279,
+            "name": "Viktor Gyökeres"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 4
+          }
         }
       ],
       "penalties": [],
@@ -123895,6 +123913,18 @@
           "player": {
             "id": 177040,
             "name": "Archie Gray"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 86,
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "player": {
+            "id": 8410,
+            "name": "Yves Bissouma"
           },
           "card": "YELLOW"
         }
