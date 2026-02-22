@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 205
+    "played": 206
   },
   "competition": {
     "id": 2002,
@@ -96588,15 +96588,15 @@
       },
       "id": 540608,
       "utcDate": "2026-02-22T18:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 79,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": 15000,
       "venue": "Voith-Arena",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T21:11:22Z",
+      "lastUpdated": "2026-02-22T21:30:17Z",
       "homeTeam": {
         "id": 44,
         "name": "1. FC Heidenheim 1846",
@@ -96877,8 +96877,8 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
-          "away": 2
+          "home": 3,
+          "away": 3
         },
         "halfTime": {
           "home": 2,
@@ -96957,6 +96957,45 @@
             "home": 2,
             "away": 2
           }
+        },
+        {
+          "minute": 82,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 44,
+            "name": "1. FC Heidenheim 1846"
+          },
+          "scorer": {
+            "id": 96898,
+            "name": "Sirlord Conteh"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 2
+          }
+        },
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "scorer": {
+            "id": 6928,
+            "name": "Deniz Undav"
+          },
+          "assist": {
+            "id": 190,
+            "name": "Nikolas Nartey"
+          },
+          "score": {
+            "home": 3,
+            "away": 3
+          }
         }
       ],
       "penalties": [
@@ -96993,6 +97032,30 @@
           "player": {
             "id": 114649,
             "name": "Tim Siersleben"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "player": {
+            "id": 270273,
+            "name": "Chema Andrés"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "player": {
+            "id": 189873,
+            "name": "Bilal El Khannouss"
           },
           "card": "YELLOW"
         }

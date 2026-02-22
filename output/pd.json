@@ -120910,15 +120910,15 @@
       },
       "id": 544459,
       "utcDate": "2026-02-22T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 9,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio de la Cerámica",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T21:11:16Z",
+      "lastUpdated": "2026-02-22T22:00:47Z",
       "homeTeam": {
         "id": 94,
         "name": "Villarreal CF",
@@ -121075,7 +121075,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 16,
-        "formation": "4-4-2",
+        "formation": "3-4-2-1",
         "lineup": [
           {
             "id": 33781,
@@ -121220,20 +121220,147 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 27,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scorer": {
+            "id": 136349,
+            "name": "Largie Ramazani"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 31,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "scorer": {
+            "id": 213263,
+            "name": "Santi Comesaña"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 6,
+          "type": "PENALTY",
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "scorer": {
+            "id": 633,
+            "name": "Pape Gueye"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 136349,
+            "name": "Largie Ramazani"
+          },
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 633,
+            "name": "Pape Gueye"
+          },
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 23,
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "player": {
+            "id": 136646,
+            "name": "Georges Mikautadze"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 38,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "player": {
+            "id": 136349,
+            "name": "Largie Ramazani"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "player": {
+            "id": 212858,
+            "name": "Santiago Mouriño"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "player": {
+            "id": 32584,
+            "name": "Unai Núñez"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

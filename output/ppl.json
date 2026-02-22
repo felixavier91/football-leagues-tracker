@@ -95084,15 +95084,15 @@
       },
       "id": 545904,
       "utcDate": "2026-02-22T20:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 30,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio do Dragao",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T20:34:49Z",
+      "lastUpdated": "2026-02-22T22:01:33Z",
       "homeTeam": {
         "id": 503,
         "name": "FC Porto",
@@ -95370,18 +95370,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "scorer": {
+            "id": 221262,
+            "name": "Victor Froholdt"
+          },
+          "assist": {
+            "id": 265174,
+            "name": "Oskar Pietuszewski"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
