@@ -104524,14 +104524,14 @@
       "id": 537649,
       "utcDate": "2026-02-22T15:45:00Z",
       "status": "IN_PLAY",
-      "minute": 80,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "AFAS Stadion",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T18:26:22Z",
+      "lastUpdated": "2026-02-22T18:41:59Z",
       "homeTeam": {
         "id": 682,
         "name": "AZ",
@@ -104842,8 +104842,8 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 0
+          "home": 3,
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -104870,6 +104870,69 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 83,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "scorer": {
+            "id": 191223,
+            "name": "Kees Smit"
+          },
+          "assist": {
+            "id": 67899,
+            "name": "Mees De Wit"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 87,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "scorer": {
+            "id": 243902,
+            "name": "Milan Zonneveld"
+          },
+          "assist": {
+            "id": 133204,
+            "name": "Casper Terho"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "scorer": {
+            "id": 131041,
+            "name": "Troy Parrott"
+          },
+          "assist": {
+            "id": 7433,
+            "name": "Jeroen Zoet"
+          },
+          "score": {
+            "home": 3,
+            "away": 1
           }
         }
       ],
@@ -104908,6 +104971,18 @@
           "player": {
             "id": 254333,
             "name": "Marvin Young"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "player": {
+            "id": 131041,
+            "name": "Troy Parrott"
           },
           "card": "YELLOW"
         }
