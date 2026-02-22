@@ -103575,14 +103575,14 @@
       "id": 537650,
       "utcDate": "2026-02-22T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 60,
+      "minute": 71,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadion Galgenwaard",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T15:51:03Z",
+      "lastUpdated": "2026-02-22T16:02:05Z",
       "homeTeam": {
         "id": 676,
         "name": "FC Utrecht",
@@ -103919,7 +103919,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 65,
+          "team": {
+            "id": 676,
+            "name": "FC Utrecht"
+          },
+          "player": {
+            "id": 190433,
+            "name": "Oualid Agougil"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -103972,14 +103985,14 @@
       "id": 537653,
       "utcDate": "2026-02-22T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 61,
+      "minute": 73,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Adelaarshorst",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T15:51:03Z",
+      "lastUpdated": "2026-02-22T16:02:06Z",
       "homeTeam": {
         "id": 718,
         "name": "Go Ahead Eagles",
@@ -104284,7 +104297,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 4,
           "away": 0
         },
         "halfTime": {
@@ -104329,6 +104342,48 @@
           "assist": null,
           "score": {
             "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 63,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 718,
+            "name": "Go Ahead Eagles"
+          },
+          "scorer": {
+            "id": 151613,
+            "name": "Mathis Suray"
+          },
+          "assist": {
+            "id": 10139,
+            "name": "Melle  Meulensteen"
+          },
+          "score": {
+            "home": 3,
+            "away": 0
+          }
+        },
+        {
+          "minute": 67,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 718,
+            "name": "Go Ahead Eagles"
+          },
+          "scorer": {
+            "id": 144367,
+            "name": "Jakob Breum"
+          },
+          "assist": {
+            "id": 180531,
+            "name": "Oskar Sivertsen"
+          },
+          "score": {
+            "home": 4,
             "away": 0
           }
         }
