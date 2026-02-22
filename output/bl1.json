@@ -96589,14 +96589,14 @@
       "id": 540608,
       "utcDate": "2026-02-22T18:30:00Z",
       "status": "IN_PLAY",
-      "minute": 65,
+      "minute": 79,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 15000,
       "venue": "Voith-Arena",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T20:57:22Z",
+      "lastUpdated": "2026-02-22T21:11:22Z",
       "homeTeam": {
         "id": 44,
         "name": "1. FC Heidenheim 1846",
@@ -96983,7 +96983,20 @@
           "scored": true
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 72,
+          "team": {
+            "id": 44,
+            "name": "1. FC Heidenheim 1846"
+          },
+          "player": {
+            "id": 114649,
+            "name": "Tim Siersleben"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
