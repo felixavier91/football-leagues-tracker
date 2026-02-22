@@ -103575,14 +103575,14 @@
       "id": 537650,
       "utcDate": "2026-02-22T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 38,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadion Galgenwaard",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T14:30:29Z",
+      "lastUpdated": "2026-02-22T15:11:35Z",
       "homeTeam": {
         "id": 676,
         "name": "FC Utrecht",
@@ -103751,7 +103751,7 @@
           "nationality": "Netherlands"
         },
         "leagueRank": 13,
-        "formation": "4-2-3-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 175970,
@@ -103884,10 +103884,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -103895,7 +103895,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 12,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 676,
+            "name": "FC Utrecht"
+          },
+          "scorer": {
+            "id": 191058,
+            "name": "Angel Alarcon"
+          },
+          "assist": {
+            "id": 7564,
+            "name": "Dani de Wit"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -103949,15 +103971,15 @@
       },
       "id": 537653,
       "utcDate": "2026-02-22T13:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 39,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Adelaarshorst",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T13:52:36Z",
+      "lastUpdated": "2026-02-22T15:11:35Z",
       "homeTeam": {
         "id": 718,
         "name": "Go Ahead Eagles",
@@ -103970,7 +103992,7 @@
           "nationality": "Netherlands"
         },
         "leagueRank": 15,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 17014,
@@ -104259,20 +104281,55 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 718,
+            "name": "Go Ahead Eagles"
+          },
+          "scorer": {
+            "id": 121280,
+            "name": "Søren Tengstedt"
+          },
+          "assist": {
+            "id": 102404,
+            "name": "Richonell Margaret"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 19,
+          "team": {
+            "id": 718,
+            "name": "Go Ahead Eagles"
+          },
+          "player": {
+            "id": 121280,
+            "name": "Søren Tengstedt"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -104384,7 +104441,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 9561,
+          "name": "Allard Lindhout",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 14764,
+          "name": "Johan Balder",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 81798,
+          "name": "Yorick Weterings",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
