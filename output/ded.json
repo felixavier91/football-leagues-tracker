@@ -105039,14 +105039,14 @@
       "id": 537651,
       "utcDate": "2026-02-22T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 12,
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Kuip",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T20:12:28Z",
+      "lastUpdated": "2026-02-22T20:32:58Z",
       "homeTeam": {
         "id": 675,
         "name": "Feyenoord Rotterdam",
@@ -105339,15 +105339,58 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 14,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1912,
+            "name": "Telstar 1963"
+          },
+          "scorer": {
+            "id": 211708,
+            "name": "Jochem Ritmeester van de Kamp"
+          },
+          "assist": {
+            "id": 219280,
+            "name": "Neville Ogidi Nwankwo"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 675,
+            "name": "Feyenoord Rotterdam"
+          },
+          "scorer": {
+            "id": 244466,
+            "name": "Anis Moussa"
+          },
+          "assist": {
+            "id": 176299,
+            "name": "Jordan Bos"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {

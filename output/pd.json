@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 246
+    "played": 247
   },
   "competition": {
     "id": 2014,
@@ -120386,15 +120386,15 @@
       },
       "id": 544456,
       "utcDate": "2026-02-22T17:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 83,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 9,
       "attendance": 19689,
       "venue": "Estadio Abanca-Balaídos",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T20:11:42Z",
+      "lastUpdated": "2026-02-22T20:30:47Z",
       "homeTeam": {
         "id": 558,
         "name": "RC Celta de Vigo",
@@ -120708,10 +120708,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -120719,8 +120719,60 @@
           "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 85,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "scorer": {
+            "id": 3201,
+            "name": "Iago Aspas"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 5,
+          "type": "REGULAR",
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "scorer": {
+            "id": 3201,
+            "name": "Iago Aspas"
+          },
+          "assist": {
+            "id": 170438,
+            "name": "Williot Swedberg"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 3201,
+            "name": "Iago Aspas"
+          },
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 12,
@@ -120755,6 +120807,54 @@
           "player": {
             "id": 33138,
             "name": "Toni Lato"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 88,
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "player": {
+            "id": 32442,
+            "name": "Jagoba Arrasate"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "player": {
+            "id": 3724,
+            "name": "Johan Mojica"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "player": {
+            "id": 32056,
+            "name": "Borja Iglesias"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "player": {
+            "id": 32984,
+            "name": "Antonio Raíllo"
           },
           "card": "YELLOW"
         }

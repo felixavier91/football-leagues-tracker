@@ -96588,15 +96588,15 @@
       },
       "id": 540608,
       "utcDate": "2026-02-22T18:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 42,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Voith-Arena",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T20:11:48Z",
+      "lastUpdated": "2026-02-22T20:32:23Z",
       "homeTeam": {
         "id": 44,
         "name": "1. FC Heidenheim 1846",
@@ -96874,15 +96874,15 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         }
       },
       "goals": [
@@ -96939,6 +96939,24 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "scorer": {
+            "id": 6549,
+            "name": "Maximilian Mittelstädt"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -96950,6 +96968,17 @@
           "team": {
             "id": 44,
             "name": "1. FC Heidenheim 1846"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 6549,
+            "name": "Maximilian Mittelstädt"
+          },
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
           },
           "scored": true
         }
