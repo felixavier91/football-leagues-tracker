@@ -127627,15 +127627,15 @@
       },
       "id": 537065,
       "utcDate": "2026-02-23T17:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 23,
       "injuryTime": null,
       "attendance": null,
       "venue": "Artemio Franchi, Firenze",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-23T17:49:18Z",
+      "lastUpdated": "2026-02-23T18:55:22Z",
       "homeTeam": {
         "id": 99,
         "name": "ACF Fiorentina",
@@ -127973,18 +127973,37 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 13,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "scorer": {
+            "id": 2171,
+            "name": "Moise Kean"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -128098,7 +128117,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57868,
+          "name": "Matteo Marcenaro",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 49494,
+          "name": "Luigi Rossi",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 263442,
+          "name": "Gilberto Laghezza",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {
