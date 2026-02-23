@@ -121437,14 +121437,14 @@
       "id": 544451,
       "utcDate": "2026-02-23T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 69,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 2,
       "attendance": 14117,
       "venue": "Estadio Mendizorroza",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-23T22:28:12Z",
+      "lastUpdated": "2026-02-23T22:52:03Z",
       "homeTeam": {
         "id": 263,
         "name": "Deportivo Alavés",
@@ -121749,8 +121749,8 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 1
+          "home": 2,
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -121799,6 +121799,48 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 73,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scorer": {
+            "id": 16173,
+            "name": "Viktor Tsyhankov"
+          },
+          "assist": {
+            "id": 122511,
+            "name": "Azzedine Ounahi"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 89,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "scorer": {
+            "id": 11113,
+            "name": "Lucas Boyé"
+          },
+          "assist": {
+            "id": 119282,
+            "name": "Victor Parada"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -121824,6 +121866,30 @@
           "player": {
             "id": 273343,
             "name": "Yusi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 76,
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "player": {
+            "id": 206908,
+            "name": "Claudio Echeverri"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 84,
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "player": {
+            "id": 32111,
+            "name": "Fran Beltrán"
           },
           "card": "YELLOW"
         }

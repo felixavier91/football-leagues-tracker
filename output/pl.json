@@ -123984,14 +123984,14 @@
       "id": 538050,
       "utcDate": "2026-02-23T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 69,
-      "injuryTime": null,
-      "attendance": null,
+      "minute": 90,
+      "injuryTime": 3,
+      "attendance": 52326,
       "venue": "Everton Stadium",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-23T22:28:07Z",
+      "lastUpdated": "2026-02-23T22:51:53Z",
       "homeTeam": {
         "id": 62,
         "name": "Everton FC",
@@ -124269,20 +124269,91 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 71,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "scorer": {
+            "id": 124244,
+            "name": "Benjamin Šeško"
+          },
+          "assist": {
+            "id": 8626,
+            "name": "Bryan Mbeumo"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 77,
+          "team": {
+            "id": 62,
+            "name": "Everton FC"
+          },
+          "player": {
+            "id": 3309,
+            "name": "Jordan Pickford"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 83,
+          "team": {
+            "id": 62,
+            "name": "Everton FC"
+          },
+          "player": {
+            "id": 3316,
+            "name": "James Tarkowski"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 84,
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "player": {
+            "id": 3326,
+            "name": "Harry Maguire"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "player": {
+            "id": 7553,
+            "name": "Noussair Mazraoui"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
