@@ -95531,14 +95531,14 @@
       "id": 545899,
       "utcDate": "2026-02-23T20:15:00Z",
       "status": "IN_PLAY",
-      "minute": 23,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Estádio Municipal 22 de Junho",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-23T21:38:54Z",
+      "lastUpdated": "2026-02-23T22:02:33Z",
       "homeTeam": {
         "id": 5531,
         "name": "FC Famalicão",
@@ -95816,10 +95816,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -95827,7 +95827,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 31,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5531,
+            "name": "FC Famalicão"
+          },
+          "scorer": {
+            "id": 215432,
+            "name": "Mathias De Amorin"
+          },
+          "assist": {
+            "id": 1785,
+            "name": "Gil Dias"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -95851,6 +95873,30 @@
           "player": {
             "id": 213107,
             "name": "Pedro"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 29,
+          "team": {
+            "id": 6618,
+            "name": "Casa Pia AC"
+          },
+          "player": {
+            "id": 274982,
+            "name": "Kaly"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 40,
+          "team": {
+            "id": 6618,
+            "name": "Casa Pia AC"
+          },
+          "player": {
+            "id": 138218,
+            "name": "David Sousa"
           },
           "card": "YELLOW"
         }
