@@ -128131,14 +128131,14 @@
       "id": 537071,
       "utcDate": "2026-02-23T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 58,
+      "minute": 85,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Renato Dall'Ara",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-23T22:02:17Z",
+      "lastUpdated": "2026-02-23T22:28:32Z",
       "homeTeam": {
         "id": 103,
         "name": "Bologna FC 1909",
@@ -128446,10 +128446,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -128457,9 +128457,65 @@
           "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 75,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "scorer": {
+            "id": 2040,
+            "name": "Federico Bernardeschi"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 2040,
+            "name": "Federico Bernardeschi"
+          },
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 62,
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "player": {
+            "id": 64087,
+            "name": "Adam Buksa"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 68,
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "player": {
+            "id": 32491,
+            "name": "Juan Miranda"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
