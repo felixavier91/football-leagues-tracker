@@ -121436,15 +121436,15 @@
       },
       "id": 544451,
       "utcDate": "2026-02-23T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 17,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Mendizorroza",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-23T19:55:05Z",
+      "lastUpdated": "2026-02-23T21:18:03Z",
       "homeTeam": {
         "id": 263,
         "name": "Deportivo Alavés",
@@ -121457,7 +121457,7 @@
           "nationality": "Argentina"
         },
         "leagueRank": 15,
-        "formation": "3-4-3",
+        "formation": "4-4-2",
         "lineup": [
           {
             "id": 283,
@@ -121746,20 +121746,55 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 5,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "scorer": {
+            "id": 11113,
+            "name": "Lucas Boyé"
+          },
+          "assist": {
+            "id": 273343,
+            "name": "Yusi"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 11,
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "player": {
+            "id": 11733,
+            "name": "Toni Martínez"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
