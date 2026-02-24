@@ -76138,15 +76138,15 @@
       },
       "id": 552062,
       "utcDate": "2026-02-24T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 82,
       "injuryTime": null,
       "attendance": null,
       "venue": "St James' Park",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-24T21:57:08Z",
+      "lastUpdated": "2026-02-24T22:36:18Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -76439,8 +76439,8 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
-          "away": 0
+          "home": 3,
+          "away": 2
         },
         "halfTime": {
           "home": 2,
@@ -76486,10 +76486,95 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 50,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 611,
+            "name": "Qarabağ Ağdam FK"
+          },
+          "scorer": {
+            "id": 270725,
+            "name": "Camilo Durán"
+          },
+          "assist": {
+            "id": 180261,
+            "name": "Joni Montiel"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        {
+          "minute": 52,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "scorer": {
+            "id": 81082,
+            "name": "Sven Botman"
+          },
+          "assist": {
+            "id": 3312,
+            "name": "Kieran Trippier"
+          },
+          "score": {
+            "home": 3,
+            "away": 1
+          }
+        },
+        {
+          "minute": 57,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 611,
+            "name": "Qarabağ Ağdam FK"
+          },
+          "scorer": {
+            "id": 85109,
+            "name": "Elvin Cəfərquliyev"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 15135,
+            "name": "Marko Janković"
+          },
+          "team": {
+            "id": 611,
+            "name": "Qarabağ Ağdam FK"
+          },
+          "scored": false
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 80,
+          "team": {
+            "id": 611,
+            "name": "Qarabağ Ağdam FK"
+          },
+          "player": {
+            "id": 99894,
+            "name": "Pedro Bicalho"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -76546,15 +76631,15 @@
       },
       "id": 552066,
       "utcDate": "2026-02-24T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 81,
       "injuryTime": null,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-24T21:57:08Z",
+      "lastUpdated": "2026-02-24T22:36:18Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -76920,15 +77005,15 @@
       },
       "id": 552067,
       "utcDate": "2026-02-24T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 79,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-24T21:57:09Z",
+      "lastUpdated": "2026-02-24T22:36:18Z",
       "homeTeam": {
         "id": 108,
         "name": "FC Internazionale Milano",
@@ -77242,20 +77327,94 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 58,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5721,
+            "name": "FK Bodø/Glimt"
+          },
+          "scorer": {
+            "id": 37916,
+            "name": "Jens Hauge"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 72,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5721,
+            "name": "FK Bodø/Glimt"
+          },
+          "scorer": {
+            "id": 37928,
+            "name": "Håkon Evjen"
+          },
+          "assist": {
+            "id": 37916,
+            "name": "Jens Hauge"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        {
+          "minute": 76,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 1834,
+            "name": "Alessandro Bastoni"
+          },
+          "assist": {
+            "id": 152738,
+            "name": "Ange-Yoan Bonny"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 67,
+          "team": {
+            "id": 5721,
+            "name": "FK Bodø/Glimt"
+          },
+          "player": {
+            "id": 38516,
+            "name": "Jostein Gundersen"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
