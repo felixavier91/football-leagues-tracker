@@ -77485,14 +77485,14 @@
       "id": 552065,
       "utcDate": "2026-02-25T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 75,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 8,
       "attendance": null,
       "venue": "Gewiss Stadium",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-25T20:17:39Z",
+      "lastUpdated": "2026-02-25T20:41:54Z",
       "homeTeam": {
         "id": 102,
         "name": "Atalanta BC",
@@ -77810,7 +77810,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 3,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 2,
@@ -77874,6 +77874,27 @@
             "home": 3,
             "away": 0
           }
+        },
+        {
+          "minute": 75,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "scorer": {
+            "id": 82515,
+            "name": "Karim Adeyemi"
+          },
+          "assist": {
+            "id": 167570,
+            "name": "Carney Chukwuemeka"
+          },
+          "score": {
+            "home": 3,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -77925,6 +77946,30 @@
             "name": "Isak Hien"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "player": {
+            "id": 75539,
+            "name": "Nico Schlotterbeck"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "player": {
+            "id": 8805,
+            "name": "Ramy Bensebaini"
+          },
+          "card": "YELLOW_RED"
         }
       ],
       "substitutions": [],
