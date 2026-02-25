@@ -78059,14 +78059,14 @@
       "id": 552060,
       "utcDate": "2026-02-25T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 1,
+      "minute": 21,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-25T21:02:05Z",
+      "lastUpdated": "2026-02-25T21:23:00Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -78383,15 +78383,55 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 14,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "scorer": {
+            "id": 16748,
+            "name": "Rafa Silva"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 16,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 8514,
+            "name": "Aurélien Tchouameni"
+          },
+          "assist": {
+            "id": 96,
+            "name": "Federico Valverde"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -78451,14 +78491,14 @@
       "id": 552061,
       "utcDate": "2026-02-25T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 1,
+      "minute": 21,
       "injuryTime": null,
       "attendance": null,
       "venue": "Parc des Princes",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-25T21:02:05Z",
+      "lastUpdated": "2026-02-25T21:23:00Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -78609,7 +78649,7 @@
           "nationality": "Belgium"
         },
         "leagueRank": null,
-        "formation": "3-4-2-1",
+        "formation": "3-5-2",
         "lineup": [
           {
             "id": 9535,
@@ -78813,14 +78853,14 @@
       "id": 552063,
       "utcDate": "2026-02-25T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 1,
+      "minute": 22,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Stadium",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-25T21:02:05Z",
+      "lastUpdated": "2026-02-25T21:23:00Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -79141,7 +79181,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 14,
+          "team": {
+            "id": 610,
+            "name": "Galatasaray SK"
+          },
+          "player": {
+            "id": 9434,
+            "name": "Victor Osimhen"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
