@@ -6,7 +6,7 @@
     "count": 189,
     "first": "2025-09-16",
     "last": "2026-05-30",
-    "played": 157
+    "played": 158
   },
   "competition": {
     "id": 2001,
@@ -78059,14 +78059,14 @@
       "id": 552060,
       "utcDate": "2026-02-25T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 86,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 10,
       "attendance": null,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-25T22:46:24Z",
+      "lastUpdated": "2026-02-25T23:01:39Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -78490,6 +78490,18 @@
             "name": "Raúl"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "player": {
+            "id": 290848,
+            "name": "César Palacios"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -78548,15 +78560,15 @@
       },
       "id": 552061,
       "utcDate": "2026-02-25T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 88,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Parc des Princes",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-25T22:46:24Z",
+      "lastUpdated": "2026-02-25T22:54:30Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -78840,11 +78852,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -78911,6 +78923,24 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "scorer": {
+            "id": 67965,
+            "name": "Jordan Teze"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -78962,6 +78992,42 @@
             "name": "Mamadou Coulibaly"
           },
           "card": "YELLOW_RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "player": {
+            "id": 9227,
+            "name": "Sébastien Pocognoli"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "player": {
+            "id": 272502,
+            "name": "Samuel Nibombe"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "player": {
+            "id": 49244,
+            "name": "Matvei Safonov"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -79020,15 +79086,15 @@
       },
       "id": 552063,
       "utcDate": "2026-02-25T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 85,
-      "injuryTime": null,
+      "status": "PAUSED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Allianz Stadium",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-25T22:46:24Z",
+      "lastUpdated": "2026-02-25T23:01:39Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
