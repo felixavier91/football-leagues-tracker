@@ -6,7 +6,7 @@
     "count": 189,
     "first": "2025-09-16",
     "last": "2026-05-30",
-    "played": 158
+    "played": 159
   },
   "competition": {
     "id": 2001,
@@ -78058,15 +78058,15 @@
       },
       "id": 552060,
       "utcDate": "2026-02-25T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 10,
+      "injuryTime": 9,
       "attendance": null,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-25T23:01:39Z",
+      "lastUpdated": "2026-02-25T23:01:49Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -79086,15 +79086,15 @@
       },
       "id": 552063,
       "utcDate": "2026-02-25T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 90,
-      "injuryTime": 5,
+      "status": "IN_PLAY",
+      "minute": 119,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Stadium",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-25T23:01:39Z",
+      "lastUpdated": "2026-02-25T23:34:24Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -79403,14 +79403,22 @@
       },
       "score": {
         "winner": "HOME_TEAM",
-        "duration": "REGULAR",
+        "duration": "EXTRA_TIME",
         "fullTime": {
           "home": 3,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
           "away": 0
+        },
+        "regularTime": {
+          "home": 3,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -79469,6 +79477,45 @@
           "score": {
             "home": 3,
             "away": 0
+          }
+        },
+        {
+          "minute": 105,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 610,
+            "name": "Galatasaray SK"
+          },
+          "scorer": {
+            "id": 9434,
+            "name": "Victor Osimhen"
+          },
+          "assist": {
+            "id": 172081,
+            "name": "Baris Yilmaz"
+          },
+          "score": {
+            "home": 3,
+            "away": 1
+          }
+        },
+        {
+          "minute": 119,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 610,
+            "name": "Galatasaray SK"
+          },
+          "scorer": {
+            "id": 172081,
+            "name": "Baris Yilmaz"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 2
           }
         }
       ],
@@ -79567,6 +79614,18 @@
           "player": {
             "id": 168955,
             "name": "Gabriel Sara"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 111,
+          "team": {
+            "id": 610,
+            "name": "Galatasaray SK"
+          },
+          "player": {
+            "id": 30283,
+            "name": "Uğurcan Çakır"
           },
           "card": "YELLOW"
         }
