@@ -78059,14 +78059,14 @@
       "id": 552060,
       "utcDate": "2026-02-25T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 21,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-25T21:23:00Z",
+      "lastUpdated": "2026-02-25T21:47:40Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -78433,7 +78433,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 35,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "player": {
+            "id": 170657,
+            "name": "Richard Rios"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -78491,14 +78504,14 @@
       "id": 552061,
       "utcDate": "2026-02-25T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 21,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Parc des Princes",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-25T21:23:00Z",
+      "lastUpdated": "2026-02-25T21:47:40Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -78782,20 +78795,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "scorer": {
+            "id": 175701,
+            "name": "Maghnes Akliouche"
+          },
+          "assist": {
+            "id": 244898,
+            "name": "Mamadou Coulibaly"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 24,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "player": {
+            "id": 6687,
+            "name": "Denis Zakaria"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -78853,14 +78901,14 @@
       "id": 552063,
       "utcDate": "2026-02-25T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 22,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Allianz Stadium",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-25T21:23:00Z",
+      "lastUpdated": "2026-02-25T21:47:40Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -79168,10 +79216,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -79179,8 +79227,39 @@
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 37,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "scorer": {
+            "id": 1751,
+            "name": "Manuel Locatelli"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 1751,
+            "name": "Manuel Locatelli"
+          },
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 14,
@@ -79191,6 +79270,54 @@
           "player": {
             "id": 9434,
             "name": "Victor Osimhen"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 25,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "player": {
+            "id": 4393,
+            "name": "Lloyd Kelly"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 31,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "player": {
+            "id": 191712,
+            "name": "Kenan Yıldız"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 33,
+          "team": {
+            "id": 610,
+            "name": "Galatasaray SK"
+          },
+          "player": {
+            "id": 16119,
+            "name": "Roland Sallai"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 41,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "player": {
+            "id": 2023,
+            "name": "Carlo Pinsoglio"
           },
           "card": "YELLOW"
         }
