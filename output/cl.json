@@ -77484,15 +77484,15 @@
       },
       "id": 552065,
       "utcDate": "2026-02-25T17:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 26,
       "injuryTime": null,
       "attendance": null,
       "venue": "Gewiss Stadium",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-25T17:41:19Z",
+      "lastUpdated": "2026-02-25T19:14:09Z",
       "homeTeam": {
         "id": 102,
         "name": "Atalanta BC",
@@ -77806,20 +77806,52 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 5,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "scorer": {
+            "id": 2681,
+            "name": "Gianluca Scamacca"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 13,
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "player": {
+            "id": 8805,
+            "name": "Ramy Bensebaini"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -77936,7 +77968,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 9351,
+          "name": "Slavko Vinčič",
+          "type": "REFEREE",
+          "nationality": "Slovenia"
+        },
+        {
+          "id": 9349,
+          "name": "Tomaž Klančnik",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Slovenia"
+        },
+        {
+          "id": 43934,
+          "name": "Andraž Kovačič",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Slovenia"
+        }
+      ]
     },
     {
       "area": {
@@ -78029,7 +78080,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 37278,
+          "name": "István Kovács",
+          "type": "REFEREE",
+          "nationality": "Romania"
+        },
+        {
+          "id": 36483,
+          "name": "Mihai Marica",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Romania"
+        },
+        {
+          "id": 216968,
+          "name": "Ferencz Tunyogi",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Romania"
+        }
+      ]
     },
     {
       "area": {
@@ -78122,7 +78192,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 38806,
+          "name": "João Pinheiro",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 37731,
+          "name": "Bruno Jesus",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 37591,
+          "name": "Luciano Maia",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
