@@ -77484,15 +77484,15 @@
       },
       "id": 552065,
       "utcDate": "2026-02-25T17:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 26,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Gewiss Stadium",
       "matchday": 2,
       "stage": "PLAYOFFS",
       "group": null,
-      "lastUpdated": "2026-02-25T19:14:09Z",
+      "lastUpdated": "2026-02-25T19:42:14Z",
       "homeTeam": {
         "id": 102,
         "name": "Atalanta BC",
@@ -77809,12 +77809,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "goals": [
@@ -77833,6 +77833,24 @@
           "assist": null,
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "scorer": {
+            "id": 7807,
+            "name": "Davide Zappacosta"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
             "away": 0
           }
         }
