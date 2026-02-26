@@ -24,7 +24,7 @@ from datetime import datetime, timedelta, date
 # CONFIGURATION
 # ============================================
 
-# Configuration
+## Configuration
 INPUT_FILE = "highlights_database.json"
 ALL_LEAGUES_FILE = "all_leagues.json"  # Source of match data
 OUTPUT_FILE = "highlights_database_updated.json"
