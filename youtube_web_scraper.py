@@ -24,7 +24,7 @@ from datetime import datetime, timedelta, date
 # CONFIGURATION
 # ============================================
 
-## Configuration
+# Configuration
 INPUT_FILE = "highlights_database.json"
 ALL_LEAGUES_FILE = "all_leagues.json"  # Source of match data
 OUTPUT_FILE = "highlights_database_updated.json"
@@ -36,8 +36,7 @@ DELAY_BETWEEN_SEARCHES = 2  # Seconds (be nice to YouTube)
 TODAY_ONLY = '--backfill' not in sys.argv  # Default: process last 48 hours, unless --backfill flag is passed
 
 # Leagues to process (set to None to process all)
-# LEAGUES_TO_PROCESS = ["PD", "PL", "FL1", "BL1", "SA", "PPL", "DED", "CL"]  # PD = La Liga, PL = Premier League, FL1 = Ligue 1, BL1 = Bundesliga, SA = Serie A, PPL = Primeira Liga, DED = Eredivisie, CL = Champions League
-LEAGUES_TO_PROCESS = ["CL"] 
+LEAGUES_TO_PROCESS = ["PD", "PL", "FL1", "BL1", "SA", "PPL", "DED", "CL"]  # PD = La Liga, PL = Premier League, FL1 = Ligue 1, BL1 = Bundesliga, SA = Serie A, PPL = Primeira Liga, DED = Eredivisie, CL = Champions League
 MAX_MATCHES_TO_PROCESS = None  # Process ALL finished matches
 
 # Browser settings
@@ -77,6 +76,9 @@ def normalize_text(text):
     
     for special, replacement in replacements.items():
         text_without_accents = text_without_accents.replace(special, replacement)
+    
+    # Replace forward slash with space (e.g., "Bodø/Glimt" → "Bodo Glimt")
+    text_without_accents = text_without_accents.replace('/', ' ')
     
     # Remove any remaining non-ASCII characters
     text_ascii = text_without_accents.encode('ascii', 'ignore').decode('ascii')
