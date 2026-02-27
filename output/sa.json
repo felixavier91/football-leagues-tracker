@@ -128568,14 +128568,14 @@
       "id": 537080,
       "utcDate": "2026-02-27T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 77,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Stadio Ennio Tardini",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-27T22:20:46Z",
+      "lastUpdated": "2026-02-27T22:38:34Z",
       "homeTeam": {
         "id": 112,
         "name": "Parma Calcio 1913",
@@ -128889,10 +128889,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -128919,6 +128919,24 @@
           },
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 83,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 112,
+            "name": "Parma Calcio 1913"
+          },
+          "scorer": {
+            "id": 171586,
+            "name": "Gaetano Oristanio"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
@@ -128982,6 +129000,18 @@
           "player": {
             "id": 188791,
             "name": "Ibrahim Sulemana"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 104,
+            "name": "Cagliari Calcio"
+          },
+          "player": {
+            "id": 170374,
+            "name": "Adam Obert"
           },
           "card": "YELLOW"
         }
