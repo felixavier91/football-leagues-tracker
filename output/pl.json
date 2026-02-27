@@ -124417,15 +124417,15 @@
       },
       "id": 538064,
       "utcDate": "2026-02-27T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 62,
       "injuryTime": null,
       "attendance": null,
       "venue": "Molineux Stadium",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-27T22:01:51Z",
+      "lastUpdated": "2026-02-27T22:20:01Z",
       "homeTeam": {
         "id": 76,
         "name": "Wolverhampton Wanderers FC",
@@ -124703,10 +124703,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -124714,7 +124714,26 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 61,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "scorer": {
+            "id": 138034,
+            "name": "João Gomes"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -124726,6 +124745,42 @@
           "player": {
             "id": 153570,
             "name": "Yerson Mosquera"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 52,
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "player": {
+            "id": 4863,
+            "name": "Adam Armstrong"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 54,
+          "team": {
+            "id": 58,
+            "name": "Aston Villa FC"
+          },
+          "player": {
+            "id": 31941,
+            "name": "Emiliano Buendía"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 58,
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "player": {
+            "id": 788,
+            "name": "Jean-Ricner Bellegarde"
           },
           "card": "YELLOW"
         }

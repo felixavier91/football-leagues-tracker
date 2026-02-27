@@ -128568,14 +128568,14 @@
       "id": 537080,
       "utcDate": "2026-02-27T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 58,
+      "minute": 77,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Ennio Tardini",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-27T22:02:20Z",
+      "lastUpdated": "2026-02-27T22:20:46Z",
       "homeTeam": {
         "id": 112,
         "name": "Parma Calcio 1913",
@@ -128889,18 +128889,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 62,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 104,
+            "name": "Cagliari Calcio"
+          },
+          "scorer": {
+            "id": 42760,
+            "name": "Michael Folorunsho"
+          },
+          "assist": {
+            "id": 114054,
+            "name": "Sebastiano Esposito"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -128936,6 +128958,30 @@
           "player": {
             "id": 157538,
             "name": "Mateo Pellegrino"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 63,
+          "team": {
+            "id": 112,
+            "name": "Parma Calcio 1913"
+          },
+          "player": {
+            "id": 97151,
+            "name": "Lautaro Valenti"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 65,
+          "team": {
+            "id": 104,
+            "name": "Cagliari Calcio"
+          },
+          "player": {
+            "id": 188791,
+            "name": "Ibrahim Sulemana"
           },
           "card": "YELLOW"
         }
