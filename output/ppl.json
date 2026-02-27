@@ -95986,14 +95986,14 @@
       "id": 545909,
       "utcDate": "2026-02-27T18:45:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio do Dragao",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-27T19:48:39Z",
+      "lastUpdated": "2026-02-27T20:08:46Z",
       "homeTeam": {
         "id": 503,
         "name": "FC Porto",
@@ -96099,6 +96099,12 @@
             "name": "Rodrigo Mora",
             "position": "Midfield",
             "shirtNumber": 86
+          },
+          {
+            "id": 262669,
+            "name": "André Oliveira",
+            "position": "Midfield",
+            "shirtNumber": 68
           },
           {
             "id": 285295,
@@ -96265,10 +96271,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -96276,7 +96282,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 1,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "scorer": {
+            "id": 265174,
+            "name": "Oskar Pietuszewski"
+          },
+          "assist": {
+            "id": 221262,
+            "name": "Victor Froholdt"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
