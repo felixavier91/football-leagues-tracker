@@ -74,8 +74,8 @@ async function main() {
     
     // Load existing head2head data
     let head2headData = {};
-    if (fs.existsSync('head2head.json')) {
-        head2headData = JSON.parse(fs.readFileSync('head2head.json', 'utf8'));
+    if (fs.existsSync('output/head2head.json')) {
+        head2headData = JSON.parse(fs.readFileSync('output/head2head.json', 'utf8'));
         console.log(`Loaded ${Object.keys(head2headData).length} existing head2head entries`);
     }
     
@@ -161,7 +161,7 @@ async function main() {
     }
     
     // Save updated head2head data
-    fs.writeFileSync('head2head.json', JSON.stringify(head2headData, null, 2));
+    fs.writeFileSync('output/head2head.json', JSON.stringify(head2headData, null, 2));
     console.log(`\n=== Complete ===`);
     console.log(`Fetched: ${fetchedCount} new entries`);
     console.log(`Skipped: ${skippedCount} entries`);

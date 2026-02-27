@@ -1309,7 +1309,7 @@
                 fetch('output/all_leagues.json').then(r => r.json()),
                 fetch('output/highlights_database.json').then(r => r.json()),
                 fetch('output/match_statistics.json').then(r => r.json()).catch(() => ({})), // Optional: graceful fail
-                fetch('head2head.json').then(r => r.json()).catch(() => ({})), // Optional: graceful fail
+                fetch('output/head2head.json').then(r => r.json()).catch(() => ({})), // Optional: graceful fail
                 fetch('output/soccer_news.json').then(r => r.json()).catch(() => ({})) // Optional: graceful fail
             ])
             .then(([leaguesData, highlightsData, statsData, h2hData, newsData]) => {
