@@ -97111,15 +97111,15 @@
       },
       "id": 540621,
       "utcDate": "2026-02-27T19:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 63,
       "injuryTime": null,
       "attendance": null,
       "venue": "WWK ARENA",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-27T21:32:51Z",
+      "lastUpdated": "2026-02-27T21:50:28Z",
       "homeTeam": {
         "id": 16,
         "name": "FC Augsburg",
@@ -97397,10 +97397,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -97408,7 +97408,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 55,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "scorer": {
+            "id": 178772,
+            "name": "Rodrigo Ribeiro"
+          },
+          "assist": {
+            "id": 249428,
+            "name": "Noahkai Banks"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -97432,6 +97454,18 @@
           "player": {
             "id": 152726,
             "name": "Eric Martel"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 47,
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "player": {
+            "id": 249428,
+            "name": "Noahkai Banks"
           },
           "card": "YELLOW"
         }

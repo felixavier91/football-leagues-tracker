@@ -95986,14 +95986,14 @@
       "id": 545909,
       "utcDate": "2026-02-27T18:45:00Z",
       "status": "IN_PLAY",
-      "minute": 82,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 9,
       "attendance": null,
       "venue": "Estadio do Dragao",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-27T21:33:22Z",
+      "lastUpdated": "2026-02-27T21:51:01Z",
       "homeTeam": {
         "id": 503,
         "name": "FC Porto",
@@ -96271,10 +96271,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 3,
           "away": 1
         },
         "halfTime": {
@@ -96321,10 +96321,86 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 1,
+          "type": "PENALTY",
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "scorer": {
+            "id": 39102,
+            "name": "William da Silva"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 8,
+          "type": "REGULAR",
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "scorer": {
+            "id": 113427,
+            "name": "Terem Moffi"
+          },
+          "assist": {
+            "id": 39102,
+            "name": "William da Silva"
+          },
+          "score": {
+            "home": 3,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 39102,
+            "name": "William da Silva"
+          },
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 90,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 151938,
+            "name": "Boris Popović"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 157101,
+            "name": "Diogo Monteiro"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -96376,15 +96452,15 @@
       },
       "id": 545907,
       "utcDate": "2026-02-27T20:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 3,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Alvalade",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-27T20:54:51Z",
+      "lastUpdated": "2026-02-27T21:51:00Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -96662,11 +96738,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
