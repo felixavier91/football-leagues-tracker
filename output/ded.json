@@ -105491,14 +105491,14 @@
       "id": 537664,
       "utcDate": "2026-02-27T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 23,
+      "minute": 42,
       "injuryTime": null,
       "attendance": null,
       "venue": "BUKO Stadion",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-27T20:25:18Z",
+      "lastUpdated": "2026-02-27T20:44:40Z",
       "homeTeam": {
         "id": 1912,
         "name": "Telstar 1963",
@@ -105800,10 +105800,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -105811,9 +105811,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 38,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1912,
+            "name": "Telstar 1963"
+          },
+          "scorer": {
+            "id": 211708,
+            "name": "Jochem Ritmeester van de Kamp"
+          },
+          "assist": {
+            "id": 7354,
+            "name": "Jeff Hardeveld"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 26,
+          "team": {
+            "id": 681,
+            "name": "NAC Breda"
+          },
+          "player": {
+            "id": 7291,
+            "name": "Clint Leemans"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
