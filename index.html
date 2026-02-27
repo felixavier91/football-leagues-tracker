@@ -1809,21 +1809,6 @@
         function displayStandings(standings) {
             const container = document.getElementById('standingsTable');
             const showAll = container.dataset.expanded === 'true';
-            
-            // For Champions League, cap games at 8 (after that it's playoffs, no more league table)
-            if (currentLeagueCode === 'CL') {
-                standings = standings.map(team => {
-                    if (team.playedGames > 8) {
-                        // Cap stats at 8 games
-                        return {
-                            ...team,
-                            playedGames: 8
-                        };
-                    }
-                    return team;
-                });
-            }
-            
             const teamsToShow = showAll ? standings : standings.slice(0, 6);
             
             const tableHTML = `
@@ -2895,8 +2880,11 @@
                 }
 
                 // League Standings Section (at bottom of card)
+                // For Champions League: don't show standings after matchday 8 (knockout phase)
                 let standingsSection = '';
-                if (window.currentLeagueStats && window.currentLeagueStats.standings) {
+                const showStandings = !(currentLeagueCode === 'CL' && match.matchday > 8);
+                
+                if (showStandings && window.currentLeagueStats && window.currentLeagueStats.standings) {
                     const standings = window.currentLeagueStats.standings;
                     const homeTeamId = match.homeTeam.id;
                     const awayTeamId = match.awayTeam.id;
@@ -2960,8 +2948,6 @@
                 }
 
                 // Create tabs for Stats, Lineups, and Standings
-                // For Champions League: hide Standings tab after matchday 8 (knockout phase)
-                const showStandings = !(currentLeagueCode === 'CL' && match.matchday > 8);
                 
                 // Create tabs for Stats, Standings, Lineups, and History
                 const matchTabs = `
