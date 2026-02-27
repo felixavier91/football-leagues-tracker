@@ -1809,6 +1809,21 @@
         function displayStandings(standings) {
             const container = document.getElementById('standingsTable');
             const showAll = container.dataset.expanded === 'true';
+            
+            // For Champions League, cap games at 8 (after that it's playoffs, no more league table)
+            if (currentLeagueCode === 'CL') {
+                standings = standings.map(team => {
+                    if (team.playedGames > 8) {
+                        // Cap stats at 8 games
+                        return {
+                            ...team,
+                            playedGames: 8
+                        };
+                    }
+                    return team;
+                });
+            }
+            
             const teamsToShow = showAll ? standings : standings.slice(0, 6);
             
             const tableHTML = `
@@ -2945,11 +2960,14 @@
                 }
 
                 // Create tabs for Stats, Lineups, and Standings
+                // For Champions League: hide Standings tab after matchday 8 (knockout phase)
+                const showStandings = !(currentLeagueCode === 'CL' && match.matchday > 8);
+                
                 // Create tabs for Stats, Standings, Lineups, and History
                 const matchTabs = `
                     <div class="match-tabs">
                         <button class="match-tab active" onclick="switchMatchTab(this, 'stats-${match.id}', event)">Stats</button>
-                        <button class="match-tab" onclick="switchMatchTab(this, 'standings-${match.id}', event)">Standings</button>
+                        ${showStandings ? `<button class="match-tab" onclick="switchMatchTab(this, 'standings-${match.id}', event)">Standings</button>` : ''}
                         <button class="match-tab" onclick="switchMatchTab(this, 'lineups-${match.id}', event)">Lineups</button>
                         <button class="match-tab" onclick="switchMatchTab(this, 'history-${match.id}', event)">History</button>
                     </div>
@@ -3048,9 +3066,11 @@
                     <div class="match-tab-panel active" id="stats-${match.id}">
                         ${matchStatsSection}
                     </div>
+                    ${showStandings ? `
                     <div class="match-tab-panel" id="standings-${match.id}">
                         ${standingsSection}
                     </div>
+                    ` : ''}
                     <div class="match-tab-panel" id="lineups-${match.id}">
                         ${startersSection}
                     </div>
