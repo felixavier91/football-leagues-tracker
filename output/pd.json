@@ -121946,14 +121946,14 @@
       "id": 544465,
       "utcDate": "2026-02-27T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 79,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 2,
       "attendance": 17880,
       "venue": "Estadio Ciudad de Valencia",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-27T22:38:20Z",
+      "lastUpdated": "2026-02-27T22:52:20Z",
       "homeTeam": {
         "id": 88,
         "name": "Levante UD",
@@ -122261,10 +122261,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -122272,7 +122272,26 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 88,
+            "name": "Levante UD"
+          },
+          "scorer": {
+            "id": 247061,
+            "name": "Carlos Espí"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -122320,6 +122339,30 @@
           "player": {
             "id": 213262,
             "name": "Carles Aleñá"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 80,
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "player": {
+            "id": 11113,
+            "name": "Lucas Boyé"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 88,
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "player": {
+            "id": 283,
+            "name": "Sivera"
           },
           "card": "YELLOW"
         }
