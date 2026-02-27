@@ -95949,15 +95949,15 @@
       },
       "id": 542620,
       "utcDate": "2026-02-27T19:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 14,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de la Meinau",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-27T19:55:51Z",
+      "lastUpdated": "2026-02-27T20:58:54Z",
       "homeTeam": {
         "id": 576,
         "name": "RC Strasbourg Alsace",
@@ -96235,11 +96235,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -96248,7 +96248,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 4,
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "player": {
+            "id": 270889,
+            "name": "Abdoul Ouattara"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
