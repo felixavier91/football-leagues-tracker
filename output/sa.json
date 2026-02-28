@@ -130098,14 +130098,14 @@
       "id": 537079,
       "utcDate": "2026-02-28T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 51,
+      "minute": 78,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T21:56:20Z",
+      "lastUpdated": "2026-02-28T22:23:00Z",
       "homeTeam": {
         "id": 108,
         "name": "FC Internazionale Milano",
@@ -130428,7 +130428,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -130457,9 +130457,39 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 70,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 1754,
+            "name": "Hakan Çalhanoğlu"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 1754,
+            "name": "Hakan Çalhanoğlu"
+          },
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 9,
@@ -130482,6 +130512,18 @@
           "player": {
             "id": 7795,
             "name": "Henrikh Mkhitaryan"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 65,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "player": {
+            "id": 1754,
+            "name": "Hakan Çalhanoğlu"
           },
           "card": "YELLOW"
         }
