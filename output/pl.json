@@ -124881,15 +124881,15 @@
       },
       "id": 538055,
       "utcDate": "2026-02-28T12:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 31,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Vitality Stadium",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T14:01:29Z",
+      "lastUpdated": "2026-02-28T14:25:08Z",
       "homeTeam": {
         "id": 1044,
         "name": "AFC Bournemouth",
@@ -125174,8 +125174,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -125199,7 +125199,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 33,
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "player": {
+            "id": 182273,
+            "name": "Noah Sadiki"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
