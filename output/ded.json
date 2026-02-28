@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 217
+    "played": 218
   },
   "competition": {
     "id": 2003,
@@ -105987,15 +105987,15 @@
       },
       "id": 537663,
       "utcDate": "2026-02-28T15:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 84,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Abe Lenstra Stadion",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T18:11:55Z",
+      "lastUpdated": "2026-02-28T18:27:35Z",
       "homeTeam": {
         "id": 673,
         "name": "SC Heerenveen",
@@ -106301,7 +106301,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -106344,6 +106344,27 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 86,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "scorer": {
+            "id": 7592,
+            "name": "Mitchell van Bergen"
+          },
+          "assist": {
+            "id": 4286,
+            "name": "Pelle Clement"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -106381,6 +106402,42 @@
           "player": {
             "id": 214414,
             "name": "Oliver Braude"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 89,
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "player": {
+            "id": 254333,
+            "name": "Marvin Young"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "player": {
+            "id": 9574,
+            "name": "Maurice Steijn"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 673,
+            "name": "SC Heerenveen"
+          },
+          "player": {
+            "id": 191291,
+            "name": "Bernt Klaverboer"
           },
           "card": "YELLOW"
         }
