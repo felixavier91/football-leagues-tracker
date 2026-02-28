@@ -97567,14 +97567,14 @@
       "id": 540615,
       "utcDate": "2026-02-28T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 66,
+      "minute": 79,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 30210,
       "venue": "BayArena",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:58:33Z",
+      "lastUpdated": "2026-02-28T17:11:39Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -97852,20 +97852,67 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 67,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "scorer": {
+            "id": 7633,
+            "name": "Sheraldo Becker"
+          },
+          "assist": {
+            "id": 150432,
+            "name": "Paul Nebel"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 66,
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "player": {
+            "id": 64713,
+            "name": "Edmond Tapsoba"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 66,
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "player": {
+            "id": 395,
+            "name": "Stefan Posch"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -97918,14 +97965,14 @@
       "id": 540618,
       "utcDate": "2026-02-28T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 68,
+      "minute": 81,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 52488,
       "venue": "Borussia-Park",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:58:33Z",
+      "lastUpdated": "2026-02-28T17:11:39Z",
       "homeTeam": {
         "id": 18,
         "name": "Borussia Mönchengladbach",
@@ -98330,14 +98377,14 @@
       "id": 540619,
       "utcDate": "2026-02-28T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 68,
+      "minute": 81,
       "injuryTime": null,
       "attendance": null,
       "venue": "PreZero Arena",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:58:33Z",
+      "lastUpdated": "2026-02-28T17:11:40Z",
       "homeTeam": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
@@ -98674,6 +98721,18 @@
             "name": "Danel Sinani"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 80,
+          "team": {
+            "id": 20,
+            "name": "FC St. Pauli 1910"
+          },
+          "player": {
+            "id": 130135,
+            "name": "Joel Fujita"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -98728,14 +98787,14 @@
       "id": 540620,
       "utcDate": "2026-02-28T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 69,
+      "minute": 83,
       "injuryTime": null,
       "attendance": null,
       "venue": "Wohninvest Weserstadion",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:58:34Z",
+      "lastUpdated": "2026-02-28T17:11:40Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -99048,7 +99107,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 72,
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen"
+          },
+          "player": {
+            "id": 93320,
+            "name": "Olivier Deman"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
