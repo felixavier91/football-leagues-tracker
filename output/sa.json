@@ -129564,15 +129564,15 @@
       },
       "id": 537078,
       "utcDate": "2026-02-28T17:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 29,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Marcantonio Bentegodi",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T18:30:51Z",
+      "lastUpdated": "2026-02-28T18:55:30Z",
       "homeTeam": {
         "id": 450,
         "name": "Hellas Verona FC",
@@ -129869,8 +129869,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -129897,7 +129897,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 450,
+            "name": "Hellas Verona FC"
+          },
+          "player": {
+            "id": 213187,
+            "name": "Jean-Daniel Akpa-Akpro"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -130009,7 +130022,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 10985,
+          "name": "Michael Fabbri",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 57819,
+          "name": "Andrea Zingarelli",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 58250,
+          "name": "Filippo Bercigli",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {

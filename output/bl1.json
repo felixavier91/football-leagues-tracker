@@ -99303,14 +99303,14 @@
       "id": 540613,
       "utcDate": "2026-02-28T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 25,
       "injuryTime": null,
       "attendance": null,
       "venue": "Signal Iduna Park",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T18:30:46Z",
+      "lastUpdated": "2026-02-28T18:55:21Z",
       "homeTeam": {
         "id": 4,
         "name": "Borussia Dortmund",
@@ -99601,7 +99601,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 20,
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "player": {
+            "id": 75539,
+            "name": "Nico Schlotterbeck"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
