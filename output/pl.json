@@ -124882,14 +124882,14 @@
       "id": 538055,
       "utcDate": "2026-02-28T12:30:00Z",
       "status": "IN_PLAY",
-      "minute": 4,
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Vitality Stadium",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T13:34:02Z",
+      "lastUpdated": "2026-02-28T14:01:29Z",
       "homeTeam": {
         "id": 1044,
         "name": "AFC Bournemouth",
@@ -125040,7 +125040,7 @@
           "nationality": "France"
         },
         "leagueRank": 12,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 137691,
@@ -125167,18 +125167,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 18,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "scorer": {
+            "id": 178644,
+            "name": "Eliezer Mayenda"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -125292,7 +125311,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 213813,
+          "name": "Sam Barrott",
+          "type": "REFEREE",
+          "nationality": "England"
+        },
+        {
+          "id": 11461,
+          "name": "Tim Wood",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "England"
+        },
+        {
+          "id": 57567,
+          "name": "Wade Smith ",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "England"
+        }
+      ]
     },
     {
       "area": {
@@ -125380,7 +125418,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11396,
+          "name": "Tim Robinson",
+          "type": "REFEREE",
+          "nationality": "England"
+        },
+        {
+          "id": 11586,
+          "name": "Richard West",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "England"
+        },
+        {
+          "id": 11531,
+          "name": "Marc Perry",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "England"
+        }
+      ]
     },
     {
       "area": {
@@ -125468,7 +125525,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11494,
+          "name": "Stuart Attwell",
+          "type": "REFEREE",
+          "nationality": "England"
+        },
+        {
+          "id": 11606,
+          "name": "Constantine Hatzidakis",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "England"
+        },
+        {
+          "id": 11404,
+          "name": "James Mainwaring",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "England"
+        }
+      ]
     },
     {
       "area": {
