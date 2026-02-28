@@ -129068,14 +129068,14 @@
       "id": 537076,
       "utcDate": "2026-02-28T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 9,
+      "minute": 23,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Giuseppe Sinigaglia",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T15:10:44Z",
+      "lastUpdated": "2026-02-28T15:25:30Z",
       "homeTeam": {
         "id": 7397,
         "name": "Como 1907",
@@ -129250,7 +129250,7 @@
           "nationality": "Italy"
         },
         "leagueRank": 18,
-        "formation": "3-5-2",
+        "formation": "3-5-1-1",
         "lineup": [
           {
             "id": 56649,
@@ -129404,15 +129404,58 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 13,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5890,
+            "name": "US Lecce"
+          },
+          "scorer": {
+            "id": 8658,
+            "name": "Lassana Coulibaly"
+          },
+          "assist": {
+            "id": 121808,
+            "name": "Lameck Banda"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 18,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7397,
+            "name": "Como 1907"
+          },
+          "scorer": {
+            "id": 43285,
+            "name": "Anastasios Douvikas"
+          },
+          "assist": {
+            "id": 270254,
+            "name": "Jesús Rodríguez"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
