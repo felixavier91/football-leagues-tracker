@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 210
+    "played": 211
   },
   "competition": {
     "id": 2017,
@@ -97316,15 +97316,15 @@
       },
       "id": 545912,
       "utcDate": "2026-02-28T18:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 3,
+      "injuryTime": 13,
       "attendance": null,
       "venue": "Estádio da Madeira",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T20:54:54Z",
+      "lastUpdated": "2026-02-28T21:06:45Z",
       "homeTeam": {
         "id": 5529,
         "name": "CD Nacional",
@@ -97602,11 +97602,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -97655,9 +97655,39 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 6,
+          "type": "PENALTY",
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "scorer": {
+            "id": 121007,
+            "name": "Rodrigo Zalazar"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 121007,
+            "name": "Rodrigo Zalazar"
+          },
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 13,

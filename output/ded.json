@@ -106984,15 +106984,15 @@
       },
       "id": 537661,
       "utcDate": "2026-02-28T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 21,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadion De Goffert",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T19:56:08Z",
+      "lastUpdated": "2026-02-28T21:23:45Z",
       "homeTeam": {
         "id": 1915,
         "name": "NEC",
@@ -107300,20 +107300,52 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 19,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "scorer": {
+            "id": 21733,
+            "name": "Tjaronn Chery"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 21,
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "player": {
+            "id": 150656,
+            "name": "Ahmetcan Kaplan"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

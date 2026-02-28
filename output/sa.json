@@ -130098,14 +130098,14 @@
       "id": 537079,
       "utcDate": "2026-02-28T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 8,
+      "minute": 36,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T20:54:40Z",
+      "lastUpdated": "2026-02-28T21:23:20Z",
       "homeTeam": {
         "id": 108,
         "name": "FC Internazionale Milano",
@@ -130274,7 +130274,7 @@
           "nationality": "Italy"
         },
         "leagueRank": 14,
-        "formation": "3-4-1-2",
+        "formation": "3-4-2-1",
         "lineup": [
           {
             "id": 7460,
@@ -130425,10 +130425,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -130436,9 +130436,56 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 31,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 30821,
+            "name": "Federico Dimarco"
+          },
+          "assist": {
+            "id": 7795,
+            "name": "Henrikh Mkhitaryan"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 9,
+          "team": {
+            "id": 107,
+            "name": "Genoa CFC"
+          },
+          "player": {
+            "id": 179561,
+            "name": "Ruslan Malinovskiy"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 21,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "player": {
+            "id": 7795,
+            "name": "Henrikh Mkhitaryan"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
