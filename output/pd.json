@@ -122940,14 +122940,14 @@
       "id": 544461,
       "utcDate": "2026-02-28T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 20,
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "Camp Nou",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:38:11Z",
+      "lastUpdated": "2026-02-28T16:49:26Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -123231,10 +123231,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -123242,7 +123242,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 28,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 202283,
+            "name": "Lamine Yamal"
+          },
+          "assist": {
+            "id": 214533,
+            "name": "Fermín López"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

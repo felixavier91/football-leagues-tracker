@@ -125346,14 +125346,14 @@
       "id": 538058,
       "utcDate": "2026-02-28T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 37,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Turf Moor",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:38:08Z",
+      "lastUpdated": "2026-02-28T16:49:17Z",
       "homeTeam": {
         "id": 328,
         "name": "Burnley FC",
@@ -125634,7 +125634,7 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 3
         },
         "halfTime": {
@@ -125702,6 +125702,24 @@
             "home": 0,
             "away": 3
           }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 3,
+          "type": "OWN",
+          "team": {
+            "id": 402,
+            "name": "Brentford FC"
+          },
+          "scorer": {
+            "id": 204348,
+            "name": "Michael Kayode"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 3
+          }
         }
       ],
       "penalties": [],
@@ -125758,14 +125776,14 @@
       "id": 538060,
       "utcDate": "2026-02-28T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 38,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Anfield",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:38:08Z",
+      "lastUpdated": "2026-02-28T16:49:19Z",
       "homeTeam": {
         "id": 64,
         "name": "Liverpool FC",
@@ -126046,7 +126064,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -126096,10 +126114,44 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 43,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 45681,
+            "name": "Alexis Mac Allister"
+          },
+          "assist": {
+            "id": 152454,
+            "name": "Hugo Ekitike"
+          },
+          "score": {
+            "home": 3,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 563,
+            "name": "West Ham United FC"
+          },
+          "player": {
+            "id": 179625,
+            "name": "Soungoutou Magassa"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -126151,15 +126203,15 @@
       },
       "id": 538063,
       "utcDate": "2026-02-28T15:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 37,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "St James' Park",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:38:09Z",
+      "lastUpdated": "2026-02-28T16:49:20Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -126444,8 +126496,8 @@
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         }
       },
       "goals": [
