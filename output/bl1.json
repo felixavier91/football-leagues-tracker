@@ -97566,15 +97566,15 @@
       },
       "id": 540615,
       "utcDate": "2026-02-28T14:30:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
-      "injuryTime": 6,
+      "injuryTime": null,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:21:00Z",
+      "lastUpdated": "2026-02-28T16:38:16Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -97859,8 +97859,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -97917,15 +97917,15 @@
       },
       "id": 540618,
       "utcDate": "2026-02-28T14:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 48,
       "injuryTime": null,
       "attendance": null,
       "venue": "Borussia-Park",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:21:00Z",
+      "lastUpdated": "2026-02-28T16:38:17Z",
       "homeTeam": {
         "id": 18,
         "name": "Borussia Mönchengladbach",
@@ -98305,15 +98305,15 @@
       },
       "id": 540619,
       "utcDate": "2026-02-28T14:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 48,
       "injuryTime": null,
       "attendance": null,
       "venue": "PreZero Arena",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:21:00Z",
+      "lastUpdated": "2026-02-28T16:38:17Z",
       "homeTeam": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
@@ -98703,15 +98703,15 @@
       },
       "id": 540620,
       "utcDate": "2026-02-28T14:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 49,
       "injuryTime": null,
       "attendance": null,
       "venue": "Wohninvest Weserstadion",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:21:01Z",
+      "lastUpdated": "2026-02-28T16:38:17Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -99062,7 +99062,7 @@
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-22T01:32:04Z",
+      "lastUpdated": "2026-02-28T16:30:10Z",
       "homeTeam": {
         "id": 4,
         "name": "Borussia Dortmund",
@@ -99075,7 +99075,7 @@
           "nationality": "Croatia"
         },
         "leagueRank": 2,
-        "formation": null,
+        "formation": "3-4-2-1",
         "lineup": [],
         "bench": []
       },
@@ -99091,7 +99091,7 @@
           "nationality": "Belgium"
         },
         "leagueRank": 1,
-        "formation": null,
+        "formation": "4-2-3-1",
         "lineup": [],
         "bench": []
       },
@@ -99114,7 +99114,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 15824,
+          "name": "Sven Jablonski",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        },
+        {
+          "id": 339,
+          "name": "Sascha Thielert",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Germany"
+        },
+        {
+          "id": 8827,
+          "name": "Eduard Beitinger",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Germany"
+        }
+      ]
     },
     {
       "area": {

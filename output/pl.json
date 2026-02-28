@@ -125346,14 +125346,14 @@
       "id": 538058,
       "utcDate": "2026-02-28T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 20,
+      "minute": 37,
       "injuryTime": null,
       "attendance": null,
       "venue": "Turf Moor",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:20:46Z",
+      "lastUpdated": "2026-02-28T16:38:08Z",
       "homeTeam": {
         "id": 328,
         "name": "Burnley FC",
@@ -125635,7 +125635,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 3
         },
         "halfTime": {
           "home": null,
@@ -125662,6 +125662,45 @@
           "score": {
             "home": 0,
             "away": 1
+          }
+        },
+        {
+          "minute": 25,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 402,
+            "name": "Brentford FC"
+          },
+          "scorer": {
+            "id": 175994,
+            "name": "Thiago Rodrigues"
+          },
+          "assist": {
+            "id": 24238,
+            "name": "Mikkel Damsgaard"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        {
+          "minute": 34,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 402,
+            "name": "Brentford FC"
+          },
+          "scorer": {
+            "id": 123286,
+            "name": "Kevin Schade"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 3
           }
         }
       ],
@@ -125719,14 +125758,14 @@
       "id": 538060,
       "utcDate": "2026-02-28T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 20,
+      "minute": 38,
       "injuryTime": null,
       "attendance": null,
       "venue": "Anfield",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:20:46Z",
+      "lastUpdated": "2026-02-28T16:38:08Z",
       "homeTeam": {
         "id": 64,
         "name": "Liverpool FC",
@@ -126007,7 +126046,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -126034,6 +126073,27 @@
           },
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 24,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 7869,
+            "name": "Virgil van Dijk"
+          },
+          "assist": {
+            "id": 16347,
+            "name": "Dominik Szoboszlai"
+          },
+          "score": {
+            "home": 2,
             "away": 0
           }
         }
@@ -126092,14 +126152,14 @@
       "id": 538063,
       "utcDate": "2026-02-28T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 20,
+      "minute": 37,
       "injuryTime": null,
       "attendance": null,
       "venue": "St James' Park",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:20:47Z",
+      "lastUpdated": "2026-02-28T16:38:09Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -126377,11 +126437,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
           "home": null,
@@ -126401,10 +126461,52 @@
             "id": 114120,
             "name": "Jarrad Branthwaite"
           },
-          "assist": null,
+          "assist": {
+            "id": 101076,
+            "name": "James Garner"
+          },
           "score": {
             "home": 0,
             "away": 1
+          }
+        },
+        {
+          "minute": 32,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "scorer": {
+            "id": 111437,
+            "name": "Jacob Ramsey"
+          },
+          "assist": {
+            "id": 2563,
+            "name": "Sandro Tonali"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 34,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 62,
+            "name": "Everton FC"
+          },
+          "scorer": {
+            "id": 125044,
+            "name": "Beto"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
           }
         }
       ],
@@ -126521,7 +126623,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11309,
+          "name": "Peter Bankes",
+          "type": "REFEREE",
+          "nationality": "England"
+        },
+        {
+          "id": 193192,
+          "name": "Edward Smart",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "England"
+        },
+        {
+          "id": 213684,
+          "name": "Blake Antrobus",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "England"
+        }
+      ]
     },
     {
       "area": {
