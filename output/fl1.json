@@ -97240,14 +97240,14 @@
       "id": 542613,
       "utcDate": "2026-02-28T20:05:00Z",
       "status": "IN_PLAY",
-      "minute": 75,
+      "minute": 85,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Océane",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T22:38:40Z",
+      "lastUpdated": "2026-02-28T22:48:55Z",
       "homeTeam": {
         "id": 533,
         "name": "Le Havre AC",
@@ -97553,7 +97553,19 @@
           }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 177522,
+            "name": "Desire Doue"
+          },
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scored": false
+        }
+      ],
       "bookings": [
         {
           "minute": 31,
@@ -97564,6 +97576,18 @@
           "player": {
             "id": 148288,
             "name": "Timothee Pembele"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 84,
+          "team": {
+            "id": 533,
+            "name": "Le Havre AC"
+          },
+          "player": {
+            "id": 149098,
+            "name": "Fodé Doucouré"
           },
           "card": "YELLOW"
         }
