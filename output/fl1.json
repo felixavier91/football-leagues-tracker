@@ -97239,15 +97239,15 @@
       },
       "id": 542613,
       "utcDate": "2026-02-28T20:05:00Z",
-      "status": "IN_PLAY",
-      "minute": 36,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Océane",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T21:40:51Z",
+      "lastUpdated": "2026-02-28T21:56:30Z",
       "homeTeam": {
         "id": 533,
         "name": "Le Havre AC",
@@ -97260,7 +97260,7 @@
           "nationality": "France"
         },
         "leagueRank": 13,
-        "formation": "3-4-1-2",
+        "formation": "3-4-2-1",
         "lineup": [
           {
             "id": 20931,
@@ -97519,18 +97519,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 37,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 172762,
+            "name": "Bradley Barcola"
+          },
+          "assist": {
+            "id": 213217,
+            "name": "Kang-in Lee"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
