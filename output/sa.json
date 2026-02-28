@@ -129564,15 +129564,15 @@
       },
       "id": 537078,
       "utcDate": "2026-02-28T17:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 67,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Marcantonio Bentegodi",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T18:55:30Z",
+      "lastUpdated": "2026-02-28T19:26:20Z",
       "homeTeam": {
         "id": 450,
         "name": "Hellas Verona FC",
@@ -129862,10 +129862,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -129894,6 +129894,24 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 64,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 450,
+            "name": "Hellas Verona FC"
+          },
+          "scorer": {
+            "id": 213187,
+            "name": "Jean-Daniel Akpa-Akpro"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -129907,6 +129925,30 @@
           "player": {
             "id": 213187,
             "name": "Jean-Daniel Akpa-Akpro"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 56,
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "player": {
+            "id": 176944,
+            "name": "Antonio Vergara"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 60,
+          "team": {
+            "id": 450,
+            "name": "Hellas Verona FC"
+          },
+          "player": {
+            "id": 2728,
+            "name": "Paolo Sammarco"
           },
           "card": "YELLOW"
         }

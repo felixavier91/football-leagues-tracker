@@ -126959,15 +126959,15 @@
       },
       "id": 538061,
       "utcDate": "2026-02-28T17:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 25,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Elland Road",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T18:54:52Z",
+      "lastUpdated": "2026-02-28T19:25:46Z",
       "homeTeam": {
         "id": 341,
         "name": "Leeds United FC",
@@ -127245,18 +127245,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "scorer": {
+            "id": 4417,
+            "name": "Antoine Semenyo"
+          },
+          "assist": {
+            "id": 8642,
+            "name": "Rayan Aït Nouri"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

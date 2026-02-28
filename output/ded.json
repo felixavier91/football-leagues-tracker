@@ -106494,14 +106494,14 @@
       "id": 537660,
       "utcDate": "2026-02-28T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 5,
+      "minute": 37,
       "injuryTime": null,
       "attendance": null,
       "venue": "Erve Asito",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T18:55:56Z",
+      "lastUpdated": "2026-02-28T19:26:46Z",
       "homeTeam": {
         "id": 671,
         "name": "Heracles Almelo",
@@ -106791,19 +106791,68 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 9,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 2004,
+            "name": "Ivan Perišić"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 12,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 130173,
+            "name": "Ismael Saibari"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 2004,
+            "name": "Ivan Perišić"
+          },
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {
@@ -106916,7 +106965,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 9561,
+          "name": "Allard Lindhout",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 14764,
+          "name": "Johan Balder",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 56927,
+          "name": "Freek Vandeursen",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {

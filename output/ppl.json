@@ -97316,15 +97316,15 @@
       },
       "id": 545912,
       "utcDate": "2026-02-28T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 26,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio da Madeira",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T18:14:53Z",
+      "lastUpdated": "2026-02-28T19:26:37Z",
       "homeTeam": {
         "id": 5529,
         "name": "CD Nacional",
@@ -97602,20 +97602,67 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 11,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "scorer": {
+            "id": 121007,
+            "name": "Rodrigo Zalazar"
+          },
+          "assist": {
+            "id": 144579,
+            "name": "Pau Victor Delgado"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 13,
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "player": {
+            "id": 404,
+            "name": "Florian Grillitsch"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 26,
+          "team": {
+            "id": 5529,
+            "name": "CD Nacional"
+          },
+          "player": {
+            "id": 179837,
+            "name": "Matheus Dias"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

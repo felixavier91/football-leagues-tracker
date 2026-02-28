@@ -123463,15 +123463,15 @@
       },
       "id": 544464,
       "utcDate": "2026-02-28T17:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 23,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 17120,
       "venue": "Estadi Mallorca Son Moix",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T18:55:11Z",
+      "lastUpdated": "2026-02-28T19:25:56Z",
       "homeTeam": {
         "id": 89,
         "name": "RCD Mallorca",
@@ -123785,18 +123785,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 36,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol"
+          },
+          "scorer": {
+            "id": 33148,
+            "name": "Carlos Soler"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -123910,7 +123929,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 207113,
+          "name": "César Soto Grado",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        },
+        {
+          "id": 207135,
+          "name": "Carlos Álvarez Fernández",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 207100,
+          "name": "Rubén Becerril Gómez",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
