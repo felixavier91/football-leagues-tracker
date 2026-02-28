@@ -106494,14 +106494,14 @@
       "id": 537660,
       "utcDate": "2026-02-28T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 52,
+      "minute": 81,
       "injuryTime": null,
       "attendance": 11564,
       "venue": "Erve Asito",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T20:01:11Z",
+      "lastUpdated": "2026-02-28T20:30:32Z",
       "homeTeam": {
         "id": 671,
         "name": "Heracles Almelo",
@@ -106859,6 +106859,24 @@
             "home": 0,
             "away": 3
           }
+        },
+        {
+          "minute": 80,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 671,
+            "name": "Heracles Almelo"
+          },
+          "scorer": {
+            "id": 167699,
+            "name": "Lequincio Zeefuik"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 3
+          }
         }
       ],
       "penalties": [
@@ -106874,7 +106892,32 @@
           "scored": true
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 62,
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "player": {
+            "id": 176932,
+            "name": "Paul Wanner"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 63,
+          "team": {
+            "id": 671,
+            "name": "Heracles Almelo"
+          },
+          "player": {
+            "id": 192656,
+            "name": "Alec Van Hoorenbeeck"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
