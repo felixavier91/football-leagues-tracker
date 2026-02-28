@@ -97567,14 +97567,14 @@
       "id": 540615,
       "utcDate": "2026-02-28T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 37,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:07:01Z",
+      "lastUpdated": "2026-02-28T16:21:00Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -97917,15 +97917,15 @@
       },
       "id": 540618,
       "utcDate": "2026-02-28T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 37,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Borussia-Park",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:07:02Z",
+      "lastUpdated": "2026-02-28T16:21:00Z",
       "homeTeam": {
         "id": 18,
         "name": "Borussia Mönchengladbach",
@@ -98210,8 +98210,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -98305,15 +98305,15 @@
       },
       "id": 540619,
       "utcDate": "2026-02-28T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 37,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "PreZero Arena",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:07:02Z",
+      "lastUpdated": "2026-02-28T16:21:00Z",
       "homeTeam": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
@@ -98591,18 +98591,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": 4,
+          "type": "REGULAR",
+          "team": {
+            "id": 20,
+            "name": "FC St. Pauli 1910"
+          },
+          "scorer": {
+            "id": 722,
+            "name": "Mathias Pereira Lage"
+          },
+          "assist": {
+            "id": 102498,
+            "name": "Manolis Saliakas"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -98614,6 +98636,18 @@
           "player": {
             "id": 30548,
             "name": "Ozan Kabak"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 38,
+          "team": {
+            "id": 20,
+            "name": "FC St. Pauli 1910"
+          },
+          "player": {
+            "id": 15243,
+            "name": "Danel Sinani"
           },
           "card": "YELLOW"
         }
@@ -98669,15 +98703,15 @@
       },
       "id": 540620,
       "utcDate": "2026-02-28T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 37,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Wohninvest Weserstadion",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T16:07:02Z",
+      "lastUpdated": "2026-02-28T16:21:01Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -98962,8 +98996,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
