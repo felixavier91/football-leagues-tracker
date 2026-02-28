@@ -96812,14 +96812,14 @@
       "id": 542614,
       "utcDate": "2026-02-28T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 26,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Stade Louis II",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T19:26:26Z",
+      "lastUpdated": "2026-02-28T19:47:21Z",
       "homeTeam": {
         "id": 548,
         "name": "AS Monaco FC",
@@ -97110,7 +97110,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 532,
+            "name": "Angers SCO"
+          },
+          "player": {
+            "id": 244934,
+            "name": "Oumar Pona"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
