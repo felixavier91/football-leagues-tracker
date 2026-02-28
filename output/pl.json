@@ -125346,14 +125346,14 @@
       "id": 538058,
       "utcDate": "2026-02-28T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 51,
+      "minute": 72,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 20069,
       "venue": "Turf Moor",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T17:11:05Z",
+      "lastUpdated": "2026-02-28T17:31:50Z",
       "homeTeam": {
         "id": 328,
         "name": "Burnley FC",
@@ -125631,10 +125631,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 3
         },
         "halfTime": {
@@ -125741,6 +125741,27 @@
             "home": 2,
             "away": 3
           }
+        },
+        {
+          "minute": 60,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 328,
+            "name": "Burnley FC"
+          },
+          "scorer": {
+            "id": 67893,
+            "name": "Zian Flemming"
+          },
+          "assist": {
+            "id": 169325,
+            "name": "Hannibal Mejbri"
+          },
+          "score": {
+            "home": 3,
+            "away": 3
+          }
         }
       ],
       "penalties": [],
@@ -125797,14 +125818,14 @@
       "id": 538060,
       "utcDate": "2026-02-28T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 52,
+      "minute": 73,
       "injuryTime": null,
       "attendance": null,
       "venue": "Anfield",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T17:11:07Z",
+      "lastUpdated": "2026-02-28T17:31:54Z",
       "homeTeam": {
         "id": 64,
         "name": "Liverpool FC",
@@ -126085,7 +126106,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 1
         },
         "halfTime": {
@@ -126177,6 +126198,27 @@
             "home": 3,
             "away": 1
           }
+        },
+        {
+          "minute": 70,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 7459,
+            "name": "Cody Gakpo"
+          },
+          "assist": {
+            "id": 152454,
+            "name": "Hugo Ekitike"
+          },
+          "score": {
+            "home": 4,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -126190,6 +126232,18 @@
           "player": {
             "id": 179625,
             "name": "Soungoutou Magassa"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 55,
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "player": {
+            "id": 7459,
+            "name": "Cody Gakpo"
           },
           "card": "YELLOW"
         }
@@ -126246,14 +126300,14 @@
       "id": 538063,
       "utcDate": "2026-02-28T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 52,
+      "minute": 72,
       "injuryTime": null,
       "attendance": null,
       "venue": "St James' Park",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T17:11:08Z",
+      "lastUpdated": "2026-02-28T17:31:58Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -126605,7 +126659,44 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 53,
+          "team": {
+            "id": 62,
+            "name": "Everton FC"
+          },
+          "player": {
+            "id": 140194,
+            "name": "Kiernan Dewsbury Hall"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 61,
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "player": {
+            "id": 7798,
+            "name": "Joe Willock"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 67,
+          "team": {
+            "id": 62,
+            "name": "Everton FC"
+          },
+          "player": {
+            "id": 101076,
+            "name": "James Garner"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -126665,7 +126756,7 @@
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T10:21:02Z",
+      "lastUpdated": "2026-02-28T17:29:04Z",
       "homeTeam": {
         "id": 341,
         "name": "Leeds United FC",
@@ -126678,9 +126769,131 @@
           "nationality": "Germany"
         },
         "leagueRank": 15,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "5-4-1",
+        "lineup": [
+          {
+            "id": 7913,
+            "name": "Karl Darlow",
+            "position": "Goalkeeper",
+            "shirtNumber": 26
+          },
+          {
+            "id": 7839,
+            "name": "Dominic Calvert-Lewin",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 65843,
+            "name": "Anton Stach",
+            "position": "Central Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 7815,
+            "name": "Ethan Ampadu",
+            "position": "Defensive Midfield",
+            "shirtNumber": 4
+          },
+          {
+            "id": 75284,
+            "name": "Ilia Gruev",
+            "position": "Defensive Midfield",
+            "shirtNumber": 44
+          },
+          {
+            "id": 113262,
+            "name": "Brenden Aaronson",
+            "position": "Attacking Midfield",
+            "shirtNumber": 11
+          },
+          {
+            "id": 4184,
+            "name": "Jayden Bogle",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 31531,
+            "name": "Gabriel Gudmundsson",
+            "position": "Left-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 5613,
+            "name": "James Justin",
+            "position": "Right-Back",
+            "shirtNumber": 24
+          },
+          {
+            "id": 5714,
+            "name": "Joe Rodon",
+            "position": "Centre-Back",
+            "shirtNumber": 6
+          },
+          {
+            "id": 4146,
+            "name": "Pascal Struijk",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          }
+        ],
+        "bench": [
+          {
+            "id": 1331,
+            "name": "Lucas Perri",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 49105,
+            "name": "Ao Tanaka",
+            "position": "Central Midfield",
+            "shirtNumber": 22
+          },
+          {
+            "id": 67978,
+            "name": "Joël Piroe",
+            "position": "Attacking Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 7892,
+            "name": "Lukas Nmecha",
+            "position": "Centre-Forward",
+            "shirtNumber": 14
+          },
+          {
+            "id": 4955,
+            "name": "Sean Longstaff",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 7974,
+            "name": "Daniel James",
+            "position": "Right Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 180813,
+            "name": "Wilfried Gnonto",
+            "position": "Right Winger",
+            "shirtNumber": 29
+          },
+          {
+            "id": 8847,
+            "name": "Sebastiaan Bornauw",
+            "position": "Centre-Back",
+            "shirtNumber": 23
+          },
+          {
+            "id": 74688,
+            "name": "Jaka Bijol",
+            "position": "Centre-Back",
+            "shirtNumber": 15
+          }
+        ]
       },
       "awayTeam": {
         "id": 65,
@@ -126694,9 +126907,131 @@
           "nationality": "Spain"
         },
         "leagueRank": 2,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-1-3-2",
+        "lineup": [
+          {
+            "id": 1731,
+            "name": "Gianluigi Donnarumma",
+            "position": "Goalkeeper",
+            "shirtNumber": 25
+          },
+          {
+            "id": 206743,
+            "name": "Nico O'Reilly",
+            "position": "Midfield",
+            "shirtNumber": 33
+          },
+          {
+            "id": 133242,
+            "name": "Rayan Cherki",
+            "position": "Attacking Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 66896,
+            "name": "Omar Marmoush",
+            "position": "Centre-Forward",
+            "shirtNumber": 7
+          },
+          {
+            "id": 4417,
+            "name": "Antoine Semenyo",
+            "position": "Right Winger",
+            "shirtNumber": 42
+          },
+          {
+            "id": 3254,
+            "name": "Bernardo Silva",
+            "position": "Attacking Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 3199,
+            "name": "Rodri",
+            "position": "Defensive Midfield",
+            "shirtNumber": 16
+          },
+          {
+            "id": 91512,
+            "name": "Matheus Nunes",
+            "position": "Central Midfield",
+            "shirtNumber": 27
+          },
+          {
+            "id": 10183,
+            "name": "Rúben Dias",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 118489,
+            "name": "Marc Guéhi",
+            "position": "Centre-Back",
+            "shirtNumber": 15
+          },
+          {
+            "id": 8642,
+            "name": "Rayan Aït Nouri",
+            "position": "Left-Back",
+            "shirtNumber": 21
+          }
+        ],
+        "bench": [
+          {
+            "id": 153874,
+            "name": "James Trafford",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 3313,
+            "name": "John Stones",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 7696,
+            "name": "Tijjani Reijnders",
+            "position": "Central Midfield",
+            "shirtNumber": 4
+          },
+          {
+            "id": 146352,
+            "name": "Sávio",
+            "position": "Right Winger",
+            "shirtNumber": 26
+          },
+          {
+            "id": 212868,
+            "name": "Abdukodir Khusanov",
+            "position": "Centre-Back",
+            "shirtNumber": 45
+          },
+          {
+            "id": 171986,
+            "name": "Nico Gonzalez",
+            "position": "Central Midfield",
+            "shirtNumber": 14
+          },
+          {
+            "id": 7888,
+            "name": "Phil Foden",
+            "position": "Right Winger",
+            "shirtNumber": 47
+          },
+          {
+            "id": 99775,
+            "name": "Jeremy Doku",
+            "position": "Left Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 8240,
+            "name": "Nathan Aké",
+            "position": "Centre-Back",
+            "shirtNumber": 6
+          }
+        ]
       },
       "score": {
         "winner": null,
