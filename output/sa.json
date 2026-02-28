@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-23",
     "last": "2026-05-24",
-    "played": 262
+    "played": 263
   },
   "competition": {
     "id": 2019,
@@ -129564,15 +129564,15 @@
       },
       "id": 537078,
       "utcDate": "2026-02-28T17:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 88,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Stadio Marcantonio Bentegodi",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-28T19:47:02Z",
+      "lastUpdated": "2026-02-28T20:00:18Z",
       "homeTeam": {
         "id": 450,
         "name": "Hellas Verona FC",
@@ -129862,11 +129862,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -129911,6 +129911,27 @@
           "score": {
             "home": 1,
             "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 6,
+          "type": "REGULAR",
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "scorer": {
+            "id": 3662,
+            "name": "Romelu Lukaku"
+          },
+          "assist": {
+            "id": 181795,
+            "name": "Giovane Nascimento"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
           }
         }
       ],
@@ -129999,6 +130020,30 @@
             "name": "Abdou Harroui"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "player": {
+            "id": 161310,
+            "name": "Juan Jesus"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "player": {
+            "id": 3662,
+            "name": "Romelu Lukaku"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -130074,8 +130119,148 @@
         },
         "leagueRank": 1,
         "formation": null,
-        "lineup": [],
-        "bench": []
+        "lineup": [
+          {
+            "id": 3470,
+            "name": "Yann Sommer",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 167689,
+            "name": "Carlos Augusto Lobaton",
+            "position": "Defence",
+            "shirtNumber": 30
+          },
+          {
+            "id": 8685,
+            "name": "Marcus Thuram-Ulien",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 152738,
+            "name": "Ange-Yoan Bonny",
+            "position": "Centre-Forward",
+            "shirtNumber": 14
+          },
+          {
+            "id": 115074,
+            "name": "Luis Henrique",
+            "position": "Left Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 1911,
+            "name": "Nicolò Barella",
+            "position": "Central Midfield",
+            "shirtNumber": 23
+          },
+          {
+            "id": 2097,
+            "name": "Piotr Zieliński",
+            "position": "Central Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 7795,
+            "name": "Henrikh Mkhitaryan",
+            "position": "Central Midfield",
+            "shirtNumber": 22
+          },
+          {
+            "id": 30821,
+            "name": "Federico Dimarco",
+            "position": "Left-Back",
+            "shirtNumber": 32
+          },
+          {
+            "id": 143,
+            "name": "Manuel Akanji",
+            "position": "Centre-Back",
+            "shirtNumber": 25
+          },
+          {
+            "id": 2053,
+            "name": "Stefan de Vrij",
+            "position": "Centre-Back",
+            "shirtNumber": 6
+          }
+        ],
+        "bench": [
+          {
+            "id": 2819,
+            "name": "Raffaele Di Gennaro",
+            "position": "Goalkeeper",
+            "shirtNumber": 12
+          },
+          {
+            "id": 101415,
+            "name": "Josep Martinez",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 154013,
+            "name": "Petar Sucic",
+            "position": "Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 215433,
+            "name": "Francesco Esposito",
+            "position": "Offence",
+            "shirtNumber": 94
+          },
+          {
+            "id": 277575,
+            "name": "Matteo Lavelli",
+            "position": "Offence",
+            "shirtNumber": 53
+          },
+          {
+            "id": 1754,
+            "name": "Hakan Çalhanoğlu",
+            "position": "Defensive Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 2200,
+            "name": "Davide Frattesi",
+            "position": "Central Midfield",
+            "shirtNumber": 16
+          },
+          {
+            "id": 7417,
+            "name": "Denzel Dumfries",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 168656,
+            "name": "Andy Diouf",
+            "position": "Central Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 7900,
+            "name": "Matteo Darmian",
+            "position": "Right-Back",
+            "shirtNumber": 36
+          },
+          {
+            "id": 193,
+            "name": "Yann Aurel Bisseck",
+            "position": "Centre-Back",
+            "shirtNumber": 31
+          },
+          {
+            "id": 2180,
+            "name": "Francesco Acerbi",
+            "position": "Centre-Back",
+            "shirtNumber": 15
+          }
+        ]
       },
       "awayTeam": {
         "id": 107,
