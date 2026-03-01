@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 257
+    "played": 258
   },
   "competition": {
     "id": 2014,
@@ -125927,15 +125927,15 @@
       },
       "id": 544468,
       "utcDate": "2026-03-01T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 53,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": 11371,
       "venue": "Estadi Municipal de Montilivi",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T22:11:15Z",
+      "lastUpdated": "2026-03-01T22:56:34Z",
       "homeTeam": {
         "id": 298,
         "name": "Girona FC",
@@ -126243,11 +126243,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -126275,6 +126275,45 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 58,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "scorer": {
+            "id": 83406,
+            "name": "Ferran Jutglà"
+          },
+          "assist": {
+            "id": 146986,
+            "name": "Óscar Mingueza"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 70,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scorer": {
+            "id": 249196,
+            "name": "Vitor Reis"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -126288,6 +126327,42 @@
           "player": {
             "id": 83406,
             "name": "Ferran Jutglà"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 81,
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "player": {
+            "id": 206908,
+            "name": "Claudio Echeverri"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 89,
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "player": {
+            "id": 151744,
+            "name": "Arnau Martinez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 89,
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "player": {
+            "id": 170438,
+            "name": "Williot Swedberg"
           },
           "card": "YELLOW"
         }

@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 215
+    "played": 216
   },
   "competition": {
     "id": 2015,
@@ -99457,15 +99457,15 @@
       },
       "id": 542618,
       "utcDate": "2026-03-01T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 60,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 9,
       "attendance": null,
       "venue": "Orange Vélodrome",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T22:11:44Z",
+      "lastUpdated": "2026-03-01T22:52:34Z",
       "homeTeam": {
         "id": 516,
         "name": "Olympique de Marseille",
@@ -99743,11 +99743,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 1
+          "home": 3,
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -99796,6 +99796,69 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 76,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "scorer": {
+            "id": 281450,
+            "name": "Rémi Himbert"
+          },
+          "assist": {
+            "id": 188487,
+            "name": "Endrick"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 81,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "scorer": {
+            "id": 7801,
+            "name": "Pierre-Emerick Aubameyang"
+          },
+          "assist": {
+            "id": 119703,
+            "name": "Igor Paixão"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "scorer": {
+            "id": 7801,
+            "name": "Pierre-Emerick Aubameyang"
+          },
+          "assist": {
+            "id": 188476,
+            "name": "Ethan Nwaneri"
+          },
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -99821,6 +99884,42 @@
           "player": {
             "id": 175845,
             "name": "Tyler Morton"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 74,
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "player": {
+            "id": 33149,
+            "name": "Geoffrey Kondogbia"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 83,
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "player": {
+            "id": 81191,
+            "name": "Nayef Aguerd"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "player": {
+            "id": 80754,
+            "name": "Himad Abdelli"
           },
           "card": "YELLOW"
         }
