@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 212
+    "played": 213
   },
   "competition": {
     "id": 2002,
@@ -99778,15 +99778,15 @@
       },
       "id": 540617,
       "utcDate": "2026-03-01T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 85,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": 57500,
       "venue": "MHPArena",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T17:11:57Z",
+      "lastUpdated": "2026-03-01T17:25:07Z",
       "homeTeam": {
         "id": 10,
         "name": "VfB Stuttgart",
@@ -100067,7 +100067,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 0
         },
         "halfTime": {
@@ -100135,6 +100135,27 @@
             "home": 3,
             "away": 0
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 5,
+          "type": "REGULAR",
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "scorer": {
+            "id": 190,
+            "name": "Nikolas Nartey"
+          },
+          "assist": {
+            "id": 145057,
+            "name": "Tiago Tomás"
+          },
+          "score": {
+            "home": 4,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
@@ -100148,6 +100169,18 @@
           "player": {
             "id": 278254,
             "name": "Daniel Bauer"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 88,
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "player": {
+            "id": 189873,
+            "name": "Bilal El Khannouss"
           },
           "card": "YELLOW"
         }
@@ -100203,15 +100236,15 @@
       },
       "id": 540614,
       "utcDate": "2026-03-01T16:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 3,
       "injuryTime": null,
       "attendance": null,
       "venue": "Deutsche Bank Park",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T16:28:33Z",
+      "lastUpdated": "2026-03-01T17:32:49Z",
       "homeTeam": {
         "id": 19,
         "name": "Eintracht Frankfurt",
@@ -100489,11 +100522,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -100562,7 +100595,7 @@
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-23T01:32:04Z",
+      "lastUpdated": "2026-03-01T17:30:07Z",
       "homeTeam": {
         "id": 7,
         "name": "Hamburger SV",
@@ -100575,7 +100608,7 @@
           "nationality": "Germany"
         },
         "leagueRank": 11,
-        "formation": null,
+        "formation": "3-4-2-1",
         "lineup": [],
         "bench": []
       },
@@ -100591,7 +100624,7 @@
           "nationality": "Germany"
         },
         "leagueRank": 5,
-        "formation": null,
+        "formation": "4-3-3",
         "lineup": [],
         "bench": []
       },
@@ -100614,7 +100647,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 15746,
+          "name": "Bastian Dankert",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        },
+        {
+          "id": 57521,
+          "name": "René Rohde",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Germany"
+        },
+        {
+          "id": 43877,
+          "name": "Stefan Lupp",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Germany"
+        }
+      ]
     },
     {
       "area": {
