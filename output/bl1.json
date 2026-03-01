@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 213
+    "played": 214
   },
   "competition": {
     "id": 2002,
@@ -100236,15 +100236,15 @@
       },
       "id": 540614,
       "utcDate": "2026-03-01T16:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 84,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Deutsche Bank Park",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T19:14:30Z",
+      "lastUpdated": "2026-03-01T19:25:41Z",
       "homeTeam": {
         "id": 19,
         "name": "Eintracht Frankfurt",
@@ -100590,6 +100590,30 @@
             "name": "Lucas Höler"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 86,
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "player": {
+            "id": 171714,
+            "name": "Nnamdi Collins"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 87,
+          "team": {
+            "id": 17,
+            "name": "SC Freiburg"
+          },
+          "player": {
+            "id": 265186,
+            "name": "Cyriaque Irié"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -100643,15 +100667,15 @@
       },
       "id": 540616,
       "utcDate": "2026-03-01T18:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 3,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volksparkstadion",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T18:35:37Z",
+      "lastUpdated": "2026-03-01T19:33:25Z",
       "homeTeam": {
         "id": 7,
         "name": "Hamburger SV",
@@ -100929,11 +100953,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
