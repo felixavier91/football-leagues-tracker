@@ -128816,14 +128816,14 @@
       "id": 538057,
       "utcDate": "2026-03-01T16:30:00Z",
       "status": "IN_PLAY",
-      "minute": 30,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Emirates Stadium",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T18:00:44Z",
+      "lastUpdated": "2026-03-01T18:18:29Z",
       "homeTeam": {
         "id": 57,
         "name": "Arsenal FC",
@@ -128974,7 +128974,7 @@
           "nationality": "England"
         },
         "leagueRank": 6,
-        "formation": "4-2-3-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 135555,
@@ -129101,11 +129101,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
@@ -129132,6 +129132,24 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 2,
+          "type": "OWN",
+          "team": {
+            "id": 57,
+            "name": "Arsenal FC"
+          },
+          "scorer": {
+            "id": 125674,
+            "name": "Piero Hincapié"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
           }
         }
       ],
