@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 212
+    "played": 214
   },
   "competition": {
     "id": 2015,
@@ -98134,15 +98134,15 @@
       },
       "id": 542615,
       "utcDate": "2026-03-01T16:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 84,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Stade du Moustoir",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T18:58:42Z",
+      "lastUpdated": "2026-03-01T19:12:59Z",
       "homeTeam": {
         "id": 525,
         "name": "FC Lorient",
@@ -98613,15 +98613,15 @@
       },
       "id": 542616,
       "utcDate": "2026-03-01T16:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 85,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T18:58:43Z",
+      "lastUpdated": "2026-03-01T19:13:00Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -99036,14 +99036,14 @@
       "id": 542619,
       "utcDate": "2026-03-01T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 84,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 9,
       "attendance": null,
       "venue": "Stade Pierre-Mauroy",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T18:58:43Z",
+      "lastUpdated": "2026-03-01T19:14:44Z",
       "homeTeam": {
         "id": 521,
         "name": "Lille OSC",
@@ -99321,10 +99321,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -99332,7 +99332,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "REGULAR",
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "scorer": {
+            "id": 192677,
+            "name": "Nathan Ngoy"
+          },
+          "assist": {
+            "id": 3650,
+            "name": "Thomas Meunier"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -99368,6 +99390,18 @@
           "player": {
             "id": 3371,
             "name": "Olivier Giroud"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "player": {
+            "id": 192677,
+            "name": "Nathan Ngoy"
           },
           "card": "YELLOW"
         }

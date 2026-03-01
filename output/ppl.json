@@ -98743,15 +98743,15 @@
       },
       "id": 545915,
       "utcDate": "2026-03-01T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 13,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Municipal de Rio Maior",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T18:00:46Z",
+      "lastUpdated": "2026-03-01T19:14:51Z",
       "homeTeam": {
         "id": 6618,
         "name": "Casa Pia AC",
@@ -98902,7 +98902,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 8,
-        "formation": "4-2-3-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 52791,
@@ -99029,11 +99029,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -99041,8 +99041,33 @@
         }
       },
       "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 14003,
+            "name": "Cassiano"
+          },
+          "team": {
+            "id": 6618,
+            "name": "Casa Pia AC"
+          },
+          "scored": false
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 2,
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "player": {
+            "id": 13839,
+            "name": "Maracás"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
