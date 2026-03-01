@@ -100237,14 +100237,14 @@
       "id": 540614,
       "utcDate": "2026-03-01T16:30:00Z",
       "status": "IN_PLAY",
-      "minute": 58,
+      "minute": 68,
       "injuryTime": null,
       "attendance": null,
       "venue": "Deutsche Bank Park",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T18:48:28Z",
+      "lastUpdated": "2026-03-01T18:58:23Z",
       "homeTeam": {
         "id": 19,
         "name": "Eintracht Frankfurt",
@@ -100522,10 +100522,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -100533,9 +100533,44 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 64,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "scorer": {
+            "id": 178658,
+            "name": "Fares Chaïbi"
+          },
+          "assist": {
+            "id": 171714,
+            "name": "Nnamdi Collins"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 66,
+          "team": {
+            "id": 17,
+            "name": "SC Freiburg"
+          },
+          "player": {
+            "id": 9501,
+            "name": "Lucas Höler"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
