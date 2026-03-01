@@ -124350,14 +124350,14 @@
       "id": 544463,
       "utcDate": "2026-03-01T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 24,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Martinez Valero",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T14:02:11Z",
+      "lastUpdated": "2026-03-01T14:26:51Z",
       "homeTeam": {
         "id": 285,
         "name": "Elche CF",
@@ -124665,18 +124665,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 7,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "scorer": {
+            "id": 33358,
+            "name": "Kike García"
+          },
+          "assist": {
+            "id": 125210,
+            "name": "Pol Lozano"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -124790,7 +124812,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 206205,
+          "name": "Adrián Cordero Vega",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        },
+        {
+          "id": 214501,
+          "name": "Israel Bárcena Rodríguez",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 215396,
+          "name": "Judit Romano García",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
