@@ -98744,14 +98744,14 @@
       "id": 545915,
       "utcDate": "2026-03-01T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 50,
+      "minute": 64,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Municipal de Rio Maior",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T20:09:25Z",
+      "lastUpdated": "2026-03-01T20:23:45Z",
       "homeTeam": {
         "id": 6618,
         "name": "Casa Pia AC",
@@ -99029,11 +99029,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -99061,6 +99061,24 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 62,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "scorer": {
+            "id": 169237,
+            "name": "Alanzinho"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [
@@ -99074,6 +99092,17 @@
             "name": "Casa Pia AC"
           },
           "scored": false
+        },
+        {
+          "player": {
+            "id": 169237,
+            "name": "Alanzinho"
+          },
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "scored": true
         }
       ],
       "bookings": [
