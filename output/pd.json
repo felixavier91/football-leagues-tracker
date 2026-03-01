@@ -124907,14 +124907,14 @@
       "id": 544470,
       "utcDate": "2026-03-01T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 55,
+      "minute": 72,
       "injuryTime": null,
       "attendance": 44415,
       "venue": "Estadio de Mestalla",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T17:32:25Z",
+      "lastUpdated": "2026-03-01T17:49:20Z",
       "homeTeam": {
         "id": 95,
         "name": "Valencia CF",
@@ -125216,10 +125216,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -125227,8 +125227,39 @@
           "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 67,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scorer": {
+            "id": 136349,
+            "name": "Largie Ramazani"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 136349,
+            "name": "Largie Ramazani"
+          },
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 21,
@@ -125251,6 +125282,30 @@
           "player": {
             "id": 33146,
             "name": "Gaya"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 58,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "player": {
+            "id": 30823,
+            "name": "Eray Cömert"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 65,
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "player": {
+            "id": 31968,
+            "name": "Sergio Herrera"
           },
           "card": "YELLOW"
         }
