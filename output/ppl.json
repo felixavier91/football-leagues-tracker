@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 212
+    "played": 213
   },
   "competition": {
     "id": 2017,
@@ -98232,15 +98232,15 @@
       },
       "id": 545911,
       "utcDate": "2026-03-01T15:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 87,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Estádio João Cardoso",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T18:19:29Z",
+      "lastUpdated": "2026-03-01T18:32:10Z",
       "homeTeam": {
         "id": 1049,
         "name": "CD Tondela",
@@ -98518,11 +98518,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -98586,6 +98586,24 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "scorer": {
+            "id": 37393,
+            "name": "Serginho"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -98597,6 +98615,17 @@
           "team": {
             "id": 1049,
             "name": "CD Tondela"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 37393,
+            "name": "Serginho"
+          },
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
           },
           "scored": true
         }
@@ -98635,6 +98664,30 @@
           "player": {
             "id": 278476,
             "name": "Henrique Silva"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 86,
+          "team": {
+            "id": 1049,
+            "name": "CD Tondela"
+          },
+          "player": {
+            "id": 178447,
+            "name": "Brayan Medina"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 87,
+          "team": {
+            "id": 1049,
+            "name": "CD Tondela"
+          },
+          "player": {
+            "id": 82672,
+            "name": "Benjamin Mbunga-Kimpioka"
           },
           "card": "YELLOW"
         }

@@ -131541,14 +131541,14 @@
       "id": 537077,
       "utcDate": "2026-03-01T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 17,
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Olimpico Grande Torino",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T18:19:10Z",
+      "lastUpdated": "2026-03-01T18:34:36Z",
       "homeTeam": {
         "id": 586,
         "name": "Torino FC",
@@ -131868,10 +131868,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -131879,7 +131879,26 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 21,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "scorer": {
+            "id": 1789,
+            "name": "Giovanni Simeone"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
