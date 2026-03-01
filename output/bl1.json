@@ -99779,14 +99779,14 @@
       "id": 540617,
       "utcDate": "2026-03-01T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 19,
+      "minute": 28,
       "injuryTime": null,
       "attendance": null,
       "venue": "MHPArena",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T15:49:13Z",
+      "lastUpdated": "2026-03-01T15:59:09Z",
       "homeTeam": {
         "id": 10,
         "name": "VfB Stuttgart",
@@ -100064,10 +100064,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -100075,9 +100075,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 21,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "scorer": {
+            "id": 6928,
+            "name": "Deniz Undav"
+          },
+          "assist": {
+            "id": 33242,
+            "name": "Ermedin Demirovic"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 19,
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "player": {
+            "id": 278254,
+            "name": "Daniel Bauer"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

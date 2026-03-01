@@ -124350,14 +124350,14 @@
       "id": 544463,
       "utcDate": "2026-03-01T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 89,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 8,
       "attendance": 25028,
       "venue": "Estadio Martinez Valero",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T15:48:53Z",
+      "lastUpdated": "2026-03-01T15:59:07Z",
       "homeTeam": {
         "id": 285,
         "name": "Elche CF",
@@ -124665,10 +124665,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 2
         },
         "halfTime": {
@@ -124736,9 +124736,39 @@
             "home": 1,
             "away": 2
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "scorer": {
+            "id": 4098,
+            "name": "Rafael Mir"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 4098,
+            "name": "Rafael Mir"
+          },
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 29,
@@ -124785,6 +124815,42 @@
           "player": {
             "id": 180218,
             "name": "Roberto Fernández"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 30876,
+            "name": "Charles Pickel"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 30876,
+            "name": "Charles Pickel"
+          },
+          "card": "YELLOW_RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "player": {
+            "id": 4098,
+            "name": "Rafael Mir"
           },
           "card": "YELLOW"
         }
