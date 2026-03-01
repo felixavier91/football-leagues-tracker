@@ -98135,14 +98135,14 @@
       "id": 542615,
       "utcDate": "2026-03-01T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 60,
+      "minute": 74,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade du Moustoir",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T18:34:50Z",
+      "lastUpdated": "2026-03-01T18:48:42Z",
       "homeTeam": {
         "id": 525,
         "name": "FC Lorient",
@@ -98614,14 +98614,14 @@
       "id": 542616,
       "utcDate": "2026-03-01T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 61,
+      "minute": 76,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T18:34:40Z",
+      "lastUpdated": "2026-03-01T18:48:42Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -98899,18 +98899,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 69,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "scorer": {
+            "id": 723,
+            "name": "Ludovic Ajorque"
+          },
+          "assist": {
+            "id": 441,
+            "name": "Brendan Chardonnet"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -98946,6 +98968,18 @@
           "player": {
             "id": 187530,
             "name": "Michel Diaz"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 67,
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "player": {
+            "id": 212866,
+            "name": "Sadibou Sané"
           },
           "card": "YELLOW"
         }
@@ -99002,14 +99036,14 @@
       "id": 542619,
       "utcDate": "2026-03-01T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 60,
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Pierre-Mauroy",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T18:34:40Z",
+      "lastUpdated": "2026-03-01T18:48:43Z",
       "homeTeam": {
         "id": 521,
         "name": "Lille OSC",
@@ -99425,7 +99459,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 15548,
+          "name": "Jérôme Brisard",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 123105,
+          "name": "Alexis Auger",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 1064,
+          "name": "Erwan Finjean",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
