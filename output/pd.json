@@ -124350,14 +124350,14 @@
       "id": 544463,
       "utcDate": "2026-03-01T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 24,
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Martinez Valero",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T14:26:51Z",
+      "lastUpdated": "2026-03-01T14:46:42Z",
       "homeTeam": {
         "id": 285,
         "name": "Elche CF",
@@ -124370,7 +124370,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 17,
-        "formation": "4-4-2",
+        "formation": "3-5-2",
         "lineup": [
           {
             "id": 23810,
@@ -124665,10 +124665,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -124697,10 +124697,41 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "scorer": {
+            "id": 159647,
+            "name": "Marc Aguado"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 29,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 149049,
+            "name": "Tyrhys Dolan"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
