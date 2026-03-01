@@ -100668,14 +100668,14 @@
       "id": 540616,
       "utcDate": "2026-03-01T18:30:00Z",
       "status": "IN_PLAY",
-      "minute": 58,
+      "minute": 67,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volksparkstadion",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T20:48:35Z",
+      "lastUpdated": "2026-03-01T20:57:20Z",
       "homeTeam": {
         "id": 7,
         "name": "Hamburger SV",
@@ -101026,7 +101026,19 @@
           }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 178783,
+            "name": "Romulo Cruz"
+          },
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "scored": false
+        }
+      ],
       "bookings": [
         {
           "minute": 31,
@@ -101049,6 +101061,18 @@
           "player": {
             "id": 119989,
             "name": "Philip Otele"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 63,
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "player": {
+            "id": 178783,
+            "name": "Romulo Cruz"
           },
           "card": "YELLOW"
         }
