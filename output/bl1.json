@@ -99778,15 +99778,15 @@
       },
       "id": 540617,
       "utcDate": "2026-03-01T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "MHPArena",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T16:11:16Z",
+      "lastUpdated": "2026-03-01T16:31:51Z",
       "homeTeam": {
         "id": 10,
         "name": "VfB Stuttgart",
@@ -100067,12 +100067,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         }
       },
       "goals": [
@@ -100115,6 +100115,24 @@
           },
           "score": {
             "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "scorer": {
+            "id": 123333,
+            "name": "Jamie Leweling"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
             "away": 0
           }
         }
@@ -100193,7 +100211,7 @@
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T15:30:08Z",
+      "lastUpdated": "2026-03-01T16:28:33Z",
       "homeTeam": {
         "id": 19,
         "name": "Eintracht Frankfurt",
@@ -100207,8 +100225,130 @@
         },
         "leagueRank": 8,
         "formation": "3-4-2-1",
-        "lineup": [],
-        "bench": []
+        "lineup": [
+          {
+            "id": 189482,
+            "name": "Kaua",
+            "position": "Goalkeeper",
+            "shirtNumber": 40
+          },
+          {
+            "id": 171714,
+            "name": "Nnamdi Collins",
+            "position": "Centre-Back",
+            "shirtNumber": 34
+          },
+          {
+            "id": 130668,
+            "name": "Arnaud Kalimuendo",
+            "position": "Centre-Forward",
+            "shirtNumber": 25
+          },
+          {
+            "id": 140,
+            "name": "Mario Götze",
+            "position": "Attacking Midfield",
+            "shirtNumber": 27
+          },
+          {
+            "id": 184533,
+            "name": "Nathaniel Brown",
+            "position": "Left-Back",
+            "shirtNumber": 21
+          },
+          {
+            "id": 185882,
+            "name": "Jean Bahoya",
+            "position": "Left Winger",
+            "shirtNumber": 19
+          },
+          {
+            "id": 180563,
+            "name": "Hugo Larsson",
+            "position": "Central Midfield",
+            "shirtNumber": 16
+          },
+          {
+            "id": 82404,
+            "name": "Jonathan Burkardt",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 205537,
+            "name": "Oscar Højlund",
+            "position": "Central Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 169297,
+            "name": "Aurele Amenda",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 9479,
+            "name": "Robin Koch",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          }
+        ],
+        "bench": [
+          {
+            "id": 9438,
+            "name": "Michael Zetterer",
+            "position": "Goalkeeper",
+            "shirtNumber": 23
+          },
+          {
+            "id": 261407,
+            "name": "Fousseny Doumbia",
+            "position": "Defence",
+            "shirtNumber": 41
+          },
+          {
+            "id": 275141,
+            "name": "Love Arrhov",
+            "position": "Midfield",
+            "shirtNumber": 31
+          },
+          {
+            "id": 261438,
+            "name": "Ayoube Amaimouni-Echghouyab",
+            "position": "Offence",
+            "shirtNumber": 29
+          },
+          {
+            "id": 7531,
+            "name": "Ritsu Doan",
+            "position": "Right Winger",
+            "shirtNumber": 20
+          },
+          {
+            "id": 158,
+            "name": "Mahmoud Dahoud",
+            "position": "Central Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 3608,
+            "name": "Ellyes Skhiri",
+            "position": "Defensive Midfield",
+            "shirtNumber": 15
+          },
+          {
+            "id": 178658,
+            "name": "Fares Chaïbi",
+            "position": "Attacking Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 213880,
+            "name": "Elias Baum",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          }
+        ]
       },
       "awayTeam": {
         "id": 17,
@@ -100223,8 +100363,130 @@
         },
         "leagueRank": 7,
         "formation": "4-2-3-1",
-        "lineup": [],
-        "bench": []
+        "lineup": [
+          {
+            "id": 123287,
+            "name": "Noah Atubolu",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 145293,
+            "name": "Yuito Suzuki",
+            "position": "Offence",
+            "shirtNumber": 14
+          },
+          {
+            "id": 229272,
+            "name": "Ifechukwu Ogbus",
+            "position": "Offence",
+            "shirtNumber": 43
+          },
+          {
+            "id": 6686,
+            "name": "Vincenzo Grifo",
+            "position": "Left Winger",
+            "shirtNumber": 32
+          },
+          {
+            "id": 156629,
+            "name": "Igor Matanovic",
+            "position": "Centre-Forward",
+            "shirtNumber": 31
+          },
+          {
+            "id": 9472,
+            "name": "Christian Günter",
+            "position": "Left-Back",
+            "shirtNumber": 30
+          },
+          {
+            "id": 122651,
+            "name": "Philipp Treu",
+            "position": "Left-Back",
+            "shirtNumber": 29
+          },
+          {
+            "id": 3176,
+            "name": "Matthias Ginter",
+            "position": "Centre-Back",
+            "shirtNumber": 28
+          },
+          {
+            "id": 9501,
+            "name": "Lucas Höler",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 9452,
+            "name": "Maximilian Eggestein",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 120962,
+            "name": "Patrick Osterhage",
+            "position": "Central Midfield",
+            "shirtNumber": 6
+          }
+        ],
+        "bench": [
+          {
+            "id": 6614,
+            "name": "Florian Müller",
+            "position": "Goalkeeper",
+            "shirtNumber": 21
+          },
+          {
+            "id": 261446,
+            "name": "Karl Steinmann",
+            "position": "Defence",
+            "shirtNumber": 65
+          },
+          {
+            "id": 280416,
+            "name": "Rouven Tarnutzer",
+            "position": "Midfield",
+            "shirtNumber": 69
+          },
+          {
+            "id": 265186,
+            "name": "Cyriaque Irié",
+            "position": "Offence",
+            "shirtNumber": 22
+          },
+          {
+            "id": 142,
+            "name": "Maximilian Philipp",
+            "position": "Offence",
+            "shirtNumber": 26
+          },
+          {
+            "id": 171186,
+            "name": "Jordy Makengo",
+            "position": "Left-Back",
+            "shirtNumber": 33
+          },
+          {
+            "id": 9485,
+            "name": "Nicolas Höfler",
+            "position": "Defensive Midfield",
+            "shirtNumber": 27
+          },
+          {
+            "id": 175704,
+            "name": "Derry Scherhant",
+            "position": "Left Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 24097,
+            "name": "Anthony Jung",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          }
+        ]
       },
       "score": {
         "winner": null,
