@@ -98233,14 +98233,14 @@
       "id": 545911,
       "utcDate": "2026-03-01T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 15,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio João Cardoso",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T16:32:24Z",
+      "lastUpdated": "2026-03-01T16:47:37Z",
       "homeTeam": {
         "id": 1049,
         "name": "CD Tondela",
@@ -98518,10 +98518,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -98529,9 +98529,71 @@
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 10,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 1049,
+            "name": "CD Tondela"
+          },
+          "scorer": {
+            "id": 45331,
+            "name": "Bebeto"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 15,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "scorer": {
+            "id": 168766,
+            "name": "Gabriel Silva"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 45331,
+            "name": "Bebeto"
+          },
+          "team": {
+            "id": 1049,
+            "name": "CD Tondela"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 9,
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "player": {
+            "id": 243594,
+            "name": "Sidney Lima"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
