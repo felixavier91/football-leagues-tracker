@@ -132035,14 +132035,14 @@
       "id": 537075,
       "utcDate": "2026-03-01T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 25,
+      "minute": 57,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Olimpico, Rome",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T21:11:25Z",
+      "lastUpdated": "2026-03-01T21:59:34Z",
       "homeTeam": {
         "id": 100,
         "name": "AS Roma",
@@ -132356,20 +132356,97 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 39,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "scorer": {
+            "id": 179164,
+            "name": "Wesley"
+          },
+          "assist": {
+            "id": 192382,
+            "name": "Niccolo Pisilli"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 47,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "scorer": {
+            "id": 150791,
+            "name": "Francisco Conceição"
+          },
+          "assist": {
+            "id": 1106,
+            "name": "Bremer"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 54,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "scorer": {
+            "id": 526,
+            "name": "Evan N'Dicka"
+          },
+          "assist": {
+            "id": 1819,
+            "name": "Lorenzo Pellegrini"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 27,
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "player": {
+            "id": 179164,
+            "name": "Wesley"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

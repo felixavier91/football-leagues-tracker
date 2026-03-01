@@ -99218,15 +99218,15 @@
       },
       "id": 545910,
       "utcDate": "2026-03-01T20:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 29,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio do Rio Ave F.C.",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T20:35:03Z",
+      "lastUpdated": "2026-03-01T21:59:50Z",
       "homeTeam": {
         "id": 496,
         "name": "Rio Ave FC",
@@ -99504,11 +99504,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -99517,7 +99517,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 15,
+          "team": {
+            "id": 496,
+            "name": "Rio Ave FC"
+          },
+          "player": {
+            "id": 15990,
+            "name": "Marious Vrousai"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

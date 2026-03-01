@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 224
+    "played": 225
   },
   "competition": {
     "id": 2003,
@@ -109359,15 +109359,15 @@
       },
       "id": 537657,
       "utcDate": "2026-03-01T19:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 56,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Van Donge & De Roo Stadion",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T21:11:44Z",
+      "lastUpdated": "2026-03-01T21:55:39Z",
       "homeTeam": {
         "id": 670,
         "name": "SBV Excelsior",
@@ -109663,11 +109663,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -109687,7 +109687,10 @@
             "id": 121280,
             "name": "Søren Tengstedt"
           },
-          "assist": null,
+          "assist": {
+            "id": 102404,
+            "name": "Richonell Margaret"
+          },
           "score": {
             "home": 0,
             "away": 1
@@ -109705,6 +109708,18 @@
           "player": {
             "id": 157121,
             "name": "Julius Dirksen"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 78,
+          "team": {
+            "id": 670,
+            "name": "SBV Excelsior"
+          },
+          "player": {
+            "id": 117956,
+            "name": "Arthur Zagre"
           },
           "card": "YELLOW"
         }

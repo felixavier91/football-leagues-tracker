@@ -99458,14 +99458,14 @@
       "id": 542618,
       "utcDate": "2026-03-01T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 25,
+      "minute": 48,
       "injuryTime": null,
       "attendance": null,
       "venue": "Orange Vélodrome",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T21:11:30Z",
+      "lastUpdated": "2026-03-01T21:59:39Z",
       "homeTeam": {
         "id": 516,
         "name": "Olympique de Marseille",
@@ -99473,9 +99473,9 @@
         "tla": "MAR",
         "crest": "https://crests.football-data.org/516.png",
         "coach": {
-          "id": 173649,
-          "name": "Habib Beye",
-          "nationality": "Senegal"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 4,
         "formation": "4-2-3-1",
@@ -99491,12 +99491,6 @@
             "name": "Pierre-Emerick Aubameyang",
             "position": "Centre-Forward",
             "shirtNumber": 17
-          },
-          {
-            "id": 7801,
-            "name": "Pierre-Emerick Aubameyang",
-            "position": "Centre-Forward",
-            "shirtNumber": 97
           },
           {
             "id": 101075,
@@ -99617,9 +99611,9 @@
         "tla": "LYO",
         "crest": "https://crests.football-data.org/523.png",
         "coach": {
-          "id": 16490,
-          "name": "Paulo Fonseca",
-          "nationality": "Portugal"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 3,
         "formation": "4-1-2-1-2",
@@ -99756,8 +99750,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -99784,7 +99778,32 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 30,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "player": {
+            "id": 8977,
+            "name": "Clinton Mata"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "player": {
+            "id": 175845,
+            "name": "Tyler Morton"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

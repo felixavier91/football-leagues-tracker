@@ -125927,15 +125927,15 @@
       },
       "id": 544468,
       "utcDate": "2026-03-01T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 10,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadi Municipal de Montilivi",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T21:11:01Z",
+      "lastUpdated": "2026-03-01T21:59:16Z",
       "homeTeam": {
         "id": 298,
         "name": "Girona FC",
@@ -125948,7 +125948,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 11,
-        "formation": "4-3-2-1",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 7993,
@@ -126243,20 +126243,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 35,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scorer": {
+            "id": 160819,
+            "name": "Vladyslav Vanat"
+          },
+          "assist": {
+            "id": 3656,
+            "name": "Axel Witsel"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 42,
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "player": {
+            "id": 83406,
+            "name": "Ferran Jutglà"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
