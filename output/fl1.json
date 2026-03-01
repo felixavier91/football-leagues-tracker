@@ -97655,15 +97655,15 @@
       },
       "id": 542617,
       "utcDate": "2026-03-01T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Jean Bouin",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T14:11:18Z",
+      "lastUpdated": "2026-03-01T15:32:15Z",
       "homeTeam": {
         "id": 1045,
         "name": "Paris FC",
@@ -97676,7 +97676,7 @@
           "nationality": "France"
         },
         "leagueRank": 15,
-        "formation": "3-4-2-1",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 3175,
@@ -97941,20 +97941,64 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 26,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1045,
+            "name": "Paris FC"
+          },
+          "scorer": {
+            "id": 34754,
+            "name": "Marshall Munetsi"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 19,
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "player": {
+            "id": 180180,
+            "name": "Kevin Carlos"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 22,
+          "team": {
+            "id": 1045,
+            "name": "Paris FC"
+          },
+          "player": {
+            "id": 8439,
+            "name": "Pierre Lees Melou"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -98066,7 +98110,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43886,
+          "name": "Ruddy Buquet",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 57107,
+          "name": "Gwenaël Pasqualotti",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 64763,
+          "name": "Cédric Favre",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -98154,7 +98217,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 1049,
+          "name": "Jeremy Stinat",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 57056,
+          "name": "Christophe Mouysset",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 57061,
+          "name": "François Boudikian",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
@@ -98242,7 +98324,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57039,
+          "name": "Thomas Léonard",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 214211,
+          "name": "Brice Parinet",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 101644,
+          "name": "Valentin Evrard",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {

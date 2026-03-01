@@ -107932,15 +107932,15 @@
       },
       "id": 537659,
       "utcDate": "2026-03-01T13:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 29,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Kras Stadion",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T14:59:51Z",
+      "lastUpdated": "2026-03-01T15:32:31Z",
       "homeTeam": {
         "id": 1919,
         "name": "FC Volendam",
@@ -108248,15 +108248,15 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -108280,9 +108280,39 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 7,
+          "type": "PENALTY",
+          "team": {
+            "id": 1919,
+            "name": "FC Volendam"
+          },
+          "scorer": {
+            "id": 190770,
+            "name": "Brandley Kuwas"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 190770,
+            "name": "Brandley Kuwas"
+          },
+          "team": {
+            "id": 1919,
+            "name": "FC Volendam"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 23,
@@ -108348,15 +108378,15 @@
       },
       "id": 537665,
       "utcDate": "2026-03-01T13:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 28,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Grolsch Veste",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T14:59:52Z",
+      "lastUpdated": "2026-03-01T15:32:31Z",
       "homeTeam": {
         "id": 666,
         "name": "FC Twente '65",
@@ -108652,18 +108682,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 666,
+            "name": "FC Twente '65"
+          },
+          "scorer": {
+            "id": 167635,
+            "name": "Kristian Hlynsson"
+          },
+          "assist": {
+            "id": 246761,
+            "name": "Sondre Ørjasæter"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
