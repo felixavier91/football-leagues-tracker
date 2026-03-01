@@ -125386,14 +125386,14 @@
       "id": 544462,
       "utcDate": "2026-03-01T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 60,
+      "minute": 76,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 67447,
       "venue": "Estadio de La Cartuja",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T19:52:45Z",
+      "lastUpdated": "2026-03-01T20:08:49Z",
       "homeTeam": {
         "id": 90,
         "name": "Real Betis Balompié",
@@ -125711,7 +125711,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 2,
@@ -125757,6 +125757,27 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 62,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC"
+          },
+          "scorer": {
+            "id": 7911,
+            "name": "Alexis Sánchez"
+          },
+          "assist": {
+            "id": 244751,
+            "name": "Oso"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -125782,6 +125803,18 @@
           "player": {
             "id": 97085,
             "name": "Antony"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 75,
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié"
+          },
+          "player": {
+            "id": 9,
+            "name": "Diego Llorente"
           },
           "card": "YELLOW"
         }
@@ -125845,7 +125878,7 @@
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-02-24T01:32:03Z",
+      "lastUpdated": "2026-03-01T20:08:12Z",
       "homeTeam": {
         "id": 298,
         "name": "Girona FC",
@@ -125858,9 +125891,137 @@
           "nationality": "Spain"
         },
         "leagueRank": 11,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-2-1",
+        "lineup": [
+          {
+            "id": 7993,
+            "name": "Paulo Gazzaniga",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 160819,
+            "name": "Vladyslav Vanat",
+            "position": "Offence",
+            "shirtNumber": 19
+          },
+          {
+            "id": 16173,
+            "name": "Viktor Tsyhankov",
+            "position": "Right Winger",
+            "shirtNumber": 15
+          },
+          {
+            "id": 101912,
+            "name": "Bryan Gil",
+            "position": "Left Winger",
+            "shirtNumber": 21
+          },
+          {
+            "id": 32111,
+            "name": "Fran Beltrán",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 3656,
+            "name": "Axel Witsel",
+            "position": "Centre-Back",
+            "shirtNumber": 20
+          },
+          {
+            "id": 3369,
+            "name": "Thomas Lemar",
+            "position": "Attacking Midfield",
+            "shirtNumber": 11
+          },
+          {
+            "id": 229042,
+            "name": "Hugo Rincón",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 249196,
+            "name": "Vitor Reis",
+            "position": "Centre-Back",
+            "shirtNumber": 12
+          },
+          {
+            "id": 7899,
+            "name": "Daley Blind",
+            "position": "Centre-Back",
+            "shirtNumber": 17
+          },
+          {
+            "id": 151744,
+            "name": "Arnau Martinez",
+            "position": "Right-Back",
+            "shirtNumber": 4
+          }
+        ],
+        "bench": [
+          {
+            "id": 33614,
+            "name": "Rubén Blanco",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 215549,
+            "name": "Vladyslav Krapyvtsov",
+            "position": "Goalkeeper",
+            "shirtNumber": 25
+          },
+          {
+            "id": 180280,
+            "name": "Casals",
+            "position": "Defence",
+            "shirtNumber": 3
+          },
+          {
+            "id": 251326,
+            "name": "Lass Kourouma",
+            "position": "Midfield",
+            "shirtNumber": 29
+          },
+          {
+            "id": 32511,
+            "name": "Abel Ruiz",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 122511,
+            "name": "Azzedine Ounahi",
+            "position": "Central Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 102497,
+            "name": "Iván Martín",
+            "position": "Attacking Midfield",
+            "shirtNumber": 23
+          },
+          {
+            "id": 32712,
+            "name": "David López",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 135524,
+            "name": "Alejandro Francés",
+            "position": "Centre-Back",
+            "shirtNumber": 16
+          },
+          {
+            "id": 206908,
+            "name": "Claudio Echeverri",
+            "position": "Attacking Midfield",
+            "shirtNumber": 14
+          }
+        ]
       },
       "awayTeam": {
         "id": 558,
@@ -125874,9 +126035,149 @@
           "nationality": "Spain"
         },
         "leagueRank": 6,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "3-4-3",
+        "lineup": [
+          {
+            "id": 2788,
+            "name": "Ionuț Radu",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 272435,
+            "name": "Miguel Román",
+            "position": "Midfield",
+            "shirtNumber": 16
+          },
+          {
+            "id": 83406,
+            "name": "Ferran Jutglà",
+            "position": "Midfield",
+            "shirtNumber": 9
+          },
+          {
+            "id": 272431,
+            "name": "Fer López",
+            "position": "Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 175869,
+            "name": "Hugo Alvarez",
+            "position": "Left Winger",
+            "shirtNumber": 23
+          },
+          {
+            "id": 146986,
+            "name": "Óscar Mingueza",
+            "position": "Right-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 157368,
+            "name": "Ilaix Moriba",
+            "position": "Central Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 133570,
+            "name": "Sergio Carreira",
+            "position": "Right-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 229003,
+            "name": "Javi Rodríguez",
+            "position": "Centre-Back",
+            "shirtNumber": 32
+          },
+          {
+            "id": 8968,
+            "name": "Joseph Aidoo",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 159446,
+            "name": "Carlos Dominguez",
+            "position": "Centre-Back",
+            "shirtNumber": 24
+          }
+        ],
+        "bench": [
+          {
+            "id": 32918,
+            "name": "Iván Villar",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 279927,
+            "name": "Manuel Fernández",
+            "position": "Defence",
+            "shirtNumber": 12
+          },
+          {
+            "id": 211835,
+            "name": "Álvaro Núñez",
+            "position": "Defence",
+            "shirtNumber": 14
+          },
+          {
+            "id": 288772,
+            "name": "Andrés Antañón",
+            "position": "Midfield",
+            "shirtNumber": 36
+          },
+          {
+            "id": 180502,
+            "name": "Jones El-Abdellaoui",
+            "position": "Midfield",
+            "shirtNumber": 39
+          },
+          {
+            "id": 2009,
+            "name": "Matías Vecino",
+            "position": "Central Midfield",
+            "shirtNumber": 15
+          },
+          {
+            "id": 170438,
+            "name": "Williot Swedberg",
+            "position": "Left Winger",
+            "shirtNumber": 19
+          },
+          {
+            "id": 253001,
+            "name": "Javi Rueda",
+            "position": "Right-Back",
+            "shirtNumber": 17
+          },
+          {
+            "id": 57610,
+            "name": "Mihajlo Ristić",
+            "position": "Left-Back",
+            "shirtNumber": 21
+          },
+          {
+            "id": 252993,
+            "name": "Yoel Lago",
+            "position": "Centre-Back",
+            "shirtNumber": 29
+          },
+          {
+            "id": 32056,
+            "name": "Borja Iglesias",
+            "position": "Centre-Forward",
+            "shirtNumber": 7
+          },
+          {
+            "id": 3201,
+            "name": "Iago Aspas",
+            "position": "Centre-Forward",
+            "shirtNumber": 10
+          }
+        ]
       },
       "score": {
         "winner": null,
