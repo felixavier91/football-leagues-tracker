@@ -100668,14 +100668,14 @@
       "id": 540616,
       "utcDate": "2026-03-01T18:30:00Z",
       "status": "IN_PLAY",
-      "minute": 3,
+      "minute": 23,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volksparkstadion",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T19:33:25Z",
+      "lastUpdated": "2026-03-01T19:52:56Z",
       "homeTeam": {
         "id": 7,
         "name": "Hamburger SV",
@@ -100953,10 +100953,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -100964,7 +100964,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "scorer": {
+            "id": 112948,
+            "name": "Fabio Vieira"
+          },
+          "assist": {
+            "id": 160442,
+            "name": "William Mikelbrencis"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

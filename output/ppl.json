@@ -98743,15 +98743,15 @@
       },
       "id": 545915,
       "utcDate": "2026-03-01T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 32,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Municipal de Rio Maior",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T19:33:50Z",
+      "lastUpdated": "2026-03-01T19:53:15Z",
       "homeTeam": {
         "id": 6618,
         "name": "Casa Pia AC",
@@ -99029,18 +99029,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 40,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 6618,
+            "name": "Casa Pia AC"
+          },
+          "scorer": {
+            "id": 14003,
+            "name": "Cassiano"
+          },
+          "assist": {
+            "id": 126877,
+            "name": "Larra"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [
         {
           "player": {
@@ -99064,6 +99086,30 @@
           "player": {
             "id": 13839,
             "name": "Maracás"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 42,
+          "team": {
+            "id": 6618,
+            "name": "Casa Pia AC"
+          },
+          "player": {
+            "id": 138218,
+            "name": "David Sousa"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "player": {
+            "id": 188084,
+            "name": "Dinis Pinto"
           },
           "card": "YELLOW"
         }
