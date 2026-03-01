@@ -108887,14 +108887,14 @@
       "id": 537658,
       "utcDate": "2026-03-01T15:45:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 9,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadion Galgenwaard",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T16:47:38Z",
+      "lastUpdated": "2026-03-01T16:57:41Z",
       "homeTeam": {
         "id": 676,
         "name": "FC Utrecht",
@@ -109196,10 +109196,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -109207,7 +109207,26 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 9,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 676,
+            "name": "FC Utrecht"
+          },
+          "scorer": {
+            "id": 148291,
+            "name": "Yoann Cathline"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
