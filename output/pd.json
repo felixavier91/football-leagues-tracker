@@ -126419,14 +126419,14 @@
       "id": 544469,
       "utcDate": "2026-03-02T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 18,
+      "minute": 44,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-02T21:20:55Z",
+      "lastUpdated": "2026-03-02T21:46:50Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -126728,18 +126728,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 39,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "scorer": {
+            "id": 152458,
+            "name": "Martin Satriano"
+          },
+          "assist": {
+            "id": 32758,
+            "name": "Mauro Arambarri"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -126751,6 +126773,18 @@
           "player": {
             "id": 213274,
             "name": "Kiko Femenía"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 35,
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "player": {
+            "id": 32758,
+            "name": "Mauro Arambarri"
           },
           "card": "YELLOW"
         }
