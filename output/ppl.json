@@ -99642,15 +99642,15 @@
       },
       "id": 545913,
       "utcDate": "2026-03-02T20:15:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 72,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Cidade de Barcelos",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-02T22:03:45Z",
+      "lastUpdated": "2026-03-02T22:46:14Z",
       "homeTeam": {
         "id": 5533,
         "name": "Gil Vicente FC",
@@ -99928,10 +99928,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -99960,6 +99960,27 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 51,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "scorer": {
+            "id": 32309,
+            "name": "Héctor Hernández"
+          },
+          "assist": {
+            "id": 180125,
+            "name": "Santi García"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -99985,6 +100006,18 @@
           "player": {
             "id": 114276,
             "name": "César Peixoto"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 57,
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "player": {
+            "id": 153579,
+            "name": "Facundo Cáseres"
           },
           "card": "YELLOW"
         }
