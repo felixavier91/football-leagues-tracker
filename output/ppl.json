@@ -99642,15 +99642,15 @@
       },
       "id": 545913,
       "utcDate": "2026-03-02T20:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 31,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Cidade de Barcelos",
       "matchday": 24,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-02T21:47:25Z",
+      "lastUpdated": "2026-03-02T22:03:45Z",
       "homeTeam": {
         "id": 5533,
         "name": "Gil Vicente FC",
@@ -99928,20 +99928,67 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 35,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "scorer": {
+            "id": 67299,
+            "name": "Vangelis Pavlidis"
+          },
+          "assist": {
+            "id": 185610,
+            "name": "Antonio Silva"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 39,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "player": {
+            "id": 3205,
+            "name": "Nicolás Otamendi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "player": {
+            "id": 114276,
+            "name": "César Peixoto"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
