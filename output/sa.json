@@ -133008,14 +133008,14 @@
       "id": 537083,
       "utcDate": "2026-03-02T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 14,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Friuli",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-02T20:45:45Z",
+      "lastUpdated": "2026-03-02T21:01:14Z",
       "homeTeam": {
         "id": 115,
         "name": "Udinese Calcio",
@@ -133184,7 +133184,7 @@
           "nationality": "Italy"
         },
         "leagueRank": 16,
-        "formation": "4-3-3",
+        "formation": "3-4-2-1",
         "lineup": [
           {
             "id": 3188,
@@ -133323,10 +133323,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -133334,7 +133334,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 10,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "scorer": {
+            "id": 8111,
+            "name": "Christian Kabasele"
+          },
+          "assist": {
+            "id": 2013,
+            "name": "Nicolò Zaniolo"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
