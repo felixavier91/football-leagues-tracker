@@ -132556,14 +132556,14 @@
       "id": 537081,
       "utcDate": "2026-03-02T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 72,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Stadio Romeo Anconetani",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-02T20:04:34Z",
+      "lastUpdated": "2026-03-02T20:25:44Z",
       "homeTeam": {
         "id": 487,
         "name": "AC Pisa 1909",
@@ -132895,18 +132895,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "scorer": {
+            "id": 2017,
+            "name": "Jens Odgaard"
+          },
+          "assist": {
+            "id": 1841,
+            "name": "Remo Freuler"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -132918,6 +132940,18 @@
           "player": {
             "id": 1841,
             "name": "Remo Freuler"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 82,
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "player": {
+            "id": 22113,
+            "name": "Jhon Lucumí"
           },
           "card": "YELLOW"
         }
