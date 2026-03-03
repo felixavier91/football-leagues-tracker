@@ -129301,14 +129301,14 @@
       "id": 538065,
       "utcDate": "2026-03-03T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 64,
+      "minute": 86,
       "injuryTime": null,
       "attendance": null,
       "venue": "Vitality Stadium",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-03T21:51:46Z",
+      "lastUpdated": "2026-03-03T22:13:19Z",
       "homeTeam": {
         "id": 1044,
         "name": "AFC Bournemouth",
@@ -129665,14 +129665,14 @@
       "id": 538068,
       "utcDate": "2026-03-03T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 61,
+      "minute": 83,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 51959,
       "venue": "Everton Stadium",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-03T21:51:46Z",
+      "lastUpdated": "2026-03-03T22:13:19Z",
       "homeTeam": {
         "id": 62,
         "name": "Everton FC",
@@ -130006,7 +130006,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 64,
+          "team": {
+            "id": 328,
+            "name": "Burnley FC"
+          },
+          "player": {
+            "id": 190547,
+            "name": "Bashir Humphreys"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -130059,14 +130072,14 @@
       "id": 538070,
       "utcDate": "2026-03-03T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 62,
+      "minute": 83,
       "injuryTime": null,
       "attendance": null,
       "venue": "Elland Road",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-03T21:51:46Z",
+      "lastUpdated": "2026-03-03T22:13:19Z",
       "homeTeam": {
         "id": 341,
         "name": "Leeds United FC",
@@ -130344,19 +130357,50 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 70,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "scorer": {
+            "id": 171876,
+            "name": "Habib Diarra"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 171876,
+            "name": "Habib Diarra"
+          },
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 45,
@@ -130379,6 +130423,18 @@
           "player": {
             "id": 171876,
             "name": "Habib Diarra"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 63,
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "player": {
+            "id": 46491,
+            "name": "Omar Alderete"
           },
           "card": "YELLOW"
         }
@@ -130434,15 +130490,15 @@
       },
       "id": 538074,
       "utcDate": "2026-03-03T20:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 36,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Molineux Stadium",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-03T21:51:48Z",
+      "lastUpdated": "2026-03-03T22:13:18Z",
       "homeTeam": {
         "id": 76,
         "name": "Wolverhampton Wanderers FC",
@@ -130727,8 +130783,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
