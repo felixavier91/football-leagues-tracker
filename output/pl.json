@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 284
+    "played": 285
   },
   "competition": {
     "id": 2021,
@@ -130526,15 +130526,15 @@
       },
       "id": 538074,
       "utcDate": "2026-03-03T20:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 79,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 8,
       "attendance": 30247,
       "venue": "Molineux Stadium",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-03T22:51:04Z",
+      "lastUpdated": "2026-03-03T23:13:05Z",
       "homeTeam": {
         "id": 76,
         "name": "Wolverhampton Wanderers FC",
@@ -130812,11 +130812,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -130836,10 +130836,52 @@
             "id": 151521,
             "name": "Rodrigo Gomes"
           },
-          "assist": null,
+          "assist": {
+            "id": 120981,
+            "name": "Toluwalas Arokodare"
+          },
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 83,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 3754,
+            "name": "Mohamed Salah"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "REGULAR",
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "scorer": {
+            "id": 145538,
+            "name": "André"
+          },
+          "assist": {
+            "id": 171027,
+            "name": "Jackson Tchatchoua"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
           }
         }
       ],
@@ -130866,6 +130908,18 @@
           "player": {
             "id": 138034,
             "name": "João Gomes"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "player": {
+            "id": 32767,
+            "name": "Santiago Bueno"
           },
           "card": "YELLOW"
         }
