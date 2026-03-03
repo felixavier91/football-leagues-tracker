@@ -129300,15 +129300,15 @@
       },
       "id": 538065,
       "utcDate": "2026-03-03T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 22,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Vitality Stadium",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-03T20:53:02Z",
+      "lastUpdated": "2026-03-03T21:33:13Z",
       "homeTeam": {
         "id": 1044,
         "name": "AFC Bournemouth",
@@ -129593,8 +129593,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -129651,15 +129651,15 @@
       },
       "id": 538068,
       "utcDate": "2026-03-03T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 22,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Everton Stadium",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-03T20:53:02Z",
+      "lastUpdated": "2026-03-03T21:33:13Z",
       "homeTeam": {
         "id": 62,
         "name": "Everton FC",
@@ -129937,18 +129937,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 32,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 62,
+            "name": "Everton FC"
+          },
+          "scorer": {
+            "id": 3316,
+            "name": "James Tarkowski"
+          },
+          "assist": {
+            "id": 101076,
+            "name": "James Garner"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -130002,15 +130024,15 @@
       },
       "id": 538070,
       "utcDate": "2026-03-03T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 22,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Elland Road",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-03T20:53:02Z",
+      "lastUpdated": "2026-03-03T21:33:13Z",
       "homeTeam": {
         "id": 341,
         "name": "Leeds United FC",
@@ -130295,13 +130317,26 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "player": {
+            "id": 6259,
+            "name": "Luke O'Nien"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -130353,15 +130388,15 @@
       },
       "id": 538074,
       "utcDate": "2026-03-03T20:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Molineux Stadium",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-03T20:12:45Z",
+      "lastUpdated": "2026-03-03T21:33:15Z",
       "homeTeam": {
         "id": 76,
         "name": "Wolverhampton Wanderers FC",
@@ -130374,7 +130409,7 @@
           "nationality": "Wales"
         },
         "leagueRank": 20,
-        "formation": "3-5-2",
+        "formation": "3-5-1-1",
         "lineup": [
           {
             "id": 15899,
@@ -130639,11 +130674,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
