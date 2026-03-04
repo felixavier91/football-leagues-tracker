@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 215
+    "played": 216
   },
   "competition": {
     "id": 2002,
@@ -101174,15 +101174,15 @@
       },
       "id": 540558,
       "utcDate": "2026-03-04T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 63,
-      "injuryTime": null,
-      "attendance": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 8,
+      "attendance": 57000,
       "venue": "Volksparkstadion",
       "matchday": 17,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-04T21:52:16Z",
+      "lastUpdated": "2026-03-04T22:29:00Z",
       "homeTeam": {
         "id": 7,
         "name": "Hamburger SV",
@@ -101454,18 +101454,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 73,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "scorer": {
+            "id": 274045,
+            "name": "Christian Kofane"
+          },
+          "assist": {
+            "id": 202532,
+            "name": "Ibrahim Maza"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -101477,6 +101499,18 @@
           "player": {
             "id": 33524,
             "name": "Aleix García"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "player": {
+            "id": 11720,
+            "name": "Exequiel Palacios"
           },
           "card": "YELLOW"
         }
