@@ -126948,15 +126948,15 @@
       },
       "id": 544440,
       "utcDate": "2026-03-04T18:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 51,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio de Vallecas",
       "matchday": 23,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-04T19:50:25Z",
+      "lastUpdated": "2026-03-04T20:11:01Z",
       "homeTeam": {
         "id": 87,
         "name": "Rayo Vallecano de Madrid",
@@ -127293,9 +127293,39 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 50,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid"
+          },
+          "scorer": {
+            "id": 133276,
+            "name": "Jorge de Frutos"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 133276,
+            "name": "Jorge de Frutos"
+          },
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 35,
