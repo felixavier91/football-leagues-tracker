@@ -130976,14 +130976,14 @@
       "id": 538066,
       "utcDate": "2026-03-04T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 20,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Villa Park",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-04T20:52:20Z",
+      "lastUpdated": "2026-03-04T21:20:02Z",
       "homeTeam": {
         "id": 58,
         "name": "Aston Villa FC",
@@ -131261,11 +131261,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
@@ -131293,10 +131293,44 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 35,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "scorer": {
+            "id": 103125,
+            "name": "João Pedro"
+          },
+          "assist": {
+            "id": 152498,
+            "name": "Malo Gusto"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 32,
+          "team": {
+            "id": 58,
+            "name": "Aston Villa FC"
+          },
+          "player": {
+            "id": 11644,
+            "name": "Matty Cash"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -131348,15 +131382,15 @@
       },
       "id": 538067,
       "utcDate": "2026-03-04T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 21,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Amex Stadium",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-04T20:52:20Z",
+      "lastUpdated": "2026-03-04T21:20:03Z",
       "homeTeam": {
         "id": 397,
         "name": "Brighton & Hove Albion FC",
@@ -131641,8 +131675,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -131734,15 +131768,15 @@
       },
       "id": 538069,
       "utcDate": "2026-03-04T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 21,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Craven Cottage",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-04T20:52:20Z",
+      "lastUpdated": "2026-03-04T21:20:03Z",
       "homeTeam": {
         "id": 63,
         "name": "Fulham FC",
@@ -132027,8 +132061,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -132043,6 +132077,18 @@
           "player": {
             "id": 187216,
             "name": "Mateus Fernandes"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 41,
+          "team": {
+            "id": 563,
+            "name": "West Ham United FC"
+          },
+          "player": {
+            "id": 8158,
+            "name": "Aaron Wan-Bissaka"
           },
           "card": "YELLOW"
         }
@@ -132099,14 +132145,14 @@
       "id": 538071,
       "utcDate": "2026-03-04T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 21,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Etihad Stadium",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-04T20:52:20Z",
+      "lastUpdated": "2026-03-04T21:20:04Z",
       "homeTeam": {
         "id": 65,
         "name": "Manchester City FC",
@@ -132384,10 +132430,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -132395,9 +132441,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 31,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "scorer": {
+            "id": 4417,
+            "name": "Antoine Semenyo"
+          },
+          "assist": {
+            "id": 133242,
+            "name": "Rayan Cherki"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 351,
+            "name": "Nottingham Forest FC"
+          },
+          "player": {
+            "id": 8307,
+            "name": "Ibrahim Sangaré"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -132449,15 +132530,15 @@
       },
       "id": 538072,
       "utcDate": "2026-03-04T20:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 5,
       "injuryTime": null,
       "attendance": null,
       "venue": "St James' Park",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-04T20:13:05Z",
+      "lastUpdated": "2026-03-04T21:20:06Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -132735,11 +132816,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
