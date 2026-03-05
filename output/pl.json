@@ -133368,14 +133368,14 @@
       "id": 538073,
       "utcDate": "2026-03-05T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 18,
+      "minute": 38,
       "injuryTime": null,
       "attendance": null,
       "venue": "Tottenham Hotspur Stadium",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-05T21:18:50Z",
+      "lastUpdated": "2026-03-05T21:38:20Z",
       "homeTeam": {
         "id": 73,
         "name": "Tottenham Hotspur FC",
@@ -133653,10 +133653,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -133664,7 +133664,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 34,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "scorer": {
+            "id": 7878,
+            "name": "Dominic Solanke"
+          },
+          "assist": {
+            "id": 177040,
+            "name": "Archie Gray"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -133676,6 +133698,30 @@
           "player": {
             "id": 249465,
             "name": "Souza"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 22,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 213269,
+            "name": "Jørgen Strand Larsen"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 25,
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "player": {
+            "id": 170391,
+            "name": "Pape Sarr"
           },
           "card": "YELLOW"
         }
