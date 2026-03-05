@@ -133367,15 +133367,15 @@
       },
       "id": 538073,
       "utcDate": "2026-03-05T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 38,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Tottenham Hotspur Stadium",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-05T21:38:20Z",
+      "lastUpdated": "2026-03-05T21:55:50Z",
       "homeTeam": {
         "id": 73,
         "name": "Tottenham Hotspur FC",
@@ -133653,15 +133653,15 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 3
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 3
         }
       },
       "goals": [
@@ -133685,9 +133685,81 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 40,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "scorer": {
+            "id": 3638,
+            "name": "Ismaïla Sarr"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "scorer": {
+            "id": 213269,
+            "name": "Jørgen Strand Larsen"
+          },
+          "assist": {
+            "id": 180389,
+            "name": "Adam Wharton"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 7,
+          "type": "REGULAR",
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "scorer": {
+            "id": 3638,
+            "name": "Ismaïla Sarr"
+          },
+          "assist": {
+            "id": 180389,
+            "name": "Adam Wharton"
+          },
+          "score": {
+            "home": 1,
+            "away": 3
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 3638,
+            "name": "Ismaïla Sarr"
+          },
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 7,
@@ -133724,6 +133796,18 @@
             "name": "Pape Sarr"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 38,
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "player": {
+            "id": 131177,
+            "name": "Mickey van de Ven"
+          },
+          "card": "RED"
         }
       ],
       "substitutions": [],
