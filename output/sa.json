@@ -133522,15 +133522,15 @@
       },
       "id": 537093,
       "utcDate": "2026-03-06T19:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 10,
       "injuryTime": null,
       "attendance": null,
       "venue": "Diego Armando Maradona",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-06T20:03:49Z",
+      "lastUpdated": "2026-03-06T20:58:36Z",
       "homeTeam": {
         "id": 113,
         "name": "SSC Napoli",
@@ -133844,18 +133844,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 7,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "scorer": {
+            "id": 220542,
+            "name": "Alisson Santos"
+          },
+          "assist": {
+            "id": 1842,
+            "name": "Leonardo Spinazzola"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
