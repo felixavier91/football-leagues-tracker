@@ -99976,14 +99976,14 @@
       "id": 542628,
       "utcDate": "2026-03-06T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 13,
+      "minute": 30,
       "injuryTime": null,
       "attendance": null,
       "venue": "Parc des Princes",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-06T20:58:41Z",
+      "lastUpdated": "2026-03-06T21:15:40Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -100134,7 +100134,7 @@
           "nationality": "Belgium"
         },
         "leagueRank": 7,
-        "formation": "3-4-2-1",
+        "formation": "3-4-1-2",
         "lineup": [
           {
             "id": 9535,
@@ -100261,18 +100261,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 27,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "scorer": {
+            "id": 175701,
+            "name": "Maghnes Akliouche"
+          },
+          "assist": {
+            "id": 131040,
+            "name": "Folarin Balogun"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

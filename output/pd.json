@@ -127421,15 +127421,15 @@
       },
       "id": 544473,
       "utcDate": "2026-03-06T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 14,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Abanca-Balaídos",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-06T19:49:18Z",
+      "lastUpdated": "2026-03-06T21:15:07Z",
       "homeTeam": {
         "id": 558,
         "name": "RC Celta de Vigo",
@@ -127598,7 +127598,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 2,
-        "formation": "4-3-3",
+        "formation": "4-4-2",
         "lineup": [
           {
             "id": 3641,
@@ -127731,18 +127731,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 11,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 8514,
+            "name": "Aurélien Tchouameni"
+          },
+          "assist": {
+            "id": 169162,
+            "name": "Arda Guler"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

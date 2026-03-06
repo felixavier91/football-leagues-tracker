@@ -101567,14 +101567,14 @@
       "id": 540627,
       "utcDate": "2026-03-06T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 28,
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Arena",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-06T20:58:28Z",
+      "lastUpdated": "2026-03-06T21:15:20Z",
       "homeTeam": {
         "id": 5,
         "name": "FC Bayern München",
@@ -101846,10 +101846,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -101857,7 +101857,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 33,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 22396,
+            "name": "Luis Díaz"
+          },
+          "assist": {
+            "id": 3181,
+            "name": "Leon Goretzka"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
