@@ -101566,7 +101566,7 @@
       },
       "id": 540627,
       "utcDate": "2026-03-06T19:30:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
       "injuryTime": null,
       "attendance": null,
@@ -101574,7 +101574,7 @@
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-06T21:15:20Z",
+      "lastUpdated": "2026-03-06T21:33:16Z",
       "homeTeam": {
         "id": 5,
         "name": "FC Bayern München",
@@ -101668,6 +101668,12 @@
             "name": "David Daiber",
             "position": "Midfield",
             "shirtNumber": 47
+          },
+          {
+            "id": 291949,
+            "name": "Maycon Cardozo",
+            "position": "Midfield",
+            "shirtNumber": 49
           },
           {
             "id": 202665,
@@ -101849,12 +101855,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "goals": [
@@ -101876,6 +101882,27 @@
           },
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 9549,
+            "name": "Konrad Laimer"
+          },
+          "assist": {
+            "id": 22396,
+            "name": "Luis Díaz"
+          },
+          "score": {
+            "home": 2,
             "away": 0
           }
         }

@@ -127422,14 +127422,14 @@
       "id": 544473,
       "utcDate": "2026-03-06T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 14,
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Abanca-Balaídos",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-06T21:15:07Z",
+      "lastUpdated": "2026-03-06T21:33:03Z",
       "homeTeam": {
         "id": 558,
         "name": "RC Celta de Vigo",
@@ -127731,10 +127731,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -127763,10 +127763,44 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 25,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "scorer": {
+            "id": 32056,
+            "name": "Borja Iglesias"
+          },
+          "assist": {
+            "id": 170438,
+            "name": "Williot Swedberg"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 31,
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "player": {
+            "id": 32056,
+            "name": "Borja Iglesias"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
