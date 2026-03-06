@@ -99976,14 +99976,14 @@
       "id": 542628,
       "utcDate": "2026-03-06T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 64,
+      "minute": 85,
       "injuryTime": null,
       "attendance": null,
       "venue": "Parc des Princes",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-06T22:11:35Z",
+      "lastUpdated": "2026-03-06T22:33:04Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -100264,8 +100264,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 2
+          "home": 1,
+          "away": 3
         },
         "halfTime": {
           "home": 0,
@@ -100311,6 +100311,48 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 71,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 172762,
+            "name": "Bradley Barcola"
+          },
+          "assist": {
+            "id": 53,
+            "name": "Achraf Hakimi"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 73,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "scorer": {
+            "id": 131040,
+            "name": "Folarin Balogun"
+          },
+          "assist": {
+            "id": 175701,
+            "name": "Maghnes Akliouche"
+          },
+          "score": {
+            "home": 1,
+            "away": 3
+          }
         }
       ],
       "penalties": [],
@@ -100324,6 +100366,30 @@
           "player": {
             "id": 7328,
             "name": "Wout Faes"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 71,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "player": {
+            "id": 131040,
+            "name": "Folarin Balogun"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 76,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "player": {
+            "id": 204269,
+            "name": "Lamine Camara"
           },
           "card": "YELLOW"
         }
