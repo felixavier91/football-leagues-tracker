@@ -110667,14 +110667,14 @@
       "id": 537673,
       "utcDate": "2026-03-07T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 74,
+      "minute": 90,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 35000,
       "venue": "Philips Stadion",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T21:32:49Z",
+      "lastUpdated": "2026-03-07T21:48:59Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -110964,10 +110964,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -111014,6 +111014,27 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 86,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 119731,
+            "name": "Ricardo Pepi"
+          },
+          "assist": {
+            "id": 2004,
+            "name": "Ivan Perišić"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -111027,6 +111048,18 @@
           "player": {
             "id": 166900,
             "name": "Alexandre Penetra"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 79,
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "player": {
+            "id": 119731,
+            "name": "Ricardo Pepi"
           },
           "card": "YELLOW"
         }
@@ -111082,15 +111115,15 @@
       },
       "id": 537666,
       "utcDate": "2026-03-07T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 4600,
       "venue": "Van Donge & De Roo Stadion",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T21:32:50Z",
+      "lastUpdated": "2026-03-07T21:49:00Z",
       "homeTeam": {
         "id": 670,
         "name": "SBV Excelsior",
@@ -111374,18 +111407,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 38,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 673,
+            "name": "SC Heerenveen"
+          },
+          "scorer": {
+            "id": 53341,
+            "name": "Luuk Brouwers"
+          },
+          "assist": {
+            "id": 145170,
+            "name": "Lasse Nordås"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
