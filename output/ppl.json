@@ -101372,14 +101372,14 @@
       "id": 545923,
       "utcDate": "2026-03-07T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 31,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Estadio Municipal de Braga",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T19:33:47Z",
+      "lastUpdated": "2026-03-07T19:52:50Z",
       "homeTeam": {
         "id": 5613,
         "name": "Sporting Clube de Braga",
@@ -101660,8 +101660,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 1
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
           "home": null,
@@ -101689,10 +101689,86 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 34,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "scorer": {
+            "id": 45401,
+            "name": "Ricardo Horta"
+          },
+          "assist": {
+            "id": 121007,
+            "name": "Rodrigo Zalazar"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 2,
+          "type": "PENALTY",
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scorer": {
+            "id": 32386,
+            "name": "Luis Suárez"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 32386,
+            "name": "Luis Suárez"
+          },
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 38,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 49092,
+            "name": "Hidemasa Morita"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 41,
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "player": {
+            "id": 33339,
+            "name": "Paulo Oliveira"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
