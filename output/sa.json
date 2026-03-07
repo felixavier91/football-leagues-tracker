@@ -135014,14 +135014,14 @@
       "id": 537091,
       "utcDate": "2026-03-07T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 48,
+      "minute": 58,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Stadium",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T21:48:35Z",
+      "lastUpdated": "2026-03-07T21:58:50Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -135347,10 +135347,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -135358,7 +135358,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 54,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "scorer": {
+            "id": 124865,
+            "name": "Andrea Cambiaso"
+          },
+          "assist": {
+            "id": 191712,
+            "name": "Kenan Yıldız"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -135370,6 +135392,18 @@
           "player": {
             "id": 56647,
             "name": "Marius Mihai Marin"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 48,
+          "team": {
+            "id": 487,
+            "name": "AC Pisa 1909"
+          },
+          "player": {
+            "id": 1956,
+            "name": "Mehdi Leris"
           },
           "card": "YELLOW"
         }
