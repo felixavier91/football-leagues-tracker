@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 226
+    "played": 227
   },
   "competition": {
     "id": 2003,
@@ -110169,15 +110169,15 @@
       },
       "id": 537667,
       "utcDate": "2026-03-07T15:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 83,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Euroborg",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T18:12:51Z",
+      "lastUpdated": "2026-03-07T18:29:55Z",
       "homeTeam": {
         "id": 677,
         "name": "FC Groningen",
@@ -110589,7 +110589,32 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 90,
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "player": {
+            "id": 7697,
+            "name": "Wout Weghorst"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "player": {
+            "id": 179522,
+            "name": "Tijmen Blokzijl"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
