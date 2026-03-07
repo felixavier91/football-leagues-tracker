@@ -128479,14 +128479,14 @@
       "id": 544478,
       "utcDate": "2026-03-07T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 87,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 8,
       "attendance": 18542,
       "venue": "Estadio Ciudad de Valencia",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T17:59:41Z",
+      "lastUpdated": "2026-03-07T18:12:03Z",
       "homeTeam": {
         "id": 88,
         "name": "Levante UD",
@@ -128782,11 +128782,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -128813,6 +128813,27 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "REGULAR",
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scorer": {
+            "id": 180280,
+            "name": "Casals"
+          },
+          "assist": {
+            "id": 135524,
+            "name": "Alejandro Francés"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
           }
         }
       ],
@@ -128863,6 +128884,18 @@
           "player": {
             "id": 118715,
             "name": "Manuel Sánchez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 88,
+            "name": "Levante UD"
+          },
+          "player": {
+            "id": 98741,
+            "name": "Adrián de la Fuente"
           },
           "card": "YELLOW"
         }
