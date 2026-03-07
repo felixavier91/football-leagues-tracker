@@ -128952,14 +128952,14 @@
       "id": 544472,
       "utcDate": "2026-03-07T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 14,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Cívitas Metropolitano",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T18:30:56Z",
+      "lastUpdated": "2026-03-07T18:47:09Z",
       "homeTeam": {
         "id": 78,
         "name": "Club Atlético de Madrid",
@@ -129276,15 +129276,58 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 5,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "scorer": {
+            "id": 8167,
+            "name": "Alexander Sørloth"
+          },
+          "assist": {
+            "id": 213277,
+            "name": "José Giménez"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 9,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol"
+          },
+          "scorer": {
+            "id": 33148,
+            "name": "Carlos Soler"
+          },
+          "assist": {
+            "id": 82516,
+            "name": "Luka Sučić"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

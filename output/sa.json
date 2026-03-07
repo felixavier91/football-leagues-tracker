@@ -134522,15 +134522,15 @@
       },
       "id": 537087,
       "utcDate": "2026-03-07T17:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 31,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Gewiss Stadium",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T18:31:22Z",
+      "lastUpdated": "2026-03-07T18:47:48Z",
       "homeTeam": {
         "id": 102,
         "name": "Atalanta BC",
@@ -134832,18 +134832,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 39,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "scorer": {
+            "id": 151299,
+            "name": "Thomas Kristensen"
+          },
+          "assist": {
+            "id": 2013,
+            "name": "Nicolò Zaniolo"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -134970,7 +134992,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 206189,
+          "name": "Juan Luca Sacchi",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 76768,
+          "name": "Vittorio Di Gioia",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 217609,
+          "name": "Paolo Laudato",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {
