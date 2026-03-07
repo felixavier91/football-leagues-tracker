@@ -110667,14 +110667,14 @@
       "id": 537673,
       "utcDate": "2026-03-07T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 8,
+      "minute": 22,
       "injuryTime": null,
       "attendance": null,
       "venue": "Philips Stadion",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T20:09:00Z",
+      "lastUpdated": "2026-03-07T20:23:01Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -110964,18 +110964,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 13,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "scorer": {
+            "id": 203079,
+            "name": "Billy van Duijl"
+          },
+          "assist": {
+            "id": 153974,
+            "name": "Isak Jensen"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

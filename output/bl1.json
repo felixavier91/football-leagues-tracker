@@ -104515,14 +104515,14 @@
       "id": 540624,
       "utcDate": "2026-03-07T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 77,
+      "minute": 90,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 50000,
       "venue": "RheinEnergieStadion",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T20:08:30Z",
+      "lastUpdated": "2026-03-07T20:22:32Z",
       "homeTeam": {
         "id": 1,
         "name": "1. FC Köln",
@@ -104803,7 +104803,7 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 2
         },
         "halfTime": {
@@ -104853,6 +104853,24 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "scorer": {
+            "id": 127401,
+            "name": "Jakub Kamiński"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -104878,6 +104896,18 @@
           "player": {
             "id": 8805,
             "name": "Ramy Bensebaini"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 86,
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "player": {
+            "id": 152726,
+            "name": "Eric Martel"
           },
           "card": "YELLOW"
         }
