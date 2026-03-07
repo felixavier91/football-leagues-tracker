@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 219
+    "played": 220
   },
   "competition": {
     "id": 2017,
@@ -101371,15 +101371,15 @@
       },
       "id": 545923,
       "utcDate": "2026-03-07T18:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Estadio Municipal de Braga",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T20:57:49Z",
+      "lastUpdated": "2026-03-07T21:05:30Z",
       "homeTeam": {
         "id": 5613,
         "name": "Sporting Clube de Braga",
@@ -101657,10 +101657,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 2
         },
         "halfTime": {
@@ -101728,6 +101728,24 @@
             "home": 1,
             "away": 2
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 6,
+          "type": "PENALTY",
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "scorer": {
+            "id": 121007,
+            "name": "Rodrigo Zalazar"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -101739,6 +101757,28 @@
           "team": {
             "id": 498,
             "name": "Sporting Clube de Portugal"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 45401,
+            "name": "Ricardo Horta"
+          },
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "scored": false
+        },
+        {
+          "player": {
+            "id": 121007,
+            "name": "Rodrigo Zalazar"
+          },
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
           },
           "scored": true
         }

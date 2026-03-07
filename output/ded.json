@@ -110666,15 +110666,15 @@
       },
       "id": 537673,
       "utcDate": "2026-03-07T19:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 53,
       "injuryTime": null,
       "attendance": null,
       "venue": "Philips Stadion",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T20:58:00Z",
+      "lastUpdated": "2026-03-07T21:11:25Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -111017,7 +111017,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 50,
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "player": {
+            "id": 166900,
+            "name": "Alexandre Penetra"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -111069,15 +111082,15 @@
       },
       "id": 537666,
       "utcDate": "2026-03-07T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 11,
       "injuryTime": null,
       "attendance": null,
       "venue": "Van Donge & De Roo Stadion",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T19:44:22Z",
+      "lastUpdated": "2026-03-07T21:11:21Z",
       "homeTeam": {
         "id": 670,
         "name": "SBV Excelsior",
@@ -111361,11 +111374,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
