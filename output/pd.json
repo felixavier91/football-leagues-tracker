@@ -127895,14 +127895,14 @@
       "id": 544479,
       "utcDate": "2026-03-07T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 23,
+      "minute": 43,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio El Sadar",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T14:26:12Z",
+      "lastUpdated": "2026-03-07T14:46:06Z",
       "homeTeam": {
         "id": 79,
         "name": "CA Osasuna",
@@ -128210,18 +128210,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 35,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "scorer": {
+            "id": 30059,
+            "name": "Vedat Muriqi"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -128233,6 +128252,42 @@
           "player": {
             "id": 32212,
             "name": "Rubén García"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 23,
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "player": {
+            "id": 159520,
+            "name": "Pablo Torre"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 27,
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "player": {
+            "id": 2777,
+            "name": "Martin Valjent"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 39,
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "player": {
+            "id": 176612,
+            "name": "Alessio Lisci"
           },
           "card": "YELLOW"
         }
