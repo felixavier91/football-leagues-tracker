@@ -100855,15 +100855,15 @@
       },
       "id": 542622,
       "utcDate": "2026-03-07T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de l'Abbé-Deschamps",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T18:08:04Z",
+      "lastUpdated": "2026-03-07T19:33:41Z",
       "homeTeam": {
         "id": 519,
         "name": "AJ Auxerre",
@@ -101141,11 +101141,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -101154,7 +101154,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 11,
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "player": {
+            "id": 244929,
+            "name": "Samir El Mourabet"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -101266,7 +101279,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57088,
+          "name": "Bastien Dechepy",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 214211,
+          "name": "Brice Parinet",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 64786,
+          "name": "Julien Haulbert",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {

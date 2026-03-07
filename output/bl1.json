@@ -104514,15 +104514,15 @@
       },
       "id": 540624,
       "utcDate": "2026-03-07T17:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 26,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "RheinEnergieStadion",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T18:57:16Z",
+      "lastUpdated": "2026-03-07T19:33:25Z",
       "homeTeam": {
         "id": 1,
         "name": "1. FC Köln",
@@ -104807,8 +104807,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -104835,7 +104835,32 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "player": {
+            "id": 272307,
+            "name": "Jahmai Simpson-Pusey"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "player": {
+            "id": 8805,
+            "name": "Ramy Bensebaini"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

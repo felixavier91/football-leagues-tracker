@@ -134522,15 +134522,15 @@
       },
       "id": 537087,
       "utcDate": "2026-03-07T17:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 76,
       "injuryTime": null,
       "attendance": null,
       "venue": "Gewiss Stadium",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T18:57:31Z",
+      "lastUpdated": "2026-03-07T19:33:35Z",
       "homeTeam": {
         "id": 102,
         "name": "Atalanta BC",
@@ -134835,8 +134835,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 1
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -134864,6 +134864,45 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 55,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "scorer": {
+            "id": 3896,
+            "name": "Keinan Davis"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        {
+          "minute": 75,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "scorer": {
+            "id": 2681,
+            "name": "Gianluca Scamacca"
+          },
+          "assist": {
+            "id": 152528,
+            "name": "Nicola Zalewski"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -134877,6 +134916,30 @@
           "player": {
             "id": 284663,
             "name": "Branimir Mlacic"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 52,
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "player": {
+            "id": 1848,
+            "name": "Marten de Roon"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 66,
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "player": {
+            "id": 65480,
+            "name": "Maduka Okoye"
           },
           "card": "YELLOW"
         }

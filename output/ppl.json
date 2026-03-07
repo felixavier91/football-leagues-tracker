@@ -101371,15 +101371,15 @@
       },
       "id": 545923,
       "utcDate": "2026-03-07T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Municipal de Braga",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T18:11:08Z",
+      "lastUpdated": "2026-03-07T19:33:47Z",
       "homeTeam": {
         "id": 5613,
         "name": "Sporting Clube de Braga",
@@ -101657,18 +101657,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scorer": {
+            "id": 145357,
+            "name": "Gonçalo Inácio"
+          },
+          "assist": {
+            "id": 92050,
+            "name": "Pedro Gonçalves"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -101782,7 +101804,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 220513,
+          "name": "Bruno Costa",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 37682,
+          "name": "Jorge Fernandes",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 242474,
+          "name": "João Morte",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
