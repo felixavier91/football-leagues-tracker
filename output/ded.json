@@ -110170,14 +110170,14 @@
       "id": 537667,
       "utcDate": "2026-03-07T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 15,
       "injuryTime": null,
       "attendance": null,
       "venue": "Euroborg",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T16:32:23Z",
+      "lastUpdated": "2026-03-07T16:47:50Z",
       "homeTeam": {
         "id": 677,
         "name": "FC Groningen",
@@ -110491,10 +110491,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -110502,7 +110502,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 6,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "scorer": {
+            "id": 188914,
+            "name": "Thom van Bergen"
+          },
+          "assist": {
+            "id": 217464,
+            "name": "Dies Janse"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
