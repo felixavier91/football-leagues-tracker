@@ -110170,14 +110170,14 @@
       "id": 537667,
       "utcDate": "2026-03-07T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 59,
+      "minute": 71,
       "injuryTime": null,
       "attendance": null,
       "venue": "Euroborg",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T17:49:44Z",
+      "lastUpdated": "2026-03-07T18:01:16Z",
       "homeTeam": {
         "id": 677,
         "name": "FC Groningen",
@@ -110491,10 +110491,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -110542,6 +110542,27 @@
           },
           "score": {
             "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 65,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "scorer": {
+            "id": 188950,
+            "name": "Oskar Zawada"
+          },
+          "assist": {
+            "id": 71983,
+            "name": "Marvin Peersman"
+          },
+          "score": {
+            "home": 2,
             "away": 1
           }
         }
@@ -110659,7 +110680,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56923,
+          "name": "Sander Van der Eijk",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 14765,
+          "name": "Rens Bluemink",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 82102,
+          "name": "Stefan de Groot",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
