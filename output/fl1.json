@@ -101268,14 +101268,14 @@
       "id": 542624,
       "utcDate": "2026-03-07T20:05:00Z",
       "status": "IN_PLAY",
-      "minute": 6,
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadium de Toulouse",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T21:11:07Z",
+      "lastUpdated": "2026-03-07T21:32:35Z",
       "homeTeam": {
         "id": 511,
         "name": "Toulouse FC",
@@ -101426,7 +101426,7 @@
           "nationality": "Senegal"
         },
         "leagueRank": 4,
-        "formation": "4-2-3-1",
+        "formation": "3-4-1-2",
         "lineup": [
           {
             "id": 6,
@@ -101559,20 +101559,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 18,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "scorer": {
+            "id": 101075,
+            "name": "Mason Greenwood"
+          },
+          "assist": {
+            "id": 119703,
+            "name": "Igor Paixão"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 12,
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "player": {
+            "id": 46125,
+            "name": "Facundo Medina"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

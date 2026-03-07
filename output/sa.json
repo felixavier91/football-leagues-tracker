@@ -135013,15 +135013,15 @@
       },
       "id": 537091,
       "utcDate": "2026-03-07T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 26,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Stadium",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T21:10:55Z",
+      "lastUpdated": "2026-03-07T21:32:26Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -135354,13 +135354,26 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 39,
+          "team": {
+            "id": 487,
+            "name": "AC Pisa 1909"
+          },
+          "player": {
+            "id": 56647,
+            "name": "Marius Mihai Marin"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
