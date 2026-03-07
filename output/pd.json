@@ -128952,14 +128952,14 @@
       "id": 544472,
       "utcDate": "2026-03-07T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 57,
+      "minute": 73,
       "injuryTime": null,
       "attendance": 60788,
       "venue": "Estadio Cívitas Metropolitano",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T19:52:15Z",
+      "lastUpdated": "2026-03-07T20:08:15Z",
       "homeTeam": {
         "id": 78,
         "name": "Club Atlético de Madrid",
@@ -129276,8 +129276,8 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 1
+          "home": 2,
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -129325,6 +129325,45 @@
           "score": {
             "home": 1,
             "away": 1
+          }
+        },
+        {
+          "minute": 67,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "scorer": {
+            "id": 45680,
+            "name": "Nicolás González"
+          },
+          "assist": {
+            "id": 114,
+            "name": "Antoine Griezmann"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        {
+          "minute": 68,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol"
+          },
+          "scorer": {
+            "id": 180137,
+            "name": "Mikel Oyarzabal"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
           }
         }
       ],
@@ -129414,7 +129453,7 @@
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-01T01:32:04Z",
+      "lastUpdated": "2026-03-07T19:55:30Z",
       "homeTeam": {
         "id": 77,
         "name": "Athletic Club",
@@ -129427,7 +129466,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 9,
-        "formation": null,
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 32570,
@@ -129583,9 +129622,143 @@
           "nationality": "Germany"
         },
         "leagueRank": 1,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 152506,
+            "name": "Joan García",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 202283,
+            "name": "Lamine Yamal",
+            "position": "Right Winger",
+            "shirtNumber": 10
+          },
+          {
+            "id": 33154,
+            "name": "Ferrán Torres",
+            "position": "Right Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 3331,
+            "name": "Marcus Rashford",
+            "position": "Left Winger",
+            "shirtNumber": 14
+          },
+          {
+            "id": 188817,
+            "name": "Marc Casado",
+            "position": "Defensive Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 264321,
+            "name": "Marc Bernal",
+            "position": "Defensive Midfield",
+            "shirtNumber": 22
+          },
+          {
+            "id": 23132,
+            "name": "Dani Olmo",
+            "position": "Attacking Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 2000,
+            "name": "João Cancelo",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 217540,
+            "name": "Pau Cubarsí",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 101345,
+            "name": "Eric García",
+            "position": "Centre-Back",
+            "shirtNumber": 24
+          },
+          {
+            "id": 264320,
+            "name": "Gerard Martín",
+            "position": "Left-Back",
+            "shirtNumber": 18
+          }
+        ],
+        "bench": [
+          {
+            "id": 217424,
+            "name": "Diego Kochen",
+            "position": "Goalkeeper",
+            "shirtNumber": 31
+          },
+          {
+            "id": 2022,
+            "name": "Wojciech Szczęsny",
+            "position": "Goalkeeper",
+            "shirtNumber": 25
+          },
+          {
+            "id": 272984,
+            "name": "Álvaro Cortés",
+            "position": "Defence",
+            "shirtNumber": 36
+          },
+          {
+            "id": 287848,
+            "name": "Xavi Espart",
+            "position": "Midfield",
+            "shirtNumber": 42
+          },
+          {
+            "id": 289622,
+            "name": "Tomy Marqués",
+            "position": "Midfield",
+            "shirtNumber": 43
+          },
+          {
+            "id": 205534,
+            "name": "Roony Bardagji",
+            "position": "Offence",
+            "shirtNumber": 19
+          },
+          {
+            "id": 214533,
+            "name": "Fermín López",
+            "position": "Central Midfield",
+            "shirtNumber": 16
+          },
+          {
+            "id": 371,
+            "name": "Robert Lewandowski",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 133860,
+            "name": "Pedri",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 37428,
+            "name": "Raphinha",
+            "position": "Left Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 28292,
+            "name": "Ronald Araújo",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          }
+        ]
       },
       "score": {
         "winner": null,
