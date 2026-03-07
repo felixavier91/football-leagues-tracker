@@ -111128,14 +111128,14 @@
       "id": 537666,
       "utcDate": "2026-03-07T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 53,
+      "minute": 80,
       "injuryTime": null,
       "attendance": 4600,
       "venue": "Van Donge & De Roo Stadion",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T22:11:10Z",
+      "lastUpdated": "2026-03-07T22:38:40Z",
       "homeTeam": {
         "id": 670,
         "name": "SBV Excelsior",
@@ -111422,8 +111422,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 1
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -111451,10 +111451,71 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 67,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 673,
+            "name": "SC Heerenveen"
+          },
+          "scorer": {
+            "id": 7684,
+            "name": "Joris van Overeem"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        {
+          "minute": 74,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 670,
+            "name": "SBV Excelsior"
+          },
+          "scorer": {
+            "id": 179498,
+            "name": "Noah Naujoks"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 179498,
+            "name": "Noah Naujoks"
+          },
+          "team": {
+            "id": 670,
+            "name": "SBV Excelsior"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 78,
+          "team": {
+            "id": 673,
+            "name": "SC Heerenveen"
+          },
+          "player": {
+            "id": 172254,
+            "name": "Hristiyan Petrov"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

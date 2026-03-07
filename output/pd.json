@@ -129467,14 +129467,14 @@
       "id": 544471,
       "utcDate": "2026-03-07T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 51,
+      "minute": 79,
       "injuryTime": null,
       "attendance": 50629,
       "venue": "San Mames Barria",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T22:10:26Z",
+      "lastUpdated": "2026-03-07T22:37:50Z",
       "homeTeam": {
         "id": 77,
         "name": "Athletic Club",
@@ -129782,20 +129782,67 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 68,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 202283,
+            "name": "Lamine Yamal"
+          },
+          "assist": {
+            "id": 133860,
+            "name": "Pedri"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 50,
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "player": {
+            "id": 278297,
+            "name": "Alejandro Rego"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 57,
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "player": {
+            "id": 217540,
+            "name": "Pau Cubarsí"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
