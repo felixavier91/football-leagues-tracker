@@ -102055,14 +102055,14 @@
       "id": 540622,
       "utcDate": "2026-03-07T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 58,
+      "minute": 68,
       "injuryTime": null,
       "attendance": null,
       "venue": "Europa-Park Stadion",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T16:47:21Z",
+      "lastUpdated": "2026-03-07T16:57:25Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -102522,14 +102522,14 @@
       "id": 540626,
       "utcDate": "2026-03-07T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 60,
+      "minute": 70,
       "injuryTime": null,
       "attendance": null,
       "venue": "MEWA ARENA",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T16:47:22Z",
+      "lastUpdated": "2026-03-07T16:57:25Z",
       "homeTeam": {
         "id": 15,
         "name": "1. FSV Mainz 05",
@@ -102895,14 +102895,14 @@
       "id": 540628,
       "utcDate": "2026-03-07T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 57,
+      "minute": 66,
       "injuryTime": null,
       "attendance": null,
       "venue": "Red Bull Arena Leipzig",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T16:47:22Z",
+      "lastUpdated": "2026-03-07T16:57:25Z",
       "homeTeam": {
         "id": 721,
         "name": "RB Leipzig",
@@ -103221,7 +103221,20 @@
           "scored": false
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 62,
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "player": {
+            "id": 249428,
+            "name": "Noahkai Banks"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -103274,14 +103287,14 @@
       "id": 540629,
       "utcDate": "2026-03-07T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 55,
+      "minute": 65,
       "injuryTime": null,
       "attendance": null,
       "venue": "Voith-Arena",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T16:47:22Z",
+      "lastUpdated": "2026-03-07T16:57:26Z",
       "homeTeam": {
         "id": 44,
         "name": "1. FC Heidenheim 1846",
@@ -103562,7 +103575,7 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 3
         },
         "halfTime": {
@@ -103630,6 +103643,27 @@
             "home": 0,
             "away": 3
           }
+        },
+        {
+          "minute": 63,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 44,
+            "name": "1. FC Heidenheim 1846"
+          },
+          "scorer": {
+            "id": 157339,
+            "name": "Luca Kerber"
+          },
+          "assist": {
+            "id": 67489,
+            "name": "Jan Schöppner"
+          },
+          "score": {
+            "home": 1,
+            "away": 3
+          }
         }
       ],
       "penalties": [],
@@ -103686,14 +103720,14 @@
       "id": 540630,
       "utcDate": "2026-03-07T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 55,
+      "minute": 65,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volkswagen Arena",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T16:47:22Z",
+      "lastUpdated": "2026-03-07T16:57:26Z",
       "homeTeam": {
         "id": 11,
         "name": "VfL Wolfsburg",
@@ -103971,11 +104005,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -104018,6 +104052,24 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 58,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "scorer": {
+            "id": 8597,
+            "name": "Jean-Luc Dompé"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -104036,6 +104088,17 @@
           "player": {
             "id": 216835,
             "name": "Luka Vušković"
+          },
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 8597,
+            "name": "Jean-Luc Dompé"
           },
           "team": {
             "id": 7,
@@ -104078,6 +104141,18 @@
           "player": {
             "id": 81973,
             "name": "Jesper Lindstrøm"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 57,
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "player": {
+            "id": 191269,
+            "name": "Jonas Adjei Adjetey"
           },
           "card": "YELLOW"
         }
