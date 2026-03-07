@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 261
+    "played": 262
   },
   "competition": {
     "id": 2014,
@@ -127894,15 +127894,15 @@
       },
       "id": 544479,
       "utcDate": "2026-03-07T13:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 86,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 10,
       "attendance": 19746,
       "venue": "Estadio El Sadar",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T15:48:18Z",
+      "lastUpdated": "2026-03-07T16:04:45Z",
       "homeTeam": {
         "id": 79,
         "name": "CA Osasuna",
@@ -128210,10 +128210,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 2
         },
         "halfTime": {
@@ -128258,6 +128258,48 @@
           },
           "score": {
             "home": 0,
+            "away": 2
+          }
+        },
+        {
+          "minute": 89,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "scorer": {
+            "id": 32004,
+            "name": "Kike Barja"
+          },
+          "assist": {
+            "id": 273423,
+            "name": "Víctor Muñoz"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "REGULAR",
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "scorer": {
+            "id": 2237,
+            "name": "Ante Budimir"
+          },
+          "assist": {
+            "id": 32217,
+            "name": "Moi Gómez"
+          },
+          "score": {
+            "home": 2,
             "away": 2
           }
         }
@@ -128359,6 +128401,30 @@
             "name": "Raúl"
           },
           "card": "RED"
+        },
+        {
+          "minute": 87,
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "player": {
+            "id": 273423,
+            "name": "Víctor Muñoz"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "player": {
+            "id": 140814,
+            "name": "Samuel Almeida Costa"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -128412,15 +128478,15 @@
       },
       "id": 544478,
       "utcDate": "2026-03-07T15:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 16,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Ciudad de Valencia",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T15:21:37Z",
+      "lastUpdated": "2026-03-07T16:31:32Z",
       "homeTeam": {
         "id": 88,
         "name": "Levante UD",
@@ -128589,7 +128655,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 14,
-        "formation": "4-5-1",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 7993,
@@ -128716,11 +128782,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -128841,7 +128907,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 206205,
+          "name": "Adrián Cordero Vega",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        },
+        {
+          "id": 214501,
+          "name": "Israel Bárcena Rodríguez",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 215396,
+          "name": "Judit Romano García",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {

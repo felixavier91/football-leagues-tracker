@@ -134011,14 +134011,14 @@
       "id": 537088,
       "utcDate": "2026-03-07T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 45,
-      "injuryTime": 2,
+      "minute": 72,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Unipol Domus",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T15:48:48Z",
+      "lastUpdated": "2026-03-07T16:31:45Z",
       "homeTeam": {
         "id": 104,
         "name": "Cagliari Calcio",
@@ -134031,7 +134031,7 @@
           "nationality": "Italy"
         },
         "leagueRank": 13,
-        "formation": "3-5-1-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 82004,
@@ -134344,15 +134344,15 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -134376,10 +134376,44 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 56,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 104,
+            "name": "Cagliari Calcio"
+          },
+          "scorer": {
+            "id": 114054,
+            "name": "Sebastiano Esposito"
+          },
+          "assist": {
+            "id": 170374,
+            "name": "Adam Obert"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 65,
+          "team": {
+            "id": 104,
+            "name": "Cagliari Calcio"
+          },
+          "player": {
+            "id": 206136,
+            "name": "Marco Palestra"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -134491,7 +134525,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11018,
+          "name": "Antonio Rapuano",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11007,
+          "name": "Alessandro Costanzo",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 57238,
+          "name": "Vito Mastrodonato",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {
