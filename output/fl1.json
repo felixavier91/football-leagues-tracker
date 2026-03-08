@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 224
+    "played": 225
   },
   "competition": {
     "id": 2015,
@@ -103530,15 +103530,15 @@
       },
       "id": 542626,
       "utcDate": "2026-03-08T19:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 8,
       "attendance": null,
       "venue": "Groupama Stadium",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T22:32:09Z",
+      "lastUpdated": "2026-03-08T22:41:00Z",
       "homeTeam": {
         "id": 523,
         "name": "Olympique Lyonnais",
@@ -103816,10 +103816,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -103845,9 +103845,39 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 6,
+          "type": "PENALTY",
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "scorer": {
+            "id": 366,
+            "name": "Corentin Tolisso"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 366,
+            "name": "Corentin Tolisso"
+          },
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 27,
