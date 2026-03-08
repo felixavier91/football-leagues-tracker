@@ -130864,15 +130864,15 @@
       },
       "id": 544480,
       "utcDate": "2026-03-08T17:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 60,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 37178,
       "venue": "Estadio R. Sanchez Pizjuan",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T19:33:16Z",
+      "lastUpdated": "2026-03-08T19:53:30Z",
       "homeTeam": {
         "id": 559,
         "name": "Sevilla FC",
@@ -131186,11 +131186,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -131218,6 +131218,27 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 50,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid"
+          },
+          "scorer": {
+            "id": 28384,
+            "name": "Alfonso Espino"
+          },
+          "assist": {
+            "id": 187117,
+            "name": "Fran Perez"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -131231,6 +131252,18 @@
           "player": {
             "id": 21410,
             "name": "Nemanja Gudelj"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 59,
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid"
+          },
+          "player": {
+            "id": 187117,
+            "name": "Fran Perez"
           },
           "card": "YELLOW"
         }

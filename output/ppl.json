@@ -102788,14 +102788,14 @@
       "id": 545924,
       "utcDate": "2026-03-08T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 31,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Estádio da Luz",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T19:33:57Z",
+      "lastUpdated": "2026-03-08T19:54:15Z",
       "homeTeam": {
         "id": 1903,
         "name": "Sport Lisboa e Benfica",
@@ -103077,7 +103077,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": null,
@@ -103102,6 +103102,27 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 40,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "scorer": {
+            "id": 265174,
+            "name": "Oskar Pietuszewski"
+          },
+          "assist": {
+            "id": 150519,
+            "name": "Gabriel Veiga"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -103115,6 +103136,42 @@
           "player": {
             "id": 1166,
             "name": "Pepê"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 35,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "player": {
+            "id": 3205,
+            "name": "Nicolás Otamendi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 35,
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "player": {
+            "id": 150519,
+            "name": "Gabriel Veiga"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "player": {
+            "id": 37362,
+            "name": "Diogo Costa"
           },
           "card": "YELLOW"
         }
