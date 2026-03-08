@@ -136066,7 +136066,7 @@
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T15:49:20Z",
+      "lastUpdated": "2026-03-08T15:59:50Z",
       "homeTeam": {
         "id": 103,
         "name": "Bologna FC 1909",
@@ -136476,15 +136476,15 @@
       },
       "id": 537085,
       "utcDate": "2026-03-08T14:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
-      "injuryTime": 1,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Artemio Franchi, Firenze",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T15:49:22Z",
+      "lastUpdated": "2026-03-08T15:59:54Z",
       "homeTeam": {
         "id": 99,
         "name": "ACF Fiorentina",
@@ -136793,8 +136793,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -136911,7 +136911,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57878,
+          "name": "Andrea Colombo",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 77458,
+          "name": "Marcello Rossi",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 57248,
+          "name": "Valerio Vecchi",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {
