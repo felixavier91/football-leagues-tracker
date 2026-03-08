@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 220
+    "played": 221
   },
   "competition": {
     "id": 2015,
@@ -101707,15 +101707,15 @@
       },
       "id": 542629,
       "utcDate": "2026-03-08T14:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 87,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Stade Bollaert-Delelis",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T16:47:55Z",
+      "lastUpdated": "2026-03-08T16:57:44Z",
       "homeTeam": {
         "id": 546,
         "name": "Racing Club de Lens",
@@ -102092,6 +102092,18 @@
           "player": {
             "id": 261552,
             "name": "Alpha Touré"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "player": {
+            "id": 215172,
+            "name": "Urie-Michel Mboula"
           },
           "card": "YELLOW"
         }
@@ -102506,7 +102518,7 @@
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T01:32:02Z",
+      "lastUpdated": "2026-03-08T16:50:14Z",
       "homeTeam": {
         "id": 521,
         "name": "Lille OSC",
@@ -102519,7 +102531,7 @@
           "nationality": "France"
         },
         "leagueRank": 6,
-        "formation": null,
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 29890,
@@ -102657,9 +102669,131 @@
           "nationality": "France"
         },
         "leagueRank": 10,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "3-4-2-1",
+        "lineup": [
+          {
+            "id": 9534,
+            "name": "Yvon Mvogo",
+            "position": "Goalkeeper",
+            "shirtNumber": 38
+          },
+          {
+            "id": 244087,
+            "name": "Kan Guy Arsène Kouassi",
+            "position": "Defence",
+            "shirtNumber": 43
+          },
+          {
+            "id": 220601,
+            "name": "Abdoulaye Faye",
+            "position": "Midfield",
+            "shirtNumber": 25
+          },
+          {
+            "id": 245416,
+            "name": "Arthur Avon Ebong",
+            "position": "Midfield",
+            "shirtNumber": 62
+          },
+          {
+            "id": 182169,
+            "name": "Karim Dermane",
+            "position": "Midfield",
+            "shirtNumber": 29
+          },
+          {
+            "id": 72551,
+            "name": "Aiyegun Tosin",
+            "position": "Centre-Forward",
+            "shirtNumber": 15
+          },
+          {
+            "id": 8437,
+            "name": "Jean-Victor Makengo",
+            "position": "Central Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 188658,
+            "name": "Panos Katseris",
+            "position": "Right-Back",
+            "shirtNumber": 77
+          },
+          {
+            "id": 106791,
+            "name": "Noah Cadiou",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 179596,
+            "name": "Bamo Meité",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 177695,
+            "name": "Montassar Talbi",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          }
+        ],
+        "bench": [
+          {
+            "id": 8771,
+            "name": "Bingourou Kamara",
+            "position": "Goalkeeper",
+            "shirtNumber": 21
+          },
+          {
+            "id": 280524,
+            "name": "Izak Akakpo",
+            "position": "Defence",
+            "shirtNumber": 33
+          },
+          {
+            "id": 280066,
+            "name": "Martin Nogoto Bley",
+            "position": "Midfield",
+            "shirtNumber": 34
+          },
+          {
+            "id": 129440,
+            "name": "Sambou Soumano",
+            "position": "Midfield",
+            "shirtNumber": 28
+          },
+          {
+            "id": 290087,
+            "name": "Daniel Semedo",
+            "position": "Midfield",
+            "shirtNumber": 35
+          },
+          {
+            "id": 166640,
+            "name": "Ahmadou Bamba Dieng",
+            "position": "Offence",
+            "shirtNumber": 12
+          },
+          {
+            "id": 131179,
+            "name": "Darlin Yongwa",
+            "position": "Left-Back",
+            "shirtNumber": 44
+          },
+          {
+            "id": 172520,
+            "name": "Theo Le Bris",
+            "position": "Left Midfield",
+            "shirtNumber": 11
+          },
+          {
+            "id": 213749,
+            "name": "Mohamed Bamba",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          }
+        ]
       },
       "score": {
         "winner": null,
