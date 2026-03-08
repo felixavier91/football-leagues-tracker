@@ -131343,15 +131343,15 @@
       },
       "id": 544475,
       "utcDate": "2026-03-08T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 7,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio de Mestalla",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T21:10:50Z",
+      "lastUpdated": "2026-03-08T21:59:25Z",
       "homeTeam": {
         "id": 95,
         "name": "Valencia CF",
@@ -131364,7 +131364,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 15,
-        "formation": "4-4-2",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 33781,
@@ -131660,8 +131660,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -131697,7 +131697,44 @@
           "scored": true
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 17,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "player": {
+            "id": 136349,
+            "name": "Largie Ramazani"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 36,
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "player": {
+            "id": 33092,
+            "name": "Jon Guridi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 43,
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "player": {
+            "id": 273343,
+            "name": "Yusi"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

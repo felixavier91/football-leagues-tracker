@@ -103531,14 +103531,14 @@
       "id": 542626,
       "utcDate": "2026-03-08T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 26,
+      "minute": 58,
       "injuryTime": null,
       "attendance": null,
       "venue": "Groupama Stadium",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T21:11:20Z",
+      "lastUpdated": "2026-03-08T21:59:49Z",
       "homeTeam": {
         "id": 523,
         "name": "Olympique Lyonnais",
@@ -103551,7 +103551,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 4,
-        "formation": "4-5-1",
+        "formation": "4-1-4-1",
         "lineup": [
           {
             "id": 79776,
@@ -103823,13 +103823,38 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 27,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "player": {
+            "id": 175845,
+            "name": "Tyler Morton"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 50,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "player": {
+            "id": 3208,
+            "name": "Nicolás Tagliafico"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

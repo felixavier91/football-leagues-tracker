@@ -137444,14 +137444,14 @@
       "id": 537086,
       "utcDate": "2026-03-08T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 23,
+      "minute": 54,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T21:11:10Z",
+      "lastUpdated": "2026-03-08T21:59:41Z",
       "homeTeam": {
         "id": 98,
         "name": "AC Milan",
@@ -137753,18 +137753,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 35,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "scorer": {
+            "id": 32642,
+            "name": "Pervis Estupiñán"
+          },
+          "assist": {
+            "id": 81299,
+            "name": "Youssouf Fofana"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

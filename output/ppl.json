@@ -103338,15 +103338,15 @@
       },
       "id": 545922,
       "utcDate": "2026-03-08T20:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 25,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio de São Miguel",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T20:31:52Z",
+      "lastUpdated": "2026-03-08T21:59:55Z",
       "homeTeam": {
         "id": 5530,
         "name": "CD Santa Clara",
@@ -103624,20 +103624,73 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 6,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "scorer": {
+            "id": 243594,
+            "name": "Sidney Lima"
+          },
+          "assist": {
+            "id": 169655,
+            "name": "Guilherme Romão"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 14,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "scorer": {
+            "id": 129463,
+            "name": "Welinton"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 6,
+          "team": {
+            "id": 5543,
+            "name": "Vitória SC"
+          },
+          "player": {
+            "id": 177044,
+            "name": "Joao Mendes"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
