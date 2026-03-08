@@ -137444,14 +137444,14 @@
       "id": 537086,
       "utcDate": "2026-03-08T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 66,
+      "minute": 86,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T22:11:50Z",
+      "lastUpdated": "2026-03-08T22:31:54Z",
       "homeTeam": {
         "id": 98,
         "name": "AC Milan",
@@ -137788,7 +137788,44 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 65,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "player": {
+            "id": 1834,
+            "name": "Alessandro Bastoni"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 69,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "player": {
+            "id": 7417,
+            "name": "Denzel Dumfries"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 80,
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "player": {
+            "id": 3368,
+            "name": "Adrien Rabiot"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
