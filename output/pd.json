@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 268
+    "played": 269
   },
   "competition": {
     "id": 2014,
@@ -131343,15 +131343,15 @@
       },
       "id": 544475,
       "utcDate": "2026-03-08T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 86,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 13,
       "attendance": 41512,
       "venue": "Estadio de Mestalla",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T22:47:15Z",
+      "lastUpdated": "2026-03-08T23:06:15Z",
       "homeTeam": {
         "id": 95,
         "name": "Valencia CF",
@@ -131653,10 +131653,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 3,
           "away": 2
         },
         "halfTime": {
@@ -131724,6 +131724,42 @@
             "home": 1,
             "away": 2
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scorer": {
+            "id": 30823,
+            "name": "Eray Cömert"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 9,
+          "type": "PENALTY",
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scorer": {
+            "id": 32762,
+            "name": "Hugo Duro"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -131735,6 +131771,17 @@
           "team": {
             "id": 263,
             "name": "Deportivo Alavés"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 32762,
+            "name": "Hugo Duro"
+          },
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
           },
           "scored": true
         }
@@ -131787,6 +131834,42 @@
             "name": "Jon Pacheco"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "player": {
+            "id": 33093,
+            "name": "Ander Guevara"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "player": {
+            "id": 33093,
+            "name": "Ander Guevara"
+          },
+          "card": "YELLOW_RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "player": {
+            "id": 144615,
+            "name": "Jon Pacheco"
+          },
+          "card": "YELLOW_RED"
         }
       ],
       "substitutions": [],
