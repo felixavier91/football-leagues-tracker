@@ -136938,14 +136938,14 @@
       "id": 537089,
       "utcDate": "2026-03-08T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 45,
-      "injuryTime": 2,
+      "minute": 56,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Luigi Ferraris",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T18:48:37Z",
+      "lastUpdated": "2026-03-08T19:14:47Z",
       "homeTeam": {
         "id": 107,
         "name": "Genoa CFC",
@@ -137259,19 +137259,68 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 52,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 107,
+            "name": "Genoa CFC"
+          },
+          "scorer": {
+            "id": 97869,
+            "name": "Junior Messias"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 55,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "scorer": {
+            "id": 526,
+            "name": "Evan N'Dicka"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 97869,
+            "name": "Junior Messias"
+          },
+          "team": {
+            "id": 107,
+            "name": "Genoa CFC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 12,
