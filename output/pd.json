@@ -131343,15 +131343,15 @@
       },
       "id": 544475,
       "utcDate": "2026-03-08T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 50,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 41512,
       "venue": "Estadio de Mestalla",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T21:59:25Z",
+      "lastUpdated": "2026-03-08T22:11:30Z",
       "homeTeam": {
         "id": 95,
         "name": "Valencia CF",
@@ -131653,10 +131653,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -131680,6 +131680,27 @@
           "assist": null,
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 47,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scorer": {
+            "id": 177180,
+            "name": "Javier Guerra"
+          },
+          "assist": {
+            "id": 7672,
+            "name": "Umar Sadiq"
+          },
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
