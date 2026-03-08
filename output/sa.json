@@ -135543,15 +135543,15 @@
       },
       "id": 537094,
       "utcDate": "2026-03-08T11:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 40,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Via del Mare",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T13:13:31Z",
+      "lastUpdated": "2026-03-08T13:34:43Z",
       "homeTeam": {
         "id": 5890,
         "name": "US Lecce",
@@ -135878,8 +135878,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "goals": [
@@ -135936,7 +135936,32 @@
           "scored": true
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 44,
+          "team": {
+            "id": 457,
+            "name": "US Cremonese"
+          },
+          "player": {
+            "id": 2145,
+            "name": "Matteo Bianchetti"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 5890,
+            "name": "US Lecce"
+          },
+          "player": {
+            "id": 150530,
+            "name": "Jamil Siebert"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
