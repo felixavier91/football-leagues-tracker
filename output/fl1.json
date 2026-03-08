@@ -102160,14 +102160,14 @@
       "id": 542625,
       "utcDate": "2026-03-08T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 59,
+      "minute": 72,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Riviera",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T18:35:28Z",
+      "lastUpdated": "2026-03-08T18:48:48Z",
       "homeTeam": {
         "id": 522,
         "name": "OGC Nice",
@@ -102579,14 +102579,14 @@
       "id": 542627,
       "utcDate": "2026-03-08T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 60,
+      "minute": 74,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Pierre-Mauroy",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T18:35:29Z",
+      "lastUpdated": "2026-03-08T18:48:48Z",
       "homeTeam": {
         "id": 521,
         "name": "Lille OSC",
@@ -102864,10 +102864,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -102875,7 +102875,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 65,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "scorer": {
+            "id": 213511,
+            "name": "Matias Fernandez-Pardo"
+          },
+          "assist": {
+            "id": 6503,
+            "name": "Nabil Bentaleb"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -102979,14 +103001,14 @@
       "id": 542630,
       "utcDate": "2026-03-08T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 62,
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Francis-Le Blé",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T18:35:29Z",
+      "lastUpdated": "2026-03-08T18:48:48Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -103255,7 +103277,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -103284,6 +103306,27 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 71,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "scorer": {
+            "id": 723,
+            "name": "Ludovic Ajorque"
+          },
+          "assist": {
+            "id": 175942,
+            "name": "Kamory Doumbia"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
@@ -103309,6 +103352,18 @@
           "player": {
             "id": 175942,
             "name": "Kamory Doumbia"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 73,
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "player": {
+            "id": 723,
+            "name": "Ludovic Ajorque"
           },
           "card": "YELLOW"
         }
@@ -103424,7 +103479,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57092,
+          "name": "Eric Wattellier",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 57049,
+          "name": "Mehdi Rahmouni",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 57107,
+          "name": "Gwenaël Pasqualotti",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
