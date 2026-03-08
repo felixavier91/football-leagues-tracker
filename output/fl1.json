@@ -102160,14 +102160,14 @@
       "id": 542625,
       "utcDate": "2026-03-08T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 35,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Allianz Riviera",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T17:50:49Z",
+      "lastUpdated": "2026-03-08T18:01:51Z",
       "homeTeam": {
         "id": 522,
         "name": "OGC Nice",
@@ -102500,8 +102500,33 @@
           }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 149850,
+            "name": "Esteban Lepaul"
+          },
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "scored": false
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 37,
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "player": {
+            "id": 8425,
+            "name": "Dante"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -102554,14 +102579,14 @@
       "id": 542627,
       "utcDate": "2026-03-08T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 35,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Stade Pierre-Mauroy",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T17:50:49Z",
+      "lastUpdated": "2026-03-08T18:01:51Z",
       "homeTeam": {
         "id": 521,
         "name": "Lille OSC",
@@ -102866,7 +102891,7 @@
           "card": "YELLOW"
         },
         {
-          "minute": 33,
+          "minute": 32,
           "team": {
             "id": 521,
             "name": "Lille OSC"
@@ -102878,7 +102903,7 @@
           "card": "YELLOW"
         },
         {
-          "minute": 33,
+          "minute": 32,
           "team": {
             "id": 521,
             "name": "Lille OSC"
@@ -102942,14 +102967,14 @@
       "id": 542630,
       "utcDate": "2026-03-08T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 35,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Stade Francis-Le Blé",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T17:50:49Z",
+      "lastUpdated": "2026-03-08T18:01:52Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -103226,7 +103251,26 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "scorer": {
+            "id": 856,
+            "name": "Romain Del Castillo"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -103238,6 +103282,18 @@
           "player": {
             "id": 260293,
             "name": "Yanis Zouaoui"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 38,
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "player": {
+            "id": 175942,
+            "name": "Kamory Doumbia"
           },
           "card": "YELLOW"
         }

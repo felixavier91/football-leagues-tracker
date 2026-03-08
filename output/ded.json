@@ -113034,15 +113034,15 @@
       },
       "id": 537671,
       "utcDate": "2026-03-08T15:45:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 55,
       "injuryTime": null,
       "attendance": null,
       "venue": "Rat Verlegh",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T17:51:01Z",
+      "lastUpdated": "2026-03-08T18:02:08Z",
       "homeTeam": {
         "id": 681,
         "name": "NAC Breda",
@@ -113350,11 +113350,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 3,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": 3,
@@ -113402,7 +113402,7 @@
           }
         },
         {
-          "minute": 30,
+          "minute": 31,
           "injuryTime": null,
           "type": "REGULAR",
           "team": {
@@ -113462,6 +113462,27 @@
           "score": {
             "home": 3,
             "away": 2
+          }
+        },
+        {
+          "minute": 52,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 675,
+            "name": "Feyenoord Rotterdam"
+          },
+          "scorer": {
+            "id": 119460,
+            "name": "Ayase Ueda"
+          },
+          "assist": {
+            "id": 176299,
+            "name": "Jordan Bos"
+          },
+          "score": {
+            "home": 3,
+            "away": 3
           }
         }
       ],
@@ -113591,7 +113612,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 80090,
+          "name": "Marc Nagtegaal",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 81794,
+          "name": "Kevin Bodde",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 81024,
+          "name": "Roan van Marrewijk",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
