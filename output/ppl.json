@@ -102788,14 +102788,14 @@
       "id": 545924,
       "utcDate": "2026-03-08T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 57,
+      "minute": 72,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio da Luz",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T20:24:55Z",
+      "lastUpdated": "2026-03-08T20:39:09Z",
       "homeTeam": {
         "id": 1903,
         "name": "Sport Lisboa e Benfica",
@@ -103076,7 +103076,7 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 2
         },
         "halfTime": {
@@ -103121,6 +103121,24 @@
           },
           "score": {
             "home": 0,
+            "away": 2
+          }
+        },
+        {
+          "minute": 69,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "scorer": {
+            "id": 157796,
+            "name": "Andreas Schjelderup"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
             "away": 2
           }
         }
@@ -103172,6 +103190,18 @@
           "player": {
             "id": 37362,
             "name": "Diogo Costa"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 58,
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "player": {
+            "id": 227047,
+            "name": "Martim Fernandes"
           },
           "card": "YELLOW"
         }
@@ -103235,7 +103265,7 @@
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-02T01:32:04Z",
+      "lastUpdated": "2026-03-08T20:31:52Z",
       "homeTeam": {
         "id": 5530,
         "name": "CD Santa Clara",
@@ -103248,9 +103278,131 @@
           "nationality": "Portugal"
         },
         "leagueRank": 16,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 1528,
+            "name": "Gabriel Batista",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 37393,
+            "name": "Serginho",
+            "position": "Goalkeeper",
+            "shirtNumber": 35
+          },
+          {
+            "id": 169655,
+            "name": "Guilherme Romão",
+            "position": "Defence",
+            "shirtNumber": 5
+          },
+          {
+            "id": 243594,
+            "name": "Sidney Lima",
+            "position": "Defence",
+            "shirtNumber": 23
+          },
+          {
+            "id": 278476,
+            "name": "Henrique Silva",
+            "position": "Defence",
+            "shirtNumber": 94
+          },
+          {
+            "id": 278474,
+            "name": "José Tavares",
+            "position": "Midfield",
+            "shirtNumber": 65
+          },
+          {
+            "id": 80878,
+            "name": "Pedro Ferreira",
+            "position": "Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 124982,
+            "name": "Lucas Soares",
+            "position": "Offence",
+            "shirtNumber": 42
+          },
+          {
+            "id": 129463,
+            "name": "Welinton",
+            "position": "Offence",
+            "shirtNumber": 49
+          },
+          {
+            "id": 227024,
+            "name": "Luis Fernando",
+            "position": "Offence",
+            "shirtNumber": 26
+          },
+          {
+            "id": 168766,
+            "name": "Gabriel Silva",
+            "position": "Offence",
+            "shirtNumber": 10
+          }
+        ],
+        "bench": [
+          {
+            "id": 181527,
+            "name": "Neneca",
+            "position": "Goalkeeper",
+            "shirtNumber": 12
+          },
+          {
+            "id": 32569,
+            "name": "Pedro Pacheco",
+            "position": "Defence",
+            "shirtNumber": 4
+          },
+          {
+            "id": 165583,
+            "name": "Paulo Victor",
+            "position": "Defence",
+            "shirtNumber": 64
+          },
+          {
+            "id": 178743,
+            "name": "Diogo Calila",
+            "position": "Defence",
+            "shirtNumber": 2
+          },
+          {
+            "id": 185110,
+            "name": "Klismahn",
+            "position": "Midfield",
+            "shirtNumber": 77
+          },
+          {
+            "id": 115128,
+            "name": "Darlan Mendes",
+            "position": "Midfield",
+            "shirtNumber": 37
+          },
+          {
+            "id": 168871,
+            "name": "Elias Manoel",
+            "position": "Offence",
+            "shirtNumber": 7
+          },
+          {
+            "id": 181456,
+            "name": "Brenner",
+            "position": "Offence",
+            "shirtNumber": 11
+          },
+          {
+            "id": 15919,
+            "name": "Gonçalo Paciência",
+            "position": "Centre-Forward",
+            "shirtNumber": 39
+          }
+        ]
       },
       "awayTeam": {
         "id": 5543,
@@ -103264,9 +103416,131 @@
           "nationality": "Portugal"
         },
         "leagueRank": 9,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-2-3-1",
+        "lineup": [
+          {
+            "id": 45324,
+            "name": "Charles Silva",
+            "position": "Goalkeeper",
+            "shirtNumber": 27
+          },
+          {
+            "id": 177044,
+            "name": "Joao Mendes",
+            "position": "Defence",
+            "shirtNumber": 13
+          },
+          {
+            "id": 274548,
+            "name": "Thiago Balieiro",
+            "position": "Defence",
+            "shirtNumber": 28
+          },
+          {
+            "id": 262361,
+            "name": "Diogo Lobão",
+            "position": "Defence",
+            "shirtNumber": 23
+          },
+          {
+            "id": 45514,
+            "name": "Samu",
+            "position": "Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 281959,
+            "name": "Noah Saviolo",
+            "position": "Offence",
+            "shirtNumber": 48
+          },
+          {
+            "id": 149724,
+            "name": "Alioune Ndoye",
+            "position": "Offence",
+            "shirtNumber": 90
+          },
+          {
+            "id": 145346,
+            "name": "Telmo Arcanjo",
+            "position": "Attacking Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 191259,
+            "name": "Beni",
+            "position": "Central Midfield",
+            "shirtNumber": 16
+          },
+          {
+            "id": 204259,
+            "name": "Anthony Strata",
+            "position": "Right-Back",
+            "shirtNumber": 66
+          },
+          {
+            "id": 28243,
+            "name": "Rodrigo Abascal",
+            "position": "Centre-Back",
+            "shirtNumber": 26
+          }
+        ],
+        "bench": [
+          {
+            "id": 246248,
+            "name": "Juan Castillo",
+            "position": "Goalkeeper",
+            "shirtNumber": 25
+          },
+          {
+            "id": 28976,
+            "name": "Orest Lebedenko",
+            "position": "Defence",
+            "shirtNumber": 17
+          },
+          {
+            "id": 280042,
+            "name": "Matija Mitrović",
+            "position": "Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 280039,
+            "name": "Oumar Camara",
+            "position": "Offence",
+            "shirtNumber": 19
+          },
+          {
+            "id": 243569,
+            "name": "Gustavo Silva",
+            "position": "Offence",
+            "shirtNumber": 11
+          },
+          {
+            "id": 191013,
+            "name": "Goncalo Nogueira",
+            "position": "Central Midfield",
+            "shirtNumber": 30
+          },
+          {
+            "id": 185139,
+            "name": "Miguel Nóbrega",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 171351,
+            "name": "Miguel Magalhães",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 4003,
+            "name": "Nélson Oliveira",
+            "position": "Centre-Forward",
+            "shirtNumber": 7
+          }
+        ]
       },
       "score": {
         "winner": null,
