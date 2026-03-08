@@ -129907,14 +129907,14 @@
       "id": 544477,
       "utcDate": "2026-03-08T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 26,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Estadio de la Cerámica",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T14:27:11Z",
+      "lastUpdated": "2026-03-08T14:47:25Z",
       "homeTeam": {
         "id": 94,
         "name": "Villarreal CF",
@@ -130210,10 +130210,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -130221,9 +130221,65 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 31,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "scorer": {
+            "id": 113175,
+            "name": "Tajon Buchanan"
+          },
+          "assist": {
+            "id": 633,
+            "name": "Pape Gueye"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 41,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "scorer": {
+            "id": 212858,
+            "name": "Santiago Mouriño"
+          },
+          "assist": {
+            "id": 213263,
+            "name": "Santi Comesaña"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 43,
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "player": {
+            "id": 150533,
+            "name": "Alberto Moleiro"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

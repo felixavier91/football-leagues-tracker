@@ -112043,15 +112043,15 @@
       },
       "id": 537668,
       "utcDate": "2026-03-08T13:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 15,
       "injuryTime": null,
       "attendance": null,
       "venue": "Fortuna Sittard Stadion",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T13:34:37Z",
+      "lastUpdated": "2026-03-08T14:48:17Z",
       "homeTeam": {
         "id": 1920,
         "name": "Fortuna Sittard",
@@ -112353,18 +112353,61 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 5,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1912,
+            "name": "Telstar 1963"
+          },
+          "scorer": {
+            "id": 184643,
+            "name": "Patrick Brouwer"
+          },
+          "assist": {
+            "id": 7624,
+            "name": "Danny Bakker"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 7,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1912,
+            "name": "Telstar 1963"
+          },
+          "scorer": {
+            "id": 117796,
+            "name": "Nökkvi Þórisson"
+          },
+          "assist": {
+            "id": 7354,
+            "name": "Jeff Hardeveld"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -112418,15 +112461,15 @@
       },
       "id": 537669,
       "utcDate": "2026-03-08T13:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 16,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Adelaarshorst",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T13:48:45Z",
+      "lastUpdated": "2026-03-08T14:48:17Z",
       "homeTeam": {
         "id": 718,
         "name": "Go Ahead Eagles",
@@ -112734,11 +112777,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -112859,7 +112902,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56912,
+          "name": "Jeroen Manschot",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 167615,
+          "name": "Marco Ribbink",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": null
+        },
+        {
+          "id": 43860,
+          "name": "Joost van Zuilen",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
