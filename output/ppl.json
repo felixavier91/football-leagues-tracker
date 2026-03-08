@@ -102309,14 +102309,14 @@
       "id": 545920,
       "utcDate": "2026-03-08T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 16,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Gomes",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T16:32:41Z",
+      "lastUpdated": "2026-03-08T16:48:11Z",
       "homeTeam": {
         "id": 9136,
         "name": "CF Estrela da Amadora",
@@ -102594,19 +102594,50 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 14,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "scorer": {
+            "id": 37160,
+            "name": "Murilo"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 37160,
+            "name": "Murilo"
+          },
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {
