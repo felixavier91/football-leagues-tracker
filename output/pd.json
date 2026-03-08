@@ -130864,15 +130864,15 @@
       },
       "id": 544480,
       "utcDate": "2026-03-08T17:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 3,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio R. Sanchez Pizjuan",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T17:24:09Z",
+      "lastUpdated": "2026-03-08T18:34:47Z",
       "homeTeam": {
         "id": 559,
         "name": "Sevilla FC",
@@ -131041,7 +131041,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 13,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 46245,
@@ -131186,11 +131186,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -131199,7 +131199,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 2,
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC"
+          },
+          "player": {
+            "id": 21410,
+            "name": "Nemanja Gudelj"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
