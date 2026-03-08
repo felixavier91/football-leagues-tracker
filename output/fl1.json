@@ -101708,14 +101708,14 @@
       "id": 542629,
       "utcDate": "2026-03-08T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 32,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Stade Bollaert-Delelis",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T15:32:28Z",
+      "lastUpdated": "2026-03-08T15:49:32Z",
       "homeTeam": {
         "id": 546,
         "name": "Racing Club de Lens",
@@ -101987,10 +101987,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -101998,7 +101998,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 44,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 546,
+            "name": "Racing Club de Lens"
+          },
+          "scorer": {
+            "id": 129098,
+            "name": "Saud Abdulhamid"
+          },
+          "assist": {
+            "id": 151264,
+            "name": "Abdallah Sima"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {

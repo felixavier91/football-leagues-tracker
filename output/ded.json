@@ -112043,15 +112043,15 @@
       },
       "id": 537668,
       "utcDate": "2026-03-08T13:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 59,
       "injuryTime": null,
       "attendance": null,
       "venue": "Fortuna Sittard Stadion",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T15:32:51Z",
+      "lastUpdated": "2026-03-08T15:49:38Z",
       "homeTeam": {
         "id": 1920,
         "name": "Fortuna Sittard",
@@ -112059,9 +112059,9 @@
         "tla": "SIT",
         "crest": "https://crests.football-data.org/1920.png",
         "coach": {
-          "id": 55440,
-          "name": "Danny Buijs",
-          "nationality": "Netherlands"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 11,
         "formation": "4-2-3-1",
@@ -112209,9 +112209,9 @@
         "tla": "TEL",
         "crest": "https://crests.football-data.org/1912.png",
         "coach": {
-          "id": 133822,
-          "name": "Anthony Correia",
-          "nationality": "Netherlands"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 17,
         "formation": "3-4-2-1",
@@ -112281,12 +112281,6 @@
             "name": "Sem van Duijn",
             "position": "Offence",
             "shirtNumber": 37
-          },
-          {
-            "id": 211708,
-            "name": "Jochem Ritmeester van de Kamp",
-            "position": "Central Midfield",
-            "shirtNumber": 39
           }
         ],
         "bench": [
@@ -112315,12 +112309,6 @@
             "shirtNumber": 29
           },
           {
-            "id": 184643,
-            "name": "Patrick Brouwer",
-            "position": "Midfield",
-            "shirtNumber": 27
-          },
-          {
             "id": 244492,
             "name": "Soufiane Hetli",
             "position": "Offence",
@@ -112339,16 +112327,16 @@
             "shirtNumber": 9
           },
           {
-            "id": 211708,
-            "name": "Jochem Ritmeester van de Kamp",
-            "position": "Central Midfield",
-            "shirtNumber": 39
-          },
-          {
             "id": 53432,
             "name": "Kay Tejan",
             "position": "Centre-Forward",
             "shirtNumber": 30
+          },
+          {
+            "id": 211708,
+            "name": "Jochem Ritmeester van de Kamp",
+            "position": "Central Midfield",
+            "shirtNumber": 39
           }
         ]
       },
@@ -112357,7 +112345,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": 1,
@@ -112424,10 +112412,44 @@
             "home": 1,
             "away": 2
           }
+        },
+        {
+          "minute": 50,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1912,
+            "name": "Telstar 1963"
+          },
+          "scorer": {
+            "id": 184643,
+            "name": "Patrick Brouwer"
+          },
+          "assist": {
+            "id": 244046,
+            "name": "Sem van Duijn"
+          },
+          "score": {
+            "home": 1,
+            "away": 3
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 54,
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "player": {
+            "id": 127235,
+            "name": "Neraysho Kasanwirjo"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -112479,15 +112501,15 @@
       },
       "id": 537669,
       "utcDate": "2026-03-08T13:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 62,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Adelaarshorst",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T15:32:51Z",
+      "lastUpdated": "2026-03-08T15:49:39Z",
       "homeTeam": {
         "id": 718,
         "name": "Go Ahead Eagles",
@@ -112798,8 +112820,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 2
+          "home": 1,
+          "away": 3
         },
         "halfTime": {
           "home": 0,
@@ -112844,6 +112866,45 @@
           "score": {
             "home": 0,
             "away": 2
+          }
+        },
+        {
+          "minute": 50,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 666,
+            "name": "FC Twente '65"
+          },
+          "scorer": {
+            "id": 167635,
+            "name": "Kristian Hlynsson"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 3
+          }
+        },
+        {
+          "minute": 56,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 718,
+            "name": "Go Ahead Eagles"
+          },
+          "scorer": {
+            "id": 144367,
+            "name": "Jakob Breum"
+          },
+          "assist": {
+            "id": 151613,
+            "name": "Mathis Suray"
+          },
+          "score": {
+            "home": 1,
+            "away": 3
           }
         }
       ],

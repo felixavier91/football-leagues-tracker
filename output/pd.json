@@ -129907,14 +129907,14 @@
       "id": 544477,
       "utcDate": "2026-03-08T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 74,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": 16301,
       "venue": "Estadio de la Cerámica",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T15:31:59Z",
+      "lastUpdated": "2026-03-08T15:48:58Z",
       "homeTeam": {
         "id": 94,
         "name": "Villarreal CF",
@@ -130214,7 +130214,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 2,
@@ -130263,6 +130263,27 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 82,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "scorer": {
+            "id": 1760,
+            "name": "André Silva"
+          },
+          "assist": {
+            "id": 165143,
+            "name": "Martim Neto"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -130276,6 +130297,18 @@
           "player": {
             "id": 150533,
             "name": "Alberto Moleiro"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 74,
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "player": {
+            "id": 165143,
+            "name": "Martim Neto"
           },
           "card": "YELLOW"
         }
