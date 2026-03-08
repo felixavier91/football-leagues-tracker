@@ -102159,15 +102159,15 @@
       },
       "id": 542625,
       "utcDate": "2026-03-08T16:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 35,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Riviera",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T16:30:24Z",
+      "lastUpdated": "2026-03-08T17:50:49Z",
       "homeTeam": {
         "id": 522,
         "name": "OGC Nice",
@@ -102445,18 +102445,61 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 13,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "scorer": {
+            "id": 149850,
+            "name": "Esteban Lepaul"
+          },
+          "assist": {
+            "id": 8695,
+            "name": "Valentin Rongier"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 20,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "scorer": {
+            "id": 10201,
+            "name": "Sebastian Szymański"
+          },
+          "assist": {
+            "id": 98763,
+            "name": "Musa Al Taamari"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -102510,15 +102553,15 @@
       },
       "id": 542627,
       "utcDate": "2026-03-08T16:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 35,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Pierre-Mauroy",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T16:50:14Z",
+      "lastUpdated": "2026-03-08T17:50:49Z",
       "homeTeam": {
         "id": 521,
         "name": "Lille OSC",
@@ -102531,7 +102574,7 @@
           "nationality": "France"
         },
         "leagueRank": 6,
-        "formation": "4-2-3-1",
+        "formation": "4-3-1-2",
         "lineup": [
           {
             "id": 29890,
@@ -102669,7 +102712,7 @@
           "nationality": "France"
         },
         "leagueRank": 10,
-        "formation": "3-4-2-1",
+        "formation": "5-4-1",
         "lineup": [
           {
             "id": 9534,
@@ -102796,11 +102839,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -102809,7 +102852,44 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 22,
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "player": {
+            "id": 914,
+            "name": "Gaëtan Perrin"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 33,
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "player": {
+            "id": 19,
+            "name": "Aïssa Mandi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 33,
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "player": {
+            "id": 29890,
+            "name": "Berke Özer"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -102861,15 +102941,15 @@
       },
       "id": 542630,
       "utcDate": "2026-03-08T16:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 35,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Francis-Le Blé",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T16:17:40Z",
+      "lastUpdated": "2026-03-08T17:50:49Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -103008,7 +103088,7 @@
           "nationality": "France"
         },
         "leagueRank": 13,
-        "formation": "3-4-2-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 20931,
@@ -103135,11 +103215,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -103148,7 +103228,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 21,
+          "team": {
+            "id": 533,
+            "name": "Le Havre AC"
+          },
+          "player": {
+            "id": 260293,
+            "name": "Yanis Zouaoui"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

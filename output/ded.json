@@ -113034,15 +113034,15 @@
       },
       "id": 537671,
       "utcDate": "2026-03-08T15:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 13,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Rat Verlegh",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T16:58:28Z",
+      "lastUpdated": "2026-03-08T17:51:01Z",
       "homeTeam": {
         "id": 681,
         "name": "NAC Breda",
@@ -113350,20 +113350,136 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 3,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 2
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 19,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 675,
+            "name": "Feyenoord Rotterdam"
+          },
+          "scorer": {
+            "id": 119460,
+            "name": "Ayase Ueda"
+          },
+          "assist": {
+            "id": 244466,
+            "name": "Anis Moussa"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 681,
+            "name": "NAC Breda"
+          },
+          "scorer": {
+            "id": 179479,
+            "name": "Kamal Sowah"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 675,
+            "name": "Feyenoord Rotterdam"
+          },
+          "scorer": {
+            "id": 169190,
+            "name": "Luciano Valente"
+          },
+          "assist": {
+            "id": 53317,
+            "name": "Mats Deijl"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 39,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 681,
+            "name": "NAC Breda"
+          },
+          "scorer": {
+            "id": 7590,
+            "name": "Boyd Lucassen"
+          },
+          "assist": {
+            "id": 67887,
+            "name": "Boy Kemper"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 681,
+            "name": "NAC Breda"
+          },
+          "scorer": {
+            "id": 7990,
+            "name": "André Ayew"
+          },
+          "assist": {
+            "id": 6526,
+            "name": "Lewis Holtby"
+          },
+          "score": {
+            "home": 3,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 675,
+            "name": "Feyenoord Rotterdam"
+          },
+          "player": {
+            "id": 99952,
+            "name": "Jakub Moder"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

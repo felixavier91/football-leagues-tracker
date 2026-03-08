@@ -102309,14 +102309,14 @@
       "id": 545920,
       "utcDate": "2026-03-08T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 26,
+      "minute": 55,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Gomes",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T16:58:20Z",
+      "lastUpdated": "2026-03-08T17:50:46Z",
       "homeTeam": {
         "id": 9136,
         "name": "CF Estrela da Amadora",
@@ -102601,8 +102601,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -102623,6 +102623,24 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 54,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "scorer": {
+            "id": 37116,
+            "name": "Jovane Cabral"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [
@@ -102638,7 +102656,32 @@
           "scored": true
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "player": {
+            "id": 37160,
+            "name": "Murilo"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 48,
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "player": {
+            "id": 154435,
+            "name": "Paulo Moreira"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -102750,7 +102793,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 38806,
+          "name": "João Pinheiro",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 37731,
+          "name": "Bruno Jesus",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 37591,
+          "name": "Luciano Maia",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {

@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 223
+    "played": 224
   },
   "competition": {
     "id": 2002,
@@ -104963,15 +104963,15 @@
       },
       "id": 540623,
       "utcDate": "2026-03-08T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 67,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 7,
       "attendance": 29546,
       "venue": "Millerntor-Stadion",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T16:57:45Z",
+      "lastUpdated": "2026-03-08T17:29:46Z",
       "homeTeam": {
         "id": 20,
         "name": "FC St. Pauli 1910",
@@ -105274,6 +105274,42 @@
             "name": "Tomoya Ando"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 76,
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "player": {
+            "id": 7531,
+            "name": "Ritsu Doan"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 89,
+          "team": {
+            "id": 20,
+            "name": "FC St. Pauli 1910"
+          },
+          "player": {
+            "id": 4635,
+            "name": "Connor Metcalfe"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 20,
+            "name": "FC St. Pauli 1910"
+          },
+          "player": {
+            "id": 144549,
+            "name": "Alexander Blessin"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -105327,15 +105363,15 @@
       },
       "id": 540625,
       "utcDate": "2026-03-08T16:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 21,
       "injuryTime": null,
       "attendance": null,
       "venue": "An der Alten Försterei",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T16:18:55Z",
+      "lastUpdated": "2026-03-08T17:50:28Z",
       "homeTeam": {
         "id": 28,
         "name": "1. FC Union Berlin",
@@ -105613,20 +105649,76 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 18,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "scorer": {
+            "id": 64934,
+            "name": "Derrick Köhn"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 64934,
+            "name": "Derrick Köhn"
+          },
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 16,
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen"
+          },
+          "player": {
+            "id": 6557,
+            "name": "Niklas Stark"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 19,
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "player": {
+            "id": 72117,
+            "name": "András Schafer"
+          },
+          "card": "RED"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
