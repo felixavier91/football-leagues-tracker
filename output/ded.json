@@ -113612,15 +113612,15 @@
       },
       "id": 537672,
       "utcDate": "2026-03-08T19:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 38,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadion De Goffert",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T20:39:15Z",
+      "lastUpdated": "2026-03-08T20:50:01Z",
       "homeTeam": {
         "id": 1915,
         "name": "NEC",
@@ -113916,18 +113916,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 39,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "scorer": {
+            "id": 182241,
+            "name": "Noe Lebreton"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
