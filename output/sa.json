@@ -136058,15 +136058,15 @@
       },
       "id": 537090,
       "utcDate": "2026-03-08T14:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 72,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Renato Dall'Ara",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T15:59:50Z",
+      "lastUpdated": "2026-03-08T16:32:16Z",
       "homeTeam": {
         "id": 103,
         "name": "Bologna FC 1909",
@@ -136079,7 +136079,7 @@
           "nationality": "Italy"
         },
         "leagueRank": 8,
-        "formation": "4-2-3-1",
+        "formation": "4-1-4-1",
         "lineup": [
           {
             "id": 1797,
@@ -136374,18 +136374,79 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 49,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "scorer": {
+            "id": 176664,
+            "name": "Jonathan Rowe"
+          },
+          "assist": {
+            "id": 127143,
+            "name": "Nadir Zortea"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 53,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 450,
+            "name": "Hellas Verona FC"
+          },
+          "scorer": {
+            "id": 24235,
+            "name": "Martin Frese"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 57,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 450,
+            "name": "Hellas Verona FC"
+          },
+          "scorer": {
+            "id": 105081,
+            "name": "Kieron Bowie"
+          },
+          "assist": {
+            "id": 191892,
+            "name": "Gift Orban"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -136476,15 +136537,15 @@
       },
       "id": 537085,
       "utcDate": "2026-03-08T14:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 70,
       "injuryTime": null,
       "attendance": null,
       "venue": "Artemio Franchi, Firenze",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T15:59:54Z",
+      "lastUpdated": "2026-03-08T16:32:19Z",
       "homeTeam": {
         "id": 99,
         "name": "ACF Fiorentina",
@@ -136799,7 +136860,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 61,
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "player": {
+            "id": 2230,
+            "name": "Rolando Mandragora"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

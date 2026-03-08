@@ -101707,15 +101707,15 @@
       },
       "id": 542629,
       "utcDate": "2026-03-08T14:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 71,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Bollaert-Delelis",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T16:00:18Z",
+      "lastUpdated": "2026-03-08T16:32:31Z",
       "homeTeam": {
         "id": 546,
         "name": "Racing Club de Lens",
@@ -101990,7 +101990,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -102019,6 +102019,48 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 46,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 546,
+            "name": "Racing Club de Lens"
+          },
+          "scorer": {
+            "id": 3370,
+            "name": "Florian Thauvin"
+          },
+          "assist": {
+            "id": 8706,
+            "name": "Adrien Thomasson"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 52,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 546,
+            "name": "Racing Club de Lens"
+          },
+          "scorer": {
+            "id": 15704,
+            "name": "Amadou Haïdara"
+          },
+          "assist": {
+            "id": 8717,
+            "name": "Matthieu Udol"
+          },
+          "score": {
+            "home": 3,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
@@ -102032,6 +102074,18 @@
           "player": {
             "id": 6623,
             "name": "Jean-Philippe Gbamin"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 49,
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "player": {
+            "id": 261552,
+            "name": "Alpha Touré"
           },
           "card": "YELLOW"
         }
@@ -102095,7 +102149,7 @@
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-07T01:32:02Z",
+      "lastUpdated": "2026-03-08T16:30:24Z",
       "homeTeam": {
         "id": 522,
         "name": "OGC Nice",
@@ -102108,9 +102162,131 @@
           "nationality": "France"
         },
         "leagueRank": 15,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-2-3-1",
+        "lineup": [
+          {
+            "id": 8608,
+            "name": "Yehvann Diouf",
+            "position": "Goalkeeper",
+            "shirtNumber": 80
+          },
+          {
+            "id": 202896,
+            "name": "Kojo Peprah Oppong",
+            "position": "Defence",
+            "shirtNumber": 37
+          },
+          {
+            "id": 246041,
+            "name": "Abdulay Bah",
+            "position": "Midfield",
+            "shirtNumber": 28
+          },
+          {
+            "id": 16990,
+            "name": "Charles Vanhoutte",
+            "position": "Midfield",
+            "shirtNumber": 24
+          },
+          {
+            "id": 213270,
+            "name": "Mohamed Cho",
+            "position": "Offence",
+            "shirtNumber": 25
+          },
+          {
+            "id": 76723,
+            "name": "Sofiane Diop",
+            "position": "Left Winger",
+            "shirtNumber": 10
+          },
+          {
+            "id": 8355,
+            "name": "Morgan Sanson",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 204237,
+            "name": "Tom Louchet",
+            "position": "Right Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 123508,
+            "name": "Hicham Boudaoui",
+            "position": "Central Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 1023,
+            "name": "Jonathan Clauss",
+            "position": "Right-Back",
+            "shirtNumber": 92
+          },
+          {
+            "id": 136721,
+            "name": "Melvin Bard",
+            "position": "Left-Back",
+            "shirtNumber": 26
+          }
+        ],
+        "bench": [
+          {
+            "id": 8686,
+            "name": "Maxime Dupé",
+            "position": "Goalkeeper",
+            "shirtNumber": 31
+          },
+          {
+            "id": 279671,
+            "name": "Gabin Bernardeau",
+            "position": "Offence",
+            "shirtNumber": 23
+          },
+          {
+            "id": 180180,
+            "name": "Kevin Carlos",
+            "position": "Offence",
+            "shirtNumber": 90
+          },
+          {
+            "id": 172057,
+            "name": "Youssouf Ndayishimiye",
+            "position": "Centre-Back",
+            "shirtNumber": 55
+          },
+          {
+            "id": 168667,
+            "name": "Antoine Mendy",
+            "position": "Right-Back",
+            "shirtNumber": 33
+          },
+          {
+            "id": 8425,
+            "name": "Dante",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 245455,
+            "name": "Kaïl Boudache",
+            "position": "Right Winger",
+            "shirtNumber": 32
+          },
+          {
+            "id": 133573,
+            "name": "Tiago Gouveia",
+            "position": "Right Winger",
+            "shirtNumber": 47
+          },
+          {
+            "id": 123206,
+            "name": "Salis Abdul Samed",
+            "position": "Defensive Midfield",
+            "shirtNumber": 99
+          }
+        ]
       },
       "awayTeam": {
         "id": 529,
@@ -102124,9 +102300,131 @@
           "nationality": "France"
         },
         "leagueRank": 7,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 8316,
+            "name": "Brice Samba",
+            "position": "Goalkeeper",
+            "shirtNumber": 30
+          },
+          {
+            "id": 10201,
+            "name": "Sebastian Szymański",
+            "position": "Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 98763,
+            "name": "Musa Al Taamari",
+            "position": "Right Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 149850,
+            "name": "Esteban Lepaul",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 575,
+            "name": "Arnaud Nordin",
+            "position": "Right Winger",
+            "shirtNumber": 70
+          },
+          {
+            "id": 8695,
+            "name": "Valentin Rongier",
+            "position": "Central Midfield",
+            "shirtNumber": 21
+          },
+          {
+            "id": 8542,
+            "name": "Mahdi Camara",
+            "position": "Central Midfield",
+            "shirtNumber": 45
+          },
+          {
+            "id": 227004,
+            "name": "Mahamadou Nagida",
+            "position": "Left-Back",
+            "shirtNumber": 18
+          },
+          {
+            "id": 150751,
+            "name": "Anthony Rouault",
+            "position": "Centre-Back",
+            "shirtNumber": 24
+          },
+          {
+            "id": 123200,
+            "name": "Lilian Brassier",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 160410,
+            "name": "Quentin Merlin",
+            "position": "Left-Back",
+            "shirtNumber": 26
+          }
+        ],
+        "bench": [
+          {
+            "id": 285239,
+            "name": "Mathys Silistrie",
+            "position": "Goalkeeper",
+            "shirtNumber": 50
+          },
+          {
+            "id": 265516,
+            "name": "Yassir Zabiri",
+            "position": "Midfield",
+            "shirtNumber": 77
+          },
+          {
+            "id": 285238,
+            "name": "Nordan Mukiele",
+            "position": "Offence",
+            "shirtNumber": 65
+          },
+          {
+            "id": 147893,
+            "name": "Alidu Seidu",
+            "position": "Centre-Back",
+            "shirtNumber": 36
+          },
+          {
+            "id": 3483,
+            "name": "Breel Embolo",
+            "position": "Centre-Forward",
+            "shirtNumber": 7
+          },
+          {
+            "id": 246322,
+            "name": "Djaoui Cissé",
+            "position": "Central Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 272594,
+            "name": "Abdelhamid Ait Boudlal",
+            "position": "Centre-Back",
+            "shirtNumber": 48
+          },
+          {
+            "id": 96869,
+            "name": "Ludovic Blas",
+            "position": "Right Winger",
+            "shirtNumber": 10
+          },
+          {
+            "id": 34522,
+            "name": "Glen Kamara",
+            "position": "Central Midfield",
+            "shirtNumber": 4
+          }
+        ]
       },
       "score": {
         "winner": null,
@@ -102309,7 +102607,7 @@
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-02T01:32:04Z",
+      "lastUpdated": "2026-03-08T16:17:40Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -102322,9 +102620,119 @@
           "nationality": "France"
         },
         "leagueRank": 9,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-2-3-1",
+        "lineup": [
+          {
+            "id": 731,
+            "name": "Grégoire Coudert",
+            "position": "Goalkeeper",
+            "shirtNumber": 30
+          },
+          {
+            "id": 723,
+            "name": "Ludovic Ajorque",
+            "position": "Centre-Forward",
+            "shirtNumber": 19
+          },
+          {
+            "id": 856,
+            "name": "Romain Del Castillo",
+            "position": "Right Winger",
+            "shirtNumber": 10
+          },
+          {
+            "id": 175942,
+            "name": "Kamory Doumbia",
+            "position": "Attacking Midfield",
+            "shirtNumber": 23
+          },
+          {
+            "id": 116407,
+            "name": "Eric Junior Dina Ebimbe",
+            "position": "Right Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 125677,
+            "name": "Joris Chotard",
+            "position": "Defensive Midfield",
+            "shirtNumber": 13
+          },
+          {
+            "id": 76145,
+            "name": "Hugo Magnetti",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 8778,
+            "name": "Kenny Lala",
+            "position": "Right-Back",
+            "shirtNumber": 77
+          },
+          {
+            "id": 441,
+            "name": "Brendan Chardonnet",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 187530,
+            "name": "Michel Diaz",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 171659,
+            "name": "Bradley Locko",
+            "position": "Left-Back",
+            "shirtNumber": 2
+          }
+        ],
+        "bench": [
+          {
+            "id": 63855,
+            "name": "Radosław Majecki",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 276983,
+            "name": "Hamidou Makalou",
+            "position": "Midfield",
+            "shirtNumber": 33
+          },
+          {
+            "id": 227982,
+            "name": "Luc Zogbe",
+            "position": "Right-Back",
+            "shirtNumber": 12
+          },
+          {
+            "id": 8465,
+            "name": "Lucas Tousart",
+            "position": "Defensive Midfield",
+            "shirtNumber": 24
+          },
+          {
+            "id": 218249,
+            "name": "Pathé Mboup",
+            "position": "Left Winger",
+            "shirtNumber": 99
+          },
+          {
+            "id": 204240,
+            "name": "Rémy Labeau Lascary",
+            "position": "Centre-Forward",
+            "shirtNumber": 14
+          },
+          {
+            "id": 170075,
+            "name": "Soumaïla Coulibaly",
+            "position": "Centre-Back",
+            "shirtNumber": 44
+          }
+        ]
       },
       "awayTeam": {
         "id": 533,
@@ -102338,9 +102746,131 @@
           "nationality": "France"
         },
         "leagueRank": 13,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "3-4-2-1",
+        "lineup": [
+          {
+            "id": 20931,
+            "name": "Mory Diaw",
+            "position": "Goalkeeper",
+            "shirtNumber": 99
+          },
+          {
+            "id": 113230,
+            "name": "Ayumu Seko",
+            "position": "Defence",
+            "shirtNumber": 15
+          },
+          {
+            "id": 179603,
+            "name": "Lucas Gourna-Douath",
+            "position": "Midfield",
+            "shirtNumber": 19
+          },
+          {
+            "id": 3706,
+            "name": "Sofiane Boufal",
+            "position": "Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 281103,
+            "name": "Kenny Quetant",
+            "position": "Midfield",
+            "shirtNumber": 33
+          },
+          {
+            "id": 133190,
+            "name": "Issa Soumaré",
+            "position": "Offence",
+            "shirtNumber": 45
+          },
+          {
+            "id": 178663,
+            "name": "Rassoul N'Diaye",
+            "position": "Defensive Midfield",
+            "shirtNumber": 14
+          },
+          {
+            "id": 204279,
+            "name": "Simon Ebonog",
+            "position": "Central Midfield",
+            "shirtNumber": 26
+          },
+          {
+            "id": 260293,
+            "name": "Yanis Zouaoui",
+            "position": "Left-Back",
+            "shirtNumber": 18
+          },
+          {
+            "id": 157842,
+            "name": "Arouna Sangante",
+            "position": "Centre-Back",
+            "shirtNumber": 93
+          },
+          {
+            "id": 1004,
+            "name": "Gautier Lloris",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          }
+        ],
+        "bench": [
+          {
+            "id": 106838,
+            "name": "Lionel Mpasi",
+            "position": "Goalkeeper",
+            "shirtNumber": 77
+          },
+          {
+            "id": 276981,
+            "name": "Stephan Zagadou",
+            "position": "Defence",
+            "shirtNumber": 29
+          },
+          {
+            "id": 263479,
+            "name": "Daren Mosengo",
+            "position": "Midfield",
+            "shirtNumber": 78
+          },
+          {
+            "id": 281102,
+            "name": "Enzo Koffi",
+            "position": "Offence",
+            "shirtNumber": 27
+          },
+          {
+            "id": 111230,
+            "name": "Felix Mambimbi",
+            "position": "Offence",
+            "shirtNumber": 10
+          },
+          {
+            "id": 215579,
+            "name": "Mbwana Samatta",
+            "position": "Offence",
+            "shirtNumber": 25
+          },
+          {
+            "id": 111019,
+            "name": "Godson Kyeremeh",
+            "position": "Right Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 143027,
+            "name": "Reda Khadra",
+            "position": "Attacking Midfield",
+            "shirtNumber": 30
+          },
+          {
+            "id": 169172,
+            "name": "Yassine Kechta",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          }
+        ]
       },
       "score": {
         "winner": null,
