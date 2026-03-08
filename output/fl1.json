@@ -102159,15 +102159,15 @@
       },
       "id": 542625,
       "utcDate": "2026-03-08T16:15:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
-      "injuryTime": 2,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Riviera",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T18:01:51Z",
+      "lastUpdated": "2026-03-08T18:19:38Z",
       "homeTeam": {
         "id": 522,
         "name": "OGC Nice",
@@ -102452,8 +102452,8 @@
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "goals": [
@@ -102578,15 +102578,15 @@
       },
       "id": 542627,
       "utcDate": "2026-03-08T16:15:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
-      "injuryTime": 2,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Stade Pierre-Mauroy",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T18:01:51Z",
+      "lastUpdated": "2026-03-08T18:19:38Z",
       "homeTeam": {
         "id": 521,
         "name": "Lille OSC",
@@ -102871,8 +102871,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -102966,15 +102966,15 @@
       },
       "id": 542630,
       "utcDate": "2026-03-08T16:15:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
-      "injuryTime": 2,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Stade Francis-Le Blé",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T18:01:52Z",
+      "lastUpdated": "2026-03-08T18:19:31Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -103240,15 +103240,15 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -103264,7 +103264,10 @@
             "id": 856,
             "name": "Romain Del Castillo"
           },
-          "assist": null,
+          "assist": {
+            "id": 8778,
+            "name": "Kenny Lala"
+          },
           "score": {
             "home": 1,
             "away": 0

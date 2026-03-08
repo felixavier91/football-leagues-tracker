@@ -105364,14 +105364,14 @@
       "id": 540625,
       "utcDate": "2026-03-08T16:30:00Z",
       "status": "IN_PLAY",
-      "minute": 31,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "An der Alten Försterei",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T18:01:31Z",
+      "lastUpdated": "2026-03-08T18:19:17Z",
       "homeTeam": {
         "id": 28,
         "name": "1. FC Union Berlin",
@@ -105649,11 +105649,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": null,
@@ -105699,6 +105699,27 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 35,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen"
+          },
+          "scorer": {
+            "id": 23925,
+            "name": "Jens Stage"
+          },
+          "assist": {
+            "id": 50137,
+            "name": "Cameron Puertas"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -105738,6 +105759,18 @@
             "name": "András Schafer"
           },
           "card": "RED"
+        },
+        {
+          "minute": 36,
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen"
+          },
+          "player": {
+            "id": 176637,
+            "name": "Keke Topp"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],

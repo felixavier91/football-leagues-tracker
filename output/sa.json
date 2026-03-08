@@ -136938,14 +136938,14 @@
       "id": 537089,
       "utcDate": "2026-03-08T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Luigi Ferraris",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T18:01:43Z",
+      "lastUpdated": "2026-03-08T18:19:27Z",
       "homeTeam": {
         "id": 107,
         "name": "Genoa CFC",
@@ -136958,7 +136958,7 @@
           "nationality": "Italy"
         },
         "leagueRank": 15,
-        "formation": "3-5-2",
+        "formation": "3-4-2-1",
         "lineup": [
           {
             "id": 7460,
@@ -137069,6 +137069,12 @@
             "name": "Vitinha",
             "position": "Offence",
             "shirtNumber": 9
+          },
+          {
+            "id": 188357,
+            "name": "Sebastian Otoa",
+            "position": "Centre-Back",
+            "shirtNumber": 34
           },
           {
             "id": 113434,
@@ -137191,6 +137197,12 @@
             "shirtNumber": 95
           },
           {
+            "id": 273759,
+            "name": "Giorgio De Marzi",
+            "position": "Goalkeeper",
+            "shirtNumber": 70
+          },
+          {
             "id": 216023,
             "name": "Jan Ziółkowski",
             "position": "Defence",
@@ -137207,6 +137219,12 @@
             "name": "Bryan Zaragoza",
             "position": "Offence",
             "shirtNumber": 97
+          },
+          {
+            "id": 7646,
+            "name": "Angeliño",
+            "position": "Left-Back",
+            "shirtNumber": 3
           },
           {
             "id": 191705,
@@ -137248,7 +137266,32 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 12,
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "player": {
+            "id": 526,
+            "name": "Evan N'Dicka"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 16,
+          "team": {
+            "id": 107,
+            "name": "Genoa CFC"
+          },
+          "player": {
+            "id": 153097,
+            "name": "Patrizio Masini"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
