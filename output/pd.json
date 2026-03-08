@@ -131343,15 +131343,15 @@
       },
       "id": 544475,
       "utcDate": "2026-03-08T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 7,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio de Mestalla",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T19:57:11Z",
+      "lastUpdated": "2026-03-08T21:10:50Z",
       "homeTeam": {
         "id": 95,
         "name": "Valencia CF",
@@ -131653,19 +131653,50 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 3,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "scorer": {
+            "id": 11113,
+            "name": "Lucas Boyé"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 11113,
+            "name": "Lucas Boyé"
+          },
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {

@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 222
+    "played": 223
   },
   "competition": {
     "id": 2017,
@@ -102787,15 +102787,15 @@
       },
       "id": 545924,
       "utcDate": "2026-03-08T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 83,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 9,
       "attendance": null,
       "venue": "Estádio da Luz",
       "matchday": 25,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-08T20:49:49Z",
+      "lastUpdated": "2026-03-08T21:09:40Z",
       "homeTeam": {
         "id": 1903,
         "name": "Sport Lisboa e Benfica",
@@ -103073,10 +103073,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 2
         },
         "halfTime": {
@@ -103139,6 +103139,27 @@
           "assist": null,
           "score": {
             "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "scorer": {
+            "id": 82403,
+            "name": "Leandro Barreiro Martins"
+          },
+          "assist": {
+            "id": 183643,
+            "name": "Franjo Ivanovic"
+          },
+          "score": {
+            "home": 2,
             "away": 2
           }
         }
@@ -103226,6 +103247,42 @@
           "player": {
             "id": 39102,
             "name": "William da Silva"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "player": {
+            "id": 11613,
+            "name": "José Mourinho"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "player": {
+            "id": 3205,
+            "name": "Nicolás Otamendi"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "player": {
+            "id": 185610,
+            "name": "Antonio Silva"
           },
           "card": "YELLOW"
         }
