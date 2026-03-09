@@ -131923,15 +131923,15 @@
       },
       "id": 544474,
       "utcDate": "2026-03-09T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 30,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stage Front Stadium",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-09T21:33:25Z",
+      "lastUpdated": "2026-03-09T21:53:25Z",
       "homeTeam": {
         "id": 80,
         "name": "RCD Espanyol de Barcelona",
@@ -132221,15 +132221,15 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -132251,6 +132251,27 @@
           },
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 36,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "scorer": {
+            "id": 33358,
+            "name": "Kike García"
+          },
+          "assist": {
+            "id": 99859,
+            "name": "Cyril Ngonge"
+          },
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
