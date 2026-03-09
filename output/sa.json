@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-23",
     "last": "2026-05-24",
-    "played": 279
+    "played": 280
   },
   "competition": {
     "id": 2019,
@@ -137889,15 +137889,15 @@
       },
       "id": 537092,
       "utcDate": "2026-03-09T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 89,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Stadio Olimpico, Rome",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-09T22:33:29Z",
+      "lastUpdated": "2026-03-09T22:42:00Z",
       "homeTeam": {
         "id": 110,
         "name": "SS Lazio",
@@ -138229,10 +138229,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -138277,6 +138277,27 @@
           },
           "score": {
             "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 110,
+            "name": "SS Lazio"
+          },
+          "scorer": {
+            "id": 2069,
+            "name": "Adam Marušić"
+          },
+          "assist": {
+            "id": 152787,
+            "name": "Matteo Cancellieri"
+          },
+          "score": {
+            "home": 2,
             "away": 1
           }
         }
