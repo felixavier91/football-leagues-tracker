@@ -137889,15 +137889,15 @@
       },
       "id": 537092,
       "utcDate": "2026-03-09T19:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 8,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Olimpico, Rome",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-09T20:05:25Z",
+      "lastUpdated": "2026-03-09T20:53:55Z",
       "homeTeam": {
         "id": 110,
         "name": "SS Lazio",
@@ -138173,6 +138173,12 @@
             "shirtNumber": 19
           },
           {
+            "id": 246656,
+            "name": "Pedro Felipe",
+            "position": "Defence",
+            "shirtNumber": 66
+          },
+          {
             "id": 150821,
             "name": "Edoardo Iannoni",
             "position": "Midfield",
@@ -138223,18 +138229,37 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 2,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 110,
+            "name": "SS Lazio"
+          },
+          "scorer": {
+            "id": 136113,
+            "name": "Daniel Maldini"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
