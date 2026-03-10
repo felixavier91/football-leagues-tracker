@@ -80153,14 +80153,14 @@
       "id": 552071,
       "utcDate": "2026-03-10T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 76,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Gewiss Stadium",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-10T22:33:31Z",
+      "lastUpdated": "2026-03-10T22:50:44Z",
       "homeTeam": {
         "id": 102,
         "name": "Atalanta BC",
@@ -80593,6 +80593,24 @@
             "home": 0,
             "away": 6
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "scorer": {
+            "id": 3553,
+            "name": "Mario Pašalić"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 6
+          }
         }
       ],
       "penalties": [],
@@ -80606,6 +80624,42 @@
           "player": {
             "id": 9549,
             "name": "Konrad Laimer"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 77,
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "player": {
+            "id": 113765,
+            "name": "Michael Olise"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 83,
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "player": {
+            "id": 150669,
+            "name": "Yunus Musah"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 84,
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "player": {
+            "id": 359,
+            "name": "Joshua Kimmich"
           },
           "card": "YELLOW"
         }
@@ -80667,14 +80721,14 @@
       "id": 552072,
       "utcDate": "2026-03-10T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 78,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "St James' Park",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-10T22:33:31Z",
+      "lastUpdated": "2026-03-10T22:50:44Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -80988,10 +81042,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -80999,7 +81053,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 86,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "scorer": {
+            "id": 8076,
+            "name": "Harvey Barnes"
+          },
+          "assist": {
+            "id": 7934,
+            "name": "Jacob Murphy"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -81023,6 +81099,18 @@
           "player": {
             "id": 2000,
             "name": "João Cancelo"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "player": {
+            "id": 7798,
+            "name": "Joe Willock"
           },
           "card": "YELLOW"
         }
@@ -81084,14 +81172,14 @@
       "id": 552073,
       "utcDate": "2026-03-10T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 72,
+      "minute": 90,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Cívitas Metropolitano",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-10T22:33:31Z",
+      "lastUpdated": "2026-03-10T22:50:45Z",
       "homeTeam": {
         "id": 78,
         "name": "Club Atlético de Madrid",
@@ -81391,7 +81479,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 5,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 4,
@@ -81515,6 +81603,27 @@
             "home": 5,
             "away": 1
           }
+        },
+        {
+          "minute": 76,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "scorer": {
+            "id": 7878,
+            "name": "Dominic Solanke"
+          },
+          "assist": {
+            "id": 81037,
+            "name": "Pedro Porro"
+          },
+          "score": {
+            "home": 5,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -81552,6 +81661,30 @@
           "player": {
             "id": 177040,
             "name": "Archie Gray"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 80,
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "player": {
+            "id": 6655,
+            "name": "Kevin Danso"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 85,
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "player": {
+            "id": 45735,
+            "name": "Christian Romero"
           },
           "card": "YELLOW"
         }
