@@ -80152,15 +80152,15 @@
       },
       "id": 552071,
       "utcDate": "2026-03-10T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 34,
       "injuryTime": null,
       "attendance": null,
       "venue": "Gewiss Stadium",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-10T20:11:07Z",
+      "lastUpdated": "2026-03-10T21:34:37Z",
       "homeTeam": {
         "id": 102,
         "name": "Atalanta BC",
@@ -80173,7 +80173,7 @@
           "nationality": "Italy"
         },
         "leagueRank": null,
-        "formation": "3-4-2-1",
+        "formation": "4-4-2",
         "lineup": [
           {
             "id": 102220,
@@ -80456,18 +80456,82 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 3
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 12,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 122188,
+            "name": "Josip Stanišić"
+          },
+          "assist": {
+            "id": 311,
+            "name": "Serge Gnabry"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 113765,
+            "name": "Michael Olise"
+          },
+          "assist": {
+            "id": 9541,
+            "name": "Dayot Upamecano"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        {
+          "minute": 25,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 311,
+            "name": "Serge Gnabry"
+          },
+          "assist": {
+            "id": 113765,
+            "name": "Michael Olise"
+          },
+          "score": {
+            "home": 0,
+            "away": 3
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -80526,15 +80590,15 @@
       },
       "id": 552072,
       "utcDate": "2026-03-10T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 34,
       "injuryTime": null,
       "attendance": null,
       "venue": "St James' Park",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-10T19:51:30Z",
+      "lastUpdated": "2026-03-10T21:34:37Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -80848,11 +80912,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -80861,7 +80925,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 34,
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "player": {
+            "id": 2563,
+            "name": "Sandro Tonali"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -80918,15 +80995,15 @@
       },
       "id": 552073,
       "utcDate": "2026-03-10T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Cívitas Metropolitano",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-10T19:50:16Z",
+      "lastUpdated": "2026-03-10T21:34:37Z",
       "homeTeam": {
         "id": 78,
         "name": "Club Atlético de Madrid",
@@ -81222,20 +81299,130 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 6,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "scorer": {
+            "id": 70,
+            "name": "Marcos Llorente"
+          },
+          "assist": {
+            "id": 98571,
+            "name": "Julián Álvarez"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 14,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "scorer": {
+            "id": 114,
+            "name": "Antoine Griezmann"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 15,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "scorer": {
+            "id": 98571,
+            "name": "Julián Álvarez"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 0
+          }
+        },
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "scorer": {
+            "id": 99791,
+            "name": "Robin Le Normand"
+          },
+          "assist": null,
+          "score": {
+            "home": 4,
+            "away": 0
+          }
+        },
+        {
+          "minute": 26,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "scorer": {
+            "id": 81037,
+            "name": "Pedro Porro"
+          },
+          "assist": {
+            "id": 8133,
+            "name": "Richarlison"
+          },
+          "score": {
+            "home": 4,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 4,
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "player": {
+            "id": 80775,
+            "name": "Djed Spence"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
