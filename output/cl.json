@@ -6,7 +6,7 @@
     "count": 189,
     "first": "2025-09-16",
     "last": "2026-05-30",
-    "played": 161
+    "played": 164
   },
   "competition": {
     "id": 2001,
@@ -80152,15 +80152,15 @@
       },
       "id": 552071,
       "utcDate": "2026-03-10T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 3,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Gewiss Stadium",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-10T22:50:44Z",
+      "lastUpdated": "2026-03-10T22:53:20Z",
       "homeTeam": {
         "id": 102,
         "name": "Atalanta BC",
@@ -80459,7 +80459,7 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 6
         },
         "halfTime": {
@@ -80720,15 +80720,15 @@
       },
       "id": 552072,
       "utcDate": "2026-03-10T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 4,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "St James' Park",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-10T22:50:44Z",
+      "lastUpdated": "2026-03-10T22:54:00Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -81042,11 +81042,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -81074,9 +81074,39 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 6,
+          "type": "PENALTY",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 202283,
+            "name": "Lamine Yamal"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 202283,
+            "name": "Lamine Yamal"
+          },
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 34,
@@ -81171,15 +81201,15 @@
       },
       "id": 552073,
       "utcDate": "2026-03-10T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Estadio Cívitas Metropolitano",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-10T22:50:45Z",
+      "lastUpdated": "2026-03-10T22:59:25Z",
       "homeTeam": {
         "id": 78,
         "name": "Club Atlético de Madrid",
