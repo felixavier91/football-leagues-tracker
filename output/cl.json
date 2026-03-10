@@ -79690,14 +79690,14 @@
       "id": 552069,
       "utcDate": "2026-03-10T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 6,
+      "minute": 46,
       "injuryTime": null,
       "attendance": null,
       "venue": "Nef Stadyumu",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-10T18:52:15Z",
+      "lastUpdated": "2026-03-10T19:49:20Z",
       "homeTeam": {
         "id": 610,
         "name": "Galatasaray SK",
@@ -79999,20 +79999,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 7,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 610,
+            "name": "Galatasaray SK"
+          },
+          "scorer": {
+            "id": 8097,
+            "name": "Mario Lemina"
+          },
+          "assist": {
+            "id": 9434,
+            "name": "Victor Osimhen"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 33,
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "player": {
+            "id": 171141,
+            "name": "Milos Kerkez"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -80129,7 +80164,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 215543,
+          "name": "Espen Eskås",
+          "type": "REFEREE",
+          "nationality": "Norway"
+        },
+        {
+          "id": 56746,
+          "name": "Jan Erik Engan",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Norway"
+        },
+        {
+          "id": 44922,
+          "name": "Isaak Bashevkin",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Norway"
+        }
+      ]
     },
     {
       "area": {
@@ -80222,7 +80276,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11079,
+          "name": "Marco Guida",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 10991,
+          "name": "Giorgio Peretti",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 128730,
+          "name": "Giuseppe Perrotti",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {
@@ -80315,7 +80388,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43858,
+          "name": "Serdar Gözübüyük",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 17109,
+          "name": "Patrick Inia",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 56924,
+          "name": "Rogier Honig",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
