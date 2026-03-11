@@ -81776,14 +81776,14 @@
       "id": 552075,
       "utcDate": "2026-03-11T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 45,
-      "injuryTime": 1,
+      "minute": 54,
+      "injuryTime": null,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-11T19:31:29Z",
+      "lastUpdated": "2026-03-11T19:56:10Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -82079,18 +82079,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 46,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "scorer": {
+            "id": 45611,
+            "name": "Robert Andrich"
+          },
+          "assist": {
+            "id": 16739,
+            "name": "Alejandro Grimaldo"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -82182,7 +82204,7 @@
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-05T01:32:03Z",
+      "lastUpdated": "2026-03-11T19:52:55Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -82195,9 +82217,143 @@
           "nationality": "Spain"
         },
         "leagueRank": null,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 49244,
+            "name": "Matvei Safonov",
+            "position": "Goalkeeper",
+            "shirtNumber": 39
+          },
+          {
+            "id": 177522,
+            "name": "Desire Doue",
+            "position": "Left Winger",
+            "shirtNumber": 14
+          },
+          {
+            "id": 3373,
+            "name": "Ousmane Dembélé",
+            "position": "Right Winger",
+            "shirtNumber": 10
+          },
+          {
+            "id": 172762,
+            "name": "Bradley Barcola",
+            "position": "Left Winger",
+            "shirtNumber": 29
+          },
+          {
+            "id": 186089,
+            "name": "Warren Zaïre-Emery",
+            "position": "Central Midfield",
+            "shirtNumber": 33
+          },
+          {
+            "id": 178722,
+            "name": "Vitinha",
+            "position": "Central Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 190877,
+            "name": "Joao Neves",
+            "position": "Defensive Midfield",
+            "shirtNumber": 87
+          },
+          {
+            "id": 53,
+            "name": "Achraf Hakimi",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 3225,
+            "name": "Marquinhos",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 114102,
+            "name": "William Pacho",
+            "position": "Centre-Back",
+            "shirtNumber": 51
+          },
+          {
+            "id": 144570,
+            "name": "Nuno Mendes",
+            "position": "Left-Back",
+            "shirtNumber": 25
+          }
+        ],
+        "bench": [
+          {
+            "id": 245387,
+            "name": "Renato Marin",
+            "position": "Goalkeeper",
+            "shirtNumber": 89
+          },
+          {
+            "id": 147896,
+            "name": "Lucas Chevalier",
+            "position": "Goalkeeper",
+            "shirtNumber": 30
+          },
+          {
+            "id": 283413,
+            "name": "Pedro Fernández",
+            "position": "Midfield",
+            "shirtNumber": 27
+          },
+          {
+            "id": 213217,
+            "name": "Kang-in Lee",
+            "position": "Midfield",
+            "shirtNumber": 19
+          },
+          {
+            "id": 143573,
+            "name": "Illia Zabarnyi",
+            "position": "Centre-Back",
+            "shirtNumber": 6
+          },
+          {
+            "id": 265040,
+            "name": "Ibrahim M'Baye",
+            "position": "Right Winger",
+            "shirtNumber": 49
+          },
+          {
+            "id": 246066,
+            "name": "Senny Mayulu",
+            "position": "Central Midfield",
+            "shirtNumber": 24
+          },
+          {
+            "id": 101431,
+            "name": "Gonçalo Ramos",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 169204,
+            "name": "Lucas Beraldo",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 113285,
+            "name": "Khvicha Kvaratskhelia",
+            "position": "Left Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 3365,
+            "name": "Lucas Hernández",
+            "position": "Left-Back",
+            "shirtNumber": 21
+          }
+        ]
       },
       "awayTeam": {
         "id": 61,
@@ -82211,9 +82367,149 @@
           "nationality": "England"
         },
         "leagueRank": null,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-2-3-1",
+        "lineup": [
+          {
+            "id": 153828,
+            "name": "Filip Jörgensen",
+            "position": "Goalkeeper",
+            "shirtNumber": 12
+          },
+          {
+            "id": 103125,
+            "name": "João Pedro",
+            "position": "Centre-Forward",
+            "shirtNumber": 20
+          },
+          {
+            "id": 144892,
+            "name": "Cole Palmer",
+            "position": "Attacking Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 102603,
+            "name": "Enzo Fernández",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 2074,
+            "name": "Pedro Neto",
+            "position": "Right Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 56628,
+            "name": "Reece James",
+            "position": "Right-Back",
+            "shirtNumber": 24
+          },
+          {
+            "id": 121103,
+            "name": "Moisés Caicedo",
+            "position": "Defensive Midfield",
+            "shirtNumber": 25
+          },
+          {
+            "id": 152498,
+            "name": "Malo Gusto",
+            "position": "Right-Back",
+            "shirtNumber": 27
+          },
+          {
+            "id": 8545,
+            "name": "Wesley Fofana",
+            "position": "Centre-Back",
+            "shirtNumber": 29
+          },
+          {
+            "id": 7810,
+            "name": "Trevoh Chalobah",
+            "position": "Centre-Back",
+            "shirtNumber": 23
+          },
+          {
+            "id": 15863,
+            "name": "Cucurella",
+            "position": "Left-Back",
+            "shirtNumber": 3
+          }
+        ],
+        "bench": [
+          {
+            "id": 135555,
+            "name": "Robert Sánchez",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 246715,
+            "name": "Max Merrick",
+            "position": "Goalkeeper",
+            "shirtNumber": 50
+          },
+          {
+            "id": 190866,
+            "name": "Mamadou Sarr",
+            "position": "Centre-Back",
+            "shirtNumber": 19
+          },
+          {
+            "id": 170426,
+            "name": "Benoît Badiashile",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 166366,
+            "name": "Andrey Santos",
+            "position": "Central Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 172738,
+            "name": "Romeo Lavia",
+            "position": "Defensive Midfield",
+            "shirtNumber": 45
+          },
+          {
+            "id": 189477,
+            "name": "Jorrel Hato",
+            "position": "Centre-Back",
+            "shirtNumber": 21
+          },
+          {
+            "id": 207109,
+            "name": "Marc Guiu",
+            "position": "Centre-Forward",
+            "shirtNumber": 38
+          },
+          {
+            "id": 181901,
+            "name": "Alejandro Garnacho",
+            "position": "Left Winger",
+            "shirtNumber": 49
+          },
+          {
+            "id": 151095,
+            "name": "Liam Delap",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 7880,
+            "name": "Tosin Adarabioyo",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 249320,
+            "name": "Josh Acheampong",
+            "position": "Right-Back",
+            "shirtNumber": 34
+          }
+        ]
       },
       "score": {
         "winner": null,
@@ -82406,7 +82702,7 @@
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-05T01:32:03Z",
+      "lastUpdated": "2026-03-11T19:52:01Z",
       "homeTeam": {
         "id": 5721,
         "name": "FK Bodø/Glimt",
@@ -82419,9 +82715,149 @@
           "nationality": "Norway"
         },
         "leagueRank": null,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 167067,
+            "name": "Nikita Haikin",
+            "position": "Goalkeeper",
+            "shirtNumber": 12
+          },
+          {
+            "id": 37913,
+            "name": "Fredrik Bjørkan",
+            "position": "Defence",
+            "shirtNumber": 15
+          },
+          {
+            "id": 38516,
+            "name": "Jostein Gundersen",
+            "position": "Defence",
+            "shirtNumber": 6
+          },
+          {
+            "id": 167108,
+            "name": "Ole Blomberg",
+            "position": "Defence",
+            "shirtNumber": 11
+          },
+          {
+            "id": 38125,
+            "name": "Odin Lurås Bjørtuft",
+            "position": "Midfield",
+            "shirtNumber": 4
+          },
+          {
+            "id": 180517,
+            "name": "Fredrik Sjøvold",
+            "position": "Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 44413,
+            "name": "Sondre Fet",
+            "position": "Midfield",
+            "shirtNumber": 19
+          },
+          {
+            "id": 37924,
+            "name": "Patrick Berg",
+            "position": "Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 37928,
+            "name": "Håkon Evjen",
+            "position": "Midfield",
+            "shirtNumber": 26
+          },
+          {
+            "id": 184735,
+            "name": "Kasper Högh",
+            "position": "Offence",
+            "shirtNumber": 9
+          },
+          {
+            "id": 37916,
+            "name": "Jens Hauge",
+            "position": "Left Winger",
+            "shirtNumber": 10
+          }
+        ],
+        "bench": [
+          {
+            "id": 44492,
+            "name": "Julian Lund",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 191998,
+            "name": "Isak Sjong",
+            "position": "Goalkeeper",
+            "shirtNumber": 45
+          },
+          {
+            "id": 207587,
+            "name": "Haitam Aleesami",
+            "position": "Defence",
+            "shirtNumber": 5
+          },
+          {
+            "id": 250420,
+            "name": "Villads Nielsen",
+            "position": "Defence",
+            "shirtNumber": 2
+          },
+          {
+            "id": 144662,
+            "name": "Sondre Auklend",
+            "position": "Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 182005,
+            "name": "Daniel Bassi",
+            "position": "Midfield",
+            "shirtNumber": 24
+          },
+          {
+            "id": 115436,
+            "name": "Isak Määttä",
+            "position": "Midfield",
+            "shirtNumber": 25
+          },
+          {
+            "id": 144957,
+            "name": "Anders Klynge",
+            "position": "Midfield",
+            "shirtNumber": 22
+          },
+          {
+            "id": 77409,
+            "name": "August Mikkelsen",
+            "position": "Midfield",
+            "shirtNumber": 94
+          },
+          {
+            "id": 180430,
+            "name": "Magnus Riisnæs",
+            "position": "Midfield",
+            "shirtNumber": 23
+          },
+          {
+            "id": 37925,
+            "name": "Ulrik Saltnes",
+            "position": "Midfield",
+            "shirtNumber": 14
+          },
+          {
+            "id": 37902,
+            "name": "Andreas Helmersen",
+            "position": "Offence",
+            "shirtNumber": 21
+          }
+        ]
       },
       "awayTeam": {
         "id": 498,
@@ -82435,9 +82871,143 @@
           "nationality": "Portugal"
         },
         "leagueRank": null,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-2-3-1",
+        "lineup": [
+          {
+            "id": 32014,
+            "name": "Rui Silva",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 191760,
+            "name": "Ousmane Diomande",
+            "position": "Defence",
+            "shirtNumber": 26
+          },
+          {
+            "id": 137045,
+            "name": "Georgios Vagiannidis",
+            "position": "Defence",
+            "shirtNumber": 13
+          },
+          {
+            "id": 270551,
+            "name": "João Simões",
+            "position": "Midfield",
+            "shirtNumber": 52
+          },
+          {
+            "id": 32386,
+            "name": "Luis Suárez",
+            "position": "Offence",
+            "shirtNumber": 97
+          },
+          {
+            "id": 128825,
+            "name": "Geny Catamo",
+            "position": "Right Winger",
+            "shirtNumber": 10
+          },
+          {
+            "id": 37332,
+            "name": "Trincão",
+            "position": "Left Winger",
+            "shirtNumber": 17
+          },
+          {
+            "id": 192653,
+            "name": "Luis Guilherme",
+            "position": "Right Winger",
+            "shirtNumber": 31
+          },
+          {
+            "id": 73998,
+            "name": "Morten Hjulmand",
+            "position": "Defensive Midfield",
+            "shirtNumber": 42
+          },
+          {
+            "id": 145357,
+            "name": "Gonçalo Inácio",
+            "position": "Centre-Back",
+            "shirtNumber": 25
+          },
+          {
+            "id": 176840,
+            "name": "Ivan Fresneda",
+            "position": "Right-Back",
+            "shirtNumber": 22
+          }
+        ],
+        "bench": [
+          {
+            "id": 178770,
+            "name": "Diego Callai",
+            "position": "Goalkeeper",
+            "shirtNumber": 41
+          },
+          {
+            "id": 82207,
+            "name": "João Virgínia",
+            "position": "Goalkeeper",
+            "shirtNumber": 12
+          },
+          {
+            "id": 160926,
+            "name": "Zeno Debast",
+            "position": "Defence",
+            "shirtNumber": 6
+          },
+          {
+            "id": 277088,
+            "name": "David Moreira",
+            "position": "Defence",
+            "shirtNumber": 45
+          },
+          {
+            "id": 178768,
+            "name": "Eduardo Quaresma",
+            "position": "Defence",
+            "shirtNumber": 72
+          },
+          {
+            "id": 283132,
+            "name": "Souleymane Faye",
+            "position": "Offence",
+            "shirtNumber": 15
+          },
+          {
+            "id": 280747,
+            "name": "Flávio Gonçalves",
+            "position": "Offence",
+            "shirtNumber": 58
+          },
+          {
+            "id": 247303,
+            "name": "Rafael Nel",
+            "position": "Offence",
+            "shirtNumber": 90
+          },
+          {
+            "id": 102336,
+            "name": "Daniel Bragança",
+            "position": "Central Midfield",
+            "shirtNumber": 23
+          },
+          {
+            "id": 49092,
+            "name": "Hidemasa Morita",
+            "position": "Central Midfield",
+            "shirtNumber": 5
+          },
+          {
+            "id": 45463,
+            "name": "Nuno Santos",
+            "position": "Left-Back",
+            "shirtNumber": 11
+          }
+        ]
       },
       "score": {
         "winner": null,
