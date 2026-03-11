@@ -81775,15 +81775,15 @@
       },
       "id": 552075,
       "utcDate": "2026-03-11T17:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 17,
       "injuryTime": null,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-11T18:04:30Z",
+      "lastUpdated": "2026-03-11T19:02:14Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -82079,11 +82079,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -82092,7 +82092,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 2,
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "player": {
+            "id": 45611,
+            "name": "Robert Andrich"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -82209,7 +82222,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 206208,
+          "name": "Alejandro Hernández Hernández",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        },
+        {
+          "id": 206202,
+          "name": "José Naranjo Pérez",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 215533,
+          "name": "Diego Sánchez Rojo",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
@@ -82302,7 +82334,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11043,
+          "name": "Maurizio Mariani",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11017,
+          "name": "Daniele Bindoni",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11048,
+          "name": "Alberto Tegoni",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {
@@ -82395,7 +82446,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43954,
+          "name": "Ivan Kružliak",
+          "type": "REFEREE",
+          "nationality": "Slovakia"
+        },
+        {
+          "id": 43957,
+          "name": "Branislav Hancko",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Slovakia"
+        },
+        {
+          "id": 100351,
+          "name": "Ján Pozor",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Slovakia"
+        }
+      ]
     },
     {
       "area": {
