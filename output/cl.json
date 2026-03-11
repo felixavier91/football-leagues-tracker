@@ -82287,14 +82287,14 @@
       "id": 552068,
       "utcDate": "2026-03-11T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Parc des Princes",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-11T21:02:10Z",
+      "lastUpdated": "2026-03-11T21:21:35Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -82602,10 +82602,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -82613,7 +82613,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 10,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 172762,
+            "name": "Bradley Barcola"
+          },
+          "assist": {
+            "id": 190877,
+            "name": "Joao Neves"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -82673,14 +82695,14 @@
       "id": 552070,
       "utcDate": "2026-03-11T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-11T21:02:10Z",
+      "lastUpdated": "2026-03-11T21:21:35Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -82849,7 +82871,7 @@
           "nationality": "Spain"
         },
         "leagueRank": null,
-        "formation": "4-2-3-1",
+        "formation": "4-1-3-2",
         "lineup": [
           {
             "id": 1731,
@@ -83065,14 +83087,14 @@
       "id": 552074,
       "utcDate": "2026-03-11T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 1,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Aspmyra Stadion",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-11T21:02:10Z",
+      "lastUpdated": "2026-03-11T21:21:35Z",
       "homeTeam": {
         "id": 5721,
         "name": "FK Bodø/Glimt",
@@ -83393,7 +83415,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 20,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 73998,
+            "name": "Morten Hjulmand"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
