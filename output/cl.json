@@ -82286,15 +82286,15 @@
       },
       "id": 552068,
       "utcDate": "2026-03-11T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 59,
       "injuryTime": null,
       "attendance": null,
       "venue": "Parc des Princes",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-11T22:01:45Z",
+      "lastUpdated": "2026-03-11T22:17:30Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -82676,6 +82676,24 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 57,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "scorer": {
+            "id": 102603,
+            "name": "Enzo Fernández"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -82736,15 +82754,15 @@
       },
       "id": 552070,
       "utcDate": "2026-03-11T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 60,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-11T22:01:45Z",
+      "lastUpdated": "2026-03-11T22:17:30Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -83131,8 +83149,33 @@
           }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 1556,
+            "name": "Vinicius Junior"
+          },
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scored": false
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 57,
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "player": {
+            "id": 1731,
+            "name": "Gianluigi Donnarumma"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -83189,15 +83232,15 @@
       },
       "id": 552074,
       "utcDate": "2026-03-11T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 57,
       "injuryTime": null,
       "attendance": null,
       "venue": "Aspmyra Stadion",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-11T22:01:45Z",
+      "lastUpdated": "2026-03-11T22:17:30Z",
       "homeTeam": {
         "id": 5721,
         "name": "FK Bodø/Glimt",
