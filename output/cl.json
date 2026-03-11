@@ -6,7 +6,7 @@
     "count": 189,
     "first": "2025-09-16",
     "last": "2026-05-30",
-    "played": 164
+    "played": 165
   },
   "competition": {
     "id": 2001,
@@ -81775,15 +81775,15 @@
       },
       "id": 552075,
       "utcDate": "2026-03-11T17:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 79,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-11T20:21:59Z",
+      "lastUpdated": "2026-03-11T20:38:40Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -82079,11 +82079,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -82111,9 +82111,39 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 89,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 57,
+            "name": "Arsenal FC"
+          },
+          "scorer": {
+            "id": 171,
+            "name": "Kai Havertz"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 171,
+            "name": "Kai Havertz"
+          },
+          "team": {
+            "id": 57,
+            "name": "Arsenal FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 2,
@@ -82172,6 +82202,30 @@
           "player": {
             "id": 115035,
             "name": "Martín Zubimendi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "player": {
+            "id": 16739,
+            "name": "Alejandro Grimaldo"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 57,
+            "name": "Arsenal FC"
+          },
+          "player": {
+            "id": 171,
+            "name": "Kai Havertz"
           },
           "card": "YELLOW"
         }
