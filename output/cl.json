@@ -82287,14 +82287,14 @@
       "id": 552068,
       "utcDate": "2026-03-11T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 77,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Parc des Princes",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-11T22:35:40Z",
+      "lastUpdated": "2026-03-11T22:52:49Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -82605,7 +82605,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 2
         },
         "halfTime": {
@@ -82718,10 +82718,44 @@
             "home": 3,
             "away": 2
           }
+        },
+        {
+          "minute": 86,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 113285,
+            "name": "Khvicha Kvaratskhelia"
+          },
+          "assist": {
+            "id": 114102,
+            "name": "William Pacho"
+          },
+          "score": {
+            "home": 4,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 88,
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "player": {
+            "id": 113285,
+            "name": "Khvicha Kvaratskhelia"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -82779,14 +82813,14 @@
       "id": 552070,
       "utcDate": "2026-03-11T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 78,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-11T22:35:40Z",
+      "lastUpdated": "2026-03-11T22:52:45Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -83198,6 +83232,18 @@
             "name": "Gianluigi Donnarumma"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 82,
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "player": {
+            "id": 8642,
+            "name": "Rayan Aït Nouri"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -83257,14 +83303,14 @@
       "id": 552074,
       "utcDate": "2026-03-11T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 75,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Aspmyra Stadion",
       "matchday": 1,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-11T22:35:40Z",
+      "lastUpdated": "2026-03-11T22:52:45Z",
       "homeTeam": {
         "id": 5721,
         "name": "FK Bodø/Glimt",
@@ -83677,6 +83723,18 @@
           "player": {
             "id": 38516,
             "name": "Jostein Gundersen"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 76,
+          "team": {
+            "id": 5721,
+            "name": "FK Bodø/Glimt"
+          },
+          "player": {
+            "id": 184735,
+            "name": "Kasper Högh"
           },
           "card": "YELLOW"
         }
