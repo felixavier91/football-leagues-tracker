@@ -138405,14 +138405,14 @@
       "id": 537096,
       "utcDate": "2026-03-13T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 6,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Stadio Olimpico Grande Torino",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-13T20:53:38Z",
+      "lastUpdated": "2026-03-13T21:33:45Z",
       "homeTeam": {
         "id": 586,
         "name": "Torino FC",
@@ -138425,7 +138425,7 @@
           "nationality": null
         },
         "leagueRank": 15,
-        "formation": "3-5-2",
+        "formation": "3-4-1-2",
         "lineup": [
           {
             "id": 2684,
@@ -138744,11 +138744,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
@@ -138772,6 +138772,27 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 20,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 112,
+            "name": "Parma Calcio 1913"
+          },
+          "scorer": {
+            "id": 157538,
+            "name": "Mateo Pellegrino"
+          },
+          "assist": {
+            "id": 172399,
+            "name": "Gabriel Strefezza"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
           }
         }
       ],

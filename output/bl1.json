@@ -105890,15 +105890,15 @@
       },
       "id": 540637,
       "utcDate": "2026-03-13T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 21,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Borussia-Park",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-13T20:53:26Z",
+      "lastUpdated": "2026-03-13T21:33:38Z",
       "homeTeam": {
         "id": 18,
         "name": "Borussia Mönchengladbach",
@@ -106176,18 +106176,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 37,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 18,
+            "name": "Borussia Mönchengladbach"
+          },
+          "scorer": {
+            "id": 9999,
+            "name": "Kevin Stöger"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -106199,6 +106218,18 @@
           "player": {
             "id": 6849,
             "name": "Hauke Finn Wahl"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 36,
+          "team": {
+            "id": 20,
+            "name": "FC St. Pauli 1910"
+          },
+          "player": {
+            "id": 31926,
+            "name": "Eric Smith"
           },
           "card": "YELLOW"
         }

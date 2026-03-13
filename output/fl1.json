@@ -103955,15 +103955,15 @@
       },
       "id": 542635,
       "utcDate": "2026-03-13T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 8,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Orange Vélodrome",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-13T20:53:48Z",
+      "lastUpdated": "2026-03-13T21:33:57Z",
       "homeTeam": {
         "id": 516,
         "name": "Olympique de Marseille",
@@ -104248,13 +104248,62 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 22,
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "player": {
+            "id": 46125,
+            "name": "Facundo Medina"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 37,
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "player": {
+            "id": 179721,
+            "name": "CJ Egan-Riley"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 519,
+            "name": "AJ Auxerre"
+          },
+          "player": {
+            "id": 124243,
+            "name": "Bryan Okoh"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 519,
+            "name": "AJ Auxerre"
+          },
+          "player": {
+            "id": 45110,
+            "name": "Christophe Pélissier"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
