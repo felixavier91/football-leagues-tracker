@@ -114056,14 +114056,14 @@
       "id": 537680,
       "utcDate": "2026-03-13T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 74,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "MAC³PARK stadion",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-13T21:34:20Z",
+      "lastUpdated": "2026-03-13T21:55:00Z",
       "homeTeam": {
         "id": 684,
         "name": "PEC Zwolle",
@@ -114368,15 +114368,55 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 82,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 684,
+            "name": "PEC Zwolle"
+          },
+          "scorer": {
+            "id": 9701,
+            "name": "Koen Kostons"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 84,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "scorer": {
+            "id": 188914,
+            "name": "Thom van Bergen"
+          },
+          "assist": {
+            "id": 186400,
+            "name": "Younes Taha"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -114400,6 +114440,18 @@
           "player": {
             "id": 189599,
             "name": "Jorg Schreuders"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "player": {
+            "id": 228985,
+            "name": "Tyrique Mercera"
           },
           "card": "YELLOW"
         }
