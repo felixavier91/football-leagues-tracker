@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 270
+    "played": 271
   },
   "competition": {
     "id": 2014,
@@ -132390,15 +132390,15 @@
       },
       "id": 544481,
       "utcDate": "2026-03-13T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 4,
+      "injuryTime": 10,
       "attendance": 16215,
       "venue": "Estadio Mendizorroza",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-13T22:51:30Z",
+      "lastUpdated": "2026-03-13T22:59:35Z",
       "homeTeam": {
         "id": 263,
         "name": "Deportivo Alavés",
@@ -132700,11 +132700,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -132728,6 +132728,27 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 8,
+          "type": "REGULAR",
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "scorer": {
+            "id": 8412,
+            "name": "Nicolas Pépé"
+          },
+          "assist": {
+            "id": 213263,
+            "name": "Santi Comesaña"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
           }
         }
       ],
@@ -132790,6 +132811,18 @@
           "player": {
             "id": 33156,
             "name": "Marcelino"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "player": {
+            "id": 157626,
+            "name": "Antonio Blanco"
           },
           "card": "YELLOW"
         }
