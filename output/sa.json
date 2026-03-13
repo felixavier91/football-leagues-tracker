@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-23",
     "last": "2026-05-24",
-    "played": 280
+    "played": 281
   },
   "competition": {
     "id": 2019,
@@ -138404,15 +138404,15 @@
       },
       "id": 537096,
       "utcDate": "2026-03-13T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 87,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Stadio Olimpico Grande Torino",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-13T22:33:49Z",
+      "lastUpdated": "2026-03-13T22:44:15Z",
       "homeTeam": {
         "id": 586,
         "name": "Torino FC",
@@ -138747,7 +138747,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 1
         },
         "halfTime": {
@@ -138828,6 +138828,27 @@
           "assist": null,
           "score": {
             "home": 3,
+            "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "scorer": {
+            "id": 2271,
+            "name": "Duván Zapata"
+          },
+          "assist": {
+            "id": 59075,
+            "name": "Sandro Kulenović"
+          },
+          "score": {
+            "home": 4,
             "away": 1
           }
         }
