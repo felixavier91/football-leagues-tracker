@@ -103956,14 +103956,14 @@
       "id": 542635,
       "utcDate": "2026-03-13T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 52,
+      "minute": 90,
       "injuryTime": null,
       "attendance": null,
       "venue": "Orange Vélodrome",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-13T21:54:46Z",
+      "lastUpdated": "2026-03-13T22:34:00Z",
       "homeTeam": {
         "id": 516,
         "name": "Olympique de Marseille",
@@ -104241,10 +104241,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -104252,7 +104252,26 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 79,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "scorer": {
+            "id": 8476,
+            "name": "Amine Gouiri"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -104300,6 +104319,18 @@
           "player": {
             "id": 45110,
             "name": "Christophe Pélissier"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 78,
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "player": {
+            "id": 119703,
+            "name": "Igor Paixão"
           },
           "card": "YELLOW"
         }
