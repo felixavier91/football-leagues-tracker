@@ -135485,15 +135485,15 @@
       },
       "id": 538084,
       "utcDate": "2026-03-14T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 12,
       "injuryTime": null,
       "attendance": null,
       "venue": "London Stadium",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T19:58:13Z",
+      "lastUpdated": "2026-03-14T21:12:23Z",
       "homeTeam": {
         "id": 563,
         "name": "West Ham United FC",
@@ -135506,7 +135506,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 18,
-        "formation": "3-4-1-2",
+        "formation": "3-4-2-1",
         "lineup": [
           {
             "id": 97144,
@@ -135771,11 +135771,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -135784,7 +135784,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 11,
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "player": {
+            "id": 66896,
+            "name": "Omar Marmoush"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
