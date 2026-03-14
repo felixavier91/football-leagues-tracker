@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 227
+    "played": 228
   },
   "competition": {
     "id": 2017,
@@ -105155,15 +105155,15 @@
       },
       "id": 545932,
       "utcDate": "2026-03-14T20:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 1,
+      "injuryTime": 11,
       "attendance": null,
       "venue": "Municipal de Arouca",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T23:24:34Z",
+      "lastUpdated": "2026-03-14T23:36:10Z",
       "homeTeam": {
         "id": 712,
         "name": "FC Arouca",
@@ -105441,11 +105441,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -105490,6 +105490,27 @@
           "score": {
             "home": 1,
             "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 6,
+          "type": "REGULAR",
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "scorer": {
+            "id": 183643,
+            "name": "Franjo Ivanovic"
+          },
+          "assist": {
+            "id": 182123,
+            "name": "Gianluca Prestianni"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
           }
         }
       ],
@@ -105588,6 +105609,66 @@
           "player": {
             "id": 100703,
             "name": "Ignacio De Arruabarrena"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 143641,
+            "name": "Alfonso Trezza"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "player": {
+            "id": 81816,
+            "name": "Amar Dedić"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "player": {
+            "id": 111481,
+            "name": "Anatolii Trubin"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "player": {
+            "id": 67299,
+            "name": "Vangelis Pavlidis"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "player": {
+            "id": 182123,
+            "name": "Gianluca Prestianni"
           },
           "card": "YELLOW"
         }
