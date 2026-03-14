@@ -132879,14 +132879,14 @@
       "id": 544486,
       "utcDate": "2026-03-14T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 1,
+      "minute": 29,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadi Municipal de Montilivi",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T14:02:14Z",
+      "lastUpdated": "2026-03-14T14:30:15Z",
       "homeTeam": {
         "id": 298,
         "name": "Girona FC",
@@ -132899,7 +132899,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 15,
-        "formation": "4-5-1",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 7993,
@@ -133176,10 +133176,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -133187,7 +133187,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 4,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scorer": {
+            "id": 229042,
+            "name": "Hugo Rincón"
+          },
+          "assist": {
+            "id": 16173,
+            "name": "Viktor Tsyhankov"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -133301,7 +133323,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 207048,
+          "name": "Miguel Ortiz Arias",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        },
+        {
+          "id": 207019,
+          "name": "José Garrido Romero",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 214483,
+          "name": "Guillermo Santiago Sacristán",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
