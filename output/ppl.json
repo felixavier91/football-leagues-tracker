@@ -105156,14 +105156,14 @@
       "id": 545932,
       "utcDate": "2026-03-14T20:30:00Z",
       "status": "IN_PLAY",
-      "minute": 2,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Municipal de Arouca",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T21:33:11Z",
+      "lastUpdated": "2026-03-14T21:51:21Z",
       "homeTeam": {
         "id": 712,
         "name": "FC Arouca",
@@ -105441,10 +105441,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -105452,8 +105452,39 @@
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 7,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "scorer": {
+            "id": 81391,
+            "name": "Barbero"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 81391,
+            "name": "Barbero"
+          },
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {

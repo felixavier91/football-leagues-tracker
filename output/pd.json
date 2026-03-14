@@ -134292,14 +134292,14 @@
       "id": 544487,
       "utcDate": "2026-03-14T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 30,
-      "injuryTime": null,
-      "attendance": null,
+      "minute": 45,
+      "injuryTime": 2,
+      "attendance": 71048,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T21:32:31Z",
+      "lastUpdated": "2026-03-14T21:49:51Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -134595,10 +134595,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -134606,7 +134606,47 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 39,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 3177,
+            "name": "Antonio Rüdiger"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 44,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 96,
+            "name": "Federico Valverde"
+          },
+          "assist": {
+            "id": 213266,
+            "name": "Fran García"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
