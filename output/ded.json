@@ -114978,14 +114978,14 @@
       "id": 537681,
       "utcDate": "2026-03-14T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 51,
+      "minute": 86,
       "injuryTime": null,
       "attendance": 35000,
       "venue": "Philips Stadion",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T19:57:50Z",
+      "lastUpdated": "2026-03-14T20:33:16Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -115273,7 +115273,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": 1,
@@ -115343,6 +115343,24 @@
             "home": 1,
             "away": 2
           }
+        },
+        {
+          "minute": 67,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "scorer": {
+            "id": 97017,
+            "name": "Youssef El Kachati"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 3
+          }
         }
       ],
       "penalties": [],
@@ -115356,6 +115374,18 @@
           "player": {
             "id": 97164,
             "name": "Darko Nejašmić"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 79,
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "player": {
+            "id": 217935,
+            "name": "Kodai Sano"
           },
           "card": "YELLOW"
         }
@@ -115411,15 +115441,15 @@
       },
       "id": 537682,
       "utcDate": "2026-03-14T19:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Abe Lenstra Stadion",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T18:49:09Z",
+      "lastUpdated": "2026-03-14T20:33:11Z",
       "homeTeam": {
         "id": 673,
         "name": "SC Heerenveen",
@@ -115715,20 +115745,52 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 24,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 673,
+            "name": "SC Heerenveen"
+          },
+          "scorer": {
+            "id": 145170,
+            "name": "Lasse Nordås"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 7,
+          "team": {
+            "id": 673,
+            "name": "SC Heerenveen"
+          },
+          "player": {
+            "id": 145170,
+            "name": "Lasse Nordås"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -115788,7 +115850,7 @@
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-09T01:32:03Z",
+      "lastUpdated": "2026-03-14T20:05:02Z",
       "homeTeam": {
         "id": 678,
         "name": "AFC Ajax",
@@ -115801,9 +115863,149 @@
           "nationality": "Spain"
         },
         "leagueRank": 5,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 9854,
+            "name": "Maarten Paes",
+            "position": "Goalkeeper",
+            "shirtNumber": 26
+          },
+          {
+            "id": 251265,
+            "name": "Sean Steur",
+            "position": "Midfield",
+            "shirtNumber": 48
+          },
+          {
+            "id": 261340,
+            "name": "Don-Angelo Konadu",
+            "position": "Offence",
+            "shirtNumber": 19
+          },
+          {
+            "id": 189574,
+            "name": "Mika Godts",
+            "position": "Left Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 7841,
+            "name": "Davy Klaassen",
+            "position": "Central Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 142087,
+            "name": "Youri Regeer",
+            "position": "Central Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 7478,
+            "name": "Steven Berghuis",
+            "position": "Right Winger",
+            "shirtNumber": 23
+          },
+          {
+            "id": 188830,
+            "name": "Lucas Rosa",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 134835,
+            "name": "Josip Šutalo",
+            "position": "Centre-Back",
+            "shirtNumber": 37
+          },
+          {
+            "id": 156856,
+            "name": "Youri Baas",
+            "position": "Left-Back",
+            "shirtNumber": 15
+          },
+          {
+            "id": 9034,
+            "name": "Takehiro Tomiyasu",
+            "position": "Right-Back",
+            "shirtNumber": 32
+          }
+        ],
+        "bench": [
+          {
+            "id": 272771,
+            "name": "Joeri Heerkens",
+            "position": "Goalkeeper",
+            "shirtNumber": 12
+          },
+          {
+            "id": 202183,
+            "name": "Paul Reverson",
+            "position": "Goalkeeper",
+            "shirtNumber": 52
+          },
+          {
+            "id": 250979,
+            "name": "Aaron Bouwman",
+            "position": "Defence",
+            "shirtNumber": 30
+          },
+          {
+            "id": 249025,
+            "name": "Jorthy Mokio",
+            "position": "Defence",
+            "shirtNumber": 24
+          },
+          {
+            "id": 265344,
+            "name": "Mylo van der Lans",
+            "position": "Defence",
+            "shirtNumber": 53
+          },
+          {
+            "id": 273341,
+            "name": "Rayane Bounida",
+            "position": "Midfield",
+            "shirtNumber": 43
+          },
+          {
+            "id": 190731,
+            "name": "Oscar Gloukh",
+            "position": "Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 250608,
+            "name": "Maher Carrizo",
+            "position": "Offence",
+            "shirtNumber": 7
+          },
+          {
+            "id": 7570,
+            "name": "Kasper Dolberg",
+            "position": "Offence",
+            "shirtNumber": 9
+          },
+          {
+            "id": 7679,
+            "name": "Owen Wijndal",
+            "position": "Left-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 184716,
+            "name": "Anton Gaaei",
+            "position": "Right-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 157120,
+            "name": "Kian Fitz-Jim",
+            "position": "Central Midfield",
+            "shirtNumber": 28
+          }
+        ]
       },
       "awayTeam": {
         "id": 6806,
@@ -115817,9 +116019,149 @@
           "nationality": "Netherlands"
         },
         "leagueRank": 7,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-2-3-1",
+        "lineup": [
+          {
+            "id": 7250,
+            "name": "Joël Drommel",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 254333,
+            "name": "Marvin Young",
+            "position": "Defence",
+            "shirtNumber": 3
+          },
+          {
+            "id": 289506,
+            "name": "Lushendry Martes",
+            "position": "Defence",
+            "shirtNumber": 2
+          },
+          {
+            "id": 7304,
+            "name": "Vito van Crooij",
+            "position": "Offence",
+            "shirtNumber": 10
+          },
+          {
+            "id": 38124,
+            "name": "Tobias Lauritsen",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 7592,
+            "name": "Mitchell van Bergen",
+            "position": "Right Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 161068,
+            "name": "Shunsuke Mito",
+            "position": "Right Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 4286,
+            "name": "Pelle Clement",
+            "position": "Central Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 38122,
+            "name": "Joshua Kitolano",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 231030,
+            "name": "Teo Quintero",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 7949,
+            "name": "Bruno Martins Indi",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          }
+        ],
+        "bench": [
+          {
+            "id": 9778,
+            "name": "Filip Bednarek",
+            "position": "Goalkeeper",
+            "shirtNumber": 20
+          },
+          {
+            "id": 151104,
+            "name": "Pascal Kuiper",
+            "position": "Goalkeeper",
+            "shirtNumber": 30
+          },
+          {
+            "id": 8146,
+            "name": "Patrick van Aanholt",
+            "position": "Defence",
+            "shirtNumber": 14
+          },
+          {
+            "id": 218262,
+            "name": "Alwande Roaldsøy",
+            "position": "Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 254376,
+            "name": "Ayoni Santos",
+            "position": "Midfield",
+            "shirtNumber": 22
+          },
+          {
+            "id": 133204,
+            "name": "Casper Terho",
+            "position": "Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 243902,
+            "name": "Milan Zonneveld",
+            "position": "Offence",
+            "shirtNumber": 19
+          },
+          {
+            "id": 6715,
+            "name": "Jonathan de Guzmán",
+            "position": "Defensive Midfield",
+            "shirtNumber": 13
+          },
+          {
+            "id": 7470,
+            "name": "Jens Toornstra",
+            "position": "Attacking Midfield",
+            "shirtNumber": 21
+          },
+          {
+            "id": 137697,
+            "name": "Shurandy Sambo",
+            "position": "Right-Back",
+            "shirtNumber": 12
+          },
+          {
+            "id": 178159,
+            "name": "Mike Kleijn",
+            "position": "Left-Back",
+            "shirtNumber": 15
+          },
+          {
+            "id": 149054,
+            "name": "Julian Baas",
+            "position": "Central Midfield",
+            "shirtNumber": 16
+          }
+        ]
       },
       "score": {
         "winner": null,
