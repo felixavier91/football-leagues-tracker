@@ -106319,14 +106319,14 @@
       "id": 540631,
       "utcDate": "2026-03-14T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 53,
+      "minute": 68,
       "injuryTime": null,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T16:42:29Z",
+      "lastUpdated": "2026-03-14T16:56:49Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -106663,6 +106663,18 @@
             "name": "Nicolas Jackson"
           },
           "card": "RED"
+        },
+        {
+          "minute": 56,
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "player": {
+            "id": 154228,
+            "name": "Nicolás Ezequiel Fernández"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -106717,14 +106729,14 @@
       "id": 540634,
       "utcDate": "2026-03-14T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 53,
+      "minute": 67,
       "injuryTime": null,
       "attendance": null,
       "venue": "PreZero Arena",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T16:42:29Z",
+      "lastUpdated": "2026-03-14T16:56:49Z",
       "homeTeam": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
@@ -107002,18 +107014,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 65,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "scorer": {
+            "id": 177590,
+            "name": "Konstantinos Koulierakis"
+          },
+          "assist": {
+            "id": 3459,
+            "name": "Christian Eriksen"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -107068,14 +107102,14 @@
       "id": 540635,
       "utcDate": "2026-03-14T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 55,
+      "minute": 70,
       "injuryTime": null,
       "attendance": null,
       "venue": "Signal Iduna Park",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T16:42:29Z",
+      "lastUpdated": "2026-03-14T16:56:50Z",
       "homeTeam": {
         "id": 4,
         "name": "Borussia Dortmund",
@@ -107356,7 +107390,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -107380,6 +107414,27 @@
           "assist": null,
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 59,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "scorer": {
+            "id": 290034,
+            "name": "Luca Reggiani"
+          },
+          "assist": {
+            "id": 44030,
+            "name": "Julian Ryerson"
+          },
+          "score": {
+            "home": 2,
             "away": 0
           }
         }
@@ -107438,14 +107493,14 @@
       "id": 540638,
       "utcDate": "2026-03-14T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 55,
+      "minute": 70,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 58700,
       "venue": "Deutsche Bank Park",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T16:42:30Z",
+      "lastUpdated": "2026-03-14T16:56:50Z",
       "homeTeam": {
         "id": 19,
         "name": "Eintracht Frankfurt",
@@ -107723,11 +107778,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -107755,6 +107810,27 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 68,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 44,
+            "name": "1. FC Heidenheim 1846"
+          },
+          "scorer": {
+            "id": 96898,
+            "name": "Sirlord Conteh"
+          },
+          "assist": {
+            "id": 261382,
+            "name": "Hennes Behrens"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -107768,6 +107844,18 @@
           "player": {
             "id": 9479,
             "name": "Robin Koch"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 57,
+          "team": {
+            "id": 44,
+            "name": "1. FC Heidenheim 1846"
+          },
+          "player": {
+            "id": 362,
+            "name": "Niklas Dorsch"
           },
           "card": "YELLOW"
         }

@@ -114508,14 +114508,14 @@
       "id": 537677,
       "utcDate": "2026-03-14T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 13,
+      "minute": 28,
       "injuryTime": null,
       "attendance": null,
       "venue": "Kras Stadion",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T16:43:03Z",
+      "lastUpdated": "2026-03-14T16:57:59Z",
       "homeTeam": {
         "id": 1919,
         "name": "FC Volendam",
@@ -114799,20 +114799,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 19,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "scorer": {
+            "id": 7370,
+            "name": "Paul Gladon"
+          },
+          "assist": {
+            "id": 102339,
+            "name": "Mohammed Ihattaren"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 22,
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "player": {
+            "id": 55440,
+            "name": "Danny Buijs"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -114924,7 +114959,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 17136,
+          "name": "Joey Kooij",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 17137,
+          "name": "Dyon Fikkert",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 167615,
+          "name": "Marco Ribbink",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": null
+        }
+      ]
     },
     {
       "area": {
