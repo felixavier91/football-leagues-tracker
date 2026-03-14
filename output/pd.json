@@ -132879,14 +132879,14 @@
       "id": 544486,
       "utcDate": "2026-03-14T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 75,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 2,
       "attendance": 8811,
       "venue": "Estadi Municipal de Montilivi",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T15:32:32Z",
+      "lastUpdated": "2026-03-14T15:50:37Z",
       "homeTeam": {
         "id": 298,
         "name": "Girona FC",
@@ -133179,7 +133179,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -133208,6 +133208,45 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 77,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scorer": {
+            "id": 122511,
+            "name": "Azzedine Ounahi"
+          },
+          "assist": {
+            "id": 206908,
+            "name": "Claudio Echeverri"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scorer": {
+            "id": 206908,
+            "name": "Claudio Echeverri"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
@@ -133221,6 +133260,18 @@
           "player": {
             "id": 126878,
             "name": "Oihan Sancet"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 82,
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "player": {
+            "id": 2294,
+            "name": "Álex Berenguer"
           },
           "card": "YELLOW"
         }
