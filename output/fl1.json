@@ -104884,14 +104884,14 @@
       "id": 542638,
       "utcDate": "2026-03-14T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 88,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Stade Raymond Kopa",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T20:48:45Z",
+      "lastUpdated": "2026-03-14T20:59:14Z",
       "homeTeam": {
         "id": 532,
         "name": "Angers SCO",
@@ -105173,7 +105173,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -105200,6 +105200,27 @@
           "score": {
             "home": 0,
             "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 6,
+          "type": "REGULAR",
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "scorer": {
+            "id": 156808,
+            "name": "Sepe Elye Wahi"
+          },
+          "assist": {
+            "id": 1023,
+            "name": "Jonathan Clauss"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
           }
         }
       ],
@@ -105250,6 +105271,18 @@
           "player": {
             "id": 246041,
             "name": "Abdulay Bah"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 522,
+            "name": "OGC Nice"
+          },
+          "player": {
+            "id": 8608,
+            "name": "Yehvann Diouf"
           },
           "card": "YELLOW"
         }
