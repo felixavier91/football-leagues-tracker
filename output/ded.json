@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 236
+    "played": 237
   },
   "competition": {
     "id": 2003,
@@ -114977,15 +114977,15 @@
       },
       "id": 537681,
       "utcDate": "2026-03-14T17:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 86,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 7,
       "attendance": 35000,
       "venue": "Philips Stadion",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T20:33:16Z",
+      "lastUpdated": "2026-03-14T20:47:08Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -115272,7 +115272,7 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 3
         },
         "halfTime": {
@@ -115361,6 +115361,27 @@
             "home": 1,
             "away": 3
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 150536,
+            "name": "Couhaib Driouech"
+          },
+          "assist": {
+            "id": 130173,
+            "name": "Ismael Saibari"
+          },
+          "score": {
+            "home": 2,
+            "away": 3
+          }
         }
       ],
       "penalties": [],
@@ -115386,6 +115407,18 @@
           "player": {
             "id": 217935,
             "name": "Kodai Sano"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "player": {
+            "id": 2119,
+            "name": "Bram Nuytinck"
           },
           "card": "YELLOW"
         }
@@ -115441,15 +115474,15 @@
       },
       "id": 537682,
       "utcDate": "2026-03-14T19:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 31,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Abe Lenstra Stadion",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T20:33:11Z",
+      "lastUpdated": "2026-03-14T20:49:01Z",
       "homeTeam": {
         "id": 673,
         "name": "SC Heerenveen",
@@ -115752,8 +115785,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
