@@ -134657,14 +134657,14 @@
       "id": 538077,
       "utcDate": "2026-03-14T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 12,
+      "minute": 26,
       "injuryTime": null,
       "attendance": null,
       "venue": "Emirates Stadium",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T18:42:27Z",
+      "lastUpdated": "2026-03-14T18:56:47Z",
       "homeTeam": {
         "id": 57,
         "name": "Arsenal FC",
@@ -135008,14 +135008,14 @@
       "id": 538080,
       "utcDate": "2026-03-14T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 12,
+      "minute": 26,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stamford Bridge",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T18:42:27Z",
+      "lastUpdated": "2026-03-14T18:56:48Z",
       "homeTeam": {
         "id": 61,
         "name": "Chelsea FC",
@@ -135293,20 +135293,67 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 18,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "scorer": {
+            "id": 7848,
+            "name": "Anthony Gordon"
+          },
+          "assist": {
+            "id": 7798,
+            "name": "Joe Willock"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 23,
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "player": {
+            "id": 8545,
+            "name": "Wesley Fofana"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 25,
+          "team": {
+            "id": 61,
+            "name": "Chelsea FC"
+          },
+          "player": {
+            "id": 121103,
+            "name": "Moisés Caicedo"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
