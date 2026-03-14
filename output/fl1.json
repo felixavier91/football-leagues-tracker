@@ -104411,14 +104411,14 @@
       "id": 542633,
       "utcDate": "2026-03-14T16:00:00Z",
       "status": "IN_PLAY",
-      "minute": 14,
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade du Moustoir",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T17:14:08Z",
+      "lastUpdated": "2026-03-14T17:32:48Z",
       "homeTeam": {
         "id": 525,
         "name": "FC Lorient",
@@ -104696,10 +104696,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -104707,9 +104707,53 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 18,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "scorer": {
+            "id": 166640,
+            "name": "Ahmadou Bamba Dieng"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 23,
+          "team": {
+            "id": 546,
+            "name": "Racing Club de Lens"
+          },
+          "player": {
+            "id": 216398,
+            "name": "Nidal Čelik"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 26,
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "player": {
+            "id": 220601,
+            "name": "Abdoulaye Faye"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

@@ -104236,15 +104236,15 @@
       },
       "id": 545928,
       "utcDate": "2026-03-14T15:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 43,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Éstadio Dom Afonso Henriques",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T17:14:05Z",
+      "lastUpdated": "2026-03-14T17:32:41Z",
       "homeTeam": {
         "id": 5543,
         "name": "Vitória SC",
@@ -104529,8 +104529,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -104578,7 +104578,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 5543,
+            "name": "Vitória SC"
+          },
+          "player": {
+            "id": 204259,
+            "name": "Anthony Strata"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
