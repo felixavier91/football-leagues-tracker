@@ -114978,14 +114978,14 @@
       "id": 537681,
       "utcDate": "2026-03-14T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 31,
-      "injuryTime": null,
-      "attendance": null,
+      "minute": 45,
+      "injuryTime": 4,
+      "attendance": 35000,
       "venue": "Philips Stadion",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T19:17:12Z",
+      "lastUpdated": "2026-03-14T19:35:45Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -115272,8 +115272,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 1
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
           "home": null,
@@ -115301,10 +115301,65 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 38,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "scorer": {
+            "id": 7602,
+            "name": "Bryan Linssen"
+          },
+          "assist": {
+            "id": 217935,
+            "name": "Kodai Sano"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 142790,
+            "name": "Kiliann Sildillia"
+          },
+          "assist": {
+            "id": 130173,
+            "name": "Ismael Saibari"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 32,
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "player": {
+            "id": 97164,
+            "name": "Darko Nejašmić"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
