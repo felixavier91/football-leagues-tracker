@@ -133822,14 +133822,14 @@
       "id": 544485,
       "utcDate": "2026-03-14T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 26,
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Nuevo Carlos Tartiere",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T18:57:00Z",
+      "lastUpdated": "2026-03-14T19:16:21Z",
       "homeTeam": {
         "id": 1048,
         "name": "Real Oviedo",
@@ -134143,10 +134143,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -134154,7 +134154,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "scorer": {
+            "id": 15864,
+            "name": "David Costas"
+          },
+          "assist": {
+            "id": 193621,
+            "name": "Thiago Fernandez"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -134166,6 +134188,42 @@
           "player": {
             "id": 99811,
             "name": "Thierry Correia"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 32,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "player": {
+            "id": 32584,
+            "name": "Unai Núñez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 36,
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "player": {
+            "id": 193621,
+            "name": "Thiago Fernandez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 41,
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "player": {
+            "id": 33142,
+            "name": "Nacho Vidal"
           },
           "card": "YELLOW"
         }
@@ -134281,7 +134339,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 206211,
+          "name": "Jesús Gil Manzano",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        },
+        {
+          "id": 206204,
+          "name": "Ángel Nevado Rodríguez",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 206214,
+          "name": "Javier Martínez Nicolás",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {

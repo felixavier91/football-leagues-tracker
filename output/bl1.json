@@ -108078,14 +108078,14 @@
       "id": 540639,
       "utcDate": "2026-03-14T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 27,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Volksparkstadion",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T18:57:17Z",
+      "lastUpdated": "2026-03-14T19:16:32Z",
       "homeTeam": {
         "id": 7,
         "name": "Hamburger SV",
@@ -108366,17 +108366,97 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 39,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "scorer": {
+            "id": 112948,
+            "name": "Fabio Vieira"
+          },
+          "assist": {
+            "id": 160442,
+            "name": "William Mikelbrencis"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "scorer": {
+            "id": 247659,
+            "name": "Said El Mala"
+          },
+          "assist": {
+            "id": 152743,
+            "name": "Rav van den Berg"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 32,
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "player": {
+            "id": 247659,
+            "name": "Said El Mala"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 36,
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "player": {
+            "id": 180567,
+            "name": "Kristoffer Lund"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 41,
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "player": {
+            "id": 149995,
+            "name": "Nicolai Remberg"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

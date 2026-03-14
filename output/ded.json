@@ -114978,14 +114978,14 @@
       "id": 537681,
       "utcDate": "2026-03-14T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 12,
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Philips Stadion",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T18:57:47Z",
+      "lastUpdated": "2026-03-14T19:17:12Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -115237,6 +115237,12 @@
             "shirtNumber": 7
           },
           {
+            "id": 293710,
+            "name": "Mees Rensen",
+            "position": null,
+            "shirtNumber": 44
+          },
+          {
             "id": 131178,
             "name": "Dirk Proper",
             "position": "Defensive Midfield",
@@ -115263,18 +115269,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 20,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "scorer": {
+            "id": 7602,
+            "name": "Bryan Linssen"
+          },
+          "assist": {
+            "id": 187040,
+            "name": "Sami Ouaissa"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -115757,7 +115785,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 17141,
+          "name": "Rob Dieperink",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 9560,
+          "name": "Erwin Zeinstra",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 17110,
+          "name": "Erik Koopman",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
