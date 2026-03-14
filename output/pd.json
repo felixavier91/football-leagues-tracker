@@ -134291,15 +134291,15 @@
       },
       "id": 544487,
       "utcDate": "2026-03-14T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 58,
       "injuryTime": null,
       "attendance": 71048,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T22:01:35Z",
+      "lastUpdated": "2026-03-14T22:20:30Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -134648,7 +134648,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 55,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "player": {
+            "id": 102343,
+            "name": "Eduardo Camavinga"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
