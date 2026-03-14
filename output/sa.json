@@ -138956,14 +138956,14 @@
       "id": 537098,
       "utcDate": "2026-03-14T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 12,
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T15:12:44Z",
+      "lastUpdated": "2026-03-14T15:32:34Z",
       "homeTeam": {
         "id": 108,
         "name": "FC Internazionale Milano",
@@ -139283,10 +139283,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -139294,9 +139294,56 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 26,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 215433,
+            "name": "Francesco Esposito"
+          },
+          "assist": {
+            "id": 1911,
+            "name": "Nicolò Barella"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 21,
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "player": {
+            "id": 7786,
+            "name": "Sead Kolašinac"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 21,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "player": {
+            "id": 154013,
+            "name": "Petar Sucic"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
