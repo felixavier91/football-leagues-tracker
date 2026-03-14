@@ -105156,14 +105156,14 @@
       "id": 545932,
       "utcDate": "2026-03-14T20:30:00Z",
       "status": "IN_PLAY",
-      "minute": 46,
+      "minute": 59,
       "injuryTime": null,
       "attendance": null,
       "venue": "Municipal de Arouca",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T22:38:31Z",
+      "lastUpdated": "2026-03-14T22:51:30Z",
       "homeTeam": {
         "id": 712,
         "name": "FC Arouca",
@@ -105441,11 +105441,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -105469,6 +105469,27 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 50,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "scorer": {
+            "id": 170657,
+            "name": "Richard Rios"
+          },
+          "assist": {
+            "id": 157796,
+            "name": "Andreas Schjelderup"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
           }
         }
       ],
@@ -105507,6 +105528,30 @@
           "player": {
             "id": 81391,
             "name": "Barbero"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 48,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 182405,
+            "name": "Hyun-Ju Lee"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 59,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "player": {
+            "id": 185610,
+            "name": "Antonio Silva"
           },
           "card": "YELLOW"
         }
