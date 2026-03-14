@@ -105339,14 +105339,14 @@
       "id": 542632,
       "utcDate": "2026-03-14T20:05:00Z",
       "status": "IN_PLAY",
-      "minute": 7,
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Louis II",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T21:12:56Z",
+      "lastUpdated": "2026-03-14T21:32:56Z",
       "homeTeam": {
         "id": 548,
         "name": "AS Monaco FC",
@@ -105612,10 +105612,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -105623,7 +105623,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 19,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "scorer": {
+            "id": 131040,
+            "name": "Folarin Balogun"
+          },
+          "assist": {
+            "id": 204269,
+            "name": "Lamine Camara"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

@@ -115475,14 +115475,14 @@
       "id": 537682,
       "utcDate": "2026-03-14T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 54,
+      "minute": 74,
       "injuryTime": null,
       "attendance": null,
       "venue": "Abe Lenstra Stadion",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T21:13:20Z",
+      "lastUpdated": "2026-03-14T21:33:19Z",
       "homeTeam": {
         "id": 673,
         "name": "SC Heerenveen",
@@ -115781,7 +115781,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -115807,6 +115807,48 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 56,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 673,
+            "name": "SC Heerenveen"
+          },
+          "scorer": {
+            "id": 137564,
+            "name": "Maxence Rivera"
+          },
+          "assist": {
+            "id": 210841,
+            "name": "Jacob Trenskow"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 71,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 673,
+            "name": "SC Heerenveen"
+          },
+          "scorer": {
+            "id": 210841,
+            "name": "Jacob Trenskow"
+          },
+          "assist": {
+            "id": 7684,
+            "name": "Joris van Overeem"
+          },
+          "score": {
+            "home": 3,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
@@ -115820,6 +115862,30 @@
           "player": {
             "id": 145170,
             "name": "Lasse Nordås"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 54,
+          "team": {
+            "id": 1912,
+            "name": "Telstar 1963"
+          },
+          "player": {
+            "id": 244256,
+            "name": "Guus Offerhaus"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 65,
+          "team": {
+            "id": 673,
+            "name": "SC Heerenveen"
+          },
+          "player": {
+            "id": 246586,
+            "name": "Marcus Linday"
           },
           "card": "YELLOW"
         }
@@ -115876,14 +115942,14 @@
       "id": 537675,
       "utcDate": "2026-03-14T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 13,
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Johan Cruijff ArenA",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T21:13:21Z",
+      "lastUpdated": "2026-03-14T21:33:20Z",
       "homeTeam": {
         "id": 678,
         "name": "AFC Ajax",
@@ -116197,10 +116263,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -116208,7 +116274,47 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 19,
+          "injuryTime": null,
+          "type": "OWN",
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "scorer": {
+            "id": 38122,
+            "name": "Joshua Kitolano"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 32,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "scorer": {
+            "id": 7478,
+            "name": "Steven Berghuis"
+          },
+          "assist": {
+            "id": 251265,
+            "name": "Sean Steur"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

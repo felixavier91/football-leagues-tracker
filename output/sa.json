@@ -139910,15 +139910,15 @@
       },
       "id": 537103,
       "utcDate": "2026-03-14T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 26,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Friuli",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T21:12:51Z",
+      "lastUpdated": "2026-03-14T21:32:50Z",
       "homeTeam": {
         "id": 115,
         "name": "Udinese Calcio",
@@ -140220,20 +140220,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 38,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "scorer": {
+            "id": 4121,
+            "name": "Jérémie Boga"
+          },
+          "assist": {
+            "id": 191712,
+            "name": "Kenan Yıldız"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 32,
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "player": {
+            "id": 2013,
+            "name": "Nicolò Zaniolo"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
