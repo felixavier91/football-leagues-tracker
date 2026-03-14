@@ -104673,15 +104673,15 @@
       },
       "id": 545927,
       "utcDate": "2026-03-14T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Cidade de Barcelos",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T19:35:27Z",
+      "lastUpdated": "2026-03-14T19:57:36Z",
       "homeTeam": {
         "id": 5533,
         "name": "Gil Vicente FC",
@@ -104966,8 +104966,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -104994,7 +104994,32 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 35,
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "player": {
+            "id": 9125,
+            "name": "Jonathan Buatu"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 37,
+          "team": {
+            "id": 7822,
+            "name": "FC Alverca"
+          },
+          "player": {
+            "id": 18602,
+            "name": "Rhaldney"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
