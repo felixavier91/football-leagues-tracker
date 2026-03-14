@@ -133330,15 +133330,15 @@
       },
       "id": 544482,
       "utcDate": "2026-03-14T15:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 9,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Cívitas Metropolitano",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T15:08:24Z",
+      "lastUpdated": "2026-03-14T16:26:20Z",
       "homeTeam": {
         "id": 78,
         "name": "Club Atlético de Madrid",
@@ -133634,18 +133634,37 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 8,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "scorer": {
+            "id": 46452,
+            "name": "Nahuel Molina"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
