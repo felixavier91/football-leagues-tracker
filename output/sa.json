@@ -139461,15 +139461,15 @@
       },
       "id": 537102,
       "utcDate": "2026-03-14T17:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 10,
       "injuryTime": null,
       "attendance": null,
       "venue": "Diego Armando Maradona",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T17:07:07Z",
+      "lastUpdated": "2026-03-14T18:10:48Z",
       "homeTeam": {
         "id": 113,
         "name": "SSC Napoli",
@@ -139771,18 +139771,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 3,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5890,
+            "name": "US Lecce"
+          },
+          "scorer": {
+            "id": 150530,
+            "name": "Jamil Siebert"
+          },
+          "assist": {
+            "id": 77469,
+            "name": "Antonino Gallo"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
