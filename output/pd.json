@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 274
+    "played": 275
   },
   "competition": {
     "id": 2014,
@@ -134291,15 +134291,15 @@
       },
       "id": 544487,
       "utcDate": "2026-03-14T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 88,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 5,
       "attendance": 71048,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T22:50:40Z",
+      "lastUpdated": "2026-03-14T23:00:50Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -134598,7 +134598,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 1
         },
         "halfTime": {
@@ -134684,6 +134684,24 @@
             "home": 3,
             "away": 1
           }
+        },
+        {
+          "minute": 89,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 169162,
+            "name": "Arda Guler"
+          },
+          "assist": null,
+          "score": {
+            "home": 4,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -134721,6 +134739,18 @@
           "player": {
             "id": 123212,
             "name": "David Affengruber"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 88,
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "player": {
+            "id": 4098,
+            "name": "Rafael Mir"
           },
           "card": "YELLOW"
         }
