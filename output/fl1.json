@@ -105338,15 +105338,15 @@
       },
       "id": 542632,
       "utcDate": "2026-03-14T20:05:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
-      "injuryTime": 1,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Stade Louis II",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-14T21:51:06Z",
+      "lastUpdated": "2026-03-14T22:02:27Z",
       "homeTeam": {
         "id": 548,
         "name": "AS Monaco FC",
@@ -105619,8 +105619,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -105657,6 +105657,18 @@
           "player": {
             "id": 6493,
             "name": "Thilo Kehrer"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "player": {
+            "id": 187530,
+            "name": "Michel Diaz"
           },
           "card": "YELLOW"
         }
