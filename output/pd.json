@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 276
+    "played": 277
   },
   "competition": {
     "id": 2014,
@@ -135333,15 +135333,15 @@
       },
       "id": 544483,
       "utcDate": "2026-03-15T15:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 77,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 3,
       "attendance": 56483,
       "venue": "Camp Nou",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T17:55:26Z",
+      "lastUpdated": "2026-03-15T18:14:25Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -135659,7 +135659,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 5,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 3,
@@ -135780,6 +135780,27 @@
             "home": 5,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC"
+          },
+          "scorer": {
+            "id": 16275,
+            "name": "Djibril Sow"
+          },
+          "assist": {
+            "id": 244751,
+            "name": "Oso"
+          },
+          "score": {
+            "home": 5,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -135871,7 +135892,7 @@
       },
       "id": 544484,
       "utcDate": "2026-03-15T17:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "minute": null,
       "injuryTime": null,
       "attendance": null,
@@ -135879,7 +135900,7 @@
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T17:31:46Z",
+      "lastUpdated": "2026-03-15T18:32:49Z",
       "homeTeam": {
         "id": 90,
         "name": "Real Betis Balompié",
@@ -136193,11 +136214,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,

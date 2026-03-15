@@ -106222,14 +106222,14 @@
       "id": 542631,
       "utcDate": "2026-03-15T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 40,
+      "minute": 61,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Océane",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T17:56:02Z",
+      "lastUpdated": "2026-03-15T18:33:24Z",
       "homeTeam": {
         "id": 533,
         "name": "Le Havre AC",
@@ -106514,13 +106514,50 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 42,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "player": {
+            "id": 142149,
+            "name": "Adam Karabec"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 42,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "player": {
+            "id": 3208,
+            "name": "Nicolás Tagliafico"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 55,
+          "team": {
+            "id": 533,
+            "name": "Le Havre AC"
+          },
+          "player": {
+            "id": 276981,
+            "name": "Stephan Zagadou"
+          },
+          "card": "RED"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -106573,14 +106610,14 @@
       "id": 542634,
       "utcDate": "2026-03-15T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 40,
+      "minute": 59,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T17:56:02Z",
+      "lastUpdated": "2026-03-15T18:33:24Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -106858,15 +106895,15 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 3
         }
       },
       "goals": [
@@ -106949,6 +106986,27 @@
           "score": {
             "home": 2,
             "away": 2
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "scorer": {
+            "id": 80175,
+            "name": "Yann Gboho"
+          },
+          "assist": {
+            "id": 180519,
+            "name": "Warren Kamanzi"
+          },
+          "score": {
+            "home": 2,
+            "away": 3
           }
         }
       ],
