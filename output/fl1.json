@@ -106222,14 +106222,14 @@
       "id": 542631,
       "utcDate": "2026-03-15T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 25,
+      "minute": 40,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Océane",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T17:40:31Z",
+      "lastUpdated": "2026-03-15T17:56:02Z",
       "homeTeam": {
         "id": 533,
         "name": "Le Havre AC",
@@ -106573,14 +106573,14 @@
       "id": 542634,
       "utcDate": "2026-03-15T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 25,
+      "minute": 40,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T17:40:31Z",
+      "lastUpdated": "2026-03-15T17:56:02Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -106858,10 +106858,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 2
         },
         "halfTime": {
@@ -106911,10 +106911,62 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "scorer": {
+            "id": 290084,
+            "name": "Nathan Mbala"
+          },
+          "assist": {
+            "id": 216372,
+            "name": "Georgiy Tsitaishvili"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 31,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "scorer": {
+            "id": 45199,
+            "name": "Koffi Franck Kouao"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 34,
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "player": {
+            "id": 283443,
+            "name": "Alexis Vossah"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

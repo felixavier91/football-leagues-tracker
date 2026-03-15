@@ -137280,14 +137280,14 @@
       "id": 538081,
       "utcDate": "2026-03-15T16:30:00Z",
       "status": "IN_PLAY",
-      "minute": 9,
+      "minute": 25,
       "injuryTime": null,
       "attendance": null,
       "venue": "Anfield",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T17:39:28Z",
+      "lastUpdated": "2026-03-15T17:55:12Z",
       "homeTeam": {
         "id": 64,
         "name": "Liverpool FC",
@@ -137553,10 +137553,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -137564,7 +137564,26 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 18,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 16347,
+            "name": "Dominik Szoboszlai"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
