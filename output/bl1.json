@@ -109373,15 +109373,15 @@
       },
       "id": 540633,
       "utcDate": "2026-03-15T18:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 59,
       "injuryTime": null,
       "attendance": null,
       "venue": "MHPArena",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T20:33:13Z",
+      "lastUpdated": "2026-03-15T20:48:55Z",
       "homeTeam": {
         "id": 10,
         "name": "VfB Stuttgart",
@@ -109659,10 +109659,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -109670,7 +109670,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 56,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "scorer": {
+            "id": 6928,
+            "name": "Deniz Undav"
+          },
+          "assist": {
+            "id": 206,
+            "name": "Chris Führich"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {

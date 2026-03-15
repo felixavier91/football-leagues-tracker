@@ -107175,15 +107175,15 @@
       },
       "id": 542639,
       "utcDate": "2026-03-15T19:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 4,
       "injuryTime": null,
       "attendance": null,
       "venue": "Roazhon Park",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T19:57:41Z",
+      "lastUpdated": "2026-03-15T20:49:15Z",
       "homeTeam": {
         "id": 529,
         "name": "Stade Rennais FC 1901",
@@ -107461,18 +107461,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 2,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "scorer": {
+            "id": 213511,
+            "name": "Matias Fernandez-Pardo"
+          },
+          "assist": {
+            "id": 192677,
+            "name": "Nathan Ngoy"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
