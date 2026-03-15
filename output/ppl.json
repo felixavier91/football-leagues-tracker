@@ -107178,14 +107178,14 @@
       "id": 545929,
       "utcDate": "2026-03-15T20:30:00Z",
       "status": "IN_PLAY",
-      "minute": 2,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio do Dragao",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T21:33:21Z",
+      "lastUpdated": "2026-03-15T21:51:21Z",
       "homeTeam": {
         "id": 503,
         "name": "FC Porto",
@@ -107451,10 +107451,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -107462,7 +107462,26 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 14,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "scorer": {
+            "id": 150519,
+            "name": "Gabriel Veiga"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
