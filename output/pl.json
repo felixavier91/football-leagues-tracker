@@ -135929,14 +135929,14 @@
       "id": 538076,
       "utcDate": "2026-03-15T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 69,
+      "minute": 87,
       "injuryTime": null,
       "attendance": null,
       "venue": "Selhurst Park",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T16:32:25Z",
+      "lastUpdated": "2026-03-15T16:49:42Z",
       "homeTeam": {
         "id": 354,
         "name": "Crystal Palace FC",
@@ -136377,14 +136377,14 @@
       "id": 538082,
       "utcDate": "2026-03-15T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 75,
-      "injuryTime": null,
-      "attendance": null,
+      "minute": 90,
+      "injuryTime": 2,
+      "attendance": 73997,
       "venue": "Old Trafford",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T16:32:25Z",
+      "lastUpdated": "2026-03-15T16:49:43Z",
       "homeTeam": {
         "id": 66,
         "name": "Manchester United FC",
@@ -136665,7 +136665,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 1
         },
         "halfTime": {
@@ -136731,6 +136731,24 @@
           },
           "score": {
             "home": 2,
+            "away": 1
+          }
+        },
+        {
+          "minute": 81,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "scorer": {
+            "id": 124244,
+            "name": "Benjamin Šeško"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
             "away": 1
           }
         }
@@ -136838,14 +136856,14 @@
       "id": 538083,
       "utcDate": "2026-03-15T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 74,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "City Ground, Nottingham",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T16:32:26Z",
+      "lastUpdated": "2026-03-15T16:49:43Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -137182,6 +137200,18 @@
           "player": {
             "id": 3927,
             "name": "Antonee Robinson"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 75,
+          "team": {
+            "id": 63,
+            "name": "Fulham FC"
+          },
+          "player": {
+            "id": 2253,
+            "name": "Joachim Andersen"
           },
           "card": "YELLOW"
         }

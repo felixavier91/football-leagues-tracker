@@ -105813,14 +105813,14 @@
       "id": 545925,
       "utcDate": "2026-03-15T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 2,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio da Madeira",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T16:33:24Z",
+      "lastUpdated": "2026-03-15T16:51:16Z",
       "homeTeam": {
         "id": 5529,
         "name": "CD Nacional",
@@ -105971,7 +105971,7 @@
           "nationality": "Scotland"
         },
         "leagueRank": 8,
-        "formation": "3-4-3",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 7821,
@@ -106098,20 +106098,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 9,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 582,
+            "name": "GD Estoril Praia"
+          },
+          "scorer": {
+            "id": 75196,
+            "name": "Felix Bacher"
+          },
+          "assist": {
+            "id": 16752,
+            "name": "João Carvalho"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 16,
+          "team": {
+            "id": 582,
+            "name": "GD Estoril Praia"
+          },
+          "player": {
+            "id": 16752,
+            "name": "João Carvalho"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -106164,14 +106199,14 @@
       "id": 545931,
       "utcDate": "2026-03-15T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 1,
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio do CD Aves",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T16:33:17Z",
+      "lastUpdated": "2026-03-15T16:51:16Z",
       "homeTeam": {
         "id": 10340,
         "name": "AVS",
@@ -106322,7 +106357,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 16,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 1528,
