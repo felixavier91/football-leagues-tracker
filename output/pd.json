@@ -135892,15 +135892,15 @@
       },
       "id": 544484,
       "utcDate": "2026-03-15T17:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 66,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 58689,
       "venue": "Estadio de La Cartuja",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T19:33:35Z",
+      "lastUpdated": "2026-03-15T19:57:30Z",
       "homeTeam": {
         "id": 90,
         "name": "Real Betis Balompié",
@@ -136214,10 +136214,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -136246,10 +136246,56 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 49,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié"
+          },
+          "scorer": {
+            "id": 7783,
+            "name": "Héctor Bellerín"
+          },
+          "assist": {
+            "id": 33045,
+            "name": "Aitor Ruibal"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 61,
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié"
+          },
+          "player": {
+            "id": 32415,
+            "name": "Cucho Hernández"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 62,
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "player": {
+            "id": 3195,
+            "name": "Marcos Alonso"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
