@@ -140820,15 +140820,15 @@
       },
       "id": 537100,
       "utcDate": "2026-03-15T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Romeo Anconetani",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T14:12:34Z",
+      "lastUpdated": "2026-03-15T15:33:07Z",
       "homeTeam": {
         "id": 487,
         "name": "AC Pisa 1909",
@@ -140841,7 +140841,7 @@
           "nationality": "Sweden"
         },
         "leagueRank": 20,
-        "formation": "3-4-1-2",
+        "formation": "3-4-3",
         "lineup": [
           {
             "id": 2142,
@@ -141003,7 +141003,7 @@
           "nationality": "Italy"
         },
         "leagueRank": 15,
-        "formation": "4-3-3",
+        "formation": "4-4-2",
         "lineup": [
           {
             "id": 82004,
@@ -141160,19 +141160,50 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 9,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 487,
+            "name": "AC Pisa 1909"
+          },
+          "scorer": {
+            "id": 2436,
+            "name": "Stefano Moreo"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 2436,
+            "name": "Stefano Moreo"
+          },
+          "team": {
+            "id": 487,
+            "name": "AC Pisa 1909"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {
@@ -141225,15 +141256,15 @@
       },
       "id": 537101,
       "utcDate": "2026-03-15T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Mapei - Citta del Tricolore",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T14:19:24Z",
+      "lastUpdated": "2026-03-15T15:33:07Z",
       "homeTeam": {
         "id": 471,
         "name": "US Sassuolo Calcio",
@@ -141571,20 +141602,52 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 6,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "scorer": {
+            "id": 9848,
+            "name": "Thijs Dallinga"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 24,
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "player": {
+            "id": 9848,
+            "name": "Thijs Dallinga"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

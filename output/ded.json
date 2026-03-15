@@ -116917,15 +116917,15 @@
       },
       "id": 537676,
       "utcDate": "2026-03-15T13:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 24,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "AFAS Stadion",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T14:56:35Z",
+      "lastUpdated": "2026-03-15T15:33:37Z",
       "homeTeam": {
         "id": 682,
         "name": "AZ",
@@ -117236,12 +117236,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "goals": [
@@ -117265,10 +117265,44 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "scorer": {
+            "id": 115116,
+            "name": "Sven Mijnans"
+          },
+          "assist": {
+            "id": 131041,
+            "name": "Troy Parrott"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 43,
+          "team": {
+            "id": 671,
+            "name": "Heracles Almelo"
+          },
+          "player": {
+            "id": 118819,
+            "name": "Jannes Wieckhoff"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -117320,15 +117354,15 @@
       },
       "id": 537678,
       "utcDate": "2026-03-15T13:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 24,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Kuip",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T14:56:36Z",
+      "lastUpdated": "2026-03-15T15:33:37Z",
       "homeTeam": {
         "id": 675,
         "name": "Feyenoord Rotterdam",
@@ -117618,20 +117652,67 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 28,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 670,
+            "name": "SBV Excelsior"
+          },
+          "scorer": {
+            "id": 117956,
+            "name": "Arthur Zagre"
+          },
+          "assist": {
+            "id": 53496,
+            "name": "Stijn van Gassel"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 27,
+          "team": {
+            "id": 670,
+            "name": "SBV Excelsior"
+          },
+          "player": {
+            "id": 55224,
+            "name": "Ilias Bronkhorst"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 33,
+          "team": {
+            "id": 675,
+            "name": "Feyenoord Rotterdam"
+          },
+          "player": {
+            "id": 99952,
+            "name": "Jakub Moder"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

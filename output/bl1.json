@@ -108544,15 +108544,15 @@
       },
       "id": 540632,
       "utcDate": "2026-03-15T14:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 3,
       "injuryTime": null,
       "attendance": null,
       "venue": "Wohninvest Weserstadion",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T14:21:32Z",
+      "lastUpdated": "2026-03-15T15:33:00Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -108884,11 +108884,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -108957,7 +108957,7 @@
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-09T01:32:05Z",
+      "lastUpdated": "2026-03-15T15:30:08Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -108970,7 +108970,7 @@
           "nationality": "Germany"
         },
         "leagueRank": 8,
-        "formation": null,
+        "formation": "4-2-3-1",
         "lineup": [],
         "bench": []
       },
@@ -108986,7 +108986,7 @@
           "nationality": "Germany"
         },
         "leagueRank": 11,
-        "formation": null,
+        "formation": "3-5-2",
         "lineup": [],
         "bench": []
       },
@@ -109009,7 +109009,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 15824,
+          "name": "Sven Jablonski",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        },
+        {
+          "id": 339,
+          "name": "Sascha Thielert",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Germany"
+        },
+        {
+          "id": 8827,
+          "name": "Eduard Beitinger",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Germany"
+        }
+      ]
     },
     {
       "area": {

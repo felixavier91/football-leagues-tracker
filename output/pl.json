@@ -135928,15 +135928,15 @@
       },
       "id": 538076,
       "utcDate": "2026-03-15T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "Selhurst Park",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T13:57:41Z",
+      "lastUpdated": "2026-03-15T15:32:41Z",
       "homeTeam": {
         "id": 354,
         "name": "Crystal Palace FC",
@@ -136214,11 +136214,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -136227,7 +136227,32 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 26,
+          "team": {
+            "id": 341,
+            "name": "Leeds United FC"
+          },
+          "player": {
+            "id": 31531,
+            "name": "Gabriel Gudmundsson"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 31,
+          "team": {
+            "id": 341,
+            "name": "Leeds United FC"
+          },
+          "player": {
+            "id": 74688,
+            "name": "Jaka Bijol"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -136279,15 +136304,15 @@
       },
       "id": 538082,
       "utcDate": "2026-03-15T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "Old Trafford",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T13:57:54Z",
+      "lastUpdated": "2026-03-15T15:32:41Z",
       "homeTeam": {
         "id": 66,
         "name": "Manchester United FC",
@@ -136565,11 +136590,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -136630,15 +136655,15 @@
       },
       "id": 538083,
       "utcDate": "2026-03-15T14:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "City Ground, Nottingham",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T13:57:42Z",
+      "lastUpdated": "2026-03-15T15:32:41Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -136916,11 +136941,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -136929,7 +136954,32 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 18,
+          "team": {
+            "id": 351,
+            "name": "Nottingham Forest FC"
+          },
+          "player": {
+            "id": 133765,
+            "name": "Neco Williams"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 32,
+          "team": {
+            "id": 63,
+            "name": "Fulham FC"
+          },
+          "player": {
+            "id": 8973,
+            "name": "Sander Berge"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -137041,7 +137091,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11443,
+          "name": "Chris Kavanagh",
+          "type": "REFEREE",
+          "nationality": "England"
+        },
+        {
+          "id": 11438,
+          "name": "Dan Cook",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "England"
+        },
+        {
+          "id": 11404,
+          "name": "James Mainwaring",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "England"
+        }
+      ]
     },
     {
       "area": {
