@@ -107175,15 +107175,15 @@
       },
       "id": 542639,
       "utcDate": "2026-03-15T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 14,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Roazhon Park",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T20:59:48Z",
+      "lastUpdated": "2026-03-15T21:33:11Z",
       "homeTeam": {
         "id": 529,
         "name": "Stade Rennais FC 1901",
@@ -107468,8 +107468,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -107496,7 +107496,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 16,
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "player": {
+            "id": 6503,
+            "name": "Nabil Bentaleb"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

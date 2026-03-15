@@ -136383,15 +136383,15 @@
       },
       "id": 544490,
       "utcDate": "2026-03-15T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 29,
       "injuryTime": null,
       "attendance": null,
       "venue": "Reale Arena",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T20:03:39Z",
+      "lastUpdated": "2026-03-15T21:32:40Z",
       "homeTeam": {
         "id": 92,
         "name": "Real Sociedad de Fútbol",
@@ -136687,19 +136687,71 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 24,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol"
+          },
+          "scorer": {
+            "id": 180137,
+            "name": "Mikel Oyarzabal"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 28,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol"
+          },
+          "scorer": {
+            "id": 3259,
+            "name": "Gonçalo Guedes"
+          },
+          "assist": {
+            "id": 156615,
+            "name": "Beñat Turrientes"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 180137,
+            "name": "Mikel Oyarzabal"
+          },
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {

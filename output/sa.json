@@ -142380,15 +142380,15 @@
       },
       "id": 537099,
       "utcDate": "2026-03-15T19:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 13,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Olimpico, Rome",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T20:59:41Z",
+      "lastUpdated": "2026-03-15T21:33:00Z",
       "homeTeam": {
         "id": 110,
         "name": "SS Lazio",
@@ -142678,18 +142678,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 26,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 110,
+            "name": "SS Lazio"
+          },
+          "scorer": {
+            "id": 128007,
+            "name": "Gustav Isaksen"
+          },
+          "assist": {
+            "id": 2069,
+            "name": "Adam Marušić"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
