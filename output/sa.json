@@ -140821,14 +140821,14 @@
       "id": 537100,
       "utcDate": "2026-03-15T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 45,
-      "injuryTime": 6,
+      "minute": 48,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Romeo Anconetani",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T15:52:22Z",
+      "lastUpdated": "2026-03-15T16:11:13Z",
       "homeTeam": {
         "id": 487,
         "name": "AC Pisa 1909",
@@ -141167,8 +141167,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -141216,6 +141216,18 @@
             "name": "Rafiu Durosinmi"
           },
           "card": "RED"
+        },
+        {
+          "minute": 47,
+          "team": {
+            "id": 104,
+            "name": "Cagliari Calcio"
+          },
+          "player": {
+            "id": 52950,
+            "name": "Zé Pedro Figueiredo"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -141269,15 +141281,15 @@
       },
       "id": 537101,
       "utcDate": "2026-03-15T14:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 53,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Mapei - Citta del Tricolore",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T15:52:22Z",
+      "lastUpdated": "2026-03-15T16:11:13Z",
       "homeTeam": {
         "id": 471,
         "name": "US Sassuolo Calcio",
@@ -141772,7 +141784,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11029,
+          "name": "Davide Massa",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11055,
+          "name": "Filippo Meli",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 10992,
+          "name": "Stefano Alassio",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {
