@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 231
+    "played": 232
   },
   "competition": {
     "id": 2015,
@@ -106645,15 +106645,15 @@
       },
       "id": 542634,
       "utcDate": "2026-03-15T16:15:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 9,
+      "injuryTime": 11,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T19:13:31Z",
+      "lastUpdated": "2026-03-15T19:17:41Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -106931,11 +106931,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 3,
-          "away": 3
+          "away": 4
         },
         "halfTime": {
           "home": 2,
@@ -107062,6 +107062,27 @@
             "home": 3,
             "away": 3
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 9,
+          "type": "REGULAR",
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "scorer": {
+            "id": 216718,
+            "name": "Mário Sauer"
+          },
+          "assist": {
+            "id": 192688,
+            "name": "Aron Dönnum"
+          },
+          "score": {
+            "home": 3,
+            "away": 4
+          }
         }
       ],
       "penalties": [],
@@ -107087,6 +107108,18 @@
           "player": {
             "id": 180519,
             "name": "Warren Kamanzi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "player": {
+            "id": 176628,
+            "name": "Emersonn"
           },
           "card": "YELLOW"
         }

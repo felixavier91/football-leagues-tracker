@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 299
+    "played": 300
   },
   "competition": {
     "id": 2021,
@@ -137279,15 +137279,15 @@
       },
       "id": 538081,
       "utcDate": "2026-03-15T16:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 85,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Anfield",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T19:12:57Z",
+      "lastUpdated": "2026-03-15T19:26:31Z",
       "homeTeam": {
         "id": 64,
         "name": "Liverpool FC",
@@ -137553,11 +137553,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -137581,6 +137581,27 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "scorer": {
+            "id": 8133,
+            "name": "Richarlison"
+          },
+          "assist": {
+            "id": 8708,
+            "name": "Randal Kolo Muani"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
           }
         }
       ],

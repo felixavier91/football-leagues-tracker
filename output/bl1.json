@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 232
+    "played": 233
   },
   "competition": {
     "id": 2002,
@@ -108975,15 +108975,15 @@
       },
       "id": 540636,
       "utcDate": "2026-03-15T16:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 86,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 15,
       "attendance": 33200,
       "venue": "Europa-Park Stadion",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T19:13:21Z",
+      "lastUpdated": "2026-03-15T19:33:40Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -109261,18 +109261,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 90,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "scorer": {
+            "id": 72432,
+            "name": "Jeong Wooyeong"
+          },
+          "assist": {
+            "id": 203039,
+            "name": "Stanley N'Soki"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -109284,6 +109306,18 @@
           "player": {
             "id": 64934,
             "name": "Derrick Köhn"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "player": {
+            "id": 212285,
+            "name": "Livan Burcu"
           },
           "card": "YELLOW"
         }
@@ -109339,15 +109373,15 @@
       },
       "id": 540633,
       "utcDate": "2026-03-15T18:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 3,
       "injuryTime": null,
       "attendance": null,
       "venue": "MHPArena",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T18:13:06Z",
+      "lastUpdated": "2026-03-15T19:33:53Z",
       "homeTeam": {
         "id": 10,
         "name": "VfB Stuttgart",
@@ -109625,11 +109659,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,

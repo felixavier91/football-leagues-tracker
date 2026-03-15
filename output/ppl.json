@@ -106690,14 +106690,14 @@
       "id": 545926,
       "utcDate": "2026-03-15T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 14,
+      "minute": 34,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio do Rio Ave F.C.",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T19:13:46Z",
+      "lastUpdated": "2026-03-15T19:34:23Z",
       "homeTeam": {
         "id": 496,
         "name": "Rio Ave FC",
@@ -106848,7 +106848,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 12,
-        "formation": "4-4-2",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 45159,
@@ -106975,10 +106975,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -106986,7 +106986,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 27,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 496,
+            "name": "Rio Ave FC"
+          },
+          "scorer": {
+            "id": 247235,
+            "name": "Jalen Blesa"
+          },
+          "assist": {
+            "id": 118074,
+            "name": "Dario Špikić"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -106998,6 +107020,18 @@
           "player": {
             "id": 8966,
             "name": "Jakub Brabec"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 15,
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "player": {
+            "id": 202693,
+            "name": "Max Scholze"
           },
           "card": "YELLOW"
         }
@@ -107113,7 +107147,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 40454,
+          "name": "Carlos Macedo",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 128776,
+          "name": "Luís Costa",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 243566,
+          "name": "João Macedo",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {

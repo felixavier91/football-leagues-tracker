@@ -141857,14 +141857,14 @@
       "id": 537095,
       "utcDate": "2026-03-15T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 52,
+      "minute": 73,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Giuseppe Sinigaglia",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T19:13:28Z",
+      "lastUpdated": "2026-03-15T19:33:59Z",
       "homeTeam": {
         "id": 7397,
         "name": "Como 1907",
@@ -142184,10 +142184,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -142211,6 +142211,27 @@
           "assist": null,
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 59,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7397,
+            "name": "Como 1907"
+          },
+          "scorer": {
+            "id": 43285,
+            "name": "Anastasios Douvikas"
+          },
+          "assist": {
+            "id": 189493,
+            "name": "Alex Valle"
+          },
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
@@ -142240,6 +142261,30 @@
             "name": "Wesley"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 63,
+          "team": {
+            "id": 7397,
+            "name": "Como 1907"
+          },
+          "player": {
+            "id": 101350,
+            "name": "Maxence Caqueret"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 64,
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "player": {
+            "id": 179164,
+            "name": "Wesley"
+          },
+          "card": "YELLOW_RED"
         }
       ],
       "substitutions": [],
