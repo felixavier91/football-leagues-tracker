@@ -140821,14 +140821,14 @@
       "id": 537100,
       "utcDate": "2026-03-15T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 32,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Stadio Romeo Anconetani",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T15:33:07Z",
+      "lastUpdated": "2026-03-15T15:52:22Z",
       "homeTeam": {
         "id": 487,
         "name": "AC Pisa 1909",
@@ -141204,7 +141204,20 @@
           "scored": true
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 37,
+          "team": {
+            "id": 487,
+            "name": "AC Pisa 1909"
+          },
+          "player": {
+            "id": 216210,
+            "name": "Rafiu Durosinmi"
+          },
+          "card": "RED"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -141256,15 +141269,15 @@
       },
       "id": 537101,
       "utcDate": "2026-03-15T14:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 32,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Mapei - Citta del Tricolore",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T15:33:07Z",
+      "lastUpdated": "2026-03-15T15:52:22Z",
       "homeTeam": {
         "id": 471,
         "name": "US Sassuolo Calcio",
@@ -141609,8 +141622,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [

@@ -135929,14 +135929,14 @@
       "id": 538076,
       "utcDate": "2026-03-15T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 32,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Selhurst Park",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T15:32:41Z",
+      "lastUpdated": "2026-03-15T15:51:39Z",
       "homeTeam": {
         "id": 354,
         "name": "Crystal Palace FC",
@@ -136226,7 +136226,19 @@
         }
       },
       "goals": [],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 7839,
+            "name": "Dominic Calvert-Lewin"
+          },
+          "team": {
+            "id": 341,
+            "name": "Leeds United FC"
+          },
+          "scored": false
+        }
+      ],
       "bookings": [
         {
           "minute": 26,
@@ -136251,6 +136263,54 @@
             "name": "Jaka Bijol"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 44,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 8124,
+            "name": "Will Hughes"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 10727,
+            "name": "Oliver Glasner"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 341,
+            "name": "Leeds United FC"
+          },
+          "player": {
+            "id": 11323,
+            "name": "Daniel Farke"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 341,
+            "name": "Leeds United FC"
+          },
+          "player": {
+            "id": 31531,
+            "name": "Gabriel Gudmundsson"
+          },
+          "card": "YELLOW_RED"
         }
       ],
       "substitutions": [],
@@ -136304,15 +136364,15 @@
       },
       "id": 538082,
       "utcDate": "2026-03-15T14:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 32,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Old Trafford",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T15:32:41Z",
+      "lastUpdated": "2026-03-15T15:51:39Z",
       "homeTeam": {
         "id": 66,
         "name": "Manchester United FC",
@@ -136597,13 +136657,26 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 41,
+          "team": {
+            "id": 58,
+            "name": "Aston Villa FC"
+          },
+          "player": {
+            "id": 4444,
+            "name": "Ollie Watkins"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -136655,15 +136728,15 @@
       },
       "id": 538083,
       "utcDate": "2026-03-15T14:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 32,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "City Ground, Nottingham",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T15:32:41Z",
+      "lastUpdated": "2026-03-15T15:51:39Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -136948,8 +137021,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -136976,6 +137049,18 @@
           "player": {
             "id": 8973,
             "name": "Sander Berge"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 351,
+            "name": "Nottingham Forest FC"
+          },
+          "player": {
+            "id": 107330,
+            "name": "Elliot Anderson"
           },
           "card": "YELLOW"
         }

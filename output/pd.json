@@ -134819,14 +134819,14 @@
       "id": 544488,
       "utcDate": "2026-03-15T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 74,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 2,
       "attendance": 17879,
       "venue": "Estadi Mallorca Son Moix",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T15:32:37Z",
+      "lastUpdated": "2026-03-15T15:51:54Z",
       "homeTeam": {
         "id": 89,
         "name": "RCD Mallorca",
@@ -135078,6 +135078,12 @@
             "shirtNumber": 2
           },
           {
+            "id": 293731,
+            "name": "Adama Timera",
+            "position": null,
+            "shirtNumber": 27
+          },
+          {
             "id": 215544,
             "name": "Antoniu Roca",
             "position": "Right Winger",
@@ -135116,10 +135122,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -135166,6 +135172,27 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "scorer": {
+            "id": 140814,
+            "name": "Samuel Almeida Costa"
+          },
+          "assist": {
+            "id": 6713,
+            "name": "Omar Mascarell"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -135205,6 +135232,42 @@
             "name": "Charles Pickel"
           },
           "card": "RED"
+        },
+        {
+          "minute": 80,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 149049,
+            "name": "Tyrhys Dolan"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 85,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 186564,
+            "name": "Carlos Romero"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "player": {
+            "id": 2777,
+            "name": "Martin Valjent"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
