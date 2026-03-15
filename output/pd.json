@@ -135333,15 +135333,15 @@
       },
       "id": 544483,
       "utcDate": "2026-03-15T15:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 42,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 56483,
       "venue": "Camp Nou",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T17:01:10Z",
+      "lastUpdated": "2026-03-15T17:20:30Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -135659,11 +135659,11 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 3,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         }
       },
       "goals": [
@@ -135719,6 +135719,27 @@
           "score": {
             "home": 3,
             "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC"
+          },
+          "scorer": {
+            "id": 244751,
+            "name": "Oso"
+          },
+          "assist": {
+            "id": 180038,
+            "name": "Juanlu"
+          },
+          "score": {
+            "home": 3,
+            "away": 1
           }
         }
       ],
