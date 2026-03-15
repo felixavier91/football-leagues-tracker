@@ -116918,14 +116918,14 @@
       "id": 537676,
       "utcDate": "2026-03-15T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 24,
       "injuryTime": null,
       "attendance": null,
       "venue": "AFAS Stadion",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T14:31:46Z",
+      "lastUpdated": "2026-03-15T14:56:35Z",
       "homeTeam": {
         "id": 682,
         "name": "AZ",
@@ -117233,10 +117233,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -117244,7 +117244,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 5,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "scorer": {
+            "id": 131041,
+            "name": "Troy Parrott"
+          },
+          "assist": {
+            "id": 67899,
+            "name": "Mees De Wit"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -117299,14 +117321,14 @@
       "id": 537678,
       "utcDate": "2026-03-15T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 24,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Kuip",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T14:31:46Z",
+      "lastUpdated": "2026-03-15T14:56:36Z",
       "homeTeam": {
         "id": 675,
         "name": "Feyenoord Rotterdam",
@@ -117721,7 +117743,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 9561,
+          "name": "Allard Lindhout",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 14764,
+          "name": "Johan Balder",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 43874,
+          "name": "Mario Diks",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {

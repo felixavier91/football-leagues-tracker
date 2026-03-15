@@ -134818,15 +134818,15 @@
       },
       "id": 544488,
       "utcDate": "2026-03-15T13:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 29,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadi Mallorca Son Moix",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T14:30:58Z",
+      "lastUpdated": "2026-03-15T14:55:41Z",
       "homeTeam": {
         "id": 89,
         "name": "RCD Mallorca",
@@ -135116,20 +135116,67 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 36,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "scorer": {
+            "id": 30876,
+            "name": "Charles Pickel"
+          },
+          "assist": {
+            "id": 149049,
+            "name": "Tyrhys Dolan"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 31,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona"
+          },
+          "player": {
+            "id": 170833,
+            "name": "Clemens Riedel"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 40,
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "player": {
+            "id": 3724,
+            "name": "Johan Mojica"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
