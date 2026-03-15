@@ -135929,14 +135929,14 @@
       "id": 538076,
       "utcDate": "2026-03-15T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 47,
+      "minute": 69,
       "injuryTime": null,
       "attendance": null,
       "venue": "Selhurst Park",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T16:10:40Z",
+      "lastUpdated": "2026-03-15T16:32:25Z",
       "homeTeam": {
         "id": 354,
         "name": "Crystal Palace FC",
@@ -136311,6 +136311,18 @@
             "name": "Gabriel Gudmundsson"
           },
           "card": "YELLOW_RED"
+        },
+        {
+          "minute": 54,
+          "team": {
+            "id": 354,
+            "name": "Crystal Palace FC"
+          },
+          "player": {
+            "id": 124694,
+            "name": "Brennan Johnson"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -136365,14 +136377,14 @@
       "id": 538082,
       "utcDate": "2026-03-15T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 54,
+      "minute": 75,
       "injuryTime": null,
       "attendance": null,
       "venue": "Old Trafford",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T16:10:40Z",
+      "lastUpdated": "2026-03-15T16:32:25Z",
       "homeTeam": {
         "id": 66,
         "name": "Manchester United FC",
@@ -136650,11 +136662,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -136674,10 +136686,52 @@
             "id": 3231,
             "name": "Casemiro"
           },
-          "assist": null,
+          "assist": {
+            "id": 3257,
+            "name": "Bruno Fernandes"
+          },
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 64,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 58,
+            "name": "Aston Villa FC"
+          },
+          "scorer": {
+            "id": 7817,
+            "name": "Ross Barkley"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 71,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "scorer": {
+            "id": 30842,
+            "name": "Matheus Cunha"
+          },
+          "assist": {
+            "id": 3257,
+            "name": "Bruno Fernandes"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
           }
         }
       ],
@@ -136692,6 +136746,42 @@
           "player": {
             "id": 4444,
             "name": "Ollie Watkins"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 60,
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "player": {
+            "id": 3231,
+            "name": "Casemiro"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 69,
+          "team": {
+            "id": 58,
+            "name": "Aston Villa FC"
+          },
+          "player": {
+            "id": 31941,
+            "name": "Emiliano Buendía"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 72,
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "player": {
+            "id": 181933,
+            "name": "Leny Yoro"
           },
           "card": "YELLOW"
         }
@@ -136748,14 +136838,14 @@
       "id": 538083,
       "utcDate": "2026-03-15T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 53,
+      "minute": 74,
       "injuryTime": null,
       "attendance": null,
       "venue": "City Ground, Nottingham",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T16:10:41Z",
+      "lastUpdated": "2026-03-15T16:32:26Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -137082,6 +137172,18 @@
             "name": "Elliot Anderson"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 61,
+          "team": {
+            "id": 63,
+            "name": "Fulham FC"
+          },
+          "player": {
+            "id": 3927,
+            "name": "Antonee Robinson"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -137143,7 +137245,7 @@
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-09T01:32:05Z",
+      "lastUpdated": "2026-03-15T16:27:27Z",
       "homeTeam": {
         "id": 64,
         "name": "Liverpool FC",
@@ -137156,9 +137258,131 @@
           "nationality": "Netherlands"
         },
         "leagueRank": 6,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-2-3-1",
+        "lineup": [
+          {
+            "id": 1795,
+            "name": "Alisson",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 273453,
+            "name": "Rio Ngumoha",
+            "position": "Offence",
+            "shirtNumber": 73
+          },
+          {
+            "id": 7459,
+            "name": "Cody Gakpo",
+            "position": "Left Winger",
+            "shirtNumber": 18
+          },
+          {
+            "id": 16347,
+            "name": "Dominik Szoboszlai",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 19334,
+            "name": "Florian Wirtz",
+            "position": "Attacking Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 81793,
+            "name": "Ryan Gravenberch",
+            "position": "Defensive Midfield",
+            "shirtNumber": 38
+          },
+          {
+            "id": 45681,
+            "name": "Alexis Mac Allister",
+            "position": "Central Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 128954,
+            "name": "Jeremie Frimpong",
+            "position": "Right Midfield",
+            "shirtNumber": 30
+          },
+          {
+            "id": 7862,
+            "name": "Joe Gomez",
+            "position": "Centre-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 7869,
+            "name": "Virgil van Dijk",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 7868,
+            "name": "Andrew Robertson",
+            "position": "Left-Back",
+            "shirtNumber": 26
+          }
+        ],
+        "bench": [
+          {
+            "id": 84506,
+            "name": "Giorgi Mamardashvili",
+            "position": "Goalkeeper",
+            "shirtNumber": 25
+          },
+          {
+            "id": 3754,
+            "name": "Mohamed Salah",
+            "position": "Right Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 124778,
+            "name": "Calvin Ramsay",
+            "position": "Right-Back",
+            "shirtNumber": 47
+          },
+          {
+            "id": 230517,
+            "name": "Trey Nyoni",
+            "position": "Attacking Midfield",
+            "shirtNumber": 42
+          },
+          {
+            "id": 9542,
+            "name": "Ibrahima Konaté",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 171141,
+            "name": "Milos Kerkez",
+            "position": "Left-Back",
+            "shirtNumber": 6
+          },
+          {
+            "id": 7873,
+            "name": "Curtis Jones",
+            "position": "Central Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 152454,
+            "name": "Hugo Ekitike",
+            "position": "Centre-Forward",
+            "shirtNumber": 22
+          },
+          {
+            "id": 1780,
+            "name": "Federico Chiesa",
+            "position": "Right Winger",
+            "shirtNumber": 14
+          }
+        ]
       },
       "awayTeam": {
         "id": 73,
@@ -137172,9 +137396,119 @@
           "nationality": "Croatia"
         },
         "leagueRank": 16,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "3-4-2-1",
+        "lineup": [
+          {
+            "id": 3086,
+            "name": "Guglielmo Vicario",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 249465,
+            "name": "Souza",
+            "position": "Defence",
+            "shirtNumber": 38
+          },
+          {
+            "id": 7878,
+            "name": "Dominic Solanke",
+            "position": "Centre-Forward",
+            "shirtNumber": 19
+          },
+          {
+            "id": 171977,
+            "name": "Mathys Tel",
+            "position": "Centre-Forward",
+            "shirtNumber": 11
+          },
+          {
+            "id": 8133,
+            "name": "Richarlison",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 80775,
+            "name": "Djed Spence",
+            "position": "Right-Back",
+            "shirtNumber": 24
+          },
+          {
+            "id": 177040,
+            "name": "Archie Gray",
+            "position": "Right-Back",
+            "shirtNumber": 14
+          },
+          {
+            "id": 170391,
+            "name": "Pape Sarr",
+            "position": "Central Midfield",
+            "shirtNumber": 29
+          },
+          {
+            "id": 81037,
+            "name": "Pedro Porro",
+            "position": "Right-Back",
+            "shirtNumber": 23
+          },
+          {
+            "id": 6655,
+            "name": "Kevin Danso",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 140432,
+            "name": "Radu Drăgușin",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          }
+        ],
+        "bench": [
+          {
+            "id": 133229,
+            "name": "Brandon Austin",
+            "position": "Goalkeeper",
+            "shirtNumber": 40
+          },
+          {
+            "id": 255239,
+            "name": "Antonín Kinský",
+            "position": "Goalkeeper",
+            "shirtNumber": 31
+          },
+          {
+            "id": 288618,
+            "name": "James Rowswell",
+            "position": "Defence",
+            "shirtNumber": 76
+          },
+          {
+            "id": 272688,
+            "name": "Callum Olusesi",
+            "position": "Midfield",
+            "shirtNumber": 52
+          },
+          {
+            "id": 216418,
+            "name": "James Wilson",
+            "position": "Offence",
+            "shirtNumber": 79
+          },
+          {
+            "id": 148289,
+            "name": "Xavi Simons",
+            "position": "Attacking Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 8708,
+            "name": "Randal Kolo Muani",
+            "position": "Centre-Forward",
+            "shirtNumber": 39
+          }
+        ]
       },
       "score": {
         "winner": null,

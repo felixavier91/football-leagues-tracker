@@ -108544,15 +108544,15 @@
       },
       "id": 540632,
       "utcDate": "2026-03-15T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 41,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Wohninvest Weserstadion",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T16:11:02Z",
+      "lastUpdated": "2026-03-15T16:32:53Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -108560,9 +108560,9 @@
         "tla": "SVW",
         "crest": "https://crests.football-data.org/12.png",
         "coach": {
-          "id": 10549,
-          "name": "Christian Groß",
-          "nationality": "Germany"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 14,
         "formation": "4-3-3",
@@ -108698,9 +108698,9 @@
         "tla": "M05",
         "crest": "https://crests.football-data.org/15.png",
         "coach": {
-          "id": 77324,
-          "name": "Urs Fischer",
-          "nationality": "Switzerland"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 15,
         "formation": "3-5-2",
@@ -108710,12 +108710,6 @@
             "name": "Daniel Batz",
             "position": "Goalkeeper",
             "shirtNumber": 33
-          },
-          {
-            "id": 276971,
-            "name": "Kacper Potulski",
-            "position": "Defence",
-            "shirtNumber": 48
           },
           {
             "id": 114809,
@@ -108734,54 +108728,6 @@
             "name": "Paul Nebel",
             "position": "Midfield",
             "shirtNumber": 8
-          },
-          {
-            "id": 177460,
-            "name": "Nikolas Veratschnig",
-            "position": "Midfield",
-            "shirtNumber": 22
-          },
-          {
-            "id": 147832,
-            "name": "Sota Kawasaki",
-            "position": "Midfield",
-            "shirtNumber": 24
-          },
-          {
-            "id": 151458,
-            "name": "Armindo Sieb",
-            "position": "Offence",
-            "shirtNumber": 11
-          },
-          {
-            "id": 203211,
-            "name": "William Bøving",
-            "position": "Offence",
-            "shirtNumber": 14
-          },
-          {
-            "id": 6576,
-            "name": "Philipp Mwene",
-            "position": "Left-Back",
-            "shirtNumber": 2
-          },
-          {
-            "id": 184973,
-            "name": "Nelson Weiper",
-            "position": "Centre-Forward",
-            "shirtNumber": 44
-          },
-          {
-            "id": 6826,
-            "name": "Lennart Maloney",
-            "position": "Defensive Midfield",
-            "shirtNumber": 15
-          },
-          {
-            "id": 9994,
-            "name": "Maxim Leitsch",
-            "position": "Centre-Back",
-            "shirtNumber": 5
           },
           {
             "id": 152,
@@ -108818,6 +108764,12 @@
             "name": "Stefan Posch",
             "position": "Right-Back",
             "shirtNumber": 4
+          },
+          {
+            "id": 6576,
+            "name": "Philipp Mwene",
+            "position": "Left-Back",
+            "shirtNumber": 2
           }
         ],
         "bench": [
@@ -108874,12 +108826,6 @@
             "name": "Maxim Leitsch",
             "position": "Centre-Back",
             "shirtNumber": 5
-          },
-          {
-            "id": 6576,
-            "name": "Philipp Mwene",
-            "position": "Left-Back",
-            "shirtNumber": 2
           }
         ]
       },
@@ -108891,8 +108837,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -108992,7 +108938,7 @@
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T15:30:08Z",
+      "lastUpdated": "2026-03-15T16:18:53Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -109006,8 +108952,130 @@
         },
         "leagueRank": 8,
         "formation": "4-2-3-1",
-        "lineup": [],
-        "bench": []
+        "lineup": [
+          {
+            "id": 123287,
+            "name": "Noah Atubolu",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 265186,
+            "name": "Cyriaque Irié",
+            "position": "Offence",
+            "shirtNumber": 22
+          },
+          {
+            "id": 229272,
+            "name": "Ifechukwu Ogbus",
+            "position": "Offence",
+            "shirtNumber": 43
+          },
+          {
+            "id": 212309,
+            "name": "Johan Manzambi",
+            "position": "Offence",
+            "shirtNumber": 44
+          },
+          {
+            "id": 171186,
+            "name": "Jordy Makengo",
+            "position": "Left-Back",
+            "shirtNumber": 33
+          },
+          {
+            "id": 156629,
+            "name": "Igor Matanovic",
+            "position": "Centre-Forward",
+            "shirtNumber": 31
+          },
+          {
+            "id": 122651,
+            "name": "Philipp Treu",
+            "position": "Left-Back",
+            "shirtNumber": 29
+          },
+          {
+            "id": 3176,
+            "name": "Matthias Ginter",
+            "position": "Centre-Back",
+            "shirtNumber": 28
+          },
+          {
+            "id": 9501,
+            "name": "Lucas Höler",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 9452,
+            "name": "Maximilian Eggestein",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 175704,
+            "name": "Derry Scherhant",
+            "position": "Left Winger",
+            "shirtNumber": 7
+          }
+        ],
+        "bench": [
+          {
+            "id": 6614,
+            "name": "Florian Müller",
+            "position": "Goalkeeper",
+            "shirtNumber": 21
+          },
+          {
+            "id": 145293,
+            "name": "Yuito Suzuki",
+            "position": "Offence",
+            "shirtNumber": 14
+          },
+          {
+            "id": 6686,
+            "name": "Vincenzo Grifo",
+            "position": "Left Winger",
+            "shirtNumber": 32
+          },
+          {
+            "id": 9472,
+            "name": "Christian Günter",
+            "position": "Left-Back",
+            "shirtNumber": 30
+          },
+          {
+            "id": 6484,
+            "name": "Jan-Niklas Beste",
+            "position": "Left-Back",
+            "shirtNumber": 19
+          },
+          {
+            "id": 9473,
+            "name": "Lukas Kübler",
+            "position": "Right-Back",
+            "shirtNumber": 17
+          },
+          {
+            "id": 120962,
+            "name": "Patrick Osterhage",
+            "position": "Central Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 24097,
+            "name": "Anthony Jung",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 9477,
+            "name": "Philipp Lienhart",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          }
+        ]
       },
       "awayTeam": {
         "id": 28,
@@ -109022,8 +109090,130 @@
         },
         "leagueRank": 11,
         "formation": "3-5-2",
-        "lineup": [],
-        "bench": []
+        "lineup": [
+          {
+            "id": 144395,
+            "name": "Matheo Raab",
+            "position": "Goalkeeper",
+            "shirtNumber": 31
+          },
+          {
+            "id": 64934,
+            "name": "Derrick Köhn",
+            "position": "Defence",
+            "shirtNumber": 39
+          },
+          {
+            "id": 7029,
+            "name": "Tim Skarke",
+            "position": "Midfield",
+            "shirtNumber": 21
+          },
+          {
+            "id": 203039,
+            "name": "Stanley N'Soki",
+            "position": "Centre-Back",
+            "shirtNumber": 34
+          },
+          {
+            "id": 6828,
+            "name": "Christopher Trimmel",
+            "position": "Right-Back",
+            "shirtNumber": 28
+          },
+          {
+            "id": 182886,
+            "name": "Andrej Ilic",
+            "position": "Centre-Forward",
+            "shirtNumber": 23
+          },
+          {
+            "id": 9489,
+            "name": "Janik Haberer",
+            "position": "Central Midfield",
+            "shirtNumber": 19
+          },
+          {
+            "id": 211740,
+            "name": "Ilyas Ansah",
+            "position": "Left Winger",
+            "shirtNumber": 10
+          },
+          {
+            "id": 6657,
+            "name": "Rani Khedira",
+            "position": "Defensive Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 212285,
+            "name": "Livan Burcu",
+            "position": "Left Winger",
+            "shirtNumber": 9
+          },
+          {
+            "id": 67886,
+            "name": "Danilho Doekhi",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          }
+        ],
+        "bench": [
+          {
+            "id": 50717,
+            "name": "Carl Klaus",
+            "position": "Goalkeeper",
+            "shirtNumber": 25
+          },
+          {
+            "id": 279839,
+            "name": "Andrik Markgraf",
+            "position": "Defence",
+            "shirtNumber": 3
+          },
+          {
+            "id": 212115,
+            "name": "David Preu",
+            "position": "Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 62623,
+            "name": "Alex Král",
+            "position": "Central Midfield",
+            "shirtNumber": 33
+          },
+          {
+            "id": 23202,
+            "name": "Josip Juranović",
+            "position": "Right-Back",
+            "shirtNumber": 18
+          },
+          {
+            "id": 171757,
+            "name": "Tom Rothe",
+            "position": "Left-Back",
+            "shirtNumber": 15
+          },
+          {
+            "id": 72432,
+            "name": "Jeong Wooyeong",
+            "position": "Attacking Midfield",
+            "shirtNumber": 11
+          },
+          {
+            "id": 8027,
+            "name": "Oliver Burke",
+            "position": "Right Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 188299,
+            "name": "Aljoscha Kemlein",
+            "position": "Defensive Midfield",
+            "shirtNumber": 6
+          }
+        ]
       },
       "score": {
         "winner": null,
