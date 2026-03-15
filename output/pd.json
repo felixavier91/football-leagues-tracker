@@ -135334,14 +135334,14 @@
       "id": 544483,
       "utcDate": "2026-03-15T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 32,
+      "minute": 42,
       "injuryTime": null,
       "attendance": null,
       "venue": "Camp Nou",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T16:49:56Z",
+      "lastUpdated": "2026-03-15T17:01:10Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -135658,7 +135658,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -135702,6 +135702,24 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 38,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 23132,
+            "name": "Dani Olmo"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 0
+          }
         }
       ],
       "penalties": [
@@ -135728,7 +135746,20 @@
           "scored": true
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 37,
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC"
+          },
+          "player": {
+            "id": 21385,
+            "name": "Gabriel Suazo"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
