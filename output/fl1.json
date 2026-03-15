@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 230
+    "played": 231
   },
   "competition": {
     "id": 2015,
@@ -106221,15 +106221,15 @@
       },
       "id": 542631,
       "utcDate": "2026-03-15T16:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 79,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Stade Océane",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T18:51:15Z",
+      "lastUpdated": "2026-03-15T19:08:07Z",
       "homeTeam": {
         "id": 533,
         "name": "Le Havre AC",
@@ -106568,6 +106568,30 @@
             "name": "Paulo Fonseca"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 83,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "player": {
+            "id": 142456,
+            "name": "Tanner Tessmann"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 88,
+          "team": {
+            "id": 533,
+            "name": "Le Havre AC"
+          },
+          "player": {
+            "id": 20931,
+            "name": "Mory Diaw"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -106622,14 +106646,14 @@
       "id": 542634,
       "utcDate": "2026-03-15T16:15:00Z",
       "status": "IN_PLAY",
-      "minute": 76,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 9,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T18:51:15Z",
+      "lastUpdated": "2026-03-15T19:13:31Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -106907,10 +106931,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 3
         },
         "halfTime": {
@@ -107020,6 +107044,24 @@
             "home": 2,
             "away": 3
           }
+        },
+        {
+          "minute": 88,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "scorer": {
+            "id": 119294,
+            "name": "Giorgi Abuashvili"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 3
+          }
         }
       ],
       "penalties": [],
@@ -107033,6 +107075,18 @@
           "player": {
             "id": 283443,
             "name": "Alexis Vossah"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "player": {
+            "id": 180519,
+            "name": "Warren Kamanzi"
           },
           "card": "YELLOW"
         }
