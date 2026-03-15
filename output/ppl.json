@@ -106690,14 +106690,14 @@
       "id": 545926,
       "utcDate": "2026-03-15T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 61,
+      "minute": 78,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio do Rio Ave F.C.",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T20:16:35Z",
+      "lastUpdated": "2026-03-15T20:33:40Z",
       "homeTeam": {
         "id": 496,
         "name": "Rio Ave FC",
@@ -106979,7 +106979,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -107028,6 +107028,27 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 65,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "scorer": {
+            "id": 45350,
+            "name": "Rodrigo Pinho"
+          },
+          "assist": {
+            "id": 277809,
+            "name": "Robinho"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -107065,6 +107086,30 @@
           "player": {
             "id": 142162,
             "name": "Ole Pohlmann"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 67,
+          "team": {
+            "id": 496,
+            "name": "Rio Ave FC"
+          },
+          "player": {
+            "id": 135116,
+            "name": "Ennio van der Gouw"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 68,
+          "team": {
+            "id": 496,
+            "name": "Rio Ave FC"
+          },
+          "player": {
+            "id": 250777,
+            "name": "Ryan"
           },
           "card": "YELLOW"
         }
@@ -107128,7 +107173,7 @@
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T10:21:06Z",
+      "lastUpdated": "2026-03-15T20:29:47Z",
       "homeTeam": {
         "id": 503,
         "name": "FC Porto",
@@ -107141,9 +107186,131 @@
           "nationality": "Italy"
         },
         "leagueRank": 1,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 37362,
+            "name": "Diogo Costa",
+            "position": "Goalkeeper",
+            "shirtNumber": 99
+          },
+          {
+            "id": 227047,
+            "name": "Martim Fernandes",
+            "position": "Defence",
+            "shirtNumber": 52
+          },
+          {
+            "id": 221262,
+            "name": "Victor Froholdt",
+            "position": "Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 265174,
+            "name": "Oskar Pietuszewski",
+            "position": "Offence",
+            "shirtNumber": 77
+          },
+          {
+            "id": 188466,
+            "name": "Deniz Gul",
+            "position": "Offence",
+            "shirtNumber": 27
+          },
+          {
+            "id": 1166,
+            "name": "Pepê",
+            "position": "Left Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 153629,
+            "name": "Alan Varela",
+            "position": "Defensive Midfield",
+            "shirtNumber": 22
+          },
+          {
+            "id": 150519,
+            "name": "Gabriel Veiga",
+            "position": "Central Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 8086,
+            "name": "Jan Bednarek",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 147286,
+            "name": "Jakub Kiwior",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 125160,
+            "name": "Zaidu Sanusi",
+            "position": "Left-Back",
+            "shirtNumber": 12
+          }
+        ],
+        "bench": [
+          {
+            "id": 45217,
+            "name": "Cláudio Ramos",
+            "position": "Goalkeeper",
+            "shirtNumber": 14
+          },
+          {
+            "id": 216825,
+            "name": "Dominik Prpić",
+            "position": "Defence",
+            "shirtNumber": 21
+          },
+          {
+            "id": 39102,
+            "name": "William da Silva",
+            "position": "Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 261273,
+            "name": "Rodrigo Mora",
+            "position": "Midfield",
+            "shirtNumber": 86
+          },
+          {
+            "id": 98611,
+            "name": "Moura",
+            "position": "Left-Back",
+            "shirtNumber": 74
+          },
+          {
+            "id": 127034,
+            "name": "Borja Sainz",
+            "position": "Left Winger",
+            "shirtNumber": 17
+          },
+          {
+            "id": 7448,
+            "name": "Pablo Rosario",
+            "position": "Defensive Midfield",
+            "shirtNumber": 13
+          },
+          {
+            "id": 113427,
+            "name": "Terem Moffi",
+            "position": "Centre-Forward",
+            "shirtNumber": 29
+          },
+          {
+            "id": 2126,
+            "name": "Seko Fofana",
+            "position": "Central Midfield",
+            "shirtNumber": 42
+          }
+        ]
       },
       "awayTeam": {
         "id": 583,
@@ -107157,9 +107324,119 @@
           "nationality": "Portugal"
         },
         "leagueRank": 7,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 52791,
+            "name": "André Ferreira",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 262652,
+            "name": "Kiko",
+            "position": "Defence",
+            "shirtNumber": 27
+          },
+          {
+            "id": 245259,
+            "name": "Diogo Travassos",
+            "position": "Defence",
+            "shirtNumber": 2
+          },
+          {
+            "id": 191985,
+            "name": "Mateja Stjepanovic",
+            "position": "Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 274500,
+            "name": "Afonso Assis",
+            "position": "Midfield",
+            "shirtNumber": 25
+          },
+          {
+            "id": 191408,
+            "name": "Rodri Alonso",
+            "position": "Midfield",
+            "shirtNumber": 21
+          },
+          {
+            "id": 264054,
+            "name": "Landerson",
+            "position": "Offence",
+            "shirtNumber": 78
+          },
+          {
+            "id": 105208,
+            "name": "Kiko Bondoso",
+            "position": "Offence",
+            "shirtNumber": 10
+          },
+          {
+            "id": 169237,
+            "name": "Alanzinho",
+            "position": "Attacking Midfield",
+            "shirtNumber": 11
+          },
+          {
+            "id": 213097,
+            "name": "Gilberto Batista",
+            "position": "Centre-Back",
+            "shirtNumber": 66
+          },
+          {
+            "id": 13839,
+            "name": "Maracás",
+            "position": "Centre-Back",
+            "shirtNumber": 26
+          }
+        ],
+        "bench": [
+          {
+            "id": 45260,
+            "name": "Caio Secco",
+            "position": "Goalkeeper",
+            "shirtNumber": 22
+          },
+          {
+            "id": 79821,
+            "name": "Mika",
+            "position": "Goalkeeper",
+            "shirtNumber": 16
+          },
+          {
+            "id": 249408,
+            "name": "Kevyn Monteiro",
+            "position": "Defence",
+            "shirtNumber": 4
+          },
+          {
+            "id": 291863,
+            "name": "Miguel Silva",
+            "position": "Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 270448,
+            "name": "Jimi Gower",
+            "position": "Midfield",
+            "shirtNumber": 30
+          },
+          {
+            "id": 263535,
+            "name": "Nile John",
+            "position": "Midfield",
+            "shirtNumber": 23
+          },
+          {
+            "id": 211818,
+            "name": "Luís Semedo",
+            "position": "Offence",
+            "shirtNumber": 9
+          }
+        ]
       },
       "score": {
         "winner": null,
