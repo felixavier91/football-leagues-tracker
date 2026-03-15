@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 231
+    "played": 232
   },
   "competition": {
     "id": 2002,
@@ -108544,15 +108544,15 @@
       },
       "id": 540632,
       "utcDate": "2026-03-15T14:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 1,
+      "injuryTime": 5,
       "attendance": 41800,
       "venue": "Wohninvest Weserstadion",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T17:20:49Z",
+      "lastUpdated": "2026-03-15T17:25:50Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -108975,15 +108975,15 @@
       },
       "id": 540636,
       "utcDate": "2026-03-15T16:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 9,
       "injuryTime": null,
       "attendance": null,
       "venue": "Europa-Park Stadion",
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T16:34:42Z",
+      "lastUpdated": "2026-03-15T17:39:52Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -109261,11 +109261,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -109334,7 +109334,7 @@
       "matchday": 26,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T10:21:05Z",
+      "lastUpdated": "2026-03-15T17:30:06Z",
       "homeTeam": {
         "id": 10,
         "name": "VfB Stuttgart",
@@ -109347,7 +109347,7 @@
           "nationality": "Germany"
         },
         "leagueRank": 4,
-        "formation": null,
+        "formation": "4-2-3-1",
         "lineup": [],
         "bench": []
       },
@@ -109363,7 +109363,7 @@
           "nationality": "Germany"
         },
         "leagueRank": 5,
-        "formation": null,
+        "formation": "4-3-3",
         "lineup": [],
         "bench": []
       },
@@ -109386,7 +109386,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 8825,
+          "name": "Deniz Aytekin",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        },
+        {
+          "id": 57505,
+          "name": "Christian Leicher",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Germany"
+        },
+        {
+          "id": 58443,
+          "name": "Tobias Schultes",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Germany"
+        }
+      ]
     },
     {
       "area": {

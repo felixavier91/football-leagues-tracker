@@ -117905,15 +117905,15 @@
       },
       "id": 537679,
       "utcDate": "2026-03-15T15:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 36,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Adelaarshorst",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-15T17:21:25Z",
+      "lastUpdated": "2026-03-15T17:40:50Z",
       "homeTeam": {
         "id": 718,
         "name": "Go Ahead Eagles",
@@ -118224,12 +118224,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         }
       },
       "goals": [
@@ -118251,6 +118251,48 @@
           },
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 41,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 718,
+            "name": "Go Ahead Eagles"
+          },
+          "scorer": {
+            "id": 117884,
+            "name": "Stefán Ingi Sigurðarson"
+          },
+          "assist": {
+            "id": 248997,
+            "name": "Jaden Slory"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 718,
+            "name": "Go Ahead Eagles"
+          },
+          "scorer": {
+            "id": 144367,
+            "name": "Jakob Breum"
+          },
+          "assist": {
+            "id": 144445,
+            "name": "Victor Edvardsen"
+          },
+          "score": {
+            "home": 3,
             "away": 0
           }
         }
