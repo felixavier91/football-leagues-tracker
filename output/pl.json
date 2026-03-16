@@ -137672,14 +137672,14 @@
       "id": 538078,
       "utcDate": "2026-03-16T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 61,
+      "minute": 81,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 17155,
       "venue": "Brentford Community Stadium",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-16T22:19:58Z",
+      "lastUpdated": "2026-03-16T22:40:08Z",
       "homeTeam": {
         "id": 402,
         "name": "Brentford FC",
@@ -137957,11 +137957,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 2,
@@ -138031,6 +138031,27 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 77,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "scorer": {
+            "id": 120981,
+            "name": "Toluwalas Arokodare"
+          },
+          "assist": {
+            "id": 138034,
+            "name": "João Gomes"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -138068,6 +138089,18 @@
           "player": {
             "id": 115642,
             "name": "Nathan Collins"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 77,
+          "team": {
+            "id": 402,
+            "name": "Brentford FC"
+          },
+          "player": {
+            "id": 16068,
+            "name": "Kristoffer Ajer"
           },
           "card": "YELLOW"
         }
