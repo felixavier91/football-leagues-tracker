@@ -137672,14 +137672,14 @@
       "id": 538078,
       "utcDate": "2026-03-16T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 16,
+      "minute": 35,
       "injuryTime": null,
       "attendance": null,
       "venue": "Brentford Community Stadium",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-16T21:16:39Z",
+      "lastUpdated": "2026-03-16T21:35:44Z",
       "homeTeam": {
         "id": 402,
         "name": "Brentford FC",
@@ -137692,7 +137692,7 @@
           "nationality": "Ireland"
         },
         "leagueRank": 7,
-        "formation": "4-2-3-1",
+        "formation": "4-1-4-1",
         "lineup": [
           {
             "id": 102046,
@@ -137957,10 +137957,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -137968,9 +137968,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 402,
+            "name": "Brentford FC"
+          },
+          "scorer": {
+            "id": 204348,
+            "name": "Michael Kayode"
+          },
+          "assist": {
+            "id": 101910,
+            "name": "Keane Lewis-Potter"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 24,
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "player": {
+            "id": 4863,
+            "name": "Adam Armstrong"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
