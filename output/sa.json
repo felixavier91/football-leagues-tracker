@@ -142839,14 +142839,14 @@
       "id": 537104,
       "utcDate": "2026-03-16T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 10,
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Giovanni Zini",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-16T20:56:19Z",
+      "lastUpdated": "2026-03-16T21:17:09Z",
       "homeTeam": {
         "id": 457,
         "name": "US Cremonese",
@@ -143160,20 +143160,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 25,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "scorer": {
+            "id": 129801,
+            "name": "Fabiano Parisi"
+          },
+          "assist": {
+            "id": 2230,
+            "name": "Rolando Mandragora"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 27,
+          "team": {
+            "id": 457,
+            "name": "US Cremonese"
+          },
+          "player": {
+            "id": 156527,
+            "name": "Warren Bondo"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
