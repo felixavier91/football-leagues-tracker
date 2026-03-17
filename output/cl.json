@@ -83817,14 +83817,14 @@
       "id": 552082,
       "utcDate": "2026-03-17T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 105,
-      "injuryTime": null,
+      "minute": 120,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Estadio Jose Alvalade",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-17T20:58:33Z",
+      "lastUpdated": "2026-03-17T21:19:47Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -84313,6 +84313,30 @@
             "name": "Nuno Santos"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 105,
+          "team": {
+            "id": 5721,
+            "name": "FK Bodø/Glimt"
+          },
+          "player": {
+            "id": 182005,
+            "name": "Daniel Bassi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 118,
+          "team": {
+            "id": 5721,
+            "name": "FK Bodø/Glimt"
+          },
+          "player": {
+            "id": 37925,
+            "name": "Ulrik Saltnes"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -84371,15 +84395,15 @@
       },
       "id": 552076,
       "utcDate": "2026-03-17T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stamford Bridge",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-17T19:51:36Z",
+      "lastUpdated": "2026-03-17T21:19:46Z",
       "homeTeam": {
         "id": 61,
         "name": "Chelsea FC",
@@ -84687,18 +84711,58 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 6,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 113285,
+            "name": "Khvicha Kvaratskhelia"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 14,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 172762,
+            "name": "Bradley Barcola"
+          },
+          "assist": {
+            "id": 53,
+            "name": "Achraf Hakimi"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -84757,15 +84821,15 @@
       },
       "id": 552078,
       "utcDate": "2026-03-17T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Etihad Stadium",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-17T19:57:46Z",
+      "lastUpdated": "2026-03-17T21:19:46Z",
       "homeTeam": {
         "id": 65,
         "name": "Manchester City FC",
@@ -84778,7 +84842,7 @@
           "nationality": "Spain"
         },
         "leagueRank": null,
-        "formation": "4-1-4-1",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 1731,
@@ -85079,11 +85143,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -85149,15 +85213,15 @@
       },
       "id": 552083,
       "utcDate": "2026-03-17T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Emirates Stadium",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-17T19:55:45Z",
+      "lastUpdated": "2026-03-17T21:19:46Z",
       "homeTeam": {
         "id": 57,
         "name": "Arsenal FC",
@@ -85447,11 +85511,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
