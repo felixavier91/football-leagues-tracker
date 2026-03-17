@@ -6,7 +6,7 @@
     "count": 189,
     "first": "2025-09-16",
     "last": "2026-05-30",
-    "played": 168
+    "played": 169
   },
   "competition": {
     "id": 2001,
@@ -83816,15 +83816,15 @@
       },
       "id": 552082,
       "utcDate": "2026-03-17T17:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 120,
-      "injuryTime": 1,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Estadio Jose Alvalade",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-17T21:19:47Z",
+      "lastUpdated": "2026-03-17T21:24:23Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -84141,7 +84141,7 @@
         "winner": "HOME_TEAM",
         "duration": "EXTRA_TIME",
         "fullTime": {
-          "home": 4,
+          "home": 5,
           "away": 0
         },
         "halfTime": {
@@ -84153,7 +84153,7 @@
           "away": 0
         },
         "extraTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         }
       },
@@ -84236,6 +84236,27 @@
           },
           "score": {
             "home": 4,
+            "away": 0
+          }
+        },
+        {
+          "minute": 120,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scorer": {
+            "id": 247303,
+            "name": "Rafael Nel"
+          },
+          "assist": {
+            "id": 102336,
+            "name": "Daniel Bragança"
+          },
+          "score": {
+            "home": 5,
             "away": 0
           }
         }
@@ -84396,14 +84417,14 @@
       "id": 552076,
       "utcDate": "2026-03-17T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 19,
+      "minute": 39,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stamford Bridge",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-17T21:19:46Z",
+      "lastUpdated": "2026-03-17T21:39:35Z",
       "homeTeam": {
         "id": 61,
         "name": "Chelsea FC",
@@ -84822,14 +84843,14 @@
       "id": 552078,
       "utcDate": "2026-03-17T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 19,
+      "minute": 39,
       "injuryTime": null,
       "attendance": null,
       "venue": "Etihad Stadium",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-17T21:19:46Z",
+      "lastUpdated": "2026-03-17T21:39:36Z",
       "homeTeam": {
         "id": 65,
         "name": "Manchester City FC",
@@ -85143,20 +85164,76 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 1556,
+            "name": "Vinicius Junior"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 1556,
+            "name": "Vinicius Junior"
+          },
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 20,
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "player": {
+            "id": 3254,
+            "name": "Bernardo Silva"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 25,
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "player": {
+            "id": 11603,
+            "name": "Pep Guardiola"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -85214,14 +85291,14 @@
       "id": 552083,
       "utcDate": "2026-03-17T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 19,
+      "minute": 39,
       "injuryTime": null,
       "attendance": null,
       "venue": "Emirates Stadium",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-17T21:19:46Z",
+      "lastUpdated": "2026-03-17T21:39:36Z",
       "homeTeam": {
         "id": 57,
         "name": "Arsenal FC",
@@ -85511,10 +85588,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -85522,7 +85599,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 36,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 57,
+            "name": "Arsenal FC"
+          },
+          "scorer": {
+            "id": 4032,
+            "name": "Eberechi Eze"
+          },
+          "assist": {
+            "id": 8984,
+            "name": "Leandro Trossard"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
