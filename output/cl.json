@@ -84417,14 +84417,14 @@
       "id": 552076,
       "utcDate": "2026-03-17T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 39,
+      "minute": 84,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stamford Bridge",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-17T21:39:35Z",
+      "lastUpdated": "2026-03-17T22:40:49Z",
       "homeTeam": {
         "id": 61,
         "name": "Chelsea FC",
@@ -84736,11 +84736,11 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "goals": [
@@ -84781,6 +84781,27 @@
           "score": {
             "home": 0,
             "away": 2
+          }
+        },
+        {
+          "minute": 62,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 246066,
+            "name": "Senny Mayulu"
+          },
+          "assist": {
+            "id": 53,
+            "name": "Achraf Hakimi"
+          },
+          "score": {
+            "home": 0,
+            "away": 3
           }
         }
       ],
@@ -84843,14 +84864,14 @@
       "id": 552078,
       "utcDate": "2026-03-17T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 39,
+      "minute": 81,
       "injuryTime": null,
       "attendance": null,
       "venue": "Etihad Stadium",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-17T21:39:36Z",
+      "lastUpdated": "2026-03-17T22:40:49Z",
       "homeTeam": {
         "id": 65,
         "name": "Manchester City FC",
@@ -85164,15 +85185,15 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -85191,6 +85212,24 @@
           "assist": null,
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 41,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "scorer": {
+            "id": 38101,
+            "name": "Erling Haaland"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
@@ -85230,6 +85269,42 @@
           "player": {
             "id": 11603,
             "name": "Pep Guardiola"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC"
+          },
+          "player": {
+            "id": 212868,
+            "name": "Abdukodir Khusanov"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 76,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "player": {
+            "id": 3374,
+            "name": "Kylian Mbappé"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 80,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "player": {
+            "id": 7867,
+            "name": "Trent Alexander-Arnold"
           },
           "card": "YELLOW"
         }
@@ -85291,14 +85366,14 @@
       "id": 552083,
       "utcDate": "2026-03-17T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 39,
+      "minute": 85,
       "injuryTime": null,
       "attendance": null,
       "venue": "Emirates Stadium",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-17T21:39:36Z",
+      "lastUpdated": "2026-03-17T22:40:49Z",
       "homeTeam": {
         "id": 57,
         "name": "Arsenal FC",
@@ -85591,12 +85666,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -85620,10 +85695,41 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 63,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 57,
+            "name": "Arsenal FC"
+          },
+          "scorer": {
+            "id": 8215,
+            "name": "Declan Rice"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 46,
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "player": {
+            "id": 11720,
+            "name": "Exequiel Palacios"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
