@@ -83817,14 +83817,14 @@
       "id": 552082,
       "utcDate": "2026-03-17T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 62,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Estadio Jose Alvalade",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-17T20:04:18Z",
+      "lastUpdated": "2026-03-17T20:34:34Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -84141,7 +84141,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -84170,9 +84170,60 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 61,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scorer": {
+            "id": 92050,
+            "name": "Pedro Gonçalves"
+          },
+          "assist": {
+            "id": 32386,
+            "name": "Luis Suárez"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 78,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scorer": {
+            "id": 32386,
+            "name": "Luis Suárez"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 0
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 32386,
+            "name": "Luis Suárez"
+          },
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 6,
@@ -84195,6 +84246,30 @@
           "player": {
             "id": 73998,
             "name": "Morten Hjulmand"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 68,
+          "team": {
+            "id": 5721,
+            "name": "FK Bodø/Glimt"
+          },
+          "player": {
+            "id": 184735,
+            "name": "Kasper Högh"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 74,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 176840,
+            "name": "Ivan Fresneda"
           },
           "card": "YELLOW"
         }
