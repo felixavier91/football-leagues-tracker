@@ -83816,15 +83816,15 @@
       },
       "id": 552082,
       "utcDate": "2026-03-17T17:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 17,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Alvalade",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-17T17:39:08Z",
+      "lastUpdated": "2026-03-17T19:03:08Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -84138,11 +84138,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -84151,7 +84151,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 6,
+          "team": {
+            "id": 5721,
+            "name": "FK Bodø/Glimt"
+          },
+          "player": {
+            "id": 167108,
+            "name": "Ole Blomberg"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -84268,7 +84281,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 9351,
+          "name": "Slavko Vinčič",
+          "type": "REFEREE",
+          "nationality": "Slovenia"
+        },
+        {
+          "id": 9349,
+          "name": "Tomaž Klančnik",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Slovenia"
+        },
+        {
+          "id": 43934,
+          "name": "Andraž Kovačič",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Slovenia"
+        }
+      ]
     },
     {
       "area": {
@@ -84361,7 +84393,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 9374,
+          "name": "Clément Turpin",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 43883,
+          "name": "Nicolas Danos",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 57035,
+          "name": "Benjamin Pages",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
