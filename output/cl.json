@@ -83817,14 +83817,14 @@
       "id": 552082,
       "utcDate": "2026-03-17T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 90,
-      "injuryTime": 1,
+      "minute": 105,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Alvalade",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-17T20:34:34Z",
+      "lastUpdated": "2026-03-17T20:58:33Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -84139,12 +84139,20 @@
       },
       "score": {
         "winner": "HOME_TEAM",
-        "duration": "REGULAR",
+        "duration": "EXTRA_TIME",
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 0
         },
         "halfTime": {
+          "home": 1,
+          "away": 0
+        },
+        "regularTime": {
+          "home": 3,
+          "away": 0
+        },
+        "extraTime": {
           "home": 1,
           "away": 0
         }
@@ -84209,6 +84217,27 @@
             "home": 3,
             "away": 0
           }
+        },
+        {
+          "minute": 92,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scorer": {
+            "id": 28770,
+            "name": "Maximiliano Araújo"
+          },
+          "assist": {
+            "id": 37332,
+            "name": "Trincão"
+          },
+          "score": {
+            "home": 4,
+            "away": 0
+          }
         }
       ],
       "penalties": [
@@ -84270,6 +84299,18 @@
           "player": {
             "id": 176840,
             "name": "Ivan Fresneda"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 104,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 45463,
+            "name": "Nuno Santos"
           },
           "card": "YELLOW"
         }
