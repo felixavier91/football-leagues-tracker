@@ -85808,14 +85808,14 @@
       "id": 552080,
       "utcDate": "2026-03-18T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 26,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Camp Nou",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-18T19:11:38Z",
+      "lastUpdated": "2026-03-18T19:35:53Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -86129,11 +86129,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": null,
@@ -86203,6 +86203,27 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 28,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "scorer": {
+            "id": 166376,
+            "name": "Anthony Elanga"
+          },
+          "assist": {
+            "id": 8076,
+            "name": "Harvey Barnes"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -86216,6 +86237,18 @@
           "player": {
             "id": 10653,
             "name": "Joelinton"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 44,
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "player": {
+            "id": 217540,
+            "name": "Pau Cubarsí"
           },
           "card": "YELLOW"
         }
