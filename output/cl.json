@@ -85807,15 +85807,15 @@
       },
       "id": 552080,
       "utcDate": "2026-03-18T17:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 26,
       "injuryTime": null,
       "attendance": null,
       "venue": "Camp Nou",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-18T17:44:59Z",
+      "lastUpdated": "2026-03-18T19:11:38Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -86129,20 +86129,97 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 6,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 37428,
+            "name": "Raphinha"
+          },
+          "assist": {
+            "id": 214533,
+            "name": "Fermín López"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 15,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "scorer": {
+            "id": 166376,
+            "name": "Anthony Elanga"
+          },
+          "assist": {
+            "id": 176852,
+            "name": "Lewis Hall"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 18,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 264321,
+            "name": "Marc Bernal"
+          },
+          "assist": {
+            "id": 264320,
+            "name": "Gerard Martín"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 17,
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC"
+          },
+          "player": {
+            "id": 10653,
+            "name": "Joelinton"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
