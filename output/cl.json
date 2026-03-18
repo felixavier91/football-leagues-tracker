@@ -86444,15 +86444,15 @@
       },
       "id": 552077,
       "utcDate": "2026-03-18T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 35,
       "injuryTime": null,
       "attendance": null,
       "venue": "Anfield",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-18T19:50:05Z",
+      "lastUpdated": "2026-03-18T21:35:18Z",
       "homeTeam": {
         "id": 64,
         "name": "Liverpool FC",
@@ -86760,18 +86760,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 25,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "scorer": {
+            "id": 16347,
+            "name": "Dominik Szoboszlai"
+          },
+          "assist": {
+            "id": 45681,
+            "name": "Alexis Mac Allister"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -86830,15 +86852,15 @@
       },
       "id": 552079,
       "utcDate": "2026-03-18T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 34,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Arena",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-18T20:01:44Z",
+      "lastUpdated": "2026-03-18T21:35:18Z",
       "homeTeam": {
         "id": 5,
         "name": "FC Bayern München",
@@ -87134,19 +87156,50 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 25,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 8004,
+            "name": "Harry Kane"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 8004,
+            "name": "Harry Kane"
+          },
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {
@@ -87204,15 +87257,15 @@
       },
       "id": 552081,
       "utcDate": "2026-03-18T20:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 35,
       "injuryTime": null,
       "attendance": null,
       "venue": "Tottenham Hotspur Stadium",
       "matchday": 2,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-03-18T19:49:55Z",
+      "lastUpdated": "2026-03-18T21:35:18Z",
       "homeTeam": {
         "id": 73,
         "name": "Tottenham Hotspur FC",
@@ -87225,7 +87278,7 @@
           "nationality": "Croatia"
         },
         "leagueRank": null,
-        "formation": "5-4-1",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 3086,
@@ -87508,20 +87561,55 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC"
+          },
+          "scorer": {
+            "id": 8708,
+            "name": "Randal Kolo Muani"
+          },
+          "assist": {
+            "id": 171977,
+            "name": "Mathys Tel"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 28,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "player": {
+            "id": 151241,
+            "name": "Matteo Ruggeri"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
