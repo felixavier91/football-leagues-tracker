@@ -137417,14 +137417,14 @@
       "id": 544500,
       "utcDate": "2026-03-20T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 14,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio de la Cerámica",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-20T21:00:44Z",
+      "lastUpdated": "2026-03-20T21:15:29Z",
       "homeTeam": {
         "id": 94,
         "name": "Villarreal CF",
@@ -137726,10 +137726,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -137737,7 +137737,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 7,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF"
+          },
+          "scorer": {
+            "id": 32719,
+            "name": "Gerard Moreno"
+          },
+          "assist": {
+            "id": 213263,
+            "name": "Santi Comesaña"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
