@@ -107603,14 +107603,14 @@
       "id": 545935,
       "utcDate": "2026-03-20T20:15:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 15,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Gomes",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-20T21:16:00Z",
+      "lastUpdated": "2026-03-20T21:33:47Z",
       "homeTeam": {
         "id": 9136,
         "name": "CF Estrela da Amadora",
@@ -107623,7 +107623,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 14,
-        "formation": "4-2-3-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 45159,
@@ -107888,10 +107888,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -107899,9 +107899,53 @@
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
+      "goals": [
+        {
+          "minute": 12,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "scorer": {
+            "id": 45350,
+            "name": "Rodrigo Pinho"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 45350,
+            "name": "Rodrigo Pinho"
+          },
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 4,
+          "team": {
+            "id": 6618,
+            "name": "Casa Pia AC"
+          },
+          "player": {
+            "id": 274982,
+            "name": "Kaly"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
