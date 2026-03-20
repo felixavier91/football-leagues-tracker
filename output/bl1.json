@@ -109771,15 +109771,15 @@
       },
       "id": 540647,
       "utcDate": "2026-03-20T19:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 17,
       "injuryTime": null,
       "attendance": null,
       "venue": "Red Bull Arena Leipzig",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-20T19:19:42Z",
+      "lastUpdated": "2026-03-20T20:47:16Z",
       "homeTeam": {
         "id": 721,
         "name": "RB Leipzig",
@@ -110057,11 +110057,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -110070,7 +110070,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 15,
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "player": {
+            "id": 9537,
+            "name": "Willi Orban"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
