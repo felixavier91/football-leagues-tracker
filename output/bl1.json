@@ -109772,14 +109772,14 @@
       "id": 540647,
       "utcDate": "2026-03-20T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 17,
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Red Bull Arena Leipzig",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-20T20:47:16Z",
+      "lastUpdated": "2026-03-20T21:01:28Z",
       "homeTeam": {
         "id": 721,
         "name": "RB Leipzig",
@@ -110057,10 +110057,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -110068,7 +110068,68 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 17,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "scorer": {
+            "id": 191102,
+            "name": "Brajan Gruda"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 21,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "scorer": {
+            "id": 56829,
+            "name": "Christoph Baumgartner"
+          },
+          "assist": {
+            "id": 9905,
+            "name": "David Raum"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "scorer": {
+            "id": 56829,
+            "name": "Christoph Baumgartner"
+          },
+          "assist": {
+            "id": 191102,
+            "name": "Brajan Gruda"
+          },
+          "score": {
+            "home": 3,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -110080,6 +110141,18 @@
           "player": {
             "id": 9537,
             "name": "Willi Orban"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 23,
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "player": {
+            "id": 9540,
+            "name": "Bernardo"
           },
           "card": "YELLOW"
         }
