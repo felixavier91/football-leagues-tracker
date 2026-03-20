@@ -143344,15 +143344,15 @@
       },
       "id": 537109,
       "utcDate": "2026-03-20T17:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 16,
       "injuryTime": null,
       "attendance": null,
       "venue": "Unipol Domus",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-20T17:45:59Z",
+      "lastUpdated": "2026-03-20T18:46:33Z",
       "homeTeam": {
         "id": 104,
         "name": "Cagliari Calcio",
@@ -143660,18 +143660,37 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 2,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "scorer": {
+            "id": 7905,
+            "name": "Scott McTominay"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -143785,7 +143804,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 97848,
+          "name": "Giuseppe Collu",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 10991,
+          "name": "Giorgio Peretti",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 267943,
+          "name": "Simone Biffi",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {
