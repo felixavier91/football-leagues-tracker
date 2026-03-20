@@ -107602,15 +107602,15 @@
       },
       "id": 545935,
       "utcDate": "2026-03-20T20:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 35,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Gomes",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-20T21:53:20Z",
+      "lastUpdated": "2026-03-20T22:12:05Z",
       "homeTeam": {
         "id": 9136,
         "name": "CF Estrela da Amadora",
@@ -107891,12 +107891,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         }
       },
       "goals": [
@@ -107915,6 +107915,45 @@
           "assist": null,
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 37,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "scorer": {
+            "id": 151113,
+            "name": "Abraham Marcus"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "scorer": {
+            "id": 45350,
+            "name": "Rodrigo Pinho"
+          },
+          "assist": {
+            "id": 151113,
+            "name": "Abraham Marcus"
+          },
+          "score": {
+            "home": 3,
             "away": 0
           }
         }
@@ -107954,6 +107993,18 @@
           "player": {
             "id": 143609,
             "name": "Bernardo"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "player": {
+            "id": 277809,
+            "name": "Robinho"
           },
           "card": "YELLOW"
         }

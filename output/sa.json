@@ -143794,14 +143794,14 @@
       "id": 537110,
       "utcDate": "2026-03-20T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 48,
+      "minute": 68,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Luigi Ferraris",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-20T21:52:55Z",
+      "lastUpdated": "2026-03-20T22:11:44Z",
       "homeTeam": {
         "id": 107,
         "name": "Genoa CFC",
@@ -144103,18 +144103,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 66,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "scorer": {
+            "id": 7567,
+            "name": "Jurgen Ekkelenkamp"
+          },
+          "assist": {
+            "id": 2013,
+            "name": "Nicolò Zaniolo"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -144126,6 +144148,30 @@
           "player": {
             "id": 822,
             "name": "Hassane Kamara"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 56,
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "player": {
+            "id": 2013,
+            "name": "Nicolò Zaniolo"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 64,
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio"
+          },
+          "player": {
+            "id": 3896,
+            "name": "Keinan Davis"
           },
           "card": "YELLOW"
         }
