@@ -138181,14 +138181,14 @@
       "id": 538085,
       "utcDate": "2026-03-20T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 76,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Vitality Stadium",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-20T22:32:43Z",
+      "lastUpdated": "2026-03-20T22:49:58Z",
       "homeTeam": {
         "id": 1044,
         "name": "AFC Bournemouth",
@@ -138466,10 +138466,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 2
         },
         "halfTime": {
@@ -138534,6 +138534,24 @@
             "home": 1,
             "away": 2
           }
+        },
+        {
+          "minute": 81,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 1044,
+            "name": "AFC Bournemouth"
+          },
+          "scorer": {
+            "id": 204241,
+            "name": "Eli Kroupi"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -138545,6 +138563,17 @@
           "team": {
             "id": 66,
             "name": "Manchester United FC"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 204241,
+            "name": "Eli Kroupi"
+          },
+          "team": {
+            "id": 1044,
+            "name": "AFC Bournemouth"
           },
           "scored": true
         }
@@ -138571,6 +138600,30 @@
           "player": {
             "id": 227048,
             "name": "Álex Jiménez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 78,
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC"
+          },
+          "player": {
+            "id": 3326,
+            "name": "Harry Maguire"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1044,
+            "name": "AFC Bournemouth"
+          },
+          "player": {
+            "id": 8231,
+            "name": "Adam Smith"
           },
           "card": "YELLOW"
         }
