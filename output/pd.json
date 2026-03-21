@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 282
+    "played": 283
   },
   "competition": {
     "id": 2014,
@@ -138416,15 +138416,15 @@
       },
       "id": 544494,
       "utcDate": "2026-03-21T15:15:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 8,
+      "injuryTime": 9,
       "attendance": 27577,
       "venue": "Stage Front Stadium",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T18:24:21Z",
+      "lastUpdated": "2026-03-21T18:27:17Z",
       "homeTeam": {
         "id": 80,
         "name": "RCD Espanyol de Barcelona",
@@ -138917,6 +138917,18 @@
             "name": "Edu Expósito"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "player": {
+            "id": 213274,
+            "name": "Kiko Femenía"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -138970,15 +138982,15 @@
       },
       "id": 544495,
       "utcDate": "2026-03-21T17:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 10,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Ciudad de Valencia",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T17:32:45Z",
+      "lastUpdated": "2026-03-21T18:41:11Z",
       "homeTeam": {
         "id": 88,
         "name": "Levante UD",
@@ -139147,7 +139159,7 @@
           "nationality": "Uruguay"
         },
         "leagueRank": 20,
-        "formation": "4-4-2",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 32016,
@@ -139280,18 +139292,37 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 4,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 88,
+            "name": "Levante UD"
+          },
+          "scorer": {
+            "id": 247061,
+            "name": "Carlos Espí"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -139345,15 +139376,15 @@
       },
       "id": 544499,
       "utcDate": "2026-03-21T17:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 10,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio El Sadar",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T17:37:28Z",
+      "lastUpdated": "2026-03-21T18:41:11Z",
       "homeTeam": {
         "id": 79,
         "name": "CA Osasuna",
@@ -139649,11 +139680,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
