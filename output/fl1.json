@@ -108145,14 +108145,14 @@
       "id": 542643,
       "utcDate": "2026-03-21T16:00:00Z",
       "status": "IN_PLAY",
-      "minute": 80,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Stadium de Toulouse",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T18:41:44Z",
+      "lastUpdated": "2026-03-21T18:56:56Z",
       "homeTeam": {
         "id": 511,
         "name": "Toulouse FC",
@@ -108430,10 +108430,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -108441,7 +108441,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 81,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "scorer": {
+            "id": 176628,
+            "name": "Emersonn"
+          },
+          "assist": {
+            "id": 81229,
+            "name": "Cristian Cásseres Jr."
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -108477,6 +108499,18 @@
           "player": {
             "id": 220601,
             "name": "Abdoulaye Faye"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 86,
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "player": {
+            "id": 192688,
+            "name": "Aron Dönnum"
           },
           "card": "YELLOW"
         }

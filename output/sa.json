@@ -144769,15 +144769,15 @@
       },
       "id": 537106,
       "utcDate": "2026-03-21T17:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 39,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T18:41:34Z",
+      "lastUpdated": "2026-03-21T18:56:47Z",
       "homeTeam": {
         "id": 98,
         "name": "AC Milan",
@@ -145085,15 +145085,15 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -145113,6 +145113,24 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 44,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "scorer": {
+            "id": 1789,
+            "name": "Giovanni Simeone"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
           }
         }
       ],
