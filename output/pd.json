@@ -138983,14 +138983,14 @@
       "id": 544495,
       "utcDate": "2026-03-21T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 25,
+      "minute": 44,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Ciudad de Valencia",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T18:56:31Z",
+      "lastUpdated": "2026-03-21T19:15:23Z",
       "homeTeam": {
         "id": 88,
         "name": "Levante UD",
@@ -139003,7 +139003,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 19,
-        "formation": "4-2-3-1",
+        "formation": "4-1-4-1",
         "lineup": [
           {
             "id": 3403,
@@ -139295,8 +139295,8 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 0
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
           "home": null,
@@ -139339,10 +139339,44 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 44,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "scorer": {
+            "id": 146126,
+            "name": "Ilyas Chaira"
+          },
+          "assist": {
+            "id": 180060,
+            "name": "Javi López"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 38,
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "player": {
+            "id": 7901,
+            "name": "Eric Bailly"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -139395,14 +139429,14 @@
       "id": 544499,
       "utcDate": "2026-03-21T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 25,
+      "minute": 44,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio El Sadar",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T18:56:31Z",
+      "lastUpdated": "2026-03-21T19:15:23Z",
       "homeTeam": {
         "id": 79,
         "name": "CA Osasuna",
@@ -139711,7 +139745,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 39,
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "player": {
+            "id": 16173,
+            "name": "Viktor Tsyhankov"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -139727,6 +139774,12 @@
           "id": 215539,
           "name": "Iván Ríos Vargas",
           "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        },
+        {
+          "id": 293862,
+          "name": "José Luis Guerrero",
+          "type": "ASSISTANT_REFEREE_N1",
           "nationality": "Spain"
         }
       ]

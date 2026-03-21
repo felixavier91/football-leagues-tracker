@@ -119315,14 +119315,14 @@
       "id": 537691,
       "utcDate": "2026-03-21T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": 11,
+      "minute": 30,
       "injuryTime": null,
       "attendance": null,
       "venue": "Het Kasteel",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T18:57:23Z",
+      "lastUpdated": "2026-03-21T19:16:14Z",
       "homeTeam": {
         "id": 6806,
         "name": "Sparta Rotterdam",
@@ -119630,10 +119630,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -119641,7 +119641,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 14,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "scorer": {
+            "id": 161068,
+            "name": "Shunsuke Mito"
+          },
+          "assist": {
+            "id": 231030,
+            "name": "Teo Quintero"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -119755,7 +119777,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56917,
+          "name": "Erwin Blank",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 81798,
+          "name": "Yorick Weterings",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 15153,
+          "name": "Rob van de Ven",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {

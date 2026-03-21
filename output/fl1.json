@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 234
+    "played": 235
   },
   "competition": {
     "id": 2015,
@@ -108144,15 +108144,15 @@
       },
       "id": 542643,
       "utcDate": "2026-03-21T16:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 4,
+      "injuryTime": 10,
       "attendance": null,
       "venue": "Stadium de Toulouse",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T18:56:56Z",
+      "lastUpdated": "2026-03-21T19:06:15Z",
       "homeTeam": {
         "id": 511,
         "name": "Toulouse FC",
@@ -108513,6 +108513,18 @@
             "name": "Aron Dönnum"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "player": {
+            "id": 8437,
+            "name": "Jean-Victor Makengo"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -108566,15 +108578,15 @@
       },
       "id": 542640,
       "utcDate": "2026-03-21T18:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 16,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de l'Abbé-Deschamps",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T18:20:02Z",
+      "lastUpdated": "2026-03-21T19:15:51Z",
       "homeTeam": {
         "id": 519,
         "name": "AJ Auxerre",
@@ -108846,11 +108858,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -108859,7 +108871,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 6,
+          "team": {
+            "id": 519,
+            "name": "AJ Auxerre"
+          },
+          "player": {
+            "id": 437,
+            "name": "Donovan Léon"
+          },
+          "card": "RED"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
