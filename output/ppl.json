@@ -108958,15 +108958,15 @@
       },
       "id": 545940,
       "utcDate": "2026-03-21T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio de São Miguel",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T19:33:57Z",
+      "lastUpdated": "2026-03-21T19:55:35Z",
       "homeTeam": {
         "id": 5530,
         "name": "CD Santa Clara",
@@ -109251,13 +109251,50 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 41,
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "player": {
+            "id": 37393,
+            "name": "Serginho"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 42,
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "player": {
+            "id": 153579,
+            "name": "Facundo Cáseres"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 44,
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "player": {
+            "id": 260041,
+            "name": "Agustin Moreira"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -109309,15 +109346,15 @@
       },
       "id": 545942,
       "utcDate": "2026-03-21T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 31,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio da Luz",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T19:33:57Z",
+      "lastUpdated": "2026-03-21T19:55:35Z",
       "homeTeam": {
         "id": 1903,
         "name": "Sport Lisboa e Benfica",
@@ -109602,8 +109639,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [

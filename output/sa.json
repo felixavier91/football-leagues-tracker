@@ -144770,14 +144770,14 @@
       "id": 537106,
       "utcDate": "2026-03-21T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 74,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T19:33:41Z",
+      "lastUpdated": "2026-03-21T19:55:16Z",
       "homeTeam": {
         "id": 98,
         "name": "AC Milan",
@@ -145089,7 +145089,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 3,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -145174,9 +145174,39 @@
             "home": 3,
             "away": 1
           }
+        },
+        {
+          "minute": 83,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "scorer": {
+            "id": 7843,
+            "name": "Nikola Vlašić"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 7843,
+            "name": "Nikola Vlašić"
+          },
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 9,
@@ -145187,6 +145217,42 @@
           "player": {
             "id": 11528,
             "name": "Fikayo Tomori"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 82,
+          "team": {
+            "id": 98,
+            "name": "AC Milan"
+          },
+          "player": {
+            "id": 112969,
+            "name": "Strahinja Pavlović"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 88,
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "player": {
+            "id": 40151,
+            "name": "Roberto D'Aversa"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 586,
+            "name": "Torino FC"
+          },
+          "player": {
+            "id": 172940,
+            "name": "Emirhan Ilkhan"
           },
           "card": "YELLOW"
         }
