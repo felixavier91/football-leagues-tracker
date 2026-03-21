@@ -118863,14 +118863,14 @@
       "id": 537687,
       "utcDate": "2026-03-21T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 9,
+      "minute": 25,
       "injuryTime": null,
       "attendance": null,
       "venue": "Fortuna Sittard Stadion",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T16:41:10Z",
+      "lastUpdated": "2026-03-21T16:57:06Z",
       "homeTeam": {
         "id": 1920,
         "name": "Fortuna Sittard",
@@ -119195,7 +119195,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 22,
+          "team": {
+            "id": 1920,
+            "name": "Fortuna Sittard"
+          },
+          "player": {
+            "id": 150541,
+            "name": "Jasper Dahlhaus"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -119307,7 +119320,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56904,
+          "name": "Edwin van de Graaf",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 43860,
+          "name": "Joost van Zuilen",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 214919,
+          "name": "Jeremy van der Ley",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
