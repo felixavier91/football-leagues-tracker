@@ -110248,14 +110248,14 @@
       "id": 540640,
       "utcDate": "2026-03-21T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 21,
+      "minute": 53,
       "injuryTime": null,
       "attendance": null,
       "venue": "Voith-Arena",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T15:51:11Z",
+      "lastUpdated": "2026-03-21T16:40:34Z",
       "homeTeam": {
         "id": 44,
         "name": "1. FC Heidenheim 1846",
@@ -110533,20 +110533,88 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "scorer": {
+            "id": 144470,
+            "name": "Malik Tillman"
+          },
+          "assist": {
+            "id": 33524,
+            "name": "Aleix García"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 35,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "scorer": {
+            "id": 1826,
+            "name": "Patrik Schick"
+          },
+          "assist": {
+            "id": 16739,
+            "name": "Alejandro Grimaldo"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 25,
+          "team": {
+            "id": 44,
+            "name": "1. FC Heidenheim 1846"
+          },
+          "player": {
+            "id": 67489,
+            "name": "Jan Schöppner"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 39,
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "player": {
+            "id": 1826,
+            "name": "Patrik Schick"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -110599,14 +110667,14 @@
       "id": 540643,
       "utcDate": "2026-03-21T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 20,
+      "minute": 53,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volkswagen Arena",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T15:51:11Z",
+      "lastUpdated": "2026-03-21T16:40:35Z",
       "homeTeam": {
         "id": 11,
         "name": "VfL Wolfsburg",
@@ -110885,13 +110953,26 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 39,
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "player": {
+            "id": 153289,
+            "name": "Moritz Jenz"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -110944,14 +111025,14 @@
       "id": 540645,
       "utcDate": "2026-03-21T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 21,
+      "minute": 52,
       "injuryTime": null,
       "attendance": null,
       "venue": "RheinEnergieStadion",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T15:51:12Z",
+      "lastUpdated": "2026-03-21T16:40:35Z",
       "homeTeam": {
         "id": 1,
         "name": "1. FC Köln",
@@ -110959,9 +111040,9 @@
         "tla": "KOE",
         "crest": "https://crests.football-data.org/1.png",
         "coach": {
-          "id": 101269,
-          "name": "Lukas Kwasniok",
-          "nationality": "Germany"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 14,
         "formation": "4-2-3-1",
@@ -111031,12 +111112,6 @@
             "name": "Eric Martel",
             "position": "Defensive Midfield",
             "shirtNumber": 6
-          },
-          {
-            "id": 99812,
-            "name": "Tom Krauß",
-            "position": "Central Midfield",
-            "shirtNumber": 5
           }
         ],
         "bench": [
@@ -111059,22 +111134,10 @@
             "shirtNumber": 27
           },
           {
-            "id": 280335,
-            "name": "Cenny Neumann",
-            "position": "Offence",
-            "shirtNumber": 36
-          },
-          {
             "id": 280363,
             "name": "Youssoupha Niang",
             "position": "Offence",
             "shirtNumber": 38
-          },
-          {
-            "id": 99812,
-            "name": "Tom Krauß",
-            "position": "Central Midfield",
-            "shirtNumber": 5
           },
           {
             "id": 65441,
@@ -111115,9 +111178,9 @@
         "tla": "BMG",
         "crest": "https://crests.football-data.org/18.png",
         "coach": {
-          "id": 192935,
-          "name": "Eugen Polański",
-          "nationality": "Poland"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 12,
         "formation": "3-4-2-1",
@@ -111254,8 +111317,8 @@
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         }
       },
       "goals": [
@@ -111342,7 +111405,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 38,
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "player": {
+            "id": 127596,
+            "name": "Ísak Jóhannesson"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -111395,14 +111471,14 @@
       "id": 540646,
       "utcDate": "2026-03-21T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 20,
+      "minute": 53,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Arena",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T15:51:12Z",
+      "lastUpdated": "2026-03-21T16:40:36Z",
       "homeTeam": {
         "id": 5,
         "name": "FC Bayern München",
@@ -111674,18 +111750,76 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 43,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 113765,
+            "name": "Michael Olise"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 311,
+            "name": "Serge Gnabry"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 49,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 8004,
+            "name": "Harry Kane"
+          },
+          "assist": {
+            "id": 9549,
+            "name": "Konrad Laimer"
+          },
+          "score": {
+            "home": 3,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -111697,6 +111831,30 @@
           "player": {
             "id": 9541,
             "name": "Dayot Upamecano"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 30,
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "player": {
+            "id": 152811,
+            "name": "Leopold Querfeld"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 37,
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin"
+          },
+          "player": {
+            "id": 67886,
+            "name": "Danilho Doekhi"
           },
           "card": "YELLOW"
         }

@@ -139324,15 +139324,15 @@
       },
       "id": 538089,
       "utcDate": "2026-03-21T15:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 39,
       "injuryTime": null,
       "attendance": null,
       "venue": "Craven Cottage",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T14:56:56Z",
+      "lastUpdated": "2026-03-21T16:40:22Z",
       "homeTeam": {
         "id": 63,
         "name": "Fulham FC",
@@ -139610,11 +139610,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -139623,7 +139623,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 37,
+          "team": {
+            "id": 328,
+            "name": "Burnley FC"
+          },
+          "player": {
+            "id": 213243,
+            "name": "Josh Laurent"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

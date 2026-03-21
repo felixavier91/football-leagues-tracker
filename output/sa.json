@@ -144281,15 +144281,15 @@
       },
       "id": 537114,
       "utcDate": "2026-03-21T14:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 84,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Ennio Tardini",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T15:51:08Z",
+      "lastUpdated": "2026-03-21T16:40:32Z",
       "homeTeam": {
         "id": 112,
         "name": "Parma Calcio 1913",
@@ -144591,20 +144591,85 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 54,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 457,
+            "name": "US Cremonese"
+          },
+          "scorer": {
+            "id": 57805,
+            "name": "Youssef Maleh"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 68,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 457,
+            "name": "US Cremonese"
+          },
+          "scorer": {
+            "id": 41859,
+            "name": "Jari Vandeputte"
+          },
+          "assist": {
+            "id": 3330,
+            "name": "Jamie Vardy"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 50,
+          "team": {
+            "id": 457,
+            "name": "US Cremonese"
+          },
+          "player": {
+            "id": 124704,
+            "name": "Tommaso Barbieri"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 66,
+          "team": {
+            "id": 112,
+            "name": "Parma Calcio 1913"
+          },
+          "player": {
+            "id": 135009,
+            "name": "Jacob Ondrejka"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
