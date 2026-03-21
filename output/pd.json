@@ -137908,14 +137908,14 @@
       "id": 544493,
       "utcDate": "2026-03-21T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 61,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 2,
       "attendance": 25462,
       "venue": "Estadio Martinez Valero",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T15:19:08Z",
+      "lastUpdated": "2026-03-21T15:50:58Z",
       "homeTeam": {
         "id": 285,
         "name": "Elche CF",
@@ -138217,10 +138217,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -138249,9 +138249,60 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 62,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "scorer": {
+            "id": 4098,
+            "name": "Rafael Mir"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 71,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "scorer": {
+            "id": 33843,
+            "name": "Tete Morente"
+          },
+          "assist": {
+            "id": 137485,
+            "name": "Germán Valera"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 30059,
+            "name": "Vedat Muriqi"
+          },
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "scored": false
+        }
+      ],
       "bookings": [
         {
           "minute": 29,
@@ -138262,6 +138313,18 @@
           "player": {
             "id": 151557,
             "name": "Víctor Chust"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 82,
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "player": {
+            "id": 33138,
+            "name": "Toni Lato"
           },
           "card": "YELLOW"
         }
