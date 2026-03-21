@@ -145321,14 +145321,14 @@
       "id": 537113,
       "utcDate": "2026-03-21T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 57,
+      "minute": 90,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Stadium",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T22:01:11Z",
+      "lastUpdated": "2026-03-21T22:35:46Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -145503,7 +145503,7 @@
           "nationality": "Italy"
         },
         "leagueRank": 11,
-        "formation": "4-3-3",
+        "formation": "4-4-2",
         "lineup": [
           {
             "id": 81179,
@@ -145697,8 +145697,45 @@
           }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 1751,
+            "name": "Manuel Locatelli"
+          },
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "scored": false
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 64,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "player": {
+            "id": 1106,
+            "name": "Bremer"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 74,
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio"
+          },
+          "player": {
+            "id": 238,
+            "name": "Ulisses Garcia"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

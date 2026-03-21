@@ -119775,15 +119775,15 @@
       },
       "id": 537690,
       "utcDate": "2026-03-21T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 78,
       "injuryTime": null,
       "attendance": 13881,
       "venue": "MAC³PARK stadion",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T22:01:37Z",
+      "lastUpdated": "2026-03-21T22:36:11Z",
       "homeTeam": {
         "id": 684,
         "name": "PEC Zwolle",
@@ -120095,7 +120095,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 2,
@@ -120141,6 +120141,27 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 67,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 681,
+            "name": "NAC Breda"
+          },
+          "scorer": {
+            "id": 154112,
+            "name": "Mohamed Nassoh"
+          },
+          "assist": {
+            "id": 193091,
+            "name": "Raul Paula"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -120154,6 +120175,30 @@
           "player": {
             "id": 177978,
             "name": "Tristan Gooijer"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 60,
+          "team": {
+            "id": 684,
+            "name": "PEC Zwolle"
+          },
+          "player": {
+            "id": 214428,
+            "name": "Nick Fichtinger"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 62,
+          "team": {
+            "id": 681,
+            "name": "NAC Breda"
+          },
+          "player": {
+            "id": 3957,
+            "name": "Denis Odoi"
           },
           "card": "YELLOW"
         }
