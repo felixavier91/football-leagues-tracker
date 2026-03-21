@@ -109043,14 +109043,14 @@
       "id": 542644,
       "utcDate": "2026-03-21T20:05:00Z",
       "status": "IN_PLAY",
-      "minute": 27,
+      "minute": 44,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Riviera",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T21:32:53Z",
+      "lastUpdated": "2026-03-21T21:49:37Z",
       "homeTeam": {
         "id": 522,
         "name": "OGC Nice",
@@ -109322,19 +109322,50 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scorer": {
+            "id": 144570,
+            "name": "Nuno Mendes"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 144570,
+            "name": "Nuno Mendes"
+          },
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 16,

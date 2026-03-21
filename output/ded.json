@@ -119775,15 +119775,15 @@
       },
       "id": 537690,
       "utcDate": "2026-03-21T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 31,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "MAC³PARK stadion",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T21:33:12Z",
+      "lastUpdated": "2026-03-21T21:49:52Z",
       "homeTeam": {
         "id": 684,
         "name": "PEC Zwolle",
@@ -120098,8 +120098,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "goals": [
@@ -120144,7 +120144,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 39,
+          "team": {
+            "id": 684,
+            "name": "PEC Zwolle"
+          },
+          "player": {
+            "id": 177978,
+            "name": "Tristan Gooijer"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

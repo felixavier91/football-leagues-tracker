@@ -139986,14 +139986,14 @@
       "id": 544496,
       "utcDate": "2026-03-21T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 30,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Estadio R. Sanchez Pizjuan",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T21:32:23Z",
+      "lastUpdated": "2026-03-21T21:49:12Z",
       "homeTeam": {
         "id": 559,
         "name": "Sevilla FC",
@@ -140307,18 +140307,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 38,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scorer": {
+            "id": 32762,
+            "name": "Hugo Duro"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {

@@ -140268,14 +140268,14 @@
       "id": 538090,
       "utcDate": "2026-03-21T20:00:00Z",
       "status": "IN_PLAY",
-      "minute": 31,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Elland Road",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T21:32:12Z",
+      "lastUpdated": "2026-03-21T21:48:57Z",
       "homeTeam": {
         "id": 341,
         "name": "Leeds United FC",
@@ -140566,7 +140566,32 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 38,
+          "team": {
+            "id": 341,
+            "name": "Leeds United FC"
+          },
+          "player": {
+            "id": 4146,
+            "name": "Pascal Struijk"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 42,
+          "team": {
+            "id": 341,
+            "name": "Leeds United FC"
+          },
+          "player": {
+            "id": 4184,
+            "name": "Jayden Bogle"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
