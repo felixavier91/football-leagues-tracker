@@ -108106,14 +108106,14 @@
       "id": 545936,
       "utcDate": "2026-03-21T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 25,
+      "minute": 42,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Comendador Joaquim de Almeida Freitas",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T16:56:43Z",
+      "lastUpdated": "2026-03-21T17:12:47Z",
       "homeTeam": {
         "id": 583,
         "name": "Moreirense FC",
@@ -108398,7 +108398,32 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 34,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 161005,
+            "name": "Dylan Nandín"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 39,
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "player": {
+            "id": 13839,
+            "name": "Maracás"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -108451,14 +108476,14 @@
       "id": 545939,
       "utcDate": "2026-03-21T15:30:00Z",
       "status": "IN_PLAY",
-      "minute": 26,
+      "minute": 42,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Municipal 22 de Junho",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T16:56:44Z",
+      "lastUpdated": "2026-03-21T17:12:48Z",
       "homeTeam": {
         "id": 5531,
         "name": "FC Famalicão",
@@ -108471,7 +108496,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 6,
-        "formation": "4-2-3-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 176011,
@@ -108773,6 +108798,18 @@
             "name": "Matheus Dias"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 40,
+          "team": {
+            "id": 5531,
+            "name": "FC Famalicão"
+          },
+          "player": {
+            "id": 187280,
+            "name": "Gustavo Sa"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -108886,7 +108923,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 176741,
+          "name": "Claudio Pereira",
+          "type": "REFEREE",
+          "nationality": null
+        },
+        {
+          "id": 37389,
+          "name": "Sérgio Jesus",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 37682,
+          "name": "Jorge Fernandes",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
@@ -108974,7 +109030,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 37629,
+          "name": "Luís Godinho",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 15715,
+          "name": "Rui Teixeira",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 80436,
+          "name": "Gonçalo Freire",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {

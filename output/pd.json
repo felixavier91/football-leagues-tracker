@@ -138417,14 +138417,14 @@
       "id": 544494,
       "utcDate": "2026-03-21T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 39,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 9,
       "attendance": null,
       "venue": "Stage Front Stadium",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T16:56:22Z",
+      "lastUpdated": "2026-03-21T17:12:21Z",
       "homeTeam": {
         "id": 80,
         "name": "RCD Espanyol de Barcelona",
@@ -138720,18 +138720,61 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "scorer": {
+            "id": 45472,
+            "name": "Domingos Duarte"
+          },
+          "assist": {
+            "id": 32449,
+            "name": "Luis Milla"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 7,
+          "type": "REGULAR",
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "scorer": {
+            "id": 32758,
+            "name": "Mauro Arambarri"
+          },
+          "assist": {
+            "id": 45472,
+            "name": "Domingos Duarte"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

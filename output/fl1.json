@@ -108144,15 +108144,15 @@
       },
       "id": 542643,
       "utcDate": "2026-03-21T16:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 13,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadium de Toulouse",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T16:11:54Z",
+      "lastUpdated": "2026-03-21T17:12:51Z",
       "homeTeam": {
         "id": 511,
         "name": "Toulouse FC",
@@ -108430,11 +108430,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -108443,7 +108443,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 5,
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC"
+          },
+          "player": {
+            "id": 191371,
+            "name": "Santiago Hidalgo"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
