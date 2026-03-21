@@ -138780,14 +138780,14 @@
       "id": 538087,
       "utcDate": "2026-03-21T12:45:00Z",
       "status": "IN_PLAY",
-      "minute": 57,
+      "minute": 74,
       "injuryTime": null,
       "attendance": null,
       "venue": "Amex Stadium",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T15:02:32Z",
+      "lastUpdated": "2026-03-21T15:19:03Z",
       "homeTeam": {
         "id": 397,
         "name": "Brighton & Hove Albion FC",
@@ -139065,10 +139065,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -139113,6 +139113,27 @@
           "assist": null,
           "score": {
             "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 56,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 397,
+            "name": "Brighton & Hove Albion FC"
+          },
+          "scorer": {
+            "id": 3328,
+            "name": "Danny Welbeck"
+          },
+          "assist": {
+            "id": 190851,
+            "name": "Jack Hinshelwood"
+          },
+          "score": {
+            "home": 2,
             "away": 1
           }
         }
@@ -139164,6 +139185,42 @@
           "player": {
             "id": 3328,
             "name": "Danny Welbeck"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 61,
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "player": {
+            "id": 128954,
+            "name": "Jeremie Frimpong"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 68,
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "player": {
+            "id": 45681,
+            "name": "Alexis Mac Allister"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 68,
+          "team": {
+            "id": 397,
+            "name": "Brighton & Hove Albion FC"
+          },
+          "player": {
+            "id": 65145,
+            "name": "Fabian Hürzeler"
           },
           "card": "YELLOW"
         }
