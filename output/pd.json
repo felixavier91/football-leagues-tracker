@@ -139985,15 +139985,15 @@
       },
       "id": 544496,
       "utcDate": "2026-03-21T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
-      "injuryTime": 2,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Estadio R. Sanchez Pizjuan",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T21:49:12Z",
+      "lastUpdated": "2026-03-21T22:00:49Z",
       "homeTeam": {
         "id": 559,
         "name": "Sevilla FC",
@@ -140311,11 +140311,11 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "goals": [
@@ -140335,6 +140335,27 @@
           "score": {
             "home": 0,
             "away": 1
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 5,
+          "type": "REGULAR",
+          "team": {
+            "id": 95,
+            "name": "Valencia CF"
+          },
+          "scorer": {
+            "id": 136349,
+            "name": "Largie Ramazani"
+          },
+          "assist": {
+            "id": 50907,
+            "name": "Luis Rioja"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
           }
         }
       ],
