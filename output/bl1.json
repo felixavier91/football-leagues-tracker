@@ -112293,14 +112293,14 @@
       "id": 540648,
       "utcDate": "2026-03-21T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 66,
+      "minute": 82,
       "injuryTime": null,
       "attendance": null,
       "venue": "Signal Iduna Park",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T19:54:58Z",
+      "lastUpdated": "2026-03-21T20:10:52Z",
       "homeTeam": {
         "id": 4,
         "name": "Borussia Dortmund",
@@ -112578,10 +112578,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 2
         },
         "halfTime": {
@@ -112631,6 +112631,42 @@
             "home": 0,
             "away": 2
           }
+        },
+        {
+          "minute": 73,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "scorer": {
+            "id": 8805,
+            "name": "Ramy Bensebaini"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 78,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "scorer": {
+            "id": 125151,
+            "name": "Fábio Silva"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -112644,6 +112680,17 @@
             "name": "Borussia Dortmund"
           },
           "scored": false
+        },
+        {
+          "player": {
+            "id": 8805,
+            "name": "Ramy Bensebaini"
+          },
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "scored": true
         }
       ],
       "bookings": [
@@ -112668,6 +112715,30 @@
           "player": {
             "id": 149995,
             "name": "Nicolai Remberg"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 68,
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "player": {
+            "id": 119989,
+            "name": "Philip Otele"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 72,
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "player": {
+            "id": 160442,
+            "name": "William Mikelbrencis"
           },
           "card": "YELLOW"
         }

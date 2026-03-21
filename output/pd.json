@@ -138983,14 +138983,14 @@
       "id": 544495,
       "utcDate": "2026-03-21T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 62,
+      "minute": 78,
       "injuryTime": null,
       "attendance": 19398,
       "venue": "Estadio Ciudad de Valencia",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T19:54:49Z",
+      "lastUpdated": "2026-03-21T20:10:47Z",
       "homeTeam": {
         "id": 88,
         "name": "Levante UD",
@@ -139450,6 +139450,42 @@
             "name": "Jorge Almada"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 71,
+          "team": {
+            "id": 88,
+            "name": "Levante UD"
+          },
+          "player": {
+            "id": 290072,
+            "name": "Kareem Tunde"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 74,
+          "team": {
+            "id": 88,
+            "name": "Levante UD"
+          },
+          "player": {
+            "id": 4159,
+            "name": "Oriol Rey"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 76,
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "player": {
+            "id": 7790,
+            "name": "Santi Cazorla"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -139504,14 +139540,14 @@
       "id": 544499,
       "utcDate": "2026-03-21T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 69,
+      "minute": 85,
       "injuryTime": null,
       "attendance": 20975,
       "venue": "Estadio El Sadar",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T19:54:49Z",
+      "lastUpdated": "2026-03-21T20:10:47Z",
       "homeTeam": {
         "id": 79,
         "name": "CA Osasuna",
@@ -139807,10 +139843,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -139818,7 +139854,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 80,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "scorer": {
+            "id": 2237,
+            "name": "Ante Budimir"
+          },
+          "assist": {
+            "id": 32004,
+            "name": "Kike Barja"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -139905,7 +139963,7 @@
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-17T01:32:03Z",
+      "lastUpdated": "2026-03-21T20:09:19Z",
       "homeTeam": {
         "id": 559,
         "name": "Sevilla FC",
@@ -139918,9 +139976,149 @@
           "nationality": "Argentina"
         },
         "leagueRank": 15,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 42871,
+            "name": "Odisseas Vlachodimos",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 31913,
+            "name": "Ruben Vargas",
+            "position": "Left Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 4443,
+            "name": "Neal Maupay",
+            "position": "Centre-Forward",
+            "shirtNumber": 17
+          },
+          {
+            "id": 7911,
+            "name": "Alexis Sánchez",
+            "position": "Centre-Forward",
+            "shirtNumber": 10
+          },
+          {
+            "id": 180038,
+            "name": "Juanlu",
+            "position": "Right-Back",
+            "shirtNumber": 16
+          },
+          {
+            "id": 16275,
+            "name": "Djibril Sow",
+            "position": "Central Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 98223,
+            "name": "Lucien Agoume",
+            "position": "Defensive Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 3191,
+            "name": "Azpilicueta",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 21410,
+            "name": "Nemanja Gudelj",
+            "position": "Defensive Midfield",
+            "shirtNumber": 6
+          },
+          {
+            "id": 178107,
+            "name": "Kike Salas",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 21385,
+            "name": "Gabriel Suazo",
+            "position": "Left-Back",
+            "shirtNumber": 12
+          }
+        ],
+        "bench": [
+          {
+            "id": 6843,
+            "name": "Ørjan Nyland",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 180165,
+            "name": "Castrin",
+            "position": "Defence",
+            "shirtNumber": 32
+          },
+          {
+            "id": 213257,
+            "name": "Joan Jordán",
+            "position": "Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 213043,
+            "name": "Isaac",
+            "position": "Centre-Forward",
+            "shirtNumber": 7
+          },
+          {
+            "id": 127127,
+            "name": "Nianzou Kouassi",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 140251,
+            "name": "Batista Mendy",
+            "position": "Defensive Midfield",
+            "shirtNumber": 19
+          },
+          {
+            "id": 244751,
+            "name": "Oso",
+            "position": "Left Winger",
+            "shirtNumber": 36
+          },
+          {
+            "id": 10210,
+            "name": "Adnan Januzaj",
+            "position": "Right Winger",
+            "shirtNumber": 24
+          },
+          {
+            "id": 80890,
+            "name": "Federico Gattoni",
+            "position": "Centre-Back",
+            "shirtNumber": 22
+          },
+          {
+            "id": 38625,
+            "name": "Chidera Ejuke",
+            "position": "Left Winger",
+            "shirtNumber": 21
+          },
+          {
+            "id": 171984,
+            "name": "Jose Angel Carmona",
+            "position": "Right-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 82132,
+            "name": "Akor Adams",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          }
+        ]
       },
       "awayTeam": {
         "id": 95,
@@ -139934,9 +140132,149 @@
           "nationality": "Spain"
         },
         "leagueRank": 14,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-2-3-1",
+        "lineup": [
+          {
+            "id": 33781,
+            "name": "Stole Dimitrievski",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 32762,
+            "name": "Hugo Duro",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 50907,
+            "name": "Luis Rioja",
+            "position": "Left Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 37539,
+            "name": "André Almeida",
+            "position": "Attacking Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 136349,
+            "name": "Largie Ramazani",
+            "position": "Left Winger",
+            "shirtNumber": 17
+          },
+          {
+            "id": 39104,
+            "name": "Guido Rodríguez",
+            "position": "Defensive Midfield",
+            "shirtNumber": 2
+          },
+          {
+            "id": 177180,
+            "name": "Javier Guerra",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 32584,
+            "name": "Unai Núñez",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 176041,
+            "name": "Cesar Tarrega",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 30823,
+            "name": "Eray Cömert",
+            "position": "Centre-Back",
+            "shirtNumber": 24
+          },
+          {
+            "id": 33146,
+            "name": "Gaya",
+            "position": "Left-Back",
+            "shirtNumber": 14
+          }
+        ],
+        "bench": [
+          {
+            "id": 251106,
+            "name": "Vicent Abril",
+            "position": "Goalkeeper",
+            "shirtNumber": 28
+          },
+          {
+            "id": 33137,
+            "name": "Cristian",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 288490,
+            "name": "Panach",
+            "position": "Defence",
+            "shirtNumber": 32
+          },
+          {
+            "id": 46563,
+            "name": "Renzo Saravia",
+            "position": "Defence",
+            "shirtNumber": 20
+          },
+          {
+            "id": 157190,
+            "name": "Jesus Vazquez Alcalde",
+            "position": "Left-Back",
+            "shirtNumber": 21
+          },
+          {
+            "id": 8646,
+            "name": "Baptiste Santamaria",
+            "position": "Defensive Midfield",
+            "shirtNumber": 22
+          },
+          {
+            "id": 7672,
+            "name": "Umar Sadiq",
+            "position": "Centre-Forward",
+            "shirtNumber": 6
+          },
+          {
+            "id": 33131,
+            "name": "Dani Raba",
+            "position": "Right Winger",
+            "shirtNumber": 19
+          },
+          {
+            "id": 180061,
+            "name": "Diego López",
+            "position": "Right Winger",
+            "shirtNumber": 16
+          },
+          {
+            "id": 33270,
+            "name": "Pepelu",
+            "position": "Defensive Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 9870,
+            "name": "Arnaut Danjuma",
+            "position": "Left Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 98572,
+            "name": "Lucas Beltrán",
+            "position": "Attacking Midfield",
+            "shirtNumber": 15
+          }
+        ]
       },
       "score": {
         "winner": null,
