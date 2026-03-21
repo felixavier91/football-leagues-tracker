@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 283
+    "played": 285
   },
   "competition": {
     "id": 2014,
@@ -138982,15 +138982,15 @@
       },
       "id": 544495,
       "utcDate": "2026-03-21T17:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 78,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 9,
       "attendance": 19398,
       "venue": "Estadio Ciudad de Valencia",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T20:10:47Z",
+      "lastUpdated": "2026-03-21T20:34:56Z",
       "homeTeam": {
         "id": 88,
         "name": "Levante UD",
@@ -139295,7 +139295,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 2
         },
         "halfTime": {
@@ -139397,6 +139397,24 @@
           },
           "score": {
             "home": 3,
+            "away": 2
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 88,
+            "name": "Levante UD"
+          },
+          "scorer": {
+            "id": 156746,
+            "name": "Iván Romero"
+          },
+          "assist": null,
+          "score": {
+            "home": 4,
             "away": 2
           }
         }
@@ -139539,15 +139557,15 @@
       },
       "id": 544499,
       "utcDate": "2026-03-21T17:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 85,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": 20975,
       "venue": "Estadio El Sadar",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T20:10:47Z",
+      "lastUpdated": "2026-03-21T20:25:39Z",
       "homeTeam": {
         "id": 79,
         "name": "CA Osasuna",
@@ -139900,6 +139918,18 @@
           "player": {
             "id": 213260,
             "name": "Javi Galán"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "player": {
+            "id": 111674,
+            "name": "Jon Moncayola"
           },
           "card": "YELLOW"
         }

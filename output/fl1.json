@@ -108579,14 +108579,14 @@
       "id": 542640,
       "utcDate": "2026-03-21T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 51,
+      "minute": 87,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de l'Abbé-Deschamps",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T20:11:11Z",
+      "lastUpdated": "2026-03-21T20:47:31Z",
       "homeTeam": {
         "id": 519,
         "name": "AJ Auxerre",
@@ -108594,9 +108594,9 @@
         "tla": "AJA",
         "crest": "https://crests.football-data.org/519.png",
         "coach": {
-          "id": 45110,
-          "name": "Christophe Pélissier",
-          "nationality": "France"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 16,
         "formation": "4-4-1-1",
@@ -108732,9 +108732,9 @@
         "tla": "BRE",
         "crest": "https://crests.football-data.org/512.png",
         "coach": {
-          "id": 190990,
-          "name": "Eric Roy",
-          "nationality": "France"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 10,
         "formation": "4-2-3-1",
@@ -108768,12 +108768,6 @@
             "name": "Romain Del Castillo",
             "position": "Right Winger",
             "shirtNumber": 10
-          },
-          {
-            "id": 175942,
-            "name": "Kamory Doumbia",
-            "position": "Attacking Midfield",
-            "shirtNumber": 23
           },
           {
             "id": 116407,
@@ -108832,16 +108826,16 @@
             "shirtNumber": 33
           },
           {
+            "id": 43707,
+            "name": "Mama Baldé",
+            "position": "Centre-Forward",
+            "shirtNumber": 17
+          },
+          {
             "id": 227982,
             "name": "Luc Zogbe",
             "position": "Right-Back",
             "shirtNumber": 12
-          },
-          {
-            "id": 8465,
-            "name": "Lucas Tousart",
-            "position": "Defensive Midfield",
-            "shirtNumber": 24
           },
           {
             "id": 218249,
@@ -108854,12 +108848,6 @@
             "name": "Bradley Locko",
             "position": "Left-Back",
             "shirtNumber": 2
-          },
-          {
-            "id": 43707,
-            "name": "Mama Baldé",
-            "position": "Centre-Forward",
-            "shirtNumber": 17
           }
         ]
       },
@@ -108867,7 +108855,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -108896,6 +108884,48 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 58,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 519,
+            "name": "AJ Auxerre"
+          },
+          "scorer": {
+            "id": 124243,
+            "name": "Bryan Okoh"
+          },
+          "assist": {
+            "id": 8762,
+            "name": "Romain Faivre"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 70,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 519,
+            "name": "AJ Auxerre"
+          },
+          "scorer": {
+            "id": 4289,
+            "name": "Daniel Namaso"
+          },
+          "assist": {
+            "id": 16340,
+            "name": "Gideon Mensah"
+          },
+          "score": {
+            "home": 3,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
@@ -108921,6 +108951,42 @@
           "player": {
             "id": 187530,
             "name": "Michel Diaz"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 57,
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "player": {
+            "id": 116407,
+            "name": "Eric Junior Dina Ebimbe"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 65,
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "player": {
+            "id": 125677,
+            "name": "Joris Chotard"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 72,
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "player": {
+            "id": 218249,
+            "name": "Pathé Mboup"
           },
           "card": "YELLOW"
         }
@@ -108984,7 +109050,7 @@
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T01:32:01Z",
+      "lastUpdated": "2026-03-21T20:14:14Z",
       "homeTeam": {
         "id": 522,
         "name": "OGC Nice",
@@ -108997,7 +109063,7 @@
           "nationality": "France"
         },
         "leagueRank": 15,
-        "formation": null,
+        "formation": "3-5-2",
         "lineup": [
           {
             "id": 8608,
@@ -109135,9 +109201,125 @@
           "nationality": "Spain"
         },
         "leagueRank": 2,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 49244,
+            "name": "Matvei Safonov",
+            "position": "Goalkeeper",
+            "shirtNumber": 39
+          },
+          {
+            "id": 213217,
+            "name": "Kang-in Lee",
+            "position": "Midfield",
+            "shirtNumber": 19
+          },
+          {
+            "id": 177522,
+            "name": "Desire Doue",
+            "position": "Left Winger",
+            "shirtNumber": 14
+          },
+          {
+            "id": 113285,
+            "name": "Khvicha Kvaratskhelia",
+            "position": "Left Winger",
+            "shirtNumber": 7
+          },
+          {
+            "id": 186089,
+            "name": "Warren Zaïre-Emery",
+            "position": "Central Midfield",
+            "shirtNumber": 33
+          },
+          {
+            "id": 178722,
+            "name": "Vitinha",
+            "position": "Central Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 246066,
+            "name": "Senny Mayulu",
+            "position": "Central Midfield",
+            "shirtNumber": 24
+          },
+          {
+            "id": 143573,
+            "name": "Illia Zabarnyi",
+            "position": "Centre-Back",
+            "shirtNumber": 6
+          },
+          {
+            "id": 3365,
+            "name": "Lucas Hernández",
+            "position": "Left-Back",
+            "shirtNumber": 21
+          },
+          {
+            "id": 114102,
+            "name": "William Pacho",
+            "position": "Centre-Back",
+            "shirtNumber": 51
+          },
+          {
+            "id": 144570,
+            "name": "Nuno Mendes",
+            "position": "Left-Back",
+            "shirtNumber": 25
+          }
+        ],
+        "bench": [
+          {
+            "id": 245387,
+            "name": "Renato Marin",
+            "position": "Goalkeeper",
+            "shirtNumber": 89
+          },
+          {
+            "id": 147896,
+            "name": "Lucas Chevalier",
+            "position": "Goalkeeper",
+            "shirtNumber": 30
+          },
+          {
+            "id": 283413,
+            "name": "Pedro Fernández",
+            "position": "Midfield",
+            "shirtNumber": 27
+          },
+          {
+            "id": 265040,
+            "name": "Ibrahim M'Baye",
+            "position": "Right Winger",
+            "shirtNumber": 49
+          },
+          {
+            "id": 101431,
+            "name": "Gonçalo Ramos",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          },
+          {
+            "id": 169204,
+            "name": "Lucas Beraldo",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 3373,
+            "name": "Ousmane Dembélé",
+            "position": "Right Winger",
+            "shirtNumber": 10
+          },
+          {
+            "id": 3225,
+            "name": "Marquinhos",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          }
+        ]
       },
       "score": {
         "winner": null,

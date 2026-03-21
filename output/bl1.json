@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 239
+    "played": 240
   },
   "competition": {
     "id": 2002,
@@ -112292,15 +112292,15 @@
       },
       "id": 540648,
       "utcDate": "2026-03-21T17:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 82,
-      "injuryTime": null,
-      "attendance": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
+      "attendance": 81365,
       "venue": "Signal Iduna Park",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T20:10:52Z",
+      "lastUpdated": "2026-03-21T20:26:17Z",
       "homeTeam": {
         "id": 4,
         "name": "Borussia Dortmund",
@@ -112578,10 +112578,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 2
         },
         "halfTime": {
@@ -112659,12 +112659,30 @@
             "name": "Borussia Dortmund"
           },
           "scorer": {
-            "id": 125151,
-            "name": "Fábio Silva"
+            "id": 211,
+            "name": "Sehrou Guirassy"
           },
           "assist": null,
           "score": {
             "home": 2,
+            "away": 2
+          }
+        },
+        {
+          "minute": 84,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "scorer": {
+            "id": 8805,
+            "name": "Ramy Bensebaini"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
             "away": 2
           }
         }
@@ -112691,6 +112709,39 @@
             "name": "Borussia Dortmund"
           },
           "scored": true
+        },
+        {
+          "player": {
+            "id": 8805,
+            "name": "Ramy Bensebaini"
+          },
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 101074,
+            "name": "Felix Kalu Nmecha"
+          },
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "scored": false
+        },
+        {
+          "player": {
+            "id": 101074,
+            "name": "Felix Kalu Nmecha"
+          },
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "scored": false
         }
       ],
       "bookings": [
@@ -112739,6 +112790,18 @@
           "player": {
             "id": 160442,
             "name": "William Mikelbrencis"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "player": {
+            "id": 44030,
+            "name": "Julian Ryerson"
           },
           "card": "YELLOW"
         }
