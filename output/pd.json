@@ -137907,15 +137907,15 @@
       },
       "id": 544493,
       "utcDate": "2026-03-21T13:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 27,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Martinez Valero",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T14:28:18Z",
+      "lastUpdated": "2026-03-21T14:49:33Z",
       "homeTeam": {
         "id": 285,
         "name": "Elche CF",
@@ -138224,13 +138224,26 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 29,
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "player": {
+            "id": 151557,
+            "name": "Víctor Chust"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
