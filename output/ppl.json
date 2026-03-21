@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 235
+    "played": 236
   },
   "competition": {
     "id": 2017,
@@ -108960,13 +108960,13 @@
       "utcDate": "2026-03-21T18:00:00Z",
       "status": "IN_PLAY",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 9,
       "attendance": null,
       "venue": "Estádio de São Miguel",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T20:47:36Z",
+      "lastUpdated": "2026-03-21T20:57:01Z",
       "homeTeam": {
         "id": 5530,
         "name": "CD Santa Clara",
@@ -109244,10 +109244,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -109255,7 +109255,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 90,
+          "injuryTime": 5,
+          "type": "REGULAR",
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "scorer": {
+            "id": 118015,
+            "name": "Vinícius"
+          },
+          "assist": {
+            "id": 278474,
+            "name": "José Tavares"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -109358,15 +109380,15 @@
       },
       "id": 545942,
       "utcDate": "2026-03-21T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 87,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Estádio da Luz",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T20:47:37Z",
+      "lastUpdated": "2026-03-21T20:56:57Z",
       "homeTeam": {
         "id": 1903,
         "name": "Sport Lisboa e Benfica",
