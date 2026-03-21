@@ -119314,15 +119314,15 @@
       },
       "id": 537691,
       "utcDate": "2026-03-21T17:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 30,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Het Kasteel",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T19:16:14Z",
+      "lastUpdated": "2026-03-21T19:34:16Z",
       "homeTeam": {
         "id": 6806,
         "name": "Sparta Rotterdam",
@@ -119633,12 +119633,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "goals": [
@@ -119662,10 +119662,44 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 33,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "scorer": {
+            "id": 38124,
+            "name": "Tobias Lauritsen"
+          },
+          "assist": {
+            "id": 7304,
+            "name": "Vito van Crooij"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 44,
+          "team": {
+            "id": 1919,
+            "name": "FC Volendam"
+          },
+          "player": {
+            "id": 221767,
+            "name": "Nick Verschuren"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

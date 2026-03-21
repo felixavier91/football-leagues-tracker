@@ -138982,15 +138982,15 @@
       },
       "id": 544495,
       "utcDate": "2026-03-21T17:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 44,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 19398,
       "venue": "Estadio Ciudad de Valencia",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T19:15:23Z",
+      "lastUpdated": "2026-03-21T19:33:22Z",
       "homeTeam": {
         "id": 88,
         "name": "Levante UD",
@@ -139292,15 +139292,15 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         }
       },
       "goals": [
@@ -139360,9 +139360,39 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 3,
+          "type": "PENALTY",
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "scorer": {
+            "id": 112678,
+            "name": "Federico Viñas"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 112678,
+            "name": "Federico Viñas"
+          },
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 38,
@@ -139373,6 +139403,18 @@
           "player": {
             "id": 7901,
             "name": "Eric Bailly"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "player": {
+            "id": 191053,
+            "name": "Alberto Reina"
           },
           "card": "YELLOW"
         }
@@ -139429,14 +139471,14 @@
       "id": 544499,
       "utcDate": "2026-03-21T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 44,
+      "minute": 47,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio El Sadar",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T19:15:23Z",
+      "lastUpdated": "2026-03-21T19:33:22Z",
       "homeTeam": {
         "id": 79,
         "name": "CA Osasuna",
@@ -139739,8 +139781,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],

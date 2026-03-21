@@ -112292,7 +112292,7 @@
       },
       "id": 540648,
       "utcDate": "2026-03-21T17:30:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
       "injuryTime": null,
       "attendance": null,
@@ -112300,7 +112300,7 @@
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T19:15:34Z",
+      "lastUpdated": "2026-03-21T19:33:36Z",
       "homeTeam": {
         "id": 4,
         "name": "Borussia Dortmund",
@@ -112585,8 +112585,8 @@
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "goals": [
@@ -112646,7 +112646,32 @@
           "scored": false
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "player": {
+            "id": 82515,
+            "name": "Karim Adeyemi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "player": {
+            "id": 149995,
+            "name": "Nicolai Remberg"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

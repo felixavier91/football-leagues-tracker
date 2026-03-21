@@ -108959,14 +108959,14 @@
       "id": 545940,
       "utcDate": "2026-03-21T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 15,
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio de São Miguel",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T19:15:59Z",
+      "lastUpdated": "2026-03-21T19:33:57Z",
       "homeTeam": {
         "id": 5530,
         "name": "CD Santa Clara",
@@ -109310,14 +109310,14 @@
       "id": 545942,
       "utcDate": "2026-03-21T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 13,
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio da Luz",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T19:16:00Z",
+      "lastUpdated": "2026-03-21T19:33:57Z",
       "homeTeam": {
         "id": 1903,
         "name": "Sport Lisboa e Benfica",
@@ -109595,10 +109595,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -109606,7 +109606,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 14,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica"
+          },
+          "scorer": {
+            "id": 182123,
+            "name": "Gianluca Prestianni"
+          },
+          "assist": {
+            "id": 170657,
+            "name": "Richard Rios"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -109720,7 +109742,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 40158,
+          "name": "Miguel Nogueira",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 216875,
+          "name": "Paulo Brás",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 128718,
+          "name": "Nuno Pires",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {

@@ -108579,14 +108579,14 @@
       "id": 542640,
       "utcDate": "2026-03-21T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 16,
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de l'Abbé-Deschamps",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-21T19:15:51Z",
+      "lastUpdated": "2026-03-21T19:33:53Z",
       "homeTeam": {
         "id": 519,
         "name": "AJ Auxerre",
@@ -108752,6 +108752,12 @@
             "shirtNumber": 27
           },
           {
+            "id": 8465,
+            "name": "Lucas Tousart",
+            "position": "Defensive Midfield",
+            "shirtNumber": 24
+          },
+          {
             "id": 204240,
             "name": "Rémy Labeau Lascary",
             "position": "Centre-Forward",
@@ -108858,10 +108864,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -108869,7 +108875,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 24,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 519,
+            "name": "AJ Auxerre"
+          },
+          "scorer": {
+            "id": 124243,
+            "name": "Bryan Okoh"
+          },
+          "assist": {
+            "id": 8762,
+            "name": "Romain Faivre"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
