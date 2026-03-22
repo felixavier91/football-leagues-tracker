@@ -121645,15 +121645,15 @@
       },
       "id": 537684,
       "utcDate": "2026-03-22T15:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 28,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Euroborg",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T17:14:15Z",
+      "lastUpdated": "2026-03-22T17:33:38Z",
       "homeTeam": {
         "id": 677,
         "name": "FC Groningen",
@@ -121961,19 +121961,50 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 36,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "scorer": {
+            "id": 71983,
+            "name": "Marvin Peersman"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 71983,
+            "name": "Marvin Peersman"
+          },
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [],
       "substitutions": [],
       "odds": {
@@ -122027,14 +122058,14 @@
       "id": 537692,
       "utcDate": "2026-03-22T15:45:00Z",
       "status": "IN_PLAY",
-      "minute": 29,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "BUKO Stadion",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T17:14:15Z",
+      "lastUpdated": "2026-03-22T17:33:38Z",
       "homeTeam": {
         "id": 1912,
         "name": "Telstar 1963",
@@ -122179,7 +122210,7 @@
           "nationality": "Netherlands"
         },
         "leagueRank": 1,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 136350,
@@ -122312,10 +122343,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -122323,9 +122354,41 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 1912,
+            "name": "Telstar 1963"
+          },
+          "scorer": {
+            "id": 184643,
+            "name": "Patrick Brouwer"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 39,
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "player": {
+            "id": 137693,
+            "name": "Anass Salah-Eddine"
+          },
+          "card": "RED"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
