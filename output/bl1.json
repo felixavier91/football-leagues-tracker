@@ -112858,14 +112858,14 @@
       "id": 540641,
       "utcDate": "2026-03-22T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 2,
+      "minute": 21,
       "injuryTime": null,
       "attendance": null,
       "venue": "MEWA ARENA",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T15:32:24Z",
+      "lastUpdated": "2026-03-22T15:51:04Z",
       "homeTeam": {
         "id": 15,
         "name": "1. FSV Mainz 05",
@@ -113146,15 +113146,58 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 6,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "scorer": {
+            "id": 150432,
+            "name": "Paul Nebel"
+          },
+          "assist": {
+            "id": 7633,
+            "name": "Sheraldo Becker"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 20,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "scorer": {
+            "id": 184533,
+            "name": "Nathaniel Brown"
+          },
+          "assist": {
+            "id": 185882,
+            "name": "Jean Bahoya"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {

@@ -109503,15 +109503,15 @@
       },
       "id": 542645,
       "utcDate": "2026-03-22T14:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Groupama Stadium",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T15:32:56Z",
+      "lastUpdated": "2026-03-22T15:51:41Z",
       "homeTeam": {
         "id": 523,
         "name": "Olympique Lyonnais",
@@ -109789,20 +109789,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais"
+          },
+          "scorer": {
+            "id": 121312,
+            "name": "Pavel Šulc"
+          },
+          "assist": {
+            "id": 188487,
+            "name": "Endrick"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 40,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "player": {
+            "id": 3683,
+            "name": "Aleksandr Golovin"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

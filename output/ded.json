@@ -120711,15 +120711,15 @@
       },
       "id": 537685,
       "utcDate": "2026-03-22T13:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 62,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 22938,
       "venue": "Stadion Galgenwaard",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T15:33:22Z",
+      "lastUpdated": "2026-03-22T15:51:56Z",
       "homeTeam": {
         "id": 676,
         "name": "FC Utrecht",
@@ -121148,15 +121148,15 @@
       },
       "id": 537686,
       "utcDate": "2026-03-22T13:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 61,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 47500,
       "venue": "De Kuip",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T15:33:22Z",
+      "lastUpdated": "2026-03-22T15:51:56Z",
       "homeTeam": {
         "id": 675,
         "name": "Feyenoord Rotterdam",
@@ -121458,20 +121458,52 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 54,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "scorer": {
+            "id": 251265,
+            "name": "Sean Steur"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 60,
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "player": {
+            "id": 156856,
+            "name": "Youri Baas"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
