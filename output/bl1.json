@@ -113753,14 +113753,14 @@
       "id": 540644,
       "utcDate": "2026-03-22T18:30:00Z",
       "status": "IN_PLAY",
-      "minute": 57,
+      "minute": 67,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 30660,
       "venue": "WWK ARENA",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T20:47:37Z",
+      "lastUpdated": "2026-03-22T20:57:41Z",
       "homeTeam": {
         "id": 16,
         "name": "FC Augsburg",
@@ -114041,8 +114041,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 3
+          "home": 1,
+          "away": 4
         },
         "halfTime": {
           "home": 0,
@@ -114109,10 +114109,59 @@
             "home": 0,
             "away": 3
           }
+        },
+        {
+          "minute": 57,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "scorer": {
+            "id": 152692,
+            "name": "Fabian Rieder"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 3
+          }
+        },
+        {
+          "minute": 58,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "scorer": {
+            "id": 6928,
+            "name": "Deniz Undav"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 4
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 63,
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "player": {
+            "id": 190,
+            "name": "Nikolas Nartey"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

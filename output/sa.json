@@ -147735,14 +147735,14 @@
       "id": 537105,
       "utcDate": "2026-03-22T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 10,
       "injuryTime": null,
       "attendance": null,
       "venue": "Artemio Franchi, Firenze",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T20:47:47Z",
+      "lastUpdated": "2026-03-22T20:57:47Z",
       "homeTeam": {
         "id": 99,
         "name": "ACF Fiorentina",
@@ -148044,18 +148044,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 1,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 215433,
+            "name": "Francesco Esposito"
+          },
+          "assist": {
+            "id": 1911,
+            "name": "Nicolò Barella"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
