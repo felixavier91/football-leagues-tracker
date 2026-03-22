@@ -140450,14 +140450,14 @@
       "id": 544492,
       "utcDate": "2026-03-22T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 26,
       "injuryTime": null,
       "attendance": null,
       "venue": "Camp Nou",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T14:02:23Z",
+      "lastUpdated": "2026-03-22T14:29:24Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -140620,7 +140620,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 14,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 46245,
@@ -140801,10 +140801,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -140812,9 +140812,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 24,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 28292,
+            "name": "Ronald Araújo"
+          },
+          "assist": {
+            "id": 2000,
+            "name": "João Cancelo"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 8,
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "player": {
+            "id": 37428,
+            "name": "Raphinha"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -140926,7 +140961,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 214573,
+          "name": "Miguel Sesma Espinosa",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        },
+        {
+          "id": 214590,
+          "name": "Ion Rodríguez Portela",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 215450,
+          "name": "Mario Martín-Consuegra Díaz",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
