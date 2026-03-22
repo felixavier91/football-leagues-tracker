@@ -141125,15 +141125,15 @@
       },
       "id": 538086,
       "utcDate": "2026-03-22T14:15:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 61,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 42130,
       "venue": "Villa Park",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T16:18:58Z",
+      "lastUpdated": "2026-03-22T16:36:01Z",
       "homeTeam": {
         "id": 58,
         "name": "Aston Villa FC",
@@ -141511,15 +141511,15 @@
       },
       "id": 538093,
       "utcDate": "2026-03-22T14:15:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 60,
       "injuryTime": null,
       "attendance": null,
       "venue": "Tottenham Hotspur Stadium",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T16:18:58Z",
+      "lastUpdated": "2026-03-22T16:36:01Z",
       "homeTeam": {
         "id": 73,
         "name": "Tottenham Hotspur FC",
@@ -141832,7 +141832,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 53,
+          "team": {
+            "id": 351,
+            "name": "Nottingham Forest FC"
+          },
+          "player": {
+            "id": 8307,
+            "name": "Ibrahim Sangaré"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

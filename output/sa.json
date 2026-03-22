@@ -146352,14 +146352,14 @@
       "id": 537108,
       "utcDate": "2026-03-22T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 62,
+      "minute": 79,
       "injuryTime": null,
       "attendance": null,
       "venue": "Gewiss Stadium",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T16:19:38Z",
+      "lastUpdated": "2026-03-22T16:36:36Z",
       "homeTeam": {
         "id": 102,
         "name": "Atalanta BC",
@@ -146735,6 +146735,18 @@
             "name": "Nicolas Valentini"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 63,
+          "team": {
+            "id": 450,
+            "name": "Hellas Verona FC"
+          },
+          "player": {
+            "id": 2006,
+            "name": "Roberto Gagliardini"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -146789,14 +146801,14 @@
       "id": 537112,
       "utcDate": "2026-03-22T14:00:00Z",
       "status": "IN_PLAY",
-      "minute": 61,
+      "minute": 78,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Renato Dall'Ara",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T16:19:38Z",
+      "lastUpdated": "2026-03-22T16:36:36Z",
       "homeTeam": {
         "id": 103,
         "name": "Bologna FC 1909",
@@ -147116,18 +147128,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 72,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 110,
+            "name": "SS Lazio"
+          },
+          "scorer": {
+            "id": 97537,
+            "name": "Kenneth Taylor"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [
         {
           "player": {
@@ -147141,7 +147172,44 @@
           "scored": false
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 65,
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "player": {
+            "id": 170891,
+            "name": "Santiago Castro"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 67,
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "player": {
+            "id": 76048,
+            "name": "Vincenzo Italiano"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 77,
+          "team": {
+            "id": 110,
+            "name": "SS Lazio"
+          },
+          "player": {
+            "id": 97537,
+            "name": "Kenneth Taylor"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

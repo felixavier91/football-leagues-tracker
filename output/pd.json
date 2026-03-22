@@ -140938,14 +140938,14 @@
       "id": 544497,
       "utcDate": "2026-03-22T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 2,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Abanca-Balaídos",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T16:19:05Z",
+      "lastUpdated": "2026-03-22T16:36:18Z",
       "homeTeam": {
         "id": 558,
         "name": "RC Celta de Vigo",
@@ -141241,10 +141241,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -141252,7 +141252,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 19,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "scorer": {
+            "id": 83406,
+            "name": "Ferran Jutglà"
+          },
+          "assist": {
+            "id": 229003,
+            "name": "Javi Rodríguez"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -141366,7 +141388,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 215569,
+          "name": "Alejandro Muñiz Ruiz",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        },
+        {
+          "id": 215533,
+          "name": "Diego Sánchez Rojo",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 215571,
+          "name": "Fabián Blanco Rodríguez",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
