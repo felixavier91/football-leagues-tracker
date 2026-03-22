@@ -121646,14 +121646,14 @@
       "id": 537684,
       "utcDate": "2026-03-22T15:45:00Z",
       "status": "IN_PLAY",
-      "minute": 50,
+      "minute": 68,
       "injuryTime": null,
       "attendance": null,
       "venue": "Euroborg",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T17:51:49Z",
+      "lastUpdated": "2026-03-22T18:09:57Z",
       "homeTeam": {
         "id": 677,
         "name": "FC Groningen",
@@ -121947,6 +121947,12 @@
             "shirtNumber": 7
           },
           {
+            "id": 290041,
+            "name": "Bendegúz Kovács",
+            "position": "Offence",
+            "shirtNumber": 45
+          },
+          {
             "id": 72536,
             "name": "Ibrahim Sadiq",
             "position": "Right Winger",
@@ -121964,7 +121970,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -121988,6 +121994,27 @@
           "assist": null,
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 58,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "scorer": {
+            "id": 188914,
+            "name": "Thom van Bergen"
+          },
+          "assist": {
+            "id": 272985,
+            "name": "David van der Werff"
+          },
+          "score": {
+            "home": 2,
             "away": 0
           }
         }
@@ -122058,14 +122085,14 @@
       "id": 537692,
       "utcDate": "2026-03-22T15:45:00Z",
       "status": "IN_PLAY",
-      "minute": 47,
+      "minute": 65,
       "injuryTime": null,
       "attendance": null,
       "venue": "BUKO Stadion",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T17:51:50Z",
+      "lastUpdated": "2026-03-22T18:09:57Z",
       "homeTeam": {
         "id": 1912,
         "name": "Telstar 1963",
@@ -122171,6 +122198,12 @@
             "name": "Tyrese Noslin",
             "position": "Defence",
             "shirtNumber": 11
+          },
+          {
+            "id": 275265,
+            "name": "Yamano Olfers",
+            "position": "Defence",
+            "shirtNumber": 17
           },
           {
             "id": 279131,
@@ -122343,11 +122376,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 1,
@@ -122375,6 +122408,27 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 47,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 142790,
+            "name": "Kiliann Sildillia"
+          },
+          "assist": {
+            "id": 2004,
+            "name": "Ivan Perišić"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -122390,6 +122444,18 @@
             "name": "Anass Salah-Eddine"
           },
           "card": "RED"
+        },
+        {
+          "minute": 53,
+          "team": {
+            "id": 1912,
+            "name": "Telstar 1963"
+          },
+          "player": {
+            "id": 171436,
+            "name": "Devon Koswal"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
