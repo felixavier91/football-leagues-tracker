@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 239
+    "played": 240
   },
   "competition": {
     "id": 2017,
@@ -110678,15 +110678,15 @@
       },
       "id": 545938,
       "utcDate": "2026-03-22T18:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 89,
+      "status": "FINISHED",
+      "minute": 90,
       "injuryTime": null,
       "attendance": null,
       "venue": "Centro de Formação do FC Alverca",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T20:58:11Z",
+      "lastUpdated": "2026-03-22T21:07:36Z",
       "homeTeam": {
         "id": 7822,
         "name": "FC Alverca",
@@ -111166,15 +111166,15 @@
       },
       "id": 545941,
       "utcDate": "2026-03-22T20:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 30,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Municipal de Braga",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T20:27:51Z",
+      "lastUpdated": "2026-03-22T22:02:26Z",
       "homeTeam": {
         "id": 5613,
         "name": "Sporting Clube de Braga",
@@ -111187,7 +111187,7 @@
           "nationality": "Spain"
         },
         "leagueRank": 4,
-        "formation": "3-4-2-1",
+        "formation": "3-4-1-2",
         "lineup": [
           {
             "id": 146753,
@@ -111452,11 +111452,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -111465,7 +111465,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 15,
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "player": {
+            "id": 166538,
+            "name": "Gustaf Lagerbielke"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

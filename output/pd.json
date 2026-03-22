@@ -141976,15 +141976,15 @@
       },
       "id": 544498,
       "utcDate": "2026-03-22T20:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 9,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T21:11:29Z",
+      "lastUpdated": "2026-03-22T22:01:26Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -142292,20 +142292,67 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 33,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "scorer": {
+            "id": 9554,
+            "name": "Ademola Lookman"
+          },
+          "assist": {
+            "id": 171964,
+            "name": "Giuliano Simeone"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 27,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "player": {
+            "id": 123265,
+            "name": "Johnny"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 36,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "player": {
+            "id": 151241,
+            "name": "Matteo Ruggeri"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

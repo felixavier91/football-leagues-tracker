@@ -147735,14 +147735,14 @@
       "id": 537105,
       "utcDate": "2026-03-22T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 24,
+      "minute": 56,
       "injuryTime": null,
       "attendance": null,
       "venue": "Artemio Franchi, Firenze",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T21:11:47Z",
+      "lastUpdated": "2026-03-22T22:01:56Z",
       "homeTeam": {
         "id": 99,
         "name": "ACF Fiorentina",
@@ -148051,8 +148051,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -148079,7 +148079,44 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 42,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "player": {
+            "id": 30821,
+            "name": "Federico Dimarco"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 44,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "player": {
+            "id": 167689,
+            "name": "Carlos Augusto Lobaton"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 55,
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "player": {
+            "id": 99858,
+            "name": "Marco Brescianini"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
