@@ -141504,14 +141504,14 @@
       "id": 544491,
       "utcDate": "2026-03-22T17:30:00Z",
       "status": "IN_PLAY",
-      "minute": 24,
+      "minute": 44,
       "injuryTime": null,
       "attendance": null,
       "venue": "San Mames Barria",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T18:56:49Z",
+      "lastUpdated": "2026-03-22T19:16:00Z",
       "homeTeam": {
         "id": 77,
         "name": "Athletic Club",
@@ -141825,10 +141825,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -141836,7 +141836,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 25,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "scorer": {
+            "id": 32618,
+            "name": "Daniel Vivian"
+          },
+          "assist": {
+            "id": 32629,
+            "name": "Iñaki Williams"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -141950,7 +141972,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 206223,
+          "name": "José Munuera Montero",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        },
+        {
+          "id": 207052,
+          "name": "Antonio Martínez Moreno",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 214109,
+          "name": "Adrián Díaz González",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
