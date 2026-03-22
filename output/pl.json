@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 306
+    "played": 307
   },
   "competition": {
     "id": 2021,
@@ -140643,15 +140643,15 @@
       },
       "id": 538092,
       "utcDate": "2026-03-22T12:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": 3,
+      "injuryTime": 9,
       "attendance": 52253,
       "venue": "St James' Park",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T14:50:26Z",
+      "lastUpdated": "2026-03-22T14:58:06Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -141036,6 +141036,42 @@
             "name": "Brian Brobbey"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "player": {
+            "id": 182273,
+            "name": "Noah Sadiki"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "player": {
+            "id": 7468,
+            "name": "Lutsharel Geertruida"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "player": {
+            "id": 37094,
+            "name": "Reinildo"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -141089,15 +141125,15 @@
       },
       "id": 538086,
       "utcDate": "2026-03-22T14:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 15,
       "injuryTime": null,
       "attendance": null,
       "venue": "Villa Park",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T14:12:27Z",
+      "lastUpdated": "2026-03-22T15:32:05Z",
       "homeTeam": {
         "id": 58,
         "name": "Aston Villa FC",
@@ -141248,7 +141284,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 18,
-        "formation": "3-4-2-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 97144,
@@ -141267,6 +141303,12 @@
             "name": "Pablo Felipe",
             "position": "Offence",
             "shirtNumber": 19
+          },
+          {
+            "id": 176597,
+            "name": "Freddie Potts",
+            "position": "Defensive Midfield",
+            "shirtNumber": 32
           },
           {
             "id": 28416,
@@ -141325,6 +141367,12 @@
             "shirtNumber": 23
           },
           {
+            "id": 285739,
+            "name": "Finlay Herrick",
+            "position": "Goalkeeper",
+            "shirtNumber": 49
+          },
+          {
             "id": 219676,
             "name": "Mohamadou Kante",
             "position": "Midfield",
@@ -141375,18 +141423,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 15,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 58,
+            "name": "Aston Villa FC"
+          },
+          "scorer": {
+            "id": 34646,
+            "name": "John McGinn"
+          },
+          "assist": {
+            "id": 146,
+            "name": "Jadon Sancho"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -141440,15 +141510,15 @@
       },
       "id": 538093,
       "utcDate": "2026-03-22T14:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 15,
       "injuryTime": null,
       "attendance": null,
       "venue": "Tottenham Hotspur Stadium",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T14:12:28Z",
+      "lastUpdated": "2026-03-22T15:32:05Z",
       "homeTeam": {
         "id": 73,
         "name": "Tottenham Hotspur FC",
@@ -141461,7 +141531,7 @@
           "nationality": "Croatia"
         },
         "leagueRank": 16,
-        "formation": "3-4-2-1",
+        "formation": "4-4-2",
         "lineup": [
           {
             "id": 3086,
@@ -141726,11 +141796,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,

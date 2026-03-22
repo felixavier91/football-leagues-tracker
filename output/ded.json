@@ -120711,15 +120711,15 @@
       },
       "id": 537685,
       "utcDate": "2026-03-22T13:30:00Z",
-      "status": "IN_PLAY",
-      "minute": null,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadion Galgenwaard",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T14:30:45Z",
+      "lastUpdated": "2026-03-22T15:33:22Z",
       "homeTeam": {
         "id": 676,
         "name": "FC Utrecht",
@@ -120882,7 +120882,7 @@
           "nationality": "Netherlands"
         },
         "leagueRank": 13,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 17014,
@@ -121027,20 +121027,76 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 16,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 676,
+            "name": "FC Utrecht"
+          },
+          "scorer": {
+            "id": 215554,
+            "name": "Gjivai Zechiël"
+          },
+          "assist": {
+            "id": 191058,
+            "name": "Angel Alarcon"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 37,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 676,
+            "name": "FC Utrecht"
+          },
+          "scorer": {
+            "id": 265560,
+            "name": "Artem Stepanov"
+          },
+          "assist": {
+            "id": 148291,
+            "name": "Yoann Cathline"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 676,
+            "name": "FC Utrecht"
+          },
+          "player": {
+            "id": 7564,
+            "name": "Dani de Wit"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -121092,15 +121148,15 @@
       },
       "id": 537686,
       "utcDate": "2026-03-22T13:30:00Z",
-      "status": "IN_PLAY",
-      "minute": null,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Kuip",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T14:30:45Z",
+      "lastUpdated": "2026-03-22T15:33:22Z",
       "homeTeam": {
         "id": 675,
         "name": "Feyenoord Rotterdam",
@@ -121409,8 +121465,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -121527,7 +121583,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 81044,
+          "name": "Martijn Vos",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 9560,
+          "name": "Erwin Zeinstra",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 56915,
+          "name": "Richard Polman",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
@@ -121615,7 +121690,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 80090,
+          "name": "Marc Nagtegaal",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 221741,
+          "name": "keiner keiner",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": null
+        },
+        {
+          "id": 167615,
+          "name": "Marco Ribbink",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": null
+        }
+      ]
     },
     {
       "area": {
