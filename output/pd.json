@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 286
+    "played": 287
   },
   "competition": {
     "id": 2014,
@@ -140449,15 +140449,15 @@
       },
       "id": 544492,
       "utcDate": "2026-03-22T13:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 87,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": 56812,
       "venue": "Camp Nou",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T15:50:40Z",
+      "lastUpdated": "2026-03-22T16:03:03Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -140872,6 +140872,18 @@
             "name": "Pau Cubarsí"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 88,
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid"
+          },
+          "player": {
+            "id": 33496,
+            "name": "Isi Palazón"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -140925,15 +140937,15 @@
       },
       "id": 544497,
       "utcDate": "2026-03-22T15:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 2,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Abanca-Balaídos",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T15:10:49Z",
+      "lastUpdated": "2026-03-22T16:19:05Z",
       "homeTeam": {
         "id": 558,
         "name": "RC Celta de Vigo",
@@ -141229,11 +141241,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,

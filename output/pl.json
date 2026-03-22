@@ -141125,15 +141125,15 @@
       },
       "id": 538086,
       "utcDate": "2026-03-22T14:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Villa Park",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T15:50:00Z",
+      "lastUpdated": "2026-03-22T16:18:58Z",
       "homeTeam": {
         "id": 58,
         "name": "Aston Villa FC",
@@ -141141,9 +141141,9 @@
         "tla": "AVL",
         "crest": "https://crests.football-data.org/58.png",
         "coach": {
-          "id": 11616,
-          "name": "Unai Emery",
-          "nationality": "Spain"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 4,
         "formation": "4-2-3-1",
@@ -141279,9 +141279,9 @@
         "tla": "WHU",
         "crest": "https://crests.football-data.org/563.png",
         "coach": {
-          "id": 11315,
-          "name": "Nuno Espírito Santo",
-          "nationality": "Portugal"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 18,
         "formation": "4-3-3",
@@ -141341,12 +141341,6 @@
             "shirtNumber": 18
           },
           {
-            "id": 79903,
-            "name": "Jean-Clair Todibo",
-            "position": "Centre-Back",
-            "shirtNumber": 25
-          },
-          {
             "id": 7789,
             "name": "Konstantinos Mavropanos",
             "position": "Centre-Back",
@@ -141403,12 +141397,6 @@
             "shirtNumber": 30
           },
           {
-            "id": 176597,
-            "name": "Freddie Potts",
-            "position": "Defensive Midfield",
-            "shirtNumber": 32
-          },
-          {
             "id": 179625,
             "name": "Soungoutou Magassa",
             "position": "Defensive Midfield",
@@ -141430,8 +141418,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -141458,7 +141446,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 563,
+            "name": "West Ham United FC"
+          },
+          "player": {
+            "id": 8158,
+            "name": "Aaron Wan-Bissaka"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -141510,15 +141511,15 @@
       },
       "id": 538093,
       "utcDate": "2026-03-22T14:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Tottenham Hotspur Stadium",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T15:50:00Z",
+      "lastUpdated": "2026-03-22T16:18:58Z",
       "homeTeam": {
         "id": 73,
         "name": "Tottenham Hotspur FC",
@@ -141796,18 +141797,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 351,
+            "name": "Nottingham Forest FC"
+          },
+          "scorer": {
+            "id": 256339,
+            "name": "Igor Jesus"
+          },
+          "assist": {
+            "id": 133765,
+            "name": "Neco Williams"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
