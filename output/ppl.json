@@ -110678,15 +110678,15 @@
       },
       "id": 545938,
       "utcDate": "2026-03-22T18:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 64,
       "injuryTime": null,
       "attendance": null,
       "venue": "Centro de Formação do FC Alverca",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T19:56:12Z",
+      "lastUpdated": "2026-03-22T20:32:46Z",
       "homeTeam": {
         "id": 7822,
         "name": "FC Alverca",
@@ -110968,7 +110968,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -110993,6 +110993,27 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 50,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scorer": {
+            "id": 32386,
+            "name": "Luis Suárez"
+          },
+          "assist": {
+            "id": 49092,
+            "name": "Hidemasa Morita"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -111006,6 +111027,18 @@
           "player": {
             "id": 145357,
             "name": "Gonçalo Inácio"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 49,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 32386,
+            "name": "Luis Suárez"
           },
           "card": "YELLOW"
         }
@@ -111069,7 +111102,7 @@
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T10:21:01Z",
+      "lastUpdated": "2026-03-22T20:27:51Z",
       "homeTeam": {
         "id": 5613,
         "name": "Sporting Clube de Braga",
@@ -111082,9 +111115,131 @@
           "nationality": "Spain"
         },
         "leagueRank": 4,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "3-4-2-1",
+        "lineup": [
+          {
+            "id": 146753,
+            "name": "Lukáš Horníček",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 146987,
+            "name": "Bright Arrey-Mbi",
+            "position": "Defence",
+            "shirtNumber": 26
+          },
+          {
+            "id": 166538,
+            "name": "Gustaf Lagerbielke",
+            "position": "Defence",
+            "shirtNumber": 14
+          },
+          {
+            "id": 180150,
+            "name": "Victor Gómez",
+            "position": "Defence",
+            "shirtNumber": 2
+          },
+          {
+            "id": 273888,
+            "name": "Diego Rodrigues",
+            "position": "Midfield",
+            "shirtNumber": 50
+          },
+          {
+            "id": 144579,
+            "name": "Pau Victor Delgado",
+            "position": "Centre-Forward",
+            "shirtNumber": 18
+          },
+          {
+            "id": 121007,
+            "name": "Rodrigo Zalazar",
+            "position": "Central Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 45401,
+            "name": "Ricardo Horta",
+            "position": "Left Winger",
+            "shirtNumber": 21
+          },
+          {
+            "id": 3249,
+            "name": "João Moutinho",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 404,
+            "name": "Florian Grillitsch",
+            "position": "Defensive Midfield",
+            "shirtNumber": 27
+          },
+          {
+            "id": 469,
+            "name": "Sikou Niakaté",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          }
+        ],
+        "bench": [
+          {
+            "id": 37817,
+            "name": "Tiago Sá",
+            "position": "Goalkeeper",
+            "shirtNumber": 12
+          },
+          {
+            "id": 178756,
+            "name": "Jean-Baptiste Gorby",
+            "position": "Midfield",
+            "shirtNumber": 29
+          },
+          {
+            "id": 180185,
+            "name": "Gabriel Martínez",
+            "position": "Midfield",
+            "shirtNumber": 77
+          },
+          {
+            "id": 172912,
+            "name": "Demir Tiknaz",
+            "position": "Midfield",
+            "shirtNumber": 34
+          },
+          {
+            "id": 186516,
+            "name": "Mario Dorgeles",
+            "position": "Midfield",
+            "shirtNumber": 20
+          },
+          {
+            "id": 102579,
+            "name": "Fran Navarro",
+            "position": "Offence",
+            "shirtNumber": 39
+          },
+          {
+            "id": 185146,
+            "name": "Leonardo Lelo",
+            "position": "Left-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 210468,
+            "name": "Moscardo",
+            "position": "Defensive Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 33339,
+            "name": "Paulo Oliveira",
+            "position": "Centre-Back",
+            "shirtNumber": 15
+          }
+        ]
       },
       "awayTeam": {
         "id": 503,
@@ -111098,9 +111253,131 @@
           "nationality": "Italy"
         },
         "leagueRank": 1,
-        "formation": null,
-        "lineup": [],
-        "bench": []
+        "formation": "4-3-3",
+        "lineup": [
+          {
+            "id": 37362,
+            "name": "Diogo Costa",
+            "position": "Goalkeeper",
+            "shirtNumber": 99
+          },
+          {
+            "id": 227047,
+            "name": "Martim Fernandes",
+            "position": "Defence",
+            "shirtNumber": 52
+          },
+          {
+            "id": 221262,
+            "name": "Victor Froholdt",
+            "position": "Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 265174,
+            "name": "Oskar Pietuszewski",
+            "position": "Offence",
+            "shirtNumber": 77
+          },
+          {
+            "id": 188466,
+            "name": "Deniz Gul",
+            "position": "Offence",
+            "shirtNumber": 27
+          },
+          {
+            "id": 1166,
+            "name": "Pepê",
+            "position": "Left Winger",
+            "shirtNumber": 11
+          },
+          {
+            "id": 153629,
+            "name": "Alan Varela",
+            "position": "Defensive Midfield",
+            "shirtNumber": 22
+          },
+          {
+            "id": 150519,
+            "name": "Gabriel Veiga",
+            "position": "Central Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 8086,
+            "name": "Jan Bednarek",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 147286,
+            "name": "Jakub Kiwior",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 125160,
+            "name": "Zaidu Sanusi",
+            "position": "Left-Back",
+            "shirtNumber": 12
+          }
+        ],
+        "bench": [
+          {
+            "id": 45217,
+            "name": "Cláudio Ramos",
+            "position": "Goalkeeper",
+            "shirtNumber": 14
+          },
+          {
+            "id": 39102,
+            "name": "William da Silva",
+            "position": "Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 98611,
+            "name": "Moura",
+            "position": "Left-Back",
+            "shirtNumber": 74
+          },
+          {
+            "id": 127034,
+            "name": "Borja Sainz",
+            "position": "Left Winger",
+            "shirtNumber": 17
+          },
+          {
+            "id": 7448,
+            "name": "Pablo Rosario",
+            "position": "Defensive Midfield",
+            "shirtNumber": 13
+          },
+          {
+            "id": 184496,
+            "name": "Alberto Baio",
+            "position": "Right-Back",
+            "shirtNumber": 20
+          },
+          {
+            "id": 113427,
+            "name": "Terem Moffi",
+            "position": "Centre-Forward",
+            "shirtNumber": 29
+          },
+          {
+            "id": 2126,
+            "name": "Seko Fofana",
+            "position": "Central Midfield",
+            "shirtNumber": 42
+          },
+          {
+            "id": 3224,
+            "name": "Thiago Silva",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          }
+        ]
       },
       "score": {
         "winner": null,
