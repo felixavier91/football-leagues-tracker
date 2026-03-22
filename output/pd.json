@@ -140938,14 +140938,14 @@
       "id": 544497,
       "utcDate": "2026-03-22T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 20,
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Abanca-Balaídos",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T16:36:18Z",
+      "lastUpdated": "2026-03-22T16:49:09Z",
       "homeTeam": {
         "id": 558,
         "name": "RC Celta de Vigo",
@@ -141244,7 +141244,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -141273,10 +141273,44 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 27,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "scorer": {
+            "id": 175869,
+            "name": "Hugo Alvarez"
+          },
+          "assist": {
+            "id": 83406,
+            "name": "Ferran Jutglà"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 22,
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "player": {
+            "id": 144615,
+            "name": "Jon Pacheco"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
