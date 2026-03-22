@@ -147735,14 +147735,14 @@
       "id": 537105,
       "utcDate": "2026-03-22T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 56,
+      "minute": 90,
       "injuryTime": null,
       "attendance": null,
       "venue": "Artemio Franchi, Firenze",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T22:01:56Z",
+      "lastUpdated": "2026-03-22T22:36:51Z",
       "homeTeam": {
         "id": 99,
         "name": "ACF Fiorentina",
@@ -148044,10 +148044,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -148074,6 +148074,24 @@
           },
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 77,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "scorer": {
+            "id": 192307,
+            "name": "Cher Ndour"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
@@ -148113,6 +148131,42 @@
           "player": {
             "id": 99858,
             "name": "Marco Brescianini"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 60,
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "player": {
+            "id": 192307,
+            "name": "Cher Ndour"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 62,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "player": {
+            "id": 1911,
+            "name": "Nicolò Barella"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 65,
+          "team": {
+            "id": 99,
+            "name": "ACF Fiorentina"
+          },
+          "player": {
+            "id": 2171,
+            "name": "Moise Kean"
           },
           "card": "YELLOW"
         }

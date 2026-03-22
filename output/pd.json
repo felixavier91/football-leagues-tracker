@@ -141976,15 +141976,15 @@
       },
       "id": 544498,
       "utcDate": "2026-03-22T20:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 76,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 77964,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T22:01:26Z",
+      "lastUpdated": "2026-03-22T22:36:31Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -142292,11 +142292,11 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 1
+          "home": 3,
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -142324,9 +142324,99 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 52,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 1556,
+            "name": "Vinicius Junior"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 55,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 96,
+            "name": "Federico Valverde"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        {
+          "minute": 66,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "scorer": {
+            "id": 46452,
+            "name": "Nahuel Molina"
+          },
+          "assist": {
+            "id": 98571,
+            "name": "Julián Álvarez"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
+        },
+        {
+          "minute": 72,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 1556,
+            "name": "Vinicius Junior"
+          },
+          "assist": {
+            "id": 7867,
+            "name": "Trent Alexander-Arnold"
+          },
+          "score": {
+            "home": 3,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 1556,
+            "name": "Vinicius Junior"
+          },
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 27,
@@ -142349,6 +142439,42 @@
           "player": {
             "id": 151241,
             "name": "Matteo Ruggeri"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 61,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "player": {
+            "id": 15542,
+            "name": "Dávid Hancko"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 63,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "player": {
+            "id": 283110,
+            "name": "Thiago Pitarch"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 68,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "player": {
+            "id": 70,
+            "name": "Marcos Llorente"
           },
           "card": "YELLOW"
         }

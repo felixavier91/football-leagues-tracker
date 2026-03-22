@@ -111341,14 +111341,14 @@
       "id": 542641,
       "utcDate": "2026-03-22T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": 57,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Stade de la Beaujoire",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T22:02:11Z",
+      "lastUpdated": "2026-03-22T22:37:01Z",
       "homeTeam": {
         "id": 543,
         "name": "FC Nantes",
@@ -111626,11 +111626,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -111700,6 +111700,27 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 78,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "scorer": {
+            "id": 203561,
+            "name": "Joaquín Panichelli"
+          },
+          "assist": {
+            "id": 245336,
+            "name": "Gessime Yassine"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -111749,6 +111770,30 @@
           "player": {
             "id": 149044,
             "name": "Johann Lepenant"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 58,
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "player": {
+            "id": 210644,
+            "name": "Maximillian Oyedele"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 543,
+            "name": "FC Nantes"
+          },
+          "player": {
+            "id": 264406,
+            "name": "Herba Guirassy"
           },
           "card": "YELLOW"
         }
