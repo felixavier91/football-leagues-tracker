@@ -110679,14 +110679,14 @@
       "id": 545938,
       "utcDate": "2026-03-22T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": 9,
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "Centro de Formação do FC Alverca",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T19:16:53Z",
+      "lastUpdated": "2026-03-22T19:35:14Z",
       "homeTeam": {
         "id": 7822,
         "name": "FC Alverca",
@@ -110964,20 +110964,52 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scorer": {
+            "id": 92050,
+            "name": "Pedro Gonçalves"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 24,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 145357,
+            "name": "Gonçalo Inácio"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -111089,7 +111121,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 37386,
+          "name": "António Nobre",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 182107,
+          "name": "Nelson Pereira",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 220516,
+          "name": "Francisco Pereira",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
