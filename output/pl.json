@@ -140644,14 +140644,14 @@
       "id": 538092,
       "utcDate": "2026-03-22T12:00:00Z",
       "status": "IN_PLAY",
-      "minute": 72,
-      "injuryTime": null,
-      "attendance": null,
+      "minute": 90,
+      "injuryTime": 3,
+      "attendance": 52253,
       "venue": "St James' Park",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T14:29:20Z",
+      "lastUpdated": "2026-03-22T14:50:26Z",
       "homeTeam": {
         "id": 67,
         "name": "Newcastle United FC",
@@ -140929,11 +140929,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -140979,6 +140979,24 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "scorer": {
+            "id": 97535,
+            "name": "Brian Brobbey"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
       "penalties": [],
@@ -140992,6 +141010,30 @@
           "player": {
             "id": 117687,
             "name": "Trai Hume"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 82,
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "player": {
+            "id": 46491,
+            "name": "Omar Alderete"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 71,
+            "name": "Sunderland AFC"
+          },
+          "player": {
+            "id": 97535,
+            "name": "Brian Brobbey"
           },
           "card": "YELLOW"
         }
