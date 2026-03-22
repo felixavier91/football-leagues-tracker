@@ -111167,14 +111167,14 @@
       "id": 545941,
       "utcDate": "2026-03-22T20:30:00Z",
       "status": "IN_PLAY",
-      "minute": 47,
+      "minute": 61,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Municipal de Braga",
       "matchday": 27,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-03-22T22:37:11Z",
+      "lastUpdated": "2026-03-22T22:50:56Z",
       "homeTeam": {
         "id": 5613,
         "name": "Sporting Clube de Braga",
@@ -111452,10 +111452,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -111463,8 +111463,39 @@
           "away": 0
         }
       },
-      "goals": [],
-      "penalties": [],
+      "goals": [
+        {
+          "minute": 54,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "scorer": {
+            "id": 121007,
+            "name": "Rodrigo Zalazar"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
+      "penalties": [
+        {
+          "player": {
+            "id": 121007,
+            "name": "Rodrigo Zalazar"
+          },
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 15,
@@ -111499,6 +111530,30 @@
           "player": {
             "id": 469,
             "name": "Sikou Niakaté"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 51,
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "player": {
+            "id": 150519,
+            "name": "Gabriel Veiga"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 54,
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "player": {
+            "id": 121007,
+            "name": "Rodrigo Zalazar"
           },
           "card": "YELLOW"
         }
