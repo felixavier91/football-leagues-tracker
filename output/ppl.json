@@ -112641,15 +112641,15 @@
       },
       "id": 545947,
       "utcDate": "2026-04-03T19:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 17,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Alvalade",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-03T20:28:06Z",
+      "lastUpdated": "2026-04-03T21:50:46Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -112800,7 +112800,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 13,
-        "formation": "4-3-3",
+        "formation": "4-4-2",
         "lineup": [
           {
             "id": 1528,
@@ -112927,18 +112927,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 3,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "scorer": {
+            "id": 185110,
+            "name": "Klismahn"
+          },
+          "assist": {
+            "id": 227024,
+            "name": "Luis Fernando"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
