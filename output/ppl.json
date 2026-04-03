@@ -111700,14 +111700,14 @@
       "id": 545943,
       "utcDate": "2026-04-03T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 19,
+      "minute": 47,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Cidade de Barcelos",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-03T16:53:08Z",
+      "lastUpdated": "2026-04-03T17:40:46Z",
       "homeTeam": {
         "id": 5533,
         "name": "Gil Vicente FC",
@@ -111858,7 +111858,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 18,
-        "formation": "4-2-3-1",
+        "formation": "4-3-3",
         "lineup": [
           {
             "id": 168959,
@@ -111988,12 +111988,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "goals": [
@@ -112017,10 +112017,53 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 34,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "scorer": {
+            "id": 37160,
+            "name": "Murilo"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 20,
+          "team": {
+            "id": 10340,
+            "name": "AVS"
+          },
+          "player": {
+            "id": 45243,
+            "name": "Tómané"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "player": {
+            "id": 211848,
+            "name": "Antonio Espigares"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -112132,7 +112175,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 40454,
+          "name": "Carlos Macedo",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 128776,
+          "name": "Luís Costa",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 243566,
+          "name": "João Macedo",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
