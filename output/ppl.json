@@ -112642,14 +112642,14 @@
       "id": 545947,
       "utcDate": "2026-04-03T19:30:00Z",
       "status": "IN_PLAY",
-      "minute": 17,
+      "minute": 30,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Alvalade",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-03T21:50:46Z",
+      "lastUpdated": "2026-04-03T22:04:04Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -112927,10 +112927,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -112959,10 +112959,53 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scorer": {
+            "id": 92050,
+            "name": "Pedro Gonçalves"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 92050,
+            "name": "Pedro Gonçalves"
+          },
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 24,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 37332,
+            "name": "Trincão"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
