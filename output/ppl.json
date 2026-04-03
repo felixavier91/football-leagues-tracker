@@ -111699,15 +111699,15 @@
       },
       "id": 545943,
       "utcDate": "2026-04-03T14:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 19,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Cidade de Barcelos",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-03T15:42:41Z",
+      "lastUpdated": "2026-04-03T16:53:08Z",
       "homeTeam": {
         "id": 5533,
         "name": "Gil Vicente FC",
@@ -111858,7 +111858,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 18,
-        "formation": "3-4-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 168959,
@@ -111985,18 +111985,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 11,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5533,
+            "name": "Gil Vicente FC"
+          },
+          "scorer": {
+            "id": 252836,
+            "name": "Gustavo Varela"
+          },
+          "assist": {
+            "id": 157367,
+            "name": "Luís Esteves"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
