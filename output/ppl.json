@@ -112145,15 +112145,15 @@
       },
       "id": 545951,
       "utcDate": "2026-04-03T17:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 64,
       "injuryTime": null,
       "attendance": null,
       "venue": "Éstadio Dom Afonso Henriques",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-03T20:03:34Z",
+      "lastUpdated": "2026-04-03T20:25:16Z",
       "homeTeam": {
         "id": 5543,
         "name": "Vitória SC",
@@ -112434,7 +112434,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 4,
           "away": 0
         },
         "halfTime": {
@@ -112484,10 +112484,71 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 51,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 5543,
+            "name": "Vitória SC"
+          },
+          "scorer": {
+            "id": 45514,
+            "name": "Samu"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 0
+          }
+        },
+        {
+          "minute": 55,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5543,
+            "name": "Vitória SC"
+          },
+          "scorer": {
+            "id": 243569,
+            "name": "Gustavo Silva"
+          },
+          "assist": null,
+          "score": {
+            "home": 4,
+            "away": 0
+          }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 45514,
+            "name": "Samu"
+          },
+          "team": {
+            "id": 5543,
+            "name": "Vitória SC"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 47,
+          "team": {
+            "id": 1049,
+            "name": "CD Tondela"
+          },
+          "player": {
+            "id": 178447,
+            "name": "Brayan Medina"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
