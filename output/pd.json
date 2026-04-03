@@ -142543,14 +142543,14 @@
       "id": 544509,
       "utcDate": "2026-04-03T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 62,
+      "minute": 88,
       "injuryTime": null,
       "attendance": 11182,
       "venue": "Estadio de Vallecas",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-03T22:20:34Z",
+      "lastUpdated": "2026-04-03T22:46:54Z",
       "homeTeam": {
         "id": 87,
         "name": "Rayo Vallecano de Madrid",
@@ -142864,10 +142864,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -142875,7 +142875,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 74,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid"
+          },
+          "scorer": {
+            "id": 98032,
+            "name": "Randy Ntekja"
+          },
+          "assist": {
+            "id": 32312,
+            "name": "Álvaro García"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -142911,6 +142933,18 @@
           "player": {
             "id": 4098,
             "name": "Rafael Mir"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 63,
+          "team": {
+            "id": 285,
+            "name": "Elche CF"
+          },
+          "player": {
+            "id": 189369,
+            "name": "Alvaro Rodriguez"
           },
           "card": "YELLOW"
         }
