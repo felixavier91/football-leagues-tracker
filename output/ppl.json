@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 243
+    "played": 244
   },
   "competition": {
     "id": 2017,
@@ -112641,15 +112641,15 @@
       },
       "id": 545947,
       "utcDate": "2026-04-03T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 88,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 8,
       "attendance": null,
       "venue": "Estadio Jose Alvalade",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-03T23:21:14Z",
+      "lastUpdated": "2026-04-03T23:33:09Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -112930,8 +112930,8 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
-          "away": 1
+          "home": 4,
+          "away": 2
         },
         "halfTime": {
           "home": 3,
@@ -113019,6 +113019,48 @@
             "home": 3,
             "away": 1
           }
+        },
+        {
+          "minute": 89,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "scorer": {
+            "id": 15919,
+            "name": "Gonçalo Paciência"
+          },
+          "assist": {
+            "id": 181456,
+            "name": "Brenner"
+          },
+          "score": {
+            "home": 3,
+            "away": 2
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 5,
+          "type": "REGULAR",
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "scorer": {
+            "id": 247303,
+            "name": "Rafael Nel"
+          },
+          "assist": {
+            "id": 178768,
+            "name": "Eduardo Quaresma"
+          },
+          "score": {
+            "home": 4,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -113092,6 +113134,42 @@
           "player": {
             "id": 45215,
             "name": "Petit"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "player": {
+            "id": 278474,
+            "name": "José Tavares"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 5530,
+            "name": "CD Santa Clara"
+          },
+          "player": {
+            "id": 15919,
+            "name": "Gonçalo Paciência"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 498,
+            "name": "Sporting Clube de Portugal"
+          },
+          "player": {
+            "id": 73998,
+            "name": "Morten Hjulmand"
           },
           "card": "YELLOW"
         }
