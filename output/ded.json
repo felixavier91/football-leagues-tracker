@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 252
+    "played": 253
   },
   "competition": {
     "id": 2003,
@@ -122606,15 +122606,15 @@
       },
       "id": 537699,
       "utcDate": "2026-04-04T14:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 65,
-      "injuryTime": null,
-      "attendance": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 8,
+      "attendance": 35000,
       "venue": "Philips Stadion",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T17:51:20Z",
+      "lastUpdated": "2026-04-04T18:27:44Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -122901,8 +122901,8 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
-          "away": 2
+          "home": 4,
+          "away": 3
         },
         "halfTime": {
           "home": 1,
@@ -123014,10 +123014,65 @@
             "home": 3,
             "away": 2
           }
+        },
+        {
+          "minute": 82,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 676,
+            "name": "FC Utrecht"
+          },
+          "scorer": {
+            "id": 31243,
+            "name": "Jesper Karlsson"
+          },
+          "assist": {
+            "id": 6721,
+            "name": "Sébastien Haller"
+          },
+          "score": {
+            "home": 3,
+            "away": 3
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "REGULAR",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 150536,
+            "name": "Couhaib Driouech"
+          },
+          "assist": {
+            "id": 53426,
+            "name": "Joey Veerman"
+          },
+          "score": {
+            "home": 4,
+            "away": 3
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 71,
+          "team": {
+            "id": 676,
+            "name": "FC Utrecht"
+          },
+          "player": {
+            "id": 115370,
+            "name": "Niklas Vesterlund"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -123067,8 +123122,377 @@
           "REGULAR_SEASON"
         ]
       },
-      "id": 537694,
+      "id": 537701,
       "utcDate": "2026-04-04T16:45:00Z",
+      "status": "TIMED",
+      "minute": null,
+      "injuryTime": null,
+      "attendance": null,
+      "venue": "BUKO Stadion",
+      "matchday": 29,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "lastUpdated": "2026-04-04T17:59:22Z",
+      "homeTeam": {
+        "id": 1912,
+        "name": "Telstar 1963",
+        "shortName": "Telstar",
+        "tla": "TEL",
+        "crest": "https://crests.football-data.org/1912.png",
+        "coach": {
+          "id": 133822,
+          "name": "Anthony Correia",
+          "nationality": "Netherlands"
+        },
+        "leagueRank": 14,
+        "formation": "3-4-2-1",
+        "lineup": [
+          {
+            "id": 171423,
+            "name": "Ronald Koeman Jr.",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 7624,
+            "name": "Danny Bakker",
+            "position": "Defence",
+            "shirtNumber": 6
+          },
+          {
+            "id": 171436,
+            "name": "Devon Koswal",
+            "position": "Defence",
+            "shirtNumber": 21
+          },
+          {
+            "id": 219280,
+            "name": "Neville Ogidi Nwankwo",
+            "position": "Defence",
+            "shirtNumber": 14
+          },
+          {
+            "id": 7354,
+            "name": "Jeff Hardeveld",
+            "position": "Defence",
+            "shirtNumber": 2
+          },
+          {
+            "id": 226917,
+            "name": "Tyrone Owusu",
+            "position": "Defence",
+            "shirtNumber": 8
+          },
+          {
+            "id": 244256,
+            "name": "Guus Offerhaus",
+            "position": "Defence",
+            "shirtNumber": 4
+          },
+          {
+            "id": 184643,
+            "name": "Patrick Brouwer",
+            "position": "Midfield",
+            "shirtNumber": 27
+          },
+          {
+            "id": 245618,
+            "name": "Cedric Hatenboer",
+            "position": "Midfield",
+            "shirtNumber": 23
+          },
+          {
+            "id": 117796,
+            "name": "Nökkvi Þórisson",
+            "position": "Midfield",
+            "shirtNumber": 19
+          },
+          {
+            "id": 244046,
+            "name": "Sem van Duijn",
+            "position": "Offence",
+            "shirtNumber": 37
+          }
+        ],
+        "bench": [
+          {
+            "id": 171283,
+            "name": "Tyrick Bodak",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 102186,
+            "name": "Daan Reiziger",
+            "position": "Goalkeeper",
+            "shirtNumber": 20
+          },
+          {
+            "id": 191954,
+            "name": "Tyrese Noslin",
+            "position": "Defence",
+            "shirtNumber": 11
+          },
+          {
+            "id": 282877,
+            "name": "Rojendro Oudsten",
+            "position": "Midfield",
+            "shirtNumber": 28
+          },
+          {
+            "id": 177052,
+            "name": "Nils Rossen",
+            "position": "Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 244492,
+            "name": "Soufiane Hetli",
+            "position": "Offence",
+            "shirtNumber": 7
+          },
+          {
+            "id": 273131,
+            "name": "Jelani Seedorf",
+            "position": "Offence",
+            "shirtNumber": 9
+          },
+          {
+            "id": 53432,
+            "name": "Kay Tejan",
+            "position": "Centre-Forward",
+            "shirtNumber": 30
+          },
+          {
+            "id": 211708,
+            "name": "Jochem Ritmeester van de Kamp",
+            "position": "Central Midfield",
+            "shirtNumber": 39
+          }
+        ]
+      },
+      "awayTeam": {
+        "id": 677,
+        "name": "FC Groningen",
+        "shortName": "Groningen",
+        "tla": "GRO",
+        "crest": "https://crests.football-data.org/677.png",
+        "coach": {
+          "id": 9850,
+          "name": "Dick Lukkien",
+          "nationality": "Netherlands"
+        },
+        "leagueRank": 10,
+        "formation": "4-2-3-1",
+        "lineup": [
+          {
+            "id": 10111,
+            "name": "Etienne Vaessen",
+            "position": "Goalkeeper",
+            "shirtNumber": 1
+          },
+          {
+            "id": 272985,
+            "name": "David van der Werff",
+            "position": "Midfield",
+            "shirtNumber": 17
+          },
+          {
+            "id": 188914,
+            "name": "Thom van Bergen",
+            "position": "Centre-Forward",
+            "shirtNumber": 26
+          },
+          {
+            "id": 186400,
+            "name": "Younes Taha",
+            "position": "Attacking Midfield",
+            "shirtNumber": 10
+          },
+          {
+            "id": 218389,
+            "name": "Tika de Jonge",
+            "position": "Central Midfield",
+            "shirtNumber": 8
+          },
+          {
+            "id": 190468,
+            "name": "Tygo Land",
+            "position": "Central Midfield",
+            "shirtNumber": 18
+          },
+          {
+            "id": 189599,
+            "name": "Jorg Schreuders",
+            "position": "Right Winger",
+            "shirtNumber": 14
+          },
+          {
+            "id": 45647,
+            "name": "Marco Rente",
+            "position": "Centre-Back",
+            "shirtNumber": 5
+          },
+          {
+            "id": 179522,
+            "name": "Tijmen Blokzijl",
+            "position": "Centre-Back",
+            "shirtNumber": 3
+          },
+          {
+            "id": 217464,
+            "name": "Dies Janse",
+            "position": "Centre-Back",
+            "shirtNumber": 4
+          },
+          {
+            "id": 71983,
+            "name": "Marvin Peersman",
+            "position": "Centre-Back",
+            "shirtNumber": 43
+          }
+        ],
+        "bench": [
+          {
+            "id": 186577,
+            "name": "Lovro Stubljar",
+            "position": "Goalkeeper",
+            "shirtNumber": 13
+          },
+          {
+            "id": 178057,
+            "name": "Dirk Baron",
+            "position": "Goalkeeper",
+            "shirtNumber": 24
+          },
+          {
+            "id": 228985,
+            "name": "Tyrique Mercera",
+            "position": "Defence",
+            "shirtNumber": 16
+          },
+          {
+            "id": 276030,
+            "name": "Elvis Van Der Laan",
+            "position": "Defence",
+            "shirtNumber": 15
+          },
+          {
+            "id": 282875,
+            "name": "Jismerai Dillema",
+            "position": "Offence",
+            "shirtNumber": 44
+          },
+          {
+            "id": 290883,
+            "name": "Ryan Metu",
+            "position": "Offence",
+            "shirtNumber": 34
+          },
+          {
+            "id": 7698,
+            "name": "Mats Seuntjens",
+            "position": "Offence",
+            "shirtNumber": 20
+          },
+          {
+            "id": 246685,
+            "name": "Sven Bouland",
+            "position": "Centre-Back",
+            "shirtNumber": 22
+          },
+          {
+            "id": 218463,
+            "name": "Wouter Prins",
+            "position": "Left-Back",
+            "shirtNumber": 2
+          },
+          {
+            "id": 57281,
+            "name": "Rui Mendes",
+            "position": "Right Winger",
+            "shirtNumber": 27
+          },
+          {
+            "id": 204719,
+            "name": "Travis Hernes",
+            "position": "Central Midfield",
+            "shirtNumber": 7
+          },
+          {
+            "id": 41302,
+            "name": "Brynjolfur Darri Willumsson",
+            "position": "Centre-Forward",
+            "shirtNumber": 9
+          }
+        ]
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "goals": [],
+      "penalties": [],
+      "bookings": [],
+      "substitutions": [],
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "referees": [
+        {
+          "id": 80087,
+          "name": "Jannick van der Laan",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 56927,
+          "name": "Freek Vandeursen",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 43874,
+          "name": "Mario Diks",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
+    },
+    {
+      "area": {
+        "id": 2163,
+        "name": "Netherlands",
+        "code": "NLD",
+        "flag": "https://crests.football-data.org/8601.svg"
+      },
+      "competition": {
+        "id": 2003,
+        "name": "Eredivisie",
+        "code": "DED",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/ED.png"
+      },
+      "season": {
+        "id": 2400,
+        "startDate": "2025-08-08",
+        "endDate": "2026-05-17",
+        "currentMatchday": 29,
+        "winner": null,
+        "stages": [
+          "REGULAR_SEASON"
+        ]
+      },
+      "id": 537694,
+      "utcDate": "2026-04-04T17:00:00Z",
       "status": "TIMED",
       "minute": null,
       "injuryTime": null,
@@ -123077,7 +123501,7 @@
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T17:51:08Z",
+      "lastUpdated": "2026-04-04T18:15:46Z",
       "homeTeam": {
         "id": 682,
         "name": "AZ",
@@ -123407,113 +123831,6 @@
         {
           "id": 81546,
           "name": "Joey Waleveld",
-          "type": "ASSISTANT_REFEREE_N2",
-          "nationality": "Netherlands"
-        }
-      ]
-    },
-    {
-      "area": {
-        "id": 2163,
-        "name": "Netherlands",
-        "code": "NLD",
-        "flag": "https://crests.football-data.org/8601.svg"
-      },
-      "competition": {
-        "id": 2003,
-        "name": "Eredivisie",
-        "code": "DED",
-        "type": "LEAGUE",
-        "emblem": "https://crests.football-data.org/ED.png"
-      },
-      "season": {
-        "id": 2400,
-        "startDate": "2025-08-08",
-        "endDate": "2026-05-17",
-        "currentMatchday": 29,
-        "winner": null,
-        "stages": [
-          "REGULAR_SEASON"
-        ]
-      },
-      "id": 537701,
-      "utcDate": "2026-04-04T16:45:00Z",
-      "status": "TIMED",
-      "minute": null,
-      "injuryTime": null,
-      "attendance": null,
-      "venue": "BUKO Stadion",
-      "matchday": 29,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "lastUpdated": "2026-03-29T01:32:03Z",
-      "homeTeam": {
-        "id": 1912,
-        "name": "Telstar 1963",
-        "shortName": "Telstar",
-        "tla": "TEL",
-        "crest": "https://crests.football-data.org/1912.png",
-        "coach": {
-          "id": 133822,
-          "name": "Anthony Correia",
-          "nationality": "Netherlands"
-        },
-        "leagueRank": 14,
-        "formation": null,
-        "lineup": [],
-        "bench": []
-      },
-      "awayTeam": {
-        "id": 677,
-        "name": "FC Groningen",
-        "shortName": "Groningen",
-        "tla": "GRO",
-        "crest": "https://crests.football-data.org/677.png",
-        "coach": {
-          "id": 9850,
-          "name": "Dick Lukkien",
-          "nationality": "Netherlands"
-        },
-        "leagueRank": 10,
-        "formation": null,
-        "lineup": [],
-        "bench": []
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "goals": [],
-      "penalties": [],
-      "bookings": [],
-      "substitutions": [],
-      "odds": {
-        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-      },
-      "referees": [
-        {
-          "id": 80087,
-          "name": "Jannick van der Laan",
-          "type": "REFEREE",
-          "nationality": "Netherlands"
-        },
-        {
-          "id": 56927,
-          "name": "Freek Vandeursen",
-          "type": "ASSISTANT_REFEREE_N1",
-          "nationality": "Netherlands"
-        },
-        {
-          "id": 43874,
-          "name": "Mario Diks",
           "type": "ASSISTANT_REFEREE_N2",
           "nationality": "Netherlands"
         }

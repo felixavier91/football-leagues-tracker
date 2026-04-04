@@ -148710,15 +148710,15 @@
       },
       "id": 537115,
       "utcDate": "2026-04-04T16:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Marcantonio Bentegodi",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T17:13:46Z",
+      "lastUpdated": "2026-04-04T18:34:02Z",
       "homeTeam": {
         "id": 450,
         "name": "Hellas Verona FC",
@@ -149050,11 +149050,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -149063,7 +149063,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 17,
+          "team": {
+            "id": 450,
+            "name": "Hellas Verona FC"
+          },
+          "player": {
+            "id": 2006,
+            "name": "Roberto Gagliardini"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
