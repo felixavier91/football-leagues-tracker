@@ -112226,14 +112226,14 @@
       "id": 542655,
       "utcDate": "2026-04-04T15:00:00Z",
       "status": "IN_PLAY",
-      "minute": 12,
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade de la Meinau",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T17:12:35Z",
+      "lastUpdated": "2026-04-04T17:33:18Z",
       "homeTeam": {
         "id": 576,
         "name": "RC Strasbourg Alsace",
@@ -112511,10 +112511,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -112522,7 +112522,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 28,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace"
+          },
+          "scorer": {
+            "id": 204426,
+            "name": "Martial Godo"
+          },
+          "assist": {
+            "id": 135473,
+            "name": "Guela Doué"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
