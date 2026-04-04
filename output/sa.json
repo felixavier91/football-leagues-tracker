@@ -149211,14 +149211,14 @@
       "id": 537118,
       "utcDate": "2026-04-04T18:45:00Z",
       "status": "IN_PLAY",
-      "minute": 14,
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Olimpico, Rome",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T20:59:55Z",
+      "lastUpdated": "2026-04-04T21:19:14Z",
       "homeTeam": {
         "id": 110,
         "name": "SS Lazio",
@@ -149526,20 +149526,64 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 15,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 112,
+            "name": "Parma Calcio 1913"
+          },
+          "scorer": {
+            "id": 1839,
+            "name": "Enrico Del Prato"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 27,
+          "team": {
+            "id": 112,
+            "name": "Parma Calcio 1913"
+          },
+          "player": {
+            "id": 172399,
+            "name": "Gabriel Strefezza"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 32,
+          "team": {
+            "id": 112,
+            "name": "Parma Calcio 1913"
+          },
+          "player": {
+            "id": 157538,
+            "name": "Mateo Pellegrino"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
