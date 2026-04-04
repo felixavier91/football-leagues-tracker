@@ -113255,14 +113255,14 @@
       "id": 542653,
       "utcDate": "2026-04-04T19:05:00Z",
       "status": "IN_PLAY",
-      "minute": 58,
+      "minute": 78,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Pierre-Mauroy",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T22:26:46Z",
+      "lastUpdated": "2026-04-04T22:46:49Z",
       "homeTeam": {
         "id": 521,
         "name": "Lille OSC",
@@ -113543,7 +113543,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 0
         },
         "halfTime": {
@@ -113590,9 +113590,39 @@
             "home": 2,
             "away": 0
           }
+        },
+        {
+          "minute": 58,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "scorer": {
+            "id": 213511,
+            "name": "Matias Fernandez-Pardo"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 0
+          }
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 213511,
+            "name": "Matias Fernandez-Pardo"
+          },
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "scored": true
+        }
+      ],
       "bookings": [
         {
           "minute": 45,
@@ -113615,6 +113645,18 @@
           "player": {
             "id": 192677,
             "name": "Nathan Ngoy"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 71,
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "player": {
+            "id": 29890,
+            "name": "Berke Özer"
           },
           "card": "YELLOW"
         }
