@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 247
+    "played": 248
   },
   "competition": {
     "id": 2017,
@@ -114554,15 +114554,15 @@
       },
       "id": 545946,
       "utcDate": "2026-04-04T19:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 87,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 11,
       "attendance": null,
       "venue": "Estadio do Dragao",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T23:20:54Z",
+      "lastUpdated": "2026-04-04T23:36:44Z",
       "homeTeam": {
         "id": 503,
         "name": "FC Porto",
@@ -114843,8 +114843,8 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 1
+          "home": 2,
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -114889,6 +114889,45 @@
           "score": {
             "home": 1,
             "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "scorer": {
+            "id": 2126,
+            "name": "Seko Fofana"
+          },
+          "assist": {
+            "id": 227047,
+            "name": "Martim Fernandes"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 9,
+          "type": "REGULAR",
+          "team": {
+            "id": 5531,
+            "name": "FC Famalicão"
+          },
+          "scorer": {
+            "id": 126147,
+            "name": "Rodrigo Pinheiro"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
           }
         }
       ],
@@ -114963,6 +115002,42 @@
           "player": {
             "id": 153629,
             "name": "Alan Varela"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 5531,
+            "name": "FC Famalicão"
+          },
+          "player": {
+            "id": 11587,
+            "name": "Rafa Soares"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 5531,
+            "name": "FC Famalicão"
+          },
+          "player": {
+            "id": 97367,
+            "name": "Justin de Haas"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 503,
+            "name": "FC Porto"
+          },
+          "player": {
+            "id": 184496,
+            "name": "Alberto Baio"
           },
           "card": "YELLOW"
         }
