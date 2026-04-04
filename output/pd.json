@@ -143001,14 +143001,14 @@
       "id": 544510,
       "utcDate": "2026-04-04T12:00:00Z",
       "status": "IN_PLAY",
-      "minute": 13,
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Reale Arena",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T14:16:21Z",
+      "lastUpdated": "2026-04-04T14:35:54Z",
       "homeTeam": {
         "id": 92,
         "name": "Real Sociedad de Fútbol",
@@ -143021,7 +143021,7 @@
           "nationality": "USA"
         },
         "leagueRank": 7,
-        "formation": "4-4-2",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 32413,
@@ -143322,10 +143322,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -143333,9 +143333,80 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol"
+          },
+          "scorer": {
+            "id": 245442,
+            "name": "Jon Martín"
+          },
+          "assist": {
+            "id": 33148,
+            "name": "Carlos Soler"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 15,
+          "team": {
+            "id": 88,
+            "name": "Levante UD"
+          },
+          "player": {
+            "id": 118715,
+            "name": "Manuel Sánchez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 15,
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol"
+          },
+          "player": {
+            "id": 101182,
+            "name": "Ander Barrenetxea"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 17,
+          "team": {
+            "id": 88,
+            "name": "Levante UD"
+          },
+          "player": {
+            "id": 210811,
+            "name": "Matias Moreno"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 31,
+          "team": {
+            "id": 88,
+            "name": "Levante UD"
+          },
+          "player": {
+            "id": 128034,
+            "name": "Luís Castro"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
