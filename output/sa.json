@@ -148223,14 +148223,14 @@
       "id": 537120,
       "utcDate": "2026-04-04T13:00:00Z",
       "status": "IN_PLAY",
-      "minute": 74,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Stadio Mapei - Citta del Tricolore",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T16:36:34Z",
+      "lastUpdated": "2026-04-04T16:54:47Z",
       "homeTeam": {
         "id": 471,
         "name": "US Sassuolo Calcio",
@@ -148562,10 +148562,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
@@ -148609,6 +148609,27 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 78,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio"
+          },
+          "scorer": {
+            "id": 2016,
+            "name": "Andrea Pinamonti"
+          },
+          "assist": {
+            "id": 250948,
+            "name": "Darryl Bakola"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
         }
       ],
       "penalties": [
@@ -148624,7 +148645,20 @@
           "scored": true
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 79,
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio"
+          },
+          "player": {
+            "id": 2016,
+            "name": "Andrea Pinamonti"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

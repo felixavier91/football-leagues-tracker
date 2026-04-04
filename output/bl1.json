@@ -114288,15 +114288,15 @@
       },
       "id": 540649,
       "utcDate": "2026-04-04T13:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 64,
       "injuryTime": null,
       "attendance": null,
       "venue": "Europa-Park Stadion",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T16:36:24Z",
+      "lastUpdated": "2026-04-04T16:54:35Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -114574,10 +114574,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -114585,7 +114585,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 46,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 17,
+            "name": "SC Freiburg"
+          },
+          "scorer": {
+            "id": 212309,
+            "name": "Johan Manzambi"
+          },
+          "assist": {
+            "id": 9452,
+            "name": "Maximilian Eggestein"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -114665,14 +114687,14 @@
       "id": 540651,
       "utcDate": "2026-04-04T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 48,
+      "minute": 66,
       "injuryTime": null,
       "attendance": null,
       "venue": "PreZero Arena",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T16:36:24Z",
+      "lastUpdated": "2026-04-04T16:54:35Z",
       "homeTeam": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
@@ -115030,6 +115052,18 @@
             "name": "Ozan Kabak"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 47,
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "player": {
+            "id": 62631,
+            "name": "Vladimir Coufal"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -115084,14 +115118,14 @@
       "id": 540652,
       "utcDate": "2026-04-04T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 47,
+      "minute": 65,
       "injuryTime": null,
-      "attendance": null,
+      "attendance": 40000,
       "venue": "Wohninvest Weserstadion",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T16:36:24Z",
+      "lastUpdated": "2026-04-04T16:54:35Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -115367,7 +115401,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -115391,6 +115425,24 @@
           "score": {
             "home": 0,
             "away": 1
+          }
+        },
+        {
+          "minute": 52,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "scorer": {
+            "id": 178783,
+            "name": "Romulo Cruz"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 2
           }
         }
       ],
@@ -115447,15 +115499,15 @@
       },
       "id": 540653,
       "utcDate": "2026-04-04T13:30:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 63,
       "injuryTime": null,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T16:36:24Z",
+      "lastUpdated": "2026-04-04T16:54:35Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -115733,10 +115785,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 3
         },
         "halfTime": {
@@ -115840,6 +115892,24 @@
             "home": 2,
             "away": 3
           }
+        },
+        {
+          "minute": 53,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "scorer": {
+            "id": 1826,
+            "name": "Patrik Schick"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 3
+          }
         }
       ],
       "penalties": [
@@ -115862,6 +115932,17 @@
           "team": {
             "id": 11,
             "name": "VfL Wolfsburg"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 1826,
+            "name": "Patrik Schick"
+          },
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
           },
           "scored": true
         }
@@ -115900,6 +115981,18 @@
           "player": {
             "id": 10244,
             "name": "Dieter Hecking"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 55,
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "player": {
+            "id": 177590,
+            "name": "Konstantinos Koulierakis"
           },
           "card": "YELLOW"
         }
@@ -115956,14 +116049,14 @@
       "id": 540654,
       "utcDate": "2026-04-04T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 47,
+      "minute": 65,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volksparkstadion",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T16:36:24Z",
+      "lastUpdated": "2026-04-04T16:54:36Z",
       "homeTeam": {
         "id": 7,
         "name": "Hamburger SV",
@@ -116241,10 +116334,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -116270,6 +116363,27 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 60,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "scorer": {
+            "id": 137302,
+            "name": "Ransford Königsdörffer"
+          },
+          "assist": {
+            "id": 7034,
+            "name": "Robert Glatzel"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -116285,6 +116399,42 @@
             "name": "Philip Otele"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 55,
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "player": {
+            "id": 6551,
+            "name": "Jordan Torunarigha"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 59,
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "player": {
+            "id": 152692,
+            "name": "Fabian Rieder"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 64,
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "player": {
+            "id": 50215,
+            "name": "Miro Muheim"
+          },
+          "card": "RED"
         }
       ],
       "substitutions": [],
@@ -116339,14 +116489,14 @@
       "id": 540656,
       "utcDate": "2026-04-04T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 47,
+      "minute": 66,
       "injuryTime": null,
       "attendance": null,
       "venue": "Borussia-Park",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T16:36:24Z",
+      "lastUpdated": "2026-04-04T16:54:36Z",
       "homeTeam": {
         "id": 18,
         "name": "Borussia Mönchengladbach",
@@ -116624,11 +116774,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -116676,6 +116826,24 @@
           "score": {
             "home": 1,
             "away": 1
+          }
+        },
+        {
+          "minute": 64,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 44,
+            "name": "1. FC Heidenheim 1846"
+          },
+          "scorer": {
+            "id": 7022,
+            "name": "Marnon-Thomas Busch"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
           }
         }
       ],

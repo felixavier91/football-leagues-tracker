@@ -122607,14 +122607,14 @@
       "id": 537699,
       "utcDate": "2026-04-04T14:30:00Z",
       "status": "IN_PLAY",
-      "minute": 6,
+      "minute": 24,
       "injuryTime": null,
       "attendance": null,
       "venue": "Philips Stadion",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T16:36:57Z",
+      "lastUpdated": "2026-04-04T16:55:19Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -122622,9 +122622,9 @@
         "tla": "PSV",
         "crest": "https://crests.football-data.org/674.png",
         "coach": {
-          "id": 43925,
-          "name": "Peter Bosz",
-          "nationality": "Netherlands"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 1,
         "formation": "4-3-3",
@@ -122690,12 +122690,6 @@
             "shirtNumber": 22
           },
           {
-            "id": 7443,
-            "name": "Armando Obispo",
-            "position": "Centre-Back",
-            "shirtNumber": 4
-          },
-          {
             "id": 7451,
             "name": "Mauro Júnior",
             "position": "Left-Back",
@@ -122734,12 +122728,6 @@
             "shirtNumber": 9
           },
           {
-            "id": 221412,
-            "name": "Yarek Gasiorowski",
-            "position": "Centre-Back",
-            "shirtNumber": 3
-          },
-          {
             "id": 184642,
             "name": "Ryan Flamingo",
             "position": "Centre-Back",
@@ -122766,9 +122754,9 @@
         "tla": "UTR",
         "crest": "https://crests.football-data.org/676.png",
         "coach": {
-          "id": 125706,
-          "name": "Ron Jans",
-          "nationality": "Netherlands"
+          "id": null,
+          "name": null,
+          "nationality": null
         },
         "leagueRank": 7,
         "formation": "3-4-3",
@@ -122913,8 +122901,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 1
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
           "home": null,
@@ -122941,6 +122929,48 @@
           "score": {
             "home": 0,
             "away": 1
+          }
+        },
+        {
+          "minute": 13,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 676,
+            "name": "FC Utrecht"
+          },
+          "scorer": {
+            "id": 215554,
+            "name": "Gjivai Zechiël"
+          },
+          "assist": {
+            "id": 191058,
+            "name": "Angel Alarcon"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        {
+          "minute": 21,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 674,
+            "name": "PSV"
+          },
+          "scorer": {
+            "id": 130173,
+            "name": "Ismael Saibari"
+          },
+          "assist": {
+            "id": 2004,
+            "name": "Ivan Perišić"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
           }
         }
       ],
@@ -123057,7 +123087,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56908,
+          "name": "Richard Martens",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 43860,
+          "name": "Joost van Zuilen",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 81546,
+          "name": "Joey Waleveld",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
@@ -123145,7 +123194,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 80087,
+          "name": "Jannick van der Laan",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 56927,
+          "name": "Freek Vandeursen",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 43874,
+          "name": "Mario Diks",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
