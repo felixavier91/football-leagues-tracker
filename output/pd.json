@@ -144434,14 +144434,14 @@
       "id": 544502,
       "utcDate": "2026-04-04T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 36,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Estadio Cívitas Metropolitano",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T21:37:11Z",
+      "lastUpdated": "2026-04-04T21:52:07Z",
       "homeTeam": {
         "id": 78,
         "name": "Club Atlético de Madrid",
@@ -144752,15 +144752,58 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 39,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "scorer": {
+            "id": 171964,
+            "name": "Giuliano Simeone"
+          },
+          "assist": {
+            "id": 63,
+            "name": "Clément Lenglet"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "scorer": {
+            "id": 3331,
+            "name": "Marcus Rashford"
+          },
+          "assist": {
+            "id": 23132,
+            "name": "Dani Olmo"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -144774,6 +144817,54 @@
             "name": "Nicolás González"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "player": {
+            "id": 214533,
+            "name": "Fermín López"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "player": {
+            "id": 112,
+            "name": "Koke"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "player": {
+            "id": 46452,
+            "name": "Nahuel Molina"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "player": {
+            "id": 45680,
+            "name": "Nicolás González"
+          },
+          "card": "YELLOW_RED"
         }
       ],
       "substitutions": [],

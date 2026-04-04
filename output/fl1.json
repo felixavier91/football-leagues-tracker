@@ -113255,14 +113255,14 @@
       "id": 542653,
       "utcDate": "2026-04-04T19:05:00Z",
       "status": "IN_PLAY",
-      "minute": 32,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Stade Pierre-Mauroy",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T21:37:40Z",
+      "lastUpdated": "2026-04-04T21:52:40Z",
       "homeTeam": {
         "id": 521,
         "name": "Lille OSC",
@@ -113540,10 +113540,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -113551,7 +113551,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 44,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "scorer": {
+            "id": 213221,
+            "name": "Hákon Haraldsson"
+          },
+          "assist": {
+            "id": 213511,
+            "name": "Matias Fernandez-Pardo"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
