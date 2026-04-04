@@ -113701,15 +113701,15 @@
       },
       "id": 545945,
       "utcDate": "2026-04-04T17:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 31,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio do Rio Ave F.C.",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T19:33:35Z",
+      "lastUpdated": "2026-04-04T19:52:46Z",
       "homeTeam": {
         "id": 496,
         "name": "Rio Ave FC",
@@ -113994,8 +113994,8 @@
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "goals": [
@@ -114095,15 +114095,15 @@
       },
       "id": 545948,
       "utcDate": "2026-04-04T17:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 32,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Comendador Joaquim de Almeida Freitas",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T19:33:35Z",
+      "lastUpdated": "2026-04-04T19:52:46Z",
       "homeTeam": {
         "id": 583,
         "name": "Moreirense FC",
@@ -114382,8 +114382,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -114407,7 +114407,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 33,
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "player": {
+            "id": 166538,
+            "name": "Gustaf Lagerbielke"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

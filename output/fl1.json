@@ -112671,15 +112671,15 @@
       },
       "id": 542657,
       "utcDate": "2026-04-04T17:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 32,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Francis-Le Blé",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T19:33:26Z",
+      "lastUpdated": "2026-04-04T19:52:41Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -112957,15 +112957,15 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         }
       },
       "goals": [
@@ -113010,10 +113010,77 @@
             "home": 1,
             "away": 1
           }
+        },
+        {
+          "minute": 35,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "scorer": {
+            "id": 149850,
+            "name": "Esteban Lepaul"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 149850,
+            "name": "Esteban Lepaul"
+          },
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 34,
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "player": {
+            "id": 731,
+            "name": "Grégoire Coudert"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 36,
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "player": {
+            "id": 8695,
+            "name": "Valentin Rongier"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 39,
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "player": {
+            "id": 187530,
+            "name": "Michel Diaz"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
