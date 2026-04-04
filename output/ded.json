@@ -124011,14 +124011,14 @@
       "id": 537693,
       "utcDate": "2026-04-04T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 19,
+      "minute": 37,
       "injuryTime": null,
       "attendance": null,
       "venue": "Johan Cruijff ArenA",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T21:19:40Z",
+      "lastUpdated": "2026-04-04T21:37:55Z",
       "homeTeam": {
         "id": 678,
         "name": "AFC Ajax",
@@ -124326,10 +124326,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -124356,6 +124356,27 @@
           },
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 32,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax"
+          },
+          "scorer": {
+            "id": 7697,
+            "name": "Wout Weghorst"
+          },
+          "assist": {
+            "id": 189574,
+            "name": "Mika Godts"
+          },
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
@@ -124414,14 +124435,14 @@
       "id": 537695,
       "utcDate": "2026-04-04T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 19,
+      "minute": 38,
       "injuryTime": null,
       "attendance": null,
       "venue": "Van Donge & De Roo Stadion",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T21:19:40Z",
+      "lastUpdated": "2026-04-04T21:37:55Z",
       "homeTeam": {
         "id": 670,
         "name": "SBV Excelsior",
@@ -124711,18 +124732,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1915,
+            "name": "NEC"
+          },
+          "scorer": {
+            "id": 7602,
+            "name": "Bryan Linssen"
+          },
+          "assist": {
+            "id": 97164,
+            "name": "Darko Nejašmić"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
