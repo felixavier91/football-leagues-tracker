@@ -114289,14 +114289,14 @@
       "id": 540649,
       "utcDate": "2026-04-04T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 27,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Europa-Park Stadion",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T15:57:55Z",
+      "lastUpdated": "2026-04-04T16:17:50Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -114599,6 +114599,18 @@
             "name": "Jonathan Tah"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 29,
+          "team": {
+            "id": 17,
+            "name": "SC Freiburg"
+          },
+          "player": {
+            "id": 3176,
+            "name": "Matthias Ginter"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -114653,14 +114665,14 @@
       "id": 540651,
       "utcDate": "2026-04-04T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 27,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "PreZero Arena",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T15:57:56Z",
+      "lastUpdated": "2026-04-04T16:17:51Z",
       "homeTeam": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
@@ -115006,6 +115018,18 @@
             "name": "Dominik Kohr"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "player": {
+            "id": 30548,
+            "name": "Ozan Kabak"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -115059,15 +115083,15 @@
       },
       "id": 540652,
       "utcDate": "2026-04-04T13:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 27,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Wohninvest Weserstadion",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T15:57:56Z",
+      "lastUpdated": "2026-04-04T16:17:51Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -115346,8 +115370,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "goals": [
@@ -115424,14 +115448,14 @@
       "id": 540653,
       "utcDate": "2026-04-04T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 27,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T15:57:56Z",
+      "lastUpdated": "2026-04-04T16:17:51Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -115712,8 +115736,8 @@
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 1
+          "home": 2,
+          "away": 3
         },
         "halfTime": {
           "home": null,
@@ -115741,10 +115765,148 @@
             "home": 0,
             "away": 1
           }
+        },
+        {
+          "minute": 30,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "scorer": {
+            "id": 16739,
+            "name": "Alejandro Grimaldo"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 31,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "scorer": {
+            "id": 8975,
+            "name": "Joakim Mæhle"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        {
+          "minute": 38,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "scorer": {
+            "id": 3459,
+            "name": "Christian Eriksen"
+          },
+          "assist": {
+            "id": 180827,
+            "name": "Mohammed Amoura"
+          },
+          "score": {
+            "home": 1,
+            "away": 3
+          }
+        },
+        {
+          "minute": 44,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "scorer": {
+            "id": 16739,
+            "name": "Alejandro Grimaldo"
+          },
+          "assist": {
+            "id": 154228,
+            "name": "Nicolás Ezequiel Fernández"
+          },
+          "score": {
+            "home": 2,
+            "away": 3
+          }
         }
       ],
-      "penalties": [],
-      "bookings": [],
+      "penalties": [
+        {
+          "player": {
+            "id": 16739,
+            "name": "Alejandro Grimaldo"
+          },
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 3459,
+            "name": "Christian Eriksen"
+          },
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "scored": true
+        }
+      ],
+      "bookings": [
+        {
+          "minute": 29,
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "player": {
+            "id": 8975,
+            "name": "Joakim Mæhle"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 37,
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen"
+          },
+          "player": {
+            "id": 64713,
+            "name": "Edmond Tapsoba"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 38,
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "player": {
+            "id": 10244,
+            "name": "Dieter Hecking"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -115797,14 +115959,14 @@
       "id": 540654,
       "utcDate": "2026-04-04T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 26,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 1,
       "attendance": null,
       "venue": "Volksparkstadion",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T15:57:56Z",
+      "lastUpdated": "2026-04-04T16:17:51Z",
       "homeTeam": {
         "id": 7,
         "name": "Hamburger SV",
@@ -116114,7 +116276,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 41,
+          "team": {
+            "id": 7,
+            "name": "Hamburger SV"
+          },
+          "player": {
+            "id": 119989,
+            "name": "Philip Otele"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -116167,14 +116342,14 @@
       "id": 540656,
       "utcDate": "2026-04-04T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 27,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Borussia-Park",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T15:57:56Z",
+      "lastUpdated": "2026-04-04T16:17:51Z",
       "homeTeam": {
         "id": 18,
         "name": "Borussia Mönchengladbach",
@@ -116508,7 +116683,32 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 42,
+          "team": {
+            "id": 18,
+            "name": "Borussia Mönchengladbach"
+          },
+          "player": {
+            "id": 151888,
+            "name": "Jens Castrop"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 44,
+          "team": {
+            "id": 18,
+            "name": "Borussia Mönchengladbach"
+          },
+          "player": {
+            "id": 123277,
+            "name": "Yannik Engelhardt"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

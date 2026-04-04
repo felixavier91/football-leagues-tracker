@@ -148222,15 +148222,15 @@
       },
       "id": 537120,
       "utcDate": "2026-04-04T13:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 56,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Mapei - Citta del Tricolore",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T15:58:16Z",
+      "lastUpdated": "2026-04-04T16:18:00Z",
       "homeTeam": {
         "id": 471,
         "name": "US Sassuolo Calcio",
@@ -148417,7 +148417,7 @@
           "nationality": "Italy"
         },
         "leagueRank": 15,
-        "formation": "3-5-1-1",
+        "formation": "3-5-2",
         "lineup": [
           {
             "id": 82004,
@@ -148562,10 +148562,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 1
         },
         "halfTime": {
@@ -148589,6 +148589,24 @@
           "assist": null,
           "score": {
             "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 50,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio"
+          },
+          "scorer": {
+            "id": 238,
+            "name": "Ulisses Garcia"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
             "away": 1
           }
         }
@@ -148718,7 +148736,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11079,
+          "name": "Marco Guida",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11055,
+          "name": "Filippo Meli",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11051,
+          "name": "Matteo Passeri",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
     },
     {
       "area": {
