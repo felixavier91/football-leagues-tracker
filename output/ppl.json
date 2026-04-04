@@ -113701,15 +113701,15 @@
       },
       "id": 545945,
       "utcDate": "2026-04-04T17:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 11,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio do Rio Ave F.C.",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T18:03:19Z",
+      "lastUpdated": "2026-04-04T19:13:11Z",
       "homeTeam": {
         "id": 496,
         "name": "Rio Ave FC",
@@ -113987,18 +113987,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 5,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7822,
+            "name": "FC Alverca"
+          },
+          "scorer": {
+            "id": 169646,
+            "name": "Lucas Figueiredo"
+          },
+          "assist": {
+            "id": 30052,
+            "name": "Lincoln"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -114052,15 +114074,15 @@
       },
       "id": 545948,
       "utcDate": "2026-04-04T17:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 12,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Comendador Joaquim de Almeida Freitas",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T18:14:04Z",
+      "lastUpdated": "2026-04-04T19:13:11Z",
       "homeTeam": {
         "id": 583,
         "name": "Moreirense FC",
@@ -114073,7 +114095,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 9,
-        "formation": "4-3-3",
+        "formation": "5-4-1",
         "lineup": [
           {
             "id": 52791,
@@ -114332,11 +114354,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,

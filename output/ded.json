@@ -123125,14 +123125,14 @@
       "id": 537701,
       "utcDate": "2026-04-04T16:45:00Z",
       "status": "IN_PLAY",
-      "minute": 8,
+      "minute": 26,
       "injuryTime": null,
       "attendance": null,
       "venue": "BUKO Stadion",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T18:55:04Z",
+      "lastUpdated": "2026-04-04T19:13:15Z",
       "homeTeam": {
         "id": 1912,
         "name": "Telstar 1963",
@@ -123441,7 +123441,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 12,
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "player": {
+            "id": 10111,
+            "name": "Etienne Vaessen"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -123493,15 +123506,15 @@
       },
       "id": 537694,
       "utcDate": "2026-04-04T17:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 13,
       "injuryTime": null,
       "attendance": null,
       "venue": "AFAS Stadion",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T18:37:37Z",
+      "lastUpdated": "2026-04-04T19:13:15Z",
       "homeTeam": {
         "id": 682,
         "name": "AZ",
@@ -123797,18 +123810,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 11,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "scorer": {
+            "id": 176746,
+            "name": "Mexx Meerdink"
+          },
+          "assist": {
+            "id": 153974,
+            "name": "Isak Jensen"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -123922,7 +123957,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56923,
+          "name": "Sander Van der Eijk",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 14765,
+          "name": "Rens Bluemink",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 82102,
+          "name": "Stefan de Groot",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
@@ -124010,7 +124064,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 81350,
+          "name": "Alex Bos",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 17110,
+          "name": "Erik Koopman",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 56928,
+          "name": "Sjoerd Nanninga",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {

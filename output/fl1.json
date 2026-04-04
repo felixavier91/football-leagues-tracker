@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 243
+    "played": 244
   },
   "competition": {
     "id": 2015,
@@ -112225,7 +112225,7 @@
       },
       "id": 542655,
       "utcDate": "2026-04-04T15:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
       "injuryTime": 4,
       "attendance": null,
@@ -112233,7 +112233,7 @@
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T18:54:40Z",
+      "lastUpdated": "2026-04-04T18:57:09Z",
       "homeTeam": {
         "id": 576,
         "name": "RC Strasbourg Alsace",
@@ -112671,15 +112671,15 @@
       },
       "id": 542657,
       "utcDate": "2026-04-04T17:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 12,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Francis-Le Blé",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T18:12:40Z",
+      "lastUpdated": "2026-04-04T19:13:01Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -112830,7 +112830,7 @@
           "nationality": "France"
         },
         "leagueRank": 7,
-        "formation": "4-3-3",
+        "formation": "4-4-2",
         "lineup": [
           {
             "id": 8316,
@@ -112957,18 +112957,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 4,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29"
+          },
+          "scorer": {
+            "id": 116407,
+            "name": "Eric Junior Dina Ebimbe"
+          },
+          "assist": {
+            "id": 723,
+            "name": "Ludovic Ajorque"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -113082,7 +113104,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43918,
+          "name": "François Letexier",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 57080,
+          "name": "Cyril Mugnier",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 57049,
+          "name": "Mehdi Rahmouni",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
