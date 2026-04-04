@@ -122606,15 +122606,15 @@
       },
       "id": 537699,
       "utcDate": "2026-04-04T14:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 6,
       "injuryTime": null,
       "attendance": null,
       "venue": "Philips Stadion",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T15:37:21Z",
+      "lastUpdated": "2026-04-04T16:36:57Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -122634,6 +122634,12 @@
             "name": "Matej Kovar",
             "position": "Goalkeeper",
             "shirtNumber": 32
+          },
+          {
+            "id": 221412,
+            "name": "Yarek Gasiorowski",
+            "position": "Centre-Back",
+            "shirtNumber": 3
           },
           {
             "id": 15781,
@@ -122904,18 +122910,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 3,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 676,
+            "name": "FC Utrecht"
+          },
+          "scorer": {
+            "id": 265560,
+            "name": "Artem Stepanov"
+          },
+          "assist": {
+            "id": 115370,
+            "name": "Niklas Vesterlund"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

@@ -113225,15 +113225,15 @@
       },
       "id": 545944,
       "utcDate": "2026-04-04T14:30:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 5,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio da Madeira",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T15:42:09Z",
+      "lastUpdated": "2026-04-04T16:36:49Z",
       "homeTeam": {
         "id": 5529,
         "name": "CD Nacional",
@@ -113511,20 +113511,52 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 2,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5529,
+            "name": "CD Nacional"
+          },
+          "scorer": {
+            "id": 188085,
+            "name": "Chuchu"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 1,
+          "team": {
+            "id": 9136,
+            "name": "CF Estrela da Amadora"
+          },
+          "player": {
+            "id": 136782,
+            "name": "Luan Patrick"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
