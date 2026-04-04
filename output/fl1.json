@@ -112672,14 +112672,14 @@
       "id": 542657,
       "utcDate": "2026-04-04T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 72,
-      "injuryTime": null,
+      "minute": 90,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "Stade Francis-Le Blé",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T20:34:40Z",
+      "lastUpdated": "2026-04-04T21:00:30Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -112957,11 +112957,11 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 3,
-          "away": 3
+          "away": 4
         },
         "halfTime": {
           "home": 1,
@@ -113085,9 +113085,38 @@
             "home": 3,
             "away": 3
           }
+        },
+        {
+          "minute": 74,
+          "injuryTime": null,
+          "type": "PENALTY",
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "scorer": {
+            "id": 149850,
+            "name": "Esteban Lepaul"
+          },
+          "assist": null,
+          "score": {
+            "home": 3,
+            "away": 4
+          }
         }
       ],
       "penalties": [
+        {
+          "player": {
+            "id": 149850,
+            "name": "Esteban Lepaul"
+          },
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "scored": true
+        },
         {
           "player": {
             "id": 149850,
@@ -113146,6 +113175,30 @@
           "player": {
             "id": 123200,
             "name": "Lilian Brassier"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 73,
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "player": {
+            "id": 96869,
+            "name": "Ludovic Blas"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901"
+          },
+          "player": {
+            "id": 8316,
+            "name": "Brice Samba"
           },
           "card": "YELLOW"
         }
