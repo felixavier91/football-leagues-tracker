@@ -143503,15 +143503,15 @@
       },
       "id": 544505,
       "utcDate": "2026-04-04T14:15:00Z",
-      "status": "IN_PLAY",
-      "minute": 37,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadi Mallorca Son Moix",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T16:54:31Z",
+      "lastUpdated": "2026-04-04T17:12:20Z",
       "homeTeam": {
         "id": 89,
         "name": "RCD Mallorca",
@@ -143825,18 +143825,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 41,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 89,
+            "name": "RCD Mallorca"
+          },
+          "scorer": {
+            "id": 33120,
+            "name": "Manu Morlanes"
+          },
+          "assist": {
+            "id": 33513,
+            "name": "Pablo Maffeo"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
