@@ -123125,14 +123125,14 @@
       "id": 537701,
       "utcDate": "2026-04-04T16:45:00Z",
       "status": "IN_PLAY",
-      "minute": 26,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "BUKO Stadion",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T19:13:15Z",
+      "lastUpdated": "2026-04-04T19:33:41Z",
       "homeTeam": {
         "id": 1912,
         "name": "Telstar 1963",
@@ -123428,18 +123428,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 32,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 677,
+            "name": "FC Groningen"
+          },
+          "scorer": {
+            "id": 217464,
+            "name": "Dies Janse"
+          },
+          "assist": {
+            "id": 190468,
+            "name": "Tygo Land"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -123507,14 +123529,14 @@
       "id": 537694,
       "utcDate": "2026-04-04T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 13,
+      "minute": 34,
       "injuryTime": null,
       "attendance": null,
       "venue": "AFAS Stadion",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T19:13:15Z",
+      "lastUpdated": "2026-04-04T19:33:42Z",
       "homeTeam": {
         "id": 682,
         "name": "AZ",
@@ -123813,7 +123835,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -123840,6 +123862,27 @@
           },
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 15,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 682,
+            "name": "AZ"
+          },
+          "scorer": {
+            "id": 115116,
+            "name": "Sven Mijnans"
+          },
+          "assist": {
+            "id": 136163,
+            "name": "Denso Kasius"
+          },
+          "score": {
+            "home": 2,
             "away": 0
           }
         }

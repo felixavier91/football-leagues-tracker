@@ -113702,14 +113702,14 @@
       "id": 545945,
       "utcDate": "2026-04-04T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 11,
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio do Rio Ave F.C.",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T19:13:11Z",
+      "lastUpdated": "2026-04-04T19:33:35Z",
       "homeTeam": {
         "id": 496,
         "name": "Rio Ave FC",
@@ -113991,7 +113991,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": null,
@@ -114018,6 +114018,27 @@
           "score": {
             "home": 0,
             "away": 1
+          }
+        },
+        {
+          "minute": 21,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 7822,
+            "name": "FC Alverca"
+          },
+          "scorer": {
+            "id": 37269,
+            "name": "Sandro Lima"
+          },
+          "assist": {
+            "id": 169646,
+            "name": "Lucas Figueiredo"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
           }
         }
       ],
@@ -114075,14 +114096,14 @@
       "id": 545948,
       "utcDate": "2026-04-04T17:00:00Z",
       "status": "IN_PLAY",
-      "minute": 12,
+      "minute": 32,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Comendador Joaquim de Almeida Freitas",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T19:13:11Z",
+      "lastUpdated": "2026-04-04T19:33:35Z",
       "homeTeam": {
         "id": 583,
         "name": "Moreirense FC",
@@ -114354,18 +114375,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 24,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5613,
+            "name": "Sporting Clube de Braga"
+          },
+          "scorer": {
+            "id": 102579,
+            "name": "Fran Navarro"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -114479,7 +114519,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57283,
+          "name": "Sérgio Guelho",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 220515,
+          "name": "João Alexandre Bessa Silva",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Portugal"
+        },
+        {
+          "id": 262729,
+          "name": "Andre Ferreira",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
