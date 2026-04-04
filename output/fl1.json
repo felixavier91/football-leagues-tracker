@@ -113254,15 +113254,15 @@
       },
       "id": 542653,
       "utcDate": "2026-04-04T19:05:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "minute": 45,
-      "injuryTime": 2,
+      "injuryTime": null,
       "attendance": null,
       "venue": "Stade Pierre-Mauroy",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T21:52:40Z",
+      "lastUpdated": "2026-04-04T22:11:01Z",
       "homeTeam": {
         "id": 521,
         "name": "Lille OSC",
@@ -113547,8 +113547,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -113575,7 +113575,32 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 546,
+            "name": "Racing Club de Lens"
+          },
+          "player": {
+            "id": 8706,
+            "name": "Adrien Thomasson"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 521,
+            "name": "Lille OSC"
+          },
+          "player": {
+            "id": 192677,
+            "name": "Nathan Ngoy"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
