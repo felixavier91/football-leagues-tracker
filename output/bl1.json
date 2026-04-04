@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 249
+    "played": 250
   },
   "competition": {
     "id": 2002,
@@ -117295,15 +117295,15 @@
       },
       "id": 540650,
       "utcDate": "2026-04-04T16:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 85,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 7,
       "attendance": null,
       "venue": "MHPArena",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T20:14:29Z",
+      "lastUpdated": "2026-04-04T20:27:15Z",
       "homeTeam": {
         "id": 10,
         "name": "VfB Stuttgart",
@@ -117581,18 +117581,58 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 90,
+          "injuryTime": 4,
+          "type": "REGULAR",
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "scorer": {
+            "id": 82515,
+            "name": "Karim Adeyemi"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 6,
+          "type": "REGULAR",
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "scorer": {
+            "id": 148,
+            "name": "Julian Brandt"
+          },
+          "assist": {
+            "id": 125151,
+            "name": "Fábio Silva"
+          },
+          "score": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -117640,6 +117680,30 @@
           "player": {
             "id": 82515,
             "name": "Karim Adeyemi"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 4,
+            "name": "Borussia Dortmund"
+          },
+          "player": {
+            "id": 44030,
+            "name": "Julian Ryerson"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 10,
+            "name": "VfB Stuttgart"
+          },
+          "player": {
+            "id": 7079,
+            "name": "Atakan Karazor"
           },
           "card": "YELLOW"
         }
