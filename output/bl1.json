@@ -114289,14 +114289,14 @@
       "id": 540649,
       "utcDate": "2026-04-04T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 3,
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "Europa-Park Stadion",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T15:33:41Z",
+      "lastUpdated": "2026-04-04T15:57:55Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -114587,7 +114587,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 25,
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "player": {
+            "id": 149,
+            "name": "Jonathan Tah"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -114640,14 +114653,14 @@
       "id": 540651,
       "utcDate": "2026-04-04T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 4,
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "PreZero Arena",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T15:33:42Z",
+      "lastUpdated": "2026-04-04T15:57:56Z",
       "homeTeam": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
@@ -114928,17 +114941,73 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 13,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "scorer": {
+            "id": 45593,
+            "name": "Phillip Tietz"
+          },
+          "assist": {
+            "id": 6576,
+            "name": "Philipp Mwene"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 23,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "scorer": {
+            "id": 145562,
+            "name": "Fisnik Asllani"
+          },
+          "assist": {
+            "id": 249312,
+            "name": "Bazoumana Touré"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 7,
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05"
+          },
+          "player": {
+            "id": 152,
+            "name": "Dominik Kohr"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -114991,14 +115060,14 @@
       "id": 540652,
       "utcDate": "2026-04-04T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 3,
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "Wohninvest Weserstadion",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T15:33:42Z",
+      "lastUpdated": "2026-04-04T15:57:56Z",
       "homeTeam": {
         "id": 12,
         "name": "SV Werder Bremen",
@@ -115270,18 +115339,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 15,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig"
+          },
+          "scorer": {
+            "id": 169295,
+            "name": "Antonio Nusa"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -115336,14 +115424,14 @@
       "id": 540653,
       "utcDate": "2026-04-04T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 3,
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "BayArena",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T15:33:42Z",
+      "lastUpdated": "2026-04-04T15:57:56Z",
       "homeTeam": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
@@ -115621,18 +115709,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 16,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg"
+          },
+          "scorer": {
+            "id": 16335,
+            "name": "Jonas Wind"
+          },
+          "assist": {
+            "id": 177590,
+            "name": "Konstantinos Koulierakis"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -115687,14 +115797,14 @@
       "id": 540654,
       "utcDate": "2026-04-04T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 2,
+      "minute": 26,
       "injuryTime": null,
       "attendance": null,
       "venue": "Volksparkstadion",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T15:33:42Z",
+      "lastUpdated": "2026-04-04T15:57:56Z",
       "homeTeam": {
         "id": 7,
         "name": "Hamburger SV",
@@ -115972,18 +116082,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 22,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "scorer": {
+            "id": 169668,
+            "name": "Arthur Chaves"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -116038,14 +116167,14 @@
       "id": 540656,
       "utcDate": "2026-04-04T13:30:00Z",
       "status": "IN_PLAY",
-      "minute": 4,
+      "minute": 27,
       "injuryTime": null,
       "attendance": null,
       "venue": "Borussia-Park",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-04T15:33:43Z",
+      "lastUpdated": "2026-04-04T15:57:56Z",
       "homeTeam": {
         "id": 18,
         "name": "Borussia Mönchengladbach",
@@ -116326,15 +116455,58 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 16,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 18,
+            "name": "Borussia Mönchengladbach"
+          },
+          "scorer": {
+            "id": 282450,
+            "name": "Wael Mohya"
+          },
+          "assist": {
+            "id": 151888,
+            "name": "Jens Castrop"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 26,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 44,
+            "name": "1. FC Heidenheim 1846"
+          },
+          "scorer": {
+            "id": 66088,
+            "name": "Patrick Mainka"
+          },
+          "assist": {
+            "id": 362,
+            "name": "Niklas Dorsch"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
