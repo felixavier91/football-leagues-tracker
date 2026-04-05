@@ -145476,14 +145476,14 @@
       "id": 544508,
       "utcDate": "2026-04-05T14:15:00Z",
       "status": "IN_PLAY",
-      "minute": 54,
+      "minute": 73,
       "injuryTime": null,
       "attendance": 43764,
       "venue": "Estadio de Mestalla",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T17:33:15Z",
+      "lastUpdated": "2026-04-05T17:51:28Z",
       "homeTeam": {
         "id": 95,
         "name": "Valencia CF",
@@ -145797,11 +145797,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -145825,6 +145825,45 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 56,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "scorer": {
+            "id": 157368,
+            "name": "Ilaix Moriba"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 60,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "scorer": {
+            "id": 272431,
+            "name": "Fer López"
+          },
+          "assist": {
+            "id": 170438,
+            "name": "Williot Swedberg"
+          },
+          "score": {
+            "home": 1,
+            "away": 2
           }
         }
       ],
@@ -145851,6 +145890,18 @@
           "player": {
             "id": 3195,
             "name": "Marcos Alonso"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 71,
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo"
+          },
+          "player": {
+            "id": 168650,
+            "name": "Hugo Sotelo"
           },
           "card": "YELLOW"
         }
