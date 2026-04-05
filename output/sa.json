@@ -150653,15 +150653,15 @@
       },
       "id": 537116,
       "utcDate": "2026-04-05T18:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 34,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Giuseppe Meazza",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T21:21:26Z",
+      "lastUpdated": "2026-04-05T21:44:55Z",
       "homeTeam": {
         "id": 108,
         "name": "FC Internazionale Milano",
@@ -150972,12 +150972,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
-          "away": 0
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         }
       },
       "goals": [
@@ -151000,6 +151000,48 @@
           "score": {
             "home": 1,
             "away": 0
+          }
+        },
+        {
+          "minute": 40,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "scorer": {
+            "id": 1837,
+            "name": "Gianluca Mancini"
+          },
+          "assist": {
+            "id": 149173,
+            "name": "Devyne Rensch"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        {
+          "minute": 45,
+          "injuryTime": 2,
+          "type": "REGULAR",
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano"
+          },
+          "scorer": {
+            "id": 1754,
+            "name": "Hakan Çalhanoğlu"
+          },
+          "assist": {
+            "id": 2097,
+            "name": "Piotr Zieliński"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
           }
         }
       ],
