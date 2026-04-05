@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 246
+    "played": 247
   },
   "competition": {
     "id": 2015,
@@ -113736,15 +113736,15 @@
       },
       "id": 542656,
       "utcDate": "2026-04-05T13:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 81,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": null,
       "venue": "Stade Raymond Kopa",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T16:37:45Z",
+      "lastUpdated": "2026-04-05T16:54:41Z",
       "homeTeam": {
         "id": 532,
         "name": "Angers SCO",
@@ -114059,6 +114059,18 @@
             "name": "Branco van den Boomen"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 84,
+          "team": {
+            "id": 532,
+            "name": "Angers SCO"
+          },
+          "player": {
+            "id": 191002,
+            "name": "Lilian Rao-Lisoa"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -114112,15 +114124,15 @@
       },
       "id": 542649,
       "utcDate": "2026-04-05T15:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Océane",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T16:17:14Z",
+      "lastUpdated": "2026-04-05T17:33:41Z",
       "homeTeam": {
         "id": 533,
         "name": "Le Havre AC",
@@ -114133,7 +114145,7 @@
           "nationality": "France"
         },
         "leagueRank": 14,
-        "formation": "4-1-3-2",
+        "formation": "3-4-3",
         "lineup": [
           {
             "id": 20931,
@@ -114271,7 +114283,7 @@
           "nationality": "France"
         },
         "leagueRank": 16,
-        "formation": "4-4-1-1",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 157131,
@@ -114398,20 +114410,55 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 15,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 519,
+            "name": "AJ Auxerre"
+          },
+          "scorer": {
+            "id": 552,
+            "name": "Lassine Sinayoko"
+          },
+          "assist": {
+            "id": 4289,
+            "name": "Daniel Namaso"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 17,
+          "team": {
+            "id": 533,
+            "name": "Le Havre AC"
+          },
+          "player": {
+            "id": 157842,
+            "name": "Arouna Sangante"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -114463,15 +114510,15 @@
       },
       "id": 542651,
       "utcDate": "2026-04-05T15:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 15,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade du Moustoir",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T16:21:54Z",
+      "lastUpdated": "2026-04-05T17:33:41Z",
       "homeTeam": {
         "id": 525,
         "name": "FC Lorient",
@@ -114622,7 +114669,7 @@
           "nationality": "France"
         },
         "leagueRank": 13,
-        "formation": "4-3-3",
+        "formation": "4-2-3-1",
         "lineup": [
           {
             "id": 3175,
@@ -114749,11 +114796,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -114814,15 +114861,15 @@
       },
       "id": 542652,
       "utcDate": "2026-04-05T15:15:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 18,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T16:23:25Z",
+      "lastUpdated": "2026-04-05T17:33:41Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -115100,11 +115147,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,

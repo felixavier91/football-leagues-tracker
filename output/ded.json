@@ -126340,15 +126340,15 @@
       },
       "id": 537698,
       "utcDate": "2026-04-05T14:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Rat Verlegh",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T15:58:03Z",
+      "lastUpdated": "2026-04-05T17:33:55Z",
       "homeTeam": {
         "id": 681,
         "name": "NAC Breda",
@@ -126662,11 +126662,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -126675,7 +126675,32 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 11,
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "player": {
+            "id": 289506,
+            "name": "Lushendry Martes"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 6806,
+            "name": "Sparta Rotterdam"
+          },
+          "player": {
+            "id": 149054,
+            "name": "Julian Baas"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
