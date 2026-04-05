@@ -145009,14 +145009,14 @@
       "id": 544507,
       "utcDate": "2026-04-05T12:00:00Z",
       "status": "IN_PLAY",
-      "minute": 14,
+      "minute": 34,
       "injuryTime": null,
       "attendance": null,
       "venue": "Coliseum Alfonso Perez",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T14:16:48Z",
+      "lastUpdated": "2026-04-05T14:36:48Z",
       "homeTeam": {
         "id": 82,
         "name": "Getafe CF",
@@ -145318,10 +145318,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -145342,7 +145342,10 @@
             "id": 156967,
             "name": "Luis Vázquez"
           },
-          "assist": null,
+          "assist": {
+            "id": 152458,
+            "name": "Martin Satriano"
+          },
           "score": {
             "home": 1,
             "away": 0
@@ -145350,7 +145353,32 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 29,
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "player": {
+            "id": 3125,
+            "name": "Dakonam Djené"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 31,
+          "team": {
+            "id": 77,
+            "name": "Athletic Club"
+          },
+          "player": {
+            "id": 8479,
+            "name": "Yuri Berchiche"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
