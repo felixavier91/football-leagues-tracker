@@ -114125,14 +114125,14 @@
       "id": 542649,
       "utcDate": "2026-04-05T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 57,
+      "minute": 78,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Océane",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T18:34:20Z",
+      "lastUpdated": "2026-04-05T18:55:15Z",
       "homeTeam": {
         "id": 533,
         "name": "Le Havre AC",
@@ -114532,14 +114532,14 @@
       "id": 542651,
       "utcDate": "2026-04-05T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 59,
+      "minute": 81,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade du Moustoir",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T18:34:20Z",
+      "lastUpdated": "2026-04-05T18:55:15Z",
       "homeTeam": {
         "id": 525,
         "name": "FC Lorient",
@@ -114817,11 +114817,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -114849,6 +114849,24 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 74,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1045,
+            "name": "Paris FC"
+          },
+          "scorer": {
+            "id": 34754,
+            "name": "Marshall Munetsi"
+          },
+          "assist": null,
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -114862,6 +114880,18 @@
           "player": {
             "id": 129221,
             "name": "Adama Camara"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 79,
+          "team": {
+            "id": 1045,
+            "name": "Paris FC"
+          },
+          "player": {
+            "id": 8439,
+            "name": "Pierre Lees Melou"
           },
           "card": "YELLOW"
         }
@@ -114918,14 +114948,14 @@
       "id": 542652,
       "utcDate": "2026-04-05T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 60,
+      "minute": 81,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T18:34:20Z",
+      "lastUpdated": "2026-04-05T18:55:15Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -115240,6 +115270,30 @@
             "name": "Tylel Tati"
           },
           "card": "RED"
+        },
+        {
+          "minute": 63,
+          "team": {
+            "id": 543,
+            "name": "FC Nantes"
+          },
+          "player": {
+            "id": 11572,
+            "name": "Francis Coquelin"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 72,
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "player": {
+            "id": 288541,
+            "name": "Believe Munongo"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -115353,7 +115407,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 9374,
+          "name": "Clément Turpin",
+          "type": "REFEREE",
+          "nationality": "France"
+        },
+        {
+          "id": 43883,
+          "name": "Nicolas Danos",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "France"
+        },
+        {
+          "id": 57035,
+          "name": "Benjamin Pages",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
