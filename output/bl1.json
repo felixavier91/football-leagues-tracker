@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-22",
     "last": "2026-05-16",
-    "played": 251
+    "played": 252
   },
   "competition": {
     "id": 2002,
@@ -118175,15 +118175,15 @@
       },
       "id": 540657,
       "utcDate": "2026-04-05T15:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 66,
-      "injuryTime": null,
-      "attendance": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 7,
+      "attendance": 59300,
       "venue": "Deutsche Bank Park",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T18:54:51Z",
+      "lastUpdated": "2026-04-05T19:26:51Z",
       "homeTeam": {
         "id": 19,
         "name": "Eintracht Frankfurt",
@@ -118464,15 +118464,94 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 2,
+          "away": 2
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 66,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "scorer": {
+            "id": 82404,
+            "name": "Jonathan Burkardt"
+          },
+          "assist": {
+            "id": 178658,
+            "name": "Fares Chaïbi"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 69,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt"
+          },
+          "scorer": {
+            "id": 130668,
+            "name": "Arnaud Kalimuendo"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        {
+          "minute": 70,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "scorer": {
+            "id": 127401,
+            "name": "Jakub Kamiński"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        {
+          "minute": 83,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "scorer": {
+            "id": 8945,
+            "name": "Alessio Castro-Montes"
+          },
+          "assist": {
+            "id": 65441,
+            "name": "Marius Bülter"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -118484,6 +118563,30 @@
           "player": {
             "id": 150860,
             "name": "Ansgar Knauff"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "player": {
+            "id": 6537,
+            "name": "Gian-Luca Waldschmidt"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln"
+          },
+          "player": {
+            "id": 127401,
+            "name": "Jakub Kamiński"
           },
           "card": "YELLOW"
         }

@@ -146011,15 +146011,15 @@
       },
       "id": 544506,
       "utcDate": "2026-04-05T16:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 21,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Nuevo Carlos Tartiere",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T18:54:41Z",
+      "lastUpdated": "2026-04-05T19:33:41Z",
       "homeTeam": {
         "id": 1048,
         "name": "Real Oviedo",
@@ -146315,18 +146315,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 32,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1048,
+            "name": "Real Oviedo"
+          },
+          "scorer": {
+            "id": 112678,
+            "name": "Federico Viñas"
+          },
+          "assist": {
+            "id": 191053,
+            "name": "Alberto Reina"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -146338,6 +146360,30 @@
           "player": {
             "id": 112678,
             "name": "Federico Viñas"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 38,
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC"
+          },
+          "player": {
+            "id": 127127,
+            "name": "Nianzou Kouassi"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 43,
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC"
+          },
+          "player": {
+            "id": 171984,
+            "name": "Jose Angel Carmona"
           },
           "card": "YELLOW"
         }
@@ -146453,7 +146499,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 207113,
+          "name": "César Soto Grado",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        },
+        {
+          "id": 207135,
+          "name": "Carlos Álvarez Fernández",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Spain"
+        },
+        {
+          "id": 207100,
+          "name": "Rubén Becerril Gómez",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
