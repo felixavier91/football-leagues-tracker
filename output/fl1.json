@@ -114125,14 +114125,14 @@
       "id": 542649,
       "utcDate": "2026-04-05T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 36,
+      "minute": 57,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Océane",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T17:51:56Z",
+      "lastUpdated": "2026-04-05T18:34:20Z",
       "homeTeam": {
         "id": 533,
         "name": "Le Havre AC",
@@ -114417,8 +114417,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "goals": [
@@ -114532,14 +114532,14 @@
       "id": 542651,
       "utcDate": "2026-04-05T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 33,
+      "minute": 59,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade du Moustoir",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T17:51:56Z",
+      "lastUpdated": "2026-04-05T18:34:20Z",
       "homeTeam": {
         "id": 525,
         "name": "FC Lorient",
@@ -114817,20 +114817,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 54,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 525,
+            "name": "FC Lorient"
+          },
+          "scorer": {
+            "id": 166640,
+            "name": "Ahmadou Bamba Dieng"
+          },
+          "assist": {
+            "id": 177248,
+            "name": "Pablo Pagis"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 50,
+          "team": {
+            "id": 1045,
+            "name": "Paris FC"
+          },
+          "player": {
+            "id": 129221,
+            "name": "Adama Camara"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -114883,14 +114918,14 @@
       "id": 542652,
       "utcDate": "2026-04-05T15:15:00Z",
       "status": "IN_PLAY",
-      "minute": 36,
+      "minute": 60,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Saint Symphorien",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T17:51:56Z",
+      "lastUpdated": "2026-04-05T18:34:20Z",
       "homeTeam": {
         "id": 545,
         "name": "FC Metz",
@@ -115175,13 +115210,38 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 38,
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "player": {
+            "id": 8353,
+            "name": "Bouna Sarr"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 39,
+          "team": {
+            "id": 543,
+            "name": "FC Nantes"
+          },
+          "player": {
+            "id": 283068,
+            "name": "Tylel Tati"
+          },
+          "card": "RED"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

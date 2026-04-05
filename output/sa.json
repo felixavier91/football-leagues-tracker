@@ -150213,15 +150213,15 @@
       },
       "id": 537119,
       "utcDate": "2026-04-05T16:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 33,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Romeo Anconetani",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T17:10:38Z",
+      "lastUpdated": "2026-04-05T18:34:00Z",
       "homeTeam": {
         "id": 487,
         "name": "AC Pisa 1909",
@@ -150234,7 +150234,7 @@
           "nationality": "Sweden"
         },
         "leagueRank": 19,
-        "formation": "3-4-1-2",
+        "formation": "3-5-2",
         "lineup": [
           {
             "id": 23318,
@@ -150553,11 +150553,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -150566,7 +150566,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 14,
+          "team": {
+            "id": 487,
+            "name": "AC Pisa 1909"
+          },
+          "player": {
+            "id": 16265,
+            "name": "Michel Aebischer"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
