@@ -115395,15 +115395,15 @@
       },
       "id": 542650,
       "utcDate": "2026-04-05T18:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 15,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Louis II",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T20:14:53Z",
+      "lastUpdated": "2026-04-05T21:01:46Z",
       "homeTeam": {
         "id": 548,
         "name": "AS Monaco FC",
@@ -115681,11 +115681,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -115694,7 +115694,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 8,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC"
+          },
+          "player": {
+            "id": 204269,
+            "name": "Lamine Camara"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
