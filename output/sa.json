@@ -149668,15 +149668,15 @@
       },
       "id": 537123,
       "utcDate": "2026-04-05T13:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Giovanni Zini",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T15:33:51Z",
+      "lastUpdated": "2026-04-05T15:59:18Z",
       "homeTeam": {
         "id": 457,
         "name": "US Cremonese",
@@ -150009,8 +150009,8 @@
           "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "goals": [
@@ -150058,7 +150058,20 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 45,
+          "team": {
+            "id": 457,
+            "name": "US Cremonese"
+          },
+          "player": {
+            "id": 57805,
+            "name": "Youssef Maleh"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

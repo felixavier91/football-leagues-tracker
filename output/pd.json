@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 295
+    "played": 296
   },
   "competition": {
     "id": 2014,
@@ -145008,15 +145008,15 @@
       },
       "id": 544507,
       "utcDate": "2026-04-05T12:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 75,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 6,
       "attendance": 7749,
       "venue": "Coliseum Alfonso Perez",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T15:33:35Z",
+      "lastUpdated": "2026-04-05T15:55:56Z",
       "homeTeam": {
         "id": 82,
         "name": "Getafe CF",
@@ -145321,7 +145321,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -145348,6 +145348,27 @@
           },
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 90,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "scorer": {
+            "id": 152458,
+            "name": "Martin Satriano"
+          },
+          "assist": {
+            "id": 191064,
+            "name": "Mario Martin"
+          },
+          "score": {
+            "home": 2,
             "away": 0
           }
         }
@@ -145387,6 +145408,18 @@
           "player": {
             "id": 32758,
             "name": "Mauro Arambarri"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 85,
+          "team": {
+            "id": 82,
+            "name": "Getafe CF"
+          },
+          "player": {
+            "id": 220164,
+            "name": "Sebastián Boselli"
           },
           "card": "YELLOW"
         }
