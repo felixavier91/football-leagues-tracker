@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2025-08-15",
     "last": "2026-05-24",
-    "played": 298
+    "played": 299
   },
   "competition": {
     "id": 2014,
@@ -146511,15 +146511,15 @@
       },
       "id": 544501,
       "utcDate": "2026-04-05T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 6,
       "attendance": 17736,
       "venue": "Estadio Mendizorroza",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T22:52:40Z",
+      "lastUpdated": "2026-04-05T23:01:06Z",
       "homeTeam": {
         "id": 263,
         "name": "Deportivo Alavés",
@@ -146827,10 +146827,10 @@
         ]
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 2
         },
         "halfTime": {
@@ -146895,6 +146895,24 @@
             "home": 1,
             "away": 2
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 1,
+          "type": "PENALTY",
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "scorer": {
+            "id": 11113,
+            "name": "Lucas Boyé"
+          },
+          "assist": null,
+          "score": {
+            "home": 2,
+            "away": 2
+          }
         }
       ],
       "penalties": [
@@ -146906,6 +146924,17 @@
           "team": {
             "id": 79,
             "name": "CA Osasuna"
+          },
+          "scored": true
+        },
+        {
+          "player": {
+            "id": 11113,
+            "name": "Lucas Boyé"
+          },
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
           },
           "scored": true
         }
@@ -146956,6 +146985,54 @@
           "player": {
             "id": 151019,
             "name": "Flavien Boyomo"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "player": {
+            "id": 50890,
+            "name": "Catena"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "player": {
+            "id": 249577,
+            "name": "Asier Osambela"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés"
+          },
+          "player": {
+            "id": 226202,
+            "name": "Ángel Pérez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna"
+          },
+          "player": {
+            "id": 191925,
+            "name": "Iker Munoz"
           },
           "card": "YELLOW"
         }
