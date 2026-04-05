@@ -149668,15 +149668,15 @@
       },
       "id": 537123,
       "utcDate": "2026-04-05T13:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 5,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Giovanni Zini",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T14:15:19Z",
+      "lastUpdated": "2026-04-05T15:05:22Z",
       "homeTeam": {
         "id": 457,
         "name": "US Cremonese",
@@ -149788,6 +149788,12 @@
             "name": "Francesco Folino",
             "position": "Defence",
             "shirtNumber": 55
+          },
+          {
+            "id": 294283,
+            "name": "Nouroudine Faye",
+            "position": null,
+            "shirtNumber": 17
           },
           {
             "id": 294283,
@@ -149996,18 +150002,40 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 3,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 103,
+            "name": "Bologna FC 1909"
+          },
+          "scorer": {
+            "id": 82126,
+            "name": "João Mário Lopes"
+          },
+          "assist": {
+            "id": 32491,
+            "name": "Juan Miranda"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],

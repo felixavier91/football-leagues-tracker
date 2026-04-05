@@ -124940,15 +124940,15 @@
       },
       "id": 537697,
       "utcDate": "2026-04-05T10:15:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 58,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Adelaarshorst",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T14:37:40Z",
+      "lastUpdated": "2026-04-05T15:05:50Z",
       "homeTeam": {
         "id": 718,
         "name": "Go Ahead Eagles",
@@ -125259,7 +125259,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 0
         },
         "halfTime": {
@@ -125328,6 +125328,27 @@
           },
           "score": {
             "home": 3,
+            "away": 0
+          }
+        },
+        {
+          "minute": 56,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 718,
+            "name": "Go Ahead Eagles"
+          },
+          "scorer": {
+            "id": 186571,
+            "name": "Aske Adelgaard"
+          },
+          "assist": {
+            "id": 144367,
+            "name": "Jakob Breum"
+          },
+          "score": {
+            "home": 4,
             "away": 0
           }
         }
@@ -125399,14 +125420,14 @@
       "id": 537696,
       "utcDate": "2026-04-05T12:30:00Z",
       "status": "IN_PLAY",
-      "minute": 7,
+      "minute": 35,
       "injuryTime": null,
       "attendance": null,
       "venue": "Kras Stadion",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T14:37:41Z",
+      "lastUpdated": "2026-04-05T15:05:51Z",
       "homeTeam": {
         "id": 1919,
         "name": "FC Volendam",
@@ -125762,14 +125783,14 @@
       "id": 537700,
       "utcDate": "2026-04-05T12:30:00Z",
       "status": "IN_PLAY",
-      "minute": 3,
+      "minute": 31,
       "injuryTime": null,
       "attendance": null,
       "venue": "Abe Lenstra Stadion",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-05T14:37:41Z",
+      "lastUpdated": "2026-04-05T15:05:51Z",
       "homeTeam": {
         "id": 673,
         "name": "SC Heerenveen",
@@ -126021,6 +126042,12 @@
             "shirtNumber": 17
           },
           {
+            "id": 294286,
+            "name": "Jesper Kerkdijk",
+            "position": null,
+            "shirtNumber": 42
+          },
+          {
             "id": 150521,
             "name": "Sava Cestic",
             "position": "Centre-Back",
@@ -126065,18 +126092,37 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 21,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 671,
+            "name": "Heracles Almelo"
+          },
+          "scorer": {
+            "id": 7235,
+            "name": "Mario Engels"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
@@ -126190,7 +126236,26 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 81036,
+          "name": "Robin Hensgens",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 17133,
+          "name": "Michael Osseweijer",
+          "type": "ASSISTANT_REFEREE_N1",
+          "nationality": "Netherlands"
+        },
+        {
+          "id": 91979,
+          "name": "Joris Westhof",
+          "type": "ASSISTANT_REFEREE_N2",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
