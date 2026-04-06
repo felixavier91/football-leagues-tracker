@@ -151625,15 +151625,15 @@
       },
       "id": 537124,
       "utcDate": "2026-04-06T13:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 21,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Via del Mare",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-06T15:23:53Z",
+      "lastUpdated": "2026-04-06T15:57:34Z",
       "homeTeam": {
         "id": 5890,
         "name": "US Lecce",
@@ -151935,18 +151935,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 29,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC"
+          },
+          "scorer": {
+            "id": 153990,
+            "name": "Giorgio Scalvini"
+          },
+          "assist": {
+            "id": 129947,
+            "name": "Charles De Ketelaere"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
