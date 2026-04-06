@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-08",
     "last": "2026-05-17",
-    "played": 248
+    "played": 249
   },
   "competition": {
     "id": 2017,
@@ -115093,15 +115093,15 @@
       },
       "id": 545950,
       "utcDate": "2026-04-06T17:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 86,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 9,
       "attendance": null,
       "venue": "Municipal de Arouca",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-06T21:35:01Z",
+      "lastUpdated": "2026-04-06T21:50:11Z",
       "homeTeam": {
         "id": 712,
         "name": "FC Arouca",
@@ -115528,6 +115528,30 @@
             "name": "André"
           },
           "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 100703,
+            "name": "Ignacio De Arruabarrena"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 90,
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "player": {
+            "id": 180178,
+            "name": "Puche"
+          },
+          "card": "YELLOW"
         }
       ],
       "substitutions": [],
@@ -115581,15 +115605,15 @@
       },
       "id": 545949,
       "utcDate": "2026-04-06T19:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 10,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Municipal de Rio Maior",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-06T20:49:47Z",
+      "lastUpdated": "2026-04-06T21:57:36Z",
       "homeTeam": {
         "id": 6618,
         "name": "Casa Pia AC",
@@ -115867,11 +115891,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
