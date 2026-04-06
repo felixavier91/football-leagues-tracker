@@ -115094,14 +115094,14 @@
       "id": 545950,
       "utcDate": "2026-04-06T17:45:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 20,
       "injuryTime": null,
       "attendance": null,
       "venue": "Municipal de Arouca",
       "matchday": 28,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-06T19:48:27Z",
+      "lastUpdated": "2026-04-06T20:09:23Z",
       "homeTeam": {
         "id": 712,
         "name": "FC Arouca",
@@ -115376,15 +115376,58 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 3,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 582,
+            "name": "GD Estoril Praia"
+          },
+          "scorer": {
+            "id": 8569,
+            "name": "Xeka"
+          },
+          "assist": {
+            "id": 16752,
+            "name": "João Carvalho"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        {
+          "minute": 13,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 712,
+            "name": "FC Arouca"
+          },
+          "scorer": {
+            "id": 81391,
+            "name": "Barbero"
+          },
+          "assist": {
+            "id": 92089,
+            "name": "Naïs Djouahra"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
