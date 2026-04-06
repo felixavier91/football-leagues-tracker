@@ -152090,14 +152090,14 @@
       "id": 537117,
       "utcDate": "2026-04-06T16:00:00Z",
       "status": "IN_PLAY",
-      "minute": 7,
+      "minute": 29,
       "injuryTime": null,
       "attendance": null,
       "venue": "Allianz Stadium",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-06T18:07:58Z",
+      "lastUpdated": "2026-04-06T18:30:01Z",
       "homeTeam": {
         "id": 109,
         "name": "Juventus FC",
@@ -152426,7 +152426,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -152455,10 +152455,56 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 17,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "scorer": {
+            "id": 6507,
+            "name": "Weston McKennie"
+          },
+          "assist": {
+            "id": 150791,
+            "name": "Francisco Conceição"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 15,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "player": {
+            "id": 1751,
+            "name": "Manuel Locatelli"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 26,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC"
+          },
+          "player": {
+            "id": 6507,
+            "name": "Weston McKennie"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
