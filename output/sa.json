@@ -152604,15 +152604,15 @@
       },
       "id": 537121,
       "utcDate": "2026-04-06T18:45:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 16,
       "injuryTime": null,
       "attendance": null,
       "venue": "Diego Armando Maradona",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-06T19:54:48Z",
+      "lastUpdated": "2026-04-06T21:03:23Z",
       "homeTeam": {
         "id": 113,
         "name": "SSC Napoli",
@@ -152896,11 +152896,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -152909,7 +152909,20 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 12,
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli"
+          },
+          "player": {
+            "id": 2280,
+            "name": "Alessandro Buongiorno"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
