@@ -88005,15 +88005,15 @@
       },
       "id": 556719,
       "utcDate": "2026-04-07T19:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 35,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 1,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "lastUpdated": "2026-04-07T21:36:27Z",
+      "lastUpdated": "2026-04-07T22:02:37Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -88321,20 +88321,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 41,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München"
+          },
+          "scorer": {
+            "id": 22396,
+            "name": "Luis Díaz"
+          },
+          "assist": {
+            "id": 311,
+            "name": "Serge Gnabry"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 37,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "player": {
+            "id": 8514,
+            "name": "Aurélien Tchouameni"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -88391,15 +88426,15 @@
       },
       "id": 556721,
       "utcDate": "2026-04-07T19:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 33,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estadio Jose Alvalade",
       "matchday": 1,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "lastUpdated": "2026-04-07T21:36:27Z",
+      "lastUpdated": "2026-04-07T22:02:37Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -88708,8 +88743,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "goals": [],
@@ -88724,18 +88759,6 @@
           "player": {
             "id": 49092,
             "name": "Hidemasa Morita"
-          },
-          "card": "YELLOW"
-        },
-        {
-          "minute": 31,
-          "team": {
-            "id": 498,
-            "name": "Sporting Clube de Portugal"
-          },
-          "player": {
-            "id": 32386,
-            "name": "Luis Suárez"
           },
           "card": "YELLOW"
         }
