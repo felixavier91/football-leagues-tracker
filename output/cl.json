@@ -6,7 +6,7 @@
     "count": 189,
     "first": "2025-09-16",
     "last": "2026-05-30",
-    "played": 176
+    "played": 178
   },
   "competition": {
     "id": 2001,
@@ -88005,15 +88005,15 @@
       },
       "id": 556719,
       "utcDate": "2026-04-07T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "minute": 90,
-      "injuryTime": null,
+      "injuryTime": 5,
       "attendance": null,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 1,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "lastUpdated": "2026-04-07T22:49:21Z",
+      "lastUpdated": "2026-04-07T22:54:32Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -88516,15 +88516,15 @@
       },
       "id": 556721,
       "utcDate": "2026-04-07T19:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 89,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 3,
       "attendance": null,
       "venue": "Estadio Jose Alvalade",
       "matchday": 1,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "lastUpdated": "2026-04-07T22:49:21Z",
+      "lastUpdated": "2026-04-07T22:55:52Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -88826,18 +88826,40 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 90,
+          "injuryTime": 1,
+          "type": "REGULAR",
+          "team": {
+            "id": 57,
+            "name": "Arsenal FC"
+          },
+          "scorer": {
+            "id": 171,
+            "name": "Kai Havertz"
+          },
+          "assist": {
+            "id": 61450,
+            "name": "Martinelli"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
