@@ -88931,15 +88931,15 @@
       },
       "id": 556718,
       "utcDate": "2026-04-08T19:00:00Z",
-      "status": "IN_PLAY",
-      "minute": 17,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Parc des Princes",
       "matchday": 1,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "lastUpdated": "2026-04-08T21:19:12Z",
+      "lastUpdated": "2026-04-08T21:49:21Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -89096,7 +89096,7 @@
           "nationality": "Netherlands"
         },
         "leagueRank": null,
-        "formation": "4-2-3-1",
+        "formation": "3-5-2",
         "lineup": [
           {
             "id": 84506,
@@ -89236,8 +89236,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "goals": [
@@ -89261,7 +89261,32 @@
         }
       ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 28,
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "player": {
+            "id": 7862,
+            "name": "Joe Gomez"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 31,
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC"
+          },
+          "player": {
+            "id": 45681,
+            "name": "Alexis Mac Allister"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
@@ -89319,14 +89344,14 @@
       "id": 556720,
       "utcDate": "2026-04-08T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 17,
-      "injuryTime": null,
+      "minute": 45,
+      "injuryTime": 2,
       "attendance": null,
       "venue": "Camp Nou",
       "matchday": 1,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "lastUpdated": "2026-04-08T21:19:12Z",
+      "lastUpdated": "2026-04-08T21:49:21Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -89634,20 +89659,76 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 45,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "scorer": {
+            "id": 98571,
+            "name": "Julián Álvarez"
+          },
+          "assist": null,
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 31,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "player": {
+            "id": 112,
+            "name": "Koke"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 44,
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona"
+          },
+          "player": {
+            "id": 217540,
+            "name": "Pau Cubarsí"
+          },
+          "card": "RED"
+        },
+        {
+          "minute": 45,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid"
+          },
+          "player": {
+            "id": 176745,
+            "name": "Marc Pubill"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
