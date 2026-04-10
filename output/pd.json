@@ -147531,15 +147531,15 @@
       },
       "id": 544520,
       "utcDate": "2026-04-10T19:00:00Z",
-      "status": "PAUSED",
-      "minute": 45,
+      "status": "IN_PLAY",
+      "minute": 62,
       "injuryTime": null,
       "attendance": 70885,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-10T22:03:17Z",
+      "lastUpdated": "2026-04-10T22:21:17Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -147841,10 +147841,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -147852,7 +147852,29 @@
           "away": 0
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 51,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "scorer": {
+            "id": 96,
+            "name": "Federico Valverde"
+          },
+          "assist": {
+            "id": 7887,
+            "name": "Brahim Diaz"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
