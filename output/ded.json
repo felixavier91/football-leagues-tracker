@@ -126777,14 +126777,14 @@
       "id": 537710,
       "utcDate": "2026-04-10T18:00:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 28,
       "injuryTime": null,
       "attendance": null,
       "venue": "De Grolsch Veste",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-10T20:01:23Z",
+      "lastUpdated": "2026-04-10T20:29:13Z",
       "homeTeam": {
         "id": 666,
         "name": "FC Twente '65",
@@ -127092,10 +127092,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -127103,9 +127103,44 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 2,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 666,
+            "name": "FC Twente '65"
+          },
+          "scorer": {
+            "id": 274443,
+            "name": "Ruud Nijstad"
+          },
+          "assist": {
+            "id": 7455,
+            "name": "Sam Lammers"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 23,
+          "team": {
+            "id": 1919,
+            "name": "FC Volendam"
+          },
+          "player": {
+            "id": 217987,
+            "name": "Gibbo Yah"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
