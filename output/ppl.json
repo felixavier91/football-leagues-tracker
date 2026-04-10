@@ -116010,14 +116010,14 @@
       "id": 545958,
       "utcDate": "2026-04-10T19:45:00Z",
       "status": "IN_PLAY",
-      "minute": null,
+      "minute": 16,
       "injuryTime": null,
       "attendance": null,
       "venue": "Estádio Municipal 22 de Junho",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-10T21:47:43Z",
+      "lastUpdated": "2026-04-10T22:03:52Z",
       "homeTeam": {
         "id": 5531,
         "name": "FC Famalicão",
@@ -116168,7 +116168,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 9,
-        "formation": "4-2-3-1",
+        "formation": "4-4-2",
         "lineup": [
           {
             "id": 52791,
@@ -116295,20 +116295,55 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 4,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 583,
+            "name": "Moreirense FC"
+          },
+          "scorer": {
+            "id": 191408,
+            "name": "Rodri Alonso"
+          },
+          "assist": {
+            "id": 263535,
+            "name": "Nile John"
+          },
+          "score": {
+            "home": 0,
+            "away": 1
+          }
+        }
+      ],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 11,
+          "team": {
+            "id": 5531,
+            "name": "FC Famalicão"
+          },
+          "player": {
+            "id": 169412,
+            "name": "Marcos Vinicios"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
