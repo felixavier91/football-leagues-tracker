@@ -153005,15 +153005,15 @@
       },
       "id": 537127,
       "utcDate": "2026-04-10T18:45:00Z",
-      "status": "IN_PLAY",
-      "minute": 37,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stadio Olimpico, Rome",
       "matchday": 32,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-10T21:22:58Z",
+      "lastUpdated": "2026-04-10T21:47:27Z",
       "homeTeam": {
         "id": 100,
         "name": "AS Roma",
@@ -153342,12 +153342,12 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "goals": [
@@ -153366,6 +153366,27 @@
           "assist": null,
           "score": {
             "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 43,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 100,
+            "name": "AS Roma"
+          },
+          "scorer": {
+            "id": 7457,
+            "name": "Donyell Malen"
+          },
+          "assist": {
+            "id": 149173,
+            "name": "Devyne Rensch"
+          },
+          "score": {
+            "home": 2,
             "away": 0
           }
         }

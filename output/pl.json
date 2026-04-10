@@ -141982,14 +141982,14 @@
       "id": 538104,
       "utcDate": "2026-04-10T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 21,
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "London Stadium",
       "matchday": 32,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-10T21:22:28Z",
+      "lastUpdated": "2026-04-10T21:46:58Z",
       "homeTeam": {
         "id": 563,
         "name": "West Ham United FC",
@@ -142267,10 +142267,10 @@
         ]
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -142278,7 +142278,29 @@
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 563,
+            "name": "West Ham United FC"
+          },
+          "scorer": {
+            "id": 7789,
+            "name": "Konstantinos Mavropanos"
+          },
+          "assist": {
+            "id": 11414,
+            "name": "Jarrod Bowen"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [
         {
@@ -142302,6 +142324,18 @@
           "player": {
             "id": 153570,
             "name": "Yerson Mosquera"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 31,
+          "team": {
+            "id": 563,
+            "name": "West Ham United FC"
+          },
+          "player": {
+            "id": 187216,
+            "name": "Mateus Fernandes"
           },
           "card": "YELLOW"
         }
