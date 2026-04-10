@@ -141981,15 +141981,15 @@
       },
       "id": 538104,
       "utcDate": "2026-04-10T19:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 21,
       "injuryTime": null,
       "attendance": null,
       "venue": "London Stadium",
       "matchday": 32,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-10T19:58:25Z",
+      "lastUpdated": "2026-04-10T21:22:28Z",
       "homeTeam": {
         "id": 563,
         "name": "West Ham United FC",
@@ -142002,7 +142002,7 @@
           "nationality": "Portugal"
         },
         "leagueRank": 18,
-        "formation": "4-2-3-1",
+        "formation": "4-4-1-1",
         "lineup": [
           {
             "id": 97144,
@@ -142267,11 +142267,11 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -142280,7 +142280,32 @@
       },
       "goals": [],
       "penalties": [],
-      "bookings": [],
+      "bookings": [
+        {
+          "minute": 9,
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "player": {
+            "id": 788,
+            "name": "Jean-Ricner Bellegarde"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 20,
+          "team": {
+            "id": 76,
+            "name": "Wolverhampton Wanderers FC"
+          },
+          "player": {
+            "id": 153570,
+            "name": "Yerson Mosquera"
+          },
+          "card": "YELLOW"
+        }
+      ],
       "substitutions": [],
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."

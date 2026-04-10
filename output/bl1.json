@@ -118642,15 +118642,15 @@
       },
       "id": 540665,
       "utcDate": "2026-04-10T18:30:00Z",
-      "status": "IN_PLAY",
-      "minute": 23,
+      "status": "PAUSED",
+      "minute": 45,
       "injuryTime": null,
       "attendance": null,
       "venue": "WWK ARENA",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-10T20:53:13Z",
+      "lastUpdated": "2026-04-10T21:22:48Z",
       "homeTeam": {
         "id": 16,
         "name": "FC Augsburg",
@@ -118928,15 +118928,15 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 0
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         }
       },
       "goals": [
@@ -118973,13 +118973,52 @@
             "id": 6661,
             "name": "Michael Gregoritsch"
           },
-          "assist": {
-            "id": 6645,
-            "name": "Jeffrey Gouweleeuw"
-          },
+          "assist": null,
           "score": {
             "home": 2,
             "away": 0
+          }
+        },
+        {
+          "minute": 35,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "scorer": {
+            "id": 188239,
+            "name": "Robin Hranac"
+          },
+          "assist": {
+            "id": 62631,
+            "name": "Vladimir Coufal"
+          },
+          "score": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        {
+          "minute": 42,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim"
+          },
+          "scorer": {
+            "id": 249312,
+            "name": "Bazoumana Touré"
+          },
+          "assist": {
+            "id": 145562,
+            "name": "Fisnik Asllani"
+          },
+          "score": {
+            "home": 2,
+            "away": 2
           }
         }
       ],
@@ -118994,6 +119033,18 @@
           "player": {
             "id": 43195,
             "name": "Dimitris Giannoulis"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 25,
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg"
+          },
+          "player": {
+            "id": 30886,
+            "name": "Cédric Zesiger"
           },
           "card": "YELLOW"
         }
