@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2025-08-15",
     "last": "2026-05-16",
-    "played": 252
+    "played": 253
   },
   "competition": {
     "id": 2015,
@@ -116323,15 +116323,15 @@
       },
       "id": 542663,
       "utcDate": "2026-04-10T19:05:00Z",
-      "status": "IN_PLAY",
-      "minute": 83,
-      "injuryTime": null,
+      "status": "FINISHED",
+      "minute": 90,
+      "injuryTime": 4,
       "attendance": null,
       "venue": "Orange Vélodrome",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-10T22:47:47Z",
+      "lastUpdated": "2026-04-10T23:01:37Z",
       "homeTeam": {
         "id": 516,
         "name": "Olympique de Marseille",
@@ -116612,7 +116612,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
+          "home": 3,
           "away": 1
         },
         "halfTime": {
@@ -116683,6 +116683,27 @@
             "home": 2,
             "away": 1
           }
+        },
+        {
+          "minute": 90,
+          "injuryTime": 3,
+          "type": "REGULAR",
+          "team": {
+            "id": 516,
+            "name": "Olympique de Marseille"
+          },
+          "scorer": {
+            "id": 2499,
+            "name": "Hamed Traoré"
+          },
+          "assist": {
+            "id": 8476,
+            "name": "Amine Gouiri"
+          },
+          "score": {
+            "home": 3,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -116708,6 +116729,18 @@
           "player": {
             "id": 4114,
             "name": "Maxime Colin"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 84,
+          "team": {
+            "id": 545,
+            "name": "FC Metz"
+          },
+          "player": {
+            "id": 45199,
+            "name": "Koffi Franck Kouao"
           },
           "card": "YELLOW"
         }
