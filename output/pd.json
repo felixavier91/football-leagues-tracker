@@ -147532,14 +147532,14 @@
       "id": 544520,
       "utcDate": "2026-04-10T19:00:00Z",
       "status": "IN_PLAY",
-      "minute": 62,
+      "minute": 88,
       "injuryTime": null,
       "attendance": 70885,
       "venue": "Estadio Santiago Bernabeu",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-10T22:21:17Z",
+      "lastUpdated": "2026-04-10T22:47:16Z",
       "homeTeam": {
         "id": 86,
         "name": "Real Madrid CF",
@@ -147841,11 +147841,11 @@
         ]
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -147873,6 +147873,27 @@
             "home": 1,
             "away": 0
           }
+        },
+        {
+          "minute": 62,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 298,
+            "name": "Girona FC"
+          },
+          "scorer": {
+            "id": 3369,
+            "name": "Thomas Lemar"
+          },
+          "assist": {
+            "id": 151744,
+            "name": "Arnau Martinez"
+          },
+          "score": {
+            "home": 1,
+            "away": 1
+          }
         }
       ],
       "penalties": [],
@@ -147886,6 +147907,18 @@
           "player": {
             "id": 3374,
             "name": "Kylian Mbappé"
+          },
+          "card": "YELLOW"
+        },
+        {
+          "minute": 76,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF"
+          },
+          "player": {
+            "id": 96,
+            "name": "Federico Valverde"
           },
           "card": "YELLOW"
         }
