@@ -115856,15 +115856,15 @@
       },
       "id": 542659,
       "utcDate": "2026-04-10T17:00:00Z",
-      "status": "TIMED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": 9,
       "injuryTime": null,
       "attendance": null,
       "venue": "Stade Jean Bouin",
       "matchday": 29,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-10T18:11:20Z",
+      "lastUpdated": "2026-04-10T19:11:03Z",
       "homeTeam": {
         "id": 1045,
         "name": "Paris FC",
@@ -116015,7 +116015,7 @@
           "nationality": "Belgium"
         },
         "leagueRank": 5,
-        "formation": "3-5-2",
+        "formation": "3-1-4-2",
         "lineup": [
           {
             "id": 6696,
@@ -116142,18 +116142,61 @@
         ]
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "halfTime": {
           "home": null,
           "away": null
         }
       },
-      "goals": [],
+      "goals": [
+        {
+          "minute": 4,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1045,
+            "name": "Paris FC"
+          },
+          "scorer": {
+            "id": 8381,
+            "name": "Jonathan Ikoné"
+          },
+          "assist": {
+            "id": 3398,
+            "name": "Moses Simon"
+          },
+          "score": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        {
+          "minute": 8,
+          "injuryTime": null,
+          "type": "REGULAR",
+          "team": {
+            "id": 1045,
+            "name": "Paris FC"
+          },
+          "scorer": {
+            "id": 2076,
+            "name": "Ciro Immobile"
+          },
+          "assist": {
+            "id": 34754,
+            "name": "Marshall Munetsi"
+          },
+          "score": {
+            "home": 2,
+            "away": 0
+          }
+        }
+      ],
       "penalties": [],
       "bookings": [],
       "substitutions": [],
