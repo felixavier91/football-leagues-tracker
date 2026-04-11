@@ -17331,11 +17331,11 @@
       },
       "id": 537704,
       "utcDate": "2026-04-11T14:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 30,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-11T15:34:21Z",
+      "lastUpdated": "2026-04-11T16:57:35Z",
       "homeTeam": {
         "id": 676,
         "name": "FC Utrecht",
@@ -17351,11 +17351,11 @@
         "crest": "https://crests.football-data.org/1912.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -17431,7 +17431,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 81350,
+          "name": "Alex Bos",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
