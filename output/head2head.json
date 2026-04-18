@@ -75715,6 +75715,104 @@
       }
     ]
   },
+  "537161": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 1,
+      "competitions": "SA",
+      "first": "2025-12-12",
+      "last": "2025-12-12"
+    },
+    "aggregates": {
+      "numberOfMatches": 13,
+      "totalGoals": 26,
+      "homeTeam": {
+        "id": 487,
+        "name": "AC Pisa 1909",
+        "wins": 4,
+        "draws": 5,
+        "losses": 4
+      },
+      "awayTeam": {
+        "id": 5890,
+        "name": "US Lecce",
+        "wins": 4,
+        "draws": 5,
+        "losses": 4
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2114,
+          "name": "Italy",
+          "code": "ITA",
+          "flag": "https://crests.football-data.org/784.svg"
+        },
+        "competition": {
+          "id": 2019,
+          "name": "Serie A",
+          "code": "SA",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/c111.png"
+        },
+        "season": {
+          "id": 2395,
+          "startDate": "2025-08-24",
+          "endDate": "2026-05-24",
+          "currentMatchday": 33,
+          "winner": null
+        },
+        "id": 536964,
+        "utcDate": "2025-12-12T19:45:00Z",
+        "status": "FINISHED",
+        "matchday": 15,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-04-18T10:21:07Z",
+        "homeTeam": {
+          "id": 5890,
+          "name": "US Lecce",
+          "shortName": "Lecce",
+          "tla": "USL",
+          "crest": "https://crests.football-data.org/5890.png"
+        },
+        "awayTeam": {
+          "id": 487,
+          "name": "AC Pisa 1909",
+          "shortName": "AC Pisa",
+          "tla": "PIS",
+          "crest": "https://crests.football-data.org/487.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 206189,
+            "name": "Juan Luca Sacchi",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          }
+        ]
+      }
+    ]
+  },
   "537657": {
     "filters": {
       "limit": "50",
@@ -202660,6 +202758,554 @@
           {
             "id": 11430,
             "name": "Simon Hooper",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
+      }
+    ]
+  },
+  "538131": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 7,
+      "competitions": "PL,ELC",
+      "first": "2020-12-27",
+      "last": "2025-10-18"
+    },
+    "aggregates": {
+      "numberOfMatches": 47,
+      "totalGoals": 142,
+      "homeTeam": {
+        "id": 341,
+        "name": "Leeds United FC",
+        "wins": 21,
+        "draws": 12,
+        "losses": 14
+      },
+      "awayTeam": {
+        "id": 328,
+        "name": "Burnley FC",
+        "wins": 14,
+        "draws": 12,
+        "losses": 21
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2072,
+          "name": "England",
+          "code": "ENG",
+          "flag": "https://crests.football-data.org/770.svg"
+        },
+        "competition": {
+          "id": 2021,
+          "name": "Premier League",
+          "code": "PL",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/PL.png"
+        },
+        "season": {
+          "id": 2403,
+          "startDate": "2025-08-15",
+          "endDate": "2026-05-24",
+          "currentMatchday": 33,
+          "winner": null
+        },
+        "id": 537858,
+        "utcDate": "2025-10-18T14:00:00Z",
+        "status": "FINISHED",
+        "matchday": 8,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-04-18T10:21:07Z",
+        "homeTeam": {
+          "id": 328,
+          "name": "Burnley FC",
+          "shortName": "Burnley",
+          "tla": "BUR",
+          "crest": "https://crests.football-data.org/328.png"
+        },
+        "awayTeam": {
+          "id": 341,
+          "name": "Leeds United FC",
+          "shortName": "Leeds United",
+          "tla": "LEE",
+          "crest": "https://crests.football-data.org/341.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 11396,
+            "name": "Tim Robinson",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2072,
+          "name": "England",
+          "code": "ENG",
+          "flag": "https://crests.football-data.org/770.svg"
+        },
+        "competition": {
+          "id": 2016,
+          "name": "Championship",
+          "code": "ELC",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/ELC.png"
+        },
+        "season": {
+          "id": 2301,
+          "startDate": "2024-08-09",
+          "endDate": "2025-05-24",
+          "currentMatchday": 46,
+          "winner": null
+        },
+        "id": 500782,
+        "utcDate": "2025-01-27T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 29,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-05-19T09:10:04Z",
+        "homeTeam": {
+          "id": 328,
+          "name": "Burnley FC",
+          "shortName": "Burnley",
+          "tla": "BUR",
+          "crest": "https://crests.football-data.org/328.png"
+        },
+        "awayTeam": {
+          "id": 341,
+          "name": "Leeds United FC",
+          "shortName": "Leeds United",
+          "tla": "LEE",
+          "crest": "https://crests.football-data.org/341.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 14701,
+            "name": "Joshua Smith",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2072,
+          "name": "England",
+          "code": "ENG",
+          "flag": "https://crests.football-data.org/770.svg"
+        },
+        "competition": {
+          "id": 2016,
+          "name": "Championship",
+          "code": "ELC",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/ELC.png"
+        },
+        "season": {
+          "id": 2301,
+          "startDate": "2024-08-09",
+          "endDate": "2025-05-24",
+          "currentMatchday": 46,
+          "winner": null
+        },
+        "id": 500496,
+        "utcDate": "2024-09-14T11:30:00Z",
+        "status": "FINISHED",
+        "matchday": 5,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-05-19T09:10:04Z",
+        "homeTeam": {
+          "id": 341,
+          "name": "Leeds United FC",
+          "shortName": "Leeds United",
+          "tla": "LEE",
+          "crest": "https://crests.football-data.org/341.png"
+        },
+        "awayTeam": {
+          "id": 328,
+          "name": "Burnley FC",
+          "shortName": "Burnley",
+          "tla": "BUR",
+          "crest": "https://crests.football-data.org/328.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 14659,
+            "name": "James Bell",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2072,
+          "name": "England",
+          "code": "ENG",
+          "flag": "https://crests.football-data.org/770.svg"
+        },
+        "competition": {
+          "id": 2021,
+          "name": "Premier League",
+          "code": "PL",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/PL.png"
+        },
+        "season": {
+          "id": 733,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 65,
+            "name": "Manchester City FC",
+            "shortName": "Man City",
+            "tla": "MCI",
+            "crest": "https://crests.football-data.org/65.png",
+            "address": "SportCity Manchester M11 3FF",
+            "website": "https://www.mancity.com",
+            "founded": 1880,
+            "clubColors": "Sky Blue / White",
+            "venue": "Etihad Stadium",
+            "lastUpdated": "2022-02-10T19:48:37Z"
+          }
+        },
+        "id": 327157,
+        "utcDate": "2022-01-02T14:00:00Z",
+        "status": "FINISHED",
+        "matchday": 21,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-16T08:20:23Z",
+        "homeTeam": {
+          "id": 341,
+          "name": "Leeds United FC",
+          "shortName": "Leeds United",
+          "tla": "LEE",
+          "crest": "https://crests.football-data.org/341.png"
+        },
+        "awayTeam": {
+          "id": 328,
+          "name": "Burnley FC",
+          "shortName": "Burnley",
+          "tla": "BUR",
+          "crest": "https://crests.football-data.org/328.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 11487,
+            "name": "Kevin Friend",
+            "type": "REFEREE",
+            "nationality": "England"
+          },
+          {
+            "id": 11520,
+            "name": "Paul Tierney",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2072,
+          "name": "England",
+          "code": "ENG",
+          "flag": "https://crests.football-data.org/770.svg"
+        },
+        "competition": {
+          "id": 2021,
+          "name": "Premier League",
+          "code": "PL",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/PL.png"
+        },
+        "season": {
+          "id": 733,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 65,
+            "name": "Manchester City FC",
+            "shortName": "Man City",
+            "tla": "MCI",
+            "crest": "https://crests.football-data.org/65.png",
+            "address": "SportCity Manchester M11 3FF",
+            "website": "https://www.mancity.com",
+            "founded": 1880,
+            "clubColors": "Sky Blue / White",
+            "venue": "Etihad Stadium",
+            "lastUpdated": "2022-02-10T19:48:37Z"
+          }
+        },
+        "id": 327340,
+        "utcDate": "2021-08-29T13:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-16T08:20:23Z",
+        "homeTeam": {
+          "id": 328,
+          "name": "Burnley FC",
+          "shortName": "Burnley",
+          "tla": "BUR",
+          "crest": "https://crests.football-data.org/328.png"
+        },
+        "awayTeam": {
+          "id": 341,
+          "name": "Leeds United FC",
+          "shortName": "Leeds United",
+          "tla": "LEE",
+          "crest": "https://crests.football-data.org/341.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 11605,
+            "name": "Michael Oliver",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2072,
+          "name": "England",
+          "code": "ENG",
+          "flag": "https://crests.football-data.org/770.svg"
+        },
+        "competition": {
+          "id": 2021,
+          "name": "Premier League",
+          "code": "PL",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/PL.png"
+        },
+        "season": {
+          "id": 619,
+          "startDate": "2020-09-12",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 65,
+            "name": "Manchester City FC",
+            "shortName": "Man City",
+            "tla": "MCI",
+            "crest": "https://crests.football-data.org/65.png",
+            "address": "SportCity Manchester M11 3FF",
+            "website": "https://www.mancity.com",
+            "founded": 1880,
+            "clubColors": "Sky Blue / White",
+            "venue": "Etihad Stadium",
+            "lastUpdated": "2022-02-10T19:48:37Z"
+          }
+        },
+        "id": 304108,
+        "utcDate": "2021-05-15T11:30:00Z",
+        "status": "FINISHED",
+        "matchday": 36,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2021-06-15T08:20:25Z",
+        "homeTeam": {
+          "id": 328,
+          "name": "Burnley FC",
+          "shortName": "Burnley",
+          "tla": "BUR",
+          "crest": "https://crests.football-data.org/328.png"
+        },
+        "awayTeam": {
+          "id": 341,
+          "name": "Leeds United FC",
+          "shortName": "Leeds United",
+          "tla": "LEE",
+          "crest": "https://crests.football-data.org/341.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 4
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 11503,
+            "name": "Graham Scott",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2072,
+          "name": "England",
+          "code": "ENG",
+          "flag": "https://crests.football-data.org/770.svg"
+        },
+        "competition": {
+          "id": 2021,
+          "name": "Premier League",
+          "code": "PL",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/PL.png"
+        },
+        "season": {
+          "id": 619,
+          "startDate": "2020-09-12",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 65,
+            "name": "Manchester City FC",
+            "shortName": "Man City",
+            "tla": "MCI",
+            "crest": "https://crests.football-data.org/65.png",
+            "address": "SportCity Manchester M11 3FF",
+            "website": "https://www.mancity.com",
+            "founded": 1880,
+            "clubColors": "Sky Blue / White",
+            "venue": "Etihad Stadium",
+            "lastUpdated": "2022-02-10T19:48:37Z"
+          }
+        },
+        "id": 303906,
+        "utcDate": "2020-12-27T12:00:00Z",
+        "status": "FINISHED",
+        "matchday": 15,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2020-12-27T16:26:24Z",
+        "homeTeam": {
+          "id": 341,
+          "name": "Leeds United FC",
+          "shortName": "Leeds United",
+          "tla": "LEE",
+          "crest": "https://crests.football-data.org/341.png"
+        },
+        "awayTeam": {
+          "id": 328,
+          "name": "Burnley FC",
+          "shortName": "Burnley",
+          "tla": "BUR",
+          "crest": "https://crests.football-data.org/328.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 11446,
+            "name": "Robert Jones",
             "type": "REFEREE",
             "nationality": "England"
           }
@@ -340786,6 +341432,860 @@
       }
     ]
   },
+  "542687": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 12,
+      "competitions": "FL1",
+      "first": "2020-02-22",
+      "last": "2026-01-04"
+    },
+    "aggregates": {
+      "numberOfMatches": 50,
+      "totalGoals": 115,
+      "homeTeam": {
+        "id": 543,
+        "name": "FC Nantes",
+        "wins": 15,
+        "draws": 13,
+        "losses": 22
+      },
+      "awayTeam": {
+        "id": 516,
+        "name": "Olympique de Marseille",
+        "wins": 22,
+        "draws": 13,
+        "losses": 15
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 2420,
+          "startDate": "2025-08-17",
+          "endDate": "2026-05-16",
+          "currentMatchday": 30,
+          "winner": null
+        },
+        "id": 542555,
+        "utcDate": "2026-01-04T14:00:00Z",
+        "status": "FINISHED",
+        "matchday": 17,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-04-18T10:21:07Z",
+        "homeTeam": {
+          "id": 516,
+          "name": "Olympique de Marseille",
+          "shortName": "Marseille",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/516.png"
+        },
+        "awayTeam": {
+          "id": 543,
+          "name": "FC Nantes",
+          "shortName": "Nantes",
+          "tla": "NAN",
+          "crest": "https://crests.football-data.org/543.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 64781,
+            "name": "Marc Bollengier",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 2290,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-18",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 498159,
+        "utcDate": "2025-03-02T19:45:00Z",
+        "status": "FINISHED",
+        "matchday": 24,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-01T20:20:47Z",
+        "homeTeam": {
+          "id": 516,
+          "name": "Olympique de Marseille",
+          "shortName": "Marseille",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/516.png"
+        },
+        "awayTeam": {
+          "id": 543,
+          "name": "FC Nantes",
+          "shortName": "Nantes",
+          "tla": "NAN",
+          "crest": "https://crests.football-data.org/543.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 25786,
+            "name": "Stéphanie Frappart",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 2290,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-18",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 498036,
+        "utcDate": "2024-11-03T19:45:00Z",
+        "status": "FINISHED",
+        "matchday": 10,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-01T20:20:47Z",
+        "homeTeam": {
+          "id": 543,
+          "name": "FC Nantes",
+          "shortName": "Nantes",
+          "tla": "NAN",
+          "crest": "https://crests.football-data.org/543.png"
+        },
+        "awayTeam": {
+          "id": 516,
+          "name": "Olympique de Marseille",
+          "shortName": "Marseille",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/516.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57088,
+            "name": "Bastien Dechepy",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 1595,
+          "startDate": "2023-08-11",
+          "endDate": "2024-05-19",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 442927,
+        "utcDate": "2024-03-10T19:45:00Z",
+        "status": "FINISHED",
+        "matchday": 25,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-03-11T00:21:27Z",
+        "homeTeam": {
+          "id": 516,
+          "name": "Olympique de Marseille",
+          "shortName": "Marseille",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/516.png"
+        },
+        "awayTeam": {
+          "id": 543,
+          "name": "FC Nantes",
+          "shortName": "Nantes",
+          "tla": "NAN",
+          "crest": "https://crests.football-data.org/543.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43918,
+            "name": "François Letexier",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 1595,
+          "startDate": "2023-08-11",
+          "endDate": "2024-05-19",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 442737,
+        "utcDate": "2023-09-01T19:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-09-19T20:20:21Z",
+        "homeTeam": {
+          "id": 543,
+          "name": "FC Nantes",
+          "shortName": "Nantes",
+          "tla": "NAN",
+          "crest": "https://crests.football-data.org/543.png"
+        },
+        "awayTeam": {
+          "id": 516,
+          "name": "Olympique de Marseille",
+          "shortName": "Marseille",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/516.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43886,
+            "name": "Ruddy Buquet",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 1497,
+          "startDate": "2022-08-05",
+          "endDate": "2023-06-03",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 417066,
+        "utcDate": "2023-02-01T18:00:00Z",
+        "status": "FINISHED",
+        "matchday": 21,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 543,
+          "name": "FC Nantes",
+          "shortName": "Nantes",
+          "tla": "NAN",
+          "crest": "https://crests.football-data.org/543.png"
+        },
+        "awayTeam": {
+          "id": 516,
+          "name": "Olympique de Marseille",
+          "shortName": "Marseille",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/516.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57042,
+            "name": "Willy Delajod",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 1497,
+          "startDate": "2022-08-05",
+          "endDate": "2023-06-03",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 417242,
+        "utcDate": "2022-08-20T19:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 516,
+          "name": "Olympique de Marseille",
+          "shortName": "Marseille",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/516.png"
+        },
+        "awayTeam": {
+          "id": 543,
+          "name": "FC Nantes",
+          "shortName": "Nantes",
+          "tla": "NAN",
+          "crest": "https://crests.football-data.org/543.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57073,
+            "name": "Jérémie Pignard",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 746,
+          "startDate": "2021-08-06",
+          "endDate": "2022-05-21",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 330233,
+        "utcDate": "2022-04-20T19:00:00Z",
+        "status": "FINISHED",
+        "matchday": 33,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-18T16:20:16Z",
+        "homeTeam": {
+          "id": 516,
+          "name": "Olympique de Marseille",
+          "shortName": "Marseille",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/516.png"
+        },
+        "awayTeam": {
+          "id": 543,
+          "name": "FC Nantes",
+          "shortName": "Nantes",
+          "tla": "NAN",
+          "crest": "https://crests.football-data.org/543.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43886,
+            "name": "Ruddy Buquet",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 746,
+          "startDate": "2021-08-06",
+          "endDate": "2022-05-21",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 330403,
+        "utcDate": "2021-12-01T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 16,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-18T16:20:16Z",
+        "homeTeam": {
+          "id": 543,
+          "name": "FC Nantes",
+          "shortName": "Nantes",
+          "tla": "NAN",
+          "crest": "https://crests.football-data.org/543.png"
+        },
+        "awayTeam": {
+          "id": 516,
+          "name": "Olympique de Marseille",
+          "shortName": "Marseille",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/516.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57092,
+            "name": "Eric Wattellier",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 596,
+          "startDate": "2020-08-21",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 297107,
+        "utcDate": "2021-02-20T16:00:00Z",
+        "status": "FINISHED",
+        "matchday": 26,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2021-06-27T08:20:24Z",
+        "homeTeam": {
+          "id": 543,
+          "name": "FC Nantes",
+          "shortName": "Nantes",
+          "tla": "NAN",
+          "crest": "https://crests.football-data.org/543.png"
+        },
+        "awayTeam": {
+          "id": 516,
+          "name": "Olympique de Marseille",
+          "shortName": "Marseille",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/516.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43917,
+            "name": "Amaury Delerue",
+            "type": "REFEREE",
+            "nationality": "France"
+          },
+          {
+            "id": 43917,
+            "name": "Amaury Delerue",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 596,
+          "startDate": "2020-08-21",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 296964,
+        "utcDate": "2020-11-28T16:00:00Z",
+        "status": "FINISHED",
+        "matchday": 12,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2020-11-29T03:45:17Z",
+        "homeTeam": {
+          "id": 516,
+          "name": "Olympique de Marseille",
+          "shortName": "Marseille",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/516.png"
+        },
+        "awayTeam": {
+          "id": 543,
+          "name": "FC Nantes",
+          "shortName": "Nantes",
+          "tla": "NAN",
+          "crest": "https://crests.football-data.org/543.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57033,
+            "name": "Mikael Lesage",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 499,
+          "startDate": "2019-08-09",
+          "endDate": "2020-05-24",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 268173,
+        "utcDate": "2020-02-22T16:30:00Z",
+        "status": "FINISHED",
+        "matchday": 26,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2024-05-15T11:52:01Z",
+        "homeTeam": {
+          "id": 516,
+          "name": "Olympique de Marseille",
+          "shortName": "Marseille",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/516.png"
+        },
+        "awayTeam": {
+          "id": 543,
+          "name": "FC Nantes",
+          "shortName": "Nantes",
+          "tla": "NAN",
+          "crest": "https://crests.football-data.org/543.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43928,
+            "name": "Jérôme Miguelgorry",
+            "type": "REFEREE",
+            "nationality": "France"
+          },
+          {
+            "id": 57069,
+            "name": "Eric Danizan",
+            "type": "REFEREE",
+            "nationality": "France"
+          },
+          {
+            "id": 57056,
+            "name": "Christophe Mouysset",
+            "type": "REFEREE",
+            "nationality": "France"
+          },
+          {
+            "id": 1052,
+            "name": "Thierry Bouille",
+            "type": "REFEREE",
+            "nationality": null
+          },
+          {
+            "id": 43887,
+            "name": "Nicolas Rainville",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
+      }
+    ]
+  },
   "544440": {
     "filters": {
       "limit": "50",
@@ -421638,6 +423138,500 @@
             "name": "Alfonso Álvarez",
             "type": "REFEREE",
             "nationality": null
+          }
+        ]
+      }
+    ]
+  },
+  "544546": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 7,
+      "competitions": "PD",
+      "first": "2022-09-03",
+      "last": "2026-01-04"
+    },
+    "aggregates": {
+      "numberOfMatches": 16,
+      "totalGoals": 36,
+      "homeTeam": {
+        "id": 298,
+        "name": "Girona FC",
+        "wins": 6,
+        "draws": 4,
+        "losses": 6
+      },
+      "awayTeam": {
+        "id": 89,
+        "name": "RCD Mallorca",
+        "wins": 6,
+        "draws": 4,
+        "losses": 6
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2429,
+          "startDate": "2025-08-17",
+          "endDate": "2026-05-24",
+          "currentMatchday": 33,
+          "winner": null
+        },
+        "id": 544389,
+        "utcDate": "2026-01-04T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 18,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-04-18T10:21:07Z",
+        "homeTeam": {
+          "id": 89,
+          "name": "RCD Mallorca",
+          "shortName": "Mallorca",
+          "tla": "MAL",
+          "crest": "https://crests.football-data.org/89.png"
+        },
+        "awayTeam": {
+          "id": 298,
+          "name": "Girona FC",
+          "shortName": "Girona",
+          "tla": "GIR",
+          "crest": "https://crests.football-data.org/298.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 80747,
+            "name": "Javier Alberola Rojas",
+            "type": "REFEREE",
+            "nationality": null
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498944,
+        "utcDate": "2025-05-05T19:00:00Z",
+        "status": "FINISHED",
+        "matchday": 34,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 298,
+          "name": "Girona FC",
+          "shortName": "Girona",
+          "tla": "GIR",
+          "crest": "https://crests.football-data.org/298.png"
+        },
+        "awayTeam": {
+          "id": 89,
+          "name": "RCD Mallorca",
+          "shortName": "Mallorca",
+          "tla": "MAL",
+          "crest": "https://crests.football-data.org/89.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 207105,
+            "name": "Mario Melero López",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498779,
+        "utcDate": "2024-12-14T15:15:00Z",
+        "status": "FINISHED",
+        "matchday": 17,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 89,
+          "name": "RCD Mallorca",
+          "shortName": "Mallorca",
+          "tla": "MAL",
+          "crest": "https://crests.football-data.org/89.png"
+        },
+        "awayTeam": {
+          "id": 298,
+          "name": "Girona FC",
+          "shortName": "Girona",
+          "tla": "GIR",
+          "crest": "https://crests.football-data.org/298.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 214213,
+            "name": "Francisco Hernández Maeso",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1577,
+          "startDate": "2023-08-13",
+          "endDate": "2024-05-26",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 438743,
+        "utcDate": "2024-03-03T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 27,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-03-04T00:21:20Z",
+        "homeTeam": {
+          "id": 89,
+          "name": "RCD Mallorca",
+          "shortName": "Mallorca",
+          "tla": "MAL",
+          "crest": "https://crests.football-data.org/89.png"
+        },
+        "awayTeam": {
+          "id": 298,
+          "name": "Girona FC",
+          "shortName": "Girona",
+          "tla": "GIR",
+          "crest": "https://crests.football-data.org/298.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 214213,
+            "name": "Francisco Hernández Maeso",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1577,
+          "startDate": "2023-08-13",
+          "endDate": "2024-05-26",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 438529,
+        "utcDate": "2023-09-23T12:00:00Z",
+        "status": "FINISHED",
+        "matchday": 6,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-10-09T15:20:25Z",
+        "homeTeam": {
+          "id": 298,
+          "name": "Girona FC",
+          "shortName": "Girona",
+          "tla": "GIR",
+          "crest": "https://crests.football-data.org/298.png"
+        },
+        "awayTeam": {
+          "id": 89,
+          "name": "RCD Mallorca",
+          "shortName": "Mallorca",
+          "tla": "MAL",
+          "crest": "https://crests.football-data.org/89.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 5,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 4,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 206206,
+            "name": "Pablo González Fuertes",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 418967,
+        "utcDate": "2023-05-04T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 33,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 298,
+          "name": "Girona FC",
+          "shortName": "Girona",
+          "tla": "GIR",
+          "crest": "https://crests.football-data.org/298.png"
+        },
+        "awayTeam": {
+          "id": 89,
+          "name": "RCD Mallorca",
+          "shortName": "Mallorca",
+          "tla": "MAL",
+          "crest": "https://crests.football-data.org/89.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 81,
+            "name": "Juan Martínez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 419254,
+        "utcDate": "2022-09-03T12:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 89,
+          "name": "RCD Mallorca",
+          "shortName": "Mallorca",
+          "tla": "MAL",
+          "crest": "https://crests.football-data.org/89.png"
+        },
+        "awayTeam": {
+          "id": 298,
+          "name": "Girona FC",
+          "shortName": "Girona",
+          "tla": "GIR",
+          "crest": "https://crests.football-data.org/298.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57930,
+            "name": "Isidro Díaz de Mera",
+            "type": "REFEREE",
+            "nationality": "Spain"
           }
         ]
       }
