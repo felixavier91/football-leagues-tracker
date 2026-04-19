@@ -21608,11 +21608,11 @@
         },
         "id": 538111,
         "utcDate": "2026-04-19T15:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 33,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-04-19T19:23:16Z",
+        "lastUpdated": "2026-04-19T19:27:38Z",
         "homeTeam": {
           "id": 65,
           "name": "Manchester City FC",
@@ -66878,11 +66878,11 @@
         },
         "id": 540670,
         "utcDate": "2026-04-19T15:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 30,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-04-19T19:23:21Z",
+        "lastUpdated": "2026-04-19T19:24:17Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -66944,11 +66944,11 @@
         },
         "id": 540668,
         "utcDate": "2026-04-19T17:30:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 30,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-04-19T18:33:34Z",
+        "lastUpdated": "2026-04-19T19:46:03Z",
         "homeTeam": {
           "id": 18,
           "name": "Borussia Mönchengladbach",
@@ -66964,11 +66964,11 @@
           "crest": "https://crests.football-data.org/15.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -90726,7 +90726,7 @@
         "matchday": 33,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-04-19T19:23:22Z",
+        "lastUpdated": "2026-04-19T19:46:06Z",
         "homeTeam": {
           "id": 487,
           "name": "AC Pisa 1909",
@@ -130340,7 +130340,7 @@
         "matchday": 30,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-04-19T19:23:28Z",
+        "lastUpdated": "2026-04-19T19:46:12Z",
         "homeTeam": {
           "id": 498,
           "name": "Sporting Clube de Portugal",
@@ -130356,11 +130356,11 @@
           "crest": "https://crests.football-data.org/1903.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
@@ -130436,7 +130436,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 176741,
+            "name": "Claudio Pereira",
+            "type": "REFEREE",
+            "nationality": null
+          }
+        ]
       },
       {
         "area": {
@@ -130495,7 +130502,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 98928,
+            "name": "David Silva",
+            "type": "REFEREE",
+            "nationality": "Portugal"
+          }
+        ]
       },
       {
         "area": {
