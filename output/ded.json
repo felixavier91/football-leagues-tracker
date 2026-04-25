@@ -18057,11 +18057,11 @@
       },
       "id": 537712,
       "utcDate": "2026-04-25T14:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-25T15:39:03Z",
+      "lastUpdated": "2026-04-25T16:47:14Z",
       "homeTeam": {
         "id": 675,
         "name": "Feyenoord Rotterdam",
@@ -18077,11 +18077,11 @@
         "crest": "https://crests.football-data.org/677.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -18157,7 +18157,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56904,
+          "name": "Edwin van de Graaf",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
