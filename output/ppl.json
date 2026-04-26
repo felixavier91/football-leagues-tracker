@@ -17171,11 +17171,11 @@
       },
       "id": 545972,
       "utcDate": "2026-04-26T17:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-26T19:27:12Z",
+      "lastUpdated": "2026-04-26T19:49:08Z",
       "homeTeam": {
         "id": 5530,
         "name": "CD Santa Clara",
@@ -17191,15 +17191,15 @@
         "crest": "https://crests.football-data.org/5613.png"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "odds": {
@@ -17237,11 +17237,11 @@
       },
       "id": 545975,
       "utcDate": "2026-04-26T17:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": 31,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-04-26T19:27:12Z",
+      "lastUpdated": "2026-04-26T19:49:08Z",
       "homeTeam": {
         "id": 9136,
         "name": "CF Estrela da Amadora",
@@ -17261,11 +17261,11 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "odds": {
@@ -17337,7 +17337,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 39896,
+          "name": "Pedro Ramalho",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
