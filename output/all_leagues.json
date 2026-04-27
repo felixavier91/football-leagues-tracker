@@ -91700,11 +91700,11 @@
         },
         "id": 537147,
         "utcDate": "2026-04-27T16:30:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": 34,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-04-27T18:58:45Z",
+        "lastUpdated": "2026-04-27T19:37:05Z",
         "homeTeam": {
           "id": 104,
           "name": "Cagliari Calcio",
@@ -91720,15 +91720,15 @@
           "crest": "https://crests.football-data.org/102.png"
         },
         "score": {
-          "winner": "HOME_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
             "home": 2,
-            "away": 0
+            "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 2
           }
         },
         "odds": {
@@ -131561,7 +131561,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 220513,
+            "name": "Bruno Costa",
+            "type": "REFEREE",
+            "nationality": "Portugal"
+          }
+        ]
       },
       {
         "area": {
