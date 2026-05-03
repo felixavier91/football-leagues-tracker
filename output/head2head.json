@@ -329861,6 +329861,830 @@
       }
     ]
   },
+  "540703": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 10,
+      "competitions": "BL1",
+      "first": "2020-02-22",
+      "last": "2026-01-13"
+    },
+    "aggregates": {
+      "numberOfMatches": 50,
+      "totalGoals": 164,
+      "homeTeam": {
+        "id": 12,
+        "name": "SV Werder Bremen",
+        "wins": 14,
+        "draws": 7,
+        "losses": 29
+      },
+      "awayTeam": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "wins": 29,
+        "draws": 7,
+        "losses": 14
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 2414,
+          "startDate": "2025-08-22",
+          "endDate": "2026-05-16",
+          "currentMatchday": 32,
+          "winner": null
+        },
+        "id": 540550,
+        "utcDate": "2026-01-13T19:30:00Z",
+        "status": "FINISHED",
+        "matchday": 17,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-03T10:21:11Z",
+        "homeTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "awayTeam": {
+          "id": 12,
+          "name": "SV Werder Bremen",
+          "shortName": "Bremen",
+          "tla": "SVW",
+          "crest": "https://crests.football-data.org/12.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 15408,
+            "name": "Daniel Siebert",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 2308,
+          "startDate": "2024-08-23",
+          "endDate": "2025-05-17",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 502538,
+        "utcDate": "2025-01-25T14:30:00Z",
+        "status": "FINISHED",
+        "matchday": 19,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-27T16:59:01Z",
+        "homeTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "awayTeam": {
+          "id": 12,
+          "name": "SV Werder Bremen",
+          "shortName": "Bremen",
+          "tla": "SVW",
+          "crest": "https://crests.football-data.org/12.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57526,
+            "name": "Christian Dingert",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 2308,
+          "startDate": "2024-08-23",
+          "endDate": "2025-05-17",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 502385,
+        "utcDate": "2024-08-31T13:30:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-27T16:59:01Z",
+        "homeTeam": {
+          "id": 12,
+          "name": "SV Werder Bremen",
+          "shortName": "Bremen",
+          "tla": "SVW",
+          "crest": "https://crests.football-data.org/12.png"
+        },
+        "awayTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57504,
+            "name": "Robert Hartmann",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 1592,
+          "startDate": "2023-08-18",
+          "endDate": "2024-05-18",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "tla": "B04",
+            "crest": "https://crests.football-data.org/3.png",
+            "address": "Bismarckstr. 122-124 Leverkusen 51373",
+            "website": "http://www.bayer04.de",
+            "founded": 1904,
+            "clubColors": "Red / White / Black",
+            "venue": "BayArena",
+            "lastUpdated": "2022-02-25T16:43:07Z"
+          }
+        },
+        "id": 442005,
+        "utcDate": "2024-03-09T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 25,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-09-29T10:21:42Z",
+        "homeTeam": {
+          "id": 12,
+          "name": "SV Werder Bremen",
+          "shortName": "Bremen",
+          "tla": "SVW",
+          "crest": "https://crests.football-data.org/12.png"
+        },
+        "awayTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 8825,
+            "name": "Deniz Aytekin",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 1592,
+          "startDate": "2023-08-18",
+          "endDate": "2024-05-18",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "tla": "B04",
+            "crest": "https://crests.football-data.org/3.png",
+            "address": "Bismarckstr. 122-124 Leverkusen 51373",
+            "website": "http://www.bayer04.de",
+            "founded": 1904,
+            "clubColors": "Red / White / Black",
+            "venue": "BayArena",
+            "lastUpdated": "2022-02-25T16:43:07Z"
+          }
+        },
+        "id": 441852,
+        "utcDate": "2023-10-20T18:30:00Z",
+        "status": "FINISHED",
+        "matchday": 8,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-09-29T10:21:39Z",
+        "homeTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "awayTeam": {
+          "id": 12,
+          "name": "SV Werder Bremen",
+          "shortName": "Bremen",
+          "tla": "SVW",
+          "crest": "https://crests.football-data.org/12.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43875,
+            "name": "Felix Brych",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 1495,
+          "startDate": "2022-08-05",
+          "endDate": "2023-05-27",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 416520,
+        "utcDate": "2023-02-11T14:30:00Z",
+        "status": "FINISHED",
+        "matchday": 20,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 12,
+          "name": "SV Werder Bremen",
+          "shortName": "Bremen",
+          "tla": "SVW",
+          "crest": "https://crests.football-data.org/12.png"
+        },
+        "awayTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43875,
+            "name": "Felix Brych",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 1495,
+          "startDate": "2022-08-05",
+          "endDate": "2023-05-27",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 416681,
+        "utcDate": "2022-08-20T13:30:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:42Z",
+        "homeTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "awayTeam": {
+          "id": 12,
+          "name": "SV Werder Bremen",
+          "shortName": "Bremen",
+          "tla": "SVW",
+          "crest": "https://crests.football-data.org/12.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57518,
+            "name": "Florian Badstübner",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 599,
+          "startDate": "2020-09-18",
+          "endDate": "2021-05-22",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 303254,
+        "utcDate": "2021-04-18T13:30:00Z",
+        "status": "FINISHED",
+        "matchday": 29,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2024-09-29T10:22:01Z",
+        "homeTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "awayTeam": {
+          "id": 12,
+          "name": "SV Werder Bremen",
+          "shortName": "Bremen",
+          "tla": "SVW",
+          "crest": "https://crests.football-data.org/12.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 4,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 3,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 15746,
+            "name": "Bastian Dankert",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 599,
+          "startDate": "2020-09-18",
+          "endDate": "2021-05-22",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 303105,
+        "utcDate": "2020-12-15T19:30:00Z",
+        "status": "FINISHED",
+        "matchday": 12,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2024-09-29T10:21:56Z",
+        "homeTeam": {
+          "id": 12,
+          "name": "SV Werder Bremen",
+          "shortName": "Bremen",
+          "tla": "SVW",
+          "crest": "https://crests.football-data.org/12.png"
+        },
+        "awayTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57519,
+            "name": "Robert Schröder",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 474,
+          "startDate": "2019-08-16",
+          "endDate": "2020-06-27",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 271612,
+        "utcDate": "2020-02-22T14:30:00Z",
+        "status": "FINISHED",
+        "matchday": 23,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2024-09-29T10:22:09Z",
+        "homeTeam": {
+          "id": 12,
+          "name": "SV Werder Bremen",
+          "shortName": "Bremen",
+          "tla": "SVW",
+          "crest": "https://crests.football-data.org/12.png"
+        },
+        "awayTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 15821,
+            "name": "Marco Fritz",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 57524,
+            "name": "Dominik Schaal",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 57525,
+            "name": "Marcel Pelgrim",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 57537,
+            "name": "Johann Pfeifer",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 57512,
+            "name": "Tobias Reichel",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      }
+    ]
+  },
   "542613": {
     "filters": {
       "limit": "50",
@@ -501253,6 +502077,6277 @@
           {
             "id": 15628,
             "name": "Ricardo de Burgos",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      }
+    ]
+  },
+  "544571": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 12,
+      "competitions": "PD",
+      "first": "2020-01-19",
+      "last": "2025-12-14"
+    },
+    "aggregates": {
+      "numberOfMatches": 50,
+      "totalGoals": 129,
+      "homeTeam": {
+        "id": 77,
+        "name": "Athletic Club",
+        "wins": 23,
+        "draws": 12,
+        "losses": 15
+      },
+      "awayTeam": {
+        "id": 558,
+        "name": "RC Celta de Vigo",
+        "wins": 15,
+        "draws": 12,
+        "losses": 23
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2429,
+          "startDate": "2025-08-17",
+          "endDate": "2026-05-24",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 544365,
+        "utcDate": "2025-12-14T15:15:00Z",
+        "status": "FINISHED",
+        "matchday": 16,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-03T10:21:11Z",
+        "homeTeam": {
+          "id": 558,
+          "name": "RC Celta de Vigo",
+          "shortName": "Celta",
+          "tla": "CEL",
+          "crest": "https://crests.football-data.org/558.png"
+        },
+        "awayTeam": {
+          "id": 77,
+          "name": "Athletic Club",
+          "shortName": "Athletic",
+          "tla": "ATH",
+          "crest": "https://crests.football-data.org/77.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 206208,
+            "name": "Alejandro Hernández Hernández",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498806,
+        "utcDate": "2025-01-19T13:00:00Z",
+        "status": "FINISHED",
+        "matchday": 20,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 558,
+          "name": "RC Celta de Vigo",
+          "shortName": "Celta",
+          "tla": "CEL",
+          "crest": "https://crests.football-data.org/558.png"
+        },
+        "awayTeam": {
+          "id": 77,
+          "name": "Athletic Club",
+          "shortName": "Athletic",
+          "tla": "ATH",
+          "crest": "https://crests.football-data.org/77.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 207048,
+            "name": "Miguel Ortiz Arias",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498663,
+        "utcDate": "2024-09-22T14:15:00Z",
+        "status": "FINISHED",
+        "matchday": 6,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 77,
+          "name": "Athletic Club",
+          "shortName": "Athletic",
+          "tla": "ATH",
+          "crest": "https://crests.football-data.org/77.png"
+        },
+        "awayTeam": {
+          "id": 558,
+          "name": "RC Celta de Vigo",
+          "shortName": "Celta",
+          "tla": "CEL",
+          "crest": "https://crests.football-data.org/558.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 207080,
+            "name": "José Sánchez Martínez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1577,
+          "startDate": "2023-08-13",
+          "endDate": "2024-05-26",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 438825,
+        "utcDate": "2024-05-15T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 36,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-05-16T00:21:15Z",
+        "homeTeam": {
+          "id": 558,
+          "name": "RC Celta de Vigo",
+          "shortName": "Celta",
+          "tla": "CEL",
+          "crest": "https://crests.football-data.org/558.png"
+        },
+        "awayTeam": {
+          "id": 77,
+          "name": "Athletic Club",
+          "shortName": "Athletic",
+          "tla": "ATH",
+          "crest": "https://crests.football-data.org/77.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56995,
+            "name": "Víctor García Verdura",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1577,
+          "startDate": "2023-08-13",
+          "endDate": "2024-05-26",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 438594,
+        "utcDate": "2023-11-10T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 13,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-11-10T23:03:07Z",
+        "homeTeam": {
+          "id": 77,
+          "name": "Athletic Club",
+          "shortName": "Athletic",
+          "tla": "ATH",
+          "crest": "https://crests.football-data.org/77.png"
+        },
+        "awayTeam": {
+          "id": 558,
+          "name": "RC Celta de Vigo",
+          "shortName": "Celta",
+          "tla": "CEL",
+          "crest": "https://crests.football-data.org/558.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 4,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 2,
+            "away": 2
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 207133,
+            "name": "Juan Pulido Santana",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 418953,
+        "utcDate": "2023-05-20T14:15:00Z",
+        "status": "FINISHED",
+        "matchday": 35,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 77,
+          "name": "Athletic Club",
+          "shortName": "Athletic",
+          "tla": "ATH",
+          "crest": "https://crests.football-data.org/77.png"
+        },
+        "awayTeam": {
+          "id": 558,
+          "name": "RC Celta de Vigo",
+          "shortName": "Celta",
+          "tla": "CEL",
+          "crest": "https://crests.football-data.org/558.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56948,
+            "name": "Mario Melero",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 419110,
+        "utcDate": "2023-01-29T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 19,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 558,
+          "name": "RC Celta de Vigo",
+          "shortName": "Celta",
+          "tla": "CEL",
+          "crest": "https://crests.football-data.org/558.png"
+        },
+        "awayTeam": {
+          "id": 77,
+          "name": "Athletic Club",
+          "shortName": "Athletic",
+          "tla": "ATH",
+          "crest": "https://crests.football-data.org/77.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57930,
+            "name": "Isidro Díaz de Mera",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 331051,
+        "utcDate": "2022-04-17T16:30:00Z",
+        "status": "FINISHED",
+        "matchday": 32,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 77,
+          "name": "Athletic Club",
+          "shortName": "Athletic",
+          "tla": "ATH",
+          "crest": "https://crests.football-data.org/77.png"
+        },
+        "awayTeam": {
+          "id": 558,
+          "name": "RC Celta de Vigo",
+          "shortName": "Celta",
+          "tla": "CEL",
+          "crest": "https://crests.football-data.org/558.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 15625,
+            "name": "Alejandro Hernández",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 331339,
+        "utcDate": "2021-08-28T15:00:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 558,
+          "name": "RC Celta de Vigo",
+          "shortName": "Celta",
+          "tla": "CEL",
+          "crest": "https://crests.football-data.org/558.png"
+        },
+        "awayTeam": {
+          "id": 77,
+          "name": "Athletic Club",
+          "shortName": "Athletic",
+          "tla": "ATH",
+          "crest": "https://crests.football-data.org/77.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43869,
+            "name": "Antonio Matéu Lahoz",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 635,
+          "startDate": "2020-09-12",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "shortName": "Atleti",
+            "tla": "ATL",
+            "crest": "https://crests.football-data.org/78.png",
+            "address": "Paseo Virgen del Puerto, 67 Madrid 28005",
+            "website": "http://www.clubatleticodemadrid.com",
+            "founded": 1903,
+            "clubColors": "Red / White / Blue",
+            "venue": "Estadio Wanda Metropolitano",
+            "lastUpdated": "2024-07-29T17:08:58Z"
+          }
+        },
+        "id": 308592,
+        "utcDate": "2021-03-14T13:00:00Z",
+        "status": "FINISHED",
+        "matchday": 27,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2021-06-30T08:20:25Z",
+        "homeTeam": {
+          "id": 558,
+          "name": "RC Celta de Vigo",
+          "shortName": "Celta",
+          "tla": "CEL",
+          "crest": "https://crests.football-data.org/558.png"
+        },
+        "awayTeam": {
+          "id": 77,
+          "name": "Athletic Club",
+          "shortName": "Athletic",
+          "tla": "ATH",
+          "crest": "https://crests.football-data.org/77.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56971,
+            "name": "Santiago Jaime",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 161396,
+            "name": "Jaime Latre",
+            "type": "REFEREE",
+            "nationality": null
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 635,
+          "startDate": "2020-09-12",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "shortName": "Atleti",
+            "tla": "ATL",
+            "crest": "https://crests.football-data.org/78.png",
+            "address": "Paseo Virgen del Puerto, 67 Madrid 28005",
+            "website": "http://www.clubatleticodemadrid.com",
+            "founded": 1903,
+            "clubColors": "Red / White / Blue",
+            "venue": "Estadio Wanda Metropolitano",
+            "lastUpdated": "2024-07-29T17:08:58Z"
+          }
+        },
+        "id": 308437,
+        "utcDate": "2020-12-04T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 12,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2020-12-05T14:30:16Z",
+        "homeTeam": {
+          "id": 77,
+          "name": "Athletic Club",
+          "shortName": "Athletic",
+          "tla": "ATH",
+          "crest": "https://crests.football-data.org/77.png"
+        },
+        "awayTeam": {
+          "id": 558,
+          "name": "RC Celta de Vigo",
+          "shortName": "Celta",
+          "tla": "CEL",
+          "crest": "https://crests.football-data.org/558.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57917,
+            "name": "Jorge Figueroa",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 519,
+          "startDate": "2019-08-16",
+          "endDate": "2020-07-19",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 86,
+            "name": "Real Madrid CF",
+            "shortName": "Real Madrid",
+            "tla": "RMA",
+            "crest": "https://crests.football-data.org/86.png",
+            "address": "Avenida Concha Espina, 1 Madrid 28036",
+            "website": "http://www.realmadrid.com",
+            "founded": 1902,
+            "clubColors": "White / Purple",
+            "venue": "Estadio Santiago Bernabéu",
+            "lastUpdated": "2022-02-19T08:59:31Z"
+          }
+        },
+        "id": 273759,
+        "utcDate": "2020-01-19T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 20,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2020-01-19T23:59:24Z",
+        "homeTeam": {
+          "id": 77,
+          "name": "Athletic Club",
+          "shortName": "Athletic",
+          "tla": "ATH",
+          "crest": "https://crests.football-data.org/77.png"
+        },
+        "awayTeam": {
+          "id": 558,
+          "name": "RC Celta de Vigo",
+          "shortName": "Celta",
+          "tla": "CEL",
+          "crest": "https://crests.football-data.org/558.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56963,
+            "name": "David Medié",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 40,
+            "name": "Juan Barranco",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 41,
+            "name": "Joan Méndez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 98570,
+            "name": "Gerard Brull Acerete",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 39,
+            "name": "Alfonso Álvarez",
+            "type": "REFEREE",
+            "nationality": null
+          }
+        ]
+      }
+    ]
+  },
+  "544572": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 7,
+      "competitions": "PD",
+      "first": "2022-10-08",
+      "last": "2025-12-21"
+    },
+    "aggregates": {
+      "numberOfMatches": 13,
+      "totalGoals": 43,
+      "homeTeam": {
+        "id": 78,
+        "name": "Club Atlético de Madrid",
+        "wins": 7,
+        "draws": 5,
+        "losses": 1
+      },
+      "awayTeam": {
+        "id": 298,
+        "name": "Girona FC",
+        "wins": 1,
+        "draws": 5,
+        "losses": 7
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2429,
+          "startDate": "2025-08-17",
+          "endDate": "2026-05-24",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 544377,
+        "utcDate": "2025-12-21T13:00:00Z",
+        "status": "FINISHED",
+        "matchday": 17,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-03T10:21:11Z",
+        "homeTeam": {
+          "id": 298,
+          "name": "Girona FC",
+          "shortName": "Girona",
+          "tla": "GIR",
+          "crest": "https://crests.football-data.org/298.png"
+        },
+        "awayTeam": {
+          "id": 78,
+          "name": "Club Atlético de Madrid",
+          "shortName": "Atleti",
+          "tla": "ATL",
+          "crest": "https://crests.football-data.org/78.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 215507,
+            "name": "José Luis Guzmán Mansilla",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498988,
+        "utcDate": "2025-05-25T12:00:00Z",
+        "status": "FINISHED",
+        "matchday": 38,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 298,
+          "name": "Girona FC",
+          "shortName": "Girona",
+          "tla": "GIR",
+          "crest": "https://crests.football-data.org/298.png"
+        },
+        "awayTeam": {
+          "id": 78,
+          "name": "Club Atlético de Madrid",
+          "shortName": "Atleti",
+          "tla": "ATL",
+          "crest": "https://crests.football-data.org/78.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 4
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 206211,
+            "name": "Jesús Gil Manzano",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498623,
+        "utcDate": "2024-08-25T19:30:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 78,
+          "name": "Club Atlético de Madrid",
+          "shortName": "Atleti",
+          "tla": "ATL",
+          "crest": "https://crests.football-data.org/78.png"
+        },
+        "awayTeam": {
+          "id": 298,
+          "name": "Girona FC",
+          "shortName": "Girona",
+          "tla": "GIR",
+          "crest": "https://crests.football-data.org/298.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 206203,
+            "name": "Juan Martínez Munuera",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1577,
+          "startDate": "2023-08-13",
+          "endDate": "2024-05-26",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 438775,
+        "utcDate": "2024-04-13T12:00:00Z",
+        "status": "FINISHED",
+        "matchday": 31,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-04-14T00:21:25Z",
+        "homeTeam": {
+          "id": 78,
+          "name": "Club Atlético de Madrid",
+          "shortName": "Atleti",
+          "tla": "ATL",
+          "crest": "https://crests.football-data.org/78.png"
+        },
+        "awayTeam": {
+          "id": 298,
+          "name": "Girona FC",
+          "shortName": "Girona",
+          "tla": "GIR",
+          "crest": "https://crests.football-data.org/298.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 15628,
+            "name": "Ricardo de Burgos",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1577,
+          "startDate": "2023-08-13",
+          "endDate": "2024-05-26",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 438657,
+        "utcDate": "2024-01-03T20:30:00Z",
+        "status": "FINISHED",
+        "matchday": 19,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-01-04T00:21:22Z",
+        "homeTeam": {
+          "id": 298,
+          "name": "Girona FC",
+          "shortName": "Girona",
+          "tla": "GIR",
+          "crest": "https://crests.football-data.org/298.png"
+        },
+        "awayTeam": {
+          "id": 78,
+          "name": "Club Atlético de Madrid",
+          "shortName": "Atleti",
+          "tla": "ATL",
+          "crest": "https://crests.football-data.org/78.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 4,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 3,
+            "away": 2
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 206208,
+            "name": "Alejandro Hernández Hernández",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 419048,
+        "utcDate": "2023-03-13T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 25,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 298,
+          "name": "Girona FC",
+          "shortName": "Girona",
+          "tla": "GIR",
+          "crest": "https://crests.football-data.org/298.png"
+        },
+        "awayTeam": {
+          "id": 78,
+          "name": "Club Atlético de Madrid",
+          "shortName": "Atleti",
+          "tla": "ATL",
+          "crest": "https://crests.football-data.org/78.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56948,
+            "name": "Mario Melero",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 419223,
+        "utcDate": "2022-10-08T14:15:00Z",
+        "status": "FINISHED",
+        "matchday": 8,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 78,
+          "name": "Club Atlético de Madrid",
+          "shortName": "Atleti",
+          "tla": "ATL",
+          "crest": "https://crests.football-data.org/78.png"
+        },
+        "awayTeam": {
+          "id": 298,
+          "name": "Girona FC",
+          "shortName": "Girona",
+          "tla": "GIR",
+          "crest": "https://crests.football-data.org/298.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 81,
+            "name": "Juan Martínez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      }
+    ]
+  },
+  "544573": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 12,
+      "competitions": "PD",
+      "first": "2020-02-09",
+      "last": "2025-12-06"
+    },
+    "aggregates": {
+      "numberOfMatches": 50,
+      "totalGoals": 212,
+      "homeTeam": {
+        "id": 81,
+        "name": "FC Barcelona",
+        "wins": 32,
+        "draws": 9,
+        "losses": 9
+      },
+      "awayTeam": {
+        "id": 90,
+        "name": "Real Betis Balompié",
+        "wins": 9,
+        "draws": 9,
+        "losses": 32
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2429,
+          "startDate": "2025-08-17",
+          "endDate": "2026-05-24",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 544355,
+        "utcDate": "2025-12-06T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 15,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-03T10:21:11Z",
+        "homeTeam": {
+          "id": 90,
+          "name": "Real Betis Balompié",
+          "shortName": "Real Betis",
+          "tla": "BET",
+          "crest": "https://crests.football-data.org/90.png"
+        },
+        "awayTeam": {
+          "id": 81,
+          "name": "FC Barcelona",
+          "shortName": "Barça",
+          "tla": "FCB",
+          "crest": "https://crests.football-data.org/81.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 5
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 4
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 214213,
+            "name": "Francisco Hernández Maeso",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498904,
+        "utcDate": "2025-04-05T19:00:00Z",
+        "status": "FINISHED",
+        "matchday": 30,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 81,
+          "name": "FC Barcelona",
+          "shortName": "Barça",
+          "tla": "FCB",
+          "crest": "https://crests.football-data.org/81.png"
+        },
+        "awayTeam": {
+          "id": 90,
+          "name": "Real Betis Balompié",
+          "shortName": "Real Betis",
+          "tla": "BET",
+          "crest": "https://crests.football-data.org/90.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 206211,
+            "name": "Jesús Gil Manzano",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498765,
+        "utcDate": "2024-12-07T15:15:00Z",
+        "status": "FINISHED",
+        "matchday": 16,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 90,
+          "name": "Real Betis Balompié",
+          "shortName": "Real Betis",
+          "tla": "BET",
+          "crest": "https://crests.football-data.org/90.png"
+        },
+        "awayTeam": {
+          "id": 81,
+          "name": "FC Barcelona",
+          "shortName": "Barça",
+          "tla": "FCB",
+          "crest": "https://crests.football-data.org/81.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 215569,
+            "name": "Alejandro Muñiz Ruiz",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1577,
+          "startDate": "2023-08-13",
+          "endDate": "2024-05-26",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 438674,
+        "utcDate": "2024-01-21T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 21,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-01-22T00:21:12Z",
+        "homeTeam": {
+          "id": 90,
+          "name": "Real Betis Balompié",
+          "shortName": "Real Betis",
+          "tla": "BET",
+          "crest": "https://crests.football-data.org/90.png"
+        },
+        "awayTeam": {
+          "id": 81,
+          "name": "FC Barcelona",
+          "shortName": "Barça",
+          "tla": "FCB",
+          "crest": "https://crests.football-data.org/81.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 4
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 206211,
+            "name": "Jesús Gil Manzano",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1577,
+          "startDate": "2023-08-13",
+          "endDate": "2024-05-26",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 438516,
+        "utcDate": "2023-09-16T19:00:00Z",
+        "status": "FINISHED",
+        "matchday": 5,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-10-09T15:20:25Z",
+        "homeTeam": {
+          "id": 81,
+          "name": "FC Barcelona",
+          "shortName": "Barça",
+          "tla": "FCB",
+          "crest": "https://crests.football-data.org/81.png"
+        },
+        "awayTeam": {
+          "id": 90,
+          "name": "Real Betis Balompié",
+          "shortName": "Real Betis",
+          "tla": "BET",
+          "crest": "https://crests.football-data.org/90.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 5,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 207080,
+            "name": "José Sánchez Martínez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 418983,
+        "utcDate": "2023-04-29T19:00:00Z",
+        "status": "FINISHED",
+        "matchday": 32,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 81,
+          "name": "FC Barcelona",
+          "shortName": "Barça",
+          "tla": "FCB",
+          "crest": "https://crests.football-data.org/81.png"
+        },
+        "awayTeam": {
+          "id": 90,
+          "name": "Real Betis Balompié",
+          "shortName": "Real Betis",
+          "tla": "BET",
+          "crest": "https://crests.football-data.org/90.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 4,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 3,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43843,
+            "name": "Carlos del Cerro",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 419127,
+        "utcDate": "2023-02-01T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 17,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 90,
+          "name": "Real Betis Balompié",
+          "shortName": "Real Betis",
+          "tla": "BET",
+          "crest": "https://crests.football-data.org/90.png"
+        },
+        "awayTeam": {
+          "id": 81,
+          "name": "FC Barcelona",
+          "shortName": "Barça",
+          "tla": "FCB",
+          "crest": "https://crests.football-data.org/81.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 15628,
+            "name": "Ricardo de Burgos",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 331020,
+        "utcDate": "2022-05-07T19:00:00Z",
+        "status": "FINISHED",
+        "matchday": 35,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 90,
+          "name": "Real Betis Balompié",
+          "shortName": "Real Betis",
+          "tla": "BET",
+          "crest": "https://crests.football-data.org/90.png"
+        },
+        "awayTeam": {
+          "id": 81,
+          "name": "FC Barcelona",
+          "shortName": "Barça",
+          "tla": "FCB",
+          "crest": "https://crests.football-data.org/81.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43869,
+            "name": "Antonio Matéu Lahoz",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 331211,
+        "utcDate": "2021-12-04T15:15:00Z",
+        "status": "FINISHED",
+        "matchday": 16,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 81,
+          "name": "FC Barcelona",
+          "shortName": "Barça",
+          "tla": "FCB",
+          "crest": "https://crests.football-data.org/81.png"
+        },
+        "awayTeam": {
+          "id": 90,
+          "name": "Real Betis Balompié",
+          "shortName": "Real Betis",
+          "tla": "BET",
+          "crest": "https://crests.football-data.org/90.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56978,
+            "name": "Pablo González",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 635,
+          "startDate": "2020-09-12",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "shortName": "Atleti",
+            "tla": "ATL",
+            "crest": "https://crests.football-data.org/78.png",
+            "address": "Paseo Virgen del Puerto, 67 Madrid 28005",
+            "website": "http://www.clubatleticodemadrid.com",
+            "founded": 1903,
+            "clubColors": "Red / White / Blue",
+            "venue": "Estadio Wanda Metropolitano",
+            "lastUpdated": "2024-07-29T17:08:58Z"
+          }
+        },
+        "id": 308541,
+        "utcDate": "2021-02-07T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 22,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2021-06-30T08:20:25Z",
+        "homeTeam": {
+          "id": 90,
+          "name": "Real Betis Balompié",
+          "shortName": "Real Betis",
+          "tla": "BET",
+          "crest": "https://crests.football-data.org/90.png"
+        },
+        "awayTeam": {
+          "id": 81,
+          "name": "FC Barcelona",
+          "shortName": "Barça",
+          "tla": "FCB",
+          "crest": "https://crests.football-data.org/81.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43843,
+            "name": "Carlos del Cerro",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 43843,
+            "name": "Carlos del Cerro",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 635,
+          "startDate": "2020-09-12",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "shortName": "Atleti",
+            "tla": "ATL",
+            "crest": "https://crests.football-data.org/78.png",
+            "address": "Paseo Virgen del Puerto, 67 Madrid 28005",
+            "website": "http://www.clubatleticodemadrid.com",
+            "founded": 1903,
+            "clubColors": "Red / White / Blue",
+            "venue": "Estadio Wanda Metropolitano",
+            "lastUpdated": "2024-07-29T17:08:58Z"
+          }
+        },
+        "id": 308403,
+        "utcDate": "2020-11-07T15:15:00Z",
+        "status": "FINISHED",
+        "matchday": 9,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2020-11-14T08:33:17Z",
+        "homeTeam": {
+          "id": 81,
+          "name": "FC Barcelona",
+          "shortName": "Barça",
+          "tla": "FCB",
+          "crest": "https://crests.football-data.org/81.png"
+        },
+        "awayTeam": {
+          "id": 90,
+          "name": "Real Betis Balompié",
+          "shortName": "Real Betis",
+          "tla": "BET",
+          "crest": "https://crests.football-data.org/90.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 5,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 55934,
+            "name": "Guillermo Cuadra",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 15626,
+            "name": "Teodoro Sobrino",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32627,
+            "name": "Juan López",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 57012,
+            "name": "Francisco  Fernández Vidal",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 56971,
+            "name": "Santiago Jaime",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 519,
+          "startDate": "2019-08-16",
+          "endDate": "2020-07-19",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 86,
+            "name": "Real Madrid CF",
+            "shortName": "Real Madrid",
+            "tla": "RMA",
+            "crest": "https://crests.football-data.org/86.png",
+            "address": "Avenida Concha Espina, 1 Madrid 28036",
+            "website": "http://www.realmadrid.com",
+            "founded": 1902,
+            "clubColors": "White / Purple",
+            "venue": "Estadio Santiago Bernabéu",
+            "lastUpdated": "2022-02-19T08:59:31Z"
+          }
+        },
+        "id": 273789,
+        "utcDate": "2020-02-09T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 23,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2020-02-10T18:15:08Z",
+        "homeTeam": {
+          "id": 90,
+          "name": "Real Betis Balompié",
+          "shortName": "Real Betis",
+          "tla": "BET",
+          "crest": "https://crests.football-data.org/90.png"
+        },
+        "awayTeam": {
+          "id": 81,
+          "name": "FC Barcelona",
+          "shortName": "Barça",
+          "tla": "FCB",
+          "crest": "https://crests.football-data.org/81.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 2,
+            "away": 2
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 106,
+            "name": "José Sánchez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32243,
+            "name": "Raúl Cabañero",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 108,
+            "name": "José Gallego",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 57026,
+            "name": "Francisco Hernández",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 43843,
+            "name": "Carlos del Cerro",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      }
+    ]
+  },
+  "544574": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 7,
+      "competitions": "PD",
+      "first": "2021-01-11",
+      "last": "2025-11-28"
+    },
+    "aggregates": {
+      "numberOfMatches": 11,
+      "totalGoals": 19,
+      "homeTeam": {
+        "id": 285,
+        "name": "Elche CF",
+        "wins": 3,
+        "draws": 4,
+        "losses": 4
+      },
+      "awayTeam": {
+        "id": 82,
+        "name": "Getafe CF",
+        "wins": 4,
+        "draws": 4,
+        "losses": 3
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2429,
+          "startDate": "2025-08-17",
+          "endDate": "2026-05-24",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 544350,
+        "utcDate": "2025-11-28T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 14,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-03T10:21:11Z",
+        "homeTeam": {
+          "id": 82,
+          "name": "Getafe CF",
+          "shortName": "Getafe",
+          "tla": "GET",
+          "crest": "https://crests.football-data.org/82.png"
+        },
+        "awayTeam": {
+          "id": 285,
+          "name": "Elche CF",
+          "shortName": "Elche",
+          "tla": "ELC",
+          "crest": "https://crests.football-data.org/285.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 206208,
+            "name": "Alejandro Hernández Hernández",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 418946,
+        "utcDate": "2023-05-20T16:30:00Z",
+        "status": "FINISHED",
+        "matchday": 35,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 82,
+          "name": "Getafe CF",
+          "shortName": "Getafe",
+          "tla": "GET",
+          "crest": "https://crests.football-data.org/82.png"
+        },
+        "awayTeam": {
+          "id": 285,
+          "name": "Elche CF",
+          "shortName": "Elche",
+          "tla": "ELC",
+          "crest": "https://crests.football-data.org/285.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 186588,
+            "name": "Javier Iglesias",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 419182,
+        "utcDate": "2022-10-31T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 12,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 285,
+          "name": "Elche CF",
+          "shortName": "Elche",
+          "tla": "ELC",
+          "crest": "https://crests.football-data.org/285.png"
+        },
+        "awayTeam": {
+          "id": 82,
+          "name": "Getafe CF",
+          "shortName": "Getafe",
+          "tla": "GET",
+          "crest": "https://crests.football-data.org/82.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 32457,
+            "name": "César Soto",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 330983,
+        "utcDate": "2022-05-22T15:30:00Z",
+        "status": "FINISHED",
+        "matchday": 38,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 285,
+          "name": "Elche CF",
+          "shortName": "Elche",
+          "tla": "ELC",
+          "crest": "https://crests.football-data.org/285.png"
+        },
+        "awayTeam": {
+          "id": 82,
+          "name": "Getafe CF",
+          "shortName": "Getafe",
+          "tla": "GET",
+          "crest": "https://crests.football-data.org/82.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 55934,
+            "name": "Guillermo Cuadra",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 331331,
+        "utcDate": "2021-09-13T18:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 82,
+          "name": "Getafe CF",
+          "shortName": "Getafe",
+          "tla": "GET",
+          "crest": "https://crests.football-data.org/82.png"
+        },
+        "awayTeam": {
+          "id": 285,
+          "name": "Elche CF",
+          "shortName": "Elche",
+          "tla": "ELC",
+          "crest": "https://crests.football-data.org/285.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56948,
+            "name": "Mario Melero",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 635,
+          "startDate": "2020-09-12",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "shortName": "Atleti",
+            "tla": "ATL",
+            "crest": "https://crests.football-data.org/78.png",
+            "address": "Paseo Virgen del Puerto, 67 Madrid 28005",
+            "website": "http://www.clubatleticodemadrid.com",
+            "founded": 1903,
+            "clubColors": "Red / White / Blue",
+            "venue": "Estadio Wanda Metropolitano",
+            "lastUpdated": "2024-07-29T17:08:58Z"
+          }
+        },
+        "id": 308598,
+        "utcDate": "2021-03-21T13:00:00Z",
+        "status": "FINISHED",
+        "matchday": 28,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2021-06-30T08:20:25Z",
+        "homeTeam": {
+          "id": 82,
+          "name": "Getafe CF",
+          "shortName": "Getafe",
+          "tla": "GET",
+          "crest": "https://crests.football-data.org/82.png"
+        },
+        "awayTeam": {
+          "id": 285,
+          "name": "Elche CF",
+          "shortName": "Elche",
+          "tla": "ELC",
+          "crest": "https://crests.football-data.org/285.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 15625,
+            "name": "Alejandro Hernández",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 15625,
+            "name": "Alejandro Hernández",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 635,
+          "startDate": "2020-09-12",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "shortName": "Atleti",
+            "tla": "ATL",
+            "crest": "https://crests.football-data.org/78.png",
+            "address": "Paseo Virgen del Puerto, 67 Madrid 28005",
+            "website": "http://www.clubatleticodemadrid.com",
+            "founded": 1903,
+            "clubColors": "Red / White / Blue",
+            "venue": "Estadio Wanda Metropolitano",
+            "lastUpdated": "2024-07-29T17:08:58Z"
+          }
+        },
+        "id": 308501,
+        "utcDate": "2021-01-11T18:00:00Z",
+        "status": "FINISHED",
+        "matchday": 18,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2021-06-30T08:20:25Z",
+        "homeTeam": {
+          "id": 285,
+          "name": "Elche CF",
+          "shortName": "Elche",
+          "tla": "ELC",
+          "crest": "https://crests.football-data.org/285.png"
+        },
+        "awayTeam": {
+          "id": 82,
+          "name": "Getafe CF",
+          "shortName": "Getafe",
+          "tla": "GET",
+          "crest": "https://crests.football-data.org/82.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 58184,
+            "name": "José Luis Munuera",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 58184,
+            "name": "José Luis Munuera",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      }
+    ]
+  },
+  "544575": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 4,
+      "competitions": "PD",
+      "first": "2020-07-09",
+      "last": "2025-10-26"
+    },
+    "aggregates": {
+      "numberOfMatches": 20,
+      "totalGoals": 45,
+      "homeTeam": {
+        "id": 88,
+        "name": "Levante UD",
+        "wins": 6,
+        "draws": 5,
+        "losses": 9
+      },
+      "awayTeam": {
+        "id": 89,
+        "name": "RCD Mallorca",
+        "wins": 9,
+        "draws": 5,
+        "losses": 6
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2429,
+          "startDate": "2025-08-17",
+          "endDate": "2026-05-24",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 544310,
+        "utcDate": "2025-10-26T13:00:00Z",
+        "status": "FINISHED",
+        "matchday": 10,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-03T10:21:11Z",
+        "homeTeam": {
+          "id": 89,
+          "name": "RCD Mallorca",
+          "shortName": "Mallorca",
+          "tla": "MAL",
+          "crest": "https://crests.football-data.org/89.png"
+        },
+        "awayTeam": {
+          "id": 88,
+          "name": "Levante UD",
+          "shortName": "Levante",
+          "tla": "LEV",
+          "crest": "https://crests.football-data.org/88.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 207048,
+            "name": "Miguel Ortiz Arias",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 331169,
+        "utcDate": "2022-01-08T13:00:00Z",
+        "status": "FINISHED",
+        "matchday": 20,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 88,
+          "name": "Levante UD",
+          "shortName": "Levante",
+          "tla": "LEV",
+          "crest": "https://crests.football-data.org/88.png"
+        },
+        "awayTeam": {
+          "id": 89,
+          "name": "RCD Mallorca",
+          "shortName": "Mallorca",
+          "tla": "MAL",
+          "crest": "https://crests.football-data.org/89.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57917,
+            "name": "Jorge Figueroa",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 331290,
+        "utcDate": "2021-10-02T14:15:00Z",
+        "status": "FINISHED",
+        "matchday": 8,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 89,
+          "name": "RCD Mallorca",
+          "shortName": "Mallorca",
+          "tla": "MAL",
+          "crest": "https://crests.football-data.org/89.png"
+        },
+        "awayTeam": {
+          "id": 88,
+          "name": "Levante UD",
+          "shortName": "Levante",
+          "tla": "LEV",
+          "crest": "https://crests.football-data.org/88.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 32518,
+            "name": "Alejandro Muñíz",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 519,
+          "startDate": "2019-08-16",
+          "endDate": "2020-07-19",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 86,
+            "name": "Real Madrid CF",
+            "shortName": "Real Madrid",
+            "tla": "RMA",
+            "crest": "https://crests.football-data.org/86.png",
+            "address": "Avenida Concha Espina, 1 Madrid 28036",
+            "website": "http://www.realmadrid.com",
+            "founded": 1902,
+            "clubColors": "White / Purple",
+            "venue": "Estadio Santiago Bernabéu",
+            "lastUpdated": "2022-02-19T08:59:31Z"
+          }
+        },
+        "id": 273907,
+        "utcDate": "2020-07-09T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 35,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2020-07-19T21:32:45Z",
+        "homeTeam": {
+          "id": 89,
+          "name": "RCD Mallorca",
+          "shortName": "Mallorca",
+          "tla": "MAL",
+          "crest": "https://crests.football-data.org/89.png"
+        },
+        "awayTeam": {
+          "id": 88,
+          "name": "Levante UD",
+          "shortName": "Levante",
+          "tla": "LEV",
+          "crest": "https://crests.football-data.org/88.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 32457,
+            "name": "César Soto",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 56975,
+            "name": "Alfonso Costoya",
+            "type": "REFEREE",
+            "nationality": null
+          },
+          {
+            "id": 81436,
+            "name": "Carlos Álvarez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 98570,
+            "name": "Gerard Brull Acerete",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 43843,
+            "name": "Carlos del Cerro",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      }
+    ]
+  },
+  "544576": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 9,
+      "competitions": "PD",
+      "first": "2021-12-12",
+      "last": "2025-11-01"
+    },
+    "aggregates": {
+      "numberOfMatches": 26,
+      "totalGoals": 82,
+      "homeTeam": {
+        "id": 87,
+        "name": "Rayo Vallecano de Madrid",
+        "wins": 5,
+        "draws": 5,
+        "losses": 16
+      },
+      "awayTeam": {
+        "id": 94,
+        "name": "Villarreal CF",
+        "wins": 16,
+        "draws": 5,
+        "losses": 5
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2429,
+          "startDate": "2025-08-17",
+          "endDate": "2026-05-24",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 544320,
+        "utcDate": "2025-11-01T13:00:00Z",
+        "status": "FINISHED",
+        "matchday": 11,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-03T10:21:11Z",
+        "homeTeam": {
+          "id": 94,
+          "name": "Villarreal CF",
+          "shortName": "Villarreal",
+          "tla": "VIL",
+          "crest": "https://crests.football-data.org/94.png"
+        },
+        "awayTeam": {
+          "id": 87,
+          "name": "Rayo Vallecano de Madrid",
+          "shortName": "Rayo Vallecano",
+          "tla": "RAY",
+          "crest": "https://crests.football-data.org/87.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 4,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 215593,
+            "name": "Iosu Galech Apezteguía",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498858,
+        "utcDate": "2025-02-22T15:15:00Z",
+        "status": "FINISHED",
+        "matchday": 25,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 87,
+          "name": "Rayo Vallecano de Madrid",
+          "shortName": "Rayo Vallecano",
+          "tla": "RAY",
+          "crest": "https://crests.football-data.org/87.png"
+        },
+        "awayTeam": {
+          "id": 94,
+          "name": "Villarreal CF",
+          "shortName": "Villarreal",
+          "tla": "VIL",
+          "crest": "https://crests.football-data.org/94.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56995,
+            "name": "Víctor García Verdura",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498731,
+        "utcDate": "2024-12-18T20:30:00Z",
+        "status": "FINISHED",
+        "matchday": 12,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 94,
+          "name": "Villarreal CF",
+          "shortName": "Villarreal",
+          "tla": "VIL",
+          "crest": "https://crests.football-data.org/94.png"
+        },
+        "awayTeam": {
+          "id": 87,
+          "name": "Rayo Vallecano de Madrid",
+          "shortName": "Rayo Vallecano",
+          "tla": "RAY",
+          "crest": "https://crests.football-data.org/87.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 206208,
+            "name": "Alejandro Hernández Hernández",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1577,
+          "startDate": "2023-08-13",
+          "endDate": "2024-05-26",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 438800,
+        "utcDate": "2024-04-28T16:30:00Z",
+        "status": "FINISHED",
+        "matchday": 33,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-04-29T00:22:08Z",
+        "homeTeam": {
+          "id": 94,
+          "name": "Villarreal CF",
+          "shortName": "Villarreal",
+          "tla": "VIL",
+          "crest": "https://crests.football-data.org/94.png"
+        },
+        "awayTeam": {
+          "id": 87,
+          "name": "Rayo Vallecano de Madrid",
+          "shortName": "Rayo Vallecano",
+          "tla": "RAY",
+          "crest": "https://crests.football-data.org/87.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 206206,
+            "name": "Pablo González Fuertes",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1577,
+          "startDate": "2023-08-13",
+          "endDate": "2024-05-26",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 438530,
+        "utcDate": "2023-09-24T14:15:00Z",
+        "status": "FINISHED",
+        "matchday": 6,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-10-09T15:20:25Z",
+        "homeTeam": {
+          "id": 87,
+          "name": "Rayo Vallecano de Madrid",
+          "shortName": "Rayo Vallecano",
+          "tla": "RAY",
+          "crest": "https://crests.football-data.org/87.png"
+        },
+        "awayTeam": {
+          "id": 94,
+          "name": "Villarreal CF",
+          "shortName": "Villarreal",
+          "tla": "VIL",
+          "crest": "https://crests.football-data.org/94.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 215559,
+            "name": "Jorge Figueroa Vázquez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 418928,
+        "utcDate": "2023-05-28T17:00:00Z",
+        "status": "FINISHED",
+        "matchday": 37,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 87,
+          "name": "Rayo Vallecano de Madrid",
+          "shortName": "Rayo Vallecano",
+          "tla": "RAY",
+          "crest": "https://crests.football-data.org/87.png"
+        },
+        "awayTeam": {
+          "id": 94,
+          "name": "Villarreal CF",
+          "shortName": "Villarreal",
+          "tla": "VIL",
+          "crest": "https://crests.football-data.org/94.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 186588,
+            "name": "Javier Iglesias",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 419104,
+        "utcDate": "2023-01-30T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 19,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 94,
+          "name": "Villarreal CF",
+          "shortName": "Villarreal",
+          "tla": "VIL",
+          "crest": "https://crests.football-data.org/94.png"
+        },
+        "awayTeam": {
+          "id": 87,
+          "name": "Rayo Vallecano de Madrid",
+          "shortName": "Rayo Vallecano",
+          "tla": "RAY",
+          "crest": "https://crests.football-data.org/87.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 186379,
+            "name": "Juan Luis Pulido",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 331004,
+        "utcDate": "2022-05-12T18:00:00Z",
+        "status": "FINISHED",
+        "matchday": 36,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 87,
+          "name": "Rayo Vallecano de Madrid",
+          "shortName": "Rayo Vallecano",
+          "tla": "RAY",
+          "crest": "https://crests.football-data.org/87.png"
+        },
+        "awayTeam": {
+          "id": 94,
+          "name": "Villarreal CF",
+          "shortName": "Villarreal",
+          "tla": "VIL",
+          "crest": "https://crests.football-data.org/94.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 5
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 4
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57930,
+            "name": "Isidro Díaz de Mera",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 331193,
+        "utcDate": "2021-12-12T13:00:00Z",
+        "status": "FINISHED",
+        "matchday": 17,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 94,
+          "name": "Villarreal CF",
+          "shortName": "Villarreal",
+          "tla": "VIL",
+          "crest": "https://crests.football-data.org/94.png"
+        },
+        "awayTeam": {
+          "id": 87,
+          "name": "Rayo Vallecano de Madrid",
+          "shortName": "Rayo Vallecano",
+          "tla": "RAY",
+          "crest": "https://crests.football-data.org/87.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56948,
+            "name": "Mario Melero",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      }
+    ]
+  },
+  "544577": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 12,
+      "competitions": "PD",
+      "first": "2020-02-22",
+      "last": "2025-08-16"
+    },
+    "aggregates": {
+      "numberOfMatches": 50,
+      "totalGoals": 129,
+      "homeTeam": {
+        "id": 92,
+        "name": "Real Sociedad de Fútbol",
+        "wins": 15,
+        "draws": 16,
+        "losses": 19
+      },
+      "awayTeam": {
+        "id": 95,
+        "name": "Valencia CF",
+        "wins": 19,
+        "draws": 16,
+        "losses": 15
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2429,
+          "startDate": "2025-08-17",
+          "endDate": "2026-05-24",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 544219,
+        "utcDate": "2025-08-16T19:30:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-03T10:21:11Z",
+        "homeTeam": {
+          "id": 95,
+          "name": "Valencia CF",
+          "shortName": "Valencia",
+          "tla": "VAL",
+          "crest": "https://crests.football-data.org/95.png"
+        },
+        "awayTeam": {
+          "id": 92,
+          "name": "Real Sociedad de Fútbol",
+          "shortName": "Real Sociedad",
+          "tla": "RSO",
+          "crest": "https://crests.football-data.org/92.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 207080,
+            "name": "José Sánchez Martínez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498809,
+        "utcDate": "2025-01-19T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 20,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 95,
+          "name": "Valencia CF",
+          "shortName": "Valencia",
+          "tla": "VAL",
+          "crest": "https://crests.football-data.org/95.png"
+        },
+        "awayTeam": {
+          "id": 92,
+          "name": "Real Sociedad de Fútbol",
+          "shortName": "Real Sociedad",
+          "tla": "RSO",
+          "crest": "https://crests.football-data.org/92.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56995,
+            "name": "Víctor García Verdura",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498690,
+        "utcDate": "2024-09-28T16:30:00Z",
+        "status": "FINISHED",
+        "matchday": 8,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 92,
+          "name": "Real Sociedad de Fútbol",
+          "shortName": "Real Sociedad",
+          "tla": "RSO",
+          "crest": "https://crests.football-data.org/92.png"
+        },
+        "awayTeam": {
+          "id": 95,
+          "name": "Valencia CF",
+          "shortName": "Valencia",
+          "tla": "VAL",
+          "crest": "https://crests.football-data.org/95.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 80747,
+            "name": "Javier Alberola Rojas",
+            "type": "REFEREE",
+            "nationality": null
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1577,
+          "startDate": "2023-08-13",
+          "endDate": "2024-05-26",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 438831,
+        "utcDate": "2024-05-16T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 36,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-05-17T00:21:20Z",
+        "homeTeam": {
+          "id": 92,
+          "name": "Real Sociedad de Fútbol",
+          "shortName": "Real Sociedad",
+          "tla": "RSO",
+          "crest": "https://crests.football-data.org/92.png"
+        },
+        "awayTeam": {
+          "id": 95,
+          "name": "Valencia CF",
+          "shortName": "Valencia",
+          "tla": "VAL",
+          "crest": "https://crests.football-data.org/95.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 207113,
+            "name": "César Soto Grado",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1577,
+          "startDate": "2023-08-13",
+          "endDate": "2024-05-26",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 438540,
+        "utcDate": "2023-09-27T19:30:00Z",
+        "status": "FINISHED",
+        "matchday": 7,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-10-09T15:20:25Z",
+        "homeTeam": {
+          "id": 95,
+          "name": "Valencia CF",
+          "shortName": "Valencia",
+          "tla": "VAL",
+          "crest": "https://crests.football-data.org/95.png"
+        },
+        "awayTeam": {
+          "id": 92,
+          "name": "Real Sociedad de Fútbol",
+          "shortName": "Real Sociedad",
+          "tla": "RSO",
+          "crest": "https://crests.football-data.org/92.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 206208,
+            "name": "Alejandro Hernández Hernández",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 419072,
+        "utcDate": "2023-02-25T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 23,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 95,
+          "name": "Valencia CF",
+          "shortName": "Valencia",
+          "tla": "VAL",
+          "crest": "https://crests.football-data.org/95.png"
+        },
+        "awayTeam": {
+          "id": 92,
+          "name": "Real Sociedad de Fútbol",
+          "shortName": "Real Sociedad",
+          "tla": "RSO",
+          "crest": "https://crests.football-data.org/92.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 15625,
+            "name": "Alejandro Hernández",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 419170,
+        "utcDate": "2022-11-06T15:15:00Z",
+        "status": "FINISHED",
+        "matchday": 13,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 92,
+          "name": "Real Sociedad de Fútbol",
+          "shortName": "Real Sociedad",
+          "tla": "RSO",
+          "crest": "https://crests.football-data.org/92.png"
+        },
+        "awayTeam": {
+          "id": 95,
+          "name": "Valencia CF",
+          "shortName": "Valencia",
+          "tla": "VAL",
+          "crest": "https://crests.football-data.org/95.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 58184,
+            "name": "José Luis Munuera",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 331134,
+        "utcDate": "2022-02-06T13:00:00Z",
+        "status": "FINISHED",
+        "matchday": 23,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 95,
+          "name": "Valencia CF",
+          "shortName": "Valencia",
+          "tla": "VAL",
+          "crest": "https://crests.football-data.org/95.png"
+        },
+        "awayTeam": {
+          "id": 92,
+          "name": "Real Sociedad de Fútbol",
+          "shortName": "Real Sociedad",
+          "tla": "RSO",
+          "crest": "https://crests.football-data.org/92.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 106,
+            "name": "José Sánchez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 331226,
+        "utcDate": "2021-11-21T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 14,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 92,
+          "name": "Real Sociedad de Fútbol",
+          "shortName": "Real Sociedad",
+          "tla": "RSO",
+          "crest": "https://crests.football-data.org/92.png"
+        },
+        "awayTeam": {
+          "id": 95,
+          "name": "Valencia CF",
+          "shortName": "Valencia",
+          "tla": "VAL",
+          "crest": "https://crests.football-data.org/95.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56948,
+            "name": "Mario Melero",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 635,
+          "startDate": "2020-09-12",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "shortName": "Atleti",
+            "tla": "ATL",
+            "crest": "https://crests.football-data.org/78.png",
+            "address": "Paseo Virgen del Puerto, 67 Madrid 28005",
+            "website": "http://www.clubatleticodemadrid.com",
+            "founded": 1903,
+            "clubColors": "Red / White / Blue",
+            "venue": "Estadio Wanda Metropolitano",
+            "lastUpdated": "2024-07-29T17:08:58Z"
+          }
+        },
+        "id": 308616,
+        "utcDate": "2021-04-11T14:15:00Z",
+        "status": "FINISHED",
+        "matchday": 30,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2021-06-30T08:20:25Z",
+        "homeTeam": {
+          "id": 95,
+          "name": "Valencia CF",
+          "shortName": "Valencia",
+          "tla": "VAL",
+          "crest": "https://crests.football-data.org/95.png"
+        },
+        "awayTeam": {
+          "id": 92,
+          "name": "Real Sociedad de Fútbol",
+          "shortName": "Real Sociedad",
+          "tla": "RSO",
+          "crest": "https://crests.football-data.org/92.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57921,
+            "name": "Valentín Pizarro",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 57921,
+            "name": "Valentín Pizarro",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 635,
+          "startDate": "2020-09-12",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "shortName": "Atleti",
+            "tla": "ATL",
+            "crest": "https://crests.football-data.org/78.png",
+            "address": "Paseo Virgen del Puerto, 67 Madrid 28005",
+            "website": "http://www.clubatleticodemadrid.com",
+            "founded": 1903,
+            "clubColors": "Red / White / Blue",
+            "venue": "Estadio Wanda Metropolitano",
+            "lastUpdated": "2024-07-29T17:08:58Z"
+          }
+        },
+        "id": 308357,
+        "utcDate": "2020-09-29T17:00:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2020-11-14T08:33:13Z",
+        "homeTeam": {
+          "id": 92,
+          "name": "Real Sociedad de Fútbol",
+          "shortName": "Real Sociedad",
+          "tla": "RSO",
+          "crest": "https://crests.football-data.org/92.png"
+        },
+        "awayTeam": {
+          "id": 95,
+          "name": "Valencia CF",
+          "shortName": "Valencia",
+          "tla": "VAL",
+          "crest": "https://crests.football-data.org/95.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57917,
+            "name": "Jorge Figueroa",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 57915,
+            "name": "Antonio Martínez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 58174,
+            "name": "Iván Masso Granado",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 57008,
+            "name": "Pedro Muñoz",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 56967,
+            "name": "Alberola Rojas",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 519,
+          "startDate": "2019-08-16",
+          "endDate": "2020-07-19",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 86,
+            "name": "Real Madrid CF",
+            "shortName": "Real Madrid",
+            "tla": "RMA",
+            "crest": "https://crests.football-data.org/86.png",
+            "address": "Avenida Concha Espina, 1 Madrid 28036",
+            "website": "http://www.realmadrid.com",
+            "founded": 1902,
+            "clubColors": "White / Purple",
+            "venue": "Estadio Santiago Bernabéu",
+            "lastUpdated": "2022-02-19T08:59:31Z"
+          }
+        },
+        "id": 273849,
+        "utcDate": "2020-02-22T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 25,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2020-02-23T16:20:13Z",
+        "homeTeam": {
+          "id": 92,
+          "name": "Real Sociedad de Fútbol",
+          "shortName": "Real Sociedad",
+          "tla": "RSO",
+          "crest": "https://crests.football-data.org/92.png"
+        },
+        "awayTeam": {
+          "id": 95,
+          "name": "Valencia CF",
+          "shortName": "Valencia",
+          "tla": "VAL",
+          "crest": "https://crests.football-data.org/95.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56957,
+            "name": "José González",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 56958,
+            "name": "Rubén Becerril",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32170,
+            "name": "Diego Sánchez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 56944,
+            "name": "Alberto González",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 56978,
+            "name": "Pablo González",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      }
+    ]
+  },
+  "544578": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 1,
+      "competitions": "PD",
+      "first": "2026-01-04",
+      "last": "2026-01-04"
+    },
+    "aggregates": {
+      "numberOfMatches": 13,
+      "totalGoals": 28,
+      "homeTeam": {
+        "id": 1048,
+        "name": "Real Oviedo",
+        "wins": 3,
+        "draws": 5,
+        "losses": 5
+      },
+      "awayTeam": {
+        "id": 263,
+        "name": "Deportivo Alavés",
+        "wins": 5,
+        "draws": 5,
+        "losses": 3
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2429,
+          "startDate": "2025-08-17",
+          "endDate": "2026-05-24",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 544381,
+        "utcDate": "2026-01-04T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 18,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-03T10:21:11Z",
+        "homeTeam": {
+          "id": 263,
+          "name": "Deportivo Alavés",
+          "shortName": "Alavés",
+          "tla": "ALA",
+          "crest": "https://crests.football-data.org/263.png"
+        },
+        "awayTeam": {
+          "id": 1048,
+          "name": "Real Oviedo",
+          "shortName": "Real Oviedo",
+          "tla": "OVI",
+          "crest": "https://crests.football-data.org/1048.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 206211,
+            "name": "Jesús Gil Manzano",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      }
+    ]
+  },
+  "544579": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 8,
+      "competitions": "PD",
+      "first": "2020-03-08",
+      "last": "2025-08-31"
+    },
+    "aggregates": {
+      "numberOfMatches": 50,
+      "totalGoals": 103,
+      "homeTeam": {
+        "id": 79,
+        "name": "CA Osasuna",
+        "wins": 20,
+        "draws": 14,
+        "losses": 16
+      },
+      "awayTeam": {
+        "id": 80,
+        "name": "RCD Espanyol de Barcelona",
+        "wins": 16,
+        "draws": 14,
+        "losses": 20
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2429,
+          "startDate": "2025-08-17",
+          "endDate": "2026-05-24",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 544234,
+        "utcDate": "2025-08-31T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 3,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-03T10:21:11Z",
+        "homeTeam": {
+          "id": 80,
+          "name": "RCD Espanyol de Barcelona",
+          "shortName": "Espanyol",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/80.png"
+        },
+        "awayTeam": {
+          "id": 79,
+          "name": "CA Osasuna",
+          "shortName": "Osasuna",
+          "tla": "OSA",
+          "crest": "https://crests.football-data.org/79.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": []
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498982,
+        "utcDate": "2025-05-18T17:00:00Z",
+        "status": "FINISHED",
+        "matchday": 37,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 79,
+          "name": "CA Osasuna",
+          "shortName": "Osasuna",
+          "tla": "OSA",
+          "crest": "https://crests.football-data.org/79.png"
+        },
+        "awayTeam": {
+          "id": 80,
+          "name": "RCD Espanyol de Barcelona",
+          "shortName": "Espanyol",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/80.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 214213,
+            "name": "Francisco Hernández Maeso",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498782,
+        "utcDate": "2024-12-14T13:00:00Z",
+        "status": "FINISHED",
+        "matchday": 17,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 80,
+          "name": "RCD Espanyol de Barcelona",
+          "shortName": "Espanyol",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/80.png"
+        },
+        "awayTeam": {
+          "id": 79,
+          "name": "CA Osasuna",
+          "shortName": "Osasuna",
+          "tla": "OSA",
+          "crest": "https://crests.football-data.org/79.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 206205,
+            "name": "Adrián Cordero Vega",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 419097,
+        "utcDate": "2023-02-04T13:00:00Z",
+        "status": "FINISHED",
+        "matchday": 20,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 80,
+          "name": "RCD Espanyol de Barcelona",
+          "shortName": "Espanyol",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/80.png"
+        },
+        "awayTeam": {
+          "id": 79,
+          "name": "CA Osasuna",
+          "shortName": "Osasuna",
+          "tla": "OSA",
+          "crest": "https://crests.football-data.org/79.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43870,
+            "name": "Jesús Gil",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 419194,
+        "utcDate": "2022-10-20T18:00:00Z",
+        "status": "FINISHED",
+        "matchday": 10,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 79,
+          "name": "CA Osasuna",
+          "shortName": "Osasuna",
+          "tla": "OSA",
+          "crest": "https://crests.football-data.org/79.png"
+        },
+        "awayTeam": {
+          "id": 80,
+          "name": "RCD Espanyol de Barcelona",
+          "shortName": "Espanyol",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/80.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56948,
+            "name": "Mario Melero",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 331015,
+        "utcDate": "2022-05-08T16:30:00Z",
+        "status": "FINISHED",
+        "matchday": 35,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 80,
+          "name": "RCD Espanyol de Barcelona",
+          "shortName": "Espanyol",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/80.png"
+        },
+        "awayTeam": {
+          "id": 79,
+          "name": "CA Osasuna",
+          "shortName": "Osasuna",
+          "tla": "OSA",
+          "crest": "https://crests.football-data.org/79.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 161396,
+            "name": "Jaime Latre",
+            "type": "REFEREE",
+            "nationality": null
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 331357,
+        "utcDate": "2021-08-14T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 79,
+          "name": "CA Osasuna",
+          "shortName": "Osasuna",
+          "tla": "OSA",
+          "crest": "https://crests.football-data.org/79.png"
+        },
+        "awayTeam": {
+          "id": 80,
+          "name": "RCD Espanyol de Barcelona",
+          "shortName": "Espanyol",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/80.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 171625,
+            "name": "Miguel Ortiz",
+            "type": "REFEREE",
+            "nationality": null
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 519,
+          "startDate": "2019-08-16",
+          "endDate": "2020-07-19",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 86,
+            "name": "Real Madrid CF",
+            "shortName": "Real Madrid",
+            "tla": "RMA",
+            "crest": "https://crests.football-data.org/86.png",
+            "address": "Avenida Concha Espina, 1 Madrid 28036",
+            "website": "http://www.realmadrid.com",
+            "founded": 1902,
+            "clubColors": "White / Purple",
+            "venue": "Estadio Santiago Bernabéu",
+            "lastUpdated": "2022-02-19T08:59:31Z"
+          }
+        },
+        "id": 273817,
+        "utcDate": "2020-03-08T11:00:00Z",
+        "status": "FINISHED",
+        "matchday": 27,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2020-03-08T23:59:25Z",
+        "homeTeam": {
+          "id": 79,
+          "name": "CA Osasuna",
+          "shortName": "Osasuna",
+          "tla": "OSA",
+          "crest": "https://crests.football-data.org/79.png"
+        },
+        "awayTeam": {
+          "id": 80,
+          "name": "RCD Espanyol de Barcelona",
+          "shortName": "Espanyol",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/80.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 15628,
+            "name": "Ricardo de Burgos",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 82,
+            "name": "Roberto Díaz Pérez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 56964,
+            "name": "Jon Núnez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 57263,
+            "name": "Sergio Pérez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 55934,
+            "name": "Guillermo Cuadra",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      }
+    ]
+  },
+  "544580": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 12,
+      "competitions": "PD",
+      "first": "2020-01-18",
+      "last": "2025-12-20"
+    },
+    "aggregates": {
+      "numberOfMatches": 50,
+      "totalGoals": 196,
+      "homeTeam": {
+        "id": 559,
+        "name": "Sevilla FC",
+        "wins": 13,
+        "draws": 4,
+        "losses": 33
+      },
+      "awayTeam": {
+        "id": 86,
+        "name": "Real Madrid CF",
+        "wins": 33,
+        "draws": 4,
+        "losses": 13
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2429,
+          "startDate": "2025-08-17",
+          "endDate": "2026-05-24",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 544375,
+        "utcDate": "2025-12-20T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 17,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-03T10:21:11Z",
+        "homeTeam": {
+          "id": 86,
+          "name": "Real Madrid CF",
+          "shortName": "Real Madrid",
+          "tla": "RMA",
+          "crest": "https://crests.football-data.org/86.png"
+        },
+        "awayTeam": {
+          "id": 559,
+          "name": "Sevilla FC",
+          "shortName": "Sevilla FC",
+          "tla": "SEV",
+          "crest": "https://crests.football-data.org/559.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 215569,
+            "name": "Alejandro Muñiz Ruiz",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498976,
+        "utcDate": "2025-05-18T17:00:00Z",
+        "status": "FINISHED",
+        "matchday": 37,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 559,
+          "name": "Sevilla FC",
+          "shortName": "Sevilla FC",
+          "tla": "SEV",
+          "crest": "https://crests.football-data.org/559.png"
+        },
+        "awayTeam": {
+          "id": 86,
+          "name": "Real Madrid CF",
+          "shortName": "Real Madrid",
+          "tla": "RMA",
+          "crest": "https://crests.football-data.org/86.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 217698,
+            "name": "Mateo Busquets Ferrer",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2292,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-25",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 498791,
+        "utcDate": "2024-12-22T15:15:00Z",
+        "status": "FINISHED",
+        "matchday": 18,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-08T20:20:24Z",
+        "homeTeam": {
+          "id": 86,
+          "name": "Real Madrid CF",
+          "shortName": "Real Madrid",
+          "tla": "RMA",
+          "crest": "https://crests.football-data.org/86.png"
+        },
+        "awayTeam": {
+          "id": 559,
+          "name": "Sevilla FC",
+          "shortName": "Sevilla FC",
+          "tla": "SEV",
+          "crest": "https://crests.football-data.org/559.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 4,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 3,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57930,
+            "name": "Isidro Díaz de Mera",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1577,
+          "startDate": "2023-08-13",
+          "endDate": "2024-05-26",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 438730,
+        "utcDate": "2024-02-25T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 26,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-06-09T20:20:41Z",
+        "homeTeam": {
+          "id": 86,
+          "name": "Real Madrid CF",
+          "shortName": "Real Madrid",
+          "tla": "RMA",
+          "crest": "https://crests.football-data.org/86.png"
+        },
+        "awayTeam": {
+          "id": 559,
+          "name": "Sevilla FC",
+          "shortName": "Sevilla FC",
+          "tla": "SEV",
+          "crest": "https://crests.football-data.org/559.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57930,
+            "name": "Isidro Díaz de Mera",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1577,
+          "startDate": "2023-08-13",
+          "endDate": "2024-05-26",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 438569,
+        "utcDate": "2023-10-21T16:30:00Z",
+        "status": "FINISHED",
+        "matchday": 10,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-06-09T20:20:41Z",
+        "homeTeam": {
+          "id": 559,
+          "name": "Sevilla FC",
+          "shortName": "Sevilla FC",
+          "tla": "SEV",
+          "crest": "https://crests.football-data.org/559.png"
+        },
+        "awayTeam": {
+          "id": 86,
+          "name": "Real Madrid CF",
+          "shortName": "Real Madrid",
+          "tla": "RMA",
+          "crest": "https://crests.football-data.org/86.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 15628,
+            "name": "Ricardo de Burgos",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 418924,
+        "utcDate": "2023-05-27T17:00:00Z",
+        "status": "FINISHED",
+        "matchday": 37,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 559,
+          "name": "Sevilla FC",
+          "shortName": "Sevilla FC",
+          "tla": "SEV",
+          "crest": "https://crests.football-data.org/559.png"
+        },
+        "awayTeam": {
+          "id": 86,
+          "name": "Real Madrid CF",
+          "shortName": "Real Madrid",
+          "tla": "RMA",
+          "crest": "https://crests.football-data.org/86.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 32457,
+            "name": "César Soto",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 1504,
+          "startDate": "2022-08-14",
+          "endDate": "2023-06-04",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 419192,
+        "utcDate": "2022-10-22T19:00:00Z",
+        "status": "FINISHED",
+        "matchday": 11,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 86,
+          "name": "Real Madrid CF",
+          "shortName": "Real Madrid",
+          "tla": "RMA",
+          "crest": "https://crests.football-data.org/86.png"
+        },
+        "awayTeam": {
+          "id": 559,
+          "name": "Sevilla FC",
+          "shortName": "Sevilla FC",
+          "tla": "SEV",
+          "crest": "https://crests.football-data.org/559.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 15625,
+            "name": "Alejandro Hernández",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 331045,
+        "utcDate": "2022-04-17T19:00:00Z",
+        "status": "FINISHED",
+        "matchday": 32,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 559,
+          "name": "Sevilla FC",
+          "shortName": "Sevilla FC",
+          "tla": "SEV",
+          "crest": "https://crests.football-data.org/559.png"
+        },
+        "awayTeam": {
+          "id": 86,
+          "name": "Real Madrid CF",
+          "shortName": "Real Madrid",
+          "tla": "RMA",
+          "crest": "https://crests.football-data.org/86.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 55934,
+            "name": "Guillermo Cuadra",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 380,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 331215,
+        "utcDate": "2021-11-28T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 15,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-26T08:20:12Z",
+        "homeTeam": {
+          "id": 86,
+          "name": "Real Madrid CF",
+          "shortName": "Real Madrid",
+          "tla": "RMA",
+          "crest": "https://crests.football-data.org/86.png"
+        },
+        "awayTeam": {
+          "id": 559,
+          "name": "Sevilla FC",
+          "shortName": "Sevilla FC",
+          "tla": "SEV",
+          "crest": "https://crests.football-data.org/559.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 106,
+            "name": "José Sánchez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 635,
+          "startDate": "2020-09-12",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "shortName": "Atleti",
+            "tla": "ATL",
+            "crest": "https://crests.football-data.org/78.png",
+            "address": "Paseo Virgen del Puerto, 67 Madrid 28005",
+            "website": "http://www.clubatleticodemadrid.com",
+            "founded": 1903,
+            "clubColors": "Red / White / Blue",
+            "venue": "Estadio Wanda Metropolitano",
+            "lastUpdated": "2024-07-29T17:08:58Z"
+          }
+        },
+        "id": 308665,
+        "utcDate": "2021-05-09T19:00:00Z",
+        "status": "FINISHED",
+        "matchday": 35,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2021-06-30T08:20:25Z",
+        "homeTeam": {
+          "id": 86,
+          "name": "Real Madrid CF",
+          "shortName": "Real Madrid",
+          "tla": "RMA",
+          "crest": "https://crests.football-data.org/86.png"
+        },
+        "awayTeam": {
+          "id": 559,
+          "name": "Sevilla FC",
+          "shortName": "Sevilla FC",
+          "tla": "SEV",
+          "crest": "https://crests.football-data.org/559.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 81,
+            "name": "Juan Martínez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 635,
+          "startDate": "2020-09-12",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "shortName": "Atleti",
+            "tla": "ATL",
+            "crest": "https://crests.football-data.org/78.png",
+            "address": "Paseo Virgen del Puerto, 67 Madrid 28005",
+            "website": "http://www.clubatleticodemadrid.com",
+            "founded": 1903,
+            "clubColors": "Red / White / Blue",
+            "venue": "Estadio Wanda Metropolitano",
+            "lastUpdated": "2024-07-29T17:08:58Z"
+          }
+        },
+        "id": 308436,
+        "utcDate": "2020-12-05T15:15:00Z",
+        "status": "FINISHED",
+        "matchday": 12,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2020-12-05T19:15:06Z",
+        "homeTeam": {
+          "id": 559,
+          "name": "Sevilla FC",
+          "shortName": "Sevilla FC",
+          "tla": "SEV",
+          "crest": "https://crests.football-data.org/559.png"
+        },
+        "awayTeam": {
+          "id": 86,
+          "name": "Real Madrid CF",
+          "shortName": "Real Madrid",
+          "tla": "RMA",
+          "crest": "https://crests.football-data.org/86.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 106,
+            "name": "José Sánchez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 519,
+          "startDate": "2019-08-16",
+          "endDate": "2020-07-19",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 86,
+            "name": "Real Madrid CF",
+            "shortName": "Real Madrid",
+            "tla": "RMA",
+            "crest": "https://crests.football-data.org/86.png",
+            "address": "Avenida Concha Espina, 1 Madrid 28036",
+            "website": "http://www.realmadrid.com",
+            "founded": 1902,
+            "clubColors": "White / Purple",
+            "venue": "Estadio Santiago Bernabéu",
+            "lastUpdated": "2022-02-19T08:59:31Z"
+          }
+        },
+        "id": 273754,
+        "utcDate": "2020-01-18T15:00:00Z",
+        "status": "FINISHED",
+        "matchday": 20,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2020-01-18T23:59:31Z",
+        "homeTeam": {
+          "id": 86,
+          "name": "Real Madrid CF",
+          "shortName": "Real Madrid",
+          "tla": "RMA",
+          "crest": "https://crests.football-data.org/86.png"
+        },
+        "awayTeam": {
+          "id": 559,
+          "name": "Sevilla FC",
+          "shortName": "Sevilla FC",
+          "tla": "SEV",
+          "crest": "https://crests.football-data.org/559.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 81,
+            "name": "Juan Martínez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 82,
+            "name": "Roberto Díaz Pérez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 83,
+            "name": "César Noval",
+            "type": "REFEREE",
+            "nationality": null
+          },
+          {
+            "id": 57015,
+            "name": "Iván Pérez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          },
+          {
+            "id": 32457,
+            "name": "César Soto",
             "type": "REFEREE",
             "nationality": "Spain"
           }
