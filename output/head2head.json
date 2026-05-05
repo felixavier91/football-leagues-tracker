@@ -161412,6 +161412,392 @@
       }
     ]
   },
+  "537746": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 5,
+      "competitions": "DED",
+      "first": "2023-01-14",
+      "last": "2025-09-14"
+    },
+    "aggregates": {
+      "numberOfMatches": 37,
+      "totalGoals": 133,
+      "homeTeam": {
+        "id": 6806,
+        "name": "Sparta Rotterdam",
+        "wins": 19,
+        "draws": 6,
+        "losses": 12
+      },
+      "awayTeam": {
+        "id": 670,
+        "name": "SBV Excelsior",
+        "wins": 12,
+        "draws": 6,
+        "losses": 19
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2163,
+          "name": "Netherlands",
+          "code": "NLD",
+          "flag": "https://crests.football-data.org/8601.svg"
+        },
+        "competition": {
+          "id": 2003,
+          "name": "Eredivisie",
+          "code": "DED",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/ED.png"
+        },
+        "season": {
+          "id": 2400,
+          "startDate": "2025-08-08",
+          "endDate": "2026-05-17",
+          "currentMatchday": 32,
+          "winner": null
+        },
+        "id": 537482,
+        "utcDate": "2025-09-14T10:15:00Z",
+        "status": "FINISHED",
+        "matchday": 5,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-05T10:21:15Z",
+        "homeTeam": {
+          "id": 670,
+          "name": "SBV Excelsior",
+          "shortName": "Excelsior",
+          "tla": "EXC",
+          "crest": "https://crests.football-data.org/670.png"
+        },
+        "awayTeam": {
+          "id": 6806,
+          "name": "Sparta Rotterdam",
+          "shortName": "Sparta",
+          "tla": "SPA",
+          "crest": "https://crests.football-data.org/6806.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56912,
+            "name": "Jeroen Manschot",
+            "type": "REFEREE",
+            "nationality": "Netherlands"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2163,
+          "name": "Netherlands",
+          "code": "NLD",
+          "flag": "https://crests.football-data.org/8601.svg"
+        },
+        "competition": {
+          "id": 2003,
+          "name": "Eredivisie",
+          "code": "DED",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/ED.png"
+        },
+        "season": {
+          "id": 1590,
+          "startDate": "2023-08-11",
+          "endDate": "2024-05-19",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 674,
+            "name": "PSV",
+            "shortName": "PSV",
+            "tla": "PSV",
+            "crest": "https://crests.football-data.org/674.png",
+            "address": "Fredriklaan 10a Eindhoven 5616 NH",
+            "website": "http://www.psv.nl",
+            "founded": 1913,
+            "clubColors": "Red / White",
+            "venue": "Philips Stadion",
+            "lastUpdated": "2022-03-06T09:30:40Z"
+          }
+        },
+        "id": 441671,
+        "utcDate": "2024-02-17T17:45:00Z",
+        "status": "FINISHED",
+        "matchday": 22,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-02-18T00:21:19Z",
+        "homeTeam": {
+          "id": 6806,
+          "name": "Sparta Rotterdam",
+          "shortName": "Sparta",
+          "tla": "SPA",
+          "crest": "https://crests.football-data.org/6806.png"
+        },
+        "awayTeam": {
+          "id": 670,
+          "name": "SBV Excelsior",
+          "shortName": "Excelsior",
+          "tla": "EXC",
+          "crest": "https://crests.football-data.org/670.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 4,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 2,
+            "away": 2
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43858,
+            "name": "Serdar Gözübüyük",
+            "type": "REFEREE",
+            "nationality": "Netherlands"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2163,
+          "name": "Netherlands",
+          "code": "NLD",
+          "flag": "https://crests.football-data.org/8601.svg"
+        },
+        "competition": {
+          "id": 2003,
+          "name": "Eredivisie",
+          "code": "DED",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/ED.png"
+        },
+        "season": {
+          "id": 1590,
+          "startDate": "2023-08-11",
+          "endDate": "2024-05-19",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 674,
+            "name": "PSV",
+            "shortName": "PSV",
+            "tla": "PSV",
+            "crest": "https://crests.football-data.org/674.png",
+            "address": "Fredriklaan 10a Eindhoven 5616 NH",
+            "website": "http://www.psv.nl",
+            "founded": 1913,
+            "clubColors": "Red / White",
+            "venue": "Philips Stadion",
+            "lastUpdated": "2022-03-06T09:30:40Z"
+          }
+        },
+        "id": 441542,
+        "utcDate": "2023-10-01T12:30:00Z",
+        "status": "FINISHED",
+        "matchday": 7,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-10-01T20:20:57Z",
+        "homeTeam": {
+          "id": 670,
+          "name": "SBV Excelsior",
+          "shortName": "Excelsior",
+          "tla": "EXC",
+          "crest": "https://crests.football-data.org/670.png"
+        },
+        "awayTeam": {
+          "id": 6806,
+          "name": "Sparta Rotterdam",
+          "shortName": "Sparta",
+          "tla": "SPA",
+          "crest": "https://crests.football-data.org/6806.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56905,
+            "name": "Bas Nijhuis",
+            "type": "REFEREE",
+            "nationality": "Netherlands"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2163,
+          "name": "Netherlands",
+          "code": "NLD",
+          "flag": "https://crests.football-data.org/8601.svg"
+        },
+        "competition": {
+          "id": 2003,
+          "name": "Eredivisie",
+          "code": "DED",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/ED.png"
+        },
+        "season": {
+          "id": 1494,
+          "startDate": "2022-08-05",
+          "endDate": "2023-05-28",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 415796,
+        "utcDate": "2023-03-05T11:15:00Z",
+        "status": "FINISHED",
+        "matchday": 24,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 670,
+          "name": "SBV Excelsior",
+          "shortName": "Excelsior",
+          "tla": "EXC",
+          "crest": "https://crests.football-data.org/670.png"
+        },
+        "awayTeam": {
+          "id": 6806,
+          "name": "Sparta Rotterdam",
+          "shortName": "Sparta",
+          "tla": "SPA",
+          "crest": "https://crests.football-data.org/6806.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 4
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56905,
+            "name": "Bas Nijhuis",
+            "type": "REFEREE",
+            "nationality": "Netherlands"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2163,
+          "name": "Netherlands",
+          "code": "NLD",
+          "flag": "https://crests.football-data.org/8601.svg"
+        },
+        "competition": {
+          "id": 2003,
+          "name": "Eredivisie",
+          "code": "DED",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/ED.png"
+        },
+        "season": {
+          "id": 1494,
+          "startDate": "2022-08-05",
+          "endDate": "2023-05-28",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 415867,
+        "utcDate": "2023-01-14T20:00:00Z",
+        "status": "FINISHED",
+        "matchday": 16,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 6806,
+          "name": "Sparta Rotterdam",
+          "shortName": "Sparta",
+          "tla": "SPA",
+          "crest": "https://crests.football-data.org/6806.png"
+        },
+        "awayTeam": {
+          "id": 670,
+          "name": "SBV Excelsior",
+          "shortName": "Excelsior",
+          "tla": "EXC",
+          "crest": "https://crests.football-data.org/670.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56904,
+            "name": "Edwin van de Graaf",
+            "type": "REFEREE",
+            "nationality": "Netherlands"
+          }
+        ]
+      }
+    ]
+  },
   "538055": {
     "filters": {
       "limit": "50",
@@ -251063,6 +251449,656 @@
           {
             "id": 11443,
             "name": "Chris Kavanagh",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
+      }
+    ]
+  },
+  "538147": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 8,
+      "competitions": "PL",
+      "first": "2020-02-02",
+      "last": "2025-11-01"
+    },
+    "aggregates": {
+      "numberOfMatches": 50,
+      "totalGoals": 131,
+      "homeTeam": {
+        "id": 57,
+        "name": "Arsenal FC",
+        "wins": 31,
+        "draws": 11,
+        "losses": 8
+      },
+      "awayTeam": {
+        "id": 328,
+        "name": "Burnley FC",
+        "wins": 8,
+        "draws": 11,
+        "losses": 31
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2072,
+          "name": "England",
+          "code": "ENG",
+          "flag": "https://crests.football-data.org/770.svg"
+        },
+        "competition": {
+          "id": 2021,
+          "name": "Premier League",
+          "code": "PL",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/PL.png"
+        },
+        "season": {
+          "id": 2403,
+          "startDate": "2025-08-15",
+          "endDate": "2026-05-24",
+          "currentMatchday": 35,
+          "winner": null
+        },
+        "id": 537878,
+        "utcDate": "2025-11-01T15:00:00Z",
+        "status": "FINISHED",
+        "matchday": 10,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-05T10:21:16Z",
+        "homeTeam": {
+          "id": 328,
+          "name": "Burnley FC",
+          "shortName": "Burnley",
+          "tla": "BUR",
+          "crest": "https://crests.football-data.org/328.png"
+        },
+        "awayTeam": {
+          "id": 57,
+          "name": "Arsenal FC",
+          "shortName": "Arsenal",
+          "tla": "ARS",
+          "crest": "https://crests.football-data.org/57.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 11443,
+            "name": "Chris Kavanagh",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2072,
+          "name": "England",
+          "code": "ENG",
+          "flag": "https://crests.football-data.org/770.svg"
+        },
+        "competition": {
+          "id": 2021,
+          "name": "Premier League",
+          "code": "PL",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/PL.png"
+        },
+        "season": {
+          "id": 1564,
+          "startDate": "2023-08-11",
+          "endDate": "2024-05-19",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 436184,
+        "utcDate": "2024-02-17T15:00:00Z",
+        "status": "FINISHED",
+        "matchday": 25,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-02-18T00:21:19Z",
+        "homeTeam": {
+          "id": 328,
+          "name": "Burnley FC",
+          "shortName": "Burnley",
+          "tla": "BUR",
+          "crest": "https://crests.football-data.org/328.png"
+        },
+        "awayTeam": {
+          "id": 57,
+          "name": "Arsenal FC",
+          "shortName": "Arsenal",
+          "tla": "ARS",
+          "crest": "https://crests.football-data.org/57.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 5
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 23568,
+            "name": "Jarred Gillett",
+            "type": "REFEREE",
+            "nationality": "Australia"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2072,
+          "name": "England",
+          "code": "ENG",
+          "flag": "https://crests.football-data.org/770.svg"
+        },
+        "competition": {
+          "id": 2021,
+          "name": "Premier League",
+          "code": "PL",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/PL.png"
+        },
+        "season": {
+          "id": 1564,
+          "startDate": "2023-08-11",
+          "endDate": "2024-05-19",
+          "currentMatchday": 38,
+          "winner": null
+        },
+        "id": 436054,
+        "utcDate": "2023-11-11T15:00:00Z",
+        "status": "FINISHED",
+        "matchday": 12,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-11-12T00:21:21Z",
+        "homeTeam": {
+          "id": 57,
+          "name": "Arsenal FC",
+          "shortName": "Arsenal",
+          "tla": "ARS",
+          "crest": "https://crests.football-data.org/57.png"
+        },
+        "awayTeam": {
+          "id": 328,
+          "name": "Burnley FC",
+          "shortName": "Burnley",
+          "tla": "BUR",
+          "crest": "https://crests.football-data.org/328.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 11605,
+            "name": "Michael Oliver",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2072,
+          "name": "England",
+          "code": "ENG",
+          "flag": "https://crests.football-data.org/770.svg"
+        },
+        "competition": {
+          "id": 2021,
+          "name": "Premier League",
+          "code": "PL",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/PL.png"
+        },
+        "season": {
+          "id": 733,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 65,
+            "name": "Manchester City FC",
+            "shortName": "Man City",
+            "tla": "MCI",
+            "crest": "https://crests.football-data.org/65.png",
+            "address": "SportCity Manchester M11 3FF",
+            "website": "https://www.mancity.com",
+            "founded": 1880,
+            "clubColors": "Sky Blue / White",
+            "venue": "Etihad Stadium",
+            "lastUpdated": "2022-02-10T19:48:37Z"
+          }
+        },
+        "id": 327142,
+        "utcDate": "2022-01-23T14:00:00Z",
+        "status": "FINISHED",
+        "matchday": 23,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-16T08:20:23Z",
+        "homeTeam": {
+          "id": 57,
+          "name": "Arsenal FC",
+          "shortName": "Arsenal",
+          "tla": "ARS",
+          "crest": "https://crests.football-data.org/57.png"
+        },
+        "awayTeam": {
+          "id": 328,
+          "name": "Burnley FC",
+          "shortName": "Burnley",
+          "tla": "BUR",
+          "crest": "https://crests.football-data.org/328.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 11556,
+            "name": "David Coote",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2072,
+          "name": "England",
+          "code": "ENG",
+          "flag": "https://crests.football-data.org/770.svg"
+        },
+        "competition": {
+          "id": 2021,
+          "name": "Premier League",
+          "code": "PL",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/PL.png"
+        },
+        "season": {
+          "id": 733,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-22",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 65,
+            "name": "Manchester City FC",
+            "shortName": "Man City",
+            "tla": "MCI",
+            "crest": "https://crests.football-data.org/65.png",
+            "address": "SportCity Manchester M11 3FF",
+            "website": "https://www.mancity.com",
+            "founded": 1880,
+            "clubColors": "Sky Blue / White",
+            "venue": "Etihad Stadium",
+            "lastUpdated": "2022-02-10T19:48:37Z"
+          }
+        },
+        "id": 327320,
+        "utcDate": "2021-09-18T14:00:00Z",
+        "status": "FINISHED",
+        "matchday": 5,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-16T08:20:23Z",
+        "homeTeam": {
+          "id": 328,
+          "name": "Burnley FC",
+          "shortName": "Burnley",
+          "tla": "BUR",
+          "crest": "https://crests.football-data.org/328.png"
+        },
+        "awayTeam": {
+          "id": 57,
+          "name": "Arsenal FC",
+          "shortName": "Arsenal",
+          "tla": "ARS",
+          "crest": "https://crests.football-data.org/57.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 11580,
+            "name": "Anthony Taylor",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2072,
+          "name": "England",
+          "code": "ENG",
+          "flag": "https://crests.football-data.org/770.svg"
+        },
+        "competition": {
+          "id": 2021,
+          "name": "Premier League",
+          "code": "PL",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/PL.png"
+        },
+        "season": {
+          "id": 619,
+          "startDate": "2020-09-12",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 65,
+            "name": "Manchester City FC",
+            "shortName": "Man City",
+            "tla": "MCI",
+            "crest": "https://crests.football-data.org/65.png",
+            "address": "SportCity Manchester M11 3FF",
+            "website": "https://www.mancity.com",
+            "founded": 1880,
+            "clubColors": "Sky Blue / White",
+            "venue": "Etihad Stadium",
+            "lastUpdated": "2022-02-10T19:48:37Z"
+          }
+        },
+        "id": 304024,
+        "utcDate": "2021-03-06T12:30:00Z",
+        "status": "FINISHED",
+        "matchday": 27,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2021-06-15T08:20:25Z",
+        "homeTeam": {
+          "id": 328,
+          "name": "Burnley FC",
+          "shortName": "Burnley",
+          "tla": "BUR",
+          "crest": "https://crests.football-data.org/328.png"
+        },
+        "awayTeam": {
+          "id": 57,
+          "name": "Arsenal FC",
+          "shortName": "Arsenal",
+          "tla": "ARS",
+          "crest": "https://crests.football-data.org/57.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 11610,
+            "name": "Andre Marriner",
+            "type": "REFEREE",
+            "nationality": "England"
+          },
+          {
+            "id": 11610,
+            "name": "Andre Marriner",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2072,
+          "name": "England",
+          "code": "ENG",
+          "flag": "https://crests.football-data.org/770.svg"
+        },
+        "competition": {
+          "id": 2021,
+          "name": "Premier League",
+          "code": "PL",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/PL.png"
+        },
+        "season": {
+          "id": 619,
+          "startDate": "2020-09-12",
+          "endDate": "2021-05-23",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 65,
+            "name": "Manchester City FC",
+            "shortName": "Man City",
+            "tla": "MCI",
+            "crest": "https://crests.football-data.org/65.png",
+            "address": "SportCity Manchester M11 3FF",
+            "website": "https://www.mancity.com",
+            "founded": 1880,
+            "clubColors": "Sky Blue / White",
+            "venue": "Etihad Stadium",
+            "lastUpdated": "2022-02-10T19:48:37Z"
+          }
+        },
+        "id": 303870,
+        "utcDate": "2020-12-13T19:15:00Z",
+        "status": "FINISHED",
+        "matchday": 12,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2020-12-30T14:35:23Z",
+        "homeTeam": {
+          "id": 57,
+          "name": "Arsenal FC",
+          "shortName": "Arsenal",
+          "tla": "ARS",
+          "crest": "https://crests.football-data.org/57.png"
+        },
+        "awayTeam": {
+          "id": 328,
+          "name": "Burnley FC",
+          "shortName": "Burnley",
+          "tla": "BUR",
+          "crest": "https://crests.football-data.org/328.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 11503,
+            "name": "Graham Scott",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2072,
+          "name": "England",
+          "code": "ENG",
+          "flag": "https://crests.football-data.org/770.svg"
+        },
+        "competition": {
+          "id": 2021,
+          "name": "Premier League",
+          "code": "PL",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/PL.png"
+        },
+        "season": {
+          "id": 468,
+          "startDate": "2019-08-09",
+          "endDate": "2020-07-26",
+          "currentMatchday": 38,
+          "winner": {
+            "id": 64,
+            "name": "Liverpool FC",
+            "shortName": "Liverpool",
+            "tla": "LIV",
+            "crest": "https://crests.football-data.org/64.png",
+            "address": "Anfield Road Liverpool L4 0TH",
+            "website": "http://www.liverpoolfc.tv",
+            "founded": 1892,
+            "clubColors": "Red / White",
+            "venue": "Anfield",
+            "lastUpdated": "2022-02-10T19:30:22Z"
+          }
+        },
+        "id": 264586,
+        "utcDate": "2020-02-02T14:00:00Z",
+        "status": "FINISHED",
+        "matchday": 25,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2020-02-02T23:59:35Z",
+        "homeTeam": {
+          "id": 328,
+          "name": "Burnley FC",
+          "shortName": "Burnley",
+          "tla": "BUR",
+          "crest": "https://crests.football-data.org/328.png"
+        },
+        "awayTeam": {
+          "id": 57,
+          "name": "Arsenal FC",
+          "shortName": "Arsenal",
+          "tla": "ARS",
+          "crest": "https://crests.football-data.org/57.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 11443,
+            "name": "Chris Kavanagh",
+            "type": "REFEREE",
+            "nationality": "England"
+          },
+          {
+            "id": 11438,
+            "name": "Dan Cook",
+            "type": "REFEREE",
+            "nationality": "England"
+          },
+          {
+            "id": 98555,
+            "name": "Sian Massey-Ellis",
+            "type": "REFEREE",
+            "nationality": "England"
+          },
+          {
+            "id": 11567,
+            "name": "Jonathan Moss",
+            "type": "REFEREE",
+            "nationality": "England"
+          },
+          {
+            "id": 11556,
+            "name": "David Coote",
             "type": "REFEREE",
             "nationality": "England"
           }
