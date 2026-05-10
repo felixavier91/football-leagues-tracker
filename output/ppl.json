@@ -18095,11 +18095,11 @@
       },
       "id": 545991,
       "utcDate": "2026-05-10T17:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": 33,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-05-10T19:01:48Z",
+      "lastUpdated": "2026-05-10T19:59:43Z",
       "homeTeam": {
         "id": 10340,
         "name": "AVS",
@@ -18115,15 +18115,15 @@
         "crest": "https://crests.football-data.org/503.png"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": {
@@ -18195,7 +18195,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 38408,
+          "name": "Iancu Vasilica",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
