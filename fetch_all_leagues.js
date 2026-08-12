@@ -15,7 +15,7 @@ const leagues = [
 ];
 
 const API_KEY = process.env.FOOTBALL_API_KEY;
-const SEASON = '2025'; // 2024/2025 season
+const SEASON = '2026'; // 2025/2026 season
 const OUTPUT_DIR = 'output';
 
 // Create output directory if it doesn't exist
