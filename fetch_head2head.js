@@ -1,4 +1,8 @@
-// Fetch head2head data for upcoming matches (next 14 days)
+// Fetch head2head data for upcoming matches
+// Data is stored keyed by MATCH ID. Each fetch pulls the FULL cumulative
+// head2head history between the two teams (up to 50 past meetings) from
+// the API — so every fresh fetch for a new fixture already contains all
+// prior history, not just "new" results since the last run.
 // Run every 5 minutes between 6-7 AM daily
 
 const https = require('https');
@@ -79,18 +83,44 @@ async function main() {
         console.log(`Loaded ${Object.keys(head2headData).length} existing head2head entries`);
     }
     
+    // Build a set of every match ID that exists in the CURRENT all_leagues.json.
+    // all_leagues.json is fully overwritten each season, so any match ID no
+    // longer present there belongs to a season we've already moved past.
+    const currentMatchIds = new Set();
+    for (const leagueData of Object.values(allLeaguesData)) {
+        if (!leagueData.matches) continue;
+        for (const match of leagueData.matches) {
+            currentMatchIds.add(String(match.id));
+        }
+    }
+    
+    // Prune stale entries: drop any head2head entry whose match ID is no
+    // longer in the current season's fixture list, so the file never bloats
+    // with years-old data that can never be looked up again.
+    const beforePruneCount = Object.keys(head2headData).length;
+    for (const matchId of Object.keys(head2headData)) {
+        if (!currentMatchIds.has(String(matchId))) {
+            delete head2headData[matchId];
+        }
+    }
+    const prunedCount = beforePruneCount - Object.keys(head2headData).length;
+    if (prunedCount > 0) {
+        console.log(`🧹 Pruned ${prunedCount} stale entries (match IDs no longer in current season)`);
+    }
+    console.log(`${Object.keys(head2headData).length} entries remain after pruning`);
+    
     // Check for backfill mode (fetch past matches that are missing data)
     const isBackfill = process.argv.includes('--all');
     console.log(`Mode: ${isBackfill ? 'BACKFILL (past matches without data)' : 'NORMAL (upcoming only, skip existing)'}`);
     
-    // Get current time and 14-day window
+    // Get current time and 21-day window
     const now = new Date();
-    const in14Days = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
+    const in21Days = new Date(now.getTime() + 21 * 24 * 60 * 60 * 1000);
     
     if (isBackfill) {
         console.log(`BACKFILL MODE: Looking for past/finished matches without h2h data`);
     } else {
-        console.log(`NORMAL MODE: Looking for matches between ${now.toISOString()} and ${in14Days.toISOString()}`);
+        console.log(`NORMAL MODE: Looking for matches between ${now.toISOString()} and ${in21Days.toISOString()}`);
     }
     
     // Find matches to fetch
@@ -117,8 +147,8 @@ async function main() {
                     });
                 }
             } else {
-                // Normal mode: only upcoming matches in next 14 days
-                const isUpcoming = matchDate >= now && matchDate <= in14Days;
+                // Normal mode: only upcoming matches in next 21 days
+                const isUpcoming = matchDate >= now && matchDate <= in21Days;
                 
                 if (isUpcoming) {
                     // Skip if already have data for this match
