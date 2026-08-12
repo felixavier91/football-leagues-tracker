@@ -26,7 +26,7 @@ const LEAGUES_TO_PROCESS = [
 ];
 
 const API_KEY = process.env.FOOTBALL_API_KEY;
-const SEASON = '2025';
+const SEASON = '2026';
 const OUTPUT_DIR = 'output';
 
 // Check if we should fetch all matches or just today's
