@@ -37,7 +37,6 @@ TODAY_ONLY = '--backfill' not in sys.argv  # Default: process last 48 hours, unl
 
 # Leagues to process (set to None to process all)
 LEAGUES_TO_PROCESS = ["PD", "PL", "FL1", "BL1", "SA", "PPL", "DED", "CL"]  # PD = La Liga, PL = Premier League, FL1 = Ligue 1, BL1 = Bundesliga, SA = Serie A, PPL = Primeira Liga, DED = Eredivisie, CL = Champions League
-# LEAGUES_TO_PROCESS = ["CL"]
 MAX_MATCHES_TO_PROCESS = None  # Process ALL finished matches
 
 # Browser settings
@@ -495,6 +494,22 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
 # Main Processing
 # ============================================
 
+def get_current_season():
+    """
+    Computes the current European football season string (e.g. "2026-27")
+    based on today's date, so this never needs manual updating each year.
+    Convention: season is labeled by the year it STARTS in. European
+    domestic seasons typically start in July/August and run through May.
+    """
+    today = date.today()
+    if today.month >= 7:  # July onwards = new season has started
+        start_year = today.year
+    else:  # Jan-June = still in the season that started last year
+        start_year = today.year - 1
+    end_year_short = str(start_year + 1)[-2:]
+    return f"{start_year}-{end_year_short}"
+
+
 def process_matches():
     """
     Main function to process matches and find video IDs
@@ -523,6 +538,20 @@ def process_matches():
         print(f"⚠️  {INPUT_FILE} not found, creating new database...")
         highlights = {}
     
+    # Prune old-season data: delete any season key under any league that
+    # isn't the current season, so the file never bloats with years of
+    # accumulated highlight data. YouTube video IDs from a season that's
+    # over are no longer relevant to anything the site displays.
+    current_season = get_current_season()
+    pruned_seasons = 0
+    for league_code in list(highlights.keys()):
+        for season_key in list(highlights[league_code].keys()):
+            if season_key != current_season:
+                del highlights[league_code][season_key]
+                pruned_seasons += 1
+    if pruned_seasons > 0:
+        print(f"🧹 Pruned {pruned_seasons} old-season entries (keeping only {current_season})")
+    
     # Collect matches to process from all_leagues.json
     matches_to_process = []
     
@@ -535,7 +564,7 @@ def process_matches():
         if league_code not in highlights:
             highlights[league_code] = {}
         
-        season = "2025-26"
+        season = current_season
         if season not in highlights[league_code]:
             highlights[league_code][season] = {}
         
