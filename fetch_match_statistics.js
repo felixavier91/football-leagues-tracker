@@ -25,8 +25,8 @@ const LEAGUES_TO_PROCESS = [
     'CL',   // Champions League
 ];
 
-const API_KEY = process.env.FOOTBALL_API_KEY;
-const SEASON = '2026';
+const API_KEY = '224c667c50404db8adb4c989bc1715e3';
+const SEASON = '2025';
 const OUTPUT_DIR = 'output';
 
 // Check if we should fetch all matches or just today's
@@ -37,15 +37,18 @@ if (!fs.existsSync(OUTPUT_DIR)) {
     fs.mkdirSync(OUTPUT_DIR);
 }
 
-// Get today's date and yesterday's date in YYYY-MM-DD format
+// Get today's date and last 2 days in YYYY-MM-DD format (72 hours to catch CL matches)
 function getRecentDates() {
     const today = new Date();
     const yesterday = new Date(today);
     yesterday.setDate(yesterday.getDate() - 1);
+    const twoDaysAgo = new Date(today);
+    twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
     
     return {
         today: today.toISOString().split('T')[0],
-        yesterday: yesterday.toISOString().split('T')[0]
+        yesterday: yesterday.toISOString().split('T')[0],
+        twoDaysAgo: twoDaysAgo.toISOString().split('T')[0]
     };
 }
 
@@ -97,8 +100,8 @@ async function fetchMatchStatistics() {
     const dates = getRecentDates();
     
     console.log('=== FETCH MATCH STATISTICS ===');
-    console.log(`Mode: ${FETCH_ALL ? 'BACKFILL ALL MATCHES' : 'RECENT MATCHES (LAST 48 HOURS)'}`);
-    console.log(`Checking dates: ${dates.yesterday} and ${dates.today}\n`);
+    console.log(`Mode: ${FETCH_ALL ? 'BACKFILL ALL MATCHES' : 'RECENT MATCHES (LAST 72 HOURS)'}`);
+    console.log(`Checking dates: ${dates.twoDaysAgo}, ${dates.yesterday}, and ${dates.today}\n`);
     
     // Load existing statistics
     let allStats = loadExistingStats();
@@ -126,6 +129,33 @@ async function fetchMatchStatistics() {
     }
     
     const allLeagues = JSON.parse(fs.readFileSync(allLeaguesFile, 'utf8'));
+    
+    // Build a set of every match ID that exists in the CURRENT all_leagues.json,
+    // per league. all_leagues.json is fully overwritten each season, so any
+    // match ID no longer present there belongs to a season we've already
+    // moved past — safe to prune from match_statistics.json.
+    const currentMatchIdsByLeague = {};
+    for (const [leagueCode, leagueData] of Object.entries(allLeagues)) {
+        currentMatchIdsByLeague[leagueCode] = new Set(
+            (leagueData.matches || []).map(m => String(m.id))
+        );
+    }
+    
+    let totalPruned = 0;
+    for (const leagueCode of Object.keys(allStats)) {
+        const currentIds = currentMatchIdsByLeague[leagueCode];
+        if (!currentIds) continue; // League not in current data at all — leave alone
+        
+        for (const matchId of Object.keys(allStats[leagueCode])) {
+            if (!currentIds.has(String(matchId))) {
+                delete allStats[leagueCode][matchId];
+                totalPruned++;
+            }
+        }
+    }
+    if (totalPruned > 0) {
+        console.log(`🧹 Pruned ${totalPruned} stale match_statistics entries (match IDs no longer in current season)\n`);
+    }
     
     let totalMatches = 0;
     let fetchedMatches = 0;
@@ -155,10 +185,10 @@ async function fetchMatchStatistics() {
             matchesToFetch = leagueData.matches.filter(m => m.status === 'FINISHED');
             console.log(`  Finished matches (all time): ${matchesToFetch.length}`);
         } else {
-            // Fetch matches from the last 48 hours that are finished
+            // Fetch matches from the last 72 hours that are finished
             const recentFinished = leagueData.matches.filter(m => {
                 const matchDate = m.utcDate.split('T')[0];
-                const isRecent = matchDate === dates.today || matchDate === dates.yesterday;
+                const isRecent = matchDate === dates.today || matchDate === dates.yesterday || matchDate === dates.twoDaysAgo;
                 const isFinished = m.status === 'FINISHED';
                 
                 // Debug logging
@@ -169,11 +199,11 @@ async function fetchMatchStatistics() {
                 return isRecent && isFinished;
             });
             matchesToFetch = recentFinished;
-            console.log(`  Matches in last 48h: ${leagueData.matches.filter(m => {
+            console.log(`  Matches in last 72h: ${leagueData.matches.filter(m => {
                 const matchDate = m.utcDate.split('T')[0];
-                return matchDate === dates.today || matchDate === dates.yesterday;
+                return matchDate === dates.today || matchDate === dates.yesterday || matchDate === dates.twoDaysAgo;
             }).length}`);
-            console.log(`  Finished matches in last 48h: ${matchesToFetch.length}`);
+            console.log(`  Finished matches in last 72h: ${matchesToFetch.length}`);
         }
         
         if (matchesToFetch.length === 0) {
