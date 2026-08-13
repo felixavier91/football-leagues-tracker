@@ -1296,6 +1296,23 @@
         let matchStatistics = {};
         let head2headData = {}; // Store head2head historical matches
         let soccerNews = {}; // Store soccer news articles
+        
+        // Computes the current European football season string (e.g. "2026-27")
+        // based on today's date. Mirrors the same logic used in
+        // youtube_web_scraper.py so both stay in sync automatically each year.
+        function getCurrentSeason() {
+            const today = new Date();
+            const month = today.getMonth() + 1; // JS months are 0-indexed
+            let startYear;
+            if (month >= 7) { // July onwards = new season has started
+                startYear = today.getFullYear();
+            } else { // Jan-June = still in the season that started last year
+                startYear = today.getFullYear() - 1;
+            }
+            const endYearShort = String(startYear + 1).slice(-2);
+            return `${startYear}-${endYearShort}`;
+        }
+        const CURRENT_SEASON = getCurrentSeason();
         let currentLeague = null;
         let currentLeagueCode = null;
         let currentMatches = [];
@@ -1501,6 +1518,28 @@
             const matches = allLeaguesData[leagueCode].matches;
             const teams = {};
             
+            // Pre-seed every team that appears in ANY match (scheduled, timed, or finished)
+            // so the table shows all teams at 0 points before the season kicks off,
+            // instead of an empty table with zero rows.
+            matches.forEach(match => {
+                [match.homeTeam, match.awayTeam].forEach(team => {
+                    if (!teams[team.id]) {
+                        teams[team.id] = {
+                            team: team,
+                            playedGames: 0,
+                            won: 0,
+                            draw: 0,
+                            lost: 0,
+                            goalsFor: 0,
+                            goalsAgainst: 0,
+                            goalDifference: 0,
+                            points: 0,
+                            matches: [] // Store matches for last 5
+                        };
+                    }
+                });
+            });
+            
             // Process all finished matches
             matches.forEach(match => {
                 if (match.status !== 'FINISHED' || !match.score?.fullTime) return;
@@ -1509,36 +1548,6 @@
                 const awayTeam = match.awayTeam;
                 const homeScore = match.score.fullTime.home;
                 const awayScore = match.score.fullTime.away;
-                
-                // Initialize teams if not exists
-                if (!teams[homeTeam.id]) {
-                    teams[homeTeam.id] = {
-                        team: homeTeam,
-                        playedGames: 0,
-                        won: 0,
-                        draw: 0,
-                        lost: 0,
-                        goalsFor: 0,
-                        goalsAgainst: 0,
-                        goalDifference: 0,
-                        points: 0,
-                        matches: [] // Store matches for last 5
-                    };
-                }
-                if (!teams[awayTeam.id]) {
-                    teams[awayTeam.id] = {
-                        team: awayTeam,
-                        playedGames: 0,
-                        won: 0,
-                        draw: 0,
-                        lost: 0,
-                        goalsFor: 0,
-                        goalsAgainst: 0,
-                        goalDifference: 0,
-                        points: 0,
-                        matches: [] // Store matches for last 5
-                    };
-                }
                 
                 // Store match result for each team
                 teams[homeTeam.id].matches.push({
@@ -1975,7 +1984,7 @@
                     .filter(m => {
                         const matchDate = new Date(m.utcDate).toISOString().split('T')[0];
                         const matchKey = `${m.homeTeam.name}-${m.awayTeam.name}-${matchDate}`;
-                        const hasVideo = highlightsDatabase[currentLeagueCode]?.['2025-26']?.[matchKey]?.videoId;
+                        const hasVideo = highlightsDatabase[currentLeagueCode]?.[CURRENT_SEASON]?.[matchKey]?.videoId;
                         return m.status === 'FINISHED' || hasVideo;
                     })
                     .sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate));
@@ -2318,7 +2327,7 @@
                 if (hasStarted && hasFinished) {
                     const matchDate = new Date(match.utcDate).toISOString().split('T')[0];
                     const matchKey = `${match.homeTeam.name}-${match.awayTeam.name}-${matchDate}`;
-                    const season = '2025-26';
+                    const season = CURRENT_SEASON;
                     const matchData = highlightsDatabase[currentLeagueCode]?.[season]?.[matchKey];
                     
                     // Support both old format (videoId) and new format (videoIds array)
