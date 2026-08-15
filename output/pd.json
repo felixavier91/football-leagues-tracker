@@ -39,11 +39,11 @@
       },
       "id": 564634,
       "utcDate": "2026-08-15T17:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 1,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-08-15T18:55:27Z",
+      "lastUpdated": "2026-08-15T19:49:52Z",
       "homeTeam": {
         "id": 263,
         "name": "Deportivo Alavés",
@@ -59,11 +59,11 @@
         "crest": "https://crests.football-data.org/82.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -139,7 +139,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 15628,
+          "name": "Ricardo de Burgos",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
