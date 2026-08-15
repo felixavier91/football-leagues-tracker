@@ -104150,11 +104150,11 @@
         },
         "id": 567273,
         "utcDate": "2026-08-15T17:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-15T18:12:48Z",
+        "lastUpdated": "2026-08-15T19:29:03Z",
         "homeTeam": {
           "id": 5527,
           "name": "Académico de Viseu FC",
@@ -104170,11 +104170,11 @@
           "crest": "https://crests.football-data.org/5530.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           },
           "halfTime": {
             "home": null,
@@ -122291,7 +122291,7 @@
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-15T18:59:44Z",
+        "lastUpdated": "2026-08-15T19:29:03Z",
         "homeTeam": {
           "id": 676,
           "name": "FC Utrecht",
@@ -122357,7 +122357,7 @@
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-15T10:20:18Z",
+        "lastUpdated": "2026-08-15T19:05:04Z",
         "homeTeam": {
           "id": 670,
           "name": "SBV Excelsior",
@@ -122453,7 +122453,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 56910,
+            "name": "Martin van den Kerkhof",
+            "type": "REFEREE",
+            "nationality": "Netherlands"
+          }
+        ]
       },
       {
         "area": {
