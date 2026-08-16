@@ -888,6 +888,65 @@
         "currentMatchday": 2,
         "winner": null
       },
+      "id": 567271,
+      "utcDate": "2026-08-16T00:00:00Z",
+      "status": "POSTPONED",
+      "matchday": 2,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "lastUpdated": "2026-08-16T19:30:08Z",
+      "homeTeam": {
+        "id": 5613,
+        "name": "Sporting Clube de Braga",
+        "shortName": "Braga",
+        "tla": "SCB",
+        "crest": "https://crests.football-data.org/5613.png"
+      },
+      "awayTeam": {
+        "id": 5533,
+        "name": "Gil Vicente FC",
+        "shortName": "Gil Vicente",
+        "tla": "GIL",
+        "crest": "https://crests.football-data.org/5533.png"
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "referees": []
+    },
+    {
+      "area": {
+        "id": 2187,
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "https://crests.football-data.org/765.svg"
+      },
+      "competition": {
+        "id": 2017,
+        "name": "Primeira Liga",
+        "code": "PPL",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/PPL.png"
+      },
+      "season": {
+        "id": 2526,
+        "startDate": "2026-08-08",
+        "endDate": "2027-05-16",
+        "currentMatchday": 2,
+        "winner": null
+      },
       "id": 567270,
       "utcDate": "2026-08-16T14:30:00Z",
       "status": "FINISHED",
@@ -960,7 +1019,7 @@
       "matchday": 2,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-08-16T19:20:31Z",
+      "lastUpdated": "2026-08-16T19:46:07Z",
       "homeTeam": {
         "id": 712,
         "name": "FC Arouca",
@@ -976,10 +1035,10 @@
         "crest": "https://crests.football-data.org/583.png"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -1056,66 +1115,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
-    },
-    {
-      "area": {
-        "id": 2187,
-        "name": "Portugal",
-        "code": "POR",
-        "flag": "https://crests.football-data.org/765.svg"
-      },
-      "competition": {
-        "id": 2017,
-        "name": "Primeira Liga",
-        "code": "PPL",
-        "type": "LEAGUE",
-        "emblem": "https://crests.football-data.org/PPL.png"
-      },
-      "season": {
-        "id": 2526,
-        "startDate": "2026-08-08",
-        "endDate": "2027-05-16",
-        "currentMatchday": 2,
-        "winner": null
-      },
-      "id": 567271,
-      "utcDate": "2026-08-16T19:30:00Z",
-      "status": "TIMED",
-      "matchday": 2,
-      "stage": "REGULAR_SEASON",
-      "group": null,
-      "lastUpdated": "2026-08-16T10:20:29Z",
-      "homeTeam": {
-        "id": 5613,
-        "name": "Sporting Clube de Braga",
-        "shortName": "Braga",
-        "tla": "SCB",
-        "crest": "https://crests.football-data.org/5613.png"
-      },
-      "awayTeam": {
-        "id": 5533,
-        "name": "Gil Vicente FC",
-        "shortName": "Gil Vicente",
-        "tla": "GIL",
-        "crest": "https://crests.football-data.org/5533.png"
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
+      "referees": [
+        {
+          "id": 40158,
+          "name": "Miguel Nogueira",
+          "type": "REFEREE",
+          "nationality": "Portugal"
         }
-      },
-      "odds": {
-        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-      },
-      "referees": []
+      ]
     },
     {
       "area": {
