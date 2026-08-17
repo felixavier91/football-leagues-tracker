@@ -1384,16 +1384,23 @@
                 const league = allLeaguesData[code];
                 const button = document.createElement('button');
                 button.className = 'league-btn';
+                button.dataset.leagueCode = code;
                 const emblem = league.matches?.[0]?.competition?.emblem || '';
                 button.innerHTML = `<img src="${emblem}" style="width: 36px; height: 36px; margin-right: 8px; vertical-align: middle;" onerror="this.style.display='none'">${league.name}`;
                 button.onclick = () => selectLeague(code, button);
                 container.appendChild(button);
             });
 
-            // Auto-select La Liga by default
-            const pdButton = container.querySelector('button:nth-child(2)'); // PD is 2nd in custom order (CL, PD, PL)
-            if (pdButton) {
-                pdButton.click();
+            // Auto-select La Liga (PD) by default on page load.
+            // Looks up the button by league code directly rather than a
+            // fixed position, so this keeps working even if button order
+            // or the custom league list ever changes.
+            const defaultButton = container.querySelector('button[data-league-code="PD"]');
+            if (defaultButton) {
+                defaultButton.click();
+            } else if (container.firstElementChild) {
+                // Fallback: if PD isn't available for some reason, select whatever's first
+                container.firstElementChild.click();
             }
             
             // Populate dropdown with league options including emblems
