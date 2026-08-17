@@ -1147,11 +1147,11 @@
       },
       "id": 567267,
       "utcDate": "2026-08-17T19:15:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 2,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-08-17T20:38:55Z",
+      "lastUpdated": "2026-08-17T21:37:03Z",
       "homeTeam": {
         "id": 6618,
         "name": "Casa Pia AC",
@@ -1167,11 +1167,11 @@
         "crest": "https://crests.football-data.org/1903.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "halfTime": {
           "home": null,
@@ -1181,7 +1181,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 38806,
+          "name": "João Pinheiro",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
