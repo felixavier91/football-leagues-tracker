@@ -356,11 +356,11 @@
         },
         "id": 560547,
         "utcDate": "2026-08-22T16:30:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-22T17:44:51Z",
+        "lastUpdated": "2026-08-22T18:51:30Z",
         "homeTeam": {
           "id": 402,
           "name": "Brentford FC",
@@ -376,11 +376,11 @@
           "crest": "https://crests.football-data.org/73.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -23026,7 +23026,7 @@
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-22T18:26:26Z",
+        "lastUpdated": "2026-08-22T18:51:30Z",
         "homeTeam": {
           "id": 77,
           "name": "Athletic Club",
@@ -23045,7 +23045,7 @@
           "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 3
           },
           "halfTime": {
@@ -63050,11 +63050,11 @@
         },
         "id": 558629,
         "utcDate": "2026-08-22T16:30:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-22T17:55:30Z",
+        "lastUpdated": "2026-08-22T18:51:30Z",
         "homeTeam": {
           "id": 115,
           "name": "Udinese Calcio",
@@ -63070,11 +63070,11 @@
           "crest": "https://crests.football-data.org/7397.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -63116,11 +63116,11 @@
         },
         "id": 558632,
         "utcDate": "2026-08-22T16:30:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-22T18:07:46Z",
+        "lastUpdated": "2026-08-22T18:51:30Z",
         "homeTeam": {
           "id": 108,
           "name": "FC Internazionale Milano",
@@ -63136,11 +63136,11 @@
           "crest": "https://crests.football-data.org/5911.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -63216,7 +63216,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11060,
+            "name": "Marco Di Bello",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
@@ -63275,7 +63282,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 97885,
+            "name": "Daniele Perenzoni",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
@@ -85560,7 +85574,7 @@
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-22T18:26:26Z",
+        "lastUpdated": "2026-08-22T18:51:30Z",
         "homeTeam": {
           "id": 546,
           "name": "Racing Club de Lens",
@@ -85579,8 +85593,8 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
-            "away": 0
+            "home": 4,
+            "away": 2
           },
           "halfTime": {
             "home": 1,
@@ -85656,7 +85670,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57062,
+            "name": "Aurélien Petit",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -85715,7 +85736,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 64781,
+            "name": "Marc Bollengier",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -85774,7 +85802,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57087,
+            "name": "Romain Lissorgue",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -85833,7 +85868,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57084,
+            "name": "Guillaume Paradis",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -104738,11 +104780,11 @@
         },
         "id": 567283,
         "utcDate": "2026-08-22T14:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-22T18:26:25Z",
+        "lastUpdated": "2026-08-22T18:28:02Z",
         "homeTeam": {
           "id": 5575,
           "name": "CS Marítimo",
@@ -104801,7 +104843,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-22T10:20:34Z",
+        "lastUpdated": "2026-08-22T18:28:35Z",
         "homeTeam": {
           "id": 582,
           "name": "GD Estoril Praia",
@@ -122983,11 +123025,11 @@
         },
         "id": 558232,
         "utcDate": "2026-08-22T14:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-22T18:26:25Z",
+        "lastUpdated": "2026-08-22T18:26:58Z",
         "homeTeam": {
           "id": 1920,
           "name": "Fortuna Sittard",
@@ -123049,11 +123091,11 @@
         },
         "id": 558234,
         "utcDate": "2026-08-22T16:45:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-22T18:17:22Z",
+        "lastUpdated": "2026-08-22T18:51:30Z",
         "homeTeam": {
           "id": 6806,
           "name": "Sparta Rotterdam",
@@ -123069,11 +123111,11 @@
           "crest": "https://crests.football-data.org/676.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
