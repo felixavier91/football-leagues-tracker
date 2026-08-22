@@ -171,11 +171,11 @@
       },
       "id": 560544,
       "utcDate": "2026-08-22T14:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": 1,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-08-22T16:22:45Z",
+      "lastUpdated": "2026-08-22T16:48:21Z",
       "homeTeam": {
         "id": 349,
         "name": "Ipswich Town FC",
@@ -194,8 +194,8 @@
         "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
@@ -241,7 +241,7 @@
       "matchday": 1,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-08-22T16:22:45Z",
+      "lastUpdated": "2026-08-22T16:48:21Z",
       "homeTeam": {
         "id": 351,
         "name": "Nottingham Forest FC",
@@ -307,7 +307,7 @@
       "matchday": 1,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-08-22T16:22:45Z",
+      "lastUpdated": "2026-08-22T16:48:21Z",
       "homeTeam": {
         "id": 62,
         "name": "Everton FC",
@@ -323,10 +323,10 @@
         "crest": "https://crests.football-data.org/354.png"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
@@ -403,7 +403,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11605,
+          "name": "Michael Oliver",
+          "type": "REFEREE",
+          "nationality": "England"
+        }
+      ]
     },
     {
       "area": {
