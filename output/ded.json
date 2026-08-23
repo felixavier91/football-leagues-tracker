@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2026-08-07",
     "last": "2027-05-23",
-    "played": 21
+    "played": 22
   },
   "competition": {
     "id": 2003,
@@ -1484,11 +1484,11 @@
       },
       "id": 558236,
       "utcDate": "2026-08-23T10:15:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-08-23T14:42:26Z",
+      "lastUpdated": "2026-08-23T14:50:26Z",
       "homeTeam": {
         "id": 718,
         "name": "Go Ahead Eagles",
@@ -1550,11 +1550,11 @@
       },
       "id": 558237,
       "utcDate": "2026-08-23T12:30:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": 3,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-08-23T14:42:26Z",
+      "lastUpdated": "2026-08-23T15:21:54Z",
       "homeTeam": {
         "id": 674,
         "name": "PSV",
@@ -1570,15 +1570,15 @@
         "crest": "https://crests.football-data.org/677.png"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 3,
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         }
       },
       "odds": {
@@ -1650,7 +1650,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43899,
+          "name": "Danny Makkelie",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {

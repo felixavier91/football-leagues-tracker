@@ -435,11 +435,11 @@
       },
       "id": 559717,
       "utcDate": "2026-08-23T13:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 1,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-08-23T14:23:46Z",
+      "lastUpdated": "2026-08-23T15:21:54Z",
       "homeTeam": {
         "id": 532,
         "name": "Angers SCO",
@@ -455,11 +455,11 @@
         "crest": "https://crests.football-data.org/521.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
@@ -535,7 +535,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57073,
+          "name": "Jérémie Pignard",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
