@@ -23363,7 +23363,7 @@
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-23T22:24:50Z",
+        "lastUpdated": "2026-08-23T22:49:54Z",
         "homeTeam": {
           "id": 285,
           "name": "Elche CF",
@@ -23386,8 +23386,8 @@
             "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 2
           }
         },
         "odds": {
@@ -63474,11 +63474,11 @@
         },
         "id": 558633,
         "utcDate": "2026-08-23T18:45:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-23T22:24:50Z",
+        "lastUpdated": "2026-08-23T22:37:38Z",
         "homeTeam": {
           "id": 102,
           "name": "Atalanta BC",
@@ -63540,11 +63540,11 @@
         },
         "id": 558634,
         "utcDate": "2026-08-23T18:45:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-23T22:24:50Z",
+        "lastUpdated": "2026-08-23T22:38:42Z",
         "homeTeam": {
           "id": 586,
           "name": "Torino FC",
@@ -63563,7 +63563,7 @@
           "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 2
           },
           "halfTime": {
@@ -86088,11 +86088,11 @@
         },
         "id": 559713,
         "utcDate": "2026-08-23T18:45:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-23T22:24:49Z",
+        "lastUpdated": "2026-08-23T22:37:38Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -86108,11 +86108,11 @@
           "crest": "https://crests.football-data.org/529.png"
         },
         "score": {
-          "winner": "HOME_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
             "home": 2,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 2,
@@ -105152,11 +105152,11 @@
         },
         "id": 567280,
         "utcDate": "2026-08-23T19:30:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-23T22:24:50Z",
+        "lastUpdated": "2026-08-23T22:49:54Z",
         "homeTeam": {
           "id": 503,
           "name": "FC Porto",
@@ -105172,10 +105172,10 @@
           "crest": "https://crests.football-data.org/712.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -105186,7 +105186,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 38806,
+            "name": "João Pinheiro",
+            "type": "REFEREE",
+            "nationality": "Portugal"
+          }
+        ]
       },
       {
         "area": {
