@@ -654,7 +654,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11327,
+            "name": "John Brooks",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
       },
       {
         "area": {
@@ -23418,11 +23425,11 @@
         },
         "id": 564639,
         "utcDate": "2026-08-24T17:30:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-24T15:20:38Z",
+        "lastUpdated": "2026-08-24T19:32:02Z",
         "homeTeam": {
           "id": 79,
           "name": "CA Osasuna",
@@ -23438,11 +23445,11 @@
           "crest": "https://crests.football-data.org/88.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -63606,11 +63613,11 @@
         },
         "id": 558630,
         "utcDate": "2026-08-24T16:30:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-08-24T18:52:34Z",
+        "lastUpdated": "2026-08-24T19:32:02Z",
         "homeTeam": {
           "id": 103,
           "name": "Bologna FC 1909",
@@ -63633,8 +63640,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
