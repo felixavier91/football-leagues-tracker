@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2026-08-07",
     "last": "2027-05-23",
-    "played": 26
+    "played": 27
   },
   "competition": {
     "id": 2003,
@@ -1755,11 +1755,11 @@
       },
       "id": 558243,
       "utcDate": "2026-08-29T16:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 4,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-08-29T18:19:50Z",
+      "lastUpdated": "2026-08-29T20:36:20Z",
       "homeTeam": {
         "id": 682,
         "name": "AZ",
@@ -1775,15 +1775,15 @@
         "crest": "https://crests.football-data.org/718.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 5,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         }
       },
       "odds": {
@@ -1821,11 +1821,11 @@
       },
       "id": 558244,
       "utcDate": "2026-08-29T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 4,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-08-29T10:20:34Z",
+      "lastUpdated": "2026-08-29T21:28:04Z",
       "homeTeam": {
         "id": 684,
         "name": "PEC Zwolle",
@@ -1841,11 +1841,11 @@
         "crest": "https://crests.football-data.org/1915.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "halfTime": {
           "home": null,
@@ -1855,7 +1855,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 80090,
+          "name": "Marc Nagtegaal",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {

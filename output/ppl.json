@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2026-08-07",
     "last": "2027-05-16",
-    "played": 25
+    "played": 28
   },
   "competition": {
     "id": 2017,
@@ -1706,11 +1706,11 @@
       },
       "id": 567285,
       "utcDate": "2026-08-29T14:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 4,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-08-29T18:23:31Z",
+      "lastUpdated": "2026-08-29T18:29:23Z",
       "homeTeam": {
         "id": 7822,
         "name": "FC Alverca",
@@ -1765,11 +1765,11 @@
       },
       "id": 567287,
       "utcDate": "2026-08-29T14:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 4,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-08-29T18:23:31Z",
+      "lastUpdated": "2026-08-29T18:28:19Z",
       "homeTeam": {
         "id": 712,
         "name": "FC Arouca",
@@ -1824,11 +1824,11 @@
       },
       "id": 567289,
       "utcDate": "2026-08-29T17:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 4,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-08-29T18:07:58Z",
+      "lastUpdated": "2026-08-29T21:02:28Z",
       "homeTeam": {
         "id": 5527,
         "name": "Académico de Viseu FC",
@@ -1844,21 +1844,28 @@
         "crest": "https://crests.football-data.org/503.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 3
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 3
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 40158,
+          "name": "Miguel Nogueira",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
