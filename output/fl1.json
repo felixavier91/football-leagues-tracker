@@ -1293,11 +1293,11 @@
       },
       "id": 559699,
       "utcDate": "2026-09-04T17:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 3,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-04T15:20:39Z",
+      "lastUpdated": "2026-09-04T20:57:01Z",
       "homeTeam": {
         "id": 523,
         "name": "Olympique Lyonnais",
@@ -1313,15 +1313,15 @@
         "crest": "https://crests.football-data.org/519.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         }
       },
       "odds": {
@@ -1363,7 +1363,7 @@
       "matchday": 3,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-04T15:20:39Z",
+      "lastUpdated": "2026-09-04T20:29:18Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -1393,7 +1393,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 15548,
+          "name": "Jérôme Brisard",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {

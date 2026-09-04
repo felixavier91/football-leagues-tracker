@@ -2217,11 +2217,11 @@
       },
       "id": 558250,
       "utcDate": "2026-09-04T18:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "matchday": 5,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-04T15:20:39Z",
+      "lastUpdated": "2026-09-04T20:57:01Z",
       "homeTeam": {
         "id": 6806,
         "name": "Sparta Rotterdam",
@@ -2237,21 +2237,28 @@
         "crest": "https://crests.football-data.org/684.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56920,
+          "name": "Stan Teuben",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
