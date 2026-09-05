@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2026-08-07",
     "last": "2027-05-16",
-    "played": 35
+    "played": 36
   },
   "competition": {
     "id": 2017,
@@ -2359,11 +2359,11 @@
       },
       "id": 567296,
       "utcDate": "2026-09-05T17:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 5,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-05T18:15:25Z",
+      "lastUpdated": "2026-09-05T20:57:01Z",
       "homeTeam": {
         "id": 7822,
         "name": "FC Alverca",
@@ -2379,15 +2379,15 @@
         "crest": "https://crests.football-data.org/5613.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": {
@@ -2425,11 +2425,11 @@
       },
       "id": 567293,
       "utcDate": "2026-09-05T17:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 5,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-05T18:20:45Z",
+      "lastUpdated": "2026-09-05T20:54:53Z",
       "homeTeam": {
         "id": 5575,
         "name": "CS Marítimo",
@@ -2445,15 +2445,15 @@
         "crest": "https://crests.football-data.org/1903.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 3
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "odds": {
@@ -2495,7 +2495,7 @@
       "matchday": 5,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-05T10:20:35Z",
+      "lastUpdated": "2026-09-05T20:34:37Z",
       "homeTeam": {
         "id": 498,
         "name": "Sporting Clube de Portugal",
@@ -2525,7 +2525,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 38806,
+          "name": "João Pinheiro",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
