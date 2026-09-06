@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2026-08-21",
     "last": "2027-05-29",
-    "played": 25
+    "played": 26
   },
   "competition": {
     "id": 2015,
@@ -1689,11 +1689,11 @@
       },
       "id": 559698,
       "utcDate": "2026-09-06T15:15:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-06T16:32:29Z",
+      "lastUpdated": "2026-09-06T19:10:53Z",
       "homeTeam": {
         "id": 532,
         "name": "Angers SCO",
@@ -1709,15 +1709,15 @@
         "crest": "https://crests.football-data.org/529.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         }
       },
       "odds": {
@@ -1789,7 +1789,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 9374,
+          "name": "Clément Turpin",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
