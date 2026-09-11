@@ -1233,11 +1233,11 @@
       },
       "id": 565797,
       "utcDate": "2026-09-11T18:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 3,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-11T15:20:38Z",
+      "lastUpdated": "2026-09-11T21:08:24Z",
       "homeTeam": {
         "id": 28,
         "name": "1. FC Union Berlin",
@@ -1253,11 +1253,11 @@
         "crest": "https://crests.football-data.org/6.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
           "home": null,
@@ -1267,7 +1267,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57527,
+          "name": "Timo Gerach",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        }
+      ]
     },
     {
       "area": {
