@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2026-08-07",
     "last": "2027-05-23",
-    "played": 45
+    "played": 46
   },
   "competition": {
     "id": 2003,
@@ -3009,11 +3009,11 @@
       },
       "id": 558898,
       "utcDate": "2026-09-12T14:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 6,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-12T17:12:41Z",
+      "lastUpdated": "2026-09-12T18:22:00Z",
       "homeTeam": {
         "id": 666,
         "name": "FC Twente '65",
@@ -3029,15 +3029,15 @@
         "crest": "https://crests.football-data.org/680.png"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -3075,11 +3075,11 @@
       },
       "id": 558897,
       "utcDate": "2026-09-12T16:45:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "matchday": 6,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-12T10:20:31Z",
+      "lastUpdated": "2026-09-12T19:45:44Z",
       "homeTeam": {
         "id": 718,
         "name": "Go Ahead Eagles",
@@ -3095,15 +3095,15 @@
         "crest": "https://crests.football-data.org/677.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "odds": {
@@ -3145,7 +3145,7 @@
       "matchday": 6,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-12T10:20:31Z",
+      "lastUpdated": "2026-09-12T19:05:12Z",
       "homeTeam": {
         "id": 1920,
         "name": "Fortuna Sittard",
@@ -3175,7 +3175,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56912,
+          "name": "Jeroen Manschot",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
@@ -3204,7 +3211,7 @@
       "matchday": 6,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-12T10:20:31Z",
+      "lastUpdated": "2026-09-12T19:42:34Z",
       "homeTeam": {
         "id": 1909,
         "name": "SC Cambuur-Leeuwarden",
@@ -3234,7 +3241,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 17127,
+          "name": "Ingmar Oostrom",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
