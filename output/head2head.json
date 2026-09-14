@@ -120325,6 +120325,140 @@
       }
     ]
   },
+  "565803": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 1,
+      "competitions": "BL1",
+      "first": "2020-05-23",
+      "last": "2020-05-23"
+    },
+    "aggregates": {
+      "numberOfMatches": 6,
+      "totalGoals": 9,
+      "homeTeam": {
+        "id": 29,
+        "name": "SC Paderborn 07",
+        "wins": 0,
+        "draws": 2,
+        "losses": 4
+      },
+      "awayTeam": {
+        "id": 2,
+        "name": "TSG 1899 Hoffenheim",
+        "wins": 4,
+        "draws": 2,
+        "losses": 0
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 474,
+          "startDate": "2019-08-16",
+          "endDate": "2020-06-27",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 271654,
+        "utcDate": "2020-05-23T13:30:00Z",
+        "status": "FINISHED",
+        "matchday": 27,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2024-09-29T10:22:10Z",
+        "homeTeam": {
+          "id": 29,
+          "name": "SC Paderborn 07",
+          "shortName": "SC Paderborn",
+          "tla": "SCP",
+          "crest": "https://crests.football-data.org/29.png"
+        },
+        "awayTeam": {
+          "id": 2,
+          "name": "TSG 1899 Hoffenheim",
+          "shortName": "Hoffenheim",
+          "tla": "TSG",
+          "crest": "https://crests.football-data.org/2.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 26174,
+            "name": "Bibiana Steinhaus",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 15822,
+            "name": "Holger Henschel",
+            "type": "REFEREE",
+            "nationality": null
+          },
+          {
+            "id": 57506,
+            "name": "Markus Schüller",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 57522,
+            "name": "Aarne Aarnink",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 57526,
+            "name": "Christian Dingert",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      }
+    ]
+  },
   "565804": {
     "filters": {
       "limit": "50",
@@ -121400,6 +121534,2032 @@
           {
             "id": 57512,
             "name": "Tobias Reichel",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      }
+    ]
+  },
+  "565806": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 12,
+      "competitions": "BL1",
+      "first": "2020-12-12",
+      "last": "2026-04-04"
+    },
+    "aggregates": {
+      "numberOfMatches": 50,
+      "totalGoals": 162,
+      "homeTeam": {
+        "id": 10,
+        "name": "VfB Stuttgart",
+        "wins": 16,
+        "draws": 11,
+        "losses": 23
+      },
+      "awayTeam": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "wins": 23,
+        "draws": 11,
+        "losses": 16
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 2414,
+          "startDate": "2025-08-22",
+          "endDate": "2026-05-16",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 540650,
+        "utcDate": "2026-04-04T16:30:00Z",
+        "status": "FINISHED",
+        "matchday": 28,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-30T20:20:41Z",
+        "homeTeam": {
+          "id": 10,
+          "name": "VfB Stuttgart",
+          "shortName": "Stuttgart",
+          "tla": "VFB",
+          "crest": "https://crests.football-data.org/10.png"
+        },
+        "awayTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57519,
+            "name": "Robert Schröder",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 2414,
+          "startDate": "2025-08-22",
+          "endDate": "2026-05-16",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 540497,
+        "utcDate": "2025-11-22T14:30:00Z",
+        "status": "FINISHED",
+        "matchday": 11,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-30T20:20:41Z",
+        "homeTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "awayTeam": {
+          "id": 10,
+          "name": "VfB Stuttgart",
+          "shortName": "Stuttgart",
+          "tla": "VFB",
+          "crest": "https://crests.football-data.org/10.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43922,
+            "name": "Benjamin Brand",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 2308,
+          "startDate": "2024-08-23",
+          "endDate": "2025-05-17",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 502552,
+        "utcDate": "2025-02-08T14:30:00Z",
+        "status": "FINISHED",
+        "matchday": 21,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-27T16:59:01Z",
+        "homeTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "awayTeam": {
+          "id": 10,
+          "name": "VfB Stuttgart",
+          "shortName": "Stuttgart",
+          "tla": "VFB",
+          "crest": "https://crests.football-data.org/10.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 15408,
+            "name": "Daniel Siebert",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 2308,
+          "startDate": "2024-08-23",
+          "endDate": "2025-05-17",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 502399,
+        "utcDate": "2024-09-22T15:30:00Z",
+        "status": "FINISHED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-27T16:59:01Z",
+        "homeTeam": {
+          "id": 10,
+          "name": "VfB Stuttgart",
+          "shortName": "Stuttgart",
+          "tla": "VFB",
+          "crest": "https://crests.football-data.org/10.png"
+        },
+        "awayTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 5,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57518,
+            "name": "Florian Badstübner",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 1592,
+          "startDate": "2023-08-18",
+          "endDate": "2024-05-18",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "tla": "B04",
+            "crest": "https://crests.football-data.org/3.png",
+            "address": "Bismarckstr. 122-124 Leverkusen 51373",
+            "website": "http://www.bayer04.de",
+            "founded": 1904,
+            "clubColors": "Red / White / Black",
+            "venue": "BayArena",
+            "lastUpdated": "2022-02-25T16:43:07Z"
+          }
+        },
+        "id": 442039,
+        "utcDate": "2024-04-06T16:30:00Z",
+        "status": "FINISHED",
+        "matchday": 28,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-09-29T10:21:43Z",
+        "homeTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "awayTeam": {
+          "id": 10,
+          "name": "VfB Stuttgart",
+          "shortName": "Stuttgart",
+          "tla": "VFB",
+          "crest": "https://crests.football-data.org/10.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56230,
+            "name": "Matthias Jöllenbeck",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 1592,
+          "startDate": "2023-08-18",
+          "endDate": "2024-05-18",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "tla": "B04",
+            "crest": "https://crests.football-data.org/3.png",
+            "address": "Bismarckstr. 122-124 Leverkusen 51373",
+            "website": "http://www.bayer04.de",
+            "founded": 1904,
+            "clubColors": "Red / White / Black",
+            "venue": "BayArena",
+            "lastUpdated": "2022-02-25T16:43:07Z"
+          }
+        },
+        "id": 441886,
+        "utcDate": "2023-11-11T14:30:00Z",
+        "status": "FINISHED",
+        "matchday": 11,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-09-29T10:21:39Z",
+        "homeTeam": {
+          "id": 10,
+          "name": "VfB Stuttgart",
+          "shortName": "Stuttgart",
+          "tla": "VFB",
+          "crest": "https://crests.football-data.org/10.png"
+        },
+        "awayTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43943,
+            "name": "Tobias Stieler",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 1495,
+          "startDate": "2022-08-05",
+          "endDate": "2023-05-27",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 416450,
+        "utcDate": "2023-04-15T13:30:00Z",
+        "status": "FINISHED",
+        "matchday": 28,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 10,
+          "name": "VfB Stuttgart",
+          "shortName": "Stuttgart",
+          "tla": "VFB",
+          "crest": "https://crests.football-data.org/10.png"
+        },
+        "awayTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 253,
+            "name": "Harm Osmers",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 1495,
+          "startDate": "2022-08-05",
+          "endDate": "2023-05-27",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 416609,
+        "utcDate": "2022-10-22T13:30:00Z",
+        "status": "FINISHED",
+        "matchday": 11,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "awayTeam": {
+          "id": 10,
+          "name": "VfB Stuttgart",
+          "shortName": "Stuttgart",
+          "tla": "VFB",
+          "crest": "https://crests.football-data.org/10.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 5,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 3,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57517,
+            "name": "Daniel Schlager",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 742,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-14",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 329449,
+        "utcDate": "2022-04-08T18:30:00Z",
+        "status": "FINISHED",
+        "matchday": 29,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-17T08:20:17Z",
+        "homeTeam": {
+          "id": 10,
+          "name": "VfB Stuttgart",
+          "shortName": "Stuttgart",
+          "tla": "VFB",
+          "crest": "https://crests.football-data.org/10.png"
+        },
+        "awayTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 253,
+            "name": "Harm Osmers",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 742,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-14",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 329598,
+        "utcDate": "2021-11-20T14:30:00Z",
+        "status": "FINISHED",
+        "matchday": 12,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-09-29T10:21:46Z",
+        "homeTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "awayTeam": {
+          "id": 10,
+          "name": "VfB Stuttgart",
+          "shortName": "Stuttgart",
+          "tla": "VFB",
+          "crest": "https://crests.football-data.org/10.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 253,
+            "name": "Harm Osmers",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 599,
+          "startDate": "2020-09-18",
+          "endDate": "2021-05-22",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 303247,
+        "utcDate": "2021-04-10T16:30:00Z",
+        "status": "FINISHED",
+        "matchday": 28,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2024-09-29T10:22:01Z",
+        "homeTeam": {
+          "id": 10,
+          "name": "VfB Stuttgart",
+          "shortName": "Stuttgart",
+          "tla": "VFB",
+          "crest": "https://crests.football-data.org/10.png"
+        },
+        "awayTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57519,
+            "name": "Robert Schröder",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 57519,
+            "name": "Robert Schröder",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 599,
+          "startDate": "2020-09-18",
+          "endDate": "2021-05-22",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 303092,
+        "utcDate": "2020-12-12T14:30:00Z",
+        "status": "FINISHED",
+        "matchday": 11,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2024-09-29T10:21:55Z",
+        "homeTeam": {
+          "id": 4,
+          "name": "Borussia Dortmund",
+          "shortName": "Dortmund",
+          "tla": "BVB",
+          "crest": "https://crests.football-data.org/4.png"
+        },
+        "awayTeam": {
+          "id": 10,
+          "name": "VfB Stuttgart",
+          "shortName": "Stuttgart",
+          "tla": "VFB",
+          "crest": "https://crests.football-data.org/10.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 5
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57526,
+            "name": "Christian Dingert",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      }
+    ]
+  },
+  "565807": {
+    "filters": {
+      "limit": "50",
+      "permission": "TIER_ONE"
+    },
+    "resultSet": {
+      "count": 13,
+      "competitions": "BL1",
+      "first": "2020-03-01",
+      "last": "2026-05-02"
+    },
+    "aggregates": {
+      "numberOfMatches": 20,
+      "totalGoals": 68,
+      "homeTeam": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "wins": 7,
+        "draws": 5,
+        "losses": 8
+      },
+      "awayTeam": {
+        "id": 721,
+        "name": "RB Leipzig",
+        "wins": 8,
+        "draws": 5,
+        "losses": 7
+      }
+    },
+    "matches": [
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 2414,
+          "startDate": "2025-08-22",
+          "endDate": "2026-05-16",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 540687,
+        "utcDate": "2026-05-02T16:30:00Z",
+        "status": "FINISHED",
+        "matchday": 32,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-30T20:20:41Z",
+        "homeTeam": {
+          "id": 3,
+          "name": "Bayer 04 Leverkusen",
+          "shortName": "Leverkusen",
+          "tla": "B04",
+          "crest": "https://crests.football-data.org/3.png"
+        },
+        "awayTeam": {
+          "id": 721,
+          "name": "RB Leipzig",
+          "shortName": "RB Leipzig",
+          "tla": "RBL",
+          "crest": "https://crests.football-data.org/721.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 4,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 2,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57539,
+            "name": "Tobias Welz",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 2414,
+          "startDate": "2025-08-22",
+          "endDate": "2026-05-16",
+          "currentMatchday": 34,
+          "winner": null
+        },
+        "id": 540534,
+        "utcDate": "2025-12-20T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 15,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-05-30T20:20:41Z",
+        "homeTeam": {
+          "id": 721,
+          "name": "RB Leipzig",
+          "shortName": "RB Leipzig",
+          "tla": "RBL",
+          "crest": "https://crests.football-data.org/721.png"
+        },
+        "awayTeam": {
+          "id": 3,
+          "name": "Bayer 04 Leverkusen",
+          "shortName": "Leverkusen",
+          "tla": "B04",
+          "crest": "https://crests.football-data.org/3.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43922,
+            "name": "Benjamin Brand",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 2308,
+          "startDate": "2024-08-23",
+          "endDate": "2025-05-17",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 502533,
+        "utcDate": "2025-01-25T14:30:00Z",
+        "status": "FINISHED",
+        "matchday": 19,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-27T16:59:01Z",
+        "homeTeam": {
+          "id": 721,
+          "name": "RB Leipzig",
+          "shortName": "RB Leipzig",
+          "tla": "RBL",
+          "crest": "https://crests.football-data.org/721.png"
+        },
+        "awayTeam": {
+          "id": 3,
+          "name": "Bayer 04 Leverkusen",
+          "shortName": "Leverkusen",
+          "tla": "B04",
+          "crest": "https://crests.football-data.org/3.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 15746,
+            "name": "Bastian Dankert",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 2308,
+          "startDate": "2024-08-23",
+          "endDate": "2025-05-17",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 502380,
+        "utcDate": "2024-08-31T16:30:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2025-06-27T16:59:01Z",
+        "homeTeam": {
+          "id": 3,
+          "name": "Bayer 04 Leverkusen",
+          "shortName": "Leverkusen",
+          "tla": "B04",
+          "crest": "https://crests.football-data.org/3.png"
+        },
+        "awayTeam": {
+          "id": 721,
+          "name": "RB Leipzig",
+          "shortName": "RB Leipzig",
+          "tla": "RBL",
+          "crest": "https://crests.football-data.org/721.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56230,
+            "name": "Matthias Jöllenbeck",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 1592,
+          "startDate": "2023-08-18",
+          "endDate": "2024-05-18",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "tla": "B04",
+            "crest": "https://crests.football-data.org/3.png",
+            "address": "Bismarckstr. 122-124 Leverkusen 51373",
+            "website": "http://www.bayer04.de",
+            "founded": 1904,
+            "clubColors": "Red / White / Black",
+            "venue": "BayArena",
+            "lastUpdated": "2022-02-25T16:43:07Z"
+          }
+        },
+        "id": 441945,
+        "utcDate": "2024-01-20T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 18,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-09-29T10:21:41Z",
+        "homeTeam": {
+          "id": 721,
+          "name": "RB Leipzig",
+          "shortName": "RB Leipzig",
+          "tla": "RBL",
+          "crest": "https://crests.football-data.org/721.png"
+        },
+        "awayTeam": {
+          "id": 3,
+          "name": "Bayer 04 Leverkusen",
+          "shortName": "Leverkusen",
+          "tla": "B04",
+          "crest": "https://crests.football-data.org/3.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 56230,
+            "name": "Matthias Jöllenbeck",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 1592,
+          "startDate": "2023-08-18",
+          "endDate": "2024-05-18",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "tla": "B04",
+            "crest": "https://crests.football-data.org/3.png",
+            "address": "Bismarckstr. 122-124 Leverkusen 51373",
+            "website": "http://www.bayer04.de",
+            "founded": 1904,
+            "clubColors": "Red / White / Black",
+            "venue": "BayArena",
+            "lastUpdated": "2022-02-25T16:43:07Z"
+          }
+        },
+        "id": 441792,
+        "utcDate": "2023-08-19T13:30:00Z",
+        "status": "FINISHED",
+        "matchday": 1,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-09-29T10:21:38Z",
+        "homeTeam": {
+          "id": 3,
+          "name": "Bayer 04 Leverkusen",
+          "shortName": "Leverkusen",
+          "tla": "B04",
+          "crest": "https://crests.football-data.org/3.png"
+        },
+        "awayTeam": {
+          "id": 721,
+          "name": "RB Leipzig",
+          "shortName": "RB Leipzig",
+          "tla": "RBL",
+          "crest": "https://crests.football-data.org/721.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 3,
+            "away": 2
+          },
+          "halfTime": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43875,
+            "name": "Felix Brych",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 1495,
+          "startDate": "2022-08-05",
+          "endDate": "2023-05-27",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 416446,
+        "utcDate": "2023-04-23T15:30:00Z",
+        "status": "FINISHED",
+        "matchday": 29,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 3,
+          "name": "Bayer 04 Leverkusen",
+          "shortName": "Leverkusen",
+          "tla": "B04",
+          "crest": "https://crests.football-data.org/3.png"
+        },
+        "awayTeam": {
+          "id": 721,
+          "name": "RB Leipzig",
+          "shortName": "RB Leipzig",
+          "tla": "RBL",
+          "crest": "https://crests.football-data.org/721.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57517,
+            "name": "Daniel Schlager",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 1495,
+          "startDate": "2022-08-05",
+          "endDate": "2023-05-27",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 416599,
+        "utcDate": "2022-10-29T13:30:00Z",
+        "status": "FINISHED",
+        "matchday": 12,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2023-05-31T08:20:43Z",
+        "homeTeam": {
+          "id": 721,
+          "name": "RB Leipzig",
+          "shortName": "RB Leipzig",
+          "tla": "RBL",
+          "crest": "https://crests.football-data.org/721.png"
+        },
+        "awayTeam": {
+          "id": 3,
+          "name": "Bayer 04 Leverkusen",
+          "shortName": "Leverkusen",
+          "tla": "B04",
+          "crest": "https://crests.football-data.org/3.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 2,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 15824,
+            "name": "Sven Jablonski",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 742,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-14",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 329437,
+        "utcDate": "2022-04-17T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 30,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2022-06-17T08:20:17Z",
+        "homeTeam": {
+          "id": 3,
+          "name": "Bayer 04 Leverkusen",
+          "shortName": "Leverkusen",
+          "tla": "B04",
+          "crest": "https://crests.football-data.org/3.png"
+        },
+        "awayTeam": {
+          "id": 721,
+          "name": "RB Leipzig",
+          "shortName": "RB Leipzig",
+          "tla": "RBL",
+          "crest": "https://crests.football-data.org/721.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 0,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 15408,
+            "name": "Daniel Siebert",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 742,
+          "startDate": "2021-08-13",
+          "endDate": "2022-05-14",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 329590,
+        "utcDate": "2021-11-28T16:30:00Z",
+        "status": "FINISHED",
+        "matchday": 13,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-09-29T10:21:47Z",
+        "homeTeam": {
+          "id": 721,
+          "name": "RB Leipzig",
+          "shortName": "RB Leipzig",
+          "tla": "RBL",
+          "crest": "https://crests.football-data.org/721.png"
+        },
+        "awayTeam": {
+          "id": 3,
+          "name": "Bayer 04 Leverkusen",
+          "shortName": "Leverkusen",
+          "tla": "B04",
+          "crest": "https://crests.football-data.org/3.png"
+        },
+        "score": {
+          "winner": "AWAY_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 3
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 57516,
+            "name": "Benjamin Cortus",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 599,
+          "startDate": "2020-09-18",
+          "endDate": "2021-05-22",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 303172,
+        "utcDate": "2021-01-30T17:30:00Z",
+        "status": "FINISHED",
+        "matchday": 19,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2024-09-29T10:21:58Z",
+        "homeTeam": {
+          "id": 721,
+          "name": "RB Leipzig",
+          "shortName": "RB Leipzig",
+          "tla": "RBL",
+          "crest": "https://crests.football-data.org/721.png"
+        },
+        "awayTeam": {
+          "id": 3,
+          "name": "Bayer 04 Leverkusen",
+          "shortName": "Leverkusen",
+          "tla": "B04",
+          "crest": "https://crests.football-data.org/3.png"
+        },
+        "score": {
+          "winner": "HOME_TEAM",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 0
+          },
+          "halfTime": {
+            "home": 0,
+            "away": 0
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 253,
+            "name": "Harm Osmers",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 253,
+            "name": "Harm Osmers",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 599,
+          "startDate": "2020-09-18",
+          "endDate": "2021-05-22",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 303015,
+        "utcDate": "2020-09-26T13:30:00Z",
+        "status": "FINISHED",
+        "matchday": 2,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2024-09-29T10:21:53Z",
+        "homeTeam": {
+          "id": 3,
+          "name": "Bayer 04 Leverkusen",
+          "shortName": "Leverkusen",
+          "tla": "B04",
+          "crest": "https://crests.football-data.org/3.png"
+        },
+        "awayTeam": {
+          "id": 721,
+          "name": "RB Leipzig",
+          "shortName": "RB Leipzig",
+          "tla": "RBL",
+          "crest": "https://crests.football-data.org/721.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 253,
+            "name": "Harm Osmers",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 57509,
+            "name": "Robert Kempter",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 254,
+            "name": "Thomas Gorniak",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 57679,
+            "name": "Nicolas Winter",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 26174,
+            "name": "Bibiana Steinhaus",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
+      },
+      {
+        "area": {
+          "id": 2088,
+          "name": "Germany",
+          "code": "DEU",
+          "flag": "https://crests.football-data.org/759.svg"
+        },
+        "competition": {
+          "id": 2002,
+          "name": "Bundesliga",
+          "code": "BL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/BL1.png"
+        },
+        "season": {
+          "id": 474,
+          "startDate": "2019-08-16",
+          "endDate": "2020-06-27",
+          "currentMatchday": 34,
+          "winner": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "shortName": "Bayern",
+            "tla": "FCB",
+            "crest": "https://crests.football-data.org/5.png",
+            "address": "Säbenerstr. 51 München 81547",
+            "website": "http://www.fcbayern.de",
+            "founded": 1900,
+            "clubColors": "Red / White / Blue",
+            "venue": "Allianz Arena",
+            "lastUpdated": "2024-07-09T17:26:37Z"
+          }
+        },
+        "id": 271627,
+        "utcDate": "2020-03-01T14:30:00Z",
+        "status": "FINISHED",
+        "matchday": 24,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2024-09-29T10:22:09Z",
+        "homeTeam": {
+          "id": 721,
+          "name": "RB Leipzig",
+          "shortName": "RB Leipzig",
+          "tla": "RBL",
+          "crest": "https://crests.football-data.org/721.png"
+        },
+        "awayTeam": {
+          "id": 3,
+          "name": "Bayer 04 Leverkusen",
+          "shortName": "Leverkusen",
+          "tla": "B04",
+          "crest": "https://crests.football-data.org/3.png"
+        },
+        "score": {
+          "winner": "DRAW",
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": 1,
+            "away": 1
+          },
+          "halfTime": {
+            "home": 1,
+            "away": 1
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": [
+          {
+            "id": 43878,
+            "name": "Felix Zwayer",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 43923,
+            "name": "Thorsten Schiffner",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 43879,
+            "name": "Marco Achmüller",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 26174,
+            "name": "Bibiana Steinhaus",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          },
+          {
+            "id": 43922,
+            "name": "Benjamin Brand",
             "type": "REFEREE",
             "nationality": "Germany"
           }
