@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2026-08-15",
     "last": "2027-05-30",
-    "played": 51
+    "played": 52
   },
   "competition": {
     "id": 2014,
@@ -3286,11 +3286,11 @@
       },
       "id": 564678,
       "utcDate": "2026-09-15T17:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 6,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-15T17:59:04Z",
+      "lastUpdated": "2026-09-15T21:01:29Z",
       "homeTeam": {
         "id": 87,
         "name": "Rayo Vallecano de Madrid",
@@ -3306,15 +3306,15 @@
         "crest": "https://crests.football-data.org/80.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "odds": {
@@ -3352,11 +3352,11 @@
       },
       "id": 564680,
       "utcDate": "2026-09-15T18:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 6,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-15T15:20:33Z",
+      "lastUpdated": "2026-09-15T21:48:24Z",
       "homeTeam": {
         "id": 263,
         "name": "Deportivo Alavés",
@@ -3372,15 +3372,15 @@
         "crest": "https://crests.football-data.org/95.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -3418,11 +3418,11 @@
       },
       "id": 564681,
       "utcDate": "2026-09-15T19:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 6,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-15T15:20:33Z",
+      "lastUpdated": "2026-09-15T21:48:24Z",
       "homeTeam": {
         "id": 285,
         "name": "Elche CF",
@@ -3438,11 +3438,11 @@
         "crest": "https://crests.football-data.org/86.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -3452,7 +3452,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 206211,
+          "name": "Jesús Gil Manzano",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
