@@ -2415,11 +2415,11 @@
       },
       "id": 559682,
       "utcDate": "2026-09-18T18:45:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 5,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-18T15:20:37Z",
+      "lastUpdated": "2026-09-18T21:00:25Z",
       "homeTeam": {
         "id": 548,
         "name": "AS Monaco FC",
@@ -2435,11 +2435,11 @@
         "crest": "https://crests.football-data.org/546.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -2449,7 +2449,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 9374,
+          "name": "Clément Turpin",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
