@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2026-08-15",
     "last": "2027-05-30",
-    "played": 65
+    "played": 66
   },
   "competition": {
     "id": 2014,
@@ -4210,11 +4210,11 @@
       },
       "id": 564688,
       "utcDate": "2026-09-20T14:15:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 7,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-20T17:40:24Z",
+      "lastUpdated": "2026-09-20T18:17:13Z",
       "homeTeam": {
         "id": 78,
         "name": "Club Atlético de Madrid",
@@ -4234,7 +4234,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -4276,11 +4276,11 @@
       },
       "id": 564695,
       "utcDate": "2026-09-20T16:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 7,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-20T17:37:45Z",
+      "lastUpdated": "2026-09-20T20:18:48Z",
       "homeTeam": {
         "id": 560,
         "name": "RC Deportivo La Coruña",
@@ -4296,15 +4296,15 @@
         "crest": "https://crests.football-data.org/90.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "odds": {
@@ -4342,11 +4342,11 @@
       },
       "id": 564696,
       "utcDate": "2026-09-20T16:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 7,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-20T17:18:33Z",
+      "lastUpdated": "2026-09-20T20:18:49Z",
       "homeTeam": {
         "id": 94,
         "name": "Villarreal CF",
@@ -4362,15 +4362,15 @@
         "crest": "https://crests.football-data.org/88.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "odds": {
@@ -4412,7 +4412,7 @@
       "matchday": 7,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-09-20T10:20:30Z",
+      "lastUpdated": "2026-09-20T19:59:05Z",
       "homeTeam": {
         "id": 95,
         "name": "Valencia CF",
@@ -4442,7 +4442,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 206223,
+          "name": "José Munuera Montero",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
