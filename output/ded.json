@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2026-08-07",
     "last": "2027-05-23",
-    "played": 64
+    "played": 65
   },
   "competition": {
     "id": 2003,
@@ -4263,11 +4263,11 @@
       },
       "id": 558880,
       "utcDate": "2026-10-10T14:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 8,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-10-10T00:20:36Z",
+      "lastUpdated": "2026-10-10T16:29:55Z",
       "homeTeam": {
         "id": 718,
         "name": "Go Ahead Eagles",
@@ -4283,21 +4283,28 @@
         "crest": "https://crests.football-data.org/6806.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 3
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56912,
+          "name": "Jeroen Manschot",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
@@ -4322,11 +4329,11 @@
       },
       "id": 558879,
       "utcDate": "2026-10-10T16:45:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 8,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-10-10T01:32:02Z",
+      "lastUpdated": "2026-10-10T17:05:39Z",
       "homeTeam": {
         "id": 675,
         "name": "Feyenoord Rotterdam",
@@ -4342,11 +4349,11 @@
         "crest": "https://crests.football-data.org/682.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -4356,7 +4363,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43899,
+          "name": "Danny Makkelie",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
@@ -4415,7 +4429,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 81036,
+          "name": "Robin Hensgens",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
@@ -4474,7 +4495,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43858,
+          "name": "Serdar Gözübüyük",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {

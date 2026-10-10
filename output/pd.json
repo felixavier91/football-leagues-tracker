@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2026-08-15",
     "last": "2027-05-30",
-    "played": 70
+    "played": 71
   },
   "competition": {
     "id": 2014,
@@ -4540,11 +4540,11 @@
       },
       "id": 564698,
       "utcDate": "2026-10-10T12:00:00Z",
-      "status": "TIMED",
+      "status": "CANCELLED",
       "matchday": 8,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-10-10T01:32:01Z",
+      "lastUpdated": "2026-10-10T16:04:18Z",
       "homeTeam": {
         "id": 87,
         "name": "Rayo Vallecano de Madrid",
@@ -4560,11 +4560,11 @@
         "crest": "https://crests.football-data.org/77.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -4574,7 +4574,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 207080,
+          "name": "José Sánchez Martínez",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
@@ -4599,11 +4606,11 @@
       },
       "id": 564699,
       "utcDate": "2026-10-10T14:15:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 8,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-10-10T00:20:36Z",
+      "lastUpdated": "2026-10-10T16:20:19Z",
       "homeTeam": {
         "id": 263,
         "name": "Deportivo Alavés",
@@ -4619,21 +4626,28 @@
         "crest": "https://crests.football-data.org/78.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 214410,
+          "name": "Alejandro Quintero González",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
@@ -4658,11 +4672,11 @@
       },
       "id": 564700,
       "utcDate": "2026-10-10T16:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 8,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-10-10T01:32:02Z",
+      "lastUpdated": "2026-10-10T17:05:07Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -4678,11 +4692,11 @@
         "crest": "https://crests.football-data.org/82.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -4692,7 +4706,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 206211,
+          "name": "Jesús Gil Manzano",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
@@ -4751,7 +4772,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57930,
+          "name": "Isidro Díaz de Mera",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
