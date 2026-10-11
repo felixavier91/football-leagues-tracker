@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2026-08-07",
     "last": "2027-05-16",
-    "played": 68
+    "played": 69
   },
   "competition": {
     "id": 2017,
@@ -4478,11 +4478,11 @@
       },
       "id": 567320,
       "utcDate": "2026-10-11T17:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 8,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-10-11T17:28:35Z",
+      "lastUpdated": "2026-10-11T19:02:27Z",
       "homeTeam": {
         "id": 1903,
         "name": "Sport Lisboa e Benfica",
@@ -4498,15 +4498,15 @@
         "crest": "https://crests.football-data.org/5543.png"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": {
@@ -4544,11 +4544,11 @@
       },
       "id": 567324,
       "utcDate": "2026-10-11T19:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 8,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-10-11T01:32:02Z",
+      "lastUpdated": "2026-10-11T21:01:55Z",
       "homeTeam": {
         "id": 712,
         "name": "FC Arouca",
@@ -4564,21 +4564,28 @@
         "crest": "https://crests.football-data.org/9136.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 291275,
+          "name": "Luí­s Carlos Mateus Filipe",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
