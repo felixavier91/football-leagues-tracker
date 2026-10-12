@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2026-08-21",
     "last": "2027-05-30",
-    "played": 59
+    "played": 60
   },
   "competition": {
     "id": 2021,
@@ -3933,11 +3933,11 @@
       },
       "id": 560597,
       "utcDate": "2026-10-12T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 6,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-10-12T00:20:33Z",
+      "lastUpdated": "2026-10-12T20:58:43Z",
       "homeTeam": {
         "id": 1076,
         "name": "Coventry City FC",
@@ -3953,21 +3953,28 @@
         "crest": "https://crests.football-data.org/67.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 11327,
+          "name": "John Brooks",
+          "type": "REFEREE",
+          "nationality": "England"
+        }
+      ]
     },
     {
       "area": {
