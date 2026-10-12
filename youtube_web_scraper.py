@@ -43,6 +43,50 @@ MAX_MATCHES_TO_PROCESS = None  # Process ALL finished matches
 HEADLESS = True  # Set to False to see the browser in action
 
 # ============================================
+# YouTube Metadata Parsing
+# ============================================
+
+# YouTube shows either long ("959K views", "1 day ago") or compact ("959K", "1d ago")
+# metadata depending on layout, so both forms must be accepted.
+AGE_UNITS = {
+    'second': 'minute', 'seconds': 'minute', 's': 'minute',
+    'minute': 'minute', 'minutes': 'minute', 'min': 'minute', 'm': 'minute',
+    'hour': 'hour', 'hours': 'hour', 'h': 'hour',
+    'day': 'day', 'days': 'day', 'd': 'day',
+    'week': 'week', 'weeks': 'week', 'w': 'week',
+    'month': 'month', 'months': 'month', 'mo': 'month',
+    'year': 'year', 'years': 'year', 'y': 'year',
+}
+
+
+def parse_upload_age(metadata_text):
+    """Return (amount, unit) from metadata like '1 day ago' or '1d ago', or None"""
+    text = metadata_text.lower()
+    if 'just now' in text:
+        return (0, 'minute')
+    match = re.search(r'(\d+)\s*(seconds?|minutes?|hours?|days?|weeks?|months?|years?|min|mo|s|m|h|d|w|y)\s+ago\b', text)
+    if not match:
+        return None
+    return (int(match.group(1)), AGE_UNITS[match.group(2)])
+
+
+def parse_view_count(metadata_text):
+    """Return view count from metadata like '959K views' or a bare '959K' line, or None"""
+    match = re.search(r'(\d[\d,.]*)\s*([kmb])?\s*views?\b', metadata_text, re.IGNORECASE)
+    if not match:
+        # Compact layout puts the bare count on its own line
+        for line in metadata_text.splitlines():
+            match = re.fullmatch(r'\s*(\d[\d,.]*)\s*([kmb])?\s*', line, re.IGNORECASE)
+            if match:
+                break
+    if not match:
+        return None
+    number = float(match.group(1).replace(',', ''))
+    multiplier = {'k': 1000, 'm': 1000000, 'b': 1000000000}.get((match.group(2) or '').lower(), 1)
+    return int(number * multiplier)
+
+
+# ============================================
 # Text Normalization
 # ============================================
 
@@ -265,9 +309,9 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                     print(f"  ⏭️  Skipping (LaLiga EA Sports official): {video_title}")
                     continue
                 
-                # Serie A videos must have "CBS Sports Golazo" in title
+                # Serie A videos must be from CBS Golazo (titles use "CBS Sports Golazo" or the newer "CBS Golazo")
                 if league_code == "SA":
-                    if "cbs sports golazo" not in video_title_lower:
+                    if "cbs sports golazo" not in video_title_lower and "cbs golazo" not in video_title_lower:
                         print(f"  ⏭️  Skipping (Serie A requires CBS Sports Golazo): {video_title}")
                         continue
                 
@@ -326,17 +370,9 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                     metadata_elem = renderer.find_element(By.CSS_SELECTOR, "#metadata-line")
                     metadata_full_text = metadata_elem.text
                     
-                    # Look for view count pattern
-                    view_match = re.search(r'([\d,.]+[kKmM]?)\s*views?', metadata_full_text, re.IGNORECASE)
-                    if view_match:
-                        view_str = view_match.group(1).strip()
-                        if 'k' in view_str.lower():
-                            view_count = int(float(view_str.lower().replace('k', '').replace(',', '')) * 1000)
-                        elif 'm' in view_str.lower():
-                            view_count = int(float(view_str.lower().replace('m', '').replace(',', '')) * 1000000)
-                        else:
-                            # Plain number like "465" or "1,234"
-                            view_count = int(view_str.replace(',', ''))
+                    parsed_views = parse_view_count(metadata_full_text)
+                    if parsed_views is not None:
+                        view_count = parsed_views
                     else:
                         print(f"      Debug: Could not find view count in metadata: {metadata_full_text}")
                 except Exception as e:
@@ -391,49 +427,33 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                     
                     # Check if upload date matches (within 1 day tolerance)
                     upload_matches = False
-                    
+                    age = parse_upload_age(metadata_text)
+                    amount, unit = age if age else (None, None)
+
                     # Recent uploads (0-1 days ago)
                     if days_ago == 0:
-                        upload_matches = any(x in metadata_text for x in 
-                            ["hour ago", "hours ago", "minute ago", "minutes ago", "just now"])
+                        upload_matches = unit in ("minute", "hour")
                     elif days_ago == 1:
-                        upload_matches = "1 day ago" in metadata_text or any(x in metadata_text for x in 
-                            ["hour ago", "hours ago"])
+                        upload_matches = unit == "hour" or (unit == "day" and amount == 1)
                     # 2-60 days ago
                     elif days_ago < 60:
                         # First check for exact days (with ±2 day tolerance to catch all uploads)
-                        for tolerance in range(-2, 3):  # -2, -1, 0, +1, +2 days
-                            check_days = days_ago + tolerance
-                            if check_days > 0:
-                                if f"{check_days} day ago" in metadata_text or f"{check_days} days ago" in metadata_text:
-                                    upload_matches = True
-                                    break
-                        
+                        if unit == "day":
+                            upload_matches = amount > 0 and abs(amount - days_ago) <= 2
+
                         # YouTube switches to "weeks ago" around 14 days, so also check weeks format
-                        if not upload_matches and days_ago >= 12:
-                            weeks_ago = days_ago // 7
-                            for week_tolerance in range(-1, 2):
-                                check_weeks = weeks_ago + week_tolerance
-                                if check_weeks > 0:
-                                    if f"{check_weeks} week ago" in metadata_text or f"{check_weeks} weeks ago" in metadata_text:
-                                        upload_matches = True
-                                        break
-                        
+                        elif unit == "week" and days_ago >= 12:
+                            upload_matches = amount > 0 and abs(amount - days_ago // 7) <= 1
+
                         # YouTube can also show "1 month ago" for videos around 30 days
-                        if not upload_matches and days_ago >= 28:
-                            if "1 month ago" in metadata_text:
-                                upload_matches = True
+                        elif unit == "month" and days_ago >= 28:
+                            upload_matches = amount == 1
                     # 60+ days ago (check for months)
                     elif days_ago < 365:
-                        months_ago = days_ago // 30
                         # Check current month and adjacent months due to rounding
-                        for month_tolerance in range(-1, 2):
-                            check_months = months_ago + month_tolerance
-                            if check_months > 0:
-                                if f"{check_months} month ago" in metadata_text or f"{check_months} months ago" in metadata_text:
-                                    upload_matches = True
-                                    break
-                        
+                        if unit == "month":
+                            upload_matches = amount > 0 and abs(amount - days_ago // 30) <= 1
+
                         # Also check for exact date format for older videos
                         if not upload_matches:
                             date_str = match_date_obj.strftime("%b %d, %Y").lower()
