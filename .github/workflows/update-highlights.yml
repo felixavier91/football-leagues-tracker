@@ -65,6 +65,8 @@ jobs:
               echo "No changes to commit"
             else
               git commit -m "🎥 Auto-update highlights ($(date +'%Y-%m-%d %H:%M'))"
+              # Other workflows push to main while the scraper runs; rebase onto them before pushing
+              git pull --rebase
               git push
             fi
           else

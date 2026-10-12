@@ -614,8 +614,9 @@ def process_matches():
                     if match_date != today_str and match_date != yesterday_str:
                         continue  # Skip this match, it's not from the last 48 hours
                 
-                # Check if match already exists in database with a videoId
-                existing_video_id = highlights[league_code][season].get(match_key, {}).get("videoId")
+                # Check if match already exists in database with a video (legacy videoId or current videoIds)
+                existing_match = highlights[league_code][season].get(match_key, {})
+                existing_video_id = existing_match.get("videoId") or (existing_match.get("videoIds") or None)
                 
                 # Add to highlights database if not exists
                 if match_key not in highlights[league_code][season]:
@@ -635,7 +636,7 @@ def process_matches():
                     # In TODAY_ONLY mode: always re-scrape today's matches (even if they have a videoId)
                     should_process = True
                 else:
-                    # In backfill mode: only process if videoId is null
+                    # In backfill mode: only process matches without any video yet
                     should_process = (existing_video_id is None)
                 
                 if should_process:
