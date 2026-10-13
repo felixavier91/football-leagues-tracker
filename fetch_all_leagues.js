@@ -15,7 +15,7 @@ const leagues = [
 ];
 
 const API_KEY = process.env.FOOTBALL_API_KEY;
-const SEASON = '2026'; // 2025/2026 season
+const SEASON = '2026'; // 2026/27 season (football-data.org labels seasons by start year) — update each season, see README §5
 const OUTPUT_DIR = 'output';
 
 // Create output directory if it doesn't exist
