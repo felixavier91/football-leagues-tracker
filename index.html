@@ -2200,6 +2200,13 @@
             });
         }
         
+        // Esc closes the open match/news modal
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && document.getElementById('matchModal').classList.contains('active')) {
+                closeMatchModal();
+            }
+        });
+        
         function closeMatchModal() {
             const modal = document.getElementById('matchModal');
             modal.classList.remove('active');

@@ -288,6 +288,8 @@ Everything you see on the site is built client-side from these objects:
   If there are no videos, only the search button appears.
 - **News tab** — cards from `soccerNews.articles[]`; the full article opens in
   a modal with a "Credit to www.101greatgoals.com" line.
+- **Closing the modal** — the × button, a click outside it, or **Esc** (Esc
+  doesn't reach the page while focus is inside a YouTube player).
 
 ---
 
