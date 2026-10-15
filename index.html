@@ -1290,6 +1290,7 @@
         </div>
     </div>
 
+    <script async src="https://www.youtube.com/iframe_api"></script>
     <script>
         let allLeaguesData = {};
         let highlightsDatabase = {};
@@ -1873,6 +1874,29 @@
             document.getElementById('standingsContainer').style.display = 'block';
         }
 
+        // YouTube's mute=1 can leave the player at volume 0, so unmuting does nothing.
+        // Attach the IFrame API to each embed: keep it muted, but set volume to 50
+        // so the unmute button plays sound right away.
+        let pendingVideoIframes = [];
+        function onYouTubeIframeAPIReady() {
+            pendingVideoIframes.forEach(initVideoPlayer);
+            pendingVideoIframes = [];
+        }
+        function initVideoPlayer(iframe) {
+            if (!(window.YT && YT.Player)) {
+                pendingVideoIframes.push(iframe);
+                return;
+            }
+            new YT.Player(iframe, {
+                events: {
+                    onReady: (e) => {
+                        e.target.mute();
+                        e.target.setVolume(50);
+                    }
+                }
+            });
+        }
+        
         function switchVideo(uniqueId, videoIndex, event) {
             // Stop event from bubbling up to card collapse toggle
             if (event) {
@@ -2084,6 +2108,7 @@
                 modalContent.appendChild(onelinerClone);
             }
             modalContent.appendChild(detailsClone);
+            detailsClone.querySelectorAll('iframe[src*="youtube.com/embed"]').forEach(initVideoPlayer);
             
             // Re-attach video tab handlers
             const videoTabs = detailsClone.querySelectorAll('.video-tab');
@@ -2371,7 +2396,7 @@
                             videoContent += `
                                 <div class="video-panel ${active}" id="${uniqueId}-${index}">
                                     <iframe width="100%" height="315" 
-                                         src="https://www.youtube.com/embed/${videoId}?mute=1&vq=hd1080"
+                                         src="https://www.youtube.com/embed/${videoId}?mute=1&vq=hd1080&enablejsapi=1"
                                          frameborder="0" 
                                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                                          referrerpolicy="strict-origin-when-cross-origin"

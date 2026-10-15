@@ -282,6 +282,8 @@ Everything you see on the site is built client-side from these objects:
   `CURRENT_SEASON` from `getCurrentSeason()` (§4) and `matchKey` built exactly
   like the scraper builds it. Shows up to **4** of the stored `videoIds` as
   tabs of embedded players, plus a "Find more videos" YouTube search button.
+  Players start muted; on opening the match modal the YouTube IFrame API
+  (`initVideoPlayer`) sets volume to 50% so unmuting plays sound at once.
   If there are no videos, only the search button appears.
 - **News tab** — cards from `soccerNews.articles[]`; the full article opens in
   a modal with a "Credit to www.101greatgoals.com" line.
