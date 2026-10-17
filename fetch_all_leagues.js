@@ -77,24 +77,44 @@ async function fetchAllLeagues() {
     console.log('Starting to fetch all leagues...\n');
     
     const results = {};
+    const combinedFilename = `${OUTPUT_DIR}/all_leagues.json`;
+    
+    // Previous data, so a league that fails to fetch keeps its last good matches
+    let previous = {};
+    try {
+        previous = JSON.parse(fs.readFileSync(combinedFilename, 'utf8'));
+    } catch (error) {
+        console.log('No previous combined data found');
+    }
+    let fetchedCount = 0;
     
     for (const league of leagues) {
         const result = await fetchLeague(league);
         
         if (result) {
+            fetchedCount++;
             results[league.code] = {
                 name: league.name,
                 country: league.country,
                 matches: result.data.matches || []
             };
+        } else if (previous[league.code]) {
+            console.log(`  Keeping previous data for ${league.name}`);
+            results[league.code] = previous[league.code];
         }
         
         // Add delay to avoid rate limiting (free tier usually has limits)
         await delay(2000); // 2 second delay between requests
     }
     
+    // Every league failed (e.g. a rejected API key): leave the file untouched and fail the job
+    if (fetchedCount === 0) {
+        console.error('\n✗ No league could be fetched; all_leagues.json left unchanged');
+        process.exitCode = 1;
+        return;
+    }
+    
     // Save combined file
-    const combinedFilename = `${OUTPUT_DIR}/all_leagues.json`;
     fs.writeFileSync(combinedFilename, JSON.stringify(results, null, 2));
     console.log(`\n✓ Combined data saved to ${combinedFilename}`);
     
@@ -110,4 +130,5 @@ async function fetchAllLeagues() {
 // Run the script
 fetchAllLeagues().catch(error => {
     console.error('Fatal error:', error);
+    process.exitCode = 1;
 });

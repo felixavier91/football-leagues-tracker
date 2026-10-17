@@ -90,12 +90,14 @@ gh workflow run fetch_soccer_news_workflow.yml
 - Hits `GET /v4/competitions/{code}/matches?season={SEASON}` for every league
   in the `leagues` array (PL, PD, BL1, SA, FL1, PPL, DED, CL), 2 seconds apart
   to stay within the free-tier rate limit.
-- Fully **overwrites** `all_leagues.json` every run — nothing accumulates here,
-  it's always a fresh snapshot of the current season's full fixture list
-  (past results + upcoming fixtures) for every tracked league.
+- Rewrites `all_leagues.json` every run with a fresh snapshot of the current
+  season's full fixture list (past results + upcoming fixtures) for every
+  tracked league.
 - Output shape: `{ "PL": { "name", "country", "matches": [...] }, ... }`.
-  If a league's request fails, that league is simply missing from the file
-  for that run.
+  If a league's request fails, its entry from the previous file is kept. If
+  **every** league fails (e.g. the API key is rejected with 403), the file is
+  left untouched and the script exits with code 1, so the workflow run fails
+  and nothing is committed.
 - Also writes one file per league (`output/pl.json`, `output/pd.json`, etc.) —
   not used by `index.html`, just per-league debug/inspection copies.
 
