@@ -1,0 +1,49 @@
+name: Fetch Match Statistics
+
+on:
+  # Schedule switched off: the free tier returns no statistics/lineups for
+  # /v4/matches/{id}, so these calls produced nothing the site could show.
+  workflow_dispatch:  # Allow manual runs
+    inputs:
+      fetch_all:
+        description: 'Fetch all matches (backfill)'
+        required: false
+        type: boolean
+        default: false
+
+# All football-data.org bots share one queue so their calls never overlap
+concurrency:
+  group: football-data-api
+  cancel-in-progress: false
+
+jobs:
+  fetch-statistics:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Fetch match statistics
+        env:
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.fetch_all }}" = "true" ]; then
+            echo "Running in BACKFILL mode (all matches)"
+            node fetch_match_statistics.js --all
+          else
+            echo "Running in NORMAL mode (today's matches only)"
+            node fetch_match_statistics.js
+          fi
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add output/match_statistics.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update match statistics - $(date)" && git push)

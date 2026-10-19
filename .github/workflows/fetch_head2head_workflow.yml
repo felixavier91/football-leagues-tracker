@@ -1,0 +1,54 @@
+name: Fetch Head2Head Data
+
+on:
+  # Schedule switched off (Oct 2026) to save API calls; the History tab
+  # keeps showing whatever is already in output/head2head.json.
+  workflow_dispatch: # Allow manual trigger
+    inputs:
+      fetch_all:
+        description: 'Fetch all matches (backfill)'
+        required: false
+        type: boolean
+        default: false
+
+# All football-data.org bots share one queue so their calls never overlap
+concurrency:
+  group: football-data-api
+  cancel-in-progress: false
+
+jobs:
+  fetch-head2head:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Fetch head2head data
+        env:
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.fetch_all }}" = "true" ]; then
+            echo "Running in BACKFILL mode (refetch all matches)"
+            node fetch_head2head.js --all
+          else
+            echo "Running in NORMAL mode (skip existing data)"
+            node fetch_head2head.js
+          fi
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update head2head data"
+            git push
+          fi

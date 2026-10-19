@@ -1,0 +1,74 @@
+name: Update Highlights Daily
+
+on:
+  # Run every day at 10pm EST (3am UTC next day)
+  schedule:
+  - cron: '3,13,23,33,43,53 12-23,0-2 * * *'  # 7:03am-9:03pm ESTeern Update Highlights
+  # - cron: '59 4 * * *'  # 11:59 PM ESTern (4:59 AM UTC next day)
+  
+  # Also allow manual trigger
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: 'Backfill all matches (not just last 48 hours)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  update-highlights:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install Chrome
+        run: |
+          # Install Chrome
+          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+      
+      - name: Install Python dependencies
+        run: |
+          pip install selenium webdriver-manager
+      
+      - name: Run YouTube scraper
+        run: |
+          cd output
+          if [ "${{ github.event.inputs.backfill }}" = "true" ]; then
+            echo "Running in BACKFILL mode (all matches)"
+            python ../youtube_web_scraper.py --backfill
+          else
+            echo "Running in NORMAL mode (last 48 hours)"
+            python ../youtube_web_scraper.py
+          fi
+      
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Check if there are changes
+          if [ -f "output/highlights_database_updated.json" ]; then
+            mv output/highlights_database_updated.json output/highlights_database.json
+            git add output/highlights_database.json
+            
+            if git diff --staged --quiet; then
+              echo "No changes to commit"
+            else
+              git commit -m "🎥 Auto-update highlights ($(date +'%Y-%m-%d %H:%M'))"
+              # Other workflows push to main while the scraper runs; rebase onto them before pushing
+              git pull --rebase
+              git push
+            fi
+          else
+            echo "No updated database file found"
+          fi
