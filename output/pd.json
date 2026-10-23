@@ -5860,11 +5860,11 @@
       },
       "id": 564719,
       "utcDate": "2026-10-23T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 10,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-10-23T00:20:28Z",
+      "lastUpdated": "2026-10-23T20:16:53Z",
       "homeTeam": {
         "id": 263,
         "name": "Deportivo Alavés",
@@ -5880,21 +5880,28 @@
         "crest": "https://crests.football-data.org/84.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 265471,
+          "name": "Carlos Muñiz Muñoz",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
