@@ -1,20 +1,24 @@
-// Goal scorers, assists and cards for finished matches, from ESPN's free
-// (unofficial, keyless) site API. football-data.org's free tier has no goals,
-// so this fills match.goals and match.bookings in all_leagues.json in the
-// shape index.html already reads. Runs right after fetch_all_leagues.js in the
-// update-data workflow and makes no football-data.org calls.
+// Goal scorers, assists, cards, team stats and lineups for finished matches,
+// from ESPN's free (unofficial, keyless) site API. football-data.org's free
+// tier has none of these, so this fills match.goals and match.bookings in
+// all_leagues.json and writes match_statistics.json, in the shapes index.html
+// already reads. Runs right after fetch_all_leagues.js in the update-data
+// workflow and makes no football-data.org calls.
 //
 // Per finished match: one scoreboard call per league + date (to find ESPN's
-// event ID), then one summary call per match. Results are cached in
-// output/match_events.json keyed by football-data match ID, so each match is
-// fetched once; every run re-merges the cache because fetch_all_leagues.js
-// rewrites all_leagues.json from scratch.
+// event ID), then one summary call per match. Goals and cards are cached in
+// output/match_events.json and stats in output/match_statistics.json, both
+// keyed by football-data match ID, so each match is fetched once; every run
+// re-merges the goals because fetch_all_leagues.js rewrites all_leagues.json
+// from scratch. Matches that have goals but no stats yet (the season before
+// stats were added) are caught up a few per run.
 
 const fs = require('fs');
 
 const OUTPUT_DIR = 'output';
 const ALL_LEAGUES_FILE = `${OUTPUT_DIR}/all_leagues.json`;
 const CACHE_FILE = `${OUTPUT_DIR}/match_events.json`;
+const STATS_FILE = `${OUTPUT_DIR}/match_statistics.json`;
 
 const ESPN_LEAGUES = {
     PL: 'eng.1',
@@ -28,7 +32,8 @@ const ESPN_LEAGUES = {
 };
 
 const MAX_CALLS_PER_RUN = 200; // the first run backfills the season over a few runs
-const CALL_SPACING_MS = 300;
+const STATS_CATCHUP_PER_RUN = 50; // old matches still missing stats, fetched gently
+const CALL_SPACING_MS = 1000;
 const RETRY_DAYS = 3; // keep retrying a date this long; older dates are tried once
 
 function delay(ms) {
@@ -146,6 +151,72 @@ function convertSummary(summary, match, espnEvent) {
     return { goals, bookings };
 }
 
+// ESPN boxscore + rosters + substitutions -> the match_statistics.json entry index.html reads
+function convertStats(summary, match, espnEvent) {
+    const comp = espnEvent.competitions[0];
+    const espnHomeId = String(comp.competitors.find(c => c.homeAway === 'home').id);
+    const sideTeam = (espnTeamId) => (String(espnTeamId) === espnHomeId ? match.homeTeam : match.awayTeam);
+
+    const entry = {
+        source: 'espn',
+        espnId: espnEvent.id,
+        homeTeam: { id: match.homeTeam.id, name: match.homeTeam.name },
+        awayTeam: { id: match.awayTeam.id, name: match.awayTeam.name },
+        substitutions: [],
+    };
+    const side = (espnTeamId) => (String(espnTeamId) === espnHomeId ? entry.homeTeam : entry.awayTeam);
+
+    for (const team of summary.boxscore?.teams || []) {
+        const raw = {};
+        for (const stat of team.statistics || []) raw[stat.name] = Number(stat.displayValue);
+        if (raw.totalShots === undefined && raw.possessionPct === undefined) continue;
+        const pick = (name) => (Number.isFinite(raw[name]) ? raw[name] : undefined);
+        side(team.team?.id).statistics = {
+            shots: pick('totalShots'),
+            shots_on_goal: pick('shotsOnTarget'),
+            ball_possession: Number.isFinite(raw.possessionPct) ? Math.round(raw.possessionPct) : undefined,
+            fouls: pick('foulsCommitted'),
+            yellow_cards: pick('yellowCards'),
+            red_cards: pick('redCards'),
+            offsides: pick('offsides'),
+            corner_kicks: pick('wonCorners'),
+            saves: pick('saves'),
+            passes: pick('totalPasses'),
+            passes_accurate: pick('accuratePasses'),
+        };
+    }
+
+    for (const roster of summary.rosters || []) {
+        if (!roster.roster?.length) continue;
+        const target = side(roster.team?.id);
+        const player = (p) => ({
+            id: `espn-${p.athlete?.id}`,
+            name: p.athlete?.displayName || '',
+            shirtNumber: p.jersey ? Number(p.jersey) : null,
+            position: p.position?.name || null,
+        });
+        target.formation = roster.formation || null;
+        target.lineup = roster.roster.filter(p => p.starter).map(player);
+        target.bench = roster.roster.filter(p => !p.starter).map(player);
+    }
+
+    // ESPN lists substitutions as key events: participants are [player in, player out]
+    for (const ev of summary.keyEvents || []) {
+        if (!/substitution/i.test(ev.type?.text || '')) continue;
+        const [playerIn, playerOut] = ev.participants || [];
+        if (!playerIn?.athlete || !playerOut?.athlete) continue;
+        const { minute } = parseClock(ev.clock?.displayValue);
+        const team = sideTeam(ev.team?.id);
+        entry.substitutions.push({
+            minute,
+            team: { id: team.id, name: team.name },
+            playerIn: { id: `espn-${playerIn.athlete.id}`, name: playerIn.athlete.displayName },
+            playerOut: { id: `espn-${playerOut.athlete.id}`, name: playerOut.athlete.displayName },
+        });
+    }
+    return entry;
+}
+
 function loadJson(file, fallback) {
     try {
         return JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -165,6 +236,14 @@ async function main() {
     const cache = loadJson(CACHE_FILE, {});
     cache.matches = cache.matches || {};
     cache.checkedDates = cache.checkedDates || {};
+    // Only ESPN entries are kept: the old football-data.org entries never had any stats
+    const stats = loadJson(STATS_FILE, {});
+    for (const code of Object.keys(stats)) {
+        for (const id of Object.keys(stats[code])) {
+            if (stats[code][id]?.source !== 'espn') delete stats[code][id];
+        }
+    }
+    const storeStats = (code, id, entry) => { (stats[code] = stats[code] || {})[id] = entry; };
 
     const now = Date.now();
     const retryCutoff = now - RETRY_DAYS * 24 * 60 * 60 * 1000;
@@ -232,14 +311,49 @@ async function main() {
                 if (isRecent) continue; // ESPN may still be filling in; try again next run
             }
             cache.matches[match.id] = { espnId: event.id, goals, bookings };
+            storeStats(code, match.id, convertStats(summary, match, event));
             added++;
             console.log(`  ✓ ${label}: ${goals.length} goals, ${bookings.length} cards`);
         }
     }
 
+    // Catch up stats for matches that got their goals before stats were added, newest first
+    const statsTodo = [];
+    for (const [code, league] of Object.entries(allLeagues)) {
+        if (!ESPN_LEAGUES[code]) continue;
+        for (const match of league.matches || []) {
+            if (cache.matches[match.id]?.espnId && !stats[code]?.[match.id]) statsTodo.push({ code, match });
+        }
+    }
+    statsTodo.sort((a, b) => b.match.utcDate.localeCompare(a.match.utcDate));
+    console.log(`${statsTodo.length} older matches still missing stats`);
+    let statsCaughtUp = 0;
+    for (const { code, match } of statsTodo.slice(0, STATS_CATCHUP_PER_RUN)) {
+        if (callsMade >= MAX_CALLS_PER_RUN) break;
+        const espnId = cache.matches[match.id].espnId;
+        let summary;
+        try {
+            summary = await espnGet(`${ESPN_LEAGUES[code]}/summary?event=${espnId}`);
+        } catch (error) {
+            console.error(`  ✗ stats ${code} ${match.homeTeam.shortName} v ${match.awayTeam.shortName}: ${error.message}`);
+            continue;
+        }
+        // The summary's header has the same competitors block as the scoreboard event
+        const event = { id: espnId, competitions: summary.header?.competitions || [] };
+        if (!event.competitions[0]?.competitors) continue;
+        storeStats(code, match.id, convertStats(summary, match, event));
+        statsCaughtUp++;
+    }
+    if (statsCaughtUp) console.log(`  ✓ Stats caught up for ${statsCaughtUp} older matches`);
+
     // Drop matches from past seasons, like the other caches do
     for (const id of Object.keys(cache.matches)) {
         if (!currentIds.has(id)) delete cache.matches[id];
+    }
+    for (const code of Object.keys(stats)) {
+        for (const id of Object.keys(stats[code])) {
+            if (!currentIds.has(id)) delete stats[code][id];
+        }
     }
 
     // Merge into all_leagues.json, which fetch_all_leagues.js rewrote without goals
@@ -255,8 +369,9 @@ async function main() {
     }
 
     fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2));
+    fs.writeFileSync(STATS_FILE, JSON.stringify(stats, null, 2));
     fs.writeFileSync(ALL_LEAGUES_FILE, JSON.stringify(allLeagues, null, 2));
-    console.log(`\n=== Done: ${callsMade} ESPN calls, ${added} new matches, ${unmatched} unmatched, ${merged} matches with events ===`);
+    console.log(`\n=== Done: ${callsMade} ESPN calls, ${added} new matches, ${unmatched} unmatched, ${merged} matches with events, ${statsCaughtUp} stats caught up ===`);
 }
 
 main().catch(error => {

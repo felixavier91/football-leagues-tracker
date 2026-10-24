@@ -16,7 +16,8 @@ needs to change manually at the start of every new season.
 GitHub Actions (scheduled)          output/*.json (committed to repo)         index.html (static site)
 ──────────────────────────    →     ──────────────────────────────    →      ──────────────────────
 fetch_all_leagues.js                output/all_leagues.json                  fetch()'d on page load,
-fetch_match_events.js (ESPN)        output/match_events.json → all_leagues
+fetch_match_events.js (ESPN)        output/match_events.json → all_leagues,
+                                    output/match_statistics.json
 fetch_match_statistics.js           output/match_statistics.json             combined client-side into
 fetch_head2head.js                  output/head2head.json                    the match cards, standings,
 youtube_web_scraper.py              output/highlights_database.json          history tab, and video tabs
@@ -40,8 +41,8 @@ triggers a `pages build and deployment` run that republishes the site.
 |---|---|
 | `index.html` | The entire website (HTML + CSS + JS in one file) |
 | `fetch_all_leagues.js` | Fixtures/results for every league → `all_leagues.json` (source of truth) |
-| `fetch_match_events.js` | Goal scorers, assists and cards from ESPN → `match_events.json`, merged into `all_leagues.json` |
-| `fetch_match_statistics.js` | Box-score detail for finished matches → `match_statistics.json` |
+| `fetch_match_events.js` | Goal scorers, assists and cards from ESPN → `match_events.json`, merged into `all_leagues.json`; team stats and lineups → `match_statistics.json` |
+| `fetch_match_statistics.js` | Old football-data.org stats fetcher (switched off, replaced by `fetch_match_events.js`) |
 | `fetch_head2head.js` | Head-to-head history for upcoming matches → `head2head.json` |
 | `youtube_web_scraper.py` | Finds YouTube highlight video IDs → `highlights_database.json` |
 | `fetch_soccer_news.py` | News articles from 101greatgoals RSS → `soccer_news.json` |
@@ -110,9 +111,9 @@ gh workflow run fetch_soccer_news_workflow.yml
 - Also writes one file per league (`output/pl.json`, `output/pd.json`, etc.) —
   not used by `index.html`, just per-league debug/inspection copies.
 
-### 2.1b `fetch_match_events.js` → `output/match_events.json` (+ `all_leagues.json`)
-Goal scorers, assists and cards. football-data.org's free tier doesn't include
-them, so they come from **ESPN's free site API** (`site.api.espn.com`, no key,
+### 2.1b `fetch_match_events.js` → `output/match_events.json`, `output/match_statistics.json` (+ `all_leagues.json`)
+Goal scorers, assists, cards, team stats, lineups and substitutions.
+football-data.org's free tier doesn't include them, so they come from **ESPN's free site API** (`site.api.espn.com`, no key,
 unofficial and undocumented, so it could change without notice).
 
 - Runs as the second step of `update-data.yml`, straight after
@@ -128,6 +129,18 @@ unofficial and undocumented, so it could change without notice).
   `scorer`, `assist`) and `match.bookings[]` (`card` `YELLOW`/`RED`/
   `YELLOW_RED`, `player`, `team`). Player IDs are ESPN's, prefixed `espn-`.
   For own goals `team` is the scorer's own team (ESPN credits the other one).
+- The same summary call also gives the **Stats tab** its data, written to
+  `match_statistics.json` as `{ "PL": { "<matchId>": { source: "espn",
+  espnId, homeTeam: { id, name, statistics, formation, lineup, bench },
+  awayTeam: {...}, substitutions: [{ minute, team, playerIn, playerOut }] } } }`.
+  `statistics` has `shots`, `shots_on_goal`, `ball_possession`, `fouls`,
+  `yellow_cards`, `red_cards`, `offsides`, `corner_kicks` (what the page
+  shows) plus `saves`, `passes`, `passes_accurate`. Entries without
+  `source: "espn"` (left over from the old football-data.org fetcher, none of
+  which had stats) are deleted.
+- **Stats catch-up:** matches that already had goals before stats were added
+  get their stats fetched at most 50 per run, newest first, so the season
+  fills in over about 12 runs (~2 hours) instead of in one big pull.
 - **Cache:** `output/match_events.json` = `{ matches: { "<matchId>": { espnId,
   goals, bookings } }, checkedDates: { "PL|20261018": "<iso time>" } }`. Each
   match is fetched once. Because `fetch_all_leagues.js` rewrites
@@ -136,17 +149,19 @@ unofficial and undocumented, so it could change without notice).
   from the last 3 days is retried on the next run; an older one is cached
   anyway with a warning. A day older than 3 days that was already looked up
   isn't looked up again.
-- At most 200 ESPN calls per run, 0.3 s apart. A normal run makes 0–10. The
-  whole season so far (481 matches) was backfilled in October 2026.
+- At most 200 ESPN calls per run, 1 s apart. A normal run makes 0–10 (plus up
+  to 50 while the stats catch-up is running). Goals for the whole season so
+  far were backfilled in October 2026.
 - Prunes cached matches that are no longer in `all_leagues.json` (past
   seasons). Nothing to change at the start of a season.
 
 ### 2.2 `fetch_match_statistics.js` → `output/match_statistics.json`
-> **Schedule switched off (Oct 2026).** On the free tier `/v4/matches/{id}`
-> returns no statistics, lineups, goals or bookings — none of the 309 stored
-> entries had any — so the Stats tab and lineups never had data to show, and
-> the calls only used up the rate limit. The workflow can still be run by
-> hand; the existing `match_statistics.json` is left as is.
+> **Schedule switched off and replaced (Oct 2026).** On the free tier
+> `/v4/matches/{id}` returns no statistics, lineups, goals or bookings — none
+> of the 309 stored entries had any. `match_statistics.json` is now written by
+> `fetch_match_events.js` from ESPN (§2.1b). Don't run this workflow: it would
+> spend football-data.org calls and overwrite good entries with empty ones
+> (`fetch_match_events.js` would then slowly re-fetch them).
 
 - Reads `all_leagues.json`, finds matches finished in the **last 72 hours**
   (today + yesterday + the day before — wide enough to reliably catch
@@ -338,7 +353,8 @@ Everything you see on the site is built client-side from these objects:
   top scorers / assists / yellow / red card lists) — `match.goals` and
   `match.bookings` inside `all_leagues.json`, filled in by
   `fetch_match_events.js` (§2.1b).
-- **Stats tab** — `matchStatistics[league][match.id]`.
+- **Stats tab and lineups** — `matchStatistics[league][match.id]`, from ESPN
+  via `fetch_match_events.js` (§2.1b).
 - **History tab** — `head2headData[match.id]`.
 - **Videos** — `highlightsDatabase[league][CURRENT_SEASON][matchKey]`, with
   `CURRENT_SEASON` from `getCurrentSeason()` (§4) and `matchKey` built exactly
