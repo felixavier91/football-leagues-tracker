@@ -71,7 +71,7 @@ All cron times in the workflows are **UTC**. `12-23,0-2` UTC is roughly
 |---|---|---|---|
 | `update-data.yml` | `fetch_all_leagues.js`, then `fetch_match_events.js` | Every 10 min (:00, :10, …), hours 12–23 and 0–2 | Yes |
 | `fetch_statistics_workflow.yml` | `fetch_match_statistics.js` | **None — schedule switched off** (see §2.2) | Yes, with `fetch_all` (backfill) |
-| `fetch_head2head_workflow.yml` | `fetch_head2head.js` | **None — schedule switched off** (see §2.3) | Yes, with `fetch_all` (backfill) |
+| `fetch_head2head_workflow.yml` | `fetch_head2head.js` | Once a day at 11:15 | Yes, with `fetch_all` (backfill) |
 | `update-highlights.yml` | `youtube_web_scraper.py` | Every 10 min (:03, :13, …), hours 12–23 and 0–2 | Yes, with `backfill` |
 | `fetch_soccer_news_workflow.yml` | `fetch_soccer_news.py` | Every hour, all day | Yes |
 
@@ -182,9 +182,12 @@ unofficial and undocumented, so it could change without notice).
   leagues off.
 
 ### 2.3 `fetch_head2head.js` → `output/head2head.json`
-> **Schedule switched off (Oct 2026)** to save API calls. The History tab
-> still shows what's already in `head2head.json`; new fixtures get no
-> head-to-head data unless the workflow is run by hand.
+> **Runs once a day at 11:15 UTC** (switched off for a few days in Oct 2026
+> while API calls were cut, then switched back on). That's before the score
+> bot starts at 12:00 and clear of the hourly news run. Because each fixture
+> is fetched only once, a normal day costs about **10 football-data.org
+> calls** (only fixtures newly entering the 7-day window), versus ~720 a day
+> for the score pulls. The workflow rebases before pushing.
 
 - Reads `all_leagues.json`, finds matches kicking off in the **next 7 days**
   (`LOOKAHEAD_DAYS`).

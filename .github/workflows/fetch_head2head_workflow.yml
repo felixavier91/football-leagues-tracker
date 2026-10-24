@@ -1,8 +1,11 @@
 name: Fetch Head2Head Data
 
 on:
-  # Schedule switched off (Oct 2026) to save API calls; the History tab
-  # keeps showing whatever is already in output/head2head.json.
+  # Once a day, before the score bot starts at 12:00 UTC and clear of the
+  # hourly news run at :00. Only fixtures in the next 7 days without saved
+  # data are fetched (~10 football-data.org calls a day).
+  schedule:
+    - cron: '15 11 * * *'
   workflow_dispatch: # Allow manual trigger
     inputs:
       fetch_all:
@@ -50,5 +53,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update head2head data"
+            git pull --rebase
             git push
           fi
