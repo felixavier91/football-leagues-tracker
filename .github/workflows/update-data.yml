@@ -34,7 +34,12 @@ jobs:
           # Update the API key in the script temporarily
           sed -i "s/const API_KEY = .*/const API_KEY = '$API_KEY';/" fetch_all_leagues.js
           node fetch_all_leagues.js
-      
+
+      # Runs right after the scores are pulled: adds goal scorers, assists and
+      # cards from ESPN (no key, no football-data.org calls)
+      - name: Fetch goal scorers and cards
+        run: node fetch_match_events.js
+
       - name: Check if data changed
         id: check_changes
         run: |

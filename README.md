@@ -16,6 +16,7 @@ needs to change manually at the start of every new season.
 GitHub Actions (scheduled)          output/*.json (committed to repo)         index.html (static site)
 ──────────────────────────    →     ──────────────────────────────    →      ──────────────────────
 fetch_all_leagues.js                output/all_leagues.json                  fetch()'d on page load,
+fetch_match_events.js (ESPN)        output/match_events.json → all_leagues
 fetch_match_statistics.js           output/match_statistics.json             combined client-side into
 fetch_head2head.js                  output/head2head.json                    the match cards, standings,
 youtube_web_scraper.py              output/highlights_database.json          history tab, and video tabs
@@ -39,6 +40,7 @@ triggers a `pages build and deployment` run that republishes the site.
 |---|---|
 | `index.html` | The entire website (HTML + CSS + JS in one file) |
 | `fetch_all_leagues.js` | Fixtures/results for every league → `all_leagues.json` (source of truth) |
+| `fetch_match_events.js` | Goal scorers, assists and cards from ESPN → `match_events.json`, merged into `all_leagues.json` |
 | `fetch_match_statistics.js` | Box-score detail for finished matches → `match_statistics.json` |
 | `fetch_head2head.js` | Head-to-head history for upcoming matches → `head2head.json` |
 | `youtube_web_scraper.py` | Finds YouTube highlight video IDs → `highlights_database.json` |
@@ -66,7 +68,7 @@ All cron times in the workflows are **UTC**. `12-23,0-2` UTC is roughly
 
 | Workflow file | Script | Schedule (UTC) | Manual trigger |
 |---|---|---|---|
-| `update-data.yml` | `fetch_all_leagues.js` | Every 10 min (:00, :10, …), hours 12–23 and 0–2 | Yes |
+| `update-data.yml` | `fetch_all_leagues.js`, then `fetch_match_events.js` | Every 10 min (:00, :10, …), hours 12–23 and 0–2 | Yes |
 | `fetch_statistics_workflow.yml` | `fetch_match_statistics.js` | **None — schedule switched off** (see §2.2) | Yes, with `fetch_all` (backfill) |
 | `fetch_head2head_workflow.yml` | `fetch_head2head.js` | **None — schedule switched off** (see §2.3) | Yes, with `fetch_all` (backfill) |
 | `update-highlights.yml` | `youtube_web_scraper.py` | Every 10 min (:03, :13, …), hours 12–23 and 0–2 | Yes, with `backfill` |
@@ -107,6 +109,37 @@ gh workflow run fetch_soccer_news_workflow.yml
   and nothing is committed.
 - Also writes one file per league (`output/pl.json`, `output/pd.json`, etc.) —
   not used by `index.html`, just per-league debug/inspection copies.
+
+### 2.1b `fetch_match_events.js` → `output/match_events.json` (+ `all_leagues.json`)
+Goal scorers, assists and cards. football-data.org's free tier doesn't include
+them, so they come from **ESPN's free site API** (`site.api.espn.com`, no key,
+unofficial and undocumented, so it could change without notice).
+
+- Runs as the second step of `update-data.yml`, straight after
+  `fetch_all_leagues.js`, so a match's scorers appear in the same run that
+  marks it `FINISHED`. Makes **no football-data.org calls**.
+- For each `FINISHED` match not yet in the cache, it gets ESPN's scoreboard
+  for that league and day (`/{league}/scoreboard?dates=YYYYMMDD`, US Eastern
+  date) and picks the ESPN game whose team names and score match best, then
+  gets that game's summary (`/{league}/summary?event=ID`) and converts its
+  key events. ESPN league slugs are in `ESPN_LEAGUES`.
+- Converted into the shape `index.html` already reads: `match.goals[]`
+  (`minute`, `injuryTime`, `type` `REGULAR`/`PENALTY`/`OWN`, `team`,
+  `scorer`, `assist`) and `match.bookings[]` (`card` `YELLOW`/`RED`/
+  `YELLOW_RED`, `player`, `team`). Player IDs are ESPN's, prefixed `espn-`.
+  For own goals `team` is the scorer's own team (ESPN credits the other one).
+- **Cache:** `output/match_events.json` = `{ matches: { "<matchId>": { espnId,
+  goals, bookings } }, checkedDates: { "PL|20261018": "<iso time>" } }`. Each
+  match is fetched once. Because `fetch_all_leagues.js` rewrites
+  `all_leagues.json` without goals, every run merges the cache back in.
+- If ESPN isn't final yet, or its goal count doesn't match the score, a match
+  from the last 3 days is retried on the next run; an older one is cached
+  anyway with a warning. A day older than 3 days that was already looked up
+  isn't looked up again.
+- At most 200 ESPN calls per run, 0.3 s apart. A normal run makes 0–10. The
+  whole season so far (481 matches) was backfilled in October 2026.
+- Prunes cached matches that are no longer in `all_leagues.json` (past
+  seasons). Nothing to change at the start of a season.
 
 ### 2.2 `fetch_match_statistics.js` → `output/match_statistics.json`
 > **Schedule switched off (Oct 2026).** On the free tier `/v4/matches/{id}`
@@ -301,6 +334,10 @@ Everything you see on the site is built client-side from these objects:
   match is pre-seeded at 0 points, so the table is complete from day one.
 - **Champions League standings** — hidden once `match.matchday > 8` (the
   league phase has 8 matchdays; after that it's knockouts).
+- **Goal scorers, assists and cards** (match timeline in the modal, and the
+  top scorers / assists / yellow / red card lists) — `match.goals` and
+  `match.bookings` inside `all_leagues.json`, filled in by
+  `fetch_match_events.js` (§2.1b).
 - **Stats tab** — `matchStatistics[league][match.id]`.
 - **History tab** — `head2headData[match.id]`.
 - **Videos** — `highlightsDatabase[league][CURRENT_SEASON][matchKey]`, with
@@ -393,10 +430,13 @@ changed yet. This is expected; the old season is over by then.
 
 ## 6. Known gaps / things worth revisiting
 
-- **Old API key is public in git history.** `fetch_match_statistics.js` used
-  to hard-code a key; it now reads `FOOTBALL_API_KEY`, but the old key is
-  still in the history of this public repo, so it must be replaced with a new
-  one at football-data.org.
+- **Old API key in a leftover PR ref.** `fetch_match_statistics.js` used to
+  hard-code a key. In October 2026 `main` was squashed into a single fresh
+  commit to remove it, but the old commits still exist behind closed PR #1
+  (only GitHub Support can delete those).
+- **ESPN feed is unofficial.** If ESPN changes or blocks its site API,
+  `fetch_match_events.js` logs errors and the site simply keeps the scorers it
+  already has; new matches show no scorers until it's fixed.
 - **Primeira Liga highlights are mostly missing.** The GolTV-style title rule
   (§2.4) matches almost nothing in current search results; about 65 PPL
   matches this season have no video.
@@ -412,10 +452,11 @@ changed yet. This is expected; the old season is over by then.
   finished-matches filter decides "has a video" from the legacy `videoId`
   field, which is now always `null`. Harmless today (finished matches show
   anyway), but it should check `videoIds` too.
-- **Repo history is very large (~3.7 GB).** Every bot commit rewrites
-  multi-megabyte JSON files (`all_leagues.json` is ~4 MB and changes every
-  10 minutes), and git keeps every version. A fresh `git clone` takes a long
-  time; `git clone --depth 1` avoids that if you don't need history.
+- **Repo history grows fast.** Every bot commit rewrites multi-megabyte JSON
+  files (`all_leagues.json` is ~4 MB and changes every 10 minutes), and git
+  keeps every version. It reached ~3.7 GB before the October 2026 squash and
+  will grow again; `git clone --depth 1` avoids the download if you don't
+  need history.
 - **Highlights match keys are name + date**, not match ID. If the API changes
   a team's name string mid-season, that match's videos stop showing until
   they're scraped again under the new key.
