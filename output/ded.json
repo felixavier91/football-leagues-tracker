@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2026-08-07",
     "last": "2027-05-23",
-    "played": 88
+    "played": 89
   },
   "competition": {
     "id": 2003,
@@ -5847,11 +5847,11 @@
       },
       "id": 558856,
       "utcDate": "2026-10-25T15:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 10,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-10-25T15:57:10Z",
+      "lastUpdated": "2026-10-25T17:47:33Z",
       "homeTeam": {
         "id": 6806,
         "name": "Sparta Rotterdam",
@@ -5867,15 +5867,15 @@
         "crest": "https://crests.football-data.org/678.png"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         }
       },
       "odds": {
@@ -5947,7 +5947,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 81350,
+          "name": "Alex Bos",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
