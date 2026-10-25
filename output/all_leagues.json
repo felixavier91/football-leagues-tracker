@@ -12769,7 +12769,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T16:01:58Z",
+        "lastUpdated": "2026-10-25T19:25:08Z",
         "homeTeam": {
           "id": 64,
           "name": "Liverpool FC",
@@ -12896,7 +12896,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T16:01:57Z",
+        "lastUpdated": "2026-10-25T19:25:08Z",
         "homeTeam": {
           "id": 354,
           "name": "Crystal Palace FC",
@@ -13078,7 +13078,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T16:00:22Z",
+        "lastUpdated": "2026-10-25T19:25:08Z",
         "homeTeam": {
           "id": 66,
           "name": "Manchester United FC",
@@ -13264,7 +13264,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T15:58:45Z",
+        "lastUpdated": "2026-10-25T19:25:08Z",
         "homeTeam": {
           "id": 322,
           "name": "Hull City AFC",
@@ -13378,7 +13378,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T18:30:46Z",
+        "lastUpdated": "2026-10-25T19:25:08Z",
         "homeTeam": {
           "id": 71,
           "name": "Sunderland AFC",
@@ -48439,11 +48439,11 @@
         },
         "id": 564726,
         "utcDate": "2026-10-25T17:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T18:54:13Z",
+        "lastUpdated": "2026-10-25T19:28:54Z",
         "homeTeam": {
           "id": 92,
           "name": "Real Sociedad de Fútbol",
@@ -48480,6 +48480,110 @@
             "type": "REFEREE",
             "nationality": null
           }
+        ],
+        "goals": [
+          {
+            "minute": 6,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 92,
+              "name": "Real Sociedad de Fútbol"
+            },
+            "scorer": {
+              "id": "espn-341367",
+              "name": "Orri Óskarsson"
+            },
+            "assist": null
+          },
+          {
+            "minute": 22,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 88,
+              "name": "Levante UD"
+            },
+            "scorer": {
+              "id": "espn-409383",
+              "name": "Nacho Pérez"
+            },
+            "assist": {
+              "id": "espn-339195",
+              "name": "Thiago Fernandez"
+            }
+          },
+          {
+            "minute": 27,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 92,
+              "name": "Real Sociedad de Fútbol"
+            },
+            "scorer": {
+              "id": "espn-297371",
+              "name": "Beñat Turrientes"
+            },
+            "assist": {
+              "id": "espn-213141",
+              "name": "Gonçalo Guedes"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 64,
+            "injuryTime": null,
+            "team": {
+              "id": 92,
+              "name": "Real Sociedad de Fútbol"
+            },
+            "player": {
+              "id": "espn-366885",
+              "name": "Jon Martín"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 75,
+            "injuryTime": null,
+            "team": {
+              "id": 88,
+              "name": "Levante UD"
+            },
+            "player": {
+              "id": "espn-300985",
+              "name": "Manu Sánchez"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 81,
+            "injuryTime": null,
+            "team": {
+              "id": 88,
+              "name": "Levante UD"
+            },
+            "player": {
+              "id": "espn-3102194",
+              "name": "Yanis Kasonga Musuayi"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 87,
+            "injuryTime": null,
+            "team": {
+              "id": 88,
+              "name": "Levante UD"
+            },
+            "player": {
+              "id": "espn-203680",
+              "name": "Víctor García"
+            },
+            "card": "YELLOW"
+          }
         ]
       },
       {
@@ -48505,11 +48609,11 @@
         },
         "id": 564723,
         "utcDate": "2026-10-25T20:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T00:20:24Z",
+        "lastUpdated": "2026-10-25T21:36:21Z",
         "homeTeam": {
           "id": 81,
           "name": "FC Barcelona",
@@ -48525,15 +48629,15 @@
           "crest": "https://crests.football-data.org/86.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
@@ -75368,7 +75472,7 @@
         "matchday": 7,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T00:20:24Z",
+        "lastUpdated": "2026-10-25T19:25:01Z",
         "homeTeam": {
           "id": 29,
           "name": "SC Paderborn 07",
@@ -75773,7 +75877,7 @@
         "matchday": 7,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T16:36:06Z",
+        "lastUpdated": "2026-10-25T19:25:01Z",
         "homeTeam": {
           "id": 2,
           "name": "TSG 1899 Hoffenheim",
@@ -75992,7 +76096,7 @@
         "matchday": 7,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T18:31:49Z",
+        "lastUpdated": "2026-10-25T19:25:01Z",
         "homeTeam": {
           "id": 17,
           "name": "SC Freiburg",
@@ -102670,7 +102774,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T13:38:30Z",
+        "lastUpdated": "2026-10-25T13:38:29Z",
         "homeTeam": {
           "id": 108,
           "name": "FC Internazionale Milano",
@@ -103188,11 +103292,11 @@
         },
         "id": 558566,
         "utcDate": "2026-10-25T17:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T18:54:13Z",
+        "lastUpdated": "2026-10-25T19:07:34Z",
         "homeTeam": {
           "id": 5890,
           "name": "US Lecce",
@@ -103229,6 +103333,70 @@
             "type": "REFEREE",
             "nationality": "Italy"
           }
+        ],
+        "goals": [
+          {
+            "minute": 29,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 109,
+              "name": "Juventus FC"
+            },
+            "scorer": {
+              "id": "espn-256715",
+              "name": "Weston McKennie"
+            },
+            "assist": {
+              "id": "espn-320074",
+              "name": "Douglas Luiz"
+            }
+          },
+          {
+            "minute": 41,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 109,
+              "name": "Juventus FC"
+            },
+            "scorer": {
+              "id": "espn-320074",
+              "name": "Douglas Luiz"
+            },
+            "assist": {
+              "id": "espn-323147",
+              "name": "Federico Gatti"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 76,
+            "injuryTime": null,
+            "team": {
+              "id": 5890,
+              "name": "US Lecce"
+            },
+            "player": {
+              "id": "espn-318604",
+              "name": "Kialonda Gaspar"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 4,
+            "team": {
+              "id": 5890,
+              "name": "US Lecce"
+            },
+            "player": {
+              "id": "espn-318604",
+              "name": "Kialonda Gaspar"
+            },
+            "card": "RED"
+          }
         ]
       },
       {
@@ -103254,11 +103422,11 @@
         },
         "id": 558559,
         "utcDate": "2026-10-25T19:45:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T01:32:01Z",
+        "lastUpdated": "2026-10-25T21:36:21Z",
         "homeTeam": {
           "id": 115,
           "name": "Udinese Calcio",
@@ -103274,15 +103442,15 @@
           "crest": "https://crests.football-data.org/98.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
@@ -131793,7 +131961,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T16:03:02Z",
+        "lastUpdated": "2026-10-25T19:25:07Z",
         "homeTeam": {
           "id": 548,
           "name": "AS Monaco FC",
@@ -132001,7 +132169,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T18:22:14Z",
+        "lastUpdated": "2026-10-25T19:25:07Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -132230,7 +132398,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T18:16:54Z",
+        "lastUpdated": "2026-10-25T19:25:07Z",
         "homeTeam": {
           "id": 529,
           "name": "Stade Rennais FC 1901",
@@ -132403,7 +132571,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T18:11:33Z",
+        "lastUpdated": "2026-10-25T19:25:07Z",
         "homeTeam": {
           "id": 532,
           "name": "Angers SCO",
@@ -132498,7 +132666,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T18:12:37Z",
+        "lastUpdated": "2026-10-25T19:25:07Z",
         "homeTeam": {
           "id": 511,
           "name": "Toulouse FC",
@@ -132671,7 +132839,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T18:17:57Z",
+        "lastUpdated": "2026-10-25T19:25:07Z",
         "homeTeam": {
           "id": 519,
           "name": "AJ Auxerre",
@@ -159727,7 +159895,7 @@
         "matchday": 9,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T17:32:05Z",
+        "lastUpdated": "2026-10-25T17:32:06Z",
         "homeTeam": {
           "id": 582,
           "name": "GD Estoril Praia",
@@ -159901,11 +160069,11 @@
         },
         "id": 567330,
         "utcDate": "2026-10-25T18:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 9,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T18:53:41Z",
+        "lastUpdated": "2026-10-25T20:01:25Z",
         "homeTeam": {
           "id": 496,
           "name": "Rio Ave FC",
@@ -159921,11 +160089,11 @@
           "crest": "https://crests.football-data.org/5531.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 4
           },
           "halfTime": {
             "home": 0,
@@ -159941,6 +160109,114 @@
             "name": "Hélder Carvalho",
             "type": "REFEREE",
             "nationality": "Portugal"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 48,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5531,
+              "name": "FC Famalicão"
+            },
+            "scorer": {
+              "id": "espn-362774",
+              "name": "Roméo Beney"
+            },
+            "assist": {
+              "id": "espn-366785",
+              "name": "Rodrigo Pinheiro"
+            }
+          },
+          {
+            "minute": 80,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5531,
+              "name": "FC Famalicão"
+            },
+            "scorer": {
+              "id": "espn-370133",
+              "name": "Pedro Santos"
+            },
+            "assist": {
+              "id": "espn-314606",
+              "name": "Sorriso"
+            }
+          },
+          {
+            "minute": 85,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5531,
+              "name": "FC Famalicão"
+            },
+            "scorer": {
+              "id": "espn-297368",
+              "name": "Óscar Aranda"
+            },
+            "assist": {
+              "id": "espn-370133",
+              "name": "Pedro Santos"
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 5,
+            "type": "PENALTY",
+            "team": {
+              "id": 5531,
+              "name": "FC Famalicão"
+            },
+            "scorer": {
+              "id": "espn-297368",
+              "name": "Óscar Aranda"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 42,
+            "injuryTime": null,
+            "team": {
+              "id": 496,
+              "name": "Rio Ave FC"
+            },
+            "player": {
+              "id": "espn-3125446",
+              "name": "Miguel Patrício"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 80,
+            "injuryTime": null,
+            "team": {
+              "id": 496,
+              "name": "Rio Ave FC"
+            },
+            "player": {
+              "id": "espn-304634",
+              "name": "Zé Carlos"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 3,
+            "team": {
+              "id": 496,
+              "name": "Rio Ave FC"
+            },
+            "player": {
+              "id": "espn-358393",
+              "name": "Francisco Petrasso"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -159967,11 +160243,11 @@
         },
         "id": 567334,
         "utcDate": "2026-10-25T18:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 9,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T18:54:45Z",
+        "lastUpdated": "2026-10-25T20:05:42Z",
         "homeTeam": {
           "id": 5529,
           "name": "CD Nacional",
@@ -159994,8 +160270,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
@@ -160007,6 +160283,79 @@
             "name": "José Bessa",
             "type": "REFEREE",
             "nationality": "Portugal"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 19,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5529,
+              "name": "CD Nacional"
+            },
+            "scorer": {
+              "id": "espn-306580",
+              "name": "Miguel Baeza"
+            },
+            "assist": {
+              "id": "espn-316511",
+              "name": "Song Min-Kyu"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 33,
+            "injuryTime": null,
+            "team": {
+              "id": 5529,
+              "name": "CD Nacional"
+            },
+            "player": {
+              "id": "espn-351581",
+              "name": "Francisco Gonçalves"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 79,
+            "injuryTime": null,
+            "team": {
+              "id": 5613,
+              "name": "Sporting Clube de Braga"
+            },
+            "player": {
+              "id": "espn-310231",
+              "name": "Sergio Barcia"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 86,
+            "injuryTime": null,
+            "team": {
+              "id": 5529,
+              "name": "CD Nacional"
+            },
+            "player": {
+              "id": "espn-305923",
+              "name": "Stavros Gavriel"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 4,
+            "team": {
+              "id": 5613,
+              "name": "Sporting Clube de Braga"
+            },
+            "player": {
+              "id": "espn-324930",
+              "name": "Gustaf Lagerbielke"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -160033,11 +160382,11 @@
         },
         "id": 567332,
         "utcDate": "2026-10-25T20:30:00Z",
-        "status": "TIMED",
+        "status": "PAUSED",
         "matchday": 9,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T01:32:01Z",
+        "lastUpdated": "2026-10-25T21:34:45Z",
         "homeTeam": {
           "id": 498,
           "name": "Sporting Clube de Portugal",
@@ -160053,15 +160402,15 @@
           "crest": "https://crests.football-data.org/5527.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
@@ -188483,11 +188832,11 @@
         },
         "id": 558855,
         "utcDate": "2026-10-25T19:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T00:20:24Z",
+        "lastUpdated": "2026-10-25T20:57:57Z",
         "homeTeam": {
           "id": 682,
           "name": "AZ",
@@ -188503,15 +188852,15 @@
           "crest": "https://crests.football-data.org/666.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -188523,6 +188872,122 @@
             "name": "Alex Bos",
             "type": "REFEREE",
             "nationality": "Netherlands"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 84,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "scorer": {
+              "id": "espn-379956",
+              "name": "Sondre Ørjasaeter"
+            },
+            "assist": {
+              "id": "espn-324583",
+              "name": "Younes Taha"
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 3,
+            "type": "REGULAR",
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "scorer": {
+              "id": "espn-379839",
+              "name": "Lucas Vennegoor Of Hesselink"
+            },
+            "assist": {
+              "id": "espn-207780",
+              "name": "Joel Drommel"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 4,
+            "injuryTime": null,
+            "team": {
+              "id": 682,
+              "name": "AZ"
+            },
+            "player": {
+              "id": "espn-338775",
+              "name": "Ro-Zangelo Daal"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 19,
+            "injuryTime": null,
+            "team": {
+              "id": 682,
+              "name": "AZ"
+            },
+            "player": {
+              "id": "espn-343924",
+              "name": "Elijah Dijkstra"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 43,
+            "injuryTime": null,
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "player": {
+              "id": "espn-169050",
+              "name": "Robin Pröpper"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 50,
+            "injuryTime": null,
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "player": {
+              "id": "espn-345579",
+              "name": "Daouda Weidmann"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 70,
+            "injuryTime": null,
+            "team": {
+              "id": 682,
+              "name": "AZ"
+            },
+            "player": {
+              "id": "espn-389354",
+              "name": "Ayoub Oufkir"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 88,
+            "injuryTime": null,
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "player": {
+              "id": "espn-345579",
+              "name": "Daouda Weidmann"
+            },
+            "card": "RED"
           }
         ]
       },
