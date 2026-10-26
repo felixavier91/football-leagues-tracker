@@ -346,9 +346,14 @@ def search_youtube_web(driver, query, match_date, home_team, away_team, league_c
                         print(f"  ⏭️  Skipping (Primeira Liga prefers Spanish titles, not generic highlights): {video_title}")
                         continue
                 
-                # Premier League videos must have "NBC Sports" AND "Premier League Highlights" in title
+                # Premier League videos must be from NBC Sports AND have "Premier League Highlights" in title
+                # NBC dropped "| NBC Sports" from titles in Oct 2026, so also accept the @NBCSports channel
                 if league_code == "PL":
-                    if "nbc sports" not in video_title_lower:
+                    is_nbc_channel = any(
+                        "/@nbcsports" in (link.get_attribute("href") or "").lower()
+                        for link in renderer.find_elements(By.CSS_SELECTOR, "a[href*='/@']")
+                    )
+                    if "nbc sports" not in video_title_lower and not is_nbc_channel:
                         print(f"  ⏭️  Skipping (Premier League requires NBC Sports): {video_title}")
                         continue
                     if "premier league highlights" not in video_title_lower:
