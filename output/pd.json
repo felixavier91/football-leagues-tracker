@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2026-08-15",
     "last": "2027-05-30",
-    "played": 99
+    "played": 100
   },
   "competition": {
     "id": 2014,
@@ -6454,11 +6454,11 @@
       },
       "id": 564737,
       "utcDate": "2026-10-30T20:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 11,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-10-30T00:20:30Z",
+      "lastUpdated": "2026-10-30T21:58:43Z",
       "homeTeam": {
         "id": 94,
         "name": "Villarreal CF",
@@ -6474,21 +6474,28 @@
         "crest": "https://crests.football-data.org/80.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 207080,
+          "name": "José Sánchez Martínez",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {

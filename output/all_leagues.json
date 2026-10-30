@@ -48882,11 +48882,11 @@
         },
         "id": 564737,
         "utcDate": "2026-10-30T20:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-30T00:20:30Z",
+        "lastUpdated": "2026-10-30T21:58:43Z",
         "homeTeam": {
           "id": 94,
           "name": "Villarreal CF",
@@ -48902,21 +48902,127 @@
           "crest": "https://crests.football-data.org/80.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 207080,
+            "name": "José Sánchez Martínez",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 60,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 80,
+              "name": "RCD Espanyol de Barcelona"
+            },
+            "scorer": {
+              "id": "espn-133259",
+              "name": "Leandro Cabrera"
+            },
+            "assist": {
+              "id": "espn-311571",
+              "name": "Bryan Zaragoza"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 21,
+            "injuryTime": null,
+            "team": {
+              "id": 80,
+              "name": "RCD Espanyol de Barcelona"
+            },
+            "player": {
+              "id": "espn-383900",
+              "name": "Rafael Bauza"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 41,
+            "injuryTime": null,
+            "team": {
+              "id": 80,
+              "name": "RCD Espanyol de Barcelona"
+            },
+            "player": {
+              "id": "espn-401377",
+              "name": "Roger Hinojo"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 53,
+            "injuryTime": null,
+            "team": {
+              "id": 94,
+              "name": "Villarreal CF"
+            },
+            "player": {
+              "id": "espn-289072",
+              "name": "Sergi Cardona"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 56,
+            "injuryTime": null,
+            "team": {
+              "id": 94,
+              "name": "Villarreal CF"
+            },
+            "player": {
+              "id": "espn-240623",
+              "name": "Santi Comesaña"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 75,
+            "injuryTime": null,
+            "team": {
+              "id": 80,
+              "name": "RCD Espanyol de Barcelona"
+            },
+            "player": {
+              "id": "espn-311571",
+              "name": "Bryan Zaragoza"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 1,
+            "team": {
+              "id": 94,
+              "name": "Villarreal CF"
+            },
+            "player": {
+              "id": "espn-415438",
+              "name": "Carlos Macià"
+            },
+            "card": "YELLOW"
+          }
+        ]
       },
       {
         "area": {
@@ -76490,11 +76596,11 @@
         },
         "id": 565846,
         "utcDate": "2026-10-30T19:30:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-30T00:20:29Z",
+        "lastUpdated": "2026-10-30T21:38:15Z",
         "homeTeam": {
           "id": 719,
           "name": "SV 07 Elversberg",
@@ -76510,15 +76616,15 @@
           "crest": "https://crests.football-data.org/15.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 4,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 3,
+            "away": 0
           }
         },
         "odds": {
@@ -76530,6 +76636,151 @@
             "name": "Sascha Stegemann",
             "type": "REFEREE",
             "nationality": "Germany"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 7,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 719,
+              "name": "SV 07 Elversberg"
+            },
+            "scorer": {
+              "id": "espn-340739",
+              "name": "Felix Keidel"
+            },
+            "assist": null
+          },
+          {
+            "minute": 26,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 719,
+              "name": "SV 07 Elversberg"
+            },
+            "scorer": {
+              "id": "espn-379180",
+              "name": "Francis-Ikechukwu Onyeka"
+            },
+            "assist": {
+              "id": "espn-398004",
+              "name": "David Mokwa"
+            }
+          },
+          {
+            "minute": 45,
+            "injuryTime": 1,
+            "type": "REGULAR",
+            "team": {
+              "id": 719,
+              "name": "SV 07 Elversberg"
+            },
+            "scorer": {
+              "id": "espn-358496",
+              "name": "Maurice Krattenmacher"
+            },
+            "assist": null
+          },
+          {
+            "minute": 90,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 719,
+              "name": "SV 07 Elversberg"
+            },
+            "scorer": {
+              "id": "espn-379024",
+              "name": "Cole Campbell"
+            },
+            "assist": {
+              "id": "espn-275987",
+              "name": "Nicholas Mickelson"
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 2,
+            "type": "REGULAR",
+            "team": {
+              "id": 15,
+              "name": "1. FSV Mainz 05"
+            },
+            "scorer": {
+              "id": "espn-307515",
+              "name": "Benedict Hollerbach"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 4,
+            "injuryTime": null,
+            "team": {
+              "id": 15,
+              "name": "1. FSV Mainz 05"
+            },
+            "player": {
+              "id": "espn-239574",
+              "name": "Phillipp Mwene"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 33,
+            "injuryTime": null,
+            "team": {
+              "id": 15,
+              "name": "1. FSV Mainz 05"
+            },
+            "player": {
+              "id": "espn-154603",
+              "name": "Danny da Costa"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 75,
+            "injuryTime": null,
+            "team": {
+              "id": 15,
+              "name": "1. FSV Mainz 05"
+            },
+            "player": {
+              "id": "espn-300961",
+              "name": "Ransford-Yeboah Königsdörffer"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 85,
+            "injuryTime": null,
+            "team": {
+              "id": 15,
+              "name": "1. FSV Mainz 05"
+            },
+            "player": {
+              "id": "espn-238906",
+              "name": "Stefan Posch"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 5,
+            "team": {
+              "id": 15,
+              "name": "1. FSV Mainz 05"
+            },
+            "player": {
+              "id": "espn-238906",
+              "name": "Stefan Posch"
+            },
+            "card": "RED"
           }
         ]
       },
@@ -134529,11 +134780,11 @@
         },
         "id": 559644,
         "utcDate": "2026-10-30T18:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 9,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-30T00:20:30Z",
+        "lastUpdated": "2026-10-30T19:59:47Z",
         "homeTeam": {
           "id": 533,
           "name": "Le Havre AC",
@@ -134549,15 +134800,15 @@
           "crest": "https://crests.football-data.org/524.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 5
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 2
           }
         },
         "odds": {
@@ -134570,7 +134821,106 @@
             "type": "REFEREE",
             "nationality": "France"
           }
-        ]
+        ],
+        "goals": [
+          {
+            "minute": 18,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 533,
+              "name": "Le Havre AC"
+            },
+            "scorer": {
+              "id": "espn-243514",
+              "name": "Josh Maja"
+            },
+            "assist": {
+              "id": "espn-401045",
+              "name": "Rayan Fofana"
+            }
+          },
+          {
+            "minute": 26,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 524,
+              "name": "Paris Saint-Germain FC"
+            },
+            "scorer": {
+              "id": "espn-353363",
+              "name": "Mika Godts"
+            },
+            "assist": {
+              "id": "espn-240233",
+              "name": "Achraf Hakimi"
+            }
+          },
+          {
+            "minute": 28,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 524,
+              "name": "Paris Saint-Germain FC"
+            },
+            "scorer": {
+              "id": "espn-240233",
+              "name": "Achraf Hakimi"
+            },
+            "assist": {
+              "id": "espn-379088",
+              "name": "Senny Mayulu"
+            }
+          },
+          {
+            "minute": 55,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 524,
+              "name": "Paris Saint-Germain FC"
+            },
+            "scorer": {
+              "id": "espn-240233",
+              "name": "Achraf Hakimi"
+            },
+            "assist": null
+          },
+          {
+            "minute": 62,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 524,
+              "name": "Paris Saint-Germain FC"
+            },
+            "scorer": {
+              "id": "espn-379088",
+              "name": "Senny Mayulu"
+            },
+            "assist": {
+              "id": "espn-240233",
+              "name": "Achraf Hakimi"
+            }
+          },
+          {
+            "minute": 69,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 524,
+              "name": "Paris Saint-Germain FC"
+            },
+            "scorer": {
+              "id": "espn-240233",
+              "name": "Achraf Hakimi"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": []
       },
       {
         "area": {
@@ -134595,11 +134945,11 @@
         },
         "id": 559646,
         "utcDate": "2026-10-30T18:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 9,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-30T00:20:30Z",
+        "lastUpdated": "2026-10-30T20:02:27Z",
         "homeTeam": {
           "id": 522,
           "name": "OGC Nice",
@@ -134615,15 +134965,15 @@
           "crest": "https://crests.football-data.org/529.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 5,
+            "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 3,
+            "away": 1
           }
         },
         "odds": {
@@ -134635,6 +134985,211 @@
             "name": "Eric Wattellier",
             "type": "REFEREE",
             "nationality": "France"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 12,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 522,
+              "name": "OGC Nice"
+            },
+            "scorer": {
+              "id": "espn-311118",
+              "name": "Elye Wahi"
+            },
+            "assist": null
+          },
+          {
+            "minute": 15,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 529,
+              "name": "Stade Rennais FC 1901"
+            },
+            "scorer": {
+              "id": "espn-243844",
+              "name": "Sebastian Szymanski"
+            },
+            "assist": {
+              "id": "espn-372260",
+              "name": "Mahamadou Nagida"
+            }
+          },
+          {
+            "minute": 34,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 522,
+              "name": "OGC Nice"
+            },
+            "scorer": {
+              "id": "espn-311118",
+              "name": "Elye Wahi"
+            },
+            "assist": null
+          },
+          {
+            "minute": 45,
+            "injuryTime": 2,
+            "type": "REGULAR",
+            "team": {
+              "id": 522,
+              "name": "OGC Nice"
+            },
+            "scorer": {
+              "id": "espn-232089",
+              "name": "Jonathan Clauss"
+            },
+            "assist": {
+              "id": "espn-311118",
+              "name": "Elye Wahi"
+            }
+          },
+          {
+            "minute": 52,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 522,
+              "name": "OGC Nice"
+            },
+            "scorer": {
+              "id": "espn-315384",
+              "name": "Mohamed Amoura"
+            },
+            "assist": {
+              "id": "espn-276995",
+              "name": "Sofiane Diop"
+            }
+          },
+          {
+            "minute": 58,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 529,
+              "name": "Stade Rennais FC 1901"
+            },
+            "scorer": {
+              "id": "espn-282381",
+              "name": "Boulaye Dia"
+            },
+            "assist": null
+          },
+          {
+            "minute": 73,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 522,
+              "name": "OGC Nice"
+            },
+            "scorer": {
+              "id": "espn-311118",
+              "name": "Elye Wahi"
+            },
+            "assist": {
+              "id": "espn-239905",
+              "name": "Gauthier Hein"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 61,
+            "injuryTime": null,
+            "team": {
+              "id": 529,
+              "name": "Stade Rennais FC 1901"
+            },
+            "player": {
+              "id": "espn-291614",
+              "name": "Anthony Rouault"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 62,
+            "injuryTime": null,
+            "team": {
+              "id": 522,
+              "name": "OGC Nice"
+            },
+            "player": {
+              "id": "espn-311118",
+              "name": "Elye Wahi"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 84,
+            "injuryTime": null,
+            "team": {
+              "id": 529,
+              "name": "Stade Rennais FC 1901"
+            },
+            "player": {
+              "id": "espn-307713",
+              "name": "Charlie Cresswell"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 84,
+            "injuryTime": null,
+            "team": {
+              "id": 522,
+              "name": "OGC Nice"
+            },
+            "player": {
+              "id": "espn-236957",
+              "name": "Mohamed Abdelmoneim"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 84,
+            "injuryTime": null,
+            "team": {
+              "id": 529,
+              "name": "Stade Rennais FC 1901"
+            },
+            "player": {
+              "id": "espn-268966",
+              "name": "Mahdi Camara"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 84,
+            "injuryTime": null,
+            "team": {
+              "id": 522,
+              "name": "OGC Nice"
+            },
+            "player": {
+              "id": "espn-255192",
+              "name": "Youssouf Ndayishimiye"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 88,
+            "injuryTime": null,
+            "team": {
+              "id": 522,
+              "name": "OGC Nice"
+            },
+            "player": {
+              "id": "espn-315384",
+              "name": "Mohamed Amoura"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -134661,11 +135216,11 @@
         },
         "id": 559639,
         "utcDate": "2026-10-30T20:05:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 9,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-30T00:20:30Z",
+        "lastUpdated": "2026-10-30T22:02:27Z",
         "homeTeam": {
           "id": 521,
           "name": "Lille OSC",
@@ -134681,21 +135236,59 @@
           "crest": "https://crests.football-data.org/546.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 15548,
+            "name": "Jérôme Brisard",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 86,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 521,
+              "name": "Lille OSC"
+            },
+            "scorer": {
+              "id": "espn-88965",
+              "name": "Olivier Giroud"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 10,
+            "injuryTime": null,
+            "team": {
+              "id": 546,
+              "name": "Racing Club de Lens"
+            },
+            "player": {
+              "id": "espn-286011",
+              "name": "Saud Abdulhamid"
+            },
+            "card": "YELLOW"
+          }
+        ]
       },
       {
         "area": {
@@ -162335,11 +162928,11 @@
         },
         "id": 567344,
         "utcDate": "2026-10-30T20:15:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-30T00:20:30Z",
+        "lastUpdated": "2026-10-30T22:12:35Z",
         "homeTeam": {
           "id": 6618,
           "name": "Casa Pia AC",
@@ -162355,21 +162948,28 @@
           "crest": "https://crests.football-data.org/498.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 242513,
+            "name": "Miguel Fonseca",
+            "type": "REFEREE",
+            "nationality": "Portugal"
+          }
+        ]
       },
       {
         "area": {
