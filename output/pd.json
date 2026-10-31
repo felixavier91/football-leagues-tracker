@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2026-08-15",
     "last": "2027-05-30",
-    "played": 101
+    "played": 103
   },
   "competition": {
     "id": 2014,
@@ -6586,11 +6586,11 @@
       },
       "id": 564735,
       "utcDate": "2026-10-31T15:15:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 11,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-10-31T17:08:35Z",
+      "lastUpdated": "2026-10-31T17:19:15Z",
       "homeTeam": {
         "id": 87,
         "name": "Rayo Vallecano de Madrid",
@@ -6652,11 +6652,11 @@
       },
       "id": 564736,
       "utcDate": "2026-10-31T17:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 11,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-10-31T00:20:27Z",
+      "lastUpdated": "2026-10-31T19:35:15Z",
       "homeTeam": {
         "id": 90,
         "name": "Real Betis Balompié",
@@ -6672,15 +6672,15 @@
         "crest": "https://crests.football-data.org/84.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "odds": {
@@ -6718,11 +6718,11 @@
       },
       "id": 564732,
       "utcDate": "2026-10-31T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 11,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-10-31T00:20:27Z",
+      "lastUpdated": "2026-10-31T20:28:03Z",
       "homeTeam": {
         "id": 81,
         "name": "FC Barcelona",
@@ -6738,11 +6738,11 @@
         "crest": "https://crests.football-data.org/263.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -6752,7 +6752,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 206205,
+          "name": "Adrián Cordero Vega",
+          "type": "REFEREE",
+          "nationality": "Spain"
+        }
+      ]
     },
     {
       "area": {
