@@ -5402,11 +5402,11 @@
       },
       "id": 567343,
       "utcDate": "2026-10-31T15:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 10,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-10-31T00:20:28Z",
+      "lastUpdated": "2026-10-31T17:09:39Z",
       "homeTeam": {
         "id": 583,
         "name": "Moreirense FC",
@@ -5422,21 +5422,28 @@
         "crest": "https://crests.football-data.org/9136.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 38806,
+          "name": "João Pinheiro",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
