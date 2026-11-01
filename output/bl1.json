@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2026-08-28",
     "last": "2027-05-22",
-    "played": 70
+    "played": 71
   },
   "competition": {
     "id": 2002,
@@ -4665,11 +4665,11 @@
       },
       "id": 565841,
       "utcDate": "2026-11-01T14:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 8,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-01T01:32:01Z",
+      "lastUpdated": "2026-11-01T16:26:27Z",
       "homeTeam": {
         "id": 28,
         "name": "1. FC Union Berlin",
@@ -4685,21 +4685,28 @@
         "crest": "https://crests.football-data.org/1.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 65990,
+          "name": "Richard Hempel",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        }
+      ]
     },
     {
       "area": {
@@ -4724,11 +4731,11 @@
       },
       "id": 565844,
       "utcDate": "2026-11-01T16:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 8,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-01T01:32:01Z",
+      "lastUpdated": "2026-11-01T17:50:43Z",
       "homeTeam": {
         "id": 19,
         "name": "Eintracht Frankfurt",
@@ -4744,21 +4751,28 @@
         "crest": "https://crests.football-data.org/7.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 58466,
+          "name": "Florian Exner",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        }
+      ]
     },
     {
       "area": {

@@ -14830,7 +14830,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11423,
+            "name": "Andy Madley",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
       },
       {
         "area": {
@@ -50567,11 +50574,11 @@
         },
         "id": 564733,
         "utcDate": "2026-11-01T13:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T00:20:34Z",
+        "lastUpdated": "2026-11-01T15:06:27Z",
         "homeTeam": {
           "id": 82,
           "name": "Getafe CF",
@@ -50587,21 +50594,191 @@
           "crest": "https://crests.football-data.org/559.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 3,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 56995,
+            "name": "Víctor García Verdura",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 19,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 559,
+              "name": "Sevilla FC"
+            },
+            "scorer": {
+              "id": "espn-334163",
+              "name": "Enrique Salas"
+            },
+            "assist": {
+              "id": "espn-288900",
+              "name": "Felix Correia"
+            }
+          },
+          {
+            "minute": 68,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 82,
+              "name": "Getafe CF"
+            },
+            "scorer": {
+              "id": "espn-218122",
+              "name": "Enes Ünal"
+            },
+            "assist": {
+              "id": "espn-284854",
+              "name": "Martín Satriano"
+            }
+          },
+          {
+            "minute": 73,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 82,
+              "name": "Getafe CF"
+            },
+            "scorer": {
+              "id": "espn-284854",
+              "name": "Martín Satriano"
+            },
+            "assist": {
+              "id": "espn-218122",
+              "name": "Enes Ünal"
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 4,
+            "type": "REGULAR",
+            "team": {
+              "id": 82,
+              "name": "Getafe CF"
+            },
+            "scorer": {
+              "id": "espn-228424",
+              "name": "Orel Mangala"
+            },
+            "assist": {
+              "id": "espn-356080",
+              "name": "Andrés García"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 27,
+            "injuryTime": null,
+            "team": {
+              "id": 559,
+              "name": "Sevilla FC"
+            },
+            "player": {
+              "id": "espn-222037",
+              "name": "Gabriel Suazo"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 59,
+            "injuryTime": null,
+            "team": {
+              "id": 82,
+              "name": "Getafe CF"
+            },
+            "player": {
+              "id": "espn-406832",
+              "name": "Davinchi"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 77,
+            "injuryTime": null,
+            "team": {
+              "id": 559,
+              "name": "Sevilla FC"
+            },
+            "player": {
+              "id": "espn-282289",
+              "name": "Lucien Agoumé"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 77,
+            "injuryTime": null,
+            "team": {
+              "id": 559,
+              "name": "Sevilla FC"
+            },
+            "player": {
+              "id": "espn-332246",
+              "name": "Andrés Castrín"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 77,
+            "injuryTime": null,
+            "team": {
+              "id": 559,
+              "name": "Sevilla FC"
+            },
+            "player": {
+              "id": "espn-304213",
+              "name": "Arouna Sangante"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 84,
+            "injuryTime": null,
+            "team": {
+              "id": 82,
+              "name": "Getafe CF"
+            },
+            "player": {
+              "id": "espn-136673",
+              "name": "Nemanja Gudelj"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 1,
+            "team": {
+              "id": 559,
+              "name": "Sevilla FC"
+            },
+            "player": {
+              "id": "espn-356228",
+              "name": "Manu Bueno"
+            },
+            "card": "RED"
+          }
+        ]
       },
       {
         "area": {
@@ -50626,11 +50803,11 @@
         },
         "id": 564734,
         "utcDate": "2026-11-01T15:15:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T01:32:01Z",
+        "lastUpdated": "2026-11-01T17:21:23Z",
         "homeTeam": {
           "id": 5335,
           "name": "Real Racing Club de Santander",
@@ -50646,21 +50823,103 @@
           "crest": "https://crests.football-data.org/86.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 3
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 3
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 206223,
+            "name": "José Munuera Montero",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 11,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 86,
+              "name": "Real Madrid CF"
+            },
+            "scorer": {
+              "id": "espn-231388",
+              "name": "Kylian Mbappé"
+            },
+            "assist": null
+          },
+          {
+            "minute": 21,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 86,
+              "name": "Real Madrid CF"
+            },
+            "scorer": {
+              "id": "espn-291281",
+              "name": "Jude Bellingham"
+            },
+            "assist": {
+              "id": "espn-310452",
+              "name": "Arda Güler"
+            }
+          },
+          {
+            "minute": 36,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 86,
+              "name": "Real Madrid CF"
+            },
+            "scorer": {
+              "id": "espn-402479",
+              "name": "Yan Diomande"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 34,
+            "injuryTime": null,
+            "team": {
+              "id": 5335,
+              "name": "Real Racing Club de Santander"
+            },
+            "player": {
+              "id": "espn-333927",
+              "name": "Jeanuël Belocian"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 45,
+            "injuryTime": 1,
+            "team": {
+              "id": 5335,
+              "name": "Real Racing Club de Santander"
+            },
+            "player": {
+              "id": "espn-417258",
+              "name": "Iker Luque"
+            },
+            "card": "YELLOW"
+          }
+        ]
       },
       {
         "area": {
@@ -50685,11 +50944,11 @@
         },
         "id": 564728,
         "utcDate": "2026-11-01T17:30:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T00:20:34Z",
+        "lastUpdated": "2026-11-01T17:50:11Z",
         "homeTeam": {
           "id": 285,
           "name": "Elche CF",
@@ -50705,11 +50964,11 @@
           "crest": "https://crests.football-data.org/95.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -50719,7 +50978,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 129443,
+            "name": "Luis Bestard Servera",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
       },
       {
         "area": {
@@ -79099,11 +79365,11 @@
         },
         "id": 565841,
         "utcDate": "2026-11-01T14:30:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T01:32:01Z",
+        "lastUpdated": "2026-11-01T16:26:27Z",
         "homeTeam": {
           "id": 28,
           "name": "1. FC Union Berlin",
@@ -79119,21 +79385,157 @@
           "crest": "https://crests.football-data.org/1.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 65990,
+            "name": "Richard Hempel",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 10,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 28,
+              "name": "1. FC Union Berlin"
+            },
+            "scorer": {
+              "id": "espn-170604",
+              "name": "Janik Haberer"
+            },
+            "assist": {
+              "id": "espn-220796",
+              "name": "Tim Skarke"
+            }
+          },
+          {
+            "minute": 79,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1,
+              "name": "1. FC Köln"
+            },
+            "scorer": {
+              "id": "espn-384155",
+              "name": "Malek El Mala"
+            },
+            "assist": {
+              "id": "espn-236136",
+              "name": "Alessio Castro-Montes"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 37,
+            "injuryTime": null,
+            "team": {
+              "id": 28,
+              "name": "1. FC Union Berlin"
+            },
+            "player": {
+              "id": "espn-314184",
+              "name": "Zeno Van Den Bosch"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 45,
+            "injuryTime": 1,
+            "team": {
+              "id": 1,
+              "name": "1. FC Köln"
+            },
+            "player": {
+              "id": "espn-357337",
+              "name": "Jahmai Simpson-Pusey"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 53,
+            "injuryTime": null,
+            "team": {
+              "id": 1,
+              "name": "1. FC Köln"
+            },
+            "player": {
+              "id": "espn-403528",
+              "name": "Paul Okon-Engstler"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 54,
+            "injuryTime": null,
+            "team": {
+              "id": 28,
+              "name": "1. FC Union Berlin"
+            },
+            "player": {
+              "id": "espn-289527",
+              "name": "Kastriot Imeri"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 69,
+            "injuryTime": null,
+            "team": {
+              "id": 1,
+              "name": "1. FC Köln"
+            },
+            "player": {
+              "id": "espn-231173",
+              "name": "Linton Maina"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 76,
+            "injuryTime": null,
+            "team": {
+              "id": 28,
+              "name": "1. FC Union Berlin"
+            },
+            "player": {
+              "id": "espn-349922",
+              "name": "Aljoscha Kemlein"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 77,
+            "injuryTime": null,
+            "team": {
+              "id": 28,
+              "name": "1. FC Union Berlin"
+            },
+            "player": {
+              "id": "espn-263202",
+              "name": "Derrick Köhn"
+            },
+            "card": "YELLOW"
+          }
+        ]
       },
       {
         "area": {
@@ -79158,11 +79560,11 @@
         },
         "id": 565844,
         "utcDate": "2026-11-01T16:30:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T01:32:01Z",
+        "lastUpdated": "2026-11-01T17:50:43Z",
         "homeTeam": {
           "id": 19,
           "name": "Eintracht Frankfurt",
@@ -79178,21 +79580,28 @@
           "crest": "https://crests.football-data.org/7.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 58466,
+            "name": "Florian Exner",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
       },
       {
         "area": {
@@ -108267,11 +108676,11 @@
         },
         "id": 558543,
         "utcDate": "2026-11-01T11:30:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T01:32:00Z",
+        "lastUpdated": "2026-11-01T13:32:35Z",
         "homeTeam": {
           "id": 7397,
           "name": "Como 1907",
@@ -108287,15 +108696,15 @@
           "crest": "https://crests.football-data.org/454.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
@@ -108307,6 +108716,63 @@
             "name": "Maria Caputi",
             "type": "REFEREE",
             "nationality": "Italy"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 43,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "scorer": {
+              "id": "espn-291285",
+              "name": "Lucas Da Cunha"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 39,
+            "injuryTime": null,
+            "team": {
+              "id": 454,
+              "name": "Venezia FC"
+            },
+            "player": {
+              "id": "espn-275015",
+              "name": "Simon Sohm"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 41,
+            "injuryTime": null,
+            "team": {
+              "id": 454,
+              "name": "Venezia FC"
+            },
+            "player": {
+              "id": "espn-170663",
+              "name": "Juan Jesus"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 86,
+            "injuryTime": null,
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "player": {
+              "id": "espn-317233",
+              "name": "Kaiki"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -108333,11 +108799,11 @@
         },
         "id": 558544,
         "utcDate": "2026-11-01T14:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T01:32:01Z",
+        "lastUpdated": "2026-11-01T16:04:03Z",
         "homeTeam": {
           "id": 470,
           "name": "Frosinone Calcio",
@@ -108353,21 +108819,118 @@
           "crest": "https://crests.football-data.org/586.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 188512,
+            "name": "Giuseppe Mucera",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 48,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 470,
+              "name": "Frosinone Calcio"
+            },
+            "scorer": {
+              "id": "espn-356536",
+              "name": "Farès Ghedjemis"
+            },
+            "assist": {
+              "id": "espn-360714",
+              "name": "Giorgi Kvernadze"
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 3,
+            "type": "REGULAR",
+            "team": {
+              "id": 470,
+              "name": "Frosinone Calcio"
+            },
+            "scorer": {
+              "id": "espn-236038",
+              "name": "Giacomo Calo"
+            },
+            "assist": {
+              "id": "espn-318394",
+              "name": "Wisdom Amey"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 27,
+            "injuryTime": null,
+            "team": {
+              "id": 586,
+              "name": "Torino FC"
+            },
+            "player": {
+              "id": "espn-277865",
+              "name": "Zakaria Aboukhlal"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 33,
+            "injuryTime": null,
+            "team": {
+              "id": 586,
+              "name": "Torino FC"
+            },
+            "player": {
+              "id": "espn-338266",
+              "name": "Gvidas Gineitis"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 62,
+            "injuryTime": null,
+            "team": {
+              "id": 470,
+              "name": "Frosinone Calcio"
+            },
+            "player": {
+              "id": "espn-346840",
+              "name": "Patrizio Masini"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 66,
+            "injuryTime": null,
+            "team": {
+              "id": 586,
+              "name": "Torino FC"
+            },
+            "player": {
+              "id": "espn-274258",
+              "name": "Saúl Coco"
+            },
+            "card": "YELLOW"
+          }
+        ]
       },
       {
         "area": {
@@ -108392,11 +108955,11 @@
         },
         "id": 558546,
         "utcDate": "2026-11-01T14:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T01:32:01Z",
+        "lastUpdated": "2026-11-01T16:03:31Z",
         "homeTeam": {
           "id": 110,
           "name": "SS Lazio",
@@ -108412,21 +108975,148 @@
           "crest": "https://crests.football-data.org/104.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57878,
+            "name": "Andrea Colombo",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 20,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 104,
+              "name": "Cagliari Calcio"
+            },
+            "scorer": {
+              "id": "espn-261173",
+              "name": "M'Bala Nzola"
+            },
+            "assist": {
+              "id": "espn-324705",
+              "name": "Alieu Fadera"
+            }
+          },
+          {
+            "minute": 36,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 110,
+              "name": "SS Lazio"
+            },
+            "scorer": {
+              "id": "espn-291550",
+              "name": "Gustav Isaksen"
+            },
+            "assist": {
+              "id": "espn-323113",
+              "name": "Tijjani Noslin"
+            }
+          },
+          {
+            "minute": 83,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 110,
+              "name": "SS Lazio"
+            },
+            "scorer": {
+              "id": "espn-239086",
+              "name": "Andrea Pinamonti"
+            },
+            "assist": {
+              "id": "espn-218439",
+              "name": "Alfonso Pedraza"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 59,
+            "injuryTime": null,
+            "team": {
+              "id": 104,
+              "name": "Cagliari Calcio"
+            },
+            "player": {
+              "id": "espn-333938",
+              "name": "Jacopo Fazzini"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 66,
+            "injuryTime": null,
+            "team": {
+              "id": 104,
+              "name": "Cagliari Calcio"
+            },
+            "player": {
+              "id": "espn-361506",
+              "name": "Juan Rodríguez"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 76,
+            "injuryTime": null,
+            "team": {
+              "id": 104,
+              "name": "Cagliari Calcio"
+            },
+            "player": {
+              "id": "espn-322913",
+              "name": "Adam Obert"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 84,
+            "injuryTime": null,
+            "team": {
+              "id": 110,
+              "name": "SS Lazio"
+            },
+            "player": {
+              "id": "espn-239086",
+              "name": "Andrea Pinamonti"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 1,
+            "team": {
+              "id": 104,
+              "name": "Cagliari Calcio"
+            },
+            "player": {
+              "id": "espn-322913",
+              "name": "Adam Obert"
+            },
+            "card": "RED"
+          }
+        ]
       },
       {
         "area": {
@@ -108451,11 +109141,11 @@
         },
         "id": 558540,
         "utcDate": "2026-11-01T17:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T00:20:35Z",
+        "lastUpdated": "2026-11-01T17:50:43Z",
         "homeTeam": {
           "id": 5890,
           "name": "US Lecce",
@@ -108471,11 +109161,11 @@
           "crest": "https://crests.football-data.org/107.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 2
           },
           "halfTime": {
             "home": null,
@@ -108485,7 +109175,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57762,
+            "name": "Matteo Marchetti",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
@@ -108544,7 +109241,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57826,
+            "name": "Simone Sozza",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
@@ -137862,11 +138566,11 @@
         },
         "id": 559647,
         "utcDate": "2026-11-01T14:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 9,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T00:20:34Z",
+        "lastUpdated": "2026-11-01T16:04:03Z",
         "homeTeam": {
           "id": 576,
           "name": "RC Strasbourg Alsace",
@@ -137882,21 +138586,196 @@
           "crest": "https://crests.football-data.org/519.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 5,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57084,
+            "name": "Guillaume Paradis",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 41,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 576,
+              "name": "RC Strasbourg Alsace"
+            },
+            "scorer": {
+              "id": "espn-316560",
+              "name": "Dário Essugo"
+            },
+            "assist": {
+              "id": "espn-377782",
+              "name": "Oso"
+            }
+          },
+          {
+            "minute": 55,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 576,
+              "name": "RC Strasbourg Alsace"
+            },
+            "scorer": {
+              "id": "espn-348301",
+              "name": "Martial Godo"
+            },
+            "assist": {
+              "id": "espn-379012",
+              "name": "Gessime Yassine"
+            }
+          },
+          {
+            "minute": 62,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 576,
+              "name": "RC Strasbourg Alsace"
+            },
+            "scorer": {
+              "id": "espn-362794",
+              "name": "Conrad Harder"
+            },
+            "assist": null
+          },
+          {
+            "minute": 68,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 519,
+              "name": "AJ Auxerre"
+            },
+            "scorer": {
+              "id": "espn-293347",
+              "name": "Cameron Archer"
+            },
+            "assist": {
+              "id": "espn-268591",
+              "name": "Romain Faivre"
+            }
+          },
+          {
+            "minute": 77,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 576,
+              "name": "RC Strasbourg Alsace"
+            },
+            "scorer": {
+              "id": "espn-379012",
+              "name": "Gessime Yassine"
+            },
+            "assist": {
+              "id": "espn-303787",
+              "name": "Sebastian Nanasi"
+            }
+          },
+          {
+            "minute": 85,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 576,
+              "name": "RC Strasbourg Alsace"
+            },
+            "scorer": {
+              "id": "espn-379012",
+              "name": "Gessime Yassine"
+            },
+            "assist": {
+              "id": "espn-377782",
+              "name": "Oso"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 39,
+            "injuryTime": null,
+            "team": {
+              "id": 519,
+              "name": "AJ Auxerre"
+            },
+            "player": {
+              "id": "espn-335320",
+              "name": "Lamine Sy"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 60,
+            "injuryTime": null,
+            "team": {
+              "id": 519,
+              "name": "AJ Auxerre"
+            },
+            "player": {
+              "id": "espn-362476",
+              "name": "Christ Makosso"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 72,
+            "injuryTime": null,
+            "team": {
+              "id": 519,
+              "name": "AJ Auxerre"
+            },
+            "player": {
+              "id": "espn-159312",
+              "name": "Paul Nardi"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 74,
+            "injuryTime": null,
+            "team": {
+              "id": 519,
+              "name": "AJ Auxerre"
+            },
+            "player": {
+              "id": "espn-416458",
+              "name": "Lamfia Dioubaté"
+            },
+            "card": "RED"
+          },
+          {
+            "minute": 87,
+            "injuryTime": null,
+            "team": {
+              "id": 519,
+              "name": "AJ Auxerre"
+            },
+            "player": {
+              "id": "espn-268591",
+              "name": "Romain Faivre"
+            },
+            "card": "YELLOW"
+          }
+        ]
       },
       {
         "area": {
@@ -137921,11 +138800,11 @@
         },
         "id": 559640,
         "utcDate": "2026-11-01T16:15:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 9,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T00:20:34Z",
+        "lastUpdated": "2026-11-01T17:50:43Z",
         "homeTeam": {
           "id": 523,
           "name": "Olympique Lyonnais",
@@ -137941,21 +138820,28 @@
           "crest": "https://crests.football-data.org/532.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 64781,
+            "name": "Marc Bollengier",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -137980,11 +138866,11 @@
         },
         "id": 559642,
         "utcDate": "2026-11-01T16:15:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 9,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T00:20:34Z",
+        "lastUpdated": "2026-11-01T17:51:15Z",
         "homeTeam": {
           "id": 1045,
           "name": "Paris FC",
@@ -138000,21 +138886,28 @@
           "crest": "https://crests.football-data.org/548.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 1049,
+            "name": "Jeremy Stinat",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -138073,7 +138966,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57063,
+            "name": "Hakim Ben El Hadj Salem",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -165853,11 +166753,11 @@
         },
         "id": 567341,
         "utcDate": "2026-11-01T15:30:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T00:20:35Z",
+        "lastUpdated": "2026-11-01T17:29:55Z",
         "homeTeam": {
           "id": 712,
           "name": "FC Arouca",
@@ -165873,21 +166773,101 @@
           "crest": "https://crests.football-data.org/5529.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 37629,
+            "name": "Luís Godinho",
+            "type": "REFEREE",
+            "nationality": "Portugal"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 64,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 712,
+              "name": "FC Arouca"
+            },
+            "scorer": {
+              "id": "espn-291193",
+              "name": "Tiago Esgaio"
+            },
+            "assist": {
+              "id": "espn-281113",
+              "name": "Näis Djouahra"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 74,
+            "injuryTime": null,
+            "team": {
+              "id": 5529,
+              "name": "CD Nacional"
+            },
+            "player": {
+              "id": "espn-290503",
+              "name": "Matchoi Djoló"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 76,
+            "injuryTime": null,
+            "team": {
+              "id": 712,
+              "name": "FC Arouca"
+            },
+            "player": {
+              "id": "espn-286545",
+              "name": "Orest Lebedenko"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 78,
+            "injuryTime": null,
+            "team": {
+              "id": 5529,
+              "name": "CD Nacional"
+            },
+            "player": {
+              "id": "espn-345371",
+              "name": "Danel Dongmo"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 4,
+            "team": {
+              "id": 712,
+              "name": "FC Arouca"
+            },
+            "player": {
+              "id": "espn-300121",
+              "name": "Pablo Gozálbez"
+            },
+            "card": "YELLOW"
+          }
+        ]
       },
       {
         "area": {
@@ -165946,7 +166926,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 40454,
+            "name": "Carlos Macedo",
+            "type": "REFEREE",
+            "nationality": "Portugal"
+          }
+        ]
       },
       {
         "area": {
@@ -166005,7 +166992,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 220577,
+            "name": "João Gonçalves",
+            "type": "REFEREE",
+            "nationality": "Portugal"
+          }
+        ]
       },
       {
         "area": {
@@ -194977,11 +195971,11 @@
         },
         "id": 558849,
         "utcDate": "2026-11-01T11:15:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T00:20:34Z",
+        "lastUpdated": "2026-11-01T13:14:59Z",
         "homeTeam": {
           "id": 684,
           "name": "PEC Zwolle",
@@ -194997,15 +195991,15 @@
           "crest": "https://crests.football-data.org/680.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
@@ -195017,6 +196011,105 @@
             "name": "Jeroen Manschot",
             "type": "REFEREE",
             "nationality": "Netherlands"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 45,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 684,
+              "name": "PEC Zwolle"
+            },
+            "scorer": {
+              "id": "espn-286854",
+              "name": "Dylan Mbayo"
+            },
+            "assist": {
+              "id": "espn-215159",
+              "name": "Younes Namli"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 48,
+            "injuryTime": null,
+            "team": {
+              "id": 680,
+              "name": "ADO Den Haag"
+            },
+            "player": {
+              "id": "espn-357092",
+              "name": "Yannick Eduardo"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 52,
+            "injuryTime": null,
+            "team": {
+              "id": 680,
+              "name": "ADO Den Haag"
+            },
+            "player": {
+              "id": "espn-330170",
+              "name": "Pascal Mulder"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 65,
+            "injuryTime": null,
+            "team": {
+              "id": 684,
+              "name": "PEC Zwolle"
+            },
+            "player": {
+              "id": "espn-333618",
+              "name": "Olivier Aertssen"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 72,
+            "injuryTime": null,
+            "team": {
+              "id": 680,
+              "name": "ADO Den Haag"
+            },
+            "player": {
+              "id": "espn-306880",
+              "name": "Matteo Waem"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 79,
+            "injuryTime": null,
+            "team": {
+              "id": 684,
+              "name": "PEC Zwolle"
+            },
+            "player": {
+              "id": "espn-415365",
+              "name": "Gilles Van Der Wal"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 81,
+            "injuryTime": null,
+            "team": {
+              "id": 684,
+              "name": "PEC Zwolle"
+            },
+            "player": {
+              "id": "espn-297340",
+              "name": "Ibrahim Cissoko"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -195043,11 +196136,11 @@
         },
         "id": 558848,
         "utcDate": "2026-11-01T13:30:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T00:20:34Z",
+        "lastUpdated": "2026-11-01T15:26:43Z",
         "homeTeam": {
           "id": 1912,
           "name": "Telstar 1963",
@@ -195063,21 +196156,157 @@
           "crest": "https://crests.football-data.org/676.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 4,
+            "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 3,
+            "away": 1
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 56908,
+            "name": "Richard Martens",
+            "type": "REFEREE",
+            "nationality": "Netherlands"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 8,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1912,
+              "name": "Telstar 1963"
+            },
+            "scorer": {
+              "id": "espn-306461",
+              "name": "Tyrone Owusu"
+            },
+            "assist": null
+          },
+          {
+            "minute": 25,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1912,
+              "name": "Telstar 1963"
+            },
+            "scorer": {
+              "id": "espn-356706",
+              "name": "Abdelnour Soualhia"
+            },
+            "assist": {
+              "id": "espn-306553",
+              "name": "Ar'jany Martha"
+            }
+          },
+          {
+            "minute": 42,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 676,
+              "name": "FC Utrecht"
+            },
+            "scorer": {
+              "id": "espn-357698",
+              "name": "Ángel Alarcón"
+            },
+            "assist": {
+              "id": "espn-323173",
+              "name": "Marius Broholm"
+            }
+          },
+          {
+            "minute": 44,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1912,
+              "name": "Telstar 1963"
+            },
+            "scorer": {
+              "id": "espn-356979",
+              "name": "Nökkvi Thórisson"
+            },
+            "assist": {
+              "id": "espn-306461",
+              "name": "Tyrone Owusu"
+            }
+          },
+          {
+            "minute": 46,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 676,
+              "name": "FC Utrecht"
+            },
+            "scorer": {
+              "id": "espn-305670",
+              "name": "Yoann Cathline"
+            },
+            "assist": {
+              "id": "espn-159252",
+              "name": "Joris van Overeem"
+            }
+          },
+          {
+            "minute": 59,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1912,
+              "name": "Telstar 1963"
+            },
+            "scorer": {
+              "id": "espn-306553",
+              "name": "Ar'jany Martha"
+            },
+            "assist": {
+              "id": "espn-356979",
+              "name": "Nökkvi Thórisson"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 71,
+            "injuryTime": null,
+            "team": {
+              "id": 676,
+              "name": "FC Utrecht"
+            },
+            "player": {
+              "id": "espn-250528",
+              "name": "Dani de Wit"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 73,
+            "injuryTime": null,
+            "team": {
+              "id": 676,
+              "name": "FC Utrecht"
+            },
+            "player": {
+              "id": "espn-365391",
+              "name": "Per Kloosterboer"
+            },
+            "card": "YELLOW"
+          }
+        ]
       },
       {
         "area": {
@@ -195102,11 +196331,11 @@
         },
         "id": 558847,
         "utcDate": "2026-11-01T13:30:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T00:20:34Z",
+        "lastUpdated": "2026-11-01T15:30:59Z",
         "homeTeam": {
           "id": 670,
           "name": "SBV Excelsior",
@@ -195122,21 +196351,215 @@
           "crest": "https://crests.football-data.org/666.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 9
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 5
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 56917,
+            "name": "Erwin Blank",
+            "type": "REFEREE",
+            "nationality": "Netherlands"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 12,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "scorer": {
+              "id": "espn-177042",
+              "name": "Wout Weghorst"
+            },
+            "assist": {
+              "id": "espn-379956",
+              "name": "Sondre Ørjasaeter"
+            }
+          },
+          {
+            "minute": 32,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "scorer": {
+              "id": "espn-177042",
+              "name": "Wout Weghorst"
+            },
+            "assist": {
+              "id": "espn-379956",
+              "name": "Sondre Ørjasaeter"
+            }
+          },
+          {
+            "minute": 33,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "scorer": {
+              "id": "espn-177042",
+              "name": "Wout Weghorst"
+            },
+            "assist": {
+              "id": "espn-379956",
+              "name": "Sondre Ørjasaeter"
+            }
+          },
+          {
+            "minute": 39,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "scorer": {
+              "id": "espn-277315",
+              "name": "Thomas van den Belt"
+            },
+            "assist": null
+          },
+          {
+            "minute": 45,
+            "injuryTime": 1,
+            "type": "REGULAR",
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "scorer": {
+              "id": "espn-304905",
+              "name": "Daan Rots"
+            },
+            "assist": {
+              "id": "espn-379956",
+              "name": "Sondre Ørjasaeter"
+            }
+          },
+          {
+            "minute": 49,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "scorer": {
+              "id": "espn-371409",
+              "name": "Jordy Bawuah"
+            },
+            "assist": {
+              "id": "espn-379956",
+              "name": "Sondre Ørjasaeter"
+            }
+          },
+          {
+            "minute": 62,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "scorer": {
+              "id": "espn-177042",
+              "name": "Wout Weghorst"
+            },
+            "assist": null
+          },
+          {
+            "minute": 71,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "scorer": {
+              "id": "espn-290517",
+              "name": "Ramiz Zerrouki"
+            },
+            "assist": null
+          },
+          {
+            "minute": 82,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "scorer": {
+              "id": "espn-304905",
+              "name": "Daan Rots"
+            },
+            "assist": {
+              "id": "espn-277315",
+              "name": "Thomas van den Belt"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 5,
+            "injuryTime": null,
+            "team": {
+              "id": 670,
+              "name": "SBV Excelsior"
+            },
+            "player": {
+              "id": "espn-344197",
+              "name": "Nesto Groen"
+            },
+            "card": "RED"
+          },
+          {
+            "minute": 17,
+            "injuryTime": null,
+            "team": {
+              "id": 666,
+              "name": "FC Twente '65"
+            },
+            "player": {
+              "id": "espn-177042",
+              "name": "Wout Weghorst"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 43,
+            "injuryTime": null,
+            "team": {
+              "id": 670,
+              "name": "SBV Excelsior"
+            },
+            "player": {
+              "id": "espn-321080",
+              "name": "Lennard Hartjes"
+            },
+            "card": "YELLOW"
+          }
+        ]
       },
       {
         "area": {
@@ -195161,11 +196584,11 @@
         },
         "id": 558846,
         "utcDate": "2026-11-01T15:45:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-01T00:20:34Z",
+        "lastUpdated": "2026-11-01T17:44:19Z",
         "homeTeam": {
           "id": 677,
           "name": "FC Groningen",
@@ -195181,21 +196604,163 @@
           "crest": "https://crests.football-data.org/6806.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 3
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 2
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 81044,
+            "name": "Martijn Vos",
+            "type": "REFEREE",
+            "nationality": "Netherlands"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 1,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 677,
+              "name": "FC Groningen"
+            },
+            "scorer": {
+              "id": "espn-303648",
+              "name": "Jacob Ondrejka"
+            },
+            "assist": {
+              "id": "espn-289883",
+              "name": "Brynjólfur Willumsson"
+            }
+          },
+          {
+            "minute": 15,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 6806,
+              "name": "Sparta Rotterdam"
+            },
+            "scorer": {
+              "id": "espn-379191",
+              "name": "Cedric Hatenboer"
+            },
+            "assist": {
+              "id": "espn-388712",
+              "name": "Marvin Young"
+            }
+          },
+          {
+            "minute": 25,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 6806,
+              "name": "Sparta Rotterdam"
+            },
+            "scorer": {
+              "id": "espn-324585",
+              "name": "Milan Zonneveld"
+            },
+            "assist": null
+          },
+          {
+            "minute": 29,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 677,
+              "name": "FC Groningen"
+            },
+            "scorer": {
+              "id": "espn-351290",
+              "name": "Thom Van Bergen"
+            },
+            "assist": {
+              "id": "espn-193448",
+              "name": "Hans Hateboer"
+            }
+          },
+          {
+            "minute": 85,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 6806,
+              "name": "Sparta Rotterdam"
+            },
+            "scorer": {
+              "id": "espn-382572",
+              "name": "Andrej Kostic"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 5,
+            "injuryTime": null,
+            "team": {
+              "id": 677,
+              "name": "FC Groningen"
+            },
+            "player": {
+              "id": "espn-319297",
+              "name": "Tika De Jonge"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 36,
+            "injuryTime": null,
+            "team": {
+              "id": 6806,
+              "name": "Sparta Rotterdam"
+            },
+            "player": {
+              "id": "espn-149301",
+              "name": "Bruno Martins Indi"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 61,
+            "injuryTime": null,
+            "team": {
+              "id": 6806,
+              "name": "Sparta Rotterdam"
+            },
+            "player": {
+              "id": "espn-415046",
+              "name": "Lushendry Martes"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 75,
+            "injuryTime": null,
+            "team": {
+              "id": 6806,
+              "name": "Sparta Rotterdam"
+            },
+            "player": {
+              "id": "espn-379191",
+              "name": "Cedric Hatenboer"
+            },
+            "card": "YELLOW"
+          }
+        ]
       },
       {
         "area": {
