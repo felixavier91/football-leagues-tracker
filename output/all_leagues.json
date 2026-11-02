@@ -14987,11 +14987,11 @@
         },
         "id": 560622,
         "utcDate": "2026-11-02T20:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 9,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-02T00:20:31Z",
+        "lastUpdated": "2026-11-02T21:38:27Z",
         "homeTeam": {
           "id": 67,
           "name": "Newcastle United FC",
@@ -15007,21 +15007,28 @@
           "crest": "https://crests.football-data.org/62.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11327,
+            "name": "John Brooks",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
       },
       {
         "area": {
@@ -51435,7 +51442,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 214122,
+            "name": "Jon González Esteban",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
       },
       {
         "area": {
@@ -109956,11 +109970,11 @@
         },
         "id": 558541,
         "utcDate": "2026-11-02T17:30:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-02T00:20:31Z",
+        "lastUpdated": "2026-11-02T19:29:55Z",
         "homeTeam": {
           "id": 471,
           "name": "US Sassuolo Calcio",
@@ -109976,21 +109990,199 @@
           "crest": "https://crests.football-data.org/99.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 4
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57868,
+            "name": "Matteo Marcenaro",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 25,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 471,
+              "name": "US Sassuolo Calcio"
+            },
+            "scorer": {
+              "id": "espn-272719",
+              "name": "Armand Laurienté"
+            },
+            "assist": {
+              "id": "espn-286929",
+              "name": "Sebastiano Esposito"
+            }
+          },
+          {
+            "minute": 45,
+            "injuryTime": 2,
+            "type": "REGULAR",
+            "team": {
+              "id": 99,
+              "name": "ACF Fiorentina"
+            },
+            "scorer": {
+              "id": "espn-312757",
+              "name": "Mateo Pellegrino"
+            },
+            "assist": {
+              "id": "espn-367743",
+              "name": "Alieu Njie"
+            }
+          },
+          {
+            "minute": 50,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 99,
+              "name": "ACF Fiorentina"
+            },
+            "scorer": {
+              "id": "espn-367743",
+              "name": "Alieu Njie"
+            },
+            "assist": {
+              "id": "espn-276237",
+              "name": "Marco Brescianini"
+            }
+          },
+          {
+            "minute": 65,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 471,
+              "name": "US Sassuolo Calcio"
+            },
+            "scorer": {
+              "id": "espn-272719",
+              "name": "Armand Laurienté"
+            },
+            "assist": {
+              "id": "espn-135743",
+              "name": "Nemanja Matic"
+            }
+          },
+          {
+            "minute": 79,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 99,
+              "name": "ACF Fiorentina"
+            },
+            "scorer": {
+              "id": "espn-376473",
+              "name": "Franco Mastantuono"
+            },
+            "assist": {
+              "id": "espn-262591",
+              "name": "Pedro Gonçalves"
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 3,
+            "type": "REGULAR",
+            "team": {
+              "id": 99,
+              "name": "ACF Fiorentina"
+            },
+            "scorer": {
+              "id": "espn-401558",
+              "name": "Víctor Valdepeñas"
+            },
+            "assist": {
+              "id": "espn-360061",
+              "name": "Cher Ndour"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 40,
+            "injuryTime": null,
+            "team": {
+              "id": 471,
+              "name": "US Sassuolo Calcio"
+            },
+            "player": {
+              "id": "espn-347018",
+              "name": "Sulemana"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 42,
+            "injuryTime": null,
+            "team": {
+              "id": 99,
+              "name": "ACF Fiorentina"
+            },
+            "player": {
+              "id": "espn-310216",
+              "name": "Radu Dragusin"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 44,
+            "injuryTime": null,
+            "team": {
+              "id": 99,
+              "name": "ACF Fiorentina"
+            },
+            "player": {
+              "id": "espn-367743",
+              "name": "Alieu Njie"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 2,
+            "team": {
+              "id": 99,
+              "name": "ACF Fiorentina"
+            },
+            "player": {
+              "id": "espn-297784",
+              "name": "Wilfried Gnonto"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 5,
+            "team": {
+              "id": 471,
+              "name": "US Sassuolo Calcio"
+            },
+            "player": {
+              "id": "espn-3129533",
+              "name": "Gabriel Kulla"
+            },
+            "card": "YELLOW"
+          }
+        ]
       },
       {
         "area": {
@@ -110015,11 +110207,11 @@
         },
         "id": 558545,
         "utcDate": "2026-11-02T19:45:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-02T01:32:00Z",
+        "lastUpdated": "2026-11-02T21:37:23Z",
         "homeTeam": {
           "id": 102,
           "name": "Atalanta BC",
@@ -110035,21 +110227,28 @@
           "crest": "https://crests.football-data.org/112.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 3
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 159361,
+            "name": "Valerio Crezzini",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
@@ -139933,11 +140132,11 @@
         },
         "id": 559641,
         "utcDate": "2026-11-02T19:45:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 9,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-02T01:32:00Z",
+        "lastUpdated": "2026-11-02T21:38:27Z",
         "homeTeam": {
           "id": 525,
           "name": "FC Lorient",
@@ -139953,21 +140152,28 @@
           "crest": "https://crests.football-data.org/512.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57073,
+            "name": "Jérémie Pignard",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -168430,11 +168636,11 @@
         },
         "id": 567342,
         "utcDate": "2026-11-02T20:15:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-02T01:32:00Z",
+        "lastUpdated": "2026-11-02T21:38:59Z",
         "homeTeam": {
           "id": 1903,
           "name": "Sport Lisboa e Benfica",
@@ -168450,21 +168656,28 @@
           "crest": "https://crests.football-data.org/7822.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 220513,
+            "name": "Bruno Costa",
+            "type": "REFEREE",
+            "nationality": "Portugal"
+          }
+        ]
       },
       {
         "area": {
@@ -168489,11 +168702,11 @@
         },
         "id": 567346,
         "utcDate": "2026-11-02T20:15:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-02T01:32:00Z",
+        "lastUpdated": "2026-11-02T21:38:27Z",
         "homeTeam": {
           "id": 5533,
           "name": "Gil Vicente FC",
@@ -168509,21 +168722,28 @@
           "crest": "https://crests.football-data.org/5543.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 220533,
+            "name": "Hélder Carvalho",
+            "type": "REFEREE",
+            "nationality": "Portugal"
+          }
+        ]
       },
       {
         "area": {

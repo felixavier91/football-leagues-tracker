@@ -5319,11 +5319,11 @@
       },
       "id": 559641,
       "utcDate": "2026-11-02T19:45:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 9,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-02T01:32:00Z",
+      "lastUpdated": "2026-11-02T21:38:27Z",
       "homeTeam": {
         "id": 525,
         "name": "FC Lorient",
@@ -5339,21 +5339,28 @@
         "crest": "https://crests.football-data.org/512.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 57073,
+          "name": "Jérémie Pignard",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
