@@ -54034,11 +54034,11 @@
         },
         "id": 564698,
         "utcDate": "2026-12-09T19:00:00Z",
-        "status": "CANCELLED",
+        "status": "2026-10-10 12:00:00Z",
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-04T00:20:29Z",
+        "lastUpdated": "2026-11-04T09:14:19Z",
         "homeTeam": {
           "id": 87,
           "name": "Rayo Vallecano de Madrid",
@@ -222305,11 +222305,11 @@
         },
         "id": 575386,
         "utcDate": "2026-11-04T17:45:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-04T19:39:41Z",
+        "lastUpdated": "2026-11-04T23:25:00Z",
         "homeTeam": {
           "id": 1899,
           "name": "PAE AEK",
@@ -222325,11 +222325,11 @@
           "crest": "https://crests.football-data.org/86.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 2,
-            "away": 2
+            "away": 3
           },
           "halfTime": {
             "home": 1,
@@ -222345,6 +222345,134 @@
             "name": "Maurizio Mariani",
             "type": "REFEREE",
             "nationality": "Italy"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 12,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1899,
+              "name": "PAE AEK"
+            },
+            "scorer": {
+              "id": "espn-260026",
+              "name": "Aboubakary Koita"
+            },
+            "assist": {
+              "id": "espn-221332",
+              "name": "Luka Jovic"
+            }
+          },
+          {
+            "minute": 32,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 86,
+              "name": "Real Madrid CF"
+            },
+            "scorer": {
+              "id": "espn-291281",
+              "name": "Jude Bellingham"
+            },
+            "assist": {
+              "id": "espn-259910",
+              "name": "Marc Cucurella"
+            }
+          },
+          {
+            "minute": 75,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1899,
+              "name": "PAE AEK"
+            },
+            "scorer": {
+              "id": "espn-285427",
+              "name": "Stavros Pilios"
+            },
+            "assist": {
+              "id": "espn-260026",
+              "name": "Aboubakary Koita"
+            }
+          },
+          {
+            "minute": 78,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 86,
+              "name": "Real Madrid CF"
+            },
+            "scorer": {
+              "id": "espn-231388",
+              "name": "Kylian Mbappé"
+            },
+            "assist": {
+              "id": "espn-213248",
+              "name": "Denzel Dumfries"
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 2,
+            "type": "REGULAR",
+            "team": {
+              "id": 86,
+              "name": "Real Madrid CF"
+            },
+            "scorer": {
+              "id": "espn-235818",
+              "name": "Federico Valverde"
+            },
+            "assist": {
+              "id": "espn-246532",
+              "name": "Brahim Díaz"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 34,
+            "injuryTime": null,
+            "team": {
+              "id": 1899,
+              "name": "PAE AEK"
+            },
+            "player": {
+              "id": "espn-260554",
+              "name": "Kervin Arriaga"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 65,
+            "injuryTime": null,
+            "team": {
+              "id": 86,
+              "name": "Real Madrid CF"
+            },
+            "player": {
+              "id": "espn-259910",
+              "name": "Marc Cucurella"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 5,
+            "team": {
+              "id": 1899,
+              "name": "PAE AEK"
+            },
+            "player": {
+              "id": "espn-260026",
+              "name": "Aboubakary Koita"
+            },
+            "card": "RED"
           }
         ]
       },
@@ -222371,11 +222499,11 @@
         },
         "id": 575387,
         "utcDate": "2026-11-04T17:45:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-04T19:39:26Z",
+        "lastUpdated": "2026-11-04T23:25:00Z",
         "homeTeam": {
           "id": 613,
           "name": "Fenerbahçe SK",
@@ -222398,8 +222526,8 @@
             "away": 2
           },
           "halfTime": {
-            "home": 0,
-            "away": 0
+            "home": 1,
+            "away": 1
           }
         },
         "odds": {
@@ -222411,6 +222539,112 @@
             "name": "Clément Turpin",
             "type": "REFEREE",
             "nationality": "France"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 25,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 64,
+              "name": "Liverpool FC"
+            },
+            "scorer": {
+              "id": "espn-356075",
+              "name": "Trey Nyoni"
+            },
+            "assist": null
+          },
+          {
+            "minute": 29,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 613,
+              "name": "Fenerbahçe SK"
+            },
+            "scorer": {
+              "id": "espn-276221",
+              "name": "Mason Greenwood"
+            },
+            "assist": null
+          },
+          {
+            "minute": 69,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 64,
+              "name": "Liverpool FC"
+            },
+            "scorer": {
+              "id": "espn-235662",
+              "name": "Alexander Isak"
+            },
+            "assist": {
+              "id": "espn-249524",
+              "name": "Cody Gakpo"
+            }
+          },
+          {
+            "minute": 73,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 613,
+              "name": "Fenerbahçe SK"
+            },
+            "scorer": {
+              "id": "espn-320982",
+              "name": "Archie Brown"
+            },
+            "assist": null
+          },
+          {
+            "minute": 79,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 613,
+              "name": "Fenerbahçe SK"
+            },
+            "scorer": {
+              "id": "espn-240209",
+              "name": "Vedat Muriqi"
+            },
+            "assist": {
+              "id": "espn-320982",
+              "name": "Archie Brown"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 25,
+            "injuryTime": null,
+            "team": {
+              "id": 613,
+              "name": "Fenerbahçe SK"
+            },
+            "player": {
+              "id": "espn-320982",
+              "name": "Archie Brown"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 85,
+            "injuryTime": null,
+            "team": {
+              "id": 64,
+              "name": "Liverpool FC"
+            },
+            "player": {
+              "id": "espn-249299",
+              "name": "Alexis Mac Allister"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -222437,11 +222671,11 @@
         },
         "id": 575388,
         "utcDate": "2026-11-04T20:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-04T01:32:00Z",
+        "lastUpdated": "2026-11-04T23:25:00Z",
         "homeTeam": {
           "id": 721,
           "name": "RB Leipzig",
@@ -222457,15 +222691,15 @@
           "crest": "https://crests.football-data.org/65.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 3
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
@@ -222477,6 +222711,170 @@
             "name": "Marco Guida",
             "type": "REFEREE",
             "nationality": "Italy"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 37,
+            "injuryTime": null,
+            "type": "OWN",
+            "team": {
+              "id": 721,
+              "name": "RB Leipzig"
+            },
+            "scorer": {
+              "id": "espn-319100",
+              "name": "Castello Lukeba"
+            },
+            "assist": null
+          },
+          {
+            "minute": 49,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 721,
+              "name": "RB Leipzig"
+            },
+            "scorer": {
+              "id": "espn-258963",
+              "name": "Ridle Baku"
+            },
+            "assist": {
+              "id": "espn-357683",
+              "name": "Brajan Gruda"
+            }
+          },
+          {
+            "minute": 58,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 65,
+              "name": "Manchester City FC"
+            },
+            "scorer": {
+              "id": "espn-285450",
+              "name": "Enzo Fernández"
+            },
+            "assist": {
+              "id": "espn-268641",
+              "name": "Iliman Ndiaye"
+            }
+          },
+          {
+            "minute": 61,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 721,
+              "name": "RB Leipzig"
+            },
+            "scorer": {
+              "id": "espn-319368",
+              "name": "Antonio Nusa"
+            },
+            "assist": {
+              "id": "espn-222176",
+              "name": "Christopher Nkunku"
+            }
+          },
+          {
+            "minute": 78,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 65,
+              "name": "Manchester City FC"
+            },
+            "scorer": {
+              "id": "espn-253989",
+              "name": "Erling Haaland"
+            },
+            "assist": {
+              "id": "espn-238472",
+              "name": "Elliot Anderson"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 17,
+            "injuryTime": null,
+            "team": {
+              "id": 721,
+              "name": "RB Leipzig"
+            },
+            "player": {
+              "id": "espn-274897",
+              "name": "Christoph Baumgartner"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 33,
+            "injuryTime": null,
+            "team": {
+              "id": 721,
+              "name": "RB Leipzig"
+            },
+            "player": {
+              "id": "espn-258963",
+              "name": "Ridle Baku"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 48,
+            "injuryTime": null,
+            "team": {
+              "id": 721,
+              "name": "RB Leipzig"
+            },
+            "player": {
+              "id": "espn-323807",
+              "name": "Neil El Aynaoui"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 77,
+            "injuryTime": null,
+            "team": {
+              "id": 721,
+              "name": "RB Leipzig"
+            },
+            "player": {
+              "id": "espn-249548",
+              "name": "David Raum"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 88,
+            "injuryTime": null,
+            "team": {
+              "id": 65,
+              "name": "Manchester City FC"
+            },
+            "player": {
+              "id": "espn-283672",
+              "name": "Jérémy Doku"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 4,
+            "team": {
+              "id": 65,
+              "name": "Manchester City FC"
+            },
+            "player": {
+              "id": "espn-362211",
+              "name": "Abdukodir Khusanov"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -222503,11 +222901,11 @@
         },
         "id": 575389,
         "utcDate": "2026-11-04T20:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-04T01:32:00Z",
+        "lastUpdated": "2026-11-04T23:25:00Z",
         "homeTeam": {
           "id": 930,
           "name": "SK Slavia Praha",
@@ -222523,15 +222921,15 @@
           "crest": "https://crests.football-data.org/57.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 2
           }
         },
         "odds": {
@@ -222543,6 +222941,100 @@
             "name": "Tobias Stieler",
             "type": "REFEREE",
             "nationality": "Germany"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 9,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 57,
+              "name": "Arsenal FC"
+            },
+            "scorer": {
+              "id": "espn-293236",
+              "name": "Noni Madueke"
+            },
+            "assist": {
+              "id": "espn-258906",
+              "name": "Viktor Gyökeres"
+            }
+          },
+          {
+            "minute": 38,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 57,
+              "name": "Arsenal FC"
+            },
+            "scorer": {
+              "id": "espn-258906",
+              "name": "Viktor Gyökeres"
+            },
+            "assist": {
+              "id": "espn-209581",
+              "name": "Mikel Merino"
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 930,
+              "name": "SK Slavia Praha"
+            },
+            "scorer": {
+              "id": "espn-410093",
+              "name": "Wiktor Nowak"
+            },
+            "assist": {
+              "id": "espn-335996",
+              "name": "David Jurásek"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 20,
+            "injuryTime": null,
+            "team": {
+              "id": 930,
+              "name": "SK Slavia Praha"
+            },
+            "player": {
+              "id": "espn-256751",
+              "name": "David Moses"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 53,
+            "injuryTime": null,
+            "team": {
+              "id": 57,
+              "name": "Arsenal FC"
+            },
+            "player": {
+              "id": "espn-231859",
+              "name": "Ezri Konsa"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 68,
+            "injuryTime": null,
+            "team": {
+              "id": 57,
+              "name": "Arsenal FC"
+            },
+            "player": {
+              "id": "espn-238262",
+              "name": "Declan Rice"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -222569,11 +223061,11 @@
         },
         "id": 575390,
         "utcDate": "2026-11-04T20:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-04T01:32:00Z",
+        "lastUpdated": "2026-11-04T23:25:00Z",
         "homeTeam": {
           "id": 674,
           "name": "PSV",
@@ -222589,15 +223081,15 @@
           "crest": "https://crests.football-data.org/851.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
@@ -222609,6 +223101,97 @@
             "name": "Irfan Peljto",
             "type": "REFEREE",
             "nationality": "Bosnia and Herzegovina"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 25,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 851,
+              "name": "Club Brugge KV"
+            },
+            "scorer": {
+              "id": "espn-335201",
+              "name": "Nicolo Tresoldi"
+            },
+            "assist": {
+              "id": "espn-363068",
+              "name": "Joaquin Seys"
+            }
+          },
+          {
+            "minute": 54,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 674,
+              "name": "PSV"
+            },
+            "scorer": {
+              "id": "espn-341715",
+              "name": "Kodai Sano"
+            },
+            "assist": null
+          },
+          {
+            "minute": 65,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 851,
+              "name": "Club Brugge KV"
+            },
+            "scorer": {
+              "id": "espn-78836",
+              "name": "Carlos Forbs"
+            },
+            "assist": {
+              "id": "espn-363068",
+              "name": "Joaquin Seys"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 28,
+            "injuryTime": null,
+            "team": {
+              "id": 851,
+              "name": "Club Brugge KV"
+            },
+            "player": {
+              "id": "espn-78836",
+              "name": "Carlos Forbs"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 73,
+            "injuryTime": null,
+            "team": {
+              "id": 851,
+              "name": "Club Brugge KV"
+            },
+            "player": {
+              "id": "espn-255261",
+              "name": "Hugo Vetlesen"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 81,
+            "injuryTime": null,
+            "team": {
+              "id": 851,
+              "name": "Club Brugge KV"
+            },
+            "player": {
+              "id": "espn-351301",
+              "name": "Jorne Spileers"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -222635,11 +223218,11 @@
         },
         "id": 575391,
         "utcDate": "2026-11-04T20:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-04T01:32:00Z",
+        "lastUpdated": "2026-11-04T23:25:00Z",
         "homeTeam": {
           "id": 4,
           "name": "Borussia Dortmund",
@@ -222655,15 +223238,15 @@
           "crest": "https://crests.football-data.org/90.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -222675,6 +223258,162 @@
             "name": "Serdar Gözübüyük",
             "type": "REFEREE",
             "nationality": "Netherlands"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 49,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 4,
+              "name": "Borussia Dortmund"
+            },
+            "scorer": {
+              "id": "espn-291629",
+              "name": "Fábio Silva"
+            },
+            "assist": null
+          },
+          {
+            "minute": 67,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 90,
+              "name": "Real Betis Balompié"
+            },
+            "scorer": {
+              "id": "espn-268601",
+              "name": "Aitor Ruibal"
+            },
+            "assist": {
+              "id": "espn-300912",
+              "name": "Abde Ezzalzouli"
+            }
+          },
+          {
+            "minute": 72,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 4,
+              "name": "Borussia Dortmund"
+            },
+            "scorer": {
+              "id": "espn-357801",
+              "name": "Konstantinos Karetsas"
+            },
+            "assist": {
+              "id": "espn-291629",
+              "name": "Fábio Silva"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 38,
+            "injuryTime": null,
+            "team": {
+              "id": 4,
+              "name": "Borussia Dortmund"
+            },
+            "player": {
+              "id": "espn-222991",
+              "name": "Julian Ryerson"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 44,
+            "injuryTime": null,
+            "team": {
+              "id": 90,
+              "name": "Real Betis Balompié"
+            },
+            "player": {
+              "id": "espn-301526",
+              "name": "Natan"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 45,
+            "injuryTime": 4,
+            "team": {
+              "id": 4,
+              "name": "Borussia Dortmund"
+            },
+            "player": {
+              "id": "espn-220703",
+              "name": "Ramy Bensebaini"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 64,
+            "injuryTime": null,
+            "team": {
+              "id": 90,
+              "name": "Real Betis Balompié"
+            },
+            "player": {
+              "id": "espn-336480",
+              "name": "Valentín Gómez"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 78,
+            "injuryTime": null,
+            "team": {
+              "id": 4,
+              "name": "Borussia Dortmund"
+            },
+            "player": {
+              "id": "espn-240912",
+              "name": "Joey Veerman"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 79,
+            "injuryTime": null,
+            "team": {
+              "id": 4,
+              "name": "Borussia Dortmund"
+            },
+            "player": {
+              "id": "espn-324820",
+              "name": "Jobe Bellingham"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 88,
+            "injuryTime": null,
+            "team": {
+              "id": 90,
+              "name": "Real Betis Balompié"
+            },
+            "player": {
+              "id": "espn-395941",
+              "name": "Ángel Ortiz"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 3,
+            "team": {
+              "id": 90,
+              "name": "Real Betis Balompié"
+            },
+            "player": {
+              "id": "espn-143564",
+              "name": "Isco"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -222701,11 +223440,11 @@
         },
         "id": 575392,
         "utcDate": "2026-11-04T20:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-04T01:32:00Z",
+        "lastUpdated": "2026-11-04T23:25:01Z",
         "homeTeam": {
           "id": 503,
           "name": "FC Porto",
@@ -222721,15 +223460,15 @@
           "crest": "https://crests.football-data.org/113.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 4,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "odds": {
@@ -222741,6 +223480,167 @@
             "name": "Michael Oliver",
             "type": "REFEREE",
             "nationality": "England"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 11,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 503,
+              "name": "FC Porto"
+            },
+            "scorer": {
+              "id": "espn-221788",
+              "name": "Jan Bednarek"
+            },
+            "assist": {
+              "id": "espn-307381",
+              "name": "Gabri Veiga"
+            }
+          },
+          {
+            "minute": 43,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 113,
+              "name": "SSC Napoli"
+            },
+            "scorer": {
+              "id": "espn-255850",
+              "name": "Scott McTominay"
+            },
+            "assist": null
+          },
+          {
+            "minute": 71,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 503,
+              "name": "FC Porto"
+            },
+            "scorer": {
+              "id": "espn-307381",
+              "name": "Gabri Veiga"
+            },
+            "assist": {
+              "id": "espn-260775",
+              "name": "Santiago Gimenez"
+            }
+          },
+          {
+            "minute": 80,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 503,
+              "name": "FC Porto"
+            },
+            "scorer": {
+              "id": "espn-304965",
+              "name": "Jakub Kiwior"
+            },
+            "assist": {
+              "id": "espn-280061",
+              "name": "Hwang In-Beom"
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 503,
+              "name": "FC Porto"
+            },
+            "scorer": {
+              "id": "espn-364815",
+              "name": "Samu Aghehowa"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 1,
+            "injuryTime": null,
+            "team": {
+              "id": 113,
+              "name": "SSC Napoli"
+            },
+            "player": {
+              "id": "espn-332411",
+              "name": "Antonio Vergara"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 21,
+            "injuryTime": null,
+            "team": {
+              "id": 113,
+              "name": "SSC Napoli"
+            },
+            "player": {
+              "id": "espn-215721",
+              "name": "Frank Anguissa"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 35,
+            "injuryTime": null,
+            "team": {
+              "id": 113,
+              "name": "SSC Napoli"
+            },
+            "player": {
+              "id": "espn-205576",
+              "name": "Amir Rrahmani"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 36,
+            "injuryTime": null,
+            "team": {
+              "id": 113,
+              "name": "SSC Napoli"
+            },
+            "player": {
+              "id": "espn-255850",
+              "name": "Scott McTominay"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 45,
+            "injuryTime": 2,
+            "team": {
+              "id": 503,
+              "name": "FC Porto"
+            },
+            "player": {
+              "id": "espn-307381",
+              "name": "Gabri Veiga"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 88,
+            "injuryTime": null,
+            "team": {
+              "id": 113,
+              "name": "SSC Napoli"
+            },
+            "player": {
+              "id": "espn-297360",
+              "name": "Rafa Marín"
+            },
+            "card": "RED"
           }
         ]
       },
@@ -222767,11 +223667,11 @@
         },
         "id": 575393,
         "utcDate": "2026-11-04T20:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-04T01:32:00Z",
+        "lastUpdated": "2026-11-04T23:25:01Z",
         "homeTeam": {
           "id": 546,
           "name": "Racing Club de Lens",
@@ -222787,15 +223687,15 @@
           "crest": "https://crests.football-data.org/7397.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 9
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 3
           }
         },
         "odds": {
@@ -222807,6 +223707,206 @@
             "name": "Rohit Saggi",
             "type": "REFEREE",
             "nationality": "Norway"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 7,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "scorer": {
+              "id": "espn-262071",
+              "name": "Tasos Douvikas"
+            },
+            "assist": {
+              "id": "espn-309241",
+              "name": "Máximo Perrone"
+            }
+          },
+          {
+            "minute": 32,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "scorer": {
+              "id": "espn-262071",
+              "name": "Tasos Douvikas"
+            },
+            "assist": {
+              "id": "espn-192146",
+              "name": "Álex Valle"
+            }
+          },
+          {
+            "minute": 40,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "scorer": {
+              "id": "espn-337970",
+              "name": "Nico Paz"
+            },
+            "assist": {
+              "id": "espn-262071",
+              "name": "Tasos Douvikas"
+            }
+          },
+          {
+            "minute": 47,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "scorer": {
+              "id": "espn-291285",
+              "name": "Lucas Da Cunha"
+            },
+            "assist": {
+              "id": "espn-337970",
+              "name": "Nico Paz"
+            }
+          },
+          {
+            "minute": 53,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "scorer": {
+              "id": "espn-175887",
+              "name": "Marc-Oliver Kempf"
+            },
+            "assist": {
+              "id": "espn-264211",
+              "name": "Luis Milla"
+            }
+          },
+          {
+            "minute": 57,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "scorer": {
+              "id": "espn-262071",
+              "name": "Tasos Douvikas"
+            },
+            "assist": {
+              "id": "espn-337970",
+              "name": "Nico Paz"
+            }
+          },
+          {
+            "minute": 62,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "scorer": {
+              "id": "espn-387723",
+              "name": "Mattia Liberali"
+            },
+            "assist": {
+              "id": "espn-380318",
+              "name": "Jacobo Ramón"
+            }
+          },
+          {
+            "minute": 65,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 546,
+              "name": "Racing Club de Lens"
+            },
+            "scorer": {
+              "id": "espn-181946",
+              "name": "Ruben Aguilar"
+            },
+            "assist": {
+              "id": "espn-156898",
+              "name": "Florian Thauvin"
+            }
+          },
+          {
+            "minute": 69,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "scorer": {
+              "id": "espn-311475",
+              "name": "Martin Baturina"
+            },
+            "assist": {
+              "id": "espn-387723",
+              "name": "Mattia Liberali"
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 1,
+            "type": "REGULAR",
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "scorer": {
+              "id": "espn-411276",
+              "name": "Matteo Papaccioli"
+            },
+            "assist": {
+              "id": "espn-387723",
+              "name": "Mattia Liberali"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 34,
+            "injuryTime": null,
+            "team": {
+              "id": 546,
+              "name": "Racing Club de Lens"
+            },
+            "player": {
+              "id": "espn-329484",
+              "name": "Samson Baidoo"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 75,
+            "injuryTime": null,
+            "team": {
+              "id": 546,
+              "name": "Racing Club de Lens"
+            },
+            "player": {
+              "id": "espn-258871",
+              "name": "Michaël Cuisance"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -222833,11 +223933,11 @@
         },
         "id": 575394,
         "utcDate": "2026-11-04T20:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 4,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-04T00:20:28Z",
+        "lastUpdated": "2026-11-04T21:59:15Z",
         "homeTeam": {
           "id": 5720,
           "name": "Viking FK",
@@ -222853,15 +223953,15 @@
           "crest": "https://crests.football-data.org/10233.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 4,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "odds": {
@@ -222873,6 +223973,157 @@
             "name": "Sander Van der Eijk",
             "type": "REFEREE",
             "nationality": "Netherlands"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 11,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 10233,
+              "name": "Sabah FK"
+            },
+            "scorer": {
+              "id": "espn-308907",
+              "name": "Orphé Mbina"
+            },
+            "assist": {
+              "id": "espn-362336",
+              "name": "Umarali Rakhmonaliev"
+            }
+          },
+          {
+            "minute": 27,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5720,
+              "name": "Viking FK"
+            },
+            "scorer": {
+              "id": "espn-239925",
+              "name": "Erik Botheim"
+            },
+            "assist": {
+              "id": "espn-173356",
+              "name": "Kristoffer Haugen"
+            }
+          },
+          {
+            "minute": 69,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5720,
+              "name": "Viking FK"
+            },
+            "scorer": {
+              "id": "espn-164279",
+              "name": "Zlatko Tripic"
+            },
+            "assist": null
+          },
+          {
+            "minute": 81,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5720,
+              "name": "Viking FK"
+            },
+            "scorer": {
+              "id": "espn-303281",
+              "name": "Henrik Falchener"
+            },
+            "assist": {
+              "id": "espn-164279",
+              "name": "Zlatko Tripic"
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 4,
+            "type": "REGULAR",
+            "team": {
+              "id": 5720,
+              "name": "Viking FK"
+            },
+            "scorer": {
+              "id": "espn-239925",
+              "name": "Erik Botheim"
+            },
+            "assist": {
+              "id": "espn-9167",
+              "name": "Peter Christiansen"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 2,
+            "injuryTime": null,
+            "team": {
+              "id": 5720,
+              "name": "Viking FK"
+            },
+            "player": {
+              "id": "espn-173356",
+              "name": "Kristoffer Haugen"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 18,
+            "injuryTime": null,
+            "team": {
+              "id": 5720,
+              "name": "Viking FK"
+            },
+            "player": {
+              "id": "espn-286826",
+              "name": "Gianni Stensness"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 36,
+            "injuryTime": null,
+            "team": {
+              "id": 10233,
+              "name": "Sabah FK"
+            },
+            "player": {
+              "id": "espn-362336",
+              "name": "Umarali Rakhmonaliev"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 77,
+            "injuryTime": null,
+            "team": {
+              "id": 10233,
+              "name": "Sabah FK"
+            },
+            "player": {
+              "id": "espn-332563",
+              "name": "Aden McCarthy"
+            },
+            "card": "RED"
+          },
+          {
+            "minute": 87,
+            "injuryTime": null,
+            "team": {
+              "id": 10233,
+              "name": "Sabah FK"
+            },
+            "player": {
+              "id": "espn-291791",
+              "name": "Joy-Lance Mickels"
+            },
+            "card": "YELLOW"
           }
         ]
       },
