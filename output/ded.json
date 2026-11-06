@@ -6573,11 +6573,11 @@
       },
       "id": 558845,
       "utcDate": "2026-11-06T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 12,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-06T00:20:27Z",
+      "lastUpdated": "2026-11-06T19:13:55Z",
       "homeTeam": {
         "id": 672,
         "name": "Willem II Tilburg",
@@ -6593,11 +6593,11 @@
         "crest": "https://crests.football-data.org/684.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
           "home": null,
@@ -6607,7 +6607,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 9561,
+          "name": "Allard Lindhout",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
