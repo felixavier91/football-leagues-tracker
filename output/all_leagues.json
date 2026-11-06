@@ -15149,11 +15149,11 @@
         },
         "id": 560634,
         "utcDate": "2026-11-06T20:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
+        "lastUpdated": "2026-11-06T23:25:12Z",
         "homeTeam": {
           "id": 62,
           "name": "Everton FC",
@@ -15169,15 +15169,15 @@
           "crest": "https://crests.football-data.org/1076.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 3,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -15189,6 +15189,98 @@
             "name": "Stuart Attwell",
             "type": "REFEREE",
             "nationality": "England"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 52,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1076,
+              "name": "Coventry City FC"
+            },
+            "scorer": {
+              "id": "espn-277383",
+              "name": "Yann Gboho"
+            },
+            "assist": null
+          },
+          {
+            "minute": 56,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 62,
+              "name": "Everton FC"
+            },
+            "scorer": {
+              "id": "espn-301166",
+              "name": "Thierno Barry"
+            },
+            "assist": {
+              "id": "espn-262594",
+              "name": "Vitaliy Mykolenko"
+            }
+          },
+          {
+            "minute": 61,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 62,
+              "name": "Everton FC"
+            },
+            "scorer": {
+              "id": "espn-301166",
+              "name": "Thierno Barry"
+            },
+            "assist": null
+          },
+          {
+            "minute": 81,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 62,
+              "name": "Everton FC"
+            },
+            "scorer": {
+              "id": "espn-252389",
+              "name": "Kiernan Dewsbury-Hall"
+            },
+            "assist": {
+              "id": "espn-301166",
+              "name": "Thierno Barry"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 88,
+            "injuryTime": null,
+            "team": {
+              "id": 62,
+              "name": "Everton FC"
+            },
+            "player": {
+              "id": "espn-286965",
+              "name": "Jarrad Branthwaite"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 88,
+            "injuryTime": null,
+            "team": {
+              "id": 1076,
+              "name": "Coventry City FC"
+            },
+            "player": {
+              "id": "espn-387659",
+              "name": "Caleb Yirenkyi"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -51681,11 +51773,11 @@
         },
         "id": 564740,
         "utcDate": "2026-11-06T20:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 12,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
+        "lastUpdated": "2026-11-06T23:25:07Z",
         "homeTeam": {
           "id": 559,
           "name": "Sevilla FC",
@@ -51701,15 +51793,15 @@
           "crest": "https://crests.football-data.org/263.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -51721,6 +51813,61 @@
             "name": "Luis Bestard Servera",
             "type": "REFEREE",
             "nationality": "Spain"
+          }
+        ],
+        "goals": [],
+        "bookings": [
+          {
+            "minute": 30,
+            "injuryTime": null,
+            "team": {
+              "id": 263,
+              "name": "Deportivo Alavés"
+            },
+            "player": {
+              "id": "espn-106326",
+              "name": "Pablo Ibáñez"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 47,
+            "injuryTime": null,
+            "team": {
+              "id": 559,
+              "name": "Sevilla FC"
+            },
+            "player": {
+              "id": "espn-304213",
+              "name": "Arouna Sangante"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 63,
+            "injuryTime": null,
+            "team": {
+              "id": 263,
+              "name": "Deportivo Alavés"
+            },
+            "player": {
+              "id": "espn-181757",
+              "name": "Toni Martínez"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 64,
+            "injuryTime": null,
+            "team": {
+              "id": 263,
+              "name": "Deportivo Alavés"
+            },
+            "player": {
+              "id": "espn-318084",
+              "name": "Nicolás Valentini"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -52866,426 +53013,13 @@
           "currentMatchday": 12,
           "winner": null
         },
-        "id": 564758,
-        "utcDate": "2026-11-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
-        "homeTeam": {
-          "id": 558,
-          "name": "RC Celta de Vigo",
-          "shortName": "Celta",
-          "tla": "CEL",
-          "crest": "https://crests.football-data.org/558.png"
-        },
-        "awayTeam": {
-          "id": 94,
-          "name": "Villarreal CF",
-          "shortName": "Villarreal",
-          "tla": "VIL",
-          "crest": "https://crests.football-data.org/94.png"
-        },
-        "score": {
-          "winner": null,
-          "duration": "REGULAR",
-          "fullTime": {
-            "home": null,
-            "away": null
-          },
-          "halfTime": {
-            "home": null,
-            "away": null
-          }
-        },
-        "odds": {
-          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-        },
-        "referees": []
-      },
-      {
-        "area": {
-          "id": 2224,
-          "name": "Spain",
-          "code": "ESP",
-          "flag": "https://crests.football-data.org/760.svg"
-        },
-        "competition": {
-          "id": 2014,
-          "name": "Primera Division",
-          "code": "PD",
-          "type": "LEAGUE",
-          "emblem": "https://crests.football-data.org/laliga.png"
-        },
-        "season": {
-          "id": 2518,
-          "startDate": "2026-08-16",
-          "endDate": "2027-05-30",
-          "currentMatchday": 12,
-          "winner": null
-        },
-        "id": 564759,
-        "utcDate": "2026-11-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
-        "homeTeam": {
-          "id": 285,
-          "name": "Elche CF",
-          "shortName": "Elche",
-          "tla": "ELC",
-          "crest": "https://crests.football-data.org/285.png"
-        },
-        "awayTeam": {
-          "id": 78,
-          "name": "Club Atlético de Madrid",
-          "shortName": "Atleti",
-          "tla": "ATL",
-          "crest": "https://crests.football-data.org/78.png"
-        },
-        "score": {
-          "winner": null,
-          "duration": "REGULAR",
-          "fullTime": {
-            "home": null,
-            "away": null
-          },
-          "halfTime": {
-            "home": null,
-            "away": null
-          }
-        },
-        "odds": {
-          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-        },
-        "referees": []
-      },
-      {
-        "area": {
-          "id": 2224,
-          "name": "Spain",
-          "code": "ESP",
-          "flag": "https://crests.football-data.org/760.svg"
-        },
-        "competition": {
-          "id": 2014,
-          "name": "Primera Division",
-          "code": "PD",
-          "type": "LEAGUE",
-          "emblem": "https://crests.football-data.org/laliga.png"
-        },
-        "season": {
-          "id": 2518,
-          "startDate": "2026-08-16",
-          "endDate": "2027-05-30",
-          "currentMatchday": 12,
-          "winner": null
-        },
-        "id": 564760,
-        "utcDate": "2026-11-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
-        "homeTeam": {
-          "id": 90,
-          "name": "Real Betis Balompié",
-          "shortName": "Real Betis",
-          "tla": "BET",
-          "crest": "https://crests.football-data.org/90.png"
-        },
-        "awayTeam": {
-          "id": 87,
-          "name": "Rayo Vallecano de Madrid",
-          "shortName": "Rayo Vallecano",
-          "tla": "RAY",
-          "crest": "https://crests.football-data.org/87.png"
-        },
-        "score": {
-          "winner": null,
-          "duration": "REGULAR",
-          "fullTime": {
-            "home": null,
-            "away": null
-          },
-          "halfTime": {
-            "home": null,
-            "away": null
-          }
-        },
-        "odds": {
-          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-        },
-        "referees": []
-      },
-      {
-        "area": {
-          "id": 2224,
-          "name": "Spain",
-          "code": "ESP",
-          "flag": "https://crests.football-data.org/760.svg"
-        },
-        "competition": {
-          "id": 2014,
-          "name": "Primera Division",
-          "code": "PD",
-          "type": "LEAGUE",
-          "emblem": "https://crests.football-data.org/laliga.png"
-        },
-        "season": {
-          "id": 2518,
-          "startDate": "2026-08-16",
-          "endDate": "2027-05-30",
-          "currentMatchday": 12,
-          "winner": null
-        },
-        "id": 564761,
-        "utcDate": "2026-11-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
-        "homeTeam": {
-          "id": 95,
-          "name": "Valencia CF",
-          "shortName": "Valencia",
-          "tla": "VAL",
-          "crest": "https://crests.football-data.org/95.png"
-        },
-        "awayTeam": {
-          "id": 79,
-          "name": "CA Osasuna",
-          "shortName": "Osasuna",
-          "tla": "OSA",
-          "crest": "https://crests.football-data.org/79.png"
-        },
-        "score": {
-          "winner": null,
-          "duration": "REGULAR",
-          "fullTime": {
-            "home": null,
-            "away": null
-          },
-          "halfTime": {
-            "home": null,
-            "away": null
-          }
-        },
-        "odds": {
-          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-        },
-        "referees": []
-      },
-      {
-        "area": {
-          "id": 2224,
-          "name": "Spain",
-          "code": "ESP",
-          "flag": "https://crests.football-data.org/760.svg"
-        },
-        "competition": {
-          "id": 2014,
-          "name": "Primera Division",
-          "code": "PD",
-          "type": "LEAGUE",
-          "emblem": "https://crests.football-data.org/laliga.png"
-        },
-        "season": {
-          "id": 2518,
-          "startDate": "2026-08-16",
-          "endDate": "2027-05-30",
-          "currentMatchday": 12,
-          "winner": null
-        },
-        "id": 564762,
-        "utcDate": "2026-11-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
-        "homeTeam": {
-          "id": 86,
-          "name": "Real Madrid CF",
-          "shortName": "Real Madrid",
-          "tla": "RMA",
-          "crest": "https://crests.football-data.org/86.png"
-        },
-        "awayTeam": {
-          "id": 263,
-          "name": "Deportivo Alavés",
-          "shortName": "Alavés",
-          "tla": "ALA",
-          "crest": "https://crests.football-data.org/263.png"
-        },
-        "score": {
-          "winner": null,
-          "duration": "REGULAR",
-          "fullTime": {
-            "home": null,
-            "away": null
-          },
-          "halfTime": {
-            "home": null,
-            "away": null
-          }
-        },
-        "odds": {
-          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-        },
-        "referees": []
-      },
-      {
-        "area": {
-          "id": 2224,
-          "name": "Spain",
-          "code": "ESP",
-          "flag": "https://crests.football-data.org/760.svg"
-        },
-        "competition": {
-          "id": 2014,
-          "name": "Primera Division",
-          "code": "PD",
-          "type": "LEAGUE",
-          "emblem": "https://crests.football-data.org/laliga.png"
-        },
-        "season": {
-          "id": 2518,
-          "startDate": "2026-08-16",
-          "endDate": "2027-05-30",
-          "currentMatchday": 12,
-          "winner": null
-        },
-        "id": 564763,
-        "utcDate": "2026-11-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
-        "homeTeam": {
-          "id": 80,
-          "name": "RCD Espanyol de Barcelona",
-          "shortName": "Espanyol",
-          "tla": "ESP",
-          "crest": "https://crests.football-data.org/80.png"
-        },
-        "awayTeam": {
-          "id": 82,
-          "name": "Getafe CF",
-          "shortName": "Getafe",
-          "tla": "GET",
-          "crest": "https://crests.football-data.org/82.png"
-        },
-        "score": {
-          "winner": null,
-          "duration": "REGULAR",
-          "fullTime": {
-            "home": null,
-            "away": null
-          },
-          "halfTime": {
-            "home": null,
-            "away": null
-          }
-        },
-        "odds": {
-          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-        },
-        "referees": []
-      },
-      {
-        "area": {
-          "id": 2224,
-          "name": "Spain",
-          "code": "ESP",
-          "flag": "https://crests.football-data.org/760.svg"
-        },
-        "competition": {
-          "id": 2014,
-          "name": "Primera Division",
-          "code": "PD",
-          "type": "LEAGUE",
-          "emblem": "https://crests.football-data.org/laliga.png"
-        },
-        "season": {
-          "id": 2518,
-          "startDate": "2026-08-16",
-          "endDate": "2027-05-30",
-          "currentMatchday": 12,
-          "winner": null
-        },
-        "id": 564764,
-        "utcDate": "2026-11-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
-        "homeTeam": {
-          "id": 92,
-          "name": "Real Sociedad de Fútbol",
-          "shortName": "Real Sociedad",
-          "tla": "RSO",
-          "crest": "https://crests.football-data.org/92.png"
-        },
-        "awayTeam": {
-          "id": 559,
-          "name": "Sevilla FC",
-          "shortName": "Sevilla FC",
-          "tla": "SEV",
-          "crest": "https://crests.football-data.org/559.png"
-        },
-        "score": {
-          "winner": null,
-          "duration": "REGULAR",
-          "fullTime": {
-            "home": null,
-            "away": null
-          },
-          "halfTime": {
-            "home": null,
-            "away": null
-          }
-        },
-        "odds": {
-          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-        },
-        "referees": []
-      },
-      {
-        "area": {
-          "id": 2224,
-          "name": "Spain",
-          "code": "ESP",
-          "flag": "https://crests.football-data.org/760.svg"
-        },
-        "competition": {
-          "id": 2014,
-          "name": "Primera Division",
-          "code": "PD",
-          "type": "LEAGUE",
-          "emblem": "https://crests.football-data.org/laliga.png"
-        },
-        "season": {
-          "id": 2518,
-          "startDate": "2026-08-16",
-          "endDate": "2027-05-30",
-          "currentMatchday": 12,
-          "winner": null
-        },
         "id": 564765,
-        "utcDate": "2026-11-29T00:00:00Z",
-        "status": "SCHEDULED",
+        "utcDate": "2026-11-27T20:00:00Z",
+        "status": "TIMED",
         "matchday": 14,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
+        "lastUpdated": "2026-11-06T23:25:07Z",
         "homeTeam": {
           "id": 88,
           "name": "Levante UD",
@@ -53338,13 +53072,308 @@
           "currentMatchday": 12,
           "winner": null
         },
-        "id": 564766,
-        "utcDate": "2026-11-29T00:00:00Z",
-        "status": "SCHEDULED",
+        "id": 564760,
+        "utcDate": "2026-11-28T13:00:00Z",
+        "status": "TIMED",
         "matchday": 14,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
+        "lastUpdated": "2026-11-06T23:25:07Z",
+        "homeTeam": {
+          "id": 90,
+          "name": "Real Betis Balompié",
+          "shortName": "Real Betis",
+          "tla": "BET",
+          "crest": "https://crests.football-data.org/90.png"
+        },
+        "awayTeam": {
+          "id": 87,
+          "name": "Rayo Vallecano de Madrid",
+          "shortName": "Rayo Vallecano",
+          "tla": "RAY",
+          "crest": "https://crests.football-data.org/87.png"
+        },
+        "score": {
+          "winner": null,
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": null,
+            "away": null
+          },
+          "halfTime": {
+            "home": null,
+            "away": null
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": []
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2518,
+          "startDate": "2026-08-16",
+          "endDate": "2027-05-30",
+          "currentMatchday": 12,
+          "winner": null
+        },
+        "id": 564767,
+        "utcDate": "2026-11-28T15:15:00Z",
+        "status": "TIMED",
+        "matchday": 14,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-11-06T23:25:07Z",
+        "homeTeam": {
+          "id": 84,
+          "name": "Málaga CF",
+          "shortName": "Málaga",
+          "tla": "MAL",
+          "crest": "https://crests.football-data.org/84.png"
+        },
+        "awayTeam": {
+          "id": 77,
+          "name": "Athletic Club",
+          "shortName": "Athletic",
+          "tla": "ATH",
+          "crest": "https://crests.football-data.org/77.png"
+        },
+        "score": {
+          "winner": null,
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": null,
+            "away": null
+          },
+          "halfTime": {
+            "home": null,
+            "away": null
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": []
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2518,
+          "startDate": "2026-08-16",
+          "endDate": "2027-05-30",
+          "currentMatchday": 12,
+          "winner": null
+        },
+        "id": 564759,
+        "utcDate": "2026-11-28T17:30:00Z",
+        "status": "TIMED",
+        "matchday": 14,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-11-06T23:25:07Z",
+        "homeTeam": {
+          "id": 285,
+          "name": "Elche CF",
+          "shortName": "Elche",
+          "tla": "ELC",
+          "crest": "https://crests.football-data.org/285.png"
+        },
+        "awayTeam": {
+          "id": 78,
+          "name": "Club Atlético de Madrid",
+          "shortName": "Atleti",
+          "tla": "ATL",
+          "crest": "https://crests.football-data.org/78.png"
+        },
+        "score": {
+          "winner": null,
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": null,
+            "away": null
+          },
+          "halfTime": {
+            "home": null,
+            "away": null
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": []
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2518,
+          "startDate": "2026-08-16",
+          "endDate": "2027-05-30",
+          "currentMatchday": 12,
+          "winner": null
+        },
+        "id": 564762,
+        "utcDate": "2026-11-28T20:00:00Z",
+        "status": "TIMED",
+        "matchday": 14,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-11-06T23:25:07Z",
+        "homeTeam": {
+          "id": 86,
+          "name": "Real Madrid CF",
+          "shortName": "Real Madrid",
+          "tla": "RMA",
+          "crest": "https://crests.football-data.org/86.png"
+        },
+        "awayTeam": {
+          "id": 263,
+          "name": "Deportivo Alavés",
+          "shortName": "Alavés",
+          "tla": "ALA",
+          "crest": "https://crests.football-data.org/263.png"
+        },
+        "score": {
+          "winner": null,
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": null,
+            "away": null
+          },
+          "halfTime": {
+            "home": null,
+            "away": null
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": []
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2518,
+          "startDate": "2026-08-16",
+          "endDate": "2027-05-30",
+          "currentMatchday": 12,
+          "winner": null
+        },
+        "id": 564761,
+        "utcDate": "2026-11-29T13:00:00Z",
+        "status": "TIMED",
+        "matchday": 14,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-11-06T23:25:07Z",
+        "homeTeam": {
+          "id": 95,
+          "name": "Valencia CF",
+          "shortName": "Valencia",
+          "tla": "VAL",
+          "crest": "https://crests.football-data.org/95.png"
+        },
+        "awayTeam": {
+          "id": 79,
+          "name": "CA Osasuna",
+          "shortName": "Osasuna",
+          "tla": "OSA",
+          "crest": "https://crests.football-data.org/79.png"
+        },
+        "score": {
+          "winner": null,
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": null,
+            "away": null
+          },
+          "halfTime": {
+            "home": null,
+            "away": null
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": []
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2518,
+          "startDate": "2026-08-16",
+          "endDate": "2027-05-30",
+          "currentMatchday": 12,
+          "winner": null
+        },
+        "id": 564766,
+        "utcDate": "2026-11-29T15:15:00Z",
+        "status": "TIMED",
+        "matchday": 14,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-11-06T23:25:07Z",
         "homeTeam": {
           "id": 560,
           "name": "RC Deportivo La Coruña",
@@ -53397,26 +53426,144 @@
           "currentMatchday": 12,
           "winner": null
         },
-        "id": 564767,
-        "utcDate": "2026-11-29T00:00:00Z",
-        "status": "SCHEDULED",
+        "id": 564758,
+        "utcDate": "2026-11-29T17:30:00Z",
+        "status": "TIMED",
         "matchday": 14,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
+        "lastUpdated": "2026-11-06T23:25:07Z",
         "homeTeam": {
-          "id": 84,
-          "name": "Málaga CF",
-          "shortName": "Málaga",
-          "tla": "MAL",
-          "crest": "https://crests.football-data.org/84.png"
+          "id": 558,
+          "name": "RC Celta de Vigo",
+          "shortName": "Celta",
+          "tla": "CEL",
+          "crest": "https://crests.football-data.org/558.png"
         },
         "awayTeam": {
-          "id": 77,
-          "name": "Athletic Club",
-          "shortName": "Athletic",
-          "tla": "ATH",
-          "crest": "https://crests.football-data.org/77.png"
+          "id": 94,
+          "name": "Villarreal CF",
+          "shortName": "Villarreal",
+          "tla": "VIL",
+          "crest": "https://crests.football-data.org/94.png"
+        },
+        "score": {
+          "winner": null,
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": null,
+            "away": null
+          },
+          "halfTime": {
+            "home": null,
+            "away": null
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": []
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2518,
+          "startDate": "2026-08-16",
+          "endDate": "2027-05-30",
+          "currentMatchday": 12,
+          "winner": null
+        },
+        "id": 564764,
+        "utcDate": "2026-11-29T20:00:00Z",
+        "status": "TIMED",
+        "matchday": 14,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-11-06T23:25:07Z",
+        "homeTeam": {
+          "id": 92,
+          "name": "Real Sociedad de Fútbol",
+          "shortName": "Real Sociedad",
+          "tla": "RSO",
+          "crest": "https://crests.football-data.org/92.png"
+        },
+        "awayTeam": {
+          "id": 559,
+          "name": "Sevilla FC",
+          "shortName": "Sevilla FC",
+          "tla": "SEV",
+          "crest": "https://crests.football-data.org/559.png"
+        },
+        "score": {
+          "winner": null,
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": null,
+            "away": null
+          },
+          "halfTime": {
+            "home": null,
+            "away": null
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": []
+      },
+      {
+        "area": {
+          "id": 2224,
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "https://crests.football-data.org/760.svg"
+        },
+        "competition": {
+          "id": 2014,
+          "name": "Primera Division",
+          "code": "PD",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/laliga.png"
+        },
+        "season": {
+          "id": 2518,
+          "startDate": "2026-08-16",
+          "endDate": "2027-05-30",
+          "currentMatchday": 12,
+          "winner": null
+        },
+        "id": 564763,
+        "utcDate": "2026-11-30T20:00:00Z",
+        "status": "TIMED",
+        "matchday": 14,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2026-11-06T23:25:07Z",
+        "homeTeam": {
+          "id": 80,
+          "name": "RCD Espanyol de Barcelona",
+          "shortName": "Espanyol",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/80.png"
+        },
+        "awayTeam": {
+          "id": 82,
+          "name": "Getafe CF",
+          "shortName": "Getafe",
+          "tla": "GET",
+          "crest": "https://crests.football-data.org/82.png"
         },
         "score": {
           "winner": null,
@@ -80330,11 +80477,11 @@
         },
         "id": 565852,
         "utcDate": "2026-11-06T19:30:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 9,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-06T00:20:27Z",
+        "lastUpdated": "2026-11-06T23:25:01Z",
         "homeTeam": {
           "id": 7,
           "name": "Hamburger SV",
@@ -80350,15 +80497,15 @@
           "crest": "https://crests.football-data.org/18.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 3,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "odds": {
@@ -80370,6 +80517,127 @@
             "name": "Sven Jablonski",
             "type": "REFEREE",
             "nationality": "Germany"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 11,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 7,
+              "name": "Hamburger SV"
+            },
+            "scorer": {
+              "id": "espn-243626",
+              "name": "Miro Muheim"
+            },
+            "assist": {
+              "id": "espn-268239",
+              "name": "Albert Sambi Lokonga"
+            }
+          },
+          {
+            "minute": 44,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 18,
+              "name": "Borussia Mönchengladbach"
+            },
+            "scorer": {
+              "id": "espn-258876",
+              "name": "Robin Hack"
+            },
+            "assist": {
+              "id": "espn-272135",
+              "name": "Joe Scally"
+            }
+          },
+          {
+            "minute": 59,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 7,
+              "name": "Hamburger SV"
+            },
+            "scorer": {
+              "id": "espn-415376",
+              "name": "Shafiq Nandja"
+            },
+            "assist": {
+              "id": "espn-297750",
+              "name": "Albert Grønbaek"
+            }
+          },
+          {
+            "minute": 70,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 7,
+              "name": "Hamburger SV"
+            },
+            "scorer": {
+              "id": "espn-297750",
+              "name": "Albert Grønbaek"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 38,
+            "injuryTime": null,
+            "team": {
+              "id": 18,
+              "name": "Borussia Mönchengladbach"
+            },
+            "player": {
+              "id": "espn-238033",
+              "name": "Kou Itakura"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 49,
+            "injuryTime": null,
+            "team": {
+              "id": 18,
+              "name": "Borussia Mönchengladbach"
+            },
+            "player": {
+              "id": "espn-238033",
+              "name": "Kou Itakura"
+            },
+            "card": "RED"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 2,
+            "team": {
+              "id": 18,
+              "name": "Borussia Mönchengladbach"
+            },
+            "player": {
+              "id": "espn-304793",
+              "name": "Jens Castrop"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 3,
+            "team": {
+              "id": 7,
+              "name": "Hamburger SV"
+            },
+            "player": {
+              "id": "espn-309840",
+              "name": "Warmed Omari"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -110545,11 +110813,11 @@
         },
         "id": 558537,
         "utcDate": "2026-11-06T19:45:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
+        "lastUpdated": "2026-11-06T23:25:11Z",
         "homeTeam": {
           "id": 454,
           "name": "Venezia FC",
@@ -110565,15 +110833,15 @@
           "crest": "https://crests.football-data.org/115.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -110585,6 +110853,84 @@
             "name": "Juan Luca Sacchi",
             "type": "REFEREE",
             "nationality": "Italy"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 53,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 454,
+              "name": "Venezia FC"
+            },
+            "scorer": {
+              "id": "espn-221057",
+              "name": "Toma Basic"
+            },
+            "assist": {
+              "id": "espn-346916",
+              "name": "Antoine Hainaut"
+            }
+          },
+          {
+            "minute": 57,
+            "injuryTime": null,
+            "type": "OWN",
+            "team": {
+              "id": 454,
+              "name": "Venezia FC"
+            },
+            "scorer": {
+              "id": "espn-186457",
+              "name": "Matías Moreno"
+            },
+            "assist": null
+          },
+          {
+            "minute": 65,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 454,
+              "name": "Venezia FC"
+            },
+            "scorer": {
+              "id": "espn-276636",
+              "name": "Enrique Perez"
+            },
+            "assist": {
+              "id": "espn-260188",
+              "name": "Pasquale Mazzocchi"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 51,
+            "injuryTime": null,
+            "team": {
+              "id": 454,
+              "name": "Venezia FC"
+            },
+            "player": {
+              "id": "espn-260188",
+              "name": "Pasquale Mazzocchi"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 5,
+            "team": {
+              "id": 115,
+              "name": "Udinese Calcio"
+            },
+            "player": {
+              "id": "espn-384519",
+              "name": "Matteo Palma"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -140538,11 +140884,11 @@
         },
         "id": 559638,
         "utcDate": "2026-11-06T19:45:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
+        "lastUpdated": "2026-11-06T23:25:08Z",
         "homeTeam": {
           "id": 511,
           "name": "Toulouse FC",
@@ -140558,15 +140904,15 @@
           "crest": "https://crests.football-data.org/576.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 3,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
@@ -140578,6 +140924,153 @@
             "name": "Mathieu Vernice",
             "type": "REFEREE",
             "nationality": "France"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 45,
+            "injuryTime": 1,
+            "type": "REGULAR",
+            "team": {
+              "id": 511,
+              "name": "Toulouse FC"
+            },
+            "scorer": {
+              "id": "espn-338873",
+              "name": "Santiago Hidalgo"
+            },
+            "assist": {
+              "id": "espn-399428",
+              "name": "Sion Oppong"
+            }
+          },
+          {
+            "minute": 56,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 511,
+              "name": "Toulouse FC"
+            },
+            "scorer": {
+              "id": "espn-77072",
+              "name": "Mark McKenzie"
+            },
+            "assist": {
+              "id": "espn-271244",
+              "name": "Cristian Cásseres Jr."
+            }
+          },
+          {
+            "minute": 67,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 576,
+              "name": "RC Strasbourg Alsace"
+            },
+            "scorer": {
+              "id": "espn-290230",
+              "name": "Giovanni Reyna"
+            },
+            "assist": null
+          },
+          {
+            "minute": 76,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 511,
+              "name": "Toulouse FC"
+            },
+            "scorer": {
+              "id": "espn-362777",
+              "name": "Thomas Jørgensen"
+            },
+            "assist": {
+              "id": "espn-238213",
+              "name": "Rasmus Nicolaisen"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 27,
+            "injuryTime": null,
+            "team": {
+              "id": 576,
+              "name": "RC Strasbourg Alsace"
+            },
+            "player": {
+              "id": "espn-224074",
+              "name": "Karim Coulibaly"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 38,
+            "injuryTime": null,
+            "team": {
+              "id": 576,
+              "name": "RC Strasbourg Alsace"
+            },
+            "player": {
+              "id": "espn-379012",
+              "name": "Gessime Yassine"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 38,
+            "injuryTime": null,
+            "team": {
+              "id": 511,
+              "name": "Toulouse FC"
+            },
+            "player": {
+              "id": "espn-385000",
+              "name": "Christ Tapé"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 40,
+            "injuryTime": null,
+            "team": {
+              "id": 511,
+              "name": "Toulouse FC"
+            },
+            "player": {
+              "id": "espn-362777",
+              "name": "Thomas Jørgensen"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 60,
+            "injuryTime": null,
+            "team": {
+              "id": 511,
+              "name": "Toulouse FC"
+            },
+            "player": {
+              "id": "espn-363538",
+              "name": "Niko Sigur"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 88,
+            "injuryTime": null,
+            "team": {
+              "id": 576,
+              "name": "RC Strasbourg Alsace"
+            },
+            "player": {
+              "id": "espn-3117410",
+              "name": "Jacobo Ortega Conde"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -169227,11 +169720,11 @@
         },
         "id": 567353,
         "utcDate": "2026-11-06T20:45:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
+        "lastUpdated": "2026-11-06T23:25:09Z",
         "homeTeam": {
           "id": 5531,
           "name": "FC Famalicão",
@@ -169247,15 +169740,15 @@
           "crest": "https://crests.football-data.org/712.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -169267,6 +169760,89 @@
             "name": "Gustavo Correia",
             "type": "REFEREE",
             "nationality": "Portugal"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 90,
+            "injuryTime": 6,
+            "type": "REGULAR",
+            "team": {
+              "id": 5531,
+              "name": "FC Famalicão"
+            },
+            "scorer": {
+              "id": "espn-351541",
+              "name": "Paulo Moreira"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 45,
+            "injuryTime": null,
+            "team": {
+              "id": 712,
+              "name": "FC Arouca"
+            },
+            "player": {
+              "id": "espn-191899",
+              "name": "Javi Sánchez"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 55,
+            "injuryTime": null,
+            "team": {
+              "id": 5531,
+              "name": "FC Famalicão"
+            },
+            "player": {
+              "id": "espn-370133",
+              "name": "Pedro Santos"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 77,
+            "injuryTime": null,
+            "team": {
+              "id": 5531,
+              "name": "FC Famalicão"
+            },
+            "player": {
+              "id": "espn-297368",
+              "name": "Óscar Aranda"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 85,
+            "injuryTime": null,
+            "team": {
+              "id": 712,
+              "name": "FC Arouca"
+            },
+            "player": {
+              "id": "espn-367717",
+              "name": "Espen Van Ee"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": null,
+            "team": {
+              "id": 712,
+              "name": "FC Arouca"
+            },
+            "player": {
+              "id": "espn-301904",
+              "name": "José Fontán"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -198818,11 +199394,11 @@
         },
         "id": 558845,
         "utcDate": "2026-11-06T19:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 12,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-06T19:13:55Z",
+        "lastUpdated": "2026-11-06T23:25:02Z",
         "homeTeam": {
           "id": 672,
           "name": "Willem II Tilburg",
@@ -198845,8 +199421,8 @@
             "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "odds": {
@@ -198858,6 +199434,51 @@
             "name": "Allard Lindhout",
             "type": "REFEREE",
             "nationality": "Netherlands"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 2,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 684,
+              "name": "PEC Zwolle"
+            },
+            "scorer": {
+              "id": "espn-276819",
+              "name": "Sydney van Hooijdonk"
+            },
+            "assist": null
+          },
+          {
+            "minute": 3,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 672,
+              "name": "Willem II Tilburg"
+            },
+            "scorer": {
+              "id": "espn-208840",
+              "name": "Hidde ter Avest"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 69,
+            "injuryTime": null,
+            "team": {
+              "id": 672,
+              "name": "Willem II Tilburg"
+            },
+            "player": {
+              "id": "espn-200194",
+              "name": "Vito van Crooij"
+            },
+            "card": "YELLOW"
           }
         ]
       },
