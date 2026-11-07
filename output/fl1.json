@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2026-08-21",
     "last": "2027-05-29",
-    "played": 82
+    "played": 83
   },
   "competition": {
     "id": 2015,
@@ -5451,11 +5451,11 @@
       },
       "id": 559637,
       "utcDate": "2026-11-07T18:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 10,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-07T00:20:31Z",
+      "lastUpdated": "2026-11-07T19:59:47Z",
       "homeTeam": {
         "id": 519,
         "name": "AJ Auxerre",
@@ -5471,15 +5471,15 @@
         "crest": "https://crests.football-data.org/1045.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -5517,11 +5517,11 @@
       },
       "id": 559635,
       "utcDate": "2026-11-07T20:05:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 10,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-07T00:20:31Z",
+      "lastUpdated": "2026-11-07T20:57:23Z",
       "homeTeam": {
         "id": 524,
         "name": "Paris Saint-Germain FC",
@@ -5537,21 +5537,28 @@
         "crest": "https://crests.football-data.org/531.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43886,
+          "name": "Ruddy Buquet",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {

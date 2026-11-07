@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2026-08-07",
     "last": "2027-05-23",
-    "played": 101
+    "played": 102
   },
   "competition": {
     "id": 2003,
@@ -6705,11 +6705,11 @@
       },
       "id": 558841,
       "utcDate": "2026-11-07T17:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 12,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-07T00:20:30Z",
+      "lastUpdated": "2026-11-07T19:45:55Z",
       "homeTeam": {
         "id": 680,
         "name": "ADO Den Haag",
@@ -6725,15 +6725,15 @@
         "crest": "https://crests.football-data.org/6806.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": {
@@ -6771,11 +6771,11 @@
       },
       "id": 558843,
       "utcDate": "2026-11-07T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 12,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-07T00:20:30Z",
+      "lastUpdated": "2026-11-07T20:52:03Z",
       "homeTeam": {
         "id": 670,
         "name": "SBV Excelsior",
@@ -6791,21 +6791,28 @@
         "crest": "https://crests.football-data.org/718.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56912,
+          "name": "Jeroen Manschot",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {
