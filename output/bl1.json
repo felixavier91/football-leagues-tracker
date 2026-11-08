@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2026-08-28",
     "last": "2027-05-22",
-    "played": 79
+    "played": 81
   },
   "competition": {
     "id": 2002,
@@ -5259,11 +5259,11 @@
       },
       "id": 565854,
       "utcDate": "2026-11-08T16:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 9,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-08T17:51:47Z",
+      "lastUpdated": "2026-11-08T18:29:07Z",
       "homeTeam": {
         "id": 17,
         "name": "SC Freiburg",
@@ -5282,7 +5282,7 @@
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -5325,11 +5325,11 @@
       },
       "id": 565856,
       "utcDate": "2026-11-08T18:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 9,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-08T01:32:01Z",
+      "lastUpdated": "2026-11-08T20:32:51Z",
       "homeTeam": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
@@ -5345,15 +5345,15 @@
         "crest": "https://crests.football-data.org/6.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "odds": {
@@ -5363,6 +5363,12 @@
         {
           "id": 15825,
           "name": "Martin Petersen",
+          "type": "REFEREE",
+          "nationality": "Germany"
+        },
+        {
+          "id": 43943,
+          "name": "Tobias Stieler",
           "type": "REFEREE",
           "nationality": "Germany"
         }

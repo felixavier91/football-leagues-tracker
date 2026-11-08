@@ -6,7 +6,7 @@
     "count": 380,
     "first": "2026-08-15",
     "last": "2027-05-30",
-    "played": 116
+    "played": 118
   },
   "competition": {
     "id": 2014,
@@ -7576,11 +7576,11 @@
       },
       "id": 564742,
       "utcDate": "2026-11-08T17:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 12,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-08T17:51:47Z",
+      "lastUpdated": "2026-11-08T19:34:11Z",
       "homeTeam": {
         "id": 558,
         "name": "RC Celta de Vigo",
@@ -7603,8 +7603,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -7642,11 +7642,11 @@
       },
       "id": 564747,
       "utcDate": "2026-11-08T17:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 12,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-08T17:51:47Z",
+      "lastUpdated": "2026-11-08T19:28:51Z",
       "homeTeam": {
         "id": 94,
         "name": "Villarreal CF",
@@ -7662,15 +7662,15 @@
         "crest": "https://crests.football-data.org/82.png"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -7708,11 +7708,11 @@
       },
       "id": 564746,
       "utcDate": "2026-11-08T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 12,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-08T01:32:01Z",
+      "lastUpdated": "2026-11-08T21:54:27Z",
       "homeTeam": {
         "id": 78,
         "name": "Club Atlético de Madrid",
@@ -7728,21 +7728,28 @@
         "crest": "https://crests.football-data.org/81.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 80747,
+          "name": "Javier Alberola Rojas",
+          "type": "REFEREE",
+          "nationality": null
+        }
+      ]
     },
     {
       "area": {
