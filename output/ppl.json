@@ -6,7 +6,7 @@
     "count": 306,
     "first": "2026-08-07",
     "last": "2027-05-16",
-    "played": 93
+    "played": 95
   },
   "competition": {
     "id": 2017,
@@ -6194,11 +6194,11 @@
       },
       "id": 567351,
       "utcDate": "2026-11-08T15:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 11,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-08T00:20:28Z",
+      "lastUpdated": "2026-11-08T17:33:07Z",
       "homeTeam": {
         "id": 5530,
         "name": "CD Santa Clara",
@@ -6214,21 +6214,28 @@
         "crest": "https://crests.football-data.org/5533.png"
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 231221,
+          "name": "Diogo Rosa",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
@@ -6253,11 +6260,11 @@
       },
       "id": 567352,
       "utcDate": "2026-11-08T15:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 11,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-08T01:32:00Z",
+      "lastUpdated": "2026-11-08T17:30:27Z",
       "homeTeam": {
         "id": 5529,
         "name": "CD Nacional",
@@ -6273,15 +6280,15 @@
         "crest": "https://crests.football-data.org/5527.png"
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -6353,7 +6360,14 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 98928,
+          "name": "David Silva",
+          "type": "REFEREE",
+          "nationality": "Portugal"
+        }
+      ]
     },
     {
       "area": {
