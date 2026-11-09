@@ -1,0 +1,11 @@
+[Unit]
+Description=Every 10 minutes: decide whether the football tracker needs a score or highlights run
+
+[Timer]
+OnStartupSec=2min
+OnCalendar=*:00/10
+Persistent=true
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target

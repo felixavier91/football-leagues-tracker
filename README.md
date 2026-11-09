@@ -186,7 +186,7 @@ unofficial and undocumented, so it could change without notice).
 > while API calls were cut, then switched back on). That's before the score
 > bot starts at 12:00 and clear of the hourly news run. Because each fixture
 > is fetched only once, a normal day costs about **10 football-data.org
-> calls** (only fixtures newly entering the 7-day window), versus ~720 a day
+> calls** (only fixtures newly entering the 7-day window), versus ~250–300 a day (§2.0)
 > for the score pulls. The workflow rebases before pushing.
 
 - Reads `all_leagues.json`, finds matches kicking off in the **next 7 days**
