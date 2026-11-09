@@ -1,12 +1,12 @@
 name: Update Highlights Daily
 
 on:
-  # Run every day at 10pm EST (3am UTC next day)
+  # Hourly FALLBACK only: rog_dispatch.py on the ROG triggers this every
+  # 40 min while there are fresh results (GitHub throttles crons, README §2.0)
   schedule:
-  - cron: '3,13,23,33,43,53 12-23,0-2 * * *'  # 7:03am-9:03pm ESTeern Update Highlights
-  # - cron: '59 4 * * *'  # 11:59 PM ESTern (4:59 AM UTC next day)
-  
-  # Also allow manual trigger
+  - cron: '35 12-23,0-2 * * *'  # 7:35am-9:35pm EST, once an hour
+
+  # rog_dispatch.py and manual runs
   workflow_dispatch:
     inputs:
       backfill:
@@ -14,6 +14,12 @@ on:
         required: false
         type: boolean
         default: false
+
+# One scraper at a time: a fallback cron run and a ROG-triggered run queue up
+# instead of racing each other to push
+concurrency:
+  group: youtube-highlights
+  cancel-in-progress: false
 
 jobs:
   update-highlights:
