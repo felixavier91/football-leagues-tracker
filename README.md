@@ -47,6 +47,8 @@ triggers a `pages build and deployment` run that republishes the site.
 | `youtube_web_scraper.py` | Finds YouTube highlight video IDs → `highlights_database.json` |
 | `fetch_soccer_news.py` | News articles from 101greatgoals RSS → `soccer_news.json` |
 | `.github/workflows/*.yml` | The five scheduled jobs (§2) |
+| `rog_dispatch.py` | Match-aware trigger that runs on the ROG and starts the score/highlights workflows (§2.0) |
+| `rog/soccer-dispatch.{timer,service}` | systemd user units that run `rog_dispatch.py` every 10 min on the ROG (§2.0) |
 | `output/` | All generated data, committed by the bots |
 | `output/{pl,pd,bl1,sa,fl1,ppl,ded,cl}.json` | Per-league copies written by `fetch_all_leagues.js`; not read by the site |
 | `output/bsa.json` | Stale leftover from when Brazil's Série A was tracked (now commented out); nothing reads or updates it |
@@ -69,14 +71,17 @@ All cron times in the workflows are **UTC**. `12-23,0-2` UTC is roughly
 
 | Workflow file | Script | Schedule (UTC) | Manual trigger |
 |---|---|---|---|
-| `update-data.yml` | `fetch_all_leagues.js`, then `fetch_match_events.js` | Every 10 min (:00, :10, …), hours 12–23 and 0–2 | Yes |
+| `update-data.yml` | `fetch_all_leagues.js`, then `fetch_match_events.js` | **Triggered by the ROG** (§2.0): every 20 min while a match is on, every 3 h otherwise. Cron is only an hourly fallback (:05, hours 12–23 and 0–2) | Yes |
 | `fetch_statistics_workflow.yml` | `fetch_match_statistics.js` | **None — schedule switched off** (see §2.2) | Yes, with `fetch_all` (backfill) |
 | `fetch_head2head_workflow.yml` | `fetch_head2head.js` | Once a day at 11:15 | Yes, with `fetch_all` (backfill) |
-| `update-highlights.yml` | `youtube_web_scraper.py` | Every 10 min (:03, :13, …), hours 12–23 and 0–2 | Yes, with `backfill` |
+| `update-highlights.yml` | `youtube_web_scraper.py` | **Triggered by the ROG** (§2.0): every 40 min while there are results from the last 6 h, else with the 3 h baseline. Cron is only an hourly fallback (:35, hours 12–23 and 0–2) | Yes, with `backfill` |
 | `fetch_soccer_news_workflow.yml` | `fetch_soccer_news.py` | Every hour, all day | Yes |
 
-GitHub delays and sometimes skips scheduled runs at busy times, so real
-intervals are often longer than the cron says.
+GitHub delays and skips scheduled runs heavily: in Nov 2026 the old
+"every 10 minutes" crons actually fired every **4–7 hours**, often outside
+their hour window, so a result could take 3+ hours to appear. That is why
+the two time-critical workflows are now triggered from the ROG (§2.0);
+`workflow_dispatch` runs start within a minute.
 
 **API rate limit.** The football-data.org free tier allows **10 calls per
 minute**; going over it repeatedly got the account disabled in October 2026.
@@ -93,6 +98,47 @@ gh workflow run fetch_head2head_workflow.yml -f fetch_all=true
 gh workflow run update-data.yml
 gh workflow run fetch_soccer_news_workflow.yml
 ```
+
+### 2.0 Who triggers the runs: `rog_dispatch.py` on the ROG
+The ROG mini PC is on 24/7, so a systemd user timer (`rog/soccer-dispatch.timer`,
+every 10 minutes) runs `rog_dispatch.py`. It reads the public
+`output/all_leagues.json` from `raw.githubusercontent.com`, looks at what's
+going on and starts workflows with `gh workflow run`:
+
+| Situation | Score run (`update-data.yml`) | Highlights run (`update-highlights.yml`) |
+|---|---|---|
+| A tracked match kicked off in the last 3.5 h and isn't `FINISHED` (or is `IN_PLAY`/`PAUSED`) | every **20 min** | – |
+| A match `FINISHED` within the last 6 h | – | every **40 min** |
+| Nothing on | every **3 h** | with the 3 h score run |
+
+Goal: a final score on the site **within ~25 minutes of the final whistle**
+(run ≈ 2 min + Pages deploy ≈ 1 min), and the highlight video within about an
+hour of it appearing on YouTube.
+
+**API budget.** Each score run = 8 football-data.org calls, 7 s apart. A
+Saturday with matches from 12:30 to 22:30 UTC is ~30 runs ≈ 240 calls, plus
+the idle baseline (8 runs/day, 64 calls): **≈ 250–300 calls a day**, down
+from the ~720 the old 10-minute cron asked for, and never more than 8 calls a
+minute. The `football-data-api` concurrency group still serializes runs, and
+the script skips a trigger if a run of that workflow is already queued or in
+progress.
+
+Constants are at the top of `rog_dispatch.py` (`ACTIVE_MINUTES`, `IDLE_HOURS`,
+`HL_MINUTES`, …). State (last trigger times) lives in
+`~/.local/share/soccer-dispatch/state.json` on the ROG.
+
+Install / check on the ROG:
+```bash
+cp ~/Work/football-leagues-tracker/rog/soccer-dispatch.* ~/.config/systemd/user/
+systemctl --user daemon-reload && systemctl --user enable --now soccer-dispatch.timer
+systemctl --user list-timers | grep soccer          # next run
+journalctl --user -u soccer-dispatch -n 30          # what it decided
+python3 -I ~/Work/football-leagues-tracker/rog_dispatch.py --dry-run   # test without triggering
+python3 -I ~/Work/football-leagues-tracker/rog_dispatch.py --force     # trigger both now
+```
+`gh` must be logged in as the repo owner on the ROG (`gh auth status`). If
+the ROG is off, the hourly fallback crons in the workflow files still run
+(subject to GitHub's throttling).
 
 ### 2.1 `fetch_all_leagues.js` → `output/all_leagues.json`
 **This is the source-of-truth file everything else depends on.**
