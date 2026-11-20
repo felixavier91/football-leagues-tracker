@@ -30891,7 +30891,7 @@
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-20T20:53:31Z",
+        "lastUpdated": "2026-11-20T21:29:47Z",
         "homeTeam": {
           "id": 77,
           "name": "Athletic Club",
@@ -60533,11 +60533,11 @@
         },
         "id": 565859,
         "utcDate": "2026-11-20T19:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-20T20:59:54Z",
+        "lastUpdated": "2026-11-20T21:29:47Z",
         "homeTeam": {
           "id": 5,
           "name": "FC Bayern München",
@@ -60573,6 +60573,83 @@
             "name": "Robin Braun",
             "type": "REFEREE",
             "nationality": "Germany"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 12,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1,
+              "name": "1. FC Köln"
+            },
+            "scorer": {
+              "id": "espn-365332",
+              "name": "Mikey Moore"
+            },
+            "assist": {
+              "id": "espn-380795",
+              "name": "Said El Mala"
+            }
+          },
+          {
+            "minute": 37,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5,
+              "name": "FC Bayern München"
+            },
+            "scorer": {
+              "id": "espn-120829",
+              "name": "Nathaniel Brown"
+            },
+            "assist": {
+              "id": "espn-324660",
+              "name": "Tom Bischof"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 56,
+            "injuryTime": null,
+            "team": {
+              "id": 1,
+              "name": "1. FC Köln"
+            },
+            "player": {
+              "id": "espn-403528",
+              "name": "Paul Okon-Engstler"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 62,
+            "injuryTime": null,
+            "team": {
+              "id": 5,
+              "name": "FC Bayern München"
+            },
+            "player": {
+              "id": "espn-222793",
+              "name": "Dayot Upamecano"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 66,
+            "injuryTime": null,
+            "team": {
+              "id": 1,
+              "name": "1. FC Köln"
+            },
+            "player": {
+              "id": "espn-380795",
+              "name": "Said El Mala"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -122510,7 +122587,7 @@
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-20T21:00:59Z",
+        "lastUpdated": "2026-11-20T21:30:50Z",
         "homeTeam": {
           "id": 531,
           "name": "ES Troyes AC",
@@ -122526,10 +122603,10 @@
           "crest": "https://crests.football-data.org/533.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 1
           },
           "halfTime": {
