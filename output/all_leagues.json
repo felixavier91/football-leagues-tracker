@@ -30887,11 +30887,11 @@
         },
         "id": 564748,
         "utcDate": "2026-11-20T20:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-20T21:29:47Z",
+        "lastUpdated": "2026-11-20T21:59:06Z",
         "homeTeam": {
           "id": 77,
           "name": "Athletic Club",
@@ -30907,15 +30907,15 @@
           "crest": "https://crests.football-data.org/80.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -30927,6 +30927,79 @@
             "name": "Mateo Busquets Ferrer",
             "type": "REFEREE",
             "nationality": "Spain"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 66,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 80,
+              "name": "RCD Espanyol de Barcelona"
+            },
+            "scorer": {
+              "id": "espn-318773",
+              "name": "Roberto Fernández"
+            },
+            "assist": {
+              "id": "espn-306520",
+              "name": "Tyrhys Dolan"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 58,
+            "injuryTime": null,
+            "team": {
+              "id": 77,
+              "name": "Athletic Club"
+            },
+            "player": {
+              "id": "espn-214412",
+              "name": "Iñaki Williams"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 70,
+            "injuryTime": null,
+            "team": {
+              "id": 77,
+              "name": "Athletic Club"
+            },
+            "player": {
+              "id": "espn-157708",
+              "name": "Iñigo Ruiz de Galarreta"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 83,
+            "injuryTime": null,
+            "team": {
+              "id": 77,
+              "name": "Athletic Club"
+            },
+            "player": {
+              "id": "espn-217225",
+              "name": "Yeray"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 3,
+            "team": {
+              "id": 80,
+              "name": "RCD Espanyol de Barcelona"
+            },
+            "player": {
+              "id": "espn-323737",
+              "name": "Clemens Riedel"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -122583,11 +122656,11 @@
         },
         "id": 559622,
         "utcDate": "2026-11-20T19:45:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-20T21:30:50Z",
+        "lastUpdated": "2026-11-20T21:49:31Z",
         "homeTeam": {
           "id": 531,
           "name": "ES Troyes AC",
@@ -122606,7 +122679,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
+            "home": 3,
             "away": 1
           },
           "halfTime": {
@@ -122623,6 +122696,150 @@
             "name": "Jérémie Pignard",
             "type": "REFEREE",
             "nationality": "France"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 3,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 533,
+              "name": "Le Havre AC"
+            },
+            "scorer": {
+              "id": "espn-243514",
+              "name": "Josh Maja"
+            },
+            "assist": null
+          },
+          {
+            "minute": 19,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 531,
+              "name": "ES Troyes AC"
+            },
+            "scorer": {
+              "id": "espn-270173",
+              "name": "Antoine Mille"
+            },
+            "assist": {
+              "id": "espn-298511",
+              "name": "Kandet Diawara"
+            }
+          },
+          {
+            "minute": 69,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 531,
+              "name": "ES Troyes AC"
+            },
+            "scorer": {
+              "id": "espn-270173",
+              "name": "Antoine Mille"
+            },
+            "assist": {
+              "id": "espn-408780",
+              "name": "Anis Ouzenadji"
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 8,
+            "type": "PENALTY",
+            "team": {
+              "id": 531,
+              "name": "ES Troyes AC"
+            },
+            "scorer": {
+              "id": "espn-176406",
+              "name": "Renaud Ripart"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 34,
+            "injuryTime": null,
+            "team": {
+              "id": 533,
+              "name": "Le Havre AC"
+            },
+            "player": {
+              "id": "espn-243514",
+              "name": "Josh Maja"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 40,
+            "injuryTime": null,
+            "team": {
+              "id": 533,
+              "name": "Le Havre AC"
+            },
+            "player": {
+              "id": "espn-340583",
+              "name": "Junior Mwanga"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 40,
+            "injuryTime": null,
+            "team": {
+              "id": 531,
+              "name": "ES Troyes AC"
+            },
+            "player": {
+              "id": "espn-323058",
+              "name": "Dermane Karim"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 64,
+            "injuryTime": null,
+            "team": {
+              "id": 531,
+              "name": "ES Troyes AC"
+            },
+            "player": {
+              "id": "espn-304898",
+              "name": "Ismael Boura"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 77,
+            "injuryTime": null,
+            "team": {
+              "id": 533,
+              "name": "Le Havre AC"
+            },
+            "player": {
+              "id": "espn-246847",
+              "name": "Ahmed Touba"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 89,
+            "injuryTime": null,
+            "team": {
+              "id": 533,
+              "name": "Le Havre AC"
+            },
+            "player": {
+              "id": "espn-411169",
+              "name": "Enzo Koffi"
+            },
+            "card": "RED"
           }
         ]
       },
