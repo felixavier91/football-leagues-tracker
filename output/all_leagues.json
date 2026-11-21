@@ -6626,11 +6626,11 @@
         },
         "id": 560643,
         "utcDate": "2026-11-21T12:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T14:09:46Z",
+        "lastUpdated": "2026-11-21T14:27:23Z",
         "homeTeam": {
           "id": 65,
           "name": "Manchester City FC",
@@ -6666,6 +6666,93 @@
             "name": "Thomas Bramall",
             "type": "REFEREE",
             "nationality": "England"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 16,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 63,
+              "name": "Fulham FC"
+            },
+            "scorer": {
+              "id": "espn-301525",
+              "name": "Rodrigo Muniz"
+            },
+            "assist": {
+              "id": "espn-307111",
+              "name": "Oscar Bobb"
+            }
+          },
+          {
+            "minute": 57,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 65,
+              "name": "Manchester City FC"
+            },
+            "scorer": {
+              "id": "espn-238472",
+              "name": "Elliot Anderson"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 7,
+            "injuryTime": null,
+            "team": {
+              "id": 63,
+              "name": "Fulham FC"
+            },
+            "player": {
+              "id": "espn-175063",
+              "name": "Alex Iwobi"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 22,
+            "injuryTime": null,
+            "team": {
+              "id": 63,
+              "name": "Fulham FC"
+            },
+            "player": {
+              "id": "espn-263110",
+              "name": "Calvin Bassey"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 44,
+            "injuryTime": null,
+            "team": {
+              "id": 63,
+              "name": "Fulham FC"
+            },
+            "player": {
+              "id": "espn-324164",
+              "name": "Shea Charles"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 76,
+            "injuryTime": null,
+            "team": {
+              "id": 65,
+              "name": "Manchester City FC"
+            },
+            "player": {
+              "id": "espn-217092",
+              "name": "Gianluigi Donnarumma"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -31068,11 +31155,11 @@
         },
         "id": 564755,
         "utcDate": "2026-11-21T13:00:00Z",
-        "status": "IN_PLAY",
+        "status": "TIMED",
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T14:09:47Z",
+        "lastUpdated": "2026-11-21T01:32:00Z",
         "homeTeam": {
           "id": 263,
           "name": "Deportivo Alavés",
@@ -31088,15 +31175,15 @@
           "crest": "https://crests.football-data.org/560.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": null,
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
-            "away": 1
+            "home": null,
+            "away": null
           },
           "halfTime": {
-            "home": 1,
-            "away": 1
+            "home": null,
+            "away": null
           }
         },
         "odds": {
@@ -92017,7 +92104,7 @@
         "matchday": 12,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T14:09:47Z",
+        "lastUpdated": "2026-11-21T14:39:39Z",
         "homeTeam": {
           "id": 7397,
           "name": "Como 1907",
@@ -92033,10 +92120,10 @@
           "crest": "https://crests.football-data.org/104.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -92083,7 +92170,7 @@
         "matchday": 12,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T14:09:47Z",
+        "lastUpdated": "2026-11-21T14:39:39Z",
         "homeTeam": {
           "id": 110,
           "name": "SS Lazio",
@@ -92099,10 +92186,10 @@
           "crest": "https://crests.football-data.org/5890.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -123005,7 +123092,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 15548,
+            "name": "Jérôme Brisard",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
