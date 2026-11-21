@@ -31405,7 +31405,7 @@
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T15:59:39Z",
+        "lastUpdated": "2026-11-21T16:29:31Z",
         "homeTeam": {
           "id": 87,
           "name": "Rayo Vallecano de Madrid",
@@ -31421,15 +31421,15 @@
           "crest": "https://crests.football-data.org/95.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
@@ -61079,11 +61079,11 @@
         },
         "id": 565857,
         "utcDate": "2026-11-21T14:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T16:00:11Z",
+        "lastUpdated": "2026-11-21T16:27:55Z",
         "homeTeam": {
           "id": 3,
           "name": "Bayer 04 Leverkusen",
@@ -61120,6 +61120,104 @@
             "type": "REFEREE",
             "nationality": "Germany"
           }
+        ],
+        "goals": [
+          {
+            "minute": 14,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 3,
+              "name": "Bayer 04 Leverkusen"
+            },
+            "scorer": {
+              "id": "espn-361258",
+              "name": "Afonso Moreira"
+            },
+            "assist": {
+              "id": "espn-301416",
+              "name": "Malik Tillman"
+            }
+          },
+          {
+            "minute": 47,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 3,
+              "name": "Bayer 04 Leverkusen"
+            },
+            "scorer": {
+              "id": "espn-361258",
+              "name": "Afonso Moreira"
+            },
+            "assist": {
+              "id": "espn-263134",
+              "name": "Nathan Tella"
+            }
+          },
+          {
+            "minute": 51,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 3,
+              "name": "Bayer 04 Leverkusen"
+            },
+            "scorer": {
+              "id": "espn-212330",
+              "name": "Patrik Schick"
+            },
+            "assist": {
+              "id": "espn-263134",
+              "name": "Nathan Tella"
+            }
+          },
+          {
+            "minute": 59,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 3,
+              "name": "Bayer 04 Leverkusen"
+            },
+            "scorer": {
+              "id": "espn-364080",
+              "name": "Ezequiel Fernández"
+            },
+            "assist": {
+              "id": "espn-361258",
+              "name": "Afonso Moreira"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 54,
+            "injuryTime": null,
+            "team": {
+              "id": 3,
+              "name": "Bayer 04 Leverkusen"
+            },
+            "player": {
+              "id": "espn-364080",
+              "name": "Ezequiel Fernández"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 55,
+            "injuryTime": null,
+            "team": {
+              "id": 3,
+              "name": "Bayer 04 Leverkusen"
+            },
+            "player": {
+              "id": "espn-290044",
+              "name": "Miguel Gutiérrez"
+            },
+            "card": "YELLOW"
+          }
         ]
       },
       {
@@ -61145,11 +61243,11 @@
         },
         "id": 565858,
         "utcDate": "2026-11-21T14:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T16:00:43Z",
+        "lastUpdated": "2026-11-21T16:30:35Z",
         "homeTeam": {
           "id": 28,
           "name": "1. FC Union Berlin",
@@ -61169,7 +61267,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 1,
-            "away": 2
+            "away": 5
           },
           "halfTime": {
             "home": 1,
@@ -61185,6 +61283,158 @@
             "name": "Christian Dingert",
             "type": "REFEREE",
             "nationality": "Germany"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 18,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 721,
+              "name": "RB Leipzig"
+            },
+            "scorer": {
+              "id": "espn-319368",
+              "name": "Antonio Nusa"
+            },
+            "assist": null
+          },
+          {
+            "minute": 41,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 28,
+              "name": "1. FC Union Berlin"
+            },
+            "scorer": {
+              "id": "espn-245623",
+              "name": "Michel Aebischer"
+            },
+            "assist": null
+          },
+          {
+            "minute": 50,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 721,
+              "name": "RB Leipzig"
+            },
+            "scorer": {
+              "id": "espn-324766",
+              "name": "Rômulo"
+            },
+            "assist": {
+              "id": "espn-357683",
+              "name": "Brajan Gruda"
+            }
+          },
+          {
+            "minute": 72,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 721,
+              "name": "RB Leipzig"
+            },
+            "scorer": {
+              "id": "espn-357683",
+              "name": "Brajan Gruda"
+            },
+            "assist": {
+              "id": "espn-222176",
+              "name": "Christopher Nkunku"
+            }
+          },
+          {
+            "minute": 76,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 721,
+              "name": "RB Leipzig"
+            },
+            "scorer": {
+              "id": "espn-307364",
+              "name": "Rocco Reitz"
+            },
+            "assist": {
+              "id": "espn-249548",
+              "name": "David Raum"
+            }
+          },
+          {
+            "minute": 89,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 721,
+              "name": "RB Leipzig"
+            },
+            "scorer": {
+              "id": "espn-258963",
+              "name": "Ridle Baku"
+            },
+            "assist": {
+              "id": "espn-366911",
+              "name": "Tidiam Gomis"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 5,
+            "injuryTime": null,
+            "team": {
+              "id": 721,
+              "name": "RB Leipzig"
+            },
+            "player": {
+              "id": "espn-357683",
+              "name": "Brajan Gruda"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 9,
+            "injuryTime": null,
+            "team": {
+              "id": 28,
+              "name": "1. FC Union Berlin"
+            },
+            "player": {
+              "id": "espn-284702",
+              "name": "András Schäfer"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 13,
+            "injuryTime": null,
+            "team": {
+              "id": 721,
+              "name": "RB Leipzig"
+            },
+            "player": {
+              "id": "espn-330233",
+              "name": "Ezechiel Banzuzi"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 17,
+            "injuryTime": null,
+            "team": {
+              "id": 28,
+              "name": "1. FC Union Berlin"
+            },
+            "player": {
+              "id": "espn-314184",
+              "name": "Zeno Van Den Bosch"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -61211,11 +61461,11 @@
         },
         "id": 565860,
         "utcDate": "2026-11-21T14:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T16:00:11Z",
+        "lastUpdated": "2026-11-21T16:26:51Z",
         "homeTeam": {
           "id": 719,
           "name": "SV 07 Elversberg",
@@ -61231,11 +61481,11 @@
           "crest": "https://crests.football-data.org/17.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 0,
@@ -61251,6 +61501,66 @@
             "name": "Richard Hempel",
             "type": "REFEREE",
             "nationality": "Germany"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 68,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 17,
+              "name": "SC Freiburg"
+            },
+            "scorer": {
+              "id": "espn-310883",
+              "name": "Igor Matanovic"
+            },
+            "assist": {
+              "id": "espn-231190",
+              "name": "Niklas Beste"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 33,
+            "injuryTime": null,
+            "team": {
+              "id": 17,
+              "name": "SC Freiburg"
+            },
+            "player": {
+              "id": "espn-231190",
+              "name": "Niklas Beste"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 70,
+            "injuryTime": null,
+            "team": {
+              "id": 17,
+              "name": "SC Freiburg"
+            },
+            "player": {
+              "id": "espn-310883",
+              "name": "Igor Matanovic"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 78,
+            "injuryTime": null,
+            "team": {
+              "id": 17,
+              "name": "SC Freiburg"
+            },
+            "player": {
+              "id": "espn-219316",
+              "name": "Philipp Lienhart"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -61277,11 +61587,11 @@
         },
         "id": 565862,
         "utcDate": "2026-11-21T14:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T16:00:43Z",
+        "lastUpdated": "2026-11-21T16:27:23Z",
         "homeTeam": {
           "id": 18,
           "name": "Borussia Mönchengladbach",
@@ -61297,11 +61607,11 @@
           "crest": "https://crests.football-data.org/4.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 0,
@@ -61317,6 +61627,63 @@
             "name": "Robert Hartmann",
             "type": "REFEREE",
             "nationality": "Germany"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 80,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 4,
+              "name": "Borussia Dortmund"
+            },
+            "scorer": {
+              "id": "espn-281122",
+              "name": "Felix Nmecha"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 16,
+            "injuryTime": null,
+            "team": {
+              "id": 4,
+              "name": "Borussia Dortmund"
+            },
+            "player": {
+              "id": "espn-371500",
+              "name": "Kouakou Gadou"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 32,
+            "injuryTime": null,
+            "team": {
+              "id": 18,
+              "name": "Borussia Mönchengladbach"
+            },
+            "player": {
+              "id": "espn-341707",
+              "name": "Zento Uno"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 71,
+            "injuryTime": null,
+            "team": {
+              "id": 18,
+              "name": "Borussia Mönchengladbach"
+            },
+            "player": {
+              "id": "espn-206863",
+              "name": "Kevin Diks"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -61343,11 +61710,11 @@
         },
         "id": 565865,
         "utcDate": "2026-11-21T14:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T16:00:43Z",
+        "lastUpdated": "2026-11-21T16:30:35Z",
         "homeTeam": {
           "id": 19,
           "name": "Eintracht Frankfurt",
@@ -61383,6 +61750,92 @@
             "name": "Max Burda",
             "type": "REFEREE",
             "nationality": "Germany"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 25,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 19,
+              "name": "Eintracht Frankfurt"
+            },
+            "scorer": {
+              "id": "espn-274887",
+              "name": "Jonathan Burkardt"
+            },
+            "assist": {
+              "id": "espn-305555",
+              "name": "Ansgar Knauff"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 69,
+            "injuryTime": null,
+            "team": {
+              "id": 2,
+              "name": "TSG 1899 Hoffenheim"
+            },
+            "player": {
+              "id": "espn-362590",
+              "name": "Leon Avdullahu"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 88,
+            "injuryTime": null,
+            "team": {
+              "id": 2,
+              "name": "TSG 1899 Hoffenheim"
+            },
+            "player": {
+              "id": "espn-274860",
+              "name": "Wouter Burger"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 3,
+            "team": {
+              "id": 2,
+              "name": "TSG 1899 Hoffenheim"
+            },
+            "player": {
+              "id": "espn-266565",
+              "name": "Ozan Kabak"
+            },
+            "card": "RED"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 4,
+            "team": {
+              "id": 19,
+              "name": "Eintracht Frankfurt"
+            },
+            "player": {
+              "id": "espn-321064",
+              "name": "Noah Atubolu"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 5,
+            "team": {
+              "id": 19,
+              "name": "Eintracht Frankfurt"
+            },
+            "player": {
+              "id": "espn-418030",
+              "name": "Malik Pimpong"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -92294,11 +92747,11 @@
         },
         "id": 558525,
         "utcDate": "2026-11-21T14:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 12,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T16:00:43Z",
+        "lastUpdated": "2026-11-21T16:02:51Z",
         "homeTeam": {
           "id": 7397,
           "name": "Como 1907",
@@ -92335,7 +92788,44 @@
             "type": "REFEREE",
             "nationality": "Italy"
           }
-        ]
+        ],
+        "goals": [
+          {
+            "minute": 24,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "scorer": {
+              "id": "espn-380318",
+              "name": "Jacobo Ramón"
+            },
+            "assist": {
+              "id": "espn-297084",
+              "name": "Yan Couto"
+            }
+          },
+          {
+            "minute": 56,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 7397,
+              "name": "Como 1907"
+            },
+            "scorer": {
+              "id": "espn-291285",
+              "name": "Lucas Da Cunha"
+            },
+            "assist": {
+              "id": "espn-297084",
+              "name": "Yan Couto"
+            }
+          }
+        ],
+        "bookings": []
       },
       {
         "area": {
@@ -123353,11 +123843,11 @@
         },
         "id": 559628,
         "utcDate": "2026-11-21T16:15:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T00:20:35Z",
+        "lastUpdated": "2026-11-21T16:30:03Z",
         "homeTeam": {
           "id": 522,
           "name": "OGC Nice",
@@ -123373,11 +123863,11 @@
           "crest": "https://crests.football-data.org/524.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -183582,7 +184072,7 @@
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T16:00:11Z",
+        "lastUpdated": "2026-11-21T16:28:27Z",
         "homeTeam": {
           "id": 1915,
           "name": "NEC",
@@ -183602,11 +184092,11 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 1
+            "away": 3
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 3
           }
         },
         "odds": {
