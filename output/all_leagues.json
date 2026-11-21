@@ -7618,7 +7618,7 @@
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T17:49:30Z",
+        "lastUpdated": "2026-11-21T18:09:47Z",
         "homeTeam": {
           "id": 67,
           "name": "Newcastle United FC",
@@ -7634,11 +7634,11 @@
           "crest": "https://crests.football-data.org/57.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
@@ -32036,7 +32036,7 @@
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T17:49:30Z",
+        "lastUpdated": "2026-11-21T18:09:47Z",
         "homeTeam": {
           "id": 559,
           "name": "Sevilla FC",
@@ -32132,7 +32132,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 206205,
+            "name": "Adrián Cordero Vega",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
       },
       {
         "area": {
@@ -62431,7 +62438,7 @@
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T17:49:31Z",
+        "lastUpdated": "2026-11-21T18:09:46Z",
         "homeTeam": {
           "id": 6,
           "name": "FC Schalke 04",
@@ -93579,7 +93586,7 @@
         "matchday": 12,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T17:50:35Z",
+        "lastUpdated": "2026-11-21T18:10:18Z",
         "homeTeam": {
           "id": 112,
           "name": "Parma Calcio 1913",
@@ -93602,8 +93609,8 @@
             "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
@@ -124419,7 +124426,7 @@
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T17:50:02Z",
+        "lastUpdated": "2026-11-21T18:10:18Z",
         "homeTeam": {
           "id": 522,
           "name": "OGC Nice",
@@ -184668,11 +184675,11 @@
         },
         "id": 558833,
         "utcDate": "2026-11-21T15:30:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T00:20:35Z",
+        "lastUpdated": "2026-11-21T17:35:39Z",
         "homeTeam": {
           "id": 1915,
           "name": "NEC",
@@ -184688,15 +184695,15 @@
           "crest": "https://crests.football-data.org/674.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 4
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 3
           }
         },
         "odds": {
@@ -184708,6 +184715,151 @@
             "name": "Jeroen Manschot",
             "type": "REFEREE",
             "nationality": "Netherlands"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 14,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 674,
+              "name": "PSV"
+            },
+            "scorer": {
+              "id": "espn-174496",
+              "name": "Filip Kostic"
+            },
+            "assist": {
+              "id": "espn-287279",
+              "name": "Sven Mijnans"
+            }
+          },
+          {
+            "minute": 24,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 674,
+              "name": "PSV"
+            },
+            "scorer": {
+              "id": "espn-103485",
+              "name": "Ivan Perisic"
+            },
+            "assist": null
+          },
+          {
+            "minute": 42,
+            "injuryTime": null,
+            "type": "OWN",
+            "team": {
+              "id": 1915,
+              "name": "NEC"
+            },
+            "scorer": {
+              "id": "espn-306806",
+              "name": "Ahmetcan Kaplan"
+            },
+            "assist": null
+          },
+          {
+            "minute": 64,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 674,
+              "name": "PSV"
+            },
+            "scorer": {
+              "id": "espn-340252",
+              "name": "Ruben Van Bommel"
+            },
+            "assist": {
+              "id": "espn-240965",
+              "name": "Guus Til"
+            }
+          },
+          {
+            "minute": 73,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1915,
+              "name": "NEC"
+            },
+            "scorer": {
+              "id": "espn-122954",
+              "name": "Bryan Linssen"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 18,
+            "injuryTime": null,
+            "team": {
+              "id": 1915,
+              "name": "NEC"
+            },
+            "player": {
+              "id": "espn-267573",
+              "name": "Mitchel Bakker"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 54,
+            "injuryTime": null,
+            "team": {
+              "id": 674,
+              "name": "PSV"
+            },
+            "player": {
+              "id": "espn-386885",
+              "name": "Noah Fernandez"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 63,
+            "injuryTime": null,
+            "team": {
+              "id": 674,
+              "name": "PSV"
+            },
+            "player": {
+              "id": "espn-240965",
+              "name": "Guus Til"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 63,
+            "injuryTime": null,
+            "team": {
+              "id": 1915,
+              "name": "NEC"
+            },
+            "player": {
+              "id": "espn-306806",
+              "name": "Ahmetcan Kaplan"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 68,
+            "injuryTime": null,
+            "team": {
+              "id": 674,
+              "name": "PSV"
+            },
+            "player": {
+              "id": "espn-174496",
+              "name": "Filip Kostic"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -184734,11 +184886,11 @@
         },
         "id": 558831,
         "utcDate": "2026-11-21T17:45:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T00:20:35Z",
+        "lastUpdated": "2026-11-21T18:10:19Z",
         "homeTeam": {
           "id": 675,
           "name": "Feyenoord Rotterdam",
@@ -184754,11 +184906,11 @@
           "crest": "https://crests.football-data.org/670.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
             "home": null,
@@ -184800,11 +184952,11 @@
         },
         "id": 558835,
         "utcDate": "2026-11-21T17:45:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-21T00:20:35Z",
+        "lastUpdated": "2026-11-21T18:10:51Z",
         "homeTeam": {
           "id": 676,
           "name": "FC Utrecht",
@@ -184820,11 +184972,11 @@
           "crest": "https://crests.football-data.org/1909.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -184900,7 +185052,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 17136,
+            "name": "Joey Kooij",
+            "type": "REFEREE",
+            "nationality": "Netherlands"
+          }
+        ]
       },
       {
         "area": {
@@ -184959,7 +185118,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 81350,
+            "name": "Alex Bos",
+            "type": "REFEREE",
+            "nationality": "Netherlands"
+          }
+        ]
       },
       {
         "area": {
