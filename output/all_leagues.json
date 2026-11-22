@@ -32571,7 +32571,7 @@
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T13:20:43Z",
+        "lastUpdated": "2026-11-22T13:40:27Z",
         "homeTeam": {
           "id": 81,
           "name": "FC Barcelona",
@@ -94327,11 +94327,11 @@
         },
         "id": 558521,
         "utcDate": "2026-11-22T11:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 12,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T13:21:15Z",
+        "lastUpdated": "2026-11-22T13:26:35Z",
         "homeTeam": {
           "id": 109,
           "name": "Juventus FC",
@@ -94368,7 +94368,72 @@
             "type": "REFEREE",
             "nationality": "Italy"
           }
-        ]
+        ],
+        "goals": [
+          {
+            "minute": 53,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 109,
+              "name": "Juventus FC"
+            },
+            "scorer": {
+              "id": "espn-298349",
+              "name": "Nick Woltemade"
+            },
+            "assist": null
+          },
+          {
+            "minute": 59,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 109,
+              "name": "Juventus FC"
+            },
+            "scorer": {
+              "id": "espn-258968",
+              "name": "Teun Koopmeiners"
+            },
+            "assist": {
+              "id": "espn-298349",
+              "name": "Nick Woltemade"
+            }
+          },
+          {
+            "minute": 65,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 109,
+              "name": "Juventus FC"
+            },
+            "scorer": {
+              "id": "espn-24412",
+              "name": "Juan Cabal"
+            },
+            "assist": {
+              "id": "espn-260300",
+              "name": "Edon Zhegrova"
+            }
+          },
+          {
+            "minute": 71,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 109,
+              "name": "Juventus FC"
+            },
+            "scorer": {
+              "id": "espn-252971",
+              "name": "Randal Kolo Muani"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": []
       },
       {
         "area": {
@@ -186752,11 +186817,11 @@
         },
         "id": 558830,
         "utcDate": "2026-11-22T13:30:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T01:32:00Z",
+        "lastUpdated": "2026-11-22T13:40:59Z",
         "homeTeam": {
           "id": 6806,
           "name": "Sparta Rotterdam",
@@ -186772,11 +186837,11 @@
           "crest": "https://crests.football-data.org/682.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -186818,11 +186883,11 @@
         },
         "id": 558836,
         "utcDate": "2026-11-22T13:30:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T00:20:28Z",
+        "lastUpdated": "2026-11-22T13:40:59Z",
         "homeTeam": {
           "id": 678,
           "name": "AFC Ajax",
@@ -186838,11 +186903,11 @@
           "crest": "https://crests.football-data.org/680.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
             "home": null,
