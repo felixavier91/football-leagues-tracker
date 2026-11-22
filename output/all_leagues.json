@@ -7830,11 +7830,11 @@
         },
         "id": 560646,
         "utcDate": "2026-11-22T14:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T01:32:00Z",
+        "lastUpdated": "2026-11-22T19:25:07Z",
         "homeTeam": {
           "id": 322,
           "name": "Hull City AFC",
@@ -7850,15 +7850,15 @@
           "crest": "https://crests.football-data.org/397.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -8012,11 +8012,11 @@
         },
         "id": 560645,
         "utcDate": "2026-11-22T16:30:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T01:32:01Z",
+        "lastUpdated": "2026-11-22T19:25:07Z",
         "homeTeam": {
           "id": 64,
           "name": "Liverpool FC",
@@ -8032,15 +8032,15 @@
           "crest": "https://crests.football-data.org/66.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 4,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           }
         },
         "odds": {
@@ -33378,11 +33378,11 @@
         },
         "id": 564753,
         "utcDate": "2026-11-22T20:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T22:00:42Z",
+        "lastUpdated": "2026-11-22T22:01:46Z",
         "homeTeam": {
           "id": 82,
           "name": "Getafe CF",
@@ -33418,6 +33418,123 @@
             "name": "Jesús Gil Manzano",
             "type": "REFEREE",
             "nationality": "Spain"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 10,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 78,
+              "name": "Club Atlético de Madrid"
+            },
+            "scorer": {
+              "id": "espn-297373",
+              "name": "Álex Baena"
+            },
+            "assist": {
+              "id": "espn-277206",
+              "name": "Julián Álvarez"
+            }
+          },
+          {
+            "minute": 30,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 78,
+              "name": "Club Atlético de Madrid"
+            },
+            "scorer": {
+              "id": "espn-290802",
+              "name": "Johnny Cardoso"
+            },
+            "assist": {
+              "id": "espn-277206",
+              "name": "Julián Álvarez"
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 2,
+            "type": "PENALTY",
+            "team": {
+              "id": 78,
+              "name": "Club Atlético de Madrid"
+            },
+            "scorer": {
+              "id": "espn-166396",
+              "name": "Alejandro Grimaldo"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 36,
+            "injuryTime": null,
+            "team": {
+              "id": 78,
+              "name": "Club Atlético de Madrid"
+            },
+            "player": {
+              "id": "espn-290802",
+              "name": "Johnny Cardoso"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 49,
+            "injuryTime": null,
+            "team": {
+              "id": 78,
+              "name": "Club Atlético de Madrid"
+            },
+            "player": {
+              "id": "espn-214888",
+              "name": "Robin Le Normand"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 71,
+            "injuryTime": null,
+            "team": {
+              "id": 82,
+              "name": "Getafe CF"
+            },
+            "player": {
+              "id": "espn-181355",
+              "name": "Djené"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 84,
+            "injuryTime": null,
+            "team": {
+              "id": 82,
+              "name": "Getafe CF"
+            },
+            "player": {
+              "id": "espn-357147",
+              "name": "Mario Martín"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": null,
+            "team": {
+              "id": 82,
+              "name": "Getafe CF"
+            },
+            "player": {
+              "id": "espn-181355",
+              "name": "Djené"
+            },
+            "card": "RED"
           }
         ]
       },
