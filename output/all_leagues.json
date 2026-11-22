@@ -8012,11 +8012,11 @@
         },
         "id": 560645,
         "utcDate": "2026-11-22T16:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T18:19:55Z",
+        "lastUpdated": "2026-11-22T18:29:31Z",
         "homeTeam": {
           "id": 64,
           "name": "Liverpool FC",
@@ -8052,6 +8052,101 @@
             "name": "Sam Barrott",
             "type": "REFEREE",
             "nationality": "England"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 10,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 64,
+              "name": "Liverpool FC"
+            },
+            "scorer": {
+              "id": "espn-257206",
+              "name": "Dominik Szoboszlai"
+            },
+            "assist": null
+          },
+          {
+            "minute": 13,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 64,
+              "name": "Liverpool FC"
+            },
+            "scorer": {
+              "id": "espn-303748",
+              "name": "Florian Wirtz"
+            },
+            "assist": {
+              "id": "espn-379588",
+              "name": "Rio Ngumoha"
+            }
+          },
+          {
+            "minute": 66,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 64,
+              "name": "Liverpool FC"
+            },
+            "scorer": {
+              "id": "espn-379588",
+              "name": "Rio Ngumoha"
+            },
+            "assist": {
+              "id": "espn-328238",
+              "name": "Bradley Barcola"
+            }
+          },
+          {
+            "minute": 82,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 64,
+              "name": "Liverpool FC"
+            },
+            "scorer": {
+              "id": "espn-397545",
+              "name": "Víctor Muñoz"
+            },
+            "assist": {
+              "id": "espn-303748",
+              "name": "Florian Wirtz"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 8,
+            "injuryTime": null,
+            "team": {
+              "id": 66,
+              "name": "Manchester United FC"
+            },
+            "player": {
+              "id": "espn-340206",
+              "name": "Leny Yoro"
+            },
+            "card": "RED"
+          },
+          {
+            "minute": 62,
+            "injuryTime": null,
+            "team": {
+              "id": 64,
+              "name": "Liverpool FC"
+            },
+            "player": {
+              "id": "espn-328238",
+              "name": "Bradley Barcola"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -33148,7 +33243,7 @@
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T18:19:22Z",
+        "lastUpdated": "2026-11-22T18:39:38Z",
         "homeTeam": {
           "id": 79,
           "name": "CA Osasuna",
@@ -33171,8 +33266,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
@@ -63573,11 +63668,11 @@
         },
         "id": 565863,
         "utcDate": "2026-11-22T16:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T18:19:54Z",
+        "lastUpdated": "2026-11-22T18:35:54Z",
         "homeTeam": {
           "id": 12,
           "name": "SV Werder Bremen",
@@ -63596,7 +63691,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 3,
+            "home": 4,
             "away": 0
           },
           "halfTime": {
@@ -63613,6 +63708,150 @@
             "name": "Florian Badstübner",
             "type": "REFEREE",
             "nationality": "Germany"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 55,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 12,
+              "name": "SV Werder Bremen"
+            },
+            "scorer": {
+              "id": "espn-232477",
+              "name": "Marco Friedl"
+            },
+            "assist": null
+          },
+          {
+            "minute": 66,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 12,
+              "name": "SV Werder Bremen"
+            },
+            "scorer": {
+              "id": "espn-340639",
+              "name": "Justin Njinmah"
+            },
+            "assist": {
+              "id": "espn-170257",
+              "name": "Niclas Füllkrug"
+            }
+          },
+          {
+            "minute": 70,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 12,
+              "name": "SV Werder Bremen"
+            },
+            "scorer": {
+              "id": "espn-340639",
+              "name": "Justin Njinmah"
+            },
+            "assist": {
+              "id": "espn-261363",
+              "name": "Ludovit Reis"
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 2,
+            "type": "REGULAR",
+            "team": {
+              "id": 12,
+              "name": "SV Werder Bremen"
+            },
+            "scorer": {
+              "id": "espn-170257",
+              "name": "Niclas Füllkrug"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 10,
+            "injuryTime": null,
+            "team": {
+              "id": 12,
+              "name": "SV Werder Bremen"
+            },
+            "player": {
+              "id": "espn-275844",
+              "name": "Amos Pieper"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 23,
+            "injuryTime": null,
+            "team": {
+              "id": 7,
+              "name": "Hamburger SV"
+            },
+            "player": {
+              "id": "espn-309840",
+              "name": "Warmed Omari"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 39,
+            "injuryTime": null,
+            "team": {
+              "id": 12,
+              "name": "SV Werder Bremen"
+            },
+            "player": {
+              "id": "espn-371689",
+              "name": "Chuki"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 50,
+            "injuryTime": null,
+            "team": {
+              "id": 12,
+              "name": "SV Werder Bremen"
+            },
+            "player": {
+              "id": "espn-282388",
+              "name": "Olivier Deman"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 74,
+            "injuryTime": null,
+            "team": {
+              "id": 7,
+              "name": "Hamburger SV"
+            },
+            "player": {
+              "id": "espn-284835",
+              "name": "Nicolás Capaldo"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 84,
+            "injuryTime": null,
+            "team": {
+              "id": 7,
+              "name": "Hamburger SV"
+            },
+            "player": {
+              "id": "espn-297750",
+              "name": "Albert Grønbaek"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -95297,7 +95536,7 @@
         "matchday": 12,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T18:19:54Z",
+        "lastUpdated": "2026-11-22T18:40:11Z",
         "homeTeam": {
           "id": 98,
           "name": "AC Milan",
@@ -95316,7 +95555,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 3,
+            "home": 5,
             "away": 1
           },
           "halfTime": {
