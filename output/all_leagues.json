@@ -8016,7 +8016,7 @@
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T17:51:07Z",
+        "lastUpdated": "2026-11-22T18:19:55Z",
         "homeTeam": {
           "id": 64,
           "name": "Liverpool FC",
@@ -8035,7 +8035,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
+            "home": 4,
             "away": 0
           },
           "halfTime": {
@@ -33148,7 +33148,7 @@
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T17:50:35Z",
+        "lastUpdated": "2026-11-22T18:19:22Z",
         "homeTeam": {
           "id": 79,
           "name": "CA Osasuna",
@@ -33164,10 +33164,10 @@
           "crest": "https://crests.football-data.org/84.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -33244,7 +33244,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 206211,
+            "name": "Jesús Gil Manzano",
+            "type": "REFEREE",
+            "nationality": "Spain"
+          }
+        ]
       },
       {
         "area": {
@@ -63570,7 +63577,7 @@
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T17:51:07Z",
+        "lastUpdated": "2026-11-22T18:19:54Z",
         "homeTeam": {
           "id": 12,
           "name": "SV Werder Bremen",
@@ -63586,10 +63593,10 @@
           "crest": "https://crests.football-data.org/7.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 3,
             "away": 0
           },
           "halfTime": {
@@ -95290,7 +95297,7 @@
         "matchday": 12,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T17:51:07Z",
+        "lastUpdated": "2026-11-22T18:19:54Z",
         "homeTeam": {
           "id": 98,
           "name": "AC Milan",
@@ -95309,12 +95316,12 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
+            "home": 3,
             "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 1
           }
         },
         "odds": {
@@ -126670,11 +126677,11 @@
         },
         "id": 559626,
         "utcDate": "2026-11-22T16:15:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T17:51:07Z",
+        "lastUpdated": "2026-11-22T18:14:35Z",
         "homeTeam": {
           "id": 525,
           "name": "FC Lorient",
@@ -126710,6 +126717,109 @@
             "name": "Marc Bollengier",
             "type": "REFEREE",
             "nationality": "France"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 27,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 529,
+              "name": "Stade Rennais FC 1901"
+            },
+            "scorer": {
+              "id": "espn-282381",
+              "name": "Boulaye Dia"
+            },
+            "assist": {
+              "id": "espn-257489",
+              "name": "Mousa Al-Tamari"
+            }
+          },
+          {
+            "minute": 45,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 525,
+              "name": "FC Lorient"
+            },
+            "scorer": {
+              "id": "espn-265099",
+              "name": "Montassar Talbi"
+            },
+            "assist": {
+              "id": "espn-355870",
+              "name": "Arthur Avom"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 36,
+            "injuryTime": null,
+            "team": {
+              "id": 529,
+              "name": "Stade Rennais FC 1901"
+            },
+            "player": {
+              "id": "espn-243844",
+              "name": "Sebastian Szymanski"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 50,
+            "injuryTime": null,
+            "team": {
+              "id": 529,
+              "name": "Stade Rennais FC 1901"
+            },
+            "player": {
+              "id": "espn-372260",
+              "name": "Mahamadou Nagida"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 66,
+            "injuryTime": null,
+            "team": {
+              "id": 525,
+              "name": "FC Lorient"
+            },
+            "player": {
+              "id": "espn-297345",
+              "name": "Souleymane Faye"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 70,
+            "injuryTime": null,
+            "team": {
+              "id": 525,
+              "name": "FC Lorient"
+            },
+            "player": {
+              "id": "espn-315215",
+              "name": "Noah Cadiou"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 2,
+            "team": {
+              "id": 529,
+              "name": "Stade Rennais FC 1901"
+            },
+            "player": {
+              "id": "espn-173266",
+              "name": "Adrien Thomasson"
+            },
+            "card": "RED"
           }
         ]
       },
