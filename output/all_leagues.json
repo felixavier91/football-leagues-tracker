@@ -8016,7 +8016,7 @@
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T17:24:27Z",
+        "lastUpdated": "2026-11-22T17:51:07Z",
         "homeTeam": {
           "id": 64,
           "name": "Liverpool FC",
@@ -33144,11 +33144,11 @@
         },
         "id": 564752,
         "utcDate": "2026-11-22T17:30:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T00:20:28Z",
+        "lastUpdated": "2026-11-22T17:50:35Z",
         "homeTeam": {
           "id": 79,
           "name": "CA Osasuna",
@@ -33164,11 +33164,11 @@
           "crest": "https://crests.football-data.org/84.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -63570,7 +63570,7 @@
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T17:24:27Z",
+        "lastUpdated": "2026-11-22T17:51:07Z",
         "homeTeam": {
           "id": 12,
           "name": "SV Werder Bremen",
@@ -95290,7 +95290,7 @@
         "matchday": 12,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T17:30:19Z",
+        "lastUpdated": "2026-11-22T17:51:07Z",
         "homeTeam": {
           "id": 98,
           "name": "AC Milan",
@@ -95310,7 +95310,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 2,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
@@ -95386,7 +95386,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 10977,
+            "name": "Fabio Maresca",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
@@ -126505,11 +126512,11 @@
         },
         "id": 559625,
         "utcDate": "2026-11-22T14:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T00:20:28Z",
+        "lastUpdated": "2026-11-22T16:02:19Z",
         "homeTeam": {
           "id": 1045,
           "name": "Paris FC",
@@ -126525,15 +126532,15 @@
           "crest": "https://crests.football-data.org/532.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 4,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -126663,11 +126670,11 @@
         },
         "id": 559626,
         "utcDate": "2026-11-22T16:15:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T01:32:01Z",
+        "lastUpdated": "2026-11-22T17:51:07Z",
         "homeTeam": {
           "id": 525,
           "name": "FC Lorient",
@@ -126683,15 +126690,15 @@
           "crest": "https://crests.football-data.org/529.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "odds": {
@@ -126763,7 +126770,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57092,
+            "name": "Eric Wattellier",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -188016,11 +188030,11 @@
         },
         "id": 558829,
         "utcDate": "2026-11-22T15:45:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T17:30:51Z",
+        "lastUpdated": "2026-11-22T17:44:10Z",
         "homeTeam": {
           "id": 718,
           "name": "Go Ahead Eagles",
@@ -188056,6 +188070,79 @@
             "name": "Martijn Vos",
             "type": "REFEREE",
             "nationality": "Netherlands"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 50,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 1920,
+              "name": "Fortuna Sittard"
+            },
+            "scorer": {
+              "id": "espn-299929",
+              "name": "Anthony Descotte"
+            },
+            "assist": {
+              "id": "espn-196353",
+              "name": "Kristoffer Peterson"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 18,
+            "injuryTime": null,
+            "team": {
+              "id": 1920,
+              "name": "Fortuna Sittard"
+            },
+            "player": {
+              "id": "espn-338120",
+              "name": "Shiloh ’t Zand"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 74,
+            "injuryTime": null,
+            "team": {
+              "id": 718,
+              "name": "Go Ahead Eagles"
+            },
+            "player": {
+              "id": "espn-218424",
+              "name": "Joris Kramer"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 79,
+            "injuryTime": null,
+            "team": {
+              "id": 1920,
+              "name": "Fortuna Sittard"
+            },
+            "player": {
+              "id": "espn-284701",
+              "name": "Mohamed Ihattaren"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 89,
+            "injuryTime": null,
+            "team": {
+              "id": 718,
+              "name": "Go Ahead Eagles"
+            },
+            "player": {
+              "id": "espn-153764",
+              "name": "Gerrit Nauber"
+            },
+            "card": "YELLOW"
           }
         ]
       },
