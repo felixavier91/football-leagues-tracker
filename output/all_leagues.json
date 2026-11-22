@@ -7830,11 +7830,11 @@
         },
         "id": 560646,
         "utcDate": "2026-11-22T14:00:00Z",
-        "status": "FINISHED",
+        "status": "TIMED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T19:25:07Z",
+        "lastUpdated": "2026-11-22T01:32:00Z",
         "homeTeam": {
           "id": 322,
           "name": "Hull City AFC",
@@ -7850,15 +7850,15 @@
           "crest": "https://crests.football-data.org/397.png"
         },
         "score": {
-          "winner": "HOME_TEAM",
+          "winner": null,
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
-            "away": 0
+            "home": null,
+            "away": null
           },
           "halfTime": {
-            "home": 0,
-            "away": 0
+            "home": null,
+            "away": null
           }
         },
         "odds": {
@@ -8012,11 +8012,11 @@
         },
         "id": 560645,
         "utcDate": "2026-11-22T16:30:00Z",
-        "status": "FINISHED",
+        "status": "TIMED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T19:25:07Z",
+        "lastUpdated": "2026-11-22T01:32:01Z",
         "homeTeam": {
           "id": 64,
           "name": "Liverpool FC",
@@ -8032,15 +8032,15 @@
           "crest": "https://crests.football-data.org/66.png"
         },
         "score": {
-          "winner": "HOME_TEAM",
+          "winner": null,
           "duration": "REGULAR",
           "fullTime": {
-            "home": 4,
-            "away": 0
+            "home": null,
+            "away": null
           },
           "halfTime": {
-            "home": 2,
-            "away": 0
+            "home": null,
+            "away": null
           }
         },
         "odds": {
@@ -33382,7 +33382,7 @@
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T21:30:50Z",
+        "lastUpdated": "2026-11-22T22:00:42Z",
         "homeTeam": {
           "id": 82,
           "name": "Getafe CF",
@@ -33402,7 +33402,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 2
+            "away": 3
           },
           "halfTime": {
             "home": 0,
@@ -95833,11 +95833,11 @@
         },
         "id": 558520,
         "utcDate": "2026-11-22T19:45:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 12,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T21:31:23Z",
+        "lastUpdated": "2026-11-22T21:45:15Z",
         "homeTeam": {
           "id": 102,
           "name": "Atalanta BC",
@@ -95853,10 +95853,10 @@
           "crest": "https://crests.football-data.org/108.png"
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 3,
+            "home": 4,
             "away": 4
           },
           "halfTime": {
@@ -95873,6 +95873,176 @@
             "name": "Fabio Maresca",
             "type": "REFEREE",
             "nationality": "Italy"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 16,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "scorer": {
+              "id": "espn-362674",
+              "name": "Pio Esposito"
+            },
+            "assist": null
+          },
+          {
+            "minute": 32,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "scorer": {
+              "id": "espn-362674",
+              "name": "Pio Esposito"
+            },
+            "assist": {
+              "id": "espn-194748",
+              "name": "Federico Dimarco"
+            }
+          },
+          {
+            "minute": 35,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 102,
+              "name": "Atalanta BC"
+            },
+            "scorer": {
+              "id": "espn-237435",
+              "name": "Eljif Elmas"
+            },
+            "assist": {
+              "id": "espn-288488",
+              "name": "Nicola Zalewski"
+            }
+          },
+          {
+            "minute": 52,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "scorer": {
+              "id": "espn-362674",
+              "name": "Pio Esposito"
+            },
+            "assist": {
+              "id": "espn-217331",
+              "name": "Marcus Thuram"
+            }
+          },
+          {
+            "minute": 72,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 102,
+              "name": "Atalanta BC"
+            },
+            "scorer": {
+              "id": "espn-296319",
+              "name": "Charles De Ketelaere"
+            },
+            "assist": {
+              "id": "espn-288488",
+              "name": "Nicola Zalewski"
+            }
+          },
+          {
+            "minute": 76,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "scorer": {
+              "id": "espn-341494",
+              "name": "Petar Sucic"
+            },
+            "assist": null
+          },
+          {
+            "minute": 80,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 102,
+              "name": "Atalanta BC"
+            },
+            "scorer": {
+              "id": "espn-296319",
+              "name": "Charles De Ketelaere"
+            },
+            "assist": {
+              "id": "espn-118279",
+              "name": "Jon Rowe"
+            }
+          },
+          {
+            "minute": 90,
+            "injuryTime": 1,
+            "type": "PENALTY",
+            "team": {
+              "id": 102,
+              "name": "Atalanta BC"
+            },
+            "scorer": {
+              "id": "espn-194711",
+              "name": "Franck Kessié"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 60,
+            "injuryTime": null,
+            "team": {
+              "id": 102,
+              "name": "Atalanta BC"
+            },
+            "player": {
+              "id": "espn-309812",
+              "name": "Giorgio Scalvini"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 74,
+            "injuryTime": null,
+            "team": {
+              "id": 102,
+              "name": "Atalanta BC"
+            },
+            "player": {
+              "id": "espn-182627",
+              "name": "Davide Zappacosta"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 5,
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "player": {
+              "id": "espn-271769",
+              "name": "Carlos Augusto"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -126993,11 +127163,11 @@
         },
         "id": 559625,
         "utcDate": "2026-11-22T14:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T00:20:28Z",
+        "lastUpdated": "2026-11-22T16:02:19Z",
         "homeTeam": {
           "id": 1045,
           "name": "Paris FC",
@@ -127013,15 +127183,15 @@
           "crest": "https://crests.football-data.org/532.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 4,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -127151,11 +127321,11 @@
         },
         "id": 559626,
         "utcDate": "2026-11-22T16:15:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T01:32:01Z",
+        "lastUpdated": "2026-11-22T18:14:35Z",
         "homeTeam": {
           "id": 525,
           "name": "FC Lorient",
@@ -127171,15 +127341,15 @@
           "crest": "https://crests.football-data.org/529.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "odds": {
@@ -127320,11 +127490,11 @@
         },
         "id": 559629,
         "utcDate": "2026-11-22T19:45:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-22T01:32:01Z",
+        "lastUpdated": "2026-11-22T21:47:22Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -127340,15 +127510,15 @@
           "crest": "https://crests.football-data.org/535.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 3
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           }
         },
         "odds": {
@@ -127360,6 +127530,180 @@
             "name": "Eric Wattellier",
             "type": "REFEREE",
             "nationality": "France"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 33,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 516,
+              "name": "Olympique de Marseille"
+            },
+            "scorer": {
+              "id": "espn-259743",
+              "name": "Amine Gouiri"
+            },
+            "assist": {
+              "id": "espn-307115",
+              "name": "CJ Egan-Riley"
+            }
+          },
+          {
+            "minute": 40,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 516,
+              "name": "Olympique de Marseille"
+            },
+            "scorer": {
+              "id": "espn-289114",
+              "name": "Igor Paixão"
+            },
+            "assist": {
+              "id": "espn-259743",
+              "name": "Amine Gouiri"
+            }
+          },
+          {
+            "minute": 70,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 535,
+              "name": "Le Mans FC"
+            },
+            "scorer": {
+              "id": "espn-268720",
+              "name": "Louis Mafouta"
+            },
+            "assist": null
+          },
+          {
+            "minute": 84,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 535,
+              "name": "Le Mans FC"
+            },
+            "scorer": {
+              "id": "espn-357006",
+              "name": "Erwan Colas"
+            },
+            "assist": null
+          },
+          {
+            "minute": 90,
+            "injuryTime": 5,
+            "type": "REGULAR",
+            "team": {
+              "id": 535,
+              "name": "Le Mans FC"
+            },
+            "scorer": {
+              "id": "espn-315460",
+              "name": "Jean Vercruysse"
+            },
+            "assist": {
+              "id": "espn-382872",
+              "name": "Rayan Bamba"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 53,
+            "injuryTime": null,
+            "team": {
+              "id": 535,
+              "name": "Le Mans FC"
+            },
+            "player": {
+              "id": "espn-232335",
+              "name": "Antoine Rabillard"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 67,
+            "injuryTime": null,
+            "team": {
+              "id": 516,
+              "name": "Olympique de Marseille"
+            },
+            "player": {
+              "id": "espn-343114",
+              "name": "Tochukwu Nnadi"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 69,
+            "injuryTime": null,
+            "team": {
+              "id": 516,
+              "name": "Olympique de Marseille"
+            },
+            "player": {
+              "id": "espn-152270",
+              "name": "Geoffrey Kondogbia"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 71,
+            "injuryTime": null,
+            "team": {
+              "id": 535,
+              "name": "Le Mans FC"
+            },
+            "player": {
+              "id": "espn-393721",
+              "name": "Harold Voyer"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 80,
+            "injuryTime": null,
+            "team": {
+              "id": 516,
+              "name": "Olympique de Marseille"
+            },
+            "player": {
+              "id": "espn-277525",
+              "name": "Himad Abdelli"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 80,
+            "injuryTime": null,
+            "team": {
+              "id": 535,
+              "name": "Le Mans FC"
+            },
+            "player": {
+              "id": "espn-382872",
+              "name": "Rayan Bamba"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 88,
+            "injuryTime": null,
+            "team": {
+              "id": 535,
+              "name": "Le Mans FC"
+            },
+            "player": {
+              "id": "espn-273021",
+              "name": "Daouda Traoré"
+            },
+            "card": "YELLOW"
           }
         ]
       },
