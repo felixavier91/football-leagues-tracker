@@ -53,6 +53,9 @@ triggers a `pages build and deployment` run that republishes the site.
 | `output/{pl,pd,bl1,sa,fl1,ppl,ded,cl}.json` | Per-league copies written by `fetch_all_leagues.js`; not read by the site |
 | `output/bsa.json` | Stale leftover from when Brazil's Série A was tracked (now commented out); nothing reads or updates it |
 | `CNAME` | Custom domain for GitHub Pages |
+| `icon.svg` | App icon source (soccer ball with a play button). The PNGs are rendered from it with `rsvg-convert -w <size>` |
+| `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`, `favicon.png` | Rendered icon sizes: iPad/iPhone home screen (180), Android (192, 512), browser tab (48) |
+| `manifest.json` | Web app name, colour and icons for "Add to Home Screen" |
 | `soccer_highlights_design.png` | Design mock-up, not used by the site |
 
 ### Secrets
