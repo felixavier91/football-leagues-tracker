@@ -213807,11 +213807,11 @@
         },
         "id": 575395,
         "utcDate": "2026-11-24T17:45:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-24T19:30:51Z",
+        "lastUpdated": "2026-11-24T19:45:47Z",
         "homeTeam": {
           "id": 610,
           "name": "Galatasaray SK",
@@ -213848,6 +213848,102 @@
             "type": "REFEREE",
             "nationality": "Germany"
           }
+        ],
+        "goals": [
+          {
+            "minute": 77,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 610,
+              "name": "Galatasaray SK"
+            },
+            "scorer": {
+              "id": "espn-350513",
+              "name": "Deniz Gül"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 41,
+            "injuryTime": null,
+            "team": {
+              "id": 58,
+              "name": "Aston Villa FC"
+            },
+            "player": {
+              "id": "espn-308524",
+              "name": "Nicolas Jackson"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 52,
+            "injuryTime": null,
+            "team": {
+              "id": 58,
+              "name": "Aston Villa FC"
+            },
+            "player": {
+              "id": "espn-162843",
+              "name": "John McGinn"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 53,
+            "injuryTime": null,
+            "team": {
+              "id": 610,
+              "name": "Galatasaray SK"
+            },
+            "player": {
+              "id": "espn-355113",
+              "name": "Alexey Batrakov"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 58,
+            "injuryTime": null,
+            "team": {
+              "id": 58,
+              "name": "Aston Villa FC"
+            },
+            "player": {
+              "id": "espn-301524",
+              "name": "João Gomes"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 58,
+            "injuryTime": null,
+            "team": {
+              "id": 610,
+              "name": "Galatasaray SK"
+            },
+            "player": {
+              "id": "espn-266575",
+              "name": "Yunus Akgün"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": null,
+            "team": {
+              "id": 58,
+              "name": "Aston Villa FC"
+            },
+            "player": {
+              "id": "espn-152469",
+              "name": "Ross Barkley"
+            },
+            "card": "YELLOW"
+          }
         ]
       },
       {
@@ -213873,11 +213969,11 @@
         },
         "id": 575396,
         "utcDate": "2026-11-24T17:45:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-24T19:31:23Z",
+        "lastUpdated": "2026-11-24T19:41:31Z",
         "homeTeam": {
           "id": 5721,
           "name": "FK Bodø/Glimt",
@@ -213893,15 +213989,15 @@
           "crest": "https://crests.football-data.org/2016.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -213913,6 +214009,50 @@
             "name": "Halil Meler",
             "type": "REFEREE",
             "nationality": "Turkey"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 90,
+            "injuryTime": 2,
+            "type": "OWN",
+            "team": {
+              "id": 2016,
+              "name": "LASK Linz"
+            },
+            "scorer": {
+              "id": "espn-290638",
+              "name": "Melayro Bogarde"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 71,
+            "injuryTime": null,
+            "team": {
+              "id": 2016,
+              "name": "LASK Linz"
+            },
+            "player": {
+              "id": "espn-306899",
+              "name": "Krystof Danek"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 89,
+            "injuryTime": null,
+            "team": {
+              "id": 5721,
+              "name": "FK Bodø/Glimt"
+            },
+            "player": {
+              "id": "espn-218466",
+              "name": "Jostein Gundersen"
+            },
+            "card": "YELLOW"
           }
         ]
       },
