@@ -214554,11 +214554,11 @@
         },
         "id": 575400,
         "utcDate": "2026-11-24T20:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-24T22:00:43Z",
+        "lastUpdated": "2026-11-24T22:11:11Z",
         "homeTeam": {
           "id": 675,
           "name": "Feyenoord Rotterdam",
@@ -214574,10 +214574,10 @@
           "crest": "https://crests.football-data.org/503.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 0,
             "away": 1
           },
           "halfTime": {
@@ -214594,6 +214594,102 @@
             "name": "Irfan Peljto",
             "type": "REFEREE",
             "nationality": "Bosnia and Herzegovina"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 2,
+            "injuryTime": null,
+            "type": "OWN",
+            "team": {
+              "id": 675,
+              "name": "Feyenoord Rotterdam"
+            },
+            "scorer": {
+              "id": "espn-313354",
+              "name": "Oussama Targhaline"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 13,
+            "injuryTime": null,
+            "team": {
+              "id": 503,
+              "name": "FC Porto"
+            },
+            "player": {
+              "id": "espn-373520",
+              "name": "Victor Froholdt"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 22,
+            "injuryTime": null,
+            "team": {
+              "id": 503,
+              "name": "FC Porto"
+            },
+            "player": {
+              "id": "espn-346111",
+              "name": "Alberto Costa"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 69,
+            "injuryTime": null,
+            "team": {
+              "id": 503,
+              "name": "FC Porto"
+            },
+            "player": {
+              "id": "espn-304965",
+              "name": "Jakub Kiwior"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 71,
+            "injuryTime": null,
+            "team": {
+              "id": 675,
+              "name": "Feyenoord Rotterdam"
+            },
+            "player": {
+              "id": "espn-343202",
+              "name": "Thijs Kraaijeveld"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 4,
+            "team": {
+              "id": 675,
+              "name": "Feyenoord Rotterdam"
+            },
+            "player": {
+              "id": "espn-332362",
+              "name": "Gonçalo Borges"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 4,
+            "team": {
+              "id": 503,
+              "name": "FC Porto"
+            },
+            "player": {
+              "id": "espn-223776",
+              "name": "Pablo Rosario"
+            },
+            "card": "YELLOW"
           }
         ]
       },
