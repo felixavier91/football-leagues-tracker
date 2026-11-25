@@ -35130,11 +35130,11 @@
         },
         "id": 564698,
         "utcDate": "2026-12-09T19:00:00Z",
-        "status": "CANCELLED",
+        "status": "TIMED",
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-25T00:20:29Z",
+        "lastUpdated": "2026-11-25T19:25:09Z",
         "homeTeam": {
           "id": 87,
           "name": "Rayo Vallecano de Madrid",
@@ -215529,11 +215529,11 @@
         },
         "id": 575406,
         "utcDate": "2026-11-25T20:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-25T21:40:58Z",
+        "lastUpdated": "2026-11-25T21:59:07Z",
         "homeTeam": {
           "id": 108,
           "name": "FC Internazionale Milano",
@@ -215570,6 +215570,80 @@
             "type": "REFEREE",
             "nationality": "France"
           }
+        ],
+        "goals": [
+          {
+            "minute": 57,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "scorer": {
+              "id": "espn-341494",
+              "name": "Petar Sucic"
+            },
+            "assist": null
+          },
+          {
+            "minute": 74,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "scorer": {
+              "id": "espn-219713",
+              "name": "Lautaro Martínez"
+            },
+            "assist": {
+              "id": "espn-194748",
+              "name": "Federico Dimarco"
+            }
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 13,
+            "injuryTime": null,
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "player": {
+              "id": "espn-217331",
+              "name": "Marcus Thuram"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 48,
+            "injuryTime": null,
+            "team": {
+              "id": 10,
+              "name": "VfB Stuttgart"
+            },
+            "player": {
+              "id": "espn-372026",
+              "name": "Finn Jeltsch"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 78,
+            "injuryTime": null,
+            "team": {
+              "id": 108,
+              "name": "FC Internazionale Milano"
+            },
+            "player": {
+              "id": "espn-214562",
+              "name": "Manuel Akanji"
+            },
+            "card": "YELLOW"
+          }
         ]
       },
       {
@@ -215595,11 +215669,11 @@
         },
         "id": 575407,
         "utcDate": "2026-11-25T20:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-25T21:41:31Z",
+        "lastUpdated": "2026-11-25T21:57:31Z",
         "homeTeam": {
           "id": 78,
           "name": "Club Atlético de Madrid",
@@ -215636,6 +215710,67 @@
             "type": "REFEREE",
             "nationality": "Belgium"
           }
+        ],
+        "goals": [
+          {
+            "minute": 19,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 78,
+              "name": "Club Atlético de Madrid"
+            },
+            "scorer": {
+              "id": "espn-188230",
+              "name": "Alexander Sørloth"
+            },
+            "assist": {
+              "id": "espn-166396",
+              "name": "Alejandro Grimaldo"
+            }
+          },
+          {
+            "minute": 24,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 78,
+              "name": "Club Atlético de Madrid"
+            },
+            "scorer": {
+              "id": "espn-277206",
+              "name": "Julián Álvarez"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 46,
+            "injuryTime": null,
+            "team": {
+              "id": 5720,
+              "name": "Viking FK"
+            },
+            "player": {
+              "id": "espn-286826",
+              "name": "Gianni Stensness"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 1,
+            "team": {
+              "id": 5720,
+              "name": "Viking FK"
+            },
+            "player": {
+              "id": "espn-303281",
+              "name": "Henrik Falchener"
+            },
+            "card": "RED"
+          }
         ]
       },
       {
@@ -215661,11 +215796,11 @@
         },
         "id": 575408,
         "utcDate": "2026-11-25T20:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-25T21:41:31Z",
+        "lastUpdated": "2026-11-25T22:00:43Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -215681,11 +215816,11 @@
           "crest": "https://crests.football-data.org/100.png"
         },
         "score": {
-          "winner": "HOME_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
             "home": 2,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 1,
@@ -215701,6 +215836,98 @@
             "name": "Glenn Nyberg",
             "type": "REFEREE",
             "nationality": "Sweden"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 5,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 100,
+              "name": "AS Roma"
+            },
+            "scorer": {
+              "id": "espn-222529",
+              "name": "Mario Hermoso"
+            },
+            "assist": {
+              "id": "espn-323974",
+              "name": "Matìas Soulè"
+            }
+          },
+          {
+            "minute": 31,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 524,
+              "name": "Paris Saint-Germain FC"
+            },
+            "scorer": {
+              "id": "espn-304503",
+              "name": "Illia Zabarnyi"
+            },
+            "assist": {
+              "id": "espn-379088",
+              "name": "Senny Mayulu"
+            }
+          },
+          {
+            "minute": 62,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 524,
+              "name": "Paris Saint-Germain FC"
+            },
+            "scorer": {
+              "id": "espn-229744",
+              "name": "Ousmane Dembélé"
+            },
+            "assist": null
+          },
+          {
+            "minute": 78,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 100,
+              "name": "AS Roma"
+            },
+            "scorer": {
+              "id": "espn-259481",
+              "name": "Donyell Malen"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 41,
+            "injuryTime": null,
+            "team": {
+              "id": 100,
+              "name": "AS Roma"
+            },
+            "player": {
+              "id": "espn-212597",
+              "name": "Gianluca Mancini"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 60,
+            "injuryTime": null,
+            "team": {
+              "id": 100,
+              "name": "AS Roma"
+            },
+            "player": {
+              "id": "espn-332354",
+              "name": "Wesley"
+            },
+            "card": "YELLOW"
           }
         ]
       },
@@ -215727,11 +215954,11 @@
         },
         "id": 575409,
         "utcDate": "2026-11-25T20:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-25T21:41:31Z",
+        "lastUpdated": "2026-11-25T22:00:42Z",
         "homeTeam": {
           "id": 851,
           "name": "Club Brugge KV",
@@ -215751,7 +215978,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 1
+            "away": 3
           },
           "halfTime": {
             "home": 0,
@@ -215768,7 +215995,61 @@
             "type": "REFEREE",
             "nationality": "Spain"
           }
-        ]
+        ],
+        "goals": [
+          {
+            "minute": 13,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 64,
+              "name": "Liverpool FC"
+            },
+            "scorer": {
+              "id": "espn-235662",
+              "name": "Alexander Isak"
+            },
+            "assist": {
+              "id": "espn-257206",
+              "name": "Dominik Szoboszlai"
+            }
+          },
+          {
+            "minute": 79,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 64,
+              "name": "Liverpool FC"
+            },
+            "scorer": {
+              "id": "espn-303748",
+              "name": "Florian Wirtz"
+            },
+            "assist": {
+              "id": "espn-379588",
+              "name": "Rio Ngumoha"
+            }
+          },
+          {
+            "minute": 82,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 64,
+              "name": "Liverpool FC"
+            },
+            "scorer": {
+              "id": "espn-235662",
+              "name": "Alexander Isak"
+            },
+            "assist": {
+              "id": "espn-196876",
+              "name": "Alisson Becker"
+            }
+          }
+        ],
+        "bookings": []
       },
       {
         "area": {
@@ -215793,11 +216074,11 @@
         },
         "id": 575410,
         "utcDate": "2026-11-25T20:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-25T21:41:31Z",
+        "lastUpdated": "2026-11-25T21:58:35Z",
         "homeTeam": {
           "id": 521,
           "name": "Lille OSC",
@@ -215834,6 +216115,71 @@
             "type": "REFEREE",
             "nationality": "Italy"
           }
+        ],
+        "goals": [
+          {
+            "minute": 15,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 5,
+              "name": "FC Bayern München"
+            },
+            "scorer": {
+              "id": "espn-222793",
+              "name": "Dayot Upamecano"
+            },
+            "assist": {
+              "id": "espn-324660",
+              "name": "Tom Bischof"
+            }
+          },
+          {
+            "minute": 62,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 521,
+              "name": "Lille OSC"
+            },
+            "scorer": {
+              "id": "espn-274277",
+              "name": "Ayase Ueda"
+            },
+            "assist": {
+              "id": "espn-318577",
+              "name": "Nathan Ngoy"
+            }
+          },
+          {
+            "minute": 65,
+            "injuryTime": null,
+            "type": "OWN",
+            "team": {
+              "id": 5,
+              "name": "FC Bayern München"
+            },
+            "scorer": {
+              "id": "espn-359370",
+              "name": "Aleksandar Pavlovic"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 53,
+            "injuryTime": null,
+            "team": {
+              "id": 5,
+              "name": "FC Bayern München"
+            },
+            "player": {
+              "id": "espn-169189",
+              "name": "Konrad Laimer"
+            },
+            "card": "YELLOW"
+          }
         ]
       },
       {
@@ -215859,11 +216205,11 @@
         },
         "id": 575411,
         "utcDate": "2026-11-25T20:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-25T21:41:31Z",
+        "lastUpdated": "2026-11-25T22:10:07Z",
         "homeTeam": {
           "id": 498,
           "name": "Sporting Clube de Portugal",
@@ -215879,10 +216225,10 @@
           "crest": "https://crests.football-data.org/66.png"
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 2
           },
           "halfTime": {
@@ -215899,6 +216245,134 @@
             "name": "Szymon Marciniak",
             "type": "REFEREE",
             "nationality": "Poland"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 33,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 498,
+              "name": "Sporting Clube de Portugal"
+            },
+            "scorer": {
+              "id": "espn-272722",
+              "name": "Luis Suárez"
+            },
+            "assist": null
+          },
+          {
+            "minute": 48,
+            "injuryTime": null,
+            "type": "PENALTY",
+            "team": {
+              "id": 66,
+              "name": "Manchester United FC"
+            },
+            "scorer": {
+              "id": "espn-124091",
+              "name": "Bruno Fernandes"
+            },
+            "assist": null
+          },
+          {
+            "minute": 50,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 66,
+              "name": "Manchester United FC"
+            },
+            "scorer": {
+              "id": "espn-124091",
+              "name": "Bruno Fernandes"
+            },
+            "assist": {
+              "id": "espn-291630",
+              "name": "Amad Diallo"
+            }
+          },
+          {
+            "minute": 80,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 498,
+              "name": "Sporting Clube de Portugal"
+            },
+            "scorer": {
+              "id": "espn-272722",
+              "name": "Luis Suárez"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 31,
+            "injuryTime": null,
+            "team": {
+              "id": 66,
+              "name": "Manchester United FC"
+            },
+            "player": {
+              "id": "espn-301425",
+              "name": "Senne Lammens"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 40,
+            "injuryTime": null,
+            "team": {
+              "id": 66,
+              "name": "Manchester United FC"
+            },
+            "player": {
+              "id": "espn-193297",
+              "name": "Youri Tielemans"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 53,
+            "injuryTime": null,
+            "team": {
+              "id": 498,
+              "name": "Sporting Clube de Portugal"
+            },
+            "player": {
+              "id": "espn-290590",
+              "name": "Eduardo Quaresma"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 87,
+            "injuryTime": null,
+            "team": {
+              "id": 498,
+              "name": "Sporting Clube de Portugal"
+            },
+            "player": {
+              "id": "espn-328535",
+              "name": "Nestory Irankunda"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 90,
+            "injuryTime": 3,
+            "team": {
+              "id": 66,
+              "name": "Manchester United FC"
+            },
+            "player": {
+              "id": "espn-193297",
+              "name": "Youri Tielemans"
+            },
+            "card": "RED"
           }
         ]
       },
@@ -215925,11 +216399,11 @@
         },
         "id": 575412,
         "utcDate": "2026-11-25T20:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 5,
         "stage": "LEAGUE_STAGE",
         "group": null,
-        "lastUpdated": "2026-11-25T21:40:59Z",
+        "lastUpdated": "2026-11-25T22:00:11Z",
         "homeTeam": {
           "id": 1887,
           "name": "FK Shakhtar Donetsk",
@@ -215965,6 +216439,63 @@
             "name": "Michael Oliver",
             "type": "REFEREE",
             "nationality": "England"
+          }
+        ],
+        "goals": [
+          {
+            "minute": 56,
+            "injuryTime": null,
+            "type": "REGULAR",
+            "team": {
+              "id": 613,
+              "name": "Fenerbahçe SK"
+            },
+            "scorer": {
+              "id": "espn-240209",
+              "name": "Vedat Muriqi"
+            },
+            "assist": null
+          }
+        ],
+        "bookings": [
+          {
+            "minute": 53,
+            "injuryTime": null,
+            "team": {
+              "id": 613,
+              "name": "Fenerbahçe SK"
+            },
+            "player": {
+              "id": "espn-305629",
+              "name": "Ismail Yüksek"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 69,
+            "injuryTime": null,
+            "team": {
+              "id": 1887,
+              "name": "FK Shakhtar Donetsk"
+            },
+            "player": {
+              "id": "espn-276070",
+              "name": "Valeriy Bondar"
+            },
+            "card": "YELLOW"
+          },
+          {
+            "minute": 73,
+            "injuryTime": null,
+            "team": {
+              "id": 1887,
+              "name": "FK Shakhtar Donetsk"
+            },
+            "player": {
+              "id": "espn-313078",
+              "name": "Pedrinho"
+            },
+            "card": "YELLOW"
           }
         ]
       },
