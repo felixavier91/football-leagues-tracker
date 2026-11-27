@@ -7761,11 +7761,11 @@
       },
       "id": 558820,
       "utcDate": "2026-11-27T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 14,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-27T00:20:29Z",
+      "lastUpdated": "2026-11-27T21:04:10Z",
       "homeTeam": {
         "id": 677,
         "name": "FC Groningen",
@@ -7781,21 +7781,28 @@
         "crest": "https://crests.football-data.org/672.png"
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 56908,
+          "name": "Richard Martens",
+          "type": "REFEREE",
+          "nationality": "Netherlands"
+        }
+      ]
     },
     {
       "area": {

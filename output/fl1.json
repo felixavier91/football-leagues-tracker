@@ -6573,11 +6573,11 @@
       },
       "id": 559616,
       "utcDate": "2026-11-27T19:45:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 12,
       "stage": "REGULAR_SEASON",
       "group": null,
-      "lastUpdated": "2026-11-27T00:20:30Z",
+      "lastUpdated": "2026-11-27T21:04:11Z",
       "homeTeam": {
         "id": 512,
         "name": "Stade Brestois 29",
@@ -6593,21 +6593,28 @@
         "crest": "https://crests.football-data.org/1045.png"
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [
+        {
+          "id": 43886,
+          "name": "Ruddy Buquet",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
     },
     {
       "area": {
